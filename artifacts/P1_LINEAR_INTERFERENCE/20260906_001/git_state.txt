@@ -1,0 +1,20 @@
+189f424e5cc9588d9774fd58850c44c9b182f813
+ M state/ESCALATION.md
+ M state/LEDGER.jsonl
+ M state/PROJECT_STATE.json
+ M state/tool_errors.jsonl
+?? artifacts/
+?? configs/
+?? dependencies.lock.json
+?? docs/P1_REPRODUCTION_DESIGN.md
+?? evidence/DRESCHER_SUPPLIED_METHODS_2026-09-06.md
+?? evidence/DRESCHER_SUPPLIED_METHODS_ERRORS_2026-09-06.jsonl
+?? evidence/MINTON_SOURCE_ERRORS_2026-09-06.jsonl
+?? evidence/MINTON_SUPPLIED_METHODS_2026-09-06.md
+?? evidence/PAPER_REQUESTS_001_RESOLUTION.md
+?? evidence/REMOTE_CHECKPOINT_001_VERIFICATION.json
+?? evidence/REPRO_METHODS_CONSULT_2026-09-06.md
+?? evidence/RYAN_SUPPLIED_METHODS_2026-09-06.md
+?? evidence/SUPPLIED_PAPERS_001_MANIFEST.json
+?? scripts/run_reproduction.py
+?? state/escalations/

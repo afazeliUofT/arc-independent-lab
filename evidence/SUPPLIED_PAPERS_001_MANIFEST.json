@@ -1,0 +1,50 @@
+{
+  "received_date": "2026-09-06",
+  "observed_utc": "2026-09-06T04:41:53.197573+00:00",
+  "files": [
+    {
+      "uploaded_name": "21964148-MIT.pdf",
+      "source_sha256": "3c926bccaadb45258712b8aa167a461043bcb7b769bbd90987b8cc25ac825349",
+      "pages": 214,
+      "pdf_metadata": {
+        "/CreationDate": "D:20130305223234-05'00'",
+        "/Creator": " ",
+        "/ModDate": "D:20130306012037-05'00'",
+        "/Producer": " "
+      },
+      "private_local_path": "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/private_sources/request_batch_001/21964148-MIT.pdf",
+      "text_sha256": "b1b91f71304f110d6d415be624dda4b036293b09e2240a4fe9399ec4cb76a2e3",
+      "redistribution": "Do not commit supplied PDF or full extraction to public repository"
+    },
+    {
+      "uploaded_name": "1-s2.0-0004370290900599-main.pdf",
+      "source_sha256": "f8b5f7b67ea23d20299d04b48f0da4e8690083e199c641ec8cf20046e470a1e1",
+      "pages": 29,
+      "pdf_metadata": {
+        "/ModDate": "D:20021111105850",
+        "/CreationDate": "D:20021111075020",
+        "/Producer": "Acrobat 3.0 Import Plug-in\u0000",
+        "/Creator": "\u6341\u6f72\u6162\u2074\u2e33\u2030\u6143\u7470\u7275\u2065\u6c50\u6775\u692dn",
+        "/Title": "PII: 0004-3702(90)90059-9"
+      },
+      "private_local_path": "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/private_sources/request_batch_001/1-s2.0-0004370290900599-main.pdf",
+      "text_sha256": "1d04fd7ddf3b2d002d098420711a6a5b8f1aa5100052a5b7e5c3ef6008e9eeaa",
+      "redistribution": "Do not commit supplied PDF or full extraction to public repository"
+    },
+    {
+      "uploaded_name": "science.aaa5542.pdf",
+      "source_sha256": "b306ff140f37d1aa02bf0e1d20869219bbdb260c85a3baa671bc3eef5926b308",
+      "pages": 8,
+      "pdf_metadata": {
+        "/ModDate": "D:20260905213359-07'00'",
+        "/CreationDate": "D:20260905213359-07'00'",
+        "/Producer": "iText 4.2.0 by 1T3XT",
+        "/Subject": "Science 2015.348:1007-1013",
+        "/Title": "Engram cells retain memory under retrograde amnesia"
+      },
+      "private_local_path": "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/private_sources/request_batch_001/science.aaa5542.pdf",
+      "text_sha256": "f0018298d677a6eb89a3b18b0569f28429bbf145e30251e959c3eba68e8305a1",
+      "redistribution": "Do not commit supplied PDF or full extraction to public repository"
+    }
+  ]
+}

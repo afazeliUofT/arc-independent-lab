@@ -1,0 +1,69 @@
+{
+  "date": "2026-09-06",
+  "template": "scripts/checkpoint_update.py",
+  "template_sha256": "87457aef2a7ab6dc9560839c3edf37c9431761885a31814dbdc1e7bc2bf4f795",
+  "scope": "local file helper checks only; no Git repository or network operations",
+  "checks": [
+    {
+      "check": "full preflight is read only",
+      "observed": "unchanged snapshot"
+    },
+    {
+      "check": "new-file conflict",
+      "observed": "rejected as required"
+    },
+    {
+      "check": "old-file conflict",
+      "observed": "rejected as required"
+    },
+    {
+      "check": "known old and absent files install with backups",
+      "observed": "desired bytes and old backup verified"
+    },
+    {
+      "check": "repeated install",
+      "observed": "byte-identical; human answer occurs once"
+    },
+    {
+      "check": "destination symlink",
+      "observed": "rejected as required"
+    },
+    {
+      "check": "unsafe path ../escape",
+      "observed": "rejected as required"
+    },
+    {
+      "check": "unsafe path .git/config",
+      "observed": "rejected as required"
+    },
+    {
+      "check": "unsafe path docs/../escape",
+      "observed": "rejected as required"
+    },
+    {
+      "check": "unsafe path /absolute",
+      "observed": "rejected as required"
+    },
+    {
+      "check": "unsafe path docs\\escape",
+      "observed": "rejected as required"
+    },
+    {
+      "check": "payload hash mismatch",
+      "observed": "rejected as required"
+    },
+    {
+      "check": "file/parent collision",
+      "observed": "rejected as required"
+    },
+    {
+      "check": "default entry point",
+      "observed": "inspection only, no repository or network call"
+    }
+  ],
+  "status": "all listed assertions held",
+  "limitations": [
+    "Final payload not assembled in this helper test",
+    "Base/direct-child, index, remote and commit/push retry require root local-bare integration test"
+  ]
+}

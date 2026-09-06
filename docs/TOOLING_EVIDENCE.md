@@ -35,3 +35,17 @@ The user-amended operating policy is interactive work only while authoritative u
 ## Appended verification record, 2026-09-06
 
 `evidence/checkpoint_transfer_verification.json` records the completed local byte-reconstruction, conflict, symlink, tampering, traversal and bare-repository round-trip checks against its pinned transfer-source hash. See `evidence/checkpoint_transfer_test_method.md` for the method. These checks succeeded locally; the real remote round trip and execution on the laptop remain pending. Source URL for the intended remote: https://github.com/afazeliUofT/arc-independent-lab , accessed by its connector metadata on 2026-09-06.
+
+## Appended real-remote and raw-trace checkpoint, 2026-09-06
+
+The first real GitHub round trip is now **verified** at commit `189f424e5cc9588d9774fd58850c44c9b182f813`. Actual constituent file bytes were fetched at that pinned commit, independently hashed and compared with the original checkpoint manifest; the scoped human answer was also read and archived. Receipt: `evidence/REMOTE_CHECKPOINT_001_VERIFICATION.json`, SHA-256 `e5340a450abc52ee7bc8c0fb39dfd09a1218d5bb7d8865496f1f8d7164e54e8f`. Source: [exact GitHub commit](https://github.com/afazeliUofT/arc-independent-lab/commit/189f424e5cc9588d9774fd58850c44c9b182f813), accessed 2026-09-06. This supersedes earlier pending status for the first small checkpoint only.
+
+Hosted standard-library execution produced the first complete raw artifact set. Its consistency receipt is `evidence/P1_REPRODUCTION_AUDIT_20260906_001.json`, SHA-256 `0fec7f01bcec518ad0f14ae26fd4591744e25dd7475e043fbf5512670b67bab4`. Its code/config/trace enter the next human-published checkpoint; until remote readback, they remain locally verified but not GitHub-verified. The new handoff updates expected old bytes and preserves a backup; the original first-checkpoint transfer source is unchanged.
+
+No authoritative usage reading, unattended continuation, enforced independent reviewer, laptop reboot persistence or large-output transfer has been established. HPC allocation remains unmeasured. The small run did not require a GPU or cluster; no conclusion about the later programme's compute scale follows.
+
+### Appended incremental-transfer check, 2026-09-06
+
+A candidate package containing the complete raw trace was published to a local bare fixture and read back byte for byte; retry retained the same commit. The final transfer-source revision passed this check. Receipt: `evidence/CHECKPOINT_002_RELEASE_ROUNDTRIP.json`, SHA-256 `2f5c32697b1a4fb1a9cd42057372d9b21d53e3c9aa4b9f3bb6ce8ae6e28287c1`. Endpoint for eventual independent real verification: [authorized GitHub repository](https://github.com/afazeliUofT/arc-independent-lab), accessed 2026-09-06. This local test does not establish actual checkpoint-002 publication or laptop execution.
+
+A targeted pre-delivery regression exposed acceptance of a staged deletion on retry for a newly added payload file. The new helper now rejects staged deletions before index changes; the original first-checkpoint helper was untouched. Before/after evidence: `evidence/CHECKPOINT_UPDATE_INDEX_REGRESSION_2026-09-06.json`, SHA-256 `0883f3c442b9b162ed1604b4b74d2d3406c42c8481fcf80adde40bd05bb9a577`. The root initially described the defect too broadly after reading a pre-freeze source snapshot; the pinned version already guarded files present at the base. That scope correction is preserved in the methods note. This transfer-code revision did not change experimental source, configuration, evidence thresholds or raw results.

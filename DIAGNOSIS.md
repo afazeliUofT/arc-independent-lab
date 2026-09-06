@@ -1,8 +1,8 @@
 # DIAGNOSIS — working document
 
-**Phase 1, initial checkpoint, 2026-09-06. Incomplete; not submitted for phase approval.**
+**Phase 1, second checkpoint, 2026-09-06. Incomplete; not submitted for phase approval.**
 
-The required failure reproduction, evidence synthesis and bottleneck ranking are outstanding. This document distinguishes definitions, deductions, source-supported observations and unanswered questions. It contains no proposed repair. User-supplied framing is a hypothesis, not evidence; see `docs/USER_AMENDMENTS_2026-09-06.md`.
+A bounded instrumented failure reproduction is now complete. Broader failure attribution, evidence synthesis and bottleneck ranking remain outstanding. This document distinguishes definitions, deductions, source-supported observations and unanswered questions. It contains no proposed repair. User-supplied framing is a hypothesis, not evidence; see `docs/USER_AMENDMENTS_2026-09-06.md`.
 
 ## 1. The computational demand
 
@@ -81,15 +81,33 @@ Outstanding: direct longitudinal retention evidence; controlled novel-combinatio
 
 ## 3. Our reproduction
 
-**Not yet built or run.** No result, metric or mechanistic conclusion is claimed. The hosted Python execution route is available. Reproduction selection follows the computational-demand account and will target a failure whose onset can be inspected; it will not be chosen to validate a parked idea.
+### 3.1 A behavioural deficit is not sufficient evidence of erased information
+
+The prospective design and full report are `docs/P1_REPRODUCTION_DESIGN.md` and `reports/P1_REPRODUCTION_001.md`. We ran an online linear action-response predictor, first in a visible context A and then in B. Its persistent learned state consists only of its weights. Both rules are expressible within the same model class; nevertheless, fitting B through shared features degrades the ordinary A readout. A fixed observer still recovers the earlier estimate from a parameter difference. Crossing old and new gains and inspecting decoder inputs rule out a hardcoded target as the explanation.
+
+For the illustrative opposite-gain case, the ordinary old prediction changes sign during B learning, while the observer's recovered estimate retains the old sign. The frozen control preserves the old prediction without learning B; the orthogonal control fits B while preserving A. These are observed properties of this construction, not a model ranking. Full values and every transition: `artifacts/P1_LINEAR_INTERFERENCE/20260906_001/results.json`, SHA-256 `837b6ce92176182d1e2878f585388824d3b0173d2585e69c749243ac0a626762`; `artifacts/P1_LINEAR_INTERFERENCE/20260906_001/transitions.jsonl`, SHA-256 `908f4b073a63a0c7019fe65173b461a2fc7f7ad0b51d68f05e7cfc083308a3a4`. Local access 2026-09-06. The report gives an explicitly cited numerical table and the loss-change decomposition.
+
+**Attribution:** equal changes to the shared coordinates move the prescribed old readout but preserve their difference. The first B update can begin worsening old error; a later sign error is not irreversible loss, because the old estimate remains recoverable in the observed trace. There is therefore no irreversible information-loss point to report. An analyst who equates the first failed behavioural probe with erasure would misdiagnose this system.
+
+**Scope:** this is a deliberately simple sequential fitting subproblem. A noiseless response already identifies its context gain; the learner's slow gradient fitting is imposed, not an environmental necessity. Context labels, feature geometry and initialization are supplied. The observer's geometric knowledge is also supplied and is not a learned capability. Exploration, causal-variable discovery, novel recombination, repeated context cycles, realistic noise and frontier models remain untested. The orthogonal control changes the optimization metric and B initialization even though feature norms and representational capacity are matched. It is an explanatory control, not a proposed repair.
+
+This reproduction supports a distinction necessary for the diagnosis. It does not establish the prevalence of hidden recoverability in current large systems or determine the programme's bottleneck ranking. Its arithmetic audit is an artifact-consistency check, not an independent scientific verdict.
 
 ## 4. Interdisciplinary constraints
 
 Initial evidence: `evidence/SCOUT_BIOLOGY_2026-09-06.md`. Synthesis pending. Constraints, intervention versus recording, species, task-specific controls and limitations must remain explicit. Biological findings supply questions and constraints, not engineering validation.
 
+**Supplied-method update:** Ryan et al.'s published main article and a recovered deposited supplement permit a more careful storage/access distinction. Artificially evoked experience-dependent behaviour supports some surviving information despite impaired natural-cue retrieval. It does not establish complete preservation, a unique storage substrate or equivalence to normal retrieval. The categorical encoding-control interpretation in the provisional account must be narrowed; the detailed version and control qualifications are preserved in `evidence/RYAN_SUPPLIED_METHODS_2026-09-06.md`. [Published article](https://doi.org/10.1126/science.aaa5542), [supplement deposit](https://www.ebi.ac.uk/biostudies/studies/S-EPMC5583719), accessed 2026-09-06. The linear witness above and this biological intervention have different causal assumptions; their shared inferential caution does not establish a shared mechanism.
+
 ## 5. Archaeology
 
 Initial evidence: `evidence/SCOUT_ARCHAEOLOGY_2026-09-06.md`. Synthesis pending. The historical alternatives are not being proposed as repairs. For each line, distinguish documented computational or representational limits from unverified stories of abandonment; ask which precise limit has changed by 2026. A continuing research tradition is not an abandoned one merely because it is outside today's dominant AI community.
+
+**Drescher correction:** the supplied dissertation explicitly includes predictive maintenance of synthetic-item state and rules for resolving competing evidence. Describing the original specification as duration-only would be false. The later comparator's implementation fidelity and update timing remain unresolved. The thesis reports memory exhaustion and only partial development in an engineered microworld; this documents an old constraint without proving that present compute removes it. [Drescher dissertation, §§3.4.3, 4.3 and 6](https://dspace.mit.edu/handle/1721.1/77702), accessed 2026-09-06. Relevant sections, not the entire dissertation, were read; full coverage and limits are in `evidence/DRESCHER_SUPPLIED_METHODS_2026-09-06.md`.
+
+**Minton qualification:** the complete expanded article separates search saved by retained control knowledge from the cost of applying it. Its utility validation directly measures matching cost and application frequency while retaining the original example's savings estimate. It does not supply a lifetime learning-plus-use cost account. It also assumes a supplied explanatory theory, so the result concerns useful reformulation rather than unknown-law discovery. [Minton, published journal article, §§4–8](https://doi.org/10.1016/0004-3702(90)90059-9), accessed 2026-09-06; full-method account in `evidence/MINTON_SUPPLIED_METHODS_2026-09-06.md`.
+
+**Cross-era inference:** larger memory changes the feasible frontier of a bounded computation; it does not by itself remove combinatorial growth. Conversely, old complexity concerns do not prove that the same operation still dominates a present workload. These lines require documented uptake history and explicit present-day cost accounting before any “abandoned for a reason that has expired” conclusion. The first paper batch is resolved for its current bounded claims; conditional future retrieval needs are in `evidence/PAPER_REQUESTS_001_RESOLUTION.md`.
 
 ## 6. Ranked bottlenecks
 
@@ -99,13 +117,15 @@ Initial evidence: `evidence/SCOUT_ARCHAEOLOGY_2026-09-06.md`. Synthesis pending.
 
 Plasticity control over retain / protect / suppress / recompose remains one unranked hypothesis. The current demand account does not assume that suitable knowledge was acquired in the first place, that these four functions are independent, or that storage is where a failed decision originated. No rejection or endorsement is justified yet.
 
+The own trace adds a constraint: update-induced performance interference can occur without erasure of the acquired estimate. A plasticity account of behaviour remains possible, but evidence for interference cannot automatically be relabeled evidence for storage loss. Historical construction limits and application costs also need distinct explanations; they cannot be absorbed into plasticity terminology without a testable causal argument.
+
 ## 8. What remains unresolved
 
 - Whether the motivating phenomenon is one shared failure or a conjunction with distinct causes.
 - The strongest evidence for and against persistent useful knowledge under controlled discontinuities.
 - What current scaling results actually establish in the relevant settings.
-- The own-system trace required before causal bottlenecks can be ranked.
-- Historical primary-source gaps listed in the paper-request file once the initial scout is consolidated.
-- A verified GitHub round trip, authoritative usage observability and enforceable independent review. These operational uncertainties cannot be represented as scientific findings.
+- Whether the own trace's distinction transfers to stronger current systems under realistic observation and computation constraints.
+- Historical uptake explanations and conditional implementation/version gaps recorded in the source-resolution notes. No immediate human paper request remains from the first batch.
+- Authoritative usage observability, enforceable independent review, restart tests and large-output durability. The first small GitHub checkpoint round trip is now verified; these broader operational requirements remain open and are not scientific findings.
 
-**Next scientific action:** choose and specify the small failure reproduction with an explicit evidence-access and reset inventory; trace it locally before extending the catalogue or ranking bottlenecks. Continue other unblocked literature investigation only within recorded attended work.
+**Next scientific action:** deepen the failure catalogue around active evidence acquisition, longitudinal retention and controlled novel reuse, seeking matched successes and scaling counterevidence before ranking bottlenecks. Extend the archaeology beyond the resolved batch and distinguish documented limitations from unsupported abandonment stories. Do not enlarge the deterministic reproduction merely to generate more measurements. Continue within explicitly requested interactive work, after verifying this checkpoint's human publication.

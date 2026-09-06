@@ -1,0 +1,292 @@
+{
+  "completion_status": "completed",
+  "cases": [
+    {
+      "case_id": "case_00",
+      "arm": "shared_normalized",
+      "old_gain": -1.0,
+      "new_gain": -1.0,
+      "boundary_theta": [
+        -0.9988209815422262,
+        0.0
+      ],
+      "final_theta": [
+        -1.2062723941976496,
+        -0.20745141265542372
+      ],
+      "boundary_old_prediction": -0.9988209815422262,
+      "final_old_prediction": -1.2062723941976496,
+      "final_new_prediction": -0.999653690550669,
+      "final_old_loss": 0.021274150304015284,
+      "final_new_loss": 5.996511734797229e-08,
+      "final_decoded_old_estimate": -0.998820981542226,
+      "first_B_step_wrong_old_sign": null,
+      "max_decoder_boundary_error": 5.551115123125783e-16,
+      "max_closed_form_coordinate_error": 4.440892098500626e-16
+    },
+    {
+      "case_id": "case_01",
+      "arm": "shared_normalized",
+      "old_gain": -1.0,
+      "new_gain": 1.0,
+      "boundary_theta": [
+        -0.9988209815422262,
+        0.0
+      ],
+      "final_theta": [
+        0.20627378428217366,
+        1.2050947658243993
+      ],
+      "boundary_old_prediction": -0.9988209815422262,
+      "final_old_prediction": 0.20627378428217366,
+      "final_new_prediction": 0.9979882725337832,
+      "final_old_loss": 0.727548221323218,
+      "final_new_loss": 2.0235236991655453e-06,
+      "final_decoded_old_estimate": -0.9988209815422256,
+      "first_B_step_wrong_old_sign": 17,
+      "max_decoder_boundary_error": 6.661338147750939e-16,
+      "max_closed_form_coordinate_error": 4.440892098500626e-16
+    },
+    {
+      "case_id": "case_02",
+      "arm": "shared_normalized",
+      "old_gain": 1.0,
+      "new_gain": -1.0,
+      "boundary_theta": [
+        0.9988209815422262,
+        0.0
+      ],
+      "final_theta": [
+        -0.20627378428217366,
+        -1.2050947658243993
+      ],
+      "boundary_old_prediction": 0.9988209815422262,
+      "final_old_prediction": -0.20627378428217366,
+      "final_new_prediction": -0.9979882725337832,
+      "final_old_loss": 0.727548221323218,
+      "final_new_loss": 2.0235236991655453e-06,
+      "final_decoded_old_estimate": 0.9988209815422256,
+      "first_B_step_wrong_old_sign": 17,
+      "max_decoder_boundary_error": 6.661338147750939e-16,
+      "max_closed_form_coordinate_error": 4.440892098500626e-16
+    },
+    {
+      "case_id": "case_03",
+      "arm": "shared_normalized",
+      "old_gain": 1.0,
+      "new_gain": 1.0,
+      "boundary_theta": [
+        0.9988209815422262,
+        0.0
+      ],
+      "final_theta": [
+        1.2062723941976496,
+        0.20745141265542372
+      ],
+      "boundary_old_prediction": 0.9988209815422262,
+      "final_old_prediction": 1.2062723941976496,
+      "final_new_prediction": 0.999653690550669,
+      "final_old_loss": 0.021274150304015284,
+      "final_new_loss": 5.996511734797229e-08,
+      "final_decoded_old_estimate": 0.998820981542226,
+      "first_B_step_wrong_old_sign": null,
+      "max_decoder_boundary_error": 5.551115123125783e-16,
+      "max_closed_form_coordinate_error": 4.440892098500626e-16
+    },
+    {
+      "case_id": "case_04",
+      "arm": "orthogonal_control",
+      "old_gain": -1.0,
+      "new_gain": -1.0,
+      "boundary_theta": [
+        -0.9988209815422262,
+        0.0
+      ],
+      "final_theta": [
+        -0.9988209815422262,
+        -0.9988209815422262
+      ],
+      "boundary_old_prediction": -0.9988209815422262,
+      "final_old_prediction": -0.9988209815422262,
+      "final_new_prediction": -0.9988209815422262,
+      "final_old_loss": 6.95042261885649e-07,
+      "final_new_loss": 6.95042261885649e-07,
+      "final_decoded_old_estimate": -0.9988209815422262,
+      "first_B_step_wrong_old_sign": null,
+      "max_decoder_boundary_error": 0.0,
+      "max_closed_form_coordinate_error": 2.220446049250313e-16
+    },
+    {
+      "case_id": "case_05",
+      "arm": "orthogonal_control",
+      "old_gain": -1.0,
+      "new_gain": 1.0,
+      "boundary_theta": [
+        -0.9988209815422262,
+        0.0
+      ],
+      "final_theta": [
+        -0.9988209815422262,
+        0.9988209815422262
+      ],
+      "boundary_old_prediction": -0.9988209815422262,
+      "final_old_prediction": -0.9988209815422262,
+      "final_new_prediction": 0.9988209815422262,
+      "final_old_loss": 6.95042261885649e-07,
+      "final_new_loss": 6.95042261885649e-07,
+      "final_decoded_old_estimate": -0.9988209815422262,
+      "first_B_step_wrong_old_sign": null,
+      "max_decoder_boundary_error": 0.0,
+      "max_closed_form_coordinate_error": 2.220446049250313e-16
+    },
+    {
+      "case_id": "case_06",
+      "arm": "orthogonal_control",
+      "old_gain": 1.0,
+      "new_gain": -1.0,
+      "boundary_theta": [
+        0.9988209815422262,
+        0.0
+      ],
+      "final_theta": [
+        0.9988209815422262,
+        -0.9988209815422262
+      ],
+      "boundary_old_prediction": 0.9988209815422262,
+      "final_old_prediction": 0.9988209815422262,
+      "final_new_prediction": -0.9988209815422262,
+      "final_old_loss": 6.95042261885649e-07,
+      "final_new_loss": 6.95042261885649e-07,
+      "final_decoded_old_estimate": 0.9988209815422262,
+      "first_B_step_wrong_old_sign": null,
+      "max_decoder_boundary_error": 0.0,
+      "max_closed_form_coordinate_error": 2.220446049250313e-16
+    },
+    {
+      "case_id": "case_07",
+      "arm": "orthogonal_control",
+      "old_gain": 1.0,
+      "new_gain": 1.0,
+      "boundary_theta": [
+        0.9988209815422262,
+        0.0
+      ],
+      "final_theta": [
+        0.9988209815422262,
+        0.9988209815422262
+      ],
+      "boundary_old_prediction": 0.9988209815422262,
+      "final_old_prediction": 0.9988209815422262,
+      "final_new_prediction": 0.9988209815422262,
+      "final_old_loss": 6.95042261885649e-07,
+      "final_new_loss": 6.95042261885649e-07,
+      "final_decoded_old_estimate": 0.9988209815422262,
+      "first_B_step_wrong_old_sign": null,
+      "max_decoder_boundary_error": 0.0,
+      "max_closed_form_coordinate_error": 2.220446049250313e-16
+    },
+    {
+      "case_id": "case_08",
+      "arm": "frozen_after_A",
+      "old_gain": -1.0,
+      "new_gain": -1.0,
+      "boundary_theta": [
+        -0.9988209815422262,
+        0.0
+      ],
+      "final_theta": [
+        -0.9988209815422262,
+        0.0
+      ],
+      "boundary_old_prediction": -0.9988209815422262,
+      "final_old_prediction": -0.9988209815422262,
+      "final_new_prediction": -0.7062730892399115,
+      "final_old_loss": 6.95042261885649e-07,
+      "final_new_loss": 0.043137749052332496,
+      "final_decoded_old_estimate": -0.9988209815422262,
+      "first_B_step_wrong_old_sign": null,
+      "max_decoder_boundary_error": 0.0,
+      "max_closed_form_coordinate_error": 0.0
+    },
+    {
+      "case_id": "case_09",
+      "arm": "frozen_after_A",
+      "old_gain": -1.0,
+      "new_gain": 1.0,
+      "boundary_theta": [
+        -0.9988209815422262,
+        0.0
+      ],
+      "final_theta": [
+        -0.9988209815422262,
+        0.0
+      ],
+      "boundary_old_prediction": -0.9988209815422262,
+      "final_old_prediction": -0.9988209815422262,
+      "final_new_prediction": -0.7062730892399115,
+      "final_old_loss": 6.95042261885649e-07,
+      "final_new_loss": 1.4556839275321554,
+      "final_decoded_old_estimate": -0.9988209815422262,
+      "first_B_step_wrong_old_sign": null,
+      "max_decoder_boundary_error": 0.0,
+      "max_closed_form_coordinate_error": 0.0
+    },
+    {
+      "case_id": "case_10",
+      "arm": "frozen_after_A",
+      "old_gain": 1.0,
+      "new_gain": -1.0,
+      "boundary_theta": [
+        0.9988209815422262,
+        0.0
+      ],
+      "final_theta": [
+        0.9988209815422262,
+        0.0
+      ],
+      "boundary_old_prediction": 0.9988209815422262,
+      "final_old_prediction": 0.9988209815422262,
+      "final_new_prediction": 0.7062730892399115,
+      "final_old_loss": 6.95042261885649e-07,
+      "final_new_loss": 1.4556839275321554,
+      "final_decoded_old_estimate": 0.9988209815422262,
+      "first_B_step_wrong_old_sign": null,
+      "max_decoder_boundary_error": 0.0,
+      "max_closed_form_coordinate_error": 0.0
+    },
+    {
+      "case_id": "case_11",
+      "arm": "frozen_after_A",
+      "old_gain": 1.0,
+      "new_gain": 1.0,
+      "boundary_theta": [
+        0.9988209815422262,
+        0.0
+      ],
+      "final_theta": [
+        0.9988209815422262,
+        0.0
+      ],
+      "boundary_old_prediction": 0.9988209815422262,
+      "final_old_prediction": 0.9988209815422262,
+      "final_new_prediction": 0.7062730892399115,
+      "final_old_loss": 6.95042261885649e-07,
+      "final_new_loss": 0.043137749052332496,
+      "final_decoded_old_estimate": 0.9988209815422262,
+      "first_B_step_wrong_old_sign": null,
+      "max_decoder_boundary_error": 0.0,
+      "max_closed_form_coordinate_error": 0.0
+    }
+  ],
+  "training_interactions": 1536,
+  "observer_probes": 3072,
+  "statistical_inference": "None; deterministic crossed cases, no population sampling",
+  "scope": [
+    "No exploration challenge",
+    "No discovery of causal variables",
+    "No novel recombination test",
+    "No frontier-model result",
+    "No biological storage inference",
+    "No claim of a new repair"
+  ]
+}

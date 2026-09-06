@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "runtime": "CPython >=3.10",
+  "third_party_dependencies": [],
+  "reason": "The bounded linear reproduction and trace audit use only the Python standard library. Exact executing interpreter is recorded per run."
+}

@@ -1,0 +1,48 @@
+{
+  "ts": "2026-09-06T05:09:59.936417+00:00",
+  "scope": "Pre-delivery transfer helper staged-index preservation regression; local synthetic fixture only",
+  "initial_failure": {
+    "ts": "2026-09-06T05:08:52.741554+00:00",
+    "source_sha256": "87457aef2a7ab6dc9560839c3edf37c9431761885a31814dbdc1e7bc2bf4f795",
+    "fixture_head": "be358c179c2f9230d71984039194410ce839a7ff",
+    "test_path": "scripts/run_reproduction.py",
+    "payload_old_sha256": null,
+    "working_file_sha256": "8c4ae3d5f4804749c667e348f3d3f224d1e7d8a229bcbf7c4f9b1e0770872e64",
+    "staged_change": "D\tscripts/run_reproduction.py\n",
+    "preflight_accepted": true,
+    "exception": null,
+    "preflight_stdout": "Existing HEAD: be358c179c2f9230d71984039194410ce839a7ff (completed checkpoint child)\n",
+    "index_unchanged_by_preflight": true,
+    "working_bytes_preserved": true,
+    "synthetic_index_restored": true,
+    "expectation": "reject any staged deletion of an already committed payload file",
+    "expectation_satisfied": false
+  },
+  "minimal_revision": "Reject nonempty git diff --cached --name-only --diff-filter=D --no-renames -z before payload/index acceptance checks.",
+  "corrected_result": {
+    "ts": "2026-09-06T05:09:14.046314+00:00",
+    "source_sha256": "fa2053151ce56a21965ed3d83d99eaba2868680079162c00e8d33e3272251262",
+    "fixture_head": "be358c179c2f9230d71984039194410ce839a7ff",
+    "test_path": "scripts/run_reproduction.py",
+    "payload_old_sha256": null,
+    "working_file_sha256": "8c4ae3d5f4804749c667e348f3d3f224d1e7d8a229bcbf7c4f9b1e0770872e64",
+    "staged_change": "D\tscripts/run_reproduction.py\n",
+    "preflight_accepted": false,
+    "exception": "Staged deletions exist; no index change made: scripts/run_reproduction.py",
+    "preflight_stdout": "",
+    "index_unchanged_by_preflight": true,
+    "working_bytes_preserved": true,
+    "synthetic_index_restored": true,
+    "expectation": "reject any staged deletion of an already committed payload file",
+    "expectation_satisfied": true
+  },
+  "explanation": "The old source already rejected missing index entries for files present at the base commit. It did not reject staged deletion on retry of a file newly added by checkpoint002 because that payload entry retained old_sha256=null.",
+  "limits": [
+    "Repository inspection was exercised, not a second push or full transfer.",
+    "No public remote operations.",
+    "Only synthetic index changed; exact working bytes and original clean index restored after each case.",
+    "Scientific source/config/raw result bytes were not modified."
+  ],
+  "test_harness_sha256": "a1e6f793c22f2d6a11d78dcab87f8119c8a6d44d8206b4dbf925d734762bb129",
+  "test_harness_source": "from pathlib import Path\nimport base64,contextlib,datetime,hashlib,io,json,subprocess,sys,types,zlib\nroot=Path(__file__).resolve().parents[1]\ntarget=root/'delivery/checkpoint002_roundtrip/ARC_Independent_Lab'\nremote=root/'delivery/checkpoint002_roundtrip/remote.git'\nsource=root/'scripts/checkpoint_update.py'\nsource_bytes=source.read_bytes();mod=types.ModuleType('checkpoint_update_regression');exec(compile(source_bytes,str(source),'exec'),mod.__dict__)\nmod.REMOTE=str(remote);mod.canonical_target=lambda:target\nsha=lambda b:hashlib.sha256(b).hexdigest()\ndef git(*args):\n p=subprocess.run(['git','-C',str(target),*args],capture_output=True)\n if p.returncode:\n  event={'ts':datetime.datetime.now(datetime.timezone.utc).isoformat(),'command':list(args),'exit_code':p.returncode,'stdout':p.stdout.decode(errors='replace'),'stderr':p.stderr.decode(errors='replace'),'scope':'synthetic index regression only'}\n  with (root/'evidence/CHECKPOINT_UPDATE_REGRESSION_ERRORS_2026-09-06.jsonl').open('a') as f:f.write(json.dumps(event)+'\\n')\n  raise RuntimeError(p.stderr.decode(errors='replace'))\n return p.stdout\nbase='189f424e5cc9588d9774fd58850c44c9b182f813'\nhead=git('rev-parse','HEAD').decode().strip()\nassert git('status','--porcelain')==b'', 'Fixture must start clean'\nbase_names=set(git('ls-tree','-r','--name-only',base).decode().splitlines())\nnames=git('diff-tree','--no-commit-id','--name-only','--no-renames','-r',base,head).decode().splitlines()\nfiles={}\nfor name in names:\n if name==mod.ERROR_LOG:continue\n new=git('show',head+':'+name)\n if name==mod.ESCALATION:\n  assert new.endswith(mod.ANSWER.encode());new=new[:-len(mod.ANSWER.encode())]\n old=git('show',base+':'+name) if name in base_names else None\n files[name]={'old_sha256':sha(old) if old is not None else None,'sha256':sha(new),'base64':base64.b64encode(new).decode()}\npackage=mod.unpack(base64.b64encode(zlib.compress(json.dumps({'base_commit':base,'files':files}).encode())).decode())\nname='scripts/run_reproduction.py';assert files[name]['old_sha256'] is None\nbody=(target/name).read_bytes();before_status=git('status','--porcelain')\ngit('rm','--cached','--',name)\nstatus_deleted=git('diff','--cached','--name-status').decode()\nassert (target/name).read_bytes()==body\noutput=io.StringIO();error=None\ntry:\n try:\n  with contextlib.redirect_stdout(output):mod.inspect_repository(mod.Git(target),package)\n except ValueError as e:error=str(e)\n accepted=error is None\n assert (target/name).read_bytes()==body\n staged_after=git('diff','--cached','--name-status').decode()\n assert staged_after==status_deleted, 'Preflight unexpectedly changed synthetic index'\nfinally:\n git('restore','--staged','--source=HEAD','--',name)\nassert git('status','--porcelain')==before_status\nresult={'ts':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source_sha256':sha(source_bytes),'fixture_head':head,'test_path':name,'payload_old_sha256':None,'working_file_sha256':sha(body),'staged_change':status_deleted,'preflight_accepted':accepted,'exception':error,'preflight_stdout':output.getvalue(),'index_unchanged_by_preflight':True,'working_bytes_preserved':True,'synthetic_index_restored':True,'expectation':'reject any staged deletion of an already committed payload file','expectation_satisfied':not accepted}\nout=root/'delivery'/('checkpoint002_staged_deletion_'+sys.argv[1]+'.json');out.write_text(json.dumps(result,indent=2)+'\\n')\nprint(json.dumps(result,indent=2))\n"
+}

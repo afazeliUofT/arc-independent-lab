@@ -1,28 +1,14 @@
-# Human handoff — initial Phase 1 checkpoint, 2026-09-06
+# Checkpoint 002: human publication and continuation
 
-Reason: the agreed repository workflow requires Ali to execute commits/pushes; scratch is not durable. This is a checkpoint execution dependency, not a request to approve the incomplete diagnosis or start Phase 2. Paper requests are batched alongside it to avoid repeated interruptions.
+Reason: the agreed operating role reserves commits and public pushes for Ali. The first checkpoint is verified. The reproduction, raw trace, audit and source corrections are ready; their next durable GitHub checkpoint needs your execution.
 
-## What is needed and why
+Please inspect and run `P1_CHECKPOINT_002.py --apply-and-push` using `docs/CHECKPOINT_002_HANDOFF.md`. It checks the pinned base and exact destinations, backs up the known replaced bytes, commits and pushes this update, and appends the displayed human answer here only when you invoke the action flag.
 
-1. Run the prepared `P1_CHECKPOINT_001.py` handoff from WSL as described in `docs/CHECKPOINT_HANDOFF.md`. The exact public remote is https://github.com/afazeliUofT/arc-independent-lab . This gets state, ledger and initial research off ephemeral scratch.
-2. Fetch the sources listed in `docs/PAPER_REQUESTS_2026-09-06.md` and attach them to the conversation. Prioritize Drescher's original mature specification, Ryan's supplementary methods, then Minton's expanded paper. Do not commit publisher full texts to the public repository.
+**Answer protocol: append a section beginning `## ANSWER` to this same file. Nothing elsewhere clears the block.** The helper records the narrow answer on your behalf through your explicit execution. Alternatively, append your own answer here and commit/push it yourself; a custom answer may require reconciling the helper's exact-byte preflight rather than rerunning it.
 
-## What was already tried
+Requested answer: continue Phase 1 after the principal investigator independently verifies checkpoint 002 on GitHub. This is not approval of the unfinished diagnosis and does not authorize Phase 2. No immediate paper fetch remains from the supplied batch.
 
-Exact-repository GitHub metadata reads succeeded. The self-contained installer was verified against local conflicting files, invalid payloads and a local git round trip. The actual GitHub/laptop round trip remains unverified. The paper notes record unsuccessful full-text/supplement retrievals and accessible primary fallbacks; the dependent claims remain unresolved.
-
-## Where the answer goes — mandatory
-
-**The human answers by appending a section beginning `## ANSWER` to this file, `state/ESCALATION.md`, and committing/pushing it.** Once the lab exists, a chat message alone does not clear this block. The prepared `--apply-and-push` action appends its displayed, narrowly scoped answer as part of the command you execute, then commits and pushes it. Inspect that text before running if you want to change your answer manually.
-
-## What happens with each answer
-
-- Checkpoint published and continuation requested: fetch the exact remote checkpoint and source bytes, verify the manifest at a pinned commit, archive this answered escalation, record the observed commit, then continue Phase 1.
-- Publication fails: preserve the local files and any commit; inspect the actual error and repair the smallest cause. Never overwrite remote history or create a credential file.
-- Papers supplied: inspect the actual requested methods and append evidence updates, explicitly resolving or retaining the discrepancies.
-- Papers unavailable or still pending: proceed with other diagnostic work, retain the access gaps, and keep dependent claims qualified. Their absence is not negative scientific evidence.
-
-Unattended model use remains disabled while no authoritative usage reading is available. `DIAGNOSIS.md` is still incomplete and is not being presented for approval.
+If publication succeeds and the answer permits continuation: verify actual remote bytes and resume the catalogue on acquisition, retention, novel reuse and counterevidence. If you ask to pause: preserve the checkpoint and remain paused. If the helper encounters unexpected changes: retain its exact error and reconcile the named files without overwriting your work.
 
 ## ANSWER
-Human response supplied by running P1_CHECKPOINT_001.py --apply-and-push: Continue Phase 1 after independently verifying this checkpoint on GitHub. Paper retrieval is asynchronous; keep dependent claims unresolved until the papers are supplied. This answer does not approve the incomplete diagnosis or authorize Phase 2.
+Human response supplied by running P1_CHECKPOINT_002.py --apply-and-push: Continue Phase 1 after the principal investigator independently verifies checkpoint 002 on GitHub. This answer does not approve DIAGNOSIS.md or authorize Phase 2.

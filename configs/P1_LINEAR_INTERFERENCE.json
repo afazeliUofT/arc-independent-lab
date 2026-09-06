@@ -1,0 +1,22 @@
+{
+  "experiment_id": "P1_LINEAR_INTERFERENCE",
+  "status": "exploratory diagnostic reproduction; not a mechanism trial or formal gate",
+  "generator_version": "linear-context-world-v1",
+  "learning_rate": 0.1,
+  "steps_per_context": 64,
+  "old_gains": [-1.0, 1.0],
+  "new_gains": [-1.0, 1.0],
+  "arms": ["shared_normalized", "orthogonal_control", "frozen_after_A"],
+  "action_schedule": [-1.0, 1.0],
+  "wallclock_limit_seconds": 300,
+  "arithmetic_check_atol": 1e-12,
+  "seed": null,
+  "seed_reason": "Deterministic exhaustive gain crossing; action signs yield the same noiseless SGD trajectory. Seed replication would add no independent evidence.",
+  "model_calls": 0,
+  "prompt": null,
+  "learner_persistent_state": "Two floating-point weights only. No optimizer buffers, replay, external memory or retained context history.",
+  "supplied_structure": "Observed binary context, scalar action, known feature map and linear action-response model class. True context gains withheld from learner except through observed responses.",
+  "discontinuity": "Switch from context A to B and clear transient prediction/action/response. Weights persist; B learning can interfere with A.",
+  "observer_access": "Evaluator may probe both contexts without learning updates and read complete weights. Diagnostic decoder uses current weights and known feature/training setup, never the old gain, old samples or saved boundary estimate as input.",
+  "scope_exclusions": ["No exploration challenge", "No discovery of causal variables", "No novel recombination test", "No frontier-model result", "No biological storage inference", "No claim of a new repair"]
+}
