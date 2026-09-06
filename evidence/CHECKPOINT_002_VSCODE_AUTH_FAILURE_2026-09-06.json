@@ -1,0 +1,50 @@
+{
+  "ts": "2026-09-06T15:05:33.992981+00:00",
+  "source": "User pasted terminal; no attached original log",
+  "error_transcription": "Missing or invalid credentials.\nError: connect ECONNREFUSED /run/user/1000/vscode-git-0c56237c84.sock\nat PipeConnectWrap.afterConnect [as oncomplete] (node:net:1706:16) {\nerrno: -111,\ncode: 'ECONNREFUSED',\nsyscall: 'connect',\naddress: '/run/user/1000/vscode-git-0c56237c84.sock'\n}\nMissing or invalid credentials.\nError: connect ECONNREFUSED /run/user/1000/vscode-git-0c56237c84.sock\nat PipeConnectWrap.afterConnect [as oncomplete] (node:net:1706:16) {\nerrno: -111,\ncode: 'ECONNREFUSED',\nsyscall: 'connect',\naddress: '/run/user/1000/vscode-git-0c56237c84.sock'\n}\nremote: No anonymous write access.\nfatal: Authentication failed for 'https://github.com/afazeliUofT/arc-independent-lab.git/'\npush_exit_code=128",
+  "transcription_note": "Nonempty lines preserved; intervening blank lines omitted. No claim to original terminal byte identity.",
+  "reported_push_exit_code": 128,
+  "reported_inspection_head": "6c69eca83cadd0346d85110af470a61f3f075d5d",
+  "reported_original_working_hashes_match": true,
+  "established": "VS Code Git credential-request process failed to connect to its local WSL Unix socket; GitHub rejected an anonymous write. Present known correction had passed local guards.",
+  "unresolved": [
+    "Why the VS Code socket listener was unavailable",
+    "Whether a stale inherited terminal environment is the reason",
+    "Validity/scope of any stored GitHub credential",
+    "Whether the earlier generic helper timeout had the same cause"
+  ],
+  "shell_paste_qualification": "Pasted push/refspec lacks a continuation backslash. Taken literally the SHA would be a second shell command, and the final captured status would normally differ from the supplied128. Do not infer exact executed argv from this inconsistent pasted representation. It does not explain the separately evidenced IPC failure. Future push lines must be one physical line.",
+  "remote_check": {
+    "url": "https://api.github.com/repos/afazeliUofT/arc-independent-lab/git/ref/heads/main",
+    "access_date": "2026-09-06",
+    "route": "GitHub plugin",
+    "observed_main": "189f424e5cc9588d9774fd58850c44c9b182f813"
+  },
+  "primary_sources": [
+    {
+      "url": "https://github.com/microsoft/vscode/blob/main/extensions/git/src/askpass-main.ts",
+      "access_date": "2026-09-06",
+      "route": "GitHub plugin",
+      "finding": "fatal(err) prints generic Missing or invalid credentials then the error; IPCClient askpass rejection enters that function."
+    },
+    {
+      "url": "https://github.com/microsoft/vscode/blob/main/extensions/git/src/ipc/ipcClient.ts",
+      "access_date": "2026-09-06",
+      "route": "GitHub plugin",
+      "finding": "IPC client gets local socket path from VSCODE_GIT_IPC_HANDLE and sends request through that socket; connection errors reject the request."
+    },
+    {
+      "url": "https://github.com/microsoft/vscode/blob/main/extensions/git/src/askpass.ts",
+      "access_date": "2026-09-06",
+      "route": "GitHub plugin",
+      "finding": "VS Code supplies GIT_ASKPASS through terminal environment integration and handles Git credential requests."
+    },
+    {
+      "url": "https://git-scm.com/docs/gitcredentials",
+      "access_date": "2026-09-06",
+      "finding": "Documents credential helpers and askpass/terminal selection."
+    }
+  ],
+  "version_limit": "Current upstream Microsoft source inspected, not the installed laptop VS Code version. Error signature matches the observed credential IPC path.",
+  "action": "Stop repeating repository repairs/pushes in the stale terminal. Human creates a new WSL integrated terminal in a live VS Code window for this lab and restores normal GitHub sign-in there; no global settings, tokens, other programme or repository changes requested. Successful authentication/publication still unverified."
+}

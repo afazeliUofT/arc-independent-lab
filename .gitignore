@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 delivery/
 private_sources/
+/tmp/
 *.pem
 *.key
 .env

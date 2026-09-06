@@ -1,0 +1,497 @@
+{
+  "created_utc": "2026-09-06T07:41:55.763544+00:00",
+  "scope": "Contained synthetic staging/commit reproduction using actual supplied checkpoint metrics bytes; not a reading of user Git configuration. No existing repository or control surface modified.",
+  "fixture_directory": "delivery/checkpoint002_line_ending_fixture",
+  "git_version": "git version 2.51.1",
+  "source": "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/metrics.csv",
+  "source_sha256": "24b2dc318e048493d4f265291935ef02ce09c7221a96422cfc8c0405c02c434a",
+  "source_bytes": 197886,
+  "source_CRLF_count": 1537,
+  "source_LF_count": 1537,
+  "LF_normalized_sha256": "f45b2c3d830f985629cb308a12ff11e94afbf7d4b2a436a5441d87595eafd34e",
+  "cases": [
+    {
+      "core.autocrlf": "false",
+      "attributes": "",
+      "base_commit": "a181b42fa9d1c02a13f6e74c23203b314669670f",
+      "payload_commit": "5dfc382488b03f351bc902a0371c5360180229b0",
+      "worktree_sha256": "24b2dc318e048493d4f265291935ef02ce09c7221a96422cfc8c0405c02c434a",
+      "index_sha256": "24b2dc318e048493d4f265291935ef02ce09c7221a96422cfc8c0405c02c434a",
+      "committed_sha256": "24b2dc318e048493d4f265291935ef02ce09c7221a96422cfc8c0405c02c434a",
+      "index_matches_expected_raw": true,
+      "committed_matches_expected_raw": true,
+      "index_CRLF_count": 1537,
+      "index_LF_count": 1537,
+      "status": "",
+      "commands": [
+        {
+          "args": [
+            "init",
+            "-b",
+            "main"
+          ],
+          "returncode": 0,
+          "stdout": "Initialized empty Git repository in /workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/checkpoint002_line_ending_fixture/false/.git/\n",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "config",
+            "core.autocrlf",
+            "false"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "config",
+            "user.name",
+            "Contained fixture"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "config",
+            "user.email",
+            "fixture@localhost"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "config",
+            "core.attributesFile",
+            "/dev/null"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "add",
+            "base.txt"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "commit",
+            "-m",
+            "Contained fixture base"
+          ],
+          "returncode": 0,
+          "stdout": "[main (root-commit) a181b42] Contained fixture base\n 1 file changed, 1 insertion(+)\n create mode 100644 base.txt\n",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "rev-parse",
+            "HEAD"
+          ],
+          "returncode": 0,
+          "stdout": "a181b42fa9d1c02a13f6e74c23203b314669670f\n",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "check-attr",
+            "--all",
+            "--",
+            "metrics.csv"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "add",
+            "--",
+            "metrics.csv"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "show",
+            ":metrics.csv"
+          ],
+          "returncode": 0,
+          "stdout": "[binary/output omitted; hash below]",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "commit",
+            "-m",
+            "Contained fixture payload"
+          ],
+          "returncode": 0,
+          "stdout": "[main 5dfc382] Contained fixture payload\n 1 file changed, 1537 insertions(+)\n create mode 100644 metrics.csv\n",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "rev-parse",
+            "HEAD"
+          ],
+          "returncode": 0,
+          "stdout": "5dfc382488b03f351bc902a0371c5360180229b0\n",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "show",
+            "HEAD:metrics.csv"
+          ],
+          "returncode": 0,
+          "stdout": "[binary/output omitted; hash below]",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "status",
+            "--porcelain=v1"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "core.autocrlf": "true",
+      "attributes": "",
+      "base_commit": "a181b42fa9d1c02a13f6e74c23203b314669670f",
+      "payload_commit": "077b565cc9fb1ac28c4fddb7ea91c886851aa386",
+      "worktree_sha256": "24b2dc318e048493d4f265291935ef02ce09c7221a96422cfc8c0405c02c434a",
+      "index_sha256": "f45b2c3d830f985629cb308a12ff11e94afbf7d4b2a436a5441d87595eafd34e",
+      "committed_sha256": "f45b2c3d830f985629cb308a12ff11e94afbf7d4b2a436a5441d87595eafd34e",
+      "index_matches_expected_raw": false,
+      "committed_matches_expected_raw": false,
+      "index_CRLF_count": 0,
+      "index_LF_count": 1537,
+      "status": "",
+      "commands": [
+        {
+          "args": [
+            "init",
+            "-b",
+            "main"
+          ],
+          "returncode": 0,
+          "stdout": "Initialized empty Git repository in /workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/checkpoint002_line_ending_fixture/true/.git/\n",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "config",
+            "core.autocrlf",
+            "true"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "config",
+            "user.name",
+            "Contained fixture"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "config",
+            "user.email",
+            "fixture@localhost"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "config",
+            "core.attributesFile",
+            "/dev/null"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "add",
+            "base.txt"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "warning: in the working copy of 'base.txt', LF will be replaced by CRLF the next time Git touches it\n"
+        },
+        {
+          "args": [
+            "commit",
+            "-m",
+            "Contained fixture base"
+          ],
+          "returncode": 0,
+          "stdout": "[main (root-commit) a181b42] Contained fixture base\n 1 file changed, 1 insertion(+)\n create mode 100644 base.txt\n",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "rev-parse",
+            "HEAD"
+          ],
+          "returncode": 0,
+          "stdout": "a181b42fa9d1c02a13f6e74c23203b314669670f\n",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "check-attr",
+            "--all",
+            "--",
+            "metrics.csv"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "add",
+            "--",
+            "metrics.csv"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "show",
+            ":metrics.csv"
+          ],
+          "returncode": 0,
+          "stdout": "[binary/output omitted; hash below]",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "commit",
+            "-m",
+            "Contained fixture payload"
+          ],
+          "returncode": 0,
+          "stdout": "[main 077b565] Contained fixture payload\n 1 file changed, 1537 insertions(+)\n create mode 100644 metrics.csv\n",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "rev-parse",
+            "HEAD"
+          ],
+          "returncode": 0,
+          "stdout": "077b565cc9fb1ac28c4fddb7ea91c886851aa386\n",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "show",
+            "HEAD:metrics.csv"
+          ],
+          "returncode": 0,
+          "stdout": "[binary/output omitted; hash below]",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "status",
+            "--porcelain=v1"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "core.autocrlf": "input",
+      "attributes": "",
+      "base_commit": "a181b42fa9d1c02a13f6e74c23203b314669670f",
+      "payload_commit": "077b565cc9fb1ac28c4fddb7ea91c886851aa386",
+      "worktree_sha256": "24b2dc318e048493d4f265291935ef02ce09c7221a96422cfc8c0405c02c434a",
+      "index_sha256": "f45b2c3d830f985629cb308a12ff11e94afbf7d4b2a436a5441d87595eafd34e",
+      "committed_sha256": "f45b2c3d830f985629cb308a12ff11e94afbf7d4b2a436a5441d87595eafd34e",
+      "index_matches_expected_raw": false,
+      "committed_matches_expected_raw": false,
+      "index_CRLF_count": 0,
+      "index_LF_count": 1537,
+      "status": "",
+      "commands": [
+        {
+          "args": [
+            "init",
+            "-b",
+            "main"
+          ],
+          "returncode": 0,
+          "stdout": "Initialized empty Git repository in /workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/checkpoint002_line_ending_fixture/input/.git/\n",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "config",
+            "core.autocrlf",
+            "input"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "config",
+            "user.name",
+            "Contained fixture"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "config",
+            "user.email",
+            "fixture@localhost"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "config",
+            "core.attributesFile",
+            "/dev/null"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "add",
+            "base.txt"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "commit",
+            "-m",
+            "Contained fixture base"
+          ],
+          "returncode": 0,
+          "stdout": "[main (root-commit) a181b42] Contained fixture base\n 1 file changed, 1 insertion(+)\n create mode 100644 base.txt\n",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "rev-parse",
+            "HEAD"
+          ],
+          "returncode": 0,
+          "stdout": "a181b42fa9d1c02a13f6e74c23203b314669670f\n",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "check-attr",
+            "--all",
+            "--",
+            "metrics.csv"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "add",
+            "--",
+            "metrics.csv"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "warning: in the working copy of 'metrics.csv', CRLF will be replaced by LF the next time Git touches it\n"
+        },
+        {
+          "args": [
+            "show",
+            ":metrics.csv"
+          ],
+          "returncode": 0,
+          "stdout": "[binary/output omitted; hash below]",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "commit",
+            "-m",
+            "Contained fixture payload"
+          ],
+          "returncode": 0,
+          "stdout": "[main 077b565] Contained fixture payload\n 1 file changed, 1537 insertions(+)\n create mode 100644 metrics.csv\n",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "rev-parse",
+            "HEAD"
+          ],
+          "returncode": 0,
+          "stdout": "077b565cc9fb1ac28c4fddb7ea91c886851aa386\n",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "show",
+            "HEAD:metrics.csv"
+          ],
+          "returncode": 0,
+          "stdout": "[binary/output omitted; hash below]",
+          "stderr": ""
+        },
+        {
+          "args": [
+            "status",
+            "--porcelain=v1"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ]
+    }
+  ]
+}

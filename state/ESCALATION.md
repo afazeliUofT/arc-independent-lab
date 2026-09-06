@@ -1,14 +1,11 @@
-# Checkpoint 002: human publication and continuation
+# Checkpoint003 publication: human execution required
 
-Reason: the agreed operating role reserves commits and public pushes for Ali. The first checkpoint is verified. The reproduction, raw trace, audit and source corrections are ready; their next durable GitHub checkpoint needs your execution.
+**This is an already-authorized publication action, not a request for Phase1 approval.** The corrected checkpoint002 is verified at `6c69eca83cadd0346d85110af470a61f3f075d5d`. Phase1 has advanced to a first provisional causal ranking and remains incomplete.
 
-Please inspect and run `P1_CHECKPOINT_002.py --apply-and-push` using `docs/CHECKPOINT_002_HANDOFF.md`. It checks the pinned base and exact destinations, backs up the known replaced bytes, commits and pushes this update, and appends the displayed human answer here only when you invoke the action flag.
+Publish the prepared checkpoint003 document/evidence bundle using the supplied helper and foreground commit/push commands. The helper verifies local base, explicit transitions and actual staged bytes before any human commit. It performs no network operations or commits. No force push or credential disclosure is required. A failed push is retried only after verifying the existing child commit; it does not require another scientific commit.
 
-**Answer protocol: append a section beginning `## ANSWER` to this same file. Nothing elsewhere clears the block.** The helper records the narrow answer on your behalf through your explicit execution. Alternatively, append your own answer here and commit/push it yourself; a custom answer may require reconciling the helper's exact-byte preflight rather than rerunning it.
+Why a human is required: Ali explicitly retains execution of commits/pushes, and scratch is ephemeral. The ledger, state, diagnosis and recovery evidence need the next natural GitHub checkpoint. Authoritative model metering and unattended continuation remain unverified; no unattended work is authorized by this action.
 
-Requested answer: continue Phase 1 after the principal investigator independently verifies checkpoint 002 on GitHub. This is not approval of the unfinished diagnosis and does not authorize Phase 2. No immediate paper fetch remains from the supplied batch.
+**Answer channel:** after executing the supplied commands, report completion (and nonsecret error output if unsuccessful) in this conversation. The PI will independently read GitHub history and all intended file bytes before recording durability. No separate approval of scientific conclusions is requested or inferred.
 
-If publication succeeds and the answer permits continuation: verify actual remote bytes and resume the catalogue on acquisition, retention, novel reuse and counterevidence. If you ask to pause: preserve the checkpoint and remain paused. If the helper encounters unexpected changes: retain its exact error and reconcile the named files without overwriting your work.
-
-## ANSWER
-Human response supplied by running P1_CHECKPOINT_002.py --apply-and-push: Continue Phase 1 after the principal investigator independently verifies checkpoint 002 on GitHub. This answer does not approve DIAGNOSIS.md or authorize Phase 2.
+After successful readback, continue Phase1 by seeking an integrated strong-system case that discriminates failed acquisition, retained-but-inaccessible information, and faulty use. Phase2 remains gated on explicit approval of a completed `DIAGNOSIS.md`.

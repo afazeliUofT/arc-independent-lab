@@ -1,0 +1,54 @@
+{
+  "record_type": "Selected fields transcribed from user-provided read-only diagnostic; not an independent laptop execution by the assistant",
+  "received_utc": "2026-09-06T07:58:43.218990+00:00",
+  "diagnostic": "P1_CHECKPOINT_002_READ_ONLY_v1",
+  "probe_sha256": "95ac2f7073633ec4fa873dd75e83b37e8d1e6b8093cc2b401b7378a6f6a29670",
+  "git_version": "2.43.0",
+  "HEAD": "6b06dc1120b22d59ae7c9d550feb3f124ff656fa",
+  "parent": "189f424e5cc9588d9774fd58850c44c9b182f813",
+  "branch": "main",
+  "tracked_status": "",
+  "fetch_origin_matches_expected": true,
+  "push_origin_matches_expected": true,
+  "core.autocrlf": {
+    "value": "input",
+    "origin": "user global Git configuration; path omitted here"
+  },
+  "metrics_attributes": {
+    "text": "unspecified",
+    "eol": "unspecified",
+    "filter": "unspecified",
+    "ident": "unspecified",
+    "working-tree-encoding": "unspecified"
+  },
+  "original_helper_matches_delivered": true,
+  "original_helper_sha256": "f006b97b3a64c115c55cf21cb8614385014a4a38d64bcb80b24df8715f566dc1",
+  "metrics_working": {
+    "sha256": "24b2dc318e048493d4f265291935ef02ce09c7221a96422cfc8c0405c02c434a",
+    "bytes": 197886,
+    "crlf_pairs": 1537,
+    "bare_lf": 0,
+    "sha256_after_crlf_to_lf": "f45b2c3d830f985629cb308a12ff11e94afbf7d4b2a436a5441d87595eafd34e"
+  },
+  "metrics_index_and_HEAD": {
+    "sha256": "f45b2c3d830f985629cb308a12ff11e94afbf7d4b2a436a5441d87595eafd34e",
+    "bytes": 196349,
+    "crlf_pairs": 0,
+    "bare_lf": 1537
+  },
+  "checkpoint_comparison": {
+    "declared_files_checked_per_layer": 73,
+    "working_mismatches": [],
+    "index_mismatches": [
+      "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/metrics.csv"
+    ],
+    "HEAD_mismatches": [
+      "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/metrics.csv"
+    ]
+  },
+  "remote_read_by_assistant": {
+    "date": "2026-09-06",
+    "main": "189f424e5cc9588d9774fd58850c44c9b182f813",
+    "url": "https://github.com/afazeliUofT/arc-independent-lab"
+  }
+}

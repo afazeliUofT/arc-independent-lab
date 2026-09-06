@@ -1,0 +1,35 @@
+{
+  "schema": "checkpoint002_foreground_push_verification_v1",
+  "ts": "2026-09-06T14:44:28.899623+00:00",
+  "status": "passed",
+  "scope": "One existing correction commit pushed by explicit SHA to a new local bare origin, then repeated once",
+  "source_fixture": "delivery/checkpoint002_repair_fixtures/normal/ARC_Independent_Lab",
+  "test_fixture": "delivery/checkpoint002_foreground_push_fixture",
+  "base": "189f424e5cc9588d9774fd58850c44c9b182f813",
+  "synthetic_bad_commit": "ef537f88e72b8d8abf350d833726e29475da6498",
+  "synthetic_correction_commit": "156390792f6464108773c47b82b888df05cd5ddd",
+  "original_checkpoint_blob_count": 73,
+  "original_checkpoint_all_sha256_match": true,
+  "exact_attribute_bytes_match": true,
+  "attribute_sha256": "8646fb5687c7638f3ada2fe4684696b14830ea4395514401d7e01556b6facd68",
+  "original_parent_chain_preserved": true,
+  "only_correction_paths": [
+    ".gitattributes",
+    "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/metrics.csv"
+  ],
+  "repeated_push_preserved_head_and_complete_history": true,
+  "new_commits_created": 0,
+  "public_network_operations": 0,
+  "nonzero_git_exit_count": 0,
+  "original_source_fixture_and_repair_source_unchanged": true,
+  "repair_source_sha256": "2d024c8cf2c042885414f53275bea836094a8ab4dd7d77da876abb83b703f9de",
+  "harness_path": "delivery/checkpoint002_foreground_push_fixture/test_foreground_transport.py",
+  "harness_sha256": "2fb07aa3d29d972bc1a52b2b43c56bbcc0babf719be42cc4ffceb240d75f042a",
+  "command_log_path": "delivery/checkpoint002_foreground_push_commands.jsonl",
+  "command_log_sha256": "848e891426ab21c8c6bbb2a64aec627e228d3e9261f280e82cc22cdfbb54507e",
+  "limitations": [
+    "Local bare Git only; no GitHub write or laptop credential authentication was tested",
+    "Test captures command output for evidence; the delivered human command inherits the terminal directly",
+    "Fixture commit SHA differs from the user's measured correction commit; original 73 checkpoint bytes and the correction are the same"
+  ]
+}

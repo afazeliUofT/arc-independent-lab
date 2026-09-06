@@ -1,0 +1,105 @@
+{
+  "timestamp": "2026-09-06T07:47:23.452986+00:00",
+  "probe_sha256": "95ac2f7073633ec4fa873dd75e83b37e8d1e6b8093cc2b401b7378a6f6a29670",
+  "harness_sha256": "c660415abd89bbccb9392898dd29ec18b72e3447c87eb651abfd14e82f80a0f7",
+  "passed": true,
+  "detected_only_known_csv_normalization_in_index_and_HEAD": true,
+  "all_expected_working_bytes_matched": true,
+  "index_HEAD_working_bytes_unchanged_by_probe": true,
+  "scope": "Local fixture with actual delivered payload and Git core.autocrlf=input; user machine still unmeasured. No public write.",
+  "actual_probe_report": {
+    "diagnostic": "P1_CHECKPOINT_002_READ_ONLY_v1",
+    "read_only": true,
+    "probe_sha256": "95ac2f7073633ec4fa873dd75e83b37e8d1e6b8093cc2b401b7378a6f6a29670",
+    "expected_base": "189f424e5cc9588d9774fd58850c44c9b182f813",
+    "git_version": {
+      "exit_code": 0,
+      "stdout": "git version 2.51.1",
+      "stderr": ""
+    },
+    "head_and_parents": {
+      "exit_code": 0,
+      "stdout": "ef537f88e72b8d8abf350d833726e29475da6498 189f424e5cc9588d9774fd58850c44c9b182f813",
+      "stderr": ""
+    },
+    "branch": {
+      "exit_code": 0,
+      "stdout": "main",
+      "stderr": ""
+    },
+    "tracked_status": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "fetch_origin_matches_expected": false,
+    "push_origin_matches_expected": false,
+    "conversion_settings": {
+      "exit_code": 0,
+      "stdout": "file:.git/config\tcore.autocrlf input",
+      "stderr": ""
+    },
+    "metrics_attributes": {
+      "exit_code": 0,
+      "stdout": "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/metrics.csv: text: unspecified\nartifacts/P1_LINEAR_INTERFERENCE/20260906_001/metrics.csv: eol: unspecified\nartifacts/P1_LINEAR_INTERFERENCE/20260906_001/metrics.csv: filter: unspecified\nartifacts/P1_LINEAR_INTERFERENCE/20260906_001/metrics.csv: ident: unspecified\nartifacts/P1_LINEAR_INTERFERENCE/20260906_001/metrics.csv: working-tree-encoding: unspecified",
+      "stderr": ""
+    },
+    "original_helper_present_at_reported_path": true,
+    "original_helper_sha256": "f006b97b3a64c115c55cf21cb8614385014a4a38d64bcb80b24df8715f566dc1",
+    "original_helper_matches_delivered": true,
+    "metrics_bytes": {
+      "working": {
+        "present": true,
+        "sha256": "24b2dc318e048493d4f265291935ef02ce09c7221a96422cfc8c0405c02c434a",
+        "bytes": 197886,
+        "crlf_pairs": 1537,
+        "bare_lf": 0,
+        "sha256_after_crlf_to_lf": "f45b2c3d830f985629cb308a12ff11e94afbf7d4b2a436a5441d87595eafd34e"
+      },
+      "index": {
+        "present": true,
+        "sha256": "f45b2c3d830f985629cb308a12ff11e94afbf7d4b2a436a5441d87595eafd34e",
+        "bytes": 196349,
+        "crlf_pairs": 0,
+        "bare_lf": 1537,
+        "sha256_after_crlf_to_lf": "f45b2c3d830f985629cb308a12ff11e94afbf7d4b2a436a5441d87595eafd34e",
+        "git_exit_code": 0
+      },
+      "HEAD": {
+        "present": true,
+        "sha256": "f45b2c3d830f985629cb308a12ff11e94afbf7d4b2a436a5441d87595eafd34e",
+        "bytes": 196349,
+        "crlf_pairs": 0,
+        "bare_lf": 1537,
+        "sha256_after_crlf_to_lf": "f45b2c3d830f985629cb308a12ff11e94afbf7d4b2a436a5441d87595eafd34e",
+        "git_exit_code": 0
+      }
+    },
+    "checkpoint_comparison": {
+      "working": {
+        "declared_files_checked": 73,
+        "mismatches": []
+      },
+      "index": {
+        "declared_files_checked": 73,
+        "mismatches": [
+          {
+            "path": "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/metrics.csv",
+            "expected_sha256": "24b2dc318e048493d4f265291935ef02ce09c7221a96422cfc8c0405c02c434a",
+            "actual_sha256": "f45b2c3d830f985629cb308a12ff11e94afbf7d4b2a436a5441d87595eafd34e"
+          }
+        ]
+      },
+      "HEAD": {
+        "declared_files_checked": 73,
+        "mismatches": [
+          {
+            "path": "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/metrics.csv",
+            "expected_sha256": "24b2dc318e048493d4f265291935ef02ce09c7221a96422cfc8c0405c02c434a",
+            "actual_sha256": "f45b2c3d830f985629cb308a12ff11e94afbf7d4b2a436a5441d87595eafd34e"
+          }
+        ]
+      }
+    }
+  }
+}

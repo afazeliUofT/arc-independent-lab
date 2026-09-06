@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-09-06T14:24:22.129384+00:00",
+  "scope": "Test-receipt command-log digest correction only; original receipt, harness and command log preserved.",
+  "receipt_path": "evidence/CHECKPOINT_002_TIMEOUT_PROBE_VERIFICATION.json",
+  "receipt_sha256": "c43ff0ce91f54553992200485e205bd7c1a42c887273f29e93b9d23ec96f495a",
+  "commands_path": "delivery/checkpoint002_timeout_commands.jsonl",
+  "recorded_prefix_sha256": "16eb90db40748dbb4b1c1122dc0e2f320698e87db82f4af481116c5c86e731fc",
+  "correct_complete_commands_sha256": "ea9fc34d4f5efc00bc1cb67c87885cac13dbfb9e25539c53a616d8300c455111",
+  "cause": "Harness evaluated commands_sha256 before its final successful git --version command appended to that log.",
+  "verified_prefix_bytes": 32093,
+  "complete_bytes": 32332,
+  "final_appended_command": {
+    "ts": "2026-09-06T14:23:06.961903+00:00",
+    "command": [
+      "/usr/local/bin/git",
+      "--no-optional-locks",
+      "-C",
+      "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab",
+      "--version"
+    ],
+    "exit_code": 0,
+    "stdout": "git version 2.51.1\n",
+    "stderr": ""
+  },
+  "test_outcomes_changed": false
+}

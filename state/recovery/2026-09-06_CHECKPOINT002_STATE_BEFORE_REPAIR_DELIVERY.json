@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "updated_utc": "2026-09-06T07:49:16.247293+00:00",
+  "current_gate": "P1",
+  "gate_status": "blocked",
+  "gate_entered_utc": "2026-09-06",
+  "last_verified_gate": null,
+  "last_verified_commit": "189f424e5cc9588d9774fd58850c44c9b182f813",
+  "active_task": {
+    "id": "P1.1.transfer_recovery",
+    "description": "Diagnose laptop checkpoint002 staged-byte mismatch before preparing repair",
+    "attempt": 1,
+    "escalation_level": 1,
+    "started_utc": "2026-09-06T04:40:41.967857+00:00"
+  },
+  "blocked_on": "human_checkpoint_002_publication_and_answer",
+  "next_action": "Read Ali's output from P1_CHECKPOINT_002_DIAGNOSE.py. Determine actual HEAD/parents, all checkpoint file hashes in worktree/index/HEAD, CSV conversion settings/attributes and helper identity. Prepare a minimal exact-byte repair for the measured case; preserve local commits and staged work, raw files, pinned hashes and existing shipped helpers. Do not rerun the old handoff blindly. See docs/CHECKPOINT_002_RECOVERY_STATUS.md. After successful human publication verify all actual remote bytes and the scoped ## ANSWER before resuming Phase 1 science. Preserve post-package recovery ledger/evidence when adopting human HEAD.",
+  "open_questions": [
+    "Current AI causal attributions, matched successes and scaling evidence need deeper methods synthesis before bottleneck ranking.",
+    "Historical uptake explanations and cross-era cost claims remain unresolved; exact comparator/version/generator sources are conditional future dependencies, not current missing-paper blocks.",
+    "Authoritative subscription usage not observable; unattended model use disabled.",
+    "Independent reviewer enforcement, restart persistence, laptop/HPC resource probes and large-output transfer remain unverified."
+  ],
+  "mechanisms": {},
+  "consecutive_no_progress_turns": 0,
+  "route_history": [
+    "P1"
+  ],
+  "remote": "https://github.com/afazeliUofT/arc-independent-lab",
+  "durability_status": "checkpoint001 verified; checkpoint002 NOT published; recovery notes/state after frozen package remain local pending next successful checkpoint",
+  "commit_status": "No project commit or public push by assistant; human executes prepared checkpoint002 helper.",
+  "recovery_dependency": "Human read-only diagnostic report from laptop; no new phase approval requested.",
+  "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation."
+}

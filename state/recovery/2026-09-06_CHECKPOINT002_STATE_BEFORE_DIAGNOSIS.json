@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "updated_utc": "2026-09-06T05:12:06.834140+00:00",
+  "current_gate": "P1",
+  "gate_status": "blocked",
+  "gate_entered_utc": "2026-09-06",
+  "last_verified_gate": null,
+  "last_verified_commit": "189f424e5cc9588d9774fd58850c44c9b182f813",
+  "active_task": {
+    "id": "P1.1",
+    "description": "P1.1 scientific checkpoint complete locally; awaiting human publication of trace, method corrections and state",
+    "attempt": 1,
+    "escalation_level": 0,
+    "started_utc": "2026-09-06T04:40:41.967857+00:00"
+  },
+  "blocked_on": "human_checkpoint_002_publication_and_answer",
+  "next_action": "Check only for the human ## ANSWER in the remote state/ESCALATION.md. Fetch the new main commit from afazeliUofT/arc-independent-lab, verify actual bytes for every state/CHECKPOINT_002.json entry plus the manifest itself and answer scope; archive the answer, reconcile hosted HEAD with the human commit without overwriting work, then resume Phase 1 catalogue work on active acquisition, longitudinal retention, controlled novel reuse, scaling counterevidence and broader archaeology. Do not read IDEAS_PARKED.md or the other programme. Do not start Phase 2.",
+  "open_questions": [
+    "Current AI causal attributions, matched successes and scaling evidence need deeper methods synthesis before bottleneck ranking.",
+    "Historical uptake explanations and cross-era cost claims remain unresolved; exact comparator/version/generator sources are conditional future dependencies, not current missing-paper blocks.",
+    "Authoritative subscription usage not observable; unattended model use disabled.",
+    "Independent reviewer enforcement, restart persistence, laptop/HPC resource probes and large-output transfer remain unverified."
+  ],
+  "mechanisms": {},
+  "consecutive_no_progress_turns": 0,
+  "route_history": [
+    "P1"
+  ],
+  "remote": "https://github.com/afazeliUofT/arc-independent-lab",
+  "durability_status": "checkpoint_001_verified_on_GitHub; checkpoint_002 prepared for human publication and independent readback",
+  "commit_status": "No project commit or public push by assistant; human executes prepared checkpoint002 helper."
+}

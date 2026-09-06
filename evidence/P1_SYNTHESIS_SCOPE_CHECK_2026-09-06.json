@@ -1,0 +1,51 @@
+{
+  "created_utc": "2026-09-06T15:55:41.107324+00:00",
+  "scope": "Working Phase1 synthesis, no scientific gate verdict or independent review",
+  "files": [
+    {
+      "path": "DIAGNOSIS.md",
+      "sha256": "6feaf3d0a7acc966638411be085061d1a97e865b0f4901078d7eb17b8284750f"
+    },
+    {
+      "path": "evidence/P1_ACQUISITION_METHODS_2026-09-06.md",
+      "sha256": "90c7bd6cfa892d13fe0be7290dab9c370d5fce99408d770c1bb2da6f486b086c"
+    },
+    {
+      "path": "evidence/P1_RETENTION_METHODS_2026-09-06.md",
+      "sha256": "fd13ae112a501be9ca5e7476a1fbe2ac8ebaf0e5b26eff509575726f461db47f"
+    },
+    {
+      "path": "evidence/P1_COMPOSITION_METHODS_2026-09-06.md",
+      "sha256": "5f1008a6a9f7f2820aad04b235017f802b905fddbd9d45ab1bb6d2f91e559760"
+    },
+    {
+      "path": "evidence/P1_BIOLOGICAL_CONSTRAINTS_2026-09-06.md",
+      "sha256": "3a7814cb02df619cf3f2c1a009d245c8c091ce309890c5b0c27dd46f7cf1d88d"
+    },
+    {
+      "path": "evidence/P1_ARCHAEOLOGY_DEEPENING_2026-09-06.md",
+      "sha256": "c778a47fe2e9de0ff6f4398d6a83173d9a5ea5ab1ade79ca7a1751d5e85eae3a"
+    },
+    {
+      "path": "evidence/P1_CAUSAL_THEORY_AUDIT_2026-09-06.md",
+      "sha256": "3844e218deb6a8cb9de28f92602dd354d75012d261bccde39db89d9d3124b62d"
+    },
+    {
+      "path": "evidence/P1_CAUSALAB_METRIC_AUDIT_2026-09-06.md",
+      "sha256": "ee7d785e47c4ecc326937a89586936fc02336ee6b3d5f539f6b056ecc8a9291a"
+    }
+  ],
+  "checks": [
+    "Eight required diagnosis sections remain in order.",
+    "Provisional causal claims state evidence for/against, refuters, unchecked predictions and conditional confidence.",
+    "Own reproduction retains original immutable artifact references and narrow scope.",
+    "Composition consultation flagged ambiguous objective-transfer wording; corrected to transfer onto maps already in random-walk pretraining.",
+    "CausaLab released metric interpretation and unequal/unverified compute limit rank4.",
+    "Phase2 remains unapproved; no mechanism proposal or parked-ideas reading."
+  ],
+  "unresolved": [
+    "Integrated strong-agent relevance of the highest-ranked local cause.",
+    "Acquisition versus use under controlled support.",
+    "Current practical costs and exact CausaLab table/run provenance."
+  ]
+}

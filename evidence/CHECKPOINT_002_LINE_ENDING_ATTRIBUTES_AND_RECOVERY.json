@@ -1,0 +1,252 @@
+{
+  "created_utc": "2026-09-06T07:42:59.769778+00:00",
+  "source_metrics_sha256": "24b2dc318e048493d4f265291935ef02ce09c7221a96422cfc8c0405c02c434a",
+  "cases": [
+    {
+      "case": "false_text",
+      "core.autocrlf": "false",
+      "attributes_file": "metrics.csv text\n",
+      "effective_attributes": "metrics.csv: text: set\n",
+      "worktree_sha256": "24b2dc318e048493d4f265291935ef02ce09c7221a96422cfc8c0405c02c434a",
+      "index_sha256": "f45b2c3d830f985629cb308a12ff11e94afbf7d4b2a436a5441d87595eafd34e",
+      "index_matches_raw": false,
+      "commands": [
+        {
+          "args": [
+            "init",
+            "-b",
+            "main"
+          ],
+          "returncode": 0,
+          "stderr": ""
+        },
+        {
+          "args": [
+            "config",
+            "core.autocrlf",
+            "false"
+          ],
+          "returncode": 0,
+          "stderr": ""
+        },
+        {
+          "args": [
+            "config",
+            "core.attributesFile",
+            "/dev/null"
+          ],
+          "returncode": 0,
+          "stderr": ""
+        },
+        {
+          "args": [
+            "add",
+            "--",
+            ".gitattributes",
+            "metrics.csv"
+          ],
+          "returncode": 0,
+          "stderr": "warning: in the working copy of 'metrics.csv', CRLF will be replaced by LF the next time Git touches it\n"
+        },
+        {
+          "args": [
+            "show",
+            ":metrics.csv"
+          ],
+          "returncode": 0,
+          "stderr": ""
+        },
+        {
+          "args": [
+            "check-attr",
+            "--all",
+            "--",
+            "metrics.csv"
+          ],
+          "returncode": 0,
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "case": "true_unset_text",
+      "core.autocrlf": "true",
+      "attributes_file": "metrics.csv -text\n",
+      "effective_attributes": "metrics.csv: text: unset\n",
+      "worktree_sha256": "24b2dc318e048493d4f265291935ef02ce09c7221a96422cfc8c0405c02c434a",
+      "index_sha256": "24b2dc318e048493d4f265291935ef02ce09c7221a96422cfc8c0405c02c434a",
+      "index_matches_raw": true,
+      "commands": [
+        {
+          "args": [
+            "init",
+            "-b",
+            "main"
+          ],
+          "returncode": 0,
+          "stderr": ""
+        },
+        {
+          "args": [
+            "config",
+            "core.autocrlf",
+            "true"
+          ],
+          "returncode": 0,
+          "stderr": ""
+        },
+        {
+          "args": [
+            "config",
+            "core.attributesFile",
+            "/dev/null"
+          ],
+          "returncode": 0,
+          "stderr": ""
+        },
+        {
+          "args": [
+            "add",
+            "--",
+            ".gitattributes",
+            "metrics.csv"
+          ],
+          "returncode": 0,
+          "stderr": "warning: in the working copy of '.gitattributes', LF will be replaced by CRLF the next time Git touches it\n"
+        },
+        {
+          "args": [
+            "show",
+            ":metrics.csv"
+          ],
+          "returncode": 0,
+          "stderr": ""
+        },
+        {
+          "args": [
+            "check-attr",
+            "--all",
+            "--",
+            "metrics.csv"
+          ],
+          "returncode": 0,
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "case": "input_append_only_recovery",
+      "old_commit": "077b565cc9fb1ac28c4fddb7ea91c886851aa386",
+      "old_commit_metrics_sha256": "f45b2c3d830f985629cb308a12ff11e94afbf7d4b2a436a5441d87595eafd34e",
+      "new_commit": "1cc8d7a7a856e1ddac77451281118a75288429c0",
+      "new_commit_parents": "1cc8d7a7a856e1ddac77451281118a75288429c0 077b565cc9fb1ac28c4fddb7ea91c886851aa386",
+      "old_commit_still_present_same_bytes": true,
+      "index_sha256": "24b2dc318e048493d4f265291935ef02ce09c7221a96422cfc8c0405c02c434a",
+      "new_commit_metrics_sha256": "24b2dc318e048493d4f265291935ef02ce09c7221a96422cfc8c0405c02c434a",
+      "worktree_sha256": "24b2dc318e048493d4f265291935ef02ce09c7221a96422cfc8c0405c02c434a",
+      "index_matches_raw": true,
+      "status": "",
+      "effective_attributes": "metrics.csv: text: unset\n",
+      "commands": [
+        {
+          "args": [
+            "rev-parse",
+            "HEAD"
+          ],
+          "returncode": 0,
+          "stderr": ""
+        },
+        {
+          "args": [
+            "show",
+            "HEAD:metrics.csv"
+          ],
+          "returncode": 0,
+          "stderr": ""
+        },
+        {
+          "args": [
+            "add",
+            "--",
+            ".gitattributes",
+            "metrics.csv"
+          ],
+          "returncode": 0,
+          "stderr": ""
+        },
+        {
+          "args": [
+            "show",
+            ":metrics.csv"
+          ],
+          "returncode": 0,
+          "stderr": ""
+        },
+        {
+          "args": [
+            "commit",
+            "-m",
+            "Contained fixture append-only byte preservation correction"
+          ],
+          "returncode": 0,
+          "stderr": ""
+        },
+        {
+          "args": [
+            "rev-parse",
+            "HEAD"
+          ],
+          "returncode": 0,
+          "stderr": ""
+        },
+        {
+          "args": [
+            "rev-list",
+            "--parents",
+            "-n",
+            "1",
+            "HEAD"
+          ],
+          "returncode": 0,
+          "stderr": ""
+        },
+        {
+          "args": [
+            "show",
+            "077b565cc9fb1ac28c4fddb7ea91c886851aa386:metrics.csv"
+          ],
+          "returncode": 0,
+          "stderr": ""
+        },
+        {
+          "args": [
+            "show",
+            "HEAD:metrics.csv"
+          ],
+          "returncode": 0,
+          "stderr": ""
+        },
+        {
+          "args": [
+            "status",
+            "--porcelain=v1"
+          ],
+          "returncode": 0,
+          "stderr": ""
+        },
+        {
+          "args": [
+            "check-attr",
+            "--all",
+            "--",
+            "metrics.csv"
+          ],
+          "returncode": 0,
+          "stderr": ""
+        }
+      ],
+      "scope": "Synthetic correction appends a new commit; it does not rewrite previous commit. Existing shipped helper rejects grandchild by design; this fixture is not an instruction to retry it. -text prevents line-ending conversion only; other filters or working-tree encoding must be examined separately."
+    }
+  ],
+  "user_configuration_known": false
+}

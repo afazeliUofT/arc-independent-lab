@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "updated_utc": "2026-09-06T08:03:22.991185+00:00",
+  "current_gate": "P1",
+  "gate_status": "blocked",
+  "gate_entered_utc": "2026-09-06",
+  "last_verified_gate": null,
+  "last_verified_commit": "189f424e5cc9588d9774fd58850c44c9b182f813",
+  "active_task": {
+    "id": "P1.1.transfer_recovery",
+    "description": "Exact-byte correction helper verified locally; awaiting human correction commit and push",
+    "attempt": 1,
+    "escalation_level": 1,
+    "started_utc": "2026-09-06T04:40:41.967857+00:00"
+  },
+  "blocked_on": "human_checkpoint_002_publication_and_answer",
+  "next_action": "On Ali's repair output, fetch the exact authorized GitHub main. Verify actual bytes of every original state/CHECKPOINT_002.json entry plus manifest SHA720c979094f19b49e69ca102d94d77cde45c0c04df74e783981f1c9742970687 and answered ESCALATION SHA234bc2ff8a90d9365e883a13b2eac624cb733a74851a6ea8bba0057de2fe1b3f. Verify correction HEAD directly descends from measured bad commit6b06dc1120b22d59ae7c9d550feb3f124ff656fa and changes only artifact rule and CSV, preserving its parent. Inspect repair helper ATTR_BYTES for exact rule. Archive human answer; adopt verified human git HEAD/index without resetting or overwriting hosted recovery additions (ledger/tool errors/state/docs contain append-only updates after frozen002). Resume Phase1 scientific catalogue once world/state are reconciled. Publish accumulated recovery evidence at next natural checkpoint. Do not rerun original update helper, reread parked ideas, access other programme, or start Phase2.",
+  "open_questions": [
+    "Current AI causal attributions, matched successes and scaling evidence need deeper methods synthesis before bottleneck ranking.",
+    "Historical uptake explanations and cross-era cost claims remain unresolved; exact comparator/version/generator sources are conditional future dependencies, not current missing-paper blocks.",
+    "Authoritative subscription usage not observable; unattended model use disabled.",
+    "Independent reviewer enforcement, restart persistence, laptop/HPC resource probes and large-output transfer remain unverified."
+  ],
+  "mechanisms": {},
+  "consecutive_no_progress_turns": 0,
+  "route_history": [
+    "P1"
+  ],
+  "remote": "https://github.com/afazeliUofT/arc-independent-lab",
+  "durability_status": "checkpoint001 verified; original checkpoint002 and correction await human push/readback; hosted recovery additions pending next natural checkpoint",
+  "commit_status": "No project commit or public push by assistant; human executes prepared checkpoint002 helper.",
+  "recovery_dependency": "Human execution of the prepared repair and successful GitHub publication; factual diagnostic dependency cleared.",
+  "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation."
+}

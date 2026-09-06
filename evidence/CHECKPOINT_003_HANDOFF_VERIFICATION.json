@@ -1,0 +1,58 @@
+{
+  "helper_sha256": "f2e63214eeddf37150a72364fa5174d40429102d4ffae7bbf9bab3ced19b9a58",
+  "scope": "Contained synthetic repositories only; no public network or real-project Git mutation.",
+  "cases": [
+    {
+      "case": "inspection",
+      "result": "index unchanged"
+    },
+    {
+      "case": "partial application and repeat under core.autocrlf=input",
+      "result": "exact worktree/index CRLF artifact bytes; base HEAD unchanged"
+    },
+    {
+      "case": "completed direct-child retry",
+      "result": "exact expected tree accepted; no duplicate commit"
+    },
+    {
+      "case": "staged deletion after completed checkpoint",
+      "result": "expected refusal",
+      "message": "Actual index differs from the complete expected tree"
+    },
+    {
+      "case": "unrelated working edit",
+      "result": "expected refusal",
+      "message": "Unrelated tracked working changes: unrelated.txt"
+    },
+    {
+      "case": "different hidden staged edit",
+      "result": "expected refusal",
+      "message": "Unrecognized staged content or mode: old.txt"
+    },
+    {
+      "case": "conflicting untracked destination",
+      "result": "expected refusal",
+      "message": "Unrecognized working bytes; preserved: artifacts/new.csv"
+    },
+    {
+      "case": "Git transforms a text payload despite exact worktree bytes",
+      "result": "expected refusal",
+      "message": "Actual index differs from the complete expected tree"
+    },
+    {
+      "case": "normalization refusal preservation",
+      "result": "no commit; exact worktree and pre-stage index backup retained; do not commit until corrected"
+    },
+    {
+      "case": "wrong published ZIP hash",
+      "result": "expected refusal",
+      "message": "ZIP size or SHA-256 differs from the supplied checkpoint"
+    },
+    {
+      "case": "ZIP manifest",
+      "result": "full hashes and declared members accepted"
+    }
+  ],
+  "nonzero_git_commands": [],
+  "fixture_root": "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/checkpoint003_fixture_xccznmy3"
+}

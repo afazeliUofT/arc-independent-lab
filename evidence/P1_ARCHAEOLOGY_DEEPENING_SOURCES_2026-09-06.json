@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-06",
+  "public_source_files_excluded": true,
+  "sources": [
+    {
+      "url": "https://groups.psych.northwestern.edu/gentner/papers/ForbusGentnerLaw94.2b.pdf",
+      "access_date": "2026-09-06",
+      "path": "private_sources/archaeology_deepening/macfac1995.pdf",
+      "sha256": "d8b65aaf438262d1397b61c1c22c578afb908969485cadbfd4599557a32dfbfd",
+      "note": "Downloaded source bytes"
+    },
+    {
+      "url": "https://groups.psych.northwestern.edu/gentner/papers/ForbusFergusonLovett%26Gentner_2017.pdf",
+      "access_date": "2026-09-06",
+      "path": "private_sources/archaeology_deepening/sme2017.pdf",
+      "sha256": "9f00aee2b0bbbebf9d488fe8ff3161acbe7d2f8433b070c66c70c92f2e1f70c2",
+      "note": "Downloaded source bytes"
+    },
+    {
+      "url": "https://www.qrg.northwestern.edu/software/sme4/sme_complexity.pdf",
+      "access_date": "2026-09-06",
+      "path": "private_sources/archaeology_deepening/sme_complexity.pdf",
+      "sha256": "0f66d0a12503e036f9271c5f880e73f39bf645b4435572a3be4f9cb32b488a48",
+      "note": "Downloaded source bytes"
+    },
+    {
+      "url": "https://www.eskimo.com/~wilson/ps/xcs.pdf",
+      "access_date": "2026-09-06",
+      "path": "private_sources/archaeology_deepening/xcs1995.pdf",
+      "sha256": "68d483ff5a22ec52cdbba5b312bce7f4d6e9668344824a62229556567ce58f82",
+      "note": "Downloaded source bytes"
+    },
+    {
+      "url": "https://link.springer.com/content/pdf/10.1023/A%3A1022600917598.pdf",
+      "access_date": "2026-09-06",
+      "path": "private_sources/archaeology_deepening/hirsh1994.pdf",
+      "sha256": "7c2b8302efe68357b322f1ec1d40a2b85485c64ddc910885bc40ae55c216be42",
+      "note": "Downloaded source bytes"
+    },
+    {
+      "url": "https://www.eskimo.com/~wilson/ps/ipl2000.ps.gz",
+      "access_date": "2026-09-06",
+      "path": "private_sources/archaeology_deepening/lcs2002.ps",
+      "sha256": "3fe8b9feec312e436cad3a1614fe99195aa7e3be07b5d81082004029176e849e",
+      "note": "Gzip decoded to PostScript; hash identifies decompressed source"
+    }
+  ]
+}

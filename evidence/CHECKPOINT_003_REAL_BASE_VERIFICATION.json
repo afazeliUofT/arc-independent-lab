@@ -1,0 +1,352 @@
+{
+  "created_utc": "2026-09-06T15:56:40.436106+00:00",
+  "base_commit": "6c69eca83cadd0346d85110af470a61f3f075d5d",
+  "helper_sha256": "f2e63214eeddf37150a72364fa5174d40429102d4ffae7bbf9bab3ced19b9a58",
+  "scope": "Exact current scientific and recovery payload staged in contained local clone of real published base, twice, under core.autocrlf=input. No real lab index/HEAD mutation; no public network/commit/push. Later finalization affects checkpoint/state bookkeeping only.",
+  "input_files": [
+    {
+      "path": ".gitignore",
+      "old_sha256": "6a52aab598dd14ce866d3f8323b1b5245176ef101ee775525674144b71e698eb",
+      "sha256": "85549705c683951729389d37fff9c36fb45a43460b5c5ee254e506004f6d33cf",
+      "mode": "100644"
+    },
+    {
+      "path": "DIAGNOSIS.md",
+      "old_sha256": "50de99397e2087141ab15d1c095c9cd1de54c5ecd123f22a59431cefbd95a102",
+      "sha256": "6feaf3d0a7acc966638411be085061d1a97e865b0f4901078d7eb17b8284750f",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/CHECKPOINT_002_PUSH_EXISTING_COMMIT.md",
+      "old_sha256": null,
+      "sha256": "17499b69ba602c30178471ee6b34bbe831de56338ba54bc7170729685fbf736c",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/CHECKPOINT_002_RECOVERY_STATUS.md",
+      "old_sha256": null,
+      "sha256": "c41105e0ad20e43312d31b3f9fd7fa20e021365517ac9692dbe62d788975fe29",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/CHECKPOINT_002_REPAIR_HANDOFF.md",
+      "old_sha256": null,
+      "sha256": "3a84eec1f9c7e506f826cc22f3c0f0d12fcc73fd5af660b5cd0f72cbc03e277d",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/CHECKPOINT_002_TIMEOUT_HANDOFF.md",
+      "old_sha256": null,
+      "sha256": "578f429b20674c141046995189a845a1235ff250c7fd788831967cad994bc00b",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/CHECKPOINT_003_HANDOFF_METHODS.md",
+      "old_sha256": null,
+      "sha256": "0f9b96c87cb20589ef388063fc343e6b8227f43af584a367465a648520640c97",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/TOOLING_EVIDENCE.md",
+      "old_sha256": "e1e6c0337ba15f61944639c77aebb95e2da5b8a35c673b507905f0a8ec871d8a",
+      "sha256": "3a304e448d2cc633ed6eee752eddb8950165f8c76d1cd1f25ecaa794b18fc097",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/CHECKPOINT_002_CORRECTION_PRESENT_2026-09-06.json",
+      "old_sha256": null,
+      "sha256": "5bfcac6b6ea14c87d875dc217de18dc854d91a21d7e22e8a002c8345639654cd",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/CHECKPOINT_002_FOREGROUND_PUSH_VERIFICATION.json",
+      "old_sha256": null,
+      "sha256": "dff52574c606919b49d706f07d964fb7be5d1d9b6f9b32cd7425347099dc9dcc",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/CHECKPOINT_002_HOSTED_RECONCILIATION.json",
+      "old_sha256": null,
+      "sha256": "5d804d5f7376170dd41855d31b1c6be89938614c3976304ce0649cc99dc4d084",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/CHECKPOINT_002_LAPTOP_DIAGNOSTIC_2026-09-06.json",
+      "old_sha256": null,
+      "sha256": "f168ac553d2ac11d1b900ef7da7cc60a5c535bf0ec046f92b858506dcd8ee73c",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/CHECKPOINT_002_LINE_ENDING_ATTRIBUTES_AND_RECOVERY.json",
+      "old_sha256": null,
+      "sha256": "e9b7cbd93c7026d01ae033722025ea7355bd7c872e26646e9f16736edf7bddb1",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/CHECKPOINT_002_LINE_ENDING_DIAGNOSIS.json",
+      "old_sha256": null,
+      "sha256": "7e3189a433fb4c4e9fd0ff8e1c68ecd40cee0d3ce7bf432feeb7a3781a360e52",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/CHECKPOINT_002_LINE_ENDING_DIAGNOSIS.md",
+      "old_sha256": null,
+      "sha256": "06b8a69266631f5ece96fbb4b8033555b416c93551b59a0fbf33b1324b8741e8",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/CHECKPOINT_002_PUBLICATION_FAILURE_2026-09-06.json",
+      "old_sha256": null,
+      "sha256": "8bbf13d7d622de6532aede3bda92570ce4fdf5ab247b11866510f23efa6275be",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/CHECKPOINT_002_READONLY_PROBE_VERIFICATION.json",
+      "old_sha256": null,
+      "sha256": "670ae67e064ba43edb45178ea3f5f26831f78186915289f70006f96c1550c1eb",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/CHECKPOINT_002_REPAIR_METHODS.md",
+      "old_sha256": null,
+      "sha256": "dbc3d31263471bacb2adafc63b56f6bcf6e58cd9cf58a77c5f0551e6ca4251bf",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/CHECKPOINT_002_REPAIR_TIMEOUT_2026-09-06.json",
+      "old_sha256": null,
+      "sha256": "80f145ddc5279ccc33387db0fc5bbf66df398e71cace30bb09be62b7dc59d020",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/CHECKPOINT_002_REPAIR_VERIFICATION.json",
+      "old_sha256": null,
+      "sha256": "5d1ba6955e0b7dbf33a05c81678a6baab08c7f951d1833a4f126e57a6756bc71",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/CHECKPOINT_002_TIMEOUT_PROBE_COMMAND_LOG_HASH_CORRECTION.json",
+      "old_sha256": null,
+      "sha256": "9aa0da131bcbe83016f8946d6224797ca517f12185ebc0a33ac42535912bcb32",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/CHECKPOINT_002_TIMEOUT_PROBE_VERIFICATION.json",
+      "old_sha256": null,
+      "sha256": "c43ff0ce91f54553992200485e205bd7c1a42c887273f29e93b9d23ec96f495a",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/CHECKPOINT_002_VSCODE_AUTH_FAILURE_2026-09-06.json",
+      "old_sha256": null,
+      "sha256": "cbd43b9c3eb6a7afd980c1a14ab7b16de9a18e1a76480ec5e5e40f4235bef21d",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/CHECKPOINT_003_HANDOFF_TEST_SOURCE.py",
+      "old_sha256": null,
+      "sha256": "54df562c52262d5ab42d81b181003f343599741d405c837c977cdff453a6163e",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/CHECKPOINT_003_HANDOFF_VERIFICATION.json",
+      "old_sha256": null,
+      "sha256": "2bdb5a5549c9ea2d464a2aa0c7527bd6b05ee93e450b6a4327870df75329a7f8",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/P1_ACQUISITION_METHODS_2026-09-06.md",
+      "old_sha256": null,
+      "sha256": "90c7bd6cfa892d13fe0be7290dab9c370d5fce99408d770c1bb2da6f486b086c",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/P1_ARCHAEOLOGY_DEEPENING_2026-09-06.md",
+      "old_sha256": null,
+      "sha256": "c778a47fe2e9de0ff6f4398d6a83173d9a5ea5ab1ade79ca7a1751d5e85eae3a",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/P1_ARCHAEOLOGY_DEEPENING_ERRORS_2026-09-06.jsonl",
+      "old_sha256": null,
+      "sha256": "1ac923de5381f52b679e45033809a709825e75fb71d37d2798fb71a682e89213",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/P1_ARCHAEOLOGY_DEEPENING_SOURCES_2026-09-06.json",
+      "old_sha256": null,
+      "sha256": "5ffe0b3b4677af56eb5c2b96f693a823a41f4a192723eec6600537c02e7fc1d6",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/P1_BIOLOGICAL_CONSTRAINTS_2026-09-06.md",
+      "old_sha256": null,
+      "sha256": "3a7814cb02df619cf3f2c1a009d245c8c091ce309890c5b0c27dd46f7cf1d88d",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/P1_BIOLOGY_ACCESS_ERRORS_2026-09-06.jsonl",
+      "old_sha256": null,
+      "sha256": "71a329d30a3ac53c02578984ba6dc04c92a3ebdcc88ebb7a7020de8dd86e1502",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/P1_CAUSALAB_METRIC_AUDIT_2026-09-06.md",
+      "old_sha256": null,
+      "sha256": "ee7d785e47c4ecc326937a89586936fc02336ee6b3d5f539f6b056ecc8a9291a",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/P1_CAUSALAB_METRIC_AUDIT_ERRORS_2026-09-06.md",
+      "old_sha256": null,
+      "sha256": "8df82a4088c9d856d0a27ac3954832cb8b9ff10133c1df61e946a88068ace97d",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/P1_CAUSAL_THEORY_AUDIT_2026-09-06.md",
+      "old_sha256": null,
+      "sha256": "3844e218deb6a8cb9de28f92602dd354d75012d261bccde39db89d9d3124b62d",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/P1_COMPOSITION_METHODS_2026-09-06.md",
+      "old_sha256": null,
+      "sha256": "5f1008a6a9f7f2820aad04b235017f802b905fddbd9d45ab1bb6d2f91e559760",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/P1_COMPOSITION_TOOL_ERRORS_2026-09-06.jsonl",
+      "old_sha256": null,
+      "sha256": "68cdd05577ffa107d67a3f86daf3b1dd79c616819866d3cae4d0b20ed6847d43",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/P1_RETENTION_METHODS_2026-09-06.md",
+      "old_sha256": null,
+      "sha256": "fd13ae112a501be9ca5e7476a1fbe2ac8ebaf0e5b26eff509575726f461db47f",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/P1_RETENTION_METHODS_ERRORS_2026-09-06.jsonl",
+      "old_sha256": null,
+      "sha256": "d6c9cf6fc20a487fef33b199310f6c304a7df7ab1be75159028d86c1f5b4e456",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/P1_SYNTHESIS_SCOPE_CHECK_2026-09-06.json",
+      "old_sha256": null,
+      "sha256": "349ddc662ad8a83af7f0756bd4cf1f9b57eaf4c87a58f8b4451fcacabf71f65e",
+      "mode": "100644"
+    },
+    {
+      "path": "evidence/REMOTE_CHECKPOINT_002_VERIFICATION.json",
+      "old_sha256": null,
+      "sha256": "e2a62b748dca9a773e6ecda45710675f64076a3bbc4135033cf3a2cd533375bd",
+      "mode": "100644"
+    },
+    {
+      "path": "reports/DIGEST_2026-09-06.md",
+      "old_sha256": "a47db590311913184a5758f3f8730d24c268ce2eb755f937d30f1adb9a2a389f",
+      "sha256": "f2bd6598779b3d629ee303f94fc39fdd733f770c8bc0b4f1a5df270cccb6a9a0",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/checkpoint002_readonly_diagnostic.py",
+      "old_sha256": null,
+      "sha256": "95ac2f7073633ec4fa873dd75e83b37e8d1e6b8093cc2b401b7378a6f6a29670",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/checkpoint002_repair.py",
+      "old_sha256": null,
+      "sha256": "2d024c8cf2c042885414f53275bea836094a8ab4dd7d77da876abb83b703f9de",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/checkpoint002_timeout_probe.py",
+      "old_sha256": null,
+      "sha256": "514182c02a44b532b5828c2e2b0565d963ff94ac889ed044bdca11990dcb1b91",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/checkpoint003_handoff.py",
+      "old_sha256": null,
+      "sha256": "f2e63214eeddf37150a72364fa5174d40429102d4ffae7bbf9bab3ced19b9a58",
+      "mode": "100644"
+    },
+    {
+      "path": "state/ESCALATION.md",
+      "old_sha256": "234bc2ff8a90d9365e883a13b2eac624cb733a74851a6ea8bba0057de2fe1b3f",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mode": "100644"
+    },
+    {
+      "path": "state/LEDGER.jsonl",
+      "old_sha256": "7d698a82c6b446a8d8bcbf0c033d78e56dd54e70c654f00f2ca18f218cd13014",
+      "sha256": "f759fc002767fc19856af60010c5a0077a6926971bee8704e2cbcd013fe18d5a",
+      "mode": "100644"
+    },
+    {
+      "path": "state/PROJECT_STATE.json",
+      "old_sha256": "495e3d07185830e16d14020450843e4609c12151c31a33d7163b0469c5bc2c1c",
+      "sha256": "42c810151ec1911abee4317a7f5fc479de65f7abe5ad1deb12963905e26528dd",
+      "mode": "100644"
+    },
+    {
+      "path": "state/escalations/2026-09-06_CHECKPOINT_002_ANSWER.md",
+      "old_sha256": null,
+      "sha256": "234bc2ff8a90d9365e883a13b2eac624cb733a74851a6ea8bba0057de2fe1b3f",
+      "mode": "100644"
+    },
+    {
+      "path": "state/recovery/2026-09-06_CHECKPOINT002_STATE_BEFORE_DIAGNOSIS.json",
+      "old_sha256": null,
+      "sha256": "495e3d07185830e16d14020450843e4609c12151c31a33d7163b0469c5bc2c1c",
+      "mode": "100644"
+    },
+    {
+      "path": "state/recovery/2026-09-06_CHECKPOINT002_STATE_BEFORE_REPAIR_DELIVERY.json",
+      "old_sha256": null,
+      "sha256": "79b8087cd55c804c5d608ef7597fba7caccf86a47666de7d4c5becf775f7de29",
+      "mode": "100644"
+    },
+    {
+      "path": "state/recovery/PROJECT_STATE_before_auth_diagnosis_20260906.json",
+      "old_sha256": null,
+      "sha256": "143fbeeaeef064d509991c5d15cf83b97a59e0eb9fb893edf1ff916c47976514",
+      "mode": "100644"
+    },
+    {
+      "path": "state/recovery/PROJECT_STATE_before_checkpoint002_clearance_20260906.json",
+      "old_sha256": null,
+      "sha256": "bfd3dfc6e7a80f5ad52a9cec7d4497a5e2fd9c8e615df2867b5ebb5410afbee4",
+      "mode": "100644"
+    },
+    {
+      "path": "state/recovery/PROJECT_STATE_before_foreground_push_20260906.json",
+      "old_sha256": null,
+      "sha256": "f0f0b6229c892f57923f012f4d7677d44f26ddee98db427a7598ec64dc76a0df",
+      "mode": "100644"
+    },
+    {
+      "path": "state/recovery/PROJECT_STATE_before_timeout_handoff_20260906.json",
+      "old_sha256": null,
+      "sha256": "fbb30e14b2383105841a8ddc6ed9b3504b4c6c72072bad025d3a918722da17b9",
+      "mode": "100644"
+    },
+    {
+      "path": "state/tool_errors.jsonl",
+      "old_sha256": "4f6833fc0d7561425a85c849e86410f8d506b869be9d9a14af95ec9220c94fac",
+      "sha256": "a723c2dcc96e9459a10461b24e8fa4eb4360b092e64c27232b15665d7336762f",
+      "mode": "100644"
+    }
+  ],
+  "checks": [
+    "All staged payload blob hashes match exact desired bytes.",
+    "All untouched base entries retain their complete mode/blob identity.",
+    "Repeated application accepts unchanged complete payload.",
+    "Real lab HEAD and index remain the published base."
+  ],
+  "git_failures": [],
+  "stdout": "Verified local HEAD: 6c69eca83cadd0346d85110af470a61f3f075d5d\nVerified known old/new transitions.\nBackup: /workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/checkpoint003_actual_yctjq5z4/lab/delivery/checkpoint003_backups/20260906T155636.252112Z-a14pn_ht\nVerified local HEAD: 6c69eca83cadd0346d85110af470a61f3f075d5d\nVerified complete staged checkpoint.\nREADY: installed bytes and actual staged blobs match. No commit or push was attempted.\nVerified local HEAD: 6c69eca83cadd0346d85110af470a61f3f075d5d\nVerified known old/new transitions.\nBackup: /workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/checkpoint003_actual_yctjq5z4/lab/delivery/checkpoint003_backups/20260906T155637.789143Z-d08j5c42\nVerified local HEAD: 6c69eca83cadd0346d85110af470a61f3f075d5d\nVerified complete staged checkpoint.\nREADY: installed bytes and actual staged blobs match. No commit or push was attempted.\nVerified local HEAD: 6c69eca83cadd0346d85110af470a61f3f075d5d\nVerified complete staged checkpoint.\n"
+}

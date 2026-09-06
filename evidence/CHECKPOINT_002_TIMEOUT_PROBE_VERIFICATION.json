@@ -1,0 +1,139 @@
+{
+  "timestamp": "2026-09-06T14:23:06.951608+00:00",
+  "scope": "Bounded engineering consultation with shared tools/filesystem; not independent review. Local fixture Git only.",
+  "source_path": "scripts/checkpoint002_timeout_probe.py",
+  "source_sha256": "514182c02a44b532b5828c2e2b0565d963ff94ac889ed044bdca11990dcb1b91",
+  "pinned_repair_path": "scripts/checkpoint002_repair.py",
+  "pinned_repair_sha256": "2d024c8cf2c042885414f53275bea836094a8ab4dd7d77da876abb83b703f9de",
+  "harness_path": "delivery/test_checkpoint002_timeout_probe.py",
+  "harness_sha256": "5d277a5d6c6efea4bbab4f940fcfb1f20a0547b9f3f06ac762dd80a160103737",
+  "commands_path": "delivery/checkpoint002_timeout_commands.jsonl",
+  "commands_sha256": "16eb90db40748dbb4b1c1122dc0e2f320698e87db82f4af481116c5c86e731fc",
+  "git_version": "git version 2.51.1",
+  "source_files_unchanged": true,
+  "old_fixtures_not_modified": true,
+  "runtime_overrides": [
+    "ROOT and REMOTE point to new contained fixtures",
+    "BAD_HEAD is synthetic direct-child fixture commit",
+    "COMMAND_SECONDS=0.5 for subprocess-failure fixtures only",
+    "PATH temporarily selects fixture Git fault injector"
+  ],
+  "passed": true,
+  "case_count": 8,
+  "cases": [
+    {
+      "case": "healthy_unrepaired",
+      "passed": true,
+      "output": {
+        "stdout": "START: verify present local state using the unchanged repair checks.\nVerified current local commit: ef537f88e72b8d8abf350d833726e29475da6498\nVerified correction commit already exists: false\nAll original working checkpoint bytes match their declared hashes.\nLocal inspection seconds: 1.734 | Git commands: 161\nSTART: git ls-remote --refs origin refs/heads/main (at most 60 seconds).\nObserved remote main: 189f424e5cc9588d9774fd58850c44c9b182f813\nRemote is an expected checkpoint state: true\nDONE: both checks completed. This does not establish that commit or push will work.\n",
+        "stderr": "",
+        "exception": null,
+        "elapsed_seconds": 1.76
+      },
+      "files_index_head_config_and_remote_unchanged": true,
+      "checked_checkpoint_files": 73
+    },
+    {
+      "case": "healthy_repaired",
+      "passed": true,
+      "output": {
+        "stdout": "START: verify present local state using the unchanged repair checks.\nVerified current local commit: 156390792f6464108773c47b82b888df05cd5ddd\nVerified correction commit already exists: true\nAll original working checkpoint bytes match their declared hashes.\nLocal inspection seconds: 1.792 | Git commands: 165\nSTART: git ls-remote --refs origin refs/heads/main (at most 60 seconds).\nObserved remote main: 156390792f6464108773c47b82b888df05cd5ddd\nRemote is an expected checkpoint state: true\nDONE: both checks completed. This does not establish that commit or push will work.\n",
+        "stderr": "",
+        "exception": null,
+        "elapsed_seconds": 1.816
+      },
+      "files_index_head_config_and_remote_unchanged": true,
+      "checked_checkpoint_files": 73
+    },
+    {
+      "case": "source_hash_rejection_before_execution",
+      "passed": true,
+      "subprocess_calls": 0
+    },
+    {
+      "case": "unrelated_staged_change_refused",
+      "passed": true,
+      "output": {
+        "stdout": "START: verify present local state using the unchanged repair checks.\n",
+        "stderr": "",
+        "exception": {
+          "type": "ValueError",
+          "message": "Unrelated tracked or staged changes exist"
+        },
+        "elapsed_seconds": 1.74
+      },
+      "snapshot_unchanged": true,
+      "no_remote_call": true
+    },
+    {
+      "case": "push_command_refused_before_execution",
+      "passed": true,
+      "subprocess_calls": 0
+    },
+    {
+      "case": "hang_operation_named_and_output_private",
+      "passed": true,
+      "output": {
+        "stdout": "START: verify present local state using the unchanged repair checks.\nVerified current local commit: ef537f88e72b8d8abf350d833726e29475da6498\nVerified correction commit already exists: false\nAll original working checkpoint bytes match their declared hashes.\nLocal inspection seconds: 13.04 | Git commands: 161\nSTART: git ls-remote --refs origin refs/heads/main (at most 60 seconds).\nTIMEOUT: git ls-remote --refs origin refs/heads/main\nPhase: read remote main | elapsed seconds: 2.534\nCleanup: owned process reaped; captured pipes closed\nRecognized error signatures: []\nRaw failure output saved locally to .git/checkpoint002_timeout_errors.jsonl. Do not paste that log.\n",
+        "stderr": "",
+        "exception": {
+          "type": "RuntimeError",
+          "message": "Diagnostic stopped at the named command; no repair or push was attempted."
+        },
+        "elapsed_seconds": 15.574
+      },
+      "snapshot_unchanged_except_declared_local_error_log": true,
+      "raw_log_path": "delivery/checkpoint002_timeout_fixtures/hang/ARC_Independent_Lab/.git/checkpoint002_timeout_errors.jsonl",
+      "raw_log_sha256": "baa1427fafcb5b3209b7108a900f813842dd87dc734304e018073b2bc27bc2c0",
+      "terminal_secrets_absent": true,
+      "raw_fixture_error_preserved": true,
+      "new_error_log_mode": "0600",
+      "owned_parent_and_child_not_running_after_timeout": true
+    },
+    {
+      "case": "pipe_child_operation_named_and_output_private",
+      "passed": true,
+      "output": {
+        "stdout": "START: verify present local state using the unchanged repair checks.\nVerified current local commit: ef537f88e72b8d8abf350d833726e29475da6498\nVerified correction commit already exists: false\nAll original working checkpoint bytes match their declared hashes.\nLocal inspection seconds: 13.025 | Git commands: 161\nSTART: git ls-remote --refs origin refs/heads/main (at most 60 seconds).\nTIMEOUT: git ls-remote --refs origin refs/heads/main\nPhase: read remote main | elapsed seconds: 2.507\nCleanup: owned process reaped; captured pipes closed\nRecognized error signatures: []\nRaw failure output saved locally to .git/checkpoint002_timeout_errors.jsonl. Do not paste that log.\n",
+        "stderr": "",
+        "exception": {
+          "type": "RuntimeError",
+          "message": "Diagnostic stopped at the named command; no repair or push was attempted."
+        },
+        "elapsed_seconds": 15.533
+      },
+      "snapshot_unchanged_except_declared_local_error_log": true,
+      "raw_log_path": "delivery/checkpoint002_timeout_fixtures/pipe_child/ARC_Independent_Lab/.git/checkpoint002_timeout_errors.jsonl",
+      "raw_log_sha256": "57edd6db1ad1bca370f92182f34bae39eb468ce997d82c180ad03bf43e9bd3da",
+      "terminal_secrets_absent": true,
+      "raw_fixture_error_preserved": true,
+      "new_error_log_mode": "0600",
+      "owned_parent_and_child_not_running_after_timeout": true
+    },
+    {
+      "case": "error_operation_named_and_output_private",
+      "passed": true,
+      "output": {
+        "stdout": "START: verify present local state using the unchanged repair checks.\nVerified current local commit: ef537f88e72b8d8abf350d833726e29475da6498\nVerified correction commit already exists: false\nAll original working checkpoint bytes match their declared hashes.\nLocal inspection seconds: 12.851 | Git commands: 161\nSTART: git ls-remote --refs origin refs/heads/main (at most 60 seconds).\nEXIT 17: git ls-remote --refs origin refs/heads/main\nPhase: read remote main | elapsed seconds: 0.069\nRecognized error signatures: [\"Authentication failed\"]\nRaw failure output saved locally to .git/checkpoint002_timeout_errors.jsonl. Do not paste that log.\n",
+        "stderr": "",
+        "exception": {
+          "type": "RuntimeError",
+          "message": "Diagnostic stopped at the named command; no repair or push was attempted."
+        },
+        "elapsed_seconds": 12.921
+      },
+      "snapshot_unchanged_except_declared_local_error_log": true,
+      "raw_log_path": "delivery/checkpoint002_timeout_fixtures/error/ARC_Independent_Lab/.git/checkpoint002_timeout_errors.jsonl",
+      "raw_log_sha256": "a16b72a6ee614822624fc92dc40f13a6247298a41085ddfd37217763f6a81e33",
+      "terminal_secrets_absent": true,
+      "raw_fixture_error_preserved": true,
+      "new_error_log_mode": "0600"
+    }
+  ],
+  "limits": [
+    "No laptop execution or public GitHub transport measured.",
+    "No claim to terminate detached descendants outside the owned process group.",
+    "Existing process trees from the prior helper are neither inspected nor killed.",
+    "Tests establish probe behavior, not the cause of the user timeout."
+  ]
+}

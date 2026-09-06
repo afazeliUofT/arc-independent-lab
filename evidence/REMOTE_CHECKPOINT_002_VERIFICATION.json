@@ -1,0 +1,380 @@
+{
+  "ts": "2026-09-06T15:24:39.775622+00:00",
+  "remote_url": "https://github.com/afazeliUofT/arc-independent-lab",
+  "access_date": "2026-09-06",
+  "commit": "6c69eca83cadd0346d85110af470a61f3f075d5d",
+  "connector_ref_matched": true,
+  "retrieval": "git fetch --no-tags origin main; actual fetched blobs SHA-256 verified",
+  "original_checkpoint_files_checked": 71,
+  "manifest_sha256": "720c979094f19b49e69ca102d94d77cde45c0c04df74e783981f1c9742970687",
+  "answer_sha256": "234bc2ff8a90d9365e883a13b2eac624cb733a74851a6ea8bba0057de2fe1b3f",
+  "attribute_sha256": "8646fb5687c7638f3ada2fe4684696b14830ea4395514401d7e01556b6facd68",
+  "parents": [
+    "6c69eca83cadd0346d85110af470a61f3f075d5d",
+    "6b06dc1120b22d59ae7c9d550feb3f124ff656fa",
+    "189f424e5cc9588d9774fd58850c44c9b182f813"
+  ],
+  "correction_only_paths": [
+    ".gitattributes",
+    "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/metrics.csv"
+  ],
+  "all_checks_passed": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "6a52aab598dd14ce866d3f8323b1b5245176ef101ee775525674144b71e698eb",
+      "git_blob_oid": "0852d4cf25667d15e25bff3ed328d306385ba93d"
+    },
+    {
+      "path": "DIAGNOSIS.md",
+      "sha256": "50de99397e2087141ab15d1c095c9cd1de54c5ecd123f22a59431cefbd95a102",
+      "git_blob_oid": "9ce13b04149ffa991451b4a5517aaeb7c614c292"
+    },
+    {
+      "path": "IDEAS_PARKED.md",
+      "sha256": "5885dbd9c27b1b3815eb85990cf4682e09475f831843dd451df727648dfe052e",
+      "git_blob_oid": "c2560d0456084406b44df8388d5eb88750ad19f1"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "dfb1fb70676030e123e9b58d7152437bbb88169293552867ad3817dde20465ec",
+      "git_blob_oid": "defcae1dbd00a0cb9f1c53a29df29432bbf5a8ee"
+    },
+    {
+      "path": "README.md",
+      "sha256": "ba5537f0b54f83dd3c43ad49581667f69eca36d8a55db414b0dabeddebd08bc3",
+      "git_blob_oid": "6199710234bb22f2e64810c4ca5ff592ee46f062"
+    },
+    {
+      "path": "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/SHA256SUMS",
+      "sha256": "918e083e067d289494c02b360a35ad6bc3af10d8d87ea0485e90d6153cc6b9e1",
+      "git_blob_oid": "0e4530db07e98a9fcfc9769fa5a8993b541551bf"
+    },
+    {
+      "path": "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/environment_info.json",
+      "sha256": "8e2ff3c23639871d5b9336c36c915793524d3c434a944ecded73dec7459c9b0e",
+      "git_blob_oid": "b520ed2a036eca4de2749ec50b8aa5d38a6789ea"
+    },
+    {
+      "path": "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/git_state.txt",
+      "sha256": "ec3901eb1d5180d4aaa891bd385fa0b312faa46bb7b406a032ad041087b39ea9",
+      "git_blob_oid": "fbca720fafc25819faa32c6a885016d195fc6833"
+    },
+    {
+      "path": "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/hypotheses.jsonl",
+      "sha256": "5a7b8871208b71a16caecfe958084af7f7618d4a3fb95aa802fbf9ff68f3d6d8",
+      "git_blob_oid": "546b48a5a3e040a383036476cf8957115182b313"
+    },
+    {
+      "path": "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/manifest.json",
+      "sha256": "9337e7dbb3f0ee034e01fdd0bc595b4a8e9bffc2cbe5059785990cc77c2c4783",
+      "git_blob_oid": "84ed4b198b5d38048c3d1a029ad1afe479af4196"
+    },
+    {
+      "path": "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/metrics.csv",
+      "sha256": "24b2dc318e048493d4f265291935ef02ce09c7221a96422cfc8c0405c02c434a",
+      "git_blob_oid": "aab75012e4a8f8eef2763b9a8cf7c5888a4920d5"
+    },
+    {
+      "path": "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/resolved_config.yaml",
+      "sha256": "4e0c718c033dd31fdff2bfe07d94f5e8230c221bfaff3a46ef42e0982f7fab40",
+      "git_blob_oid": "55fb30481921a18b248d996d16ba0f42d61f7ed8"
+    },
+    {
+      "path": "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/results.json",
+      "sha256": "837b6ce92176182d1e2878f585388824d3b0173d2585e69c749243ac0a626762",
+      "git_blob_oid": "31c92aa2e48c5fa6f0680a9272efb856345c681d"
+    },
+    {
+      "path": "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/stdout.log",
+      "sha256": "d9dd695e2586f82a0755c8fb3432026ed4a042aec6731b6266e1b649fa3da522",
+      "git_blob_oid": "e718bd3b1a261c25bee2a2ce641c5c701301e4a5"
+    },
+    {
+      "path": "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/transitions.jsonl",
+      "sha256": "908f4b073a63a0c7019fe65173b461a2fc7f7ad0b51d68f05e7cfc083308a3a4",
+      "git_blob_oid": "0e4d5a19ab0ca34a054e95b8166cf15fdc7c931c"
+    },
+    {
+      "path": "configs/P1_LINEAR_INTERFERENCE.json",
+      "sha256": "4e0c718c033dd31fdff2bfe07d94f5e8230c221bfaff3a46ef42e0982f7fab40",
+      "git_blob_oid": "55fb30481921a18b248d996d16ba0f42d61f7ed8"
+    },
+    {
+      "path": "dependencies.lock.json",
+      "sha256": "4a552db520865fa2c76b2174b0b560526ef7268ccade152f5ecd127794375e33",
+      "git_blob_oid": "dd739a2a4e2f6ad3198073cdb4c1d492e35cef72"
+    },
+    {
+      "path": "docs/CHECKPOINT_002_HANDOFF.md",
+      "sha256": "8c3664c4f6cb2a54fdf7daed1087f978a48ba4725c6e038b31923cc61f52471f",
+      "git_blob_oid": "6f7315a7e4e30313a7b29b2834407a049b12937a"
+    },
+    {
+      "path": "docs/CHECKPOINT_HANDOFF.md",
+      "sha256": "ba11cdea430e39e8519393fa45eb65cbdd43d2c361219b6d07ff445ab8d20eba",
+      "git_blob_oid": "7c26af0b3f5fe4f6342fab62e0221f224b50ad74"
+    },
+    {
+      "path": "docs/P1_REPRODUCTION_DESIGN.md",
+      "sha256": "1f1013d4ca3eebfe2d77f338136e48d221461dd050b0a1607f1a55501fb131c4",
+      "git_blob_oid": "d1ddc28cf434bfee63acd2077b26801ebc83b295"
+    },
+    {
+      "path": "docs/PAPER_REQUESTS_2026-09-06.md",
+      "sha256": "9a84a8ae394aeae20028f77ef18ca100ec6ff8a76affed81d088ed598b1e09a3",
+      "git_blob_oid": "22b09eaa5ccf1f45c6b1d365adfc1380f12291c5"
+    },
+    {
+      "path": "docs/TOOLING_EVIDENCE.md",
+      "sha256": "e1e6c0337ba15f61944639c77aebb95e2da5b8a35c673b507905f0a8ec871d8a",
+      "git_blob_oid": "e40edb07cd1df5c9556b493f2cdd04a078d606d6"
+    },
+    {
+      "path": "docs/USER_AMENDMENTS_2026-09-06.md",
+      "sha256": "b082ac9fc8f9305fcbee059e716b1f2b06d1c01c8c3702a4166fa7e60a086f33",
+      "git_blob_oid": "e01f78435dfb2c010133b3d04e3ffbaa4f50367a"
+    },
+    {
+      "path": "docs/governing/00_START_HERE.md",
+      "sha256": "d598a44576b222d7465fb691671420e85ec10f738a8424f2f2f223c77af4336a",
+      "git_blob_oid": "13d27ae8ce216626d8bf1360d9969e59cd17d962"
+    },
+    {
+      "path": "docs/governing/01_THE_PROBLEM.md",
+      "sha256": "e89ddd629cfc839be31d0127acb59354b5e38d23e77859a8d8c7bbea87e00d3e",
+      "git_blob_oid": "22970b73eb7e9708eb606010933486e7c4918f5f"
+    },
+    {
+      "path": "docs/governing/02_RESEARCH_PROCESS.md",
+      "sha256": "7bf3c496962d0ede489ef10a237d3b70830fb439f3395235c3b8c18a23c4bc3d",
+      "git_blob_oid": "4ab560a70d58fd9d8a2b76e2bed3ac5fd22c5144"
+    },
+    {
+      "path": "docs/governing/03_AUTONOMY_SPEC.md",
+      "sha256": "b4beb0712e44fa7621da14bc2e9c55fb66dbd7866a93cc335b36f9f532b2a912",
+      "git_blob_oid": "33d2cbc8ab2771d31c1b800e6580f0cecd11c5fd"
+    },
+    {
+      "path": "docs/governing/04_RESOURCES_AND_SETUP.md",
+      "sha256": "00e2e878fbfc1a11d56ada0ed512bd53443250326a0275ad082f842013c25cd5",
+      "git_blob_oid": "43936e3b25cca9c076d3645a40aa48601f065318"
+    },
+    {
+      "path": "docs/governing/05_OPERATIONAL_LESSONS.md",
+      "sha256": "bcc4d50bb8b4b9d32c3a8859e9b1cd645fea82cb93184792191649efc30fc000",
+      "git_blob_oid": "3763034bcac9d0f099bb4b69da205496a128479b"
+    },
+    {
+      "path": "evidence/CHECKPOINT_002_LOCAL_ROUNDTRIP.json",
+      "sha256": "0b939a5e281d2cf9fbf8feb54eaba556b5fd0af0dd6c6fbb59f740bc3b7322f3",
+      "git_blob_oid": "8a499fda26b8b2dd3be498d7972b79f7f87ca257"
+    },
+    {
+      "path": "evidence/CHECKPOINT_002_RELEASE_ROUNDTRIP.json",
+      "sha256": "2f5c32697b1a4fb1a9cd42057372d9b21d53e3c9aa4b9f3bb6ce8ae6e28287c1",
+      "git_blob_oid": "e4529df7d1a5e85c420190e90fce025576284963"
+    },
+    {
+      "path": "evidence/CHECKPOINT_UPDATE_HELPER_CHECKS_2026-09-06.json",
+      "sha256": "ec78ab0a78a8f2ec850bf41ea8d55e5a32af5635f06ca6a461cd969c5d934b7e",
+      "git_blob_oid": "6b71947df1e77f8d8543bfaee80a6a4807789430"
+    },
+    {
+      "path": "evidence/CHECKPOINT_UPDATE_INDEX_REGRESSION_2026-09-06.json",
+      "sha256": "0883f3c442b9b162ed1604b4b74d2d3406c42c8481fcf80adde40bd05bb9a577",
+      "git_blob_oid": "3807af3460d8719ca017aee3ba0c1bb1c312fdd9"
+    },
+    {
+      "path": "evidence/CHECKPOINT_UPDATE_METHODS_2026-09-06.md",
+      "sha256": "9478662629ec2a11fd8b01a3ddf96514e027e434127c1122e4ff7013ca58b6aa",
+      "git_blob_oid": "b49ce539b4a65f1db0e0847a96e006203539bc13"
+    },
+    {
+      "path": "evidence/DRESCHER_SUPPLIED_METHODS_2026-09-06.md",
+      "sha256": "e1a679e1d0c9af089ceb5deff6331371d565011a04a3f06709dfe78c26557222",
+      "git_blob_oid": "e5b11b5168e406eaf52158886c337fae337a704e"
+    },
+    {
+      "path": "evidence/DRESCHER_SUPPLIED_METHODS_ERRORS_2026-09-06.jsonl",
+      "sha256": "c619aa856e1757e92876b21d6ec5d63ff7032b0b066a2dccf525e08eec653b74",
+      "git_blob_oid": "332768e82d4a6f9e9547bb97f5aa188cf0a0ea93"
+    },
+    {
+      "path": "evidence/MINTON_SOURCE_ERRORS_2026-09-06.jsonl",
+      "sha256": "6c3b80024aa8a295731f88feee0bffefdcb8fb07155858d0c566dba8b590882b",
+      "git_blob_oid": "8dbb95d8be05bb06b7cacf08288a21d22b60e593"
+    },
+    {
+      "path": "evidence/MINTON_SUPPLIED_METHODS_2026-09-06.md",
+      "sha256": "9bf9fbe9e734fe08eb6a1957a5dfb13d54b0d4b3794a96bb7e90764ace767013",
+      "git_blob_oid": "e7797a4edd98f0dd604e20b52e2afc04bffa717a"
+    },
+    {
+      "path": "evidence/P1_REPRODUCTION_AUDIT_20260906_001.json",
+      "sha256": "0fec7f01bcec518ad0f14ae26fd4591744e25dd7475e043fbf5512670b67bab4",
+      "git_blob_oid": "d5b7722773224e7e2ced97bea5036e34cdad2338"
+    },
+    {
+      "path": "evidence/PAPER_REQUESTS_001_RESOLUTION.md",
+      "sha256": "f0881f2d6165f60d8d186d55ebee65205d84137b5251ffc4f7befea58123e557",
+      "git_blob_oid": "eeb30cafaa76c31363ddd35e692b43ecb3738684"
+    },
+    {
+      "path": "evidence/REMOTE_CHECKPOINT_001_VERIFICATION.json",
+      "sha256": "e5340a450abc52ee7bc8c0fb39dfd09a1218d5bb7d8865496f1f8d7164e54e8f",
+      "git_blob_oid": "5c97da59d562b22e713ced333855b1b50776c24f"
+    },
+    {
+      "path": "evidence/REPRO_METHODS_CONSULT_2026-09-06.md",
+      "sha256": "f02d6fd622212fb32b15ad4ea3b2d5e3b35de54204e6e25f74a3d70fb385f5b8",
+      "git_blob_oid": "aea02c18e0cc6ca6528f0916e2e84d170b5bf9fe"
+    },
+    {
+      "path": "evidence/ROOT_SOURCE_ACCESS_2026-09-06.jsonl",
+      "sha256": "76b7580e5b97779286a1bb7c6213abb7cdca24513335af18107b1fae755c505a",
+      "git_blob_oid": "bc6404f2d3b42d09e6166d0a5cced7a66b8a4e19"
+    },
+    {
+      "path": "evidence/RYAN_SOURCE_ERRORS_2026-09-06.jsonl",
+      "sha256": "01bdbefe19aa3af35b4418bbf9d27f0003b8a473abf42ec14f336d0cf0856309",
+      "git_blob_oid": "d8ecefd4d51a5fffbb820611aa0b6e28f3c31bd2"
+    },
+    {
+      "path": "evidence/RYAN_SUPPLIED_METHODS_2026-09-06.md",
+      "sha256": "6457438f5ab3b49ff9e0c4b50e0de20877e4aed07d5eb1853c9e980a055f873f",
+      "git_blob_oid": "11b6746c1560e7fe8527bb636464bc1586dba743"
+    },
+    {
+      "path": "evidence/SCOUT_ARCHAEOLOGY_2026-09-06.md",
+      "sha256": "d26069f5bd3ef0960c2b6578f11b8194b88cc98f25028965928ed5f14b6ae65a",
+      "git_blob_oid": "4e421ae0f39ba1c0dfd5427b93974f110edcf93e"
+    },
+    {
+      "path": "evidence/SCOUT_ARCHAEOLOGY_ERRORS_2026-09-06.jsonl",
+      "sha256": "086b740dba3016f7ff7346688fb7af932cfc1341ca3ea0cd43db060f674450d7",
+      "git_blob_oid": "c4407b6507dca827d28a337e1ea147fee53f5954"
+    },
+    {
+      "path": "evidence/SCOUT_BIOLOGY_2026-09-06.md",
+      "sha256": "19fd9eaebccee5320a66fc6f382b57cbd47e53597050eacdd358a1dee3a31144",
+      "git_blob_oid": "56ed556dbd88fc20e1fde234b03cf4efbe087ff1"
+    },
+    {
+      "path": "evidence/SCOUT_BIOLOGY_ERRORS_2026-09-06.jsonl",
+      "sha256": "8d511dfdebd40ed92b21a4ee60f7f2bc7e695460a25a4ac33d694dbc5be99754",
+      "git_blob_oid": "d098690c5b401d4c9bf56ee745f4122fad007b6f"
+    },
+    {
+      "path": "evidence/SCOUT_RECENT_AI_2026-09-06.md",
+      "sha256": "914445972ec4c1b927c0049c09f817ccc285e64a81a13795aa7fdc3f36baaa06",
+      "git_blob_oid": "60a2629d05266a3fc9979a440639002ee244cb77"
+    },
+    {
+      "path": "evidence/SCOUT_RECENT_AI_ERRORS.jsonl",
+      "sha256": "5cef2df85b523b60e8ca830799317e5214d704e872a47908c6d8c973e4a420c0",
+      "git_blob_oid": "c7c7a98402dd92666d8b145740923e4a522e2399"
+    },
+    {
+      "path": "evidence/SUPPLIED_PAPERS_001_MANIFEST.json",
+      "sha256": "c6f467788d96148c31c0a8dccc9637e9cc1e6edfc259592ba047781234d11d55",
+      "git_blob_oid": "6ee173cb5e4d0283ed24d3d76ba94e994c8cb236"
+    },
+    {
+      "path": "evidence/checkpoint_transfer_test_method.md",
+      "sha256": "55f1c482423ce0f82e2ebefe1290914bce72649dc81510d543cb151af7b02efd",
+      "git_blob_oid": "0ab55d1c6d71ba8b6b902b93236353619650d7a7"
+    },
+    {
+      "path": "evidence/checkpoint_transfer_verification.json",
+      "sha256": "100ed303406703fd60a4ede8facae6da2e80587eee8bf74774606fafe3cb48bf",
+      "git_blob_oid": "10afd7140b511e7021a96db7c9059de7439906cf"
+    },
+    {
+      "path": "evidence/github_access.json",
+      "sha256": "156fc3864ff0589d2767ee553a4551a4ff1e3f7911313eb966c00c1f62e369be",
+      "git_blob_oid": "a66e327175d91af00a000283b4ffdbae66718768"
+    },
+    {
+      "path": "evidence/governing_inputs.json",
+      "sha256": "18066bcc380edcb3a684366df816e6a32219609aea7862e16898d680691c3b9d",
+      "git_blob_oid": "debaa68ddbcba7d4824b32fb7e5105e6d1b89123"
+    },
+    {
+      "path": "evidence/runtime_probe.json",
+      "sha256": "7f85a9c964f331227064fe3fb04839f1e5f8c8e3cf0e3374b11a06ee613c7b58",
+      "git_blob_oid": "571b823fad14a1853aa7c4ffdc3a89b4864407ba"
+    },
+    {
+      "path": "reports/DIGEST_2026-09-06.md",
+      "sha256": "a47db590311913184a5758f3f8730d24c268ce2eb755f937d30f1adb9a2a389f",
+      "git_blob_oid": "1059dc10a41386a7ba30b36d0b9f7e6e21b67bcb"
+    },
+    {
+      "path": "reports/P1_REPRODUCTION_001.md",
+      "sha256": "0e071ab1761b98396d843c8c93e69160c0618ba62a785a1603872286587616ad",
+      "git_blob_oid": "5b427a2193ee5807473dc837125c53b6258bc512"
+    },
+    {
+      "path": "scripts/audit_reproduction.py",
+      "sha256": "421957453a1bd33df48084a1dc2a08bef0f78766796165d5d2deeae1f4ab1e78",
+      "git_blob_oid": "c52f916b329fd8a39d547fe8a5a8547a4930c35c"
+    },
+    {
+      "path": "scripts/checkpoint_transfer.py",
+      "sha256": "6b18fb30b7ec68658a59f119f950519592c1c7709a39bf4438a5827579bc19fc",
+      "git_blob_oid": "2188d902f09b1411bf52b13b8d6296be82c8e65e"
+    },
+    {
+      "path": "scripts/checkpoint_update.py",
+      "sha256": "fa2053151ce56a21965ed3d83d99eaba2868680079162c00e8d33e3272251262",
+      "git_blob_oid": "53313daabc2776ea274318821d57d5a6eb4692c4"
+    },
+    {
+      "path": "scripts/run_reproduction.py",
+      "sha256": "8c4ae3d5f4804749c667e348f3d3f224d1e7d8a229bcbf7c4f9b1e0770872e64",
+      "git_blob_oid": "d9dcecc6c51334707281c1f5a9b8c7ee662cd663"
+    },
+    {
+      "path": "state/BUDGET.json",
+      "sha256": "08aed1dce54b04125ebb36fd46a3928b7c81b5340aef4a2a5725abd5e052578c",
+      "git_blob_oid": "da11e0da1f51846f9a2ccd44871785c96e3de6e9"
+    },
+    {
+      "path": "state/CHECKPOINT_001.json",
+      "sha256": "c3d275733af99832d5120cc4b8d498196192b19d756b5e7e6222ebc6226858f1",
+      "git_blob_oid": "7e1db7dc49b0618787955be9c698cfb1e74b0807"
+    },
+    {
+      "path": "state/LEDGER.jsonl",
+      "sha256": "7d698a82c6b446a8d8bcbf0c033d78e56dd54e70c654f00f2ca18f218cd13014",
+      "git_blob_oid": "503606e6c486d21bbb1b02a34d94d23ea16783cf"
+    },
+    {
+      "path": "state/PROJECT_STATE.json",
+      "sha256": "495e3d07185830e16d14020450843e4609c12151c31a33d7163b0469c5bc2c1c",
+      "git_blob_oid": "a6e9aaa5252993e4d141d504405e4eed692d32b8"
+    },
+    {
+      "path": "state/escalations/2026-09-06_CHECKPOINT_001_ANSWER.md",
+      "sha256": "7693384a1394dc676ffc8e1549e870922259234dfff744d3b41a96a240796b84",
+      "git_blob_oid": "2e31f32537339dbe3366b4820102b1b3c8c92c99"
+    },
+    {
+      "path": "state/handoff_errors.jsonl",
+      "sha256": "22703cc4f6f4e81bc77699bb90a7ef9f2c1aad4ece76700174c46d2a4a73c328",
+      "git_blob_oid": "8d6a4d16fc2af3be357bcd209b515397ee8931a6"
+    },
+    {
+      "path": "state/tool_errors.jsonl",
+      "sha256": "4f6833fc0d7561425a85c849e86410f8d506b869be9d9a14af95ec9220c94fac",
+      "git_blob_oid": "a406158c3bd4c208541028de5f2a20379ecba083"
+    }
+  ],
+  "parked_ideas_handling": "Opaque hashing only; no text inspected or displayed"
+}
