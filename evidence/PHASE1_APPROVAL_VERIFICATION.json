@@ -1,0 +1,19 @@
+{
+  "verified_utc": "2026-09-06T18:51:56.227927+00:00",
+  "source_url": "https://github.com/afazeliUofT/arc-independent-lab/blob/376455150af7b257809a56021431413b2e0c6293/state/ESCALATION.md",
+  "access_date": "2026-09-06",
+  "approval_commit": "376455150af7b257809a56021431413b2e0c6293",
+  "parent": "069bd7dc3db1cec6e9fc6ff67046547488f05353",
+  "only_changed_path": "state/ESCALATION.md",
+  "approved_diagnosis_commit": "069bd7dc3db1cec6e9fc6ff67046547488f05353",
+  "approved_diagnosis_sha256": "e3106d737f5b50a688d1d5147a015dc091d2986493848b68d33d61949dfa4cc3",
+  "approval_file_sha256": "b8f96679114d2824c1d680b77c2f671589ffe7827069ce50ce489d2ba4f4b578",
+  "archived_answer": "state/escalations/2026-09-06_PHASE1_APPROVED.md",
+  "human_answer_verbatim": "\nI approve DIAGNOSIS.md at commit\n069bd7dc3db1cec6e9fc6ff67046547488f05353\nas the basis for Phase 2. Begin ideation with novelty\nscreening switched off.\n\nTwo items carried into Phase 2 as required work, neither\nblocking its start.\n\n1. BIOLOGY, ONE MORE FOCUSED PASS, BEFORE GENERATION.\nSection 4 has now twice produced interpretive hygiene \u2014\npreservation is relational, discontinuities are selective,\npriors count, expression differs from knowledge. All correct,\nall useful, and none of it is what that section is for.\nRun one more pass against the generative question in\n01_THE_PROBLEM.md section 4: what computational constraint\ndoes a biological system respect that our systems violate\nwithout noticing? Not what structure resembles a component.\nDo this at the start of Phase 2 so its output is available\nas generation material. If a third pass also comes back\nempty, say so plainly and proceed \u2014 a documented negative\nis acceptable, quiet omission is not.\n\n2. THE OBSERVER WITHOUT PRIVILEGED GEOMETRY.\nIn section 3.1 the observer is supplied the feature geometry\nit uses to recover the old estimate, which you flag yourself.\nThat leaves the third-ranked bottleneck showing that\ninformation survives, not that it is recoverable by the\nagent. Run the same construction with recovery restricted to\nwhat the learner itself could compute. It is cheap and either\nanswer is decisive: if recovery holds, surviving information\nis usable information and that bottleneck strengthens\nconsiderably; if it does not, the dissociation is a curiosity\nand should be ranked accordingly. Run it alongside Phase 2\nideation rather than before it.\n\nOn the revision itself: demoting your own reproduction from\nfirst to third, and promoting a bottleneck your own\nexperiment does not support, is the right call and I want it\non the record that you made it.\n",
+  "local_overlays_preserved_during_adoption": true,
+  "formal_result_verdict": false,
+  "required_work": [
+    "Focused biological computational-constraint pass before generation",
+    "Learner-computable observer follow-up alongside ideation"
+  ]
+}

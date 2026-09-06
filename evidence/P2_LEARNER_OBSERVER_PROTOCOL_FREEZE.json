@@ -1,0 +1,129 @@
+{
+  "freeze_timestamp_utc": "2026-09-06T19:02:57.976675+00:00",
+  "execution_occurred": false,
+  "purpose": "Prospective input freeze for the human-requested diagnostic, not a scientific gate or independent review",
+  "frozen_input_hashes": {
+    "scripts/run_learner_observer.py": "81682d063317df6f1fd0f0edfd5e86164b86416aac0b83f61aaa11f8f4ba191d",
+    "configs/P2_LEARNER_OBSERVER.json": "87e452f0c05381aee1451bdbc05a60567fc8295089d27ef85bfbd7a5f8d281c1",
+    "docs/followups/P2_LEARNER_OBSERVER_PROTOCOL.md": "24c9e92f528a6cdc5e97a657fa7c8d0db3b4428434eb1d9cef4054d0d3b43bee",
+    "dependencies.lock.json": "4a552db520865fa2c76b2174b0b560526ef7268ccade152f5ecd127794375e33"
+  },
+  "original_protected_hashes": {
+    "scripts/run_reproduction.py": "8c4ae3d5f4804749c667e348f3d3f224d1e7d8a229bcbf7c4f9b1e0770872e64",
+    "scripts/audit_reproduction.py": "421957453a1bd33df48084a1dc2a08bef0f78766796165d5d2deeae1f4ab1e78",
+    "configs/P1_LINEAR_INTERFERENCE.json": "4e0c718c033dd31fdff2bfe07d94f5e8230c221bfaff3a46ef42e0982f7fab40",
+    "docs/P1_REPRODUCTION_DESIGN.md": "1f1013d4ca3eebfe2d77f338136e48d221461dd050b0a1607f1a55501fb131c4",
+    "reports/P1_REPRODUCTION_001.md": "0e071ab1761b98396d843c8c93e69160c0618ba62a785a1603872286587616ad",
+    "DIAGNOSIS.md": "e3106d737f5b50a688d1d5147a015dc091d2986493848b68d33d61949dfa4cc3",
+    "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/SHA256SUMS": "918e083e067d289494c02b360a35ad6bc3af10d8d87ea0485e90d6153cc6b9e1",
+    "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/environment_info.json": "8e2ff3c23639871d5b9336c36c915793524d3c434a944ecded73dec7459c9b0e",
+    "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/git_state.txt": "ec3901eb1d5180d4aaa891bd385fa0b312faa46bb7b406a032ad041087b39ea9",
+    "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/hypotheses.jsonl": "5a7b8871208b71a16caecfe958084af7f7618d4a3fb95aa802fbf9ff68f3d6d8",
+    "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/manifest.json": "9337e7dbb3f0ee034e01fdd0bc595b4a8e9bffc2cbe5059785990cc77c2c4783",
+    "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/metrics.csv": "24b2dc318e048493d4f265291935ef02ce09c7221a96422cfc8c0405c02c434a",
+    "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/resolved_config.yaml": "4e0c718c033dd31fdff2bfe07d94f5e8230c221bfaff3a46ef42e0982f7fab40",
+    "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/results.json": "837b6ce92176182d1e2878f585388824d3b0173d2585e69c749243ac0a626762",
+    "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/stdout.log": "d9dd695e2586f82a0755c8fb3432026ed4a042aec6731b6266e1b649fa3da522",
+    "artifacts/P1_LINEAR_INTERFERENCE/20260906_001/transitions.jsonl": "908f4b073a63a0c7019fe65173b461a2fc7f7ad0b51d68f05e7cfc083308a3a4"
+  },
+  "static_recovery_interfaces": {
+    "extend_basis": {
+      "arguments": [
+        "basis",
+        "delta",
+        "tolerance"
+      ],
+      "loaded_names": [
+        "abs",
+        "basis",
+        "coefficient",
+        "column",
+        "component",
+        "delta",
+        "direction",
+        "dot",
+        "list",
+        "math",
+        "norm",
+        "residual",
+        "tolerance",
+        "x",
+        "y",
+        "zip"
+      ],
+      "imports_inside_function": false
+    },
+    "recover_from_current_map": {
+      "arguments": [
+        "theta",
+        "old_query",
+        "subsequent_feature",
+        "tolerance"
+      ],
+      "loaded_names": [
+        "a",
+        "abs",
+        "b",
+        "coefficient",
+        "denominator",
+        "dot",
+        "old_query",
+        "overlap",
+        "projected",
+        "subsequent_feature",
+        "subsequent_norm",
+        "theta",
+        "tolerance",
+        "zip"
+      ],
+      "imports_inside_function": false
+    },
+    "recover_from_update_spans": {
+      "arguments": [
+        "theta",
+        "old_basis",
+        "new_basis",
+        "old_query",
+        "tolerance"
+      ],
+      "loaded_names": [
+        "abs",
+        "axis",
+        "coefficient",
+        "coefficients",
+        "column",
+        "columns",
+        "direction",
+        "dot",
+        "enumerate",
+        "index",
+        "later",
+        "len",
+        "length",
+        "list",
+        "math",
+        "max",
+        "new_basis",
+        "old_basis",
+        "old_component",
+        "old_query",
+        "orthonormal",
+        "previous",
+        "range",
+        "reconstructed",
+        "residual",
+        "reversed",
+        "sum",
+        "theta",
+        "tolerance",
+        "triangular",
+        "x",
+        "y",
+        "zip"
+      ],
+      "imports_inside_function": false
+    }
+  },
+  "access_limitation": "Static argument/name inspection is not an enforced memory-access or data-flow boundary."
+}

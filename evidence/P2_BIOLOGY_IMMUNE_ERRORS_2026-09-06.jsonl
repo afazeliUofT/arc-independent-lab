@@ -1,0 +1,6 @@
+{"date": "2026-09-06", "operation": "retrieve full primary XML", "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4724390/fullTextXML", "error": "HTTP Error 404: Not Found"}
+{"date": "2026-09-06", "operation": "web open primary main article", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4724390/", "error": "web returned Checking your browser - reCAPTCHA; challenge not solved; ordinary deposited XML route tried separately"}
+{"date": "2026-09-06", "operation": "web open and find on primary AI article", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11338828/", "error": "Both open and find returned Checking your browser - reCAPTCHA, challenge not solved"}
+{"date": "2026-09-06", "operation": "rg --files tmp private_sources | rg -i dohare|07711|11338828", "exit_code": 1, "error": "No matching local source path; no stderr"}
+{"date": "2026-09-06", "operation": "extract guessed B4-B5 headings from SCOUT_BIOLOGY", "exit_code": 1, "error": "ValueError: substring not found; consequently XML retrieval in that cell not attempted. Corrected by direct existing line-range read."}
+{"date": "2026-09-06", "operation": "web reopen primary Zhang main page at results offset", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3600904/", "error": "Checking your browser - reCAPTCHA; no challenge solved. Already retrieved complete deposited XML used."}

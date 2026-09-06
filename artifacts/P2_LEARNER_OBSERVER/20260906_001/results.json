@@ -1,0 +1,3139 @@
+{
+  "completion_status": "completed",
+  "cases": [
+    {
+      "case_id": "identity_case_00",
+      "family": "original_crossing",
+      "geometry": "identity",
+      "original_case_id": "case_00",
+      "arm": "shared_normalized",
+      "old_gain": -1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        1.0,
+        0.0
+      ],
+      "subsequent_feature": [
+        0.7071067811865475,
+        0.7071067811865475
+      ],
+      "boundary": {
+        "theta": [
+          -0.9988209815422262,
+          0.0
+        ],
+        "prediction": -0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -1.2062723941976496,
+        -0.20745141265542372
+      ],
+      "final_ordinary_old_prediction": -1.2062723941976496,
+      "final_ordinary_new_prediction": -0.999653690550669,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.998820981542226,
+        "projection_denominator": 0.5
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.998820981542226,
+        "reconstruction_residual": 0.0
+      },
+      "old_basis": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "new_basis": [
+        [
+          0.7071067811865475,
+          0.7071067811865475
+        ]
+      ],
+      "max_api_boundary_error": 5.551115123125783e-16,
+      "max_trace_boundary_error": 5.551115123125783e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "identity_case_01",
+      "family": "original_crossing",
+      "geometry": "identity",
+      "original_case_id": "case_01",
+      "arm": "shared_normalized",
+      "old_gain": -1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        1.0,
+        0.0
+      ],
+      "subsequent_feature": [
+        0.7071067811865475,
+        0.7071067811865475
+      ],
+      "boundary": {
+        "theta": [
+          -0.9988209815422262,
+          0.0
+        ],
+        "prediction": -0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        0.20627378428217366,
+        1.2050947658243993
+      ],
+      "final_ordinary_old_prediction": 0.20627378428217366,
+      "final_ordinary_new_prediction": 0.9979882725337832,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422256,
+        "projection_denominator": 0.5
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422256,
+        "reconstruction_residual": 2.7755575615628914e-17
+      },
+      "old_basis": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "new_basis": [
+        [
+          0.7071067811865476,
+          0.7071067811865476
+        ]
+      ],
+      "max_api_boundary_error": 6.661338147750939e-16,
+      "max_trace_boundary_error": 6.661338147750939e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": 17,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "identity_case_02",
+      "family": "original_crossing",
+      "geometry": "identity",
+      "original_case_id": "case_02",
+      "arm": "shared_normalized",
+      "old_gain": 1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        1.0,
+        0.0
+      ],
+      "subsequent_feature": [
+        0.7071067811865475,
+        0.7071067811865475
+      ],
+      "boundary": {
+        "theta": [
+          0.9988209815422262,
+          0.0
+        ],
+        "prediction": 0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -0.20627378428217366,
+        -1.2050947658243993
+      ],
+      "final_ordinary_old_prediction": -0.20627378428217366,
+      "final_ordinary_new_prediction": -0.9979882725337832,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422256,
+        "projection_denominator": 0.5
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422256,
+        "reconstruction_residual": 2.7755575615628914e-17
+      },
+      "old_basis": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "new_basis": [
+        [
+          0.7071067811865476,
+          0.7071067811865476
+        ]
+      ],
+      "max_api_boundary_error": 6.661338147750939e-16,
+      "max_trace_boundary_error": 6.661338147750939e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": 17,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "identity_case_03",
+      "family": "original_crossing",
+      "geometry": "identity",
+      "original_case_id": "case_03",
+      "arm": "shared_normalized",
+      "old_gain": 1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        1.0,
+        0.0
+      ],
+      "subsequent_feature": [
+        0.7071067811865475,
+        0.7071067811865475
+      ],
+      "boundary": {
+        "theta": [
+          0.9988209815422262,
+          0.0
+        ],
+        "prediction": 0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        1.2062723941976496,
+        0.20745141265542372
+      ],
+      "final_ordinary_old_prediction": 1.2062723941976496,
+      "final_ordinary_new_prediction": 0.999653690550669,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.998820981542226,
+        "projection_denominator": 0.5
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.998820981542226,
+        "reconstruction_residual": 0.0
+      },
+      "old_basis": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "new_basis": [
+        [
+          0.7071067811865475,
+          0.7071067811865475
+        ]
+      ],
+      "max_api_boundary_error": 5.551115123125783e-16,
+      "max_trace_boundary_error": 5.551115123125783e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "identity_case_04",
+      "family": "original_crossing",
+      "geometry": "identity",
+      "original_case_id": "case_04",
+      "arm": "orthogonal_control",
+      "old_gain": -1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        1.0,
+        0.0
+      ],
+      "subsequent_feature": [
+        0.0,
+        1.0
+      ],
+      "boundary": {
+        "theta": [
+          -0.9988209815422262,
+          0.0
+        ],
+        "prediction": -0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -0.9988209815422262,
+        -0.9988209815422262
+      ],
+      "final_ordinary_old_prediction": -0.9988209815422262,
+      "final_ordinary_new_prediction": -0.9988209815422262,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422262,
+        "projection_denominator": 1.0
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422262,
+        "reconstruction_residual": 0.0
+      },
+      "old_basis": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "new_basis": [
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "max_api_boundary_error": 0.0,
+      "max_trace_boundary_error": 0.0,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "identity_case_05",
+      "family": "original_crossing",
+      "geometry": "identity",
+      "original_case_id": "case_05",
+      "arm": "orthogonal_control",
+      "old_gain": -1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        1.0,
+        0.0
+      ],
+      "subsequent_feature": [
+        0.0,
+        1.0
+      ],
+      "boundary": {
+        "theta": [
+          -0.9988209815422262,
+          0.0
+        ],
+        "prediction": -0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -0.9988209815422262,
+        0.9988209815422262
+      ],
+      "final_ordinary_old_prediction": -0.9988209815422262,
+      "final_ordinary_new_prediction": 0.9988209815422262,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422262,
+        "projection_denominator": 1.0
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422262,
+        "reconstruction_residual": 0.0
+      },
+      "old_basis": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "new_basis": [
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "max_api_boundary_error": 0.0,
+      "max_trace_boundary_error": 0.0,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "identity_case_06",
+      "family": "original_crossing",
+      "geometry": "identity",
+      "original_case_id": "case_06",
+      "arm": "orthogonal_control",
+      "old_gain": 1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        1.0,
+        0.0
+      ],
+      "subsequent_feature": [
+        0.0,
+        1.0
+      ],
+      "boundary": {
+        "theta": [
+          0.9988209815422262,
+          0.0
+        ],
+        "prediction": 0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        0.9988209815422262,
+        -0.9988209815422262
+      ],
+      "final_ordinary_old_prediction": 0.9988209815422262,
+      "final_ordinary_new_prediction": -0.9988209815422262,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422262,
+        "projection_denominator": 1.0
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422262,
+        "reconstruction_residual": 0.0
+      },
+      "old_basis": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "new_basis": [
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "max_api_boundary_error": 0.0,
+      "max_trace_boundary_error": 0.0,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "identity_case_07",
+      "family": "original_crossing",
+      "geometry": "identity",
+      "original_case_id": "case_07",
+      "arm": "orthogonal_control",
+      "old_gain": 1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        1.0,
+        0.0
+      ],
+      "subsequent_feature": [
+        0.0,
+        1.0
+      ],
+      "boundary": {
+        "theta": [
+          0.9988209815422262,
+          0.0
+        ],
+        "prediction": 0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        0.9988209815422262,
+        0.9988209815422262
+      ],
+      "final_ordinary_old_prediction": 0.9988209815422262,
+      "final_ordinary_new_prediction": 0.9988209815422262,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422262,
+        "projection_denominator": 1.0
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422262,
+        "reconstruction_residual": 0.0
+      },
+      "old_basis": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "new_basis": [
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "max_api_boundary_error": 0.0,
+      "max_trace_boundary_error": 0.0,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "identity_case_08",
+      "family": "original_crossing",
+      "geometry": "identity",
+      "original_case_id": "case_08",
+      "arm": "frozen_after_A",
+      "old_gain": -1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        1.0,
+        0.0
+      ],
+      "subsequent_feature": [
+        0.7071067811865475,
+        0.7071067811865475
+      ],
+      "boundary": {
+        "theta": [
+          -0.9988209815422262,
+          0.0
+        ],
+        "prediction": -0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -0.9988209815422262,
+        0.0
+      ],
+      "final_ordinary_old_prediction": -0.9988209815422262,
+      "final_ordinary_new_prediction": -0.7062730892399115,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422262,
+        "projection_denominator": 0.5
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422262,
+        "reconstruction_residual": 0.0
+      },
+      "old_basis": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "new_basis": [],
+      "max_api_boundary_error": 0.0,
+      "max_trace_boundary_error": 0.0,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "identity_case_09",
+      "family": "original_crossing",
+      "geometry": "identity",
+      "original_case_id": "case_09",
+      "arm": "frozen_after_A",
+      "old_gain": -1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        1.0,
+        0.0
+      ],
+      "subsequent_feature": [
+        0.7071067811865475,
+        0.7071067811865475
+      ],
+      "boundary": {
+        "theta": [
+          -0.9988209815422262,
+          0.0
+        ],
+        "prediction": -0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -0.9988209815422262,
+        0.0
+      ],
+      "final_ordinary_old_prediction": -0.9988209815422262,
+      "final_ordinary_new_prediction": -0.7062730892399115,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422262,
+        "projection_denominator": 0.5
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422262,
+        "reconstruction_residual": 0.0
+      },
+      "old_basis": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "new_basis": [],
+      "max_api_boundary_error": 0.0,
+      "max_trace_boundary_error": 0.0,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "identity_case_10",
+      "family": "original_crossing",
+      "geometry": "identity",
+      "original_case_id": "case_10",
+      "arm": "frozen_after_A",
+      "old_gain": 1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        1.0,
+        0.0
+      ],
+      "subsequent_feature": [
+        0.7071067811865475,
+        0.7071067811865475
+      ],
+      "boundary": {
+        "theta": [
+          0.9988209815422262,
+          0.0
+        ],
+        "prediction": 0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        0.9988209815422262,
+        0.0
+      ],
+      "final_ordinary_old_prediction": 0.9988209815422262,
+      "final_ordinary_new_prediction": 0.7062730892399115,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422262,
+        "projection_denominator": 0.5
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422262,
+        "reconstruction_residual": 0.0
+      },
+      "old_basis": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "new_basis": [],
+      "max_api_boundary_error": 0.0,
+      "max_trace_boundary_error": 0.0,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "identity_case_11",
+      "family": "original_crossing",
+      "geometry": "identity",
+      "original_case_id": "case_11",
+      "arm": "frozen_after_A",
+      "old_gain": 1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        1.0,
+        0.0
+      ],
+      "subsequent_feature": [
+        0.7071067811865475,
+        0.7071067811865475
+      ],
+      "boundary": {
+        "theta": [
+          0.9988209815422262,
+          0.0
+        ],
+        "prediction": 0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        0.9988209815422262,
+        0.0
+      ],
+      "final_ordinary_old_prediction": 0.9988209815422262,
+      "final_ordinary_new_prediction": 0.7062730892399115,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422262,
+        "projection_denominator": 0.5
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422262,
+        "reconstruction_residual": 0.0
+      },
+      "old_basis": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "new_basis": [],
+      "max_api_boundary_error": 0.0,
+      "max_trace_boundary_error": 0.0,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_037_case_00",
+      "family": "original_crossing",
+      "geometry": "rotation_037",
+      "original_case_id": "case_00",
+      "arm": "shared_normalized",
+      "old_gain": -1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        0.9323273456060345,
+        0.361615431964962
+      ],
+      "subsequent_feature": [
+        0.4035542642395536,
+        0.914955712487808
+      ],
+      "boundary": {
+        "theta": [
+          -0.9312281144568776,
+          -0.36118908069605954
+        ],
+        "prediction": -0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -1.0496231071609987,
+        -0.6296193377984449
+      ],
+      "final_ordinary_old_prediction": -1.2062723941976503,
+      "final_ordinary_new_prediction": -0.999653690550669,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422271,
+        "projection_denominator": 0.5
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422273,
+        "reconstruction_residual": 2.220446049250313e-16
+      },
+      "old_basis": [
+        [
+          0.9323273456060345,
+          0.361615431964962
+        ]
+      ],
+      "new_basis": [
+        [
+          0.40355426423955365,
+          0.914955712487808
+        ]
+      ],
+      "max_api_boundary_error": 8.881784197001252e-16,
+      "max_trace_boundary_error": 1.2212453270876722e-15,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_037_case_01",
+      "family": "original_crossing",
+      "geometry": "rotation_037",
+      "original_case_id": "case_01",
+      "arm": "shared_normalized",
+      "old_gain": -1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        0.9323273456060345,
+        0.361615431964962
+      ],
+      "subsequent_feature": [
+        0.4035542642395536,
+        0.914955712487808
+      ],
+      "boundary": {
+        "theta": [
+          -0.9312281144568776,
+          -0.36118908069605954
+        ],
+        "prediction": -0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -0.24346617453439418,
+        1.1981345878310334
+      ],
+      "final_ordinary_old_prediction": 0.2062737842821736,
+      "final_ordinary_new_prediction": 0.9979882725337833,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422256,
+        "projection_denominator": 0.5
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422258,
+        "reconstruction_residual": 1.6653345369377348e-16
+      },
+      "old_basis": [
+        [
+          0.9323273456060345,
+          0.361615431964962
+        ]
+      ],
+      "new_basis": [
+        [
+          0.40355426423955354,
+          0.914955712487808
+        ]
+      ],
+      "max_api_boundary_error": 6.661338147750939e-16,
+      "max_trace_boundary_error": 6.661338147750939e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": 17,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_037_case_02",
+      "family": "original_crossing",
+      "geometry": "rotation_037",
+      "original_case_id": "case_02",
+      "arm": "shared_normalized",
+      "old_gain": 1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        0.9323273456060345,
+        0.361615431964962
+      ],
+      "subsequent_feature": [
+        0.4035542642395536,
+        0.914955712487808
+      ],
+      "boundary": {
+        "theta": [
+          0.9312281144568776,
+          0.36118908069605954
+        ],
+        "prediction": 0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        0.24346617453439418,
+        -1.1981345878310334
+      ],
+      "final_ordinary_old_prediction": -0.2062737842821736,
+      "final_ordinary_new_prediction": -0.9979882725337833,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422256,
+        "projection_denominator": 0.5
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422258,
+        "reconstruction_residual": 1.6653345369377348e-16
+      },
+      "old_basis": [
+        [
+          0.9323273456060345,
+          0.361615431964962
+        ]
+      ],
+      "new_basis": [
+        [
+          0.40355426423955354,
+          0.914955712487808
+        ]
+      ],
+      "max_api_boundary_error": 6.661338147750939e-16,
+      "max_trace_boundary_error": 6.661338147750939e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": 17,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_037_case_03",
+      "family": "original_crossing",
+      "geometry": "rotation_037",
+      "original_case_id": "case_03",
+      "arm": "shared_normalized",
+      "old_gain": 1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        0.9323273456060345,
+        0.361615431964962
+      ],
+      "subsequent_feature": [
+        0.4035542642395536,
+        0.914955712487808
+      ],
+      "boundary": {
+        "theta": [
+          0.9312281144568776,
+          0.36118908069605954
+        ],
+        "prediction": 0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        1.0496231071609987,
+        0.6296193377984449
+      ],
+      "final_ordinary_old_prediction": 1.2062723941976503,
+      "final_ordinary_new_prediction": 0.999653690550669,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422271,
+        "projection_denominator": 0.5
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422273,
+        "reconstruction_residual": 2.220446049250313e-16
+      },
+      "old_basis": [
+        [
+          0.9323273456060345,
+          0.361615431964962
+        ]
+      ],
+      "new_basis": [
+        [
+          0.40355426423955365,
+          0.914955712487808
+        ]
+      ],
+      "max_api_boundary_error": 8.881784197001252e-16,
+      "max_trace_boundary_error": 1.2212453270876722e-15,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_037_case_04",
+      "family": "original_crossing",
+      "geometry": "rotation_037",
+      "original_case_id": "case_04",
+      "arm": "orthogonal_control",
+      "old_gain": -1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        0.9323273456060345,
+        0.361615431964962
+      ],
+      "subsequent_feature": [
+        -0.361615431964962,
+        0.9323273456060345
+      ],
+      "boundary": {
+        "theta": [
+          -0.9312281144568776,
+          -0.36118908069605954
+        ],
+        "prediction": -0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -0.5700390337608183,
+        -1.292417195152937
+      ],
+      "final_ordinary_old_prediction": -0.9988209815422263,
+      "final_ordinary_new_prediction": -0.9988209815422262,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422263,
+        "projection_denominator": 1.0
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422264,
+        "reconstruction_residual": 2.220446049250313e-16
+      },
+      "old_basis": [
+        [
+          0.9323273456060345,
+          0.361615431964962
+        ]
+      ],
+      "new_basis": [
+        [
+          0.36161543196496193,
+          -0.9323273456060345
+        ]
+      ],
+      "max_api_boundary_error": 2.220446049250313e-16,
+      "max_trace_boundary_error": 3.3306690738754696e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_037_case_05",
+      "family": "original_crossing",
+      "geometry": "rotation_037",
+      "original_case_id": "case_05",
+      "arm": "orthogonal_control",
+      "old_gain": -1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        0.9323273456060345,
+        0.361615431964962
+      ],
+      "subsequent_feature": [
+        -0.361615431964962,
+        0.9323273456060345
+      ],
+      "boundary": {
+        "theta": [
+          -0.9312281144568776,
+          -0.36118908069605954
+        ],
+        "prediction": -0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -1.2924171951529366,
+        0.5700390337608183
+      ],
+      "final_ordinary_old_prediction": -0.9988209815422258,
+      "final_ordinary_new_prediction": 0.9988209815422262,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422258,
+        "projection_denominator": 1.0
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422258,
+        "reconstruction_residual": 0.0
+      },
+      "old_basis": [
+        [
+          0.9323273456060345,
+          0.361615431964962
+        ]
+      ],
+      "new_basis": [
+        [
+          0.361615431964962,
+          -0.9323273456060345
+        ]
+      ],
+      "max_api_boundary_error": 4.440892098500626e-16,
+      "max_trace_boundary_error": 4.440892098500626e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_037_case_06",
+      "family": "original_crossing",
+      "geometry": "rotation_037",
+      "original_case_id": "case_06",
+      "arm": "orthogonal_control",
+      "old_gain": 1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        0.9323273456060345,
+        0.361615431964962
+      ],
+      "subsequent_feature": [
+        -0.361615431964962,
+        0.9323273456060345
+      ],
+      "boundary": {
+        "theta": [
+          0.9312281144568776,
+          0.36118908069605954
+        ],
+        "prediction": 0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        1.2924171951529366,
+        -0.5700390337608183
+      ],
+      "final_ordinary_old_prediction": 0.9988209815422258,
+      "final_ordinary_new_prediction": -0.9988209815422262,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422258,
+        "projection_denominator": 1.0
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422258,
+        "reconstruction_residual": 0.0
+      },
+      "old_basis": [
+        [
+          0.9323273456060345,
+          0.361615431964962
+        ]
+      ],
+      "new_basis": [
+        [
+          0.361615431964962,
+          -0.9323273456060345
+        ]
+      ],
+      "max_api_boundary_error": 4.440892098500626e-16,
+      "max_trace_boundary_error": 4.440892098500626e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_037_case_07",
+      "family": "original_crossing",
+      "geometry": "rotation_037",
+      "original_case_id": "case_07",
+      "arm": "orthogonal_control",
+      "old_gain": 1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        0.9323273456060345,
+        0.361615431964962
+      ],
+      "subsequent_feature": [
+        -0.361615431964962,
+        0.9323273456060345
+      ],
+      "boundary": {
+        "theta": [
+          0.9312281144568776,
+          0.36118908069605954
+        ],
+        "prediction": 0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        0.5700390337608183,
+        1.292417195152937
+      ],
+      "final_ordinary_old_prediction": 0.9988209815422263,
+      "final_ordinary_new_prediction": 0.9988209815422262,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422263,
+        "projection_denominator": 1.0
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422264,
+        "reconstruction_residual": 2.220446049250313e-16
+      },
+      "old_basis": [
+        [
+          0.9323273456060345,
+          0.361615431964962
+        ]
+      ],
+      "new_basis": [
+        [
+          0.36161543196496193,
+          -0.9323273456060345
+        ]
+      ],
+      "max_api_boundary_error": 2.220446049250313e-16,
+      "max_trace_boundary_error": 3.3306690738754696e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_037_case_08",
+      "family": "original_crossing",
+      "geometry": "rotation_037",
+      "original_case_id": "case_08",
+      "arm": "frozen_after_A",
+      "old_gain": -1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        0.9323273456060345,
+        0.361615431964962
+      ],
+      "subsequent_feature": [
+        0.4035542642395536,
+        0.914955712487808
+      ],
+      "boundary": {
+        "theta": [
+          -0.9312281144568776,
+          -0.36118908069605954
+        ],
+        "prediction": -0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -0.9312281144568776,
+        -0.36118908069605954
+      ],
+      "final_ordinary_old_prediction": -0.9988209815422262,
+      "final_ordinary_new_prediction": -0.7062730892399116,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.998820981542226,
+        "projection_denominator": 0.5
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422262,
+        "reconstruction_residual": 1.1102230246251565e-16
+      },
+      "old_basis": [
+        [
+          0.9323273456060345,
+          0.361615431964962
+        ]
+      ],
+      "new_basis": [],
+      "max_api_boundary_error": 2.220446049250313e-16,
+      "max_trace_boundary_error": 0.0,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_037_case_09",
+      "family": "original_crossing",
+      "geometry": "rotation_037",
+      "original_case_id": "case_09",
+      "arm": "frozen_after_A",
+      "old_gain": -1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        0.9323273456060345,
+        0.361615431964962
+      ],
+      "subsequent_feature": [
+        0.4035542642395536,
+        0.914955712487808
+      ],
+      "boundary": {
+        "theta": [
+          -0.9312281144568776,
+          -0.36118908069605954
+        ],
+        "prediction": -0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -0.9312281144568776,
+        -0.36118908069605954
+      ],
+      "final_ordinary_old_prediction": -0.9988209815422262,
+      "final_ordinary_new_prediction": -0.7062730892399116,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.998820981542226,
+        "projection_denominator": 0.5
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422262,
+        "reconstruction_residual": 1.1102230246251565e-16
+      },
+      "old_basis": [
+        [
+          0.9323273456060345,
+          0.361615431964962
+        ]
+      ],
+      "new_basis": [],
+      "max_api_boundary_error": 2.220446049250313e-16,
+      "max_trace_boundary_error": 0.0,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_037_case_10",
+      "family": "original_crossing",
+      "geometry": "rotation_037",
+      "original_case_id": "case_10",
+      "arm": "frozen_after_A",
+      "old_gain": 1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        0.9323273456060345,
+        0.361615431964962
+      ],
+      "subsequent_feature": [
+        0.4035542642395536,
+        0.914955712487808
+      ],
+      "boundary": {
+        "theta": [
+          0.9312281144568776,
+          0.36118908069605954
+        ],
+        "prediction": 0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        0.9312281144568776,
+        0.36118908069605954
+      ],
+      "final_ordinary_old_prediction": 0.9988209815422262,
+      "final_ordinary_new_prediction": 0.7062730892399116,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.998820981542226,
+        "projection_denominator": 0.5
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422262,
+        "reconstruction_residual": 1.1102230246251565e-16
+      },
+      "old_basis": [
+        [
+          0.9323273456060345,
+          0.361615431964962
+        ]
+      ],
+      "new_basis": [],
+      "max_api_boundary_error": 2.220446049250313e-16,
+      "max_trace_boundary_error": 0.0,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_037_case_11",
+      "family": "original_crossing",
+      "geometry": "rotation_037",
+      "original_case_id": "case_11",
+      "arm": "frozen_after_A",
+      "old_gain": 1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        0.9323273456060345,
+        0.361615431964962
+      ],
+      "subsequent_feature": [
+        0.4035542642395536,
+        0.914955712487808
+      ],
+      "boundary": {
+        "theta": [
+          0.9312281144568776,
+          0.36118908069605954
+        ],
+        "prediction": 0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        0.9312281144568776,
+        0.36118908069605954
+      ],
+      "final_ordinary_old_prediction": 0.9988209815422262,
+      "final_ordinary_new_prediction": 0.7062730892399116,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.998820981542226,
+        "projection_denominator": 0.5
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422262,
+        "reconstruction_residual": 1.1102230246251565e-16
+      },
+      "old_basis": [
+        [
+          0.9323273456060345,
+          0.361615431964962
+        ]
+      ],
+      "new_basis": [],
+      "max_api_boundary_error": 2.220446049250313e-16,
+      "max_trace_boundary_error": 0.0,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_113_case_00",
+      "family": "original_crossing",
+      "geometry": "rotation_113",
+      "original_case_id": "case_00",
+      "arm": "shared_normalized",
+      "old_gain": -1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        0.4266598079301574,
+        0.9044121893788258
+      ],
+      "subsequent_feature": [
+        -0.33782194865037557,
+        0.941210035544704
+      ],
+      "boundary": {
+        "theta": [
+          -0.42615676814141756,
+          -0.9033458707141125
+        ],
+        "prediction": -0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -0.3270463617103984,
+        -1.1794786369019372
+      ],
+      "final_ordinary_old_prediction": -1.2062723941976494,
+      "final_ordinary_new_prediction": -0.9996536905506688,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422261,
+        "projection_denominator": 0.49999999999999994
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422266,
+        "reconstruction_residual": 3.3306690738754696e-16
+      },
+      "old_basis": [
+        [
+          0.4266598079301574,
+          0.904412189378826
+        ]
+      ],
+      "new_basis": [
+        [
+          0.33782194865037557,
+          -0.9412100355447041
+        ]
+      ],
+      "max_api_boundary_error": 2.220446049250313e-16,
+      "max_trace_boundary_error": 6.661338147750939e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_113_case_01",
+      "family": "original_crossing",
+      "geometry": "rotation_113",
+      "original_case_id": "case_01",
+      "arm": "shared_normalized",
+      "old_gain": -1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        0.4266598079301574,
+        0.9044121893788258
+      ],
+      "subsequent_feature": [
+        -0.33782194865037557,
+        0.941210035544704
+      ],
+      "boundary": {
+        "theta": [
+          -0.42615676814141756,
+          -0.9033458707141125
+        ],
+        "prediction": -0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -1.0018936623853503,
+        0.7007220261783723
+      ],
+      "final_ordinary_old_prediction": 0.20627378428217313,
+      "final_ordinary_new_prediction": 0.9979882725337832,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.998820981542227,
+        "projection_denominator": 0.49999999999999994
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422268,
+        "reconstruction_residual": 2.220446049250313e-16
+      },
+      "old_basis": [
+        [
+          0.4266598079301574,
+          0.904412189378826
+        ]
+      ],
+      "new_basis": [
+        [
+          0.3378219486503756,
+          -0.9412100355447042
+        ]
+      ],
+      "max_api_boundary_error": 8.881784197001252e-16,
+      "max_trace_boundary_error": 6.661338147750939e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": 17,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_113_case_02",
+      "family": "original_crossing",
+      "geometry": "rotation_113",
+      "original_case_id": "case_02",
+      "arm": "shared_normalized",
+      "old_gain": 1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        0.4266598079301574,
+        0.9044121893788258
+      ],
+      "subsequent_feature": [
+        -0.33782194865037557,
+        0.941210035544704
+      ],
+      "boundary": {
+        "theta": [
+          0.42615676814141756,
+          0.9033458707141125
+        ],
+        "prediction": 0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        1.0018936623853503,
+        -0.7007220261783723
+      ],
+      "final_ordinary_old_prediction": -0.20627378428217313,
+      "final_ordinary_new_prediction": -0.9979882725337832,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.998820981542227,
+        "projection_denominator": 0.49999999999999994
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422268,
+        "reconstruction_residual": 2.220446049250313e-16
+      },
+      "old_basis": [
+        [
+          0.4266598079301574,
+          0.904412189378826
+        ]
+      ],
+      "new_basis": [
+        [
+          0.3378219486503756,
+          -0.9412100355447042
+        ]
+      ],
+      "max_api_boundary_error": 8.881784197001252e-16,
+      "max_trace_boundary_error": 6.661338147750939e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": 17,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_113_case_03",
+      "family": "original_crossing",
+      "geometry": "rotation_113",
+      "original_case_id": "case_03",
+      "arm": "shared_normalized",
+      "old_gain": 1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        0.4266598079301574,
+        0.9044121893788258
+      ],
+      "subsequent_feature": [
+        -0.33782194865037557,
+        0.941210035544704
+      ],
+      "boundary": {
+        "theta": [
+          0.42615676814141756,
+          0.9033458707141125
+        ],
+        "prediction": 0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        0.3270463617103984,
+        1.1794786369019372
+      ],
+      "final_ordinary_old_prediction": 1.2062723941976494,
+      "final_ordinary_new_prediction": 0.9996536905506688,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422261,
+        "projection_denominator": 0.49999999999999994
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422266,
+        "reconstruction_residual": 3.3306690738754696e-16
+      },
+      "old_basis": [
+        [
+          0.4266598079301574,
+          0.904412189378826
+        ]
+      ],
+      "new_basis": [
+        [
+          0.33782194865037557,
+          -0.9412100355447041
+        ]
+      ],
+      "max_api_boundary_error": 2.220446049250313e-16,
+      "max_trace_boundary_error": 6.661338147750939e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_113_case_04",
+      "family": "original_crossing",
+      "geometry": "rotation_113",
+      "original_case_id": "case_04",
+      "arm": "orthogonal_control",
+      "old_gain": -1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        0.4266598079301574,
+        0.9044121893788258
+      ],
+      "subsequent_feature": [
+        -0.9044121893788258,
+        0.4266598079301574
+      ],
+      "boundary": {
+        "theta": [
+          -0.42615676814141756,
+          -0.9033458707141125
+        ],
+        "prediction": -0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        0.477189102572695,
+        -1.3295026388555302
+      ],
+      "final_ordinary_old_prediction": -0.9988209815422262,
+      "final_ordinary_new_prediction": -0.9988209815422261,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422262,
+        "projection_denominator": 1.0
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422264,
+        "reconstruction_residual": 2.220446049250313e-16
+      },
+      "old_basis": [
+        [
+          0.4266598079301574,
+          0.904412189378826
+        ]
+      ],
+      "new_basis": [
+        [
+          0.904412189378826,
+          -0.4266598079301574
+        ]
+      ],
+      "max_api_boundary_error": 4.440892098500626e-16,
+      "max_trace_boundary_error": 6.661338147750939e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_113_case_05",
+      "family": "original_crossing",
+      "geometry": "rotation_113",
+      "original_case_id": "case_05",
+      "arm": "orthogonal_control",
+      "old_gain": -1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        0.4266598079301574,
+        0.9044121893788258
+      ],
+      "subsequent_feature": [
+        -0.9044121893788258,
+        0.4266598079301574
+      ],
+      "boundary": {
+        "theta": [
+          -0.42615676814141756,
+          -0.9033458707141125
+        ],
+        "prediction": -0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -1.3295026388555302,
+        -0.4771891025726955
+      ],
+      "final_ordinary_old_prediction": -0.9988209815422265,
+      "final_ordinary_new_prediction": 0.998820981542226,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422265,
+        "projection_denominator": 1.0
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422268,
+        "reconstruction_residual": 2.220446049250313e-16
+      },
+      "old_basis": [
+        [
+          0.4266598079301574,
+          0.904412189378826
+        ]
+      ],
+      "new_basis": [
+        [
+          0.9044121893788258,
+          -0.4266598079301574
+        ]
+      ],
+      "max_api_boundary_error": 6.661338147750939e-16,
+      "max_trace_boundary_error": 7.771561172376096e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_113_case_06",
+      "family": "original_crossing",
+      "geometry": "rotation_113",
+      "original_case_id": "case_06",
+      "arm": "orthogonal_control",
+      "old_gain": 1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        0.4266598079301574,
+        0.9044121893788258
+      ],
+      "subsequent_feature": [
+        -0.9044121893788258,
+        0.4266598079301574
+      ],
+      "boundary": {
+        "theta": [
+          0.42615676814141756,
+          0.9033458707141125
+        ],
+        "prediction": 0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        1.3295026388555302,
+        0.4771891025726955
+      ],
+      "final_ordinary_old_prediction": 0.9988209815422265,
+      "final_ordinary_new_prediction": -0.998820981542226,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422265,
+        "projection_denominator": 1.0
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422268,
+        "reconstruction_residual": 2.220446049250313e-16
+      },
+      "old_basis": [
+        [
+          0.4266598079301574,
+          0.904412189378826
+        ]
+      ],
+      "new_basis": [
+        [
+          0.9044121893788258,
+          -0.4266598079301574
+        ]
+      ],
+      "max_api_boundary_error": 6.661338147750939e-16,
+      "max_trace_boundary_error": 7.771561172376096e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_113_case_07",
+      "family": "original_crossing",
+      "geometry": "rotation_113",
+      "original_case_id": "case_07",
+      "arm": "orthogonal_control",
+      "old_gain": 1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        0.4266598079301574,
+        0.9044121893788258
+      ],
+      "subsequent_feature": [
+        -0.9044121893788258,
+        0.4266598079301574
+      ],
+      "boundary": {
+        "theta": [
+          0.42615676814141756,
+          0.9033458707141125
+        ],
+        "prediction": 0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -0.477189102572695,
+        1.3295026388555302
+      ],
+      "final_ordinary_old_prediction": 0.9988209815422262,
+      "final_ordinary_new_prediction": 0.9988209815422261,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422262,
+        "projection_denominator": 1.0
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422264,
+        "reconstruction_residual": 2.220446049250313e-16
+      },
+      "old_basis": [
+        [
+          0.4266598079301574,
+          0.904412189378826
+        ]
+      ],
+      "new_basis": [
+        [
+          0.904412189378826,
+          -0.4266598079301574
+        ]
+      ],
+      "max_api_boundary_error": 4.440892098500626e-16,
+      "max_trace_boundary_error": 6.661338147750939e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_113_case_08",
+      "family": "original_crossing",
+      "geometry": "rotation_113",
+      "original_case_id": "case_08",
+      "arm": "frozen_after_A",
+      "old_gain": -1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        0.4266598079301574,
+        0.9044121893788258
+      ],
+      "subsequent_feature": [
+        -0.33782194865037557,
+        0.941210035544704
+      ],
+      "boundary": {
+        "theta": [
+          -0.42615676814141756,
+          -0.9033458707141125
+        ],
+        "prediction": -0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -0.42615676814141756,
+        -0.9033458707141125
+      ],
+      "final_ordinary_old_prediction": -0.9988209815422261,
+      "final_ordinary_new_prediction": -0.7062730892399115,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422263,
+        "projection_denominator": 0.49999999999999994
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422262,
+        "reconstruction_residual": 1.1102230246251565e-16
+      },
+      "old_basis": [
+        [
+          0.4266598079301574,
+          0.904412189378826
+        ]
+      ],
+      "new_basis": [],
+      "max_api_boundary_error": 2.220446049250313e-16,
+      "max_trace_boundary_error": 1.1102230246251565e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_113_case_09",
+      "family": "original_crossing",
+      "geometry": "rotation_113",
+      "original_case_id": "case_09",
+      "arm": "frozen_after_A",
+      "old_gain": -1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        0.4266598079301574,
+        0.9044121893788258
+      ],
+      "subsequent_feature": [
+        -0.33782194865037557,
+        0.941210035544704
+      ],
+      "boundary": {
+        "theta": [
+          -0.42615676814141756,
+          -0.9033458707141125
+        ],
+        "prediction": -0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -0.42615676814141756,
+        -0.9033458707141125
+      ],
+      "final_ordinary_old_prediction": -0.9988209815422261,
+      "final_ordinary_new_prediction": -0.7062730892399115,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422263,
+        "projection_denominator": 0.49999999999999994
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422262,
+        "reconstruction_residual": 1.1102230246251565e-16
+      },
+      "old_basis": [
+        [
+          0.4266598079301574,
+          0.904412189378826
+        ]
+      ],
+      "new_basis": [],
+      "max_api_boundary_error": 2.220446049250313e-16,
+      "max_trace_boundary_error": 1.1102230246251565e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_113_case_10",
+      "family": "original_crossing",
+      "geometry": "rotation_113",
+      "original_case_id": "case_10",
+      "arm": "frozen_after_A",
+      "old_gain": 1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        0.4266598079301574,
+        0.9044121893788258
+      ],
+      "subsequent_feature": [
+        -0.33782194865037557,
+        0.941210035544704
+      ],
+      "boundary": {
+        "theta": [
+          0.42615676814141756,
+          0.9033458707141125
+        ],
+        "prediction": 0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        0.42615676814141756,
+        0.9033458707141125
+      ],
+      "final_ordinary_old_prediction": 0.9988209815422261,
+      "final_ordinary_new_prediction": 0.7062730892399115,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422263,
+        "projection_denominator": 0.49999999999999994
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422262,
+        "reconstruction_residual": 1.1102230246251565e-16
+      },
+      "old_basis": [
+        [
+          0.4266598079301574,
+          0.904412189378826
+        ]
+      ],
+      "new_basis": [],
+      "max_api_boundary_error": 2.220446049250313e-16,
+      "max_trace_boundary_error": 1.1102230246251565e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "rotation_113_case_11",
+      "family": "original_crossing",
+      "geometry": "rotation_113",
+      "original_case_id": "case_11",
+      "arm": "frozen_after_A",
+      "old_gain": 1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        0.4266598079301574,
+        0.9044121893788258
+      ],
+      "subsequent_feature": [
+        -0.33782194865037557,
+        0.941210035544704
+      ],
+      "boundary": {
+        "theta": [
+          0.42615676814141756,
+          0.9033458707141125
+        ],
+        "prediction": 0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        0.42615676814141756,
+        0.9033458707141125
+      ],
+      "final_ordinary_old_prediction": 0.9988209815422261,
+      "final_ordinary_new_prediction": 0.7062730892399115,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422263,
+        "projection_denominator": 0.49999999999999994
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422262,
+        "reconstruction_residual": 1.1102230246251565e-16
+      },
+      "old_basis": [
+        [
+          0.4266598079301574,
+          0.904412189378826
+        ]
+      ],
+      "new_basis": [],
+      "max_api_boundary_error": 2.220446049250313e-16,
+      "max_trace_boundary_error": 1.1102230246251565e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "reflection_061_case_00",
+      "family": "original_crossing",
+      "geometry": "reflection_061",
+      "original_case_id": "case_00",
+      "arm": "shared_normalized",
+      "old_gain": -1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        0.8196480178454795,
+        0.5728674601004813
+      ],
+      "subsequent_feature": [
+        0.984657137362815,
+        -0.17450020584648657
+      ],
+      "boundary": {
+        "theta": [
+          -0.818681637703562,
+          -0.5721920387911648
+        ],
+        "prediction": -0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -1.1075609407479936,
+        -0.5209970634710716
+      ],
+      "final_ordinary_old_prediction": -1.2062723941976494,
+      "final_ordinary_new_prediction": -0.9996536905506687,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422261,
+        "projection_denominator": 0.49999999999999994
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422262,
+        "reconstruction_residual": 1.1102230246251565e-16
+      },
+      "old_basis": [
+        [
+          0.8196480178454796,
+          0.5728674601004813
+        ]
+      ],
+      "new_basis": [
+        [
+          0.9846571373628152,
+          -0.1745002058464866
+        ]
+      ],
+      "max_api_boundary_error": 4.440892098500626e-16,
+      "max_trace_boundary_error": 7.771561172376096e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "reflection_061_case_01",
+      "family": "original_crossing",
+      "geometry": "reflection_061",
+      "original_case_id": "case_01",
+      "arm": "shared_normalized",
+      "old_gain": -1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        0.8196480178454795,
+        0.5728674601004813
+      ],
+      "subsequent_feature": [
+        0.984657137362815,
+        -0.17450020584648657
+      ],
+      "boundary": {
+        "theta": [
+          -0.818681637703562,
+          -0.5721920387911648
+        ],
+        "prediction": -0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        0.8594314760985776,
+        -0.8695859972368878
+      ],
+      "final_ordinary_old_prediction": 0.20627378428217363,
+      "final_ordinary_new_prediction": 0.9979882725337832,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422256,
+        "projection_denominator": 0.49999999999999994
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422258,
+        "reconstruction_residual": 1.1102230246251565e-16
+      },
+      "old_basis": [
+        [
+          0.8196480178454796,
+          0.5728674601004813
+        ]
+      ],
+      "new_basis": [
+        [
+          0.984657137362815,
+          -0.17450020584648657
+        ]
+      ],
+      "max_api_boundary_error": 4.440892098500626e-16,
+      "max_trace_boundary_error": 5.551115123125783e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": 17,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "reflection_061_case_02",
+      "family": "original_crossing",
+      "geometry": "reflection_061",
+      "original_case_id": "case_02",
+      "arm": "shared_normalized",
+      "old_gain": 1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        0.8196480178454795,
+        0.5728674601004813
+      ],
+      "subsequent_feature": [
+        0.984657137362815,
+        -0.17450020584648657
+      ],
+      "boundary": {
+        "theta": [
+          0.818681637703562,
+          0.5721920387911648
+        ],
+        "prediction": 0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -0.8594314760985776,
+        0.8695859972368878
+      ],
+      "final_ordinary_old_prediction": -0.20627378428217363,
+      "final_ordinary_new_prediction": -0.9979882725337832,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422256,
+        "projection_denominator": 0.49999999999999994
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422258,
+        "reconstruction_residual": 1.1102230246251565e-16
+      },
+      "old_basis": [
+        [
+          0.8196480178454796,
+          0.5728674601004813
+        ]
+      ],
+      "new_basis": [
+        [
+          0.984657137362815,
+          -0.17450020584648657
+        ]
+      ],
+      "max_api_boundary_error": 4.440892098500626e-16,
+      "max_trace_boundary_error": 5.551115123125783e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": 17,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "reflection_061_case_03",
+      "family": "original_crossing",
+      "geometry": "reflection_061",
+      "original_case_id": "case_03",
+      "arm": "shared_normalized",
+      "old_gain": 1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        0.8196480178454795,
+        0.5728674601004813
+      ],
+      "subsequent_feature": [
+        0.984657137362815,
+        -0.17450020584648657
+      ],
+      "boundary": {
+        "theta": [
+          0.818681637703562,
+          0.5721920387911648
+        ],
+        "prediction": 0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        1.1075609407479936,
+        0.5209970634710716
+      ],
+      "final_ordinary_old_prediction": 1.2062723941976494,
+      "final_ordinary_new_prediction": 0.9996536905506687,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422261,
+        "projection_denominator": 0.49999999999999994
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422262,
+        "reconstruction_residual": 1.1102230246251565e-16
+      },
+      "old_basis": [
+        [
+          0.8196480178454796,
+          0.5728674601004813
+        ]
+      ],
+      "new_basis": [
+        [
+          0.9846571373628152,
+          -0.1745002058464866
+        ]
+      ],
+      "max_api_boundary_error": 4.440892098500626e-16,
+      "max_trace_boundary_error": 7.771561172376096e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "reflection_061_case_04",
+      "family": "original_crossing",
+      "geometry": "reflection_061",
+      "original_case_id": "case_04",
+      "arm": "orthogonal_control",
+      "old_gain": -1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        0.8196480178454795,
+        0.5728674601004813
+      ],
+      "subsequent_feature": [
+        0.5728674601004813,
+        -0.8196480178454795
+      ],
+      "boundary": {
+        "theta": [
+          -0.818681637703562,
+          -0.5721920387911648
+        ],
+        "prediction": -0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -1.3908736764947265,
+        0.2464895989123972
+      ],
+      "final_ordinary_old_prediction": -0.998820981542226,
+      "final_ordinary_new_prediction": -0.998820981542226,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.998820981542226,
+        "projection_denominator": 1.0
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.998820981542226,
+        "reconstruction_residual": 0.0
+      },
+      "old_basis": [
+        [
+          0.8196480178454796,
+          0.5728674601004813
+        ]
+      ],
+      "new_basis": [
+        [
+          0.5728674601004813,
+          -0.8196480178454796
+        ]
+      ],
+      "max_api_boundary_error": 4.440892098500626e-16,
+      "max_trace_boundary_error": 5.551115123125783e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "reflection_061_case_05",
+      "family": "original_crossing",
+      "geometry": "reflection_061",
+      "original_case_id": "case_05",
+      "arm": "orthogonal_control",
+      "old_gain": -1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        0.8196480178454795,
+        0.5728674601004813
+      ],
+      "subsequent_feature": [
+        0.5728674601004813,
+        -0.8196480178454795
+      ],
+      "boundary": {
+        "theta": [
+          -0.818681637703562,
+          -0.5721920387911648
+        ],
+        "prediction": -0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -0.246489598912397,
+        -1.3908736764947265
+      ],
+      "final_ordinary_old_prediction": -0.9988209815422259,
+      "final_ordinary_new_prediction": 0.9988209815422261,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422259,
+        "projection_denominator": 1.0
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.998820981542226,
+        "reconstruction_residual": 8.326672684688674e-17
+      },
+      "old_basis": [
+        [
+          0.8196480178454796,
+          0.5728674601004813
+        ]
+      ],
+      "new_basis": [
+        [
+          0.5728674601004813,
+          -0.8196480178454796
+        ]
+      ],
+      "max_api_boundary_error": 2.220446049250313e-16,
+      "max_trace_boundary_error": 1.1102230246251565e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "reflection_061_case_06",
+      "family": "original_crossing",
+      "geometry": "reflection_061",
+      "original_case_id": "case_06",
+      "arm": "orthogonal_control",
+      "old_gain": 1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        0.8196480178454795,
+        0.5728674601004813
+      ],
+      "subsequent_feature": [
+        0.5728674601004813,
+        -0.8196480178454795
+      ],
+      "boundary": {
+        "theta": [
+          0.818681637703562,
+          0.5721920387911648
+        ],
+        "prediction": 0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        0.246489598912397,
+        1.3908736764947265
+      ],
+      "final_ordinary_old_prediction": 0.9988209815422259,
+      "final_ordinary_new_prediction": -0.9988209815422261,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422259,
+        "projection_denominator": 1.0
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.998820981542226,
+        "reconstruction_residual": 8.326672684688674e-17
+      },
+      "old_basis": [
+        [
+          0.8196480178454796,
+          0.5728674601004813
+        ]
+      ],
+      "new_basis": [
+        [
+          0.5728674601004813,
+          -0.8196480178454796
+        ]
+      ],
+      "max_api_boundary_error": 2.220446049250313e-16,
+      "max_trace_boundary_error": 1.1102230246251565e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "reflection_061_case_07",
+      "family": "original_crossing",
+      "geometry": "reflection_061",
+      "original_case_id": "case_07",
+      "arm": "orthogonal_control",
+      "old_gain": 1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        0.8196480178454795,
+        0.5728674601004813
+      ],
+      "subsequent_feature": [
+        0.5728674601004813,
+        -0.8196480178454795
+      ],
+      "boundary": {
+        "theta": [
+          0.818681637703562,
+          0.5721920387911648
+        ],
+        "prediction": 0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        1.3908736764947265,
+        -0.2464895989123972
+      ],
+      "final_ordinary_old_prediction": 0.998820981542226,
+      "final_ordinary_new_prediction": 0.998820981542226,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.998820981542226,
+        "projection_denominator": 1.0
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.998820981542226,
+        "reconstruction_residual": 0.0
+      },
+      "old_basis": [
+        [
+          0.8196480178454796,
+          0.5728674601004813
+        ]
+      ],
+      "new_basis": [
+        [
+          0.5728674601004813,
+          -0.8196480178454796
+        ]
+      ],
+      "max_api_boundary_error": 4.440892098500626e-16,
+      "max_trace_boundary_error": 5.551115123125783e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "reflection_061_case_08",
+      "family": "original_crossing",
+      "geometry": "reflection_061",
+      "original_case_id": "case_08",
+      "arm": "frozen_after_A",
+      "old_gain": -1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        0.8196480178454795,
+        0.5728674601004813
+      ],
+      "subsequent_feature": [
+        0.984657137362815,
+        -0.17450020584648657
+      ],
+      "boundary": {
+        "theta": [
+          -0.818681637703562,
+          -0.5721920387911648
+        ],
+        "prediction": -0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -0.818681637703562,
+        -0.5721920387911648
+      ],
+      "final_ordinary_old_prediction": -0.9988209815422261,
+      "final_ordinary_new_prediction": -0.7062730892399115,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422262,
+        "projection_denominator": 0.49999999999999994
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422262,
+        "reconstruction_residual": 1.1102230246251565e-16
+      },
+      "old_basis": [
+        [
+          0.8196480178454796,
+          0.5728674601004813
+        ]
+      ],
+      "new_basis": [],
+      "max_api_boundary_error": 1.1102230246251565e-16,
+      "max_trace_boundary_error": 1.1102230246251565e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "reflection_061_case_09",
+      "family": "original_crossing",
+      "geometry": "reflection_061",
+      "original_case_id": "case_09",
+      "arm": "frozen_after_A",
+      "old_gain": -1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        0.8196480178454795,
+        0.5728674601004813
+      ],
+      "subsequent_feature": [
+        0.984657137362815,
+        -0.17450020584648657
+      ],
+      "boundary": {
+        "theta": [
+          -0.818681637703562,
+          -0.5721920387911648
+        ],
+        "prediction": -0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -0.818681637703562,
+        -0.5721920387911648
+      ],
+      "final_ordinary_old_prediction": -0.9988209815422261,
+      "final_ordinary_new_prediction": -0.7062730892399115,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422262,
+        "projection_denominator": 0.49999999999999994
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422262,
+        "reconstruction_residual": 1.1102230246251565e-16
+      },
+      "old_basis": [
+        [
+          0.8196480178454796,
+          0.5728674601004813
+        ]
+      ],
+      "new_basis": [],
+      "max_api_boundary_error": 1.1102230246251565e-16,
+      "max_trace_boundary_error": 1.1102230246251565e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "reflection_061_case_10",
+      "family": "original_crossing",
+      "geometry": "reflection_061",
+      "original_case_id": "case_10",
+      "arm": "frozen_after_A",
+      "old_gain": 1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        0.8196480178454795,
+        0.5728674601004813
+      ],
+      "subsequent_feature": [
+        0.984657137362815,
+        -0.17450020584648657
+      ],
+      "boundary": {
+        "theta": [
+          0.818681637703562,
+          0.5721920387911648
+        ],
+        "prediction": 0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        0.818681637703562,
+        0.5721920387911648
+      ],
+      "final_ordinary_old_prediction": 0.9988209815422261,
+      "final_ordinary_new_prediction": 0.7062730892399115,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422262,
+        "projection_denominator": 0.49999999999999994
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422262,
+        "reconstruction_residual": 1.1102230246251565e-16
+      },
+      "old_basis": [
+        [
+          0.8196480178454796,
+          0.5728674601004813
+        ]
+      ],
+      "new_basis": [],
+      "max_api_boundary_error": 1.1102230246251565e-16,
+      "max_trace_boundary_error": 1.1102230246251565e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "reflection_061_case_11",
+      "family": "original_crossing",
+      "geometry": "reflection_061",
+      "original_case_id": "case_11",
+      "arm": "frozen_after_A",
+      "old_gain": 1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        0.8196480178454795,
+        0.5728674601004813
+      ],
+      "subsequent_feature": [
+        0.984657137362815,
+        -0.17450020584648657
+      ],
+      "boundary": {
+        "theta": [
+          0.818681637703562,
+          0.5721920387911648
+        ],
+        "prediction": 0.9988209815422261,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        0.818681637703562,
+        0.5721920387911648
+      ],
+      "final_ordinary_old_prediction": 0.9988209815422261,
+      "final_ordinary_new_prediction": 0.7062730892399115,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422262,
+        "projection_denominator": 0.49999999999999994
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422262,
+        "reconstruction_residual": 1.1102230246251565e-16
+      },
+      "old_basis": [
+        [
+          0.8196480178454796,
+          0.5728674601004813
+        ]
+      ],
+      "new_basis": [],
+      "max_api_boundary_error": 1.1102230246251565e-16,
+      "max_trace_boundary_error": 1.1102230246251565e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "collinear_00",
+      "family": "collinear",
+      "geometry": "identity",
+      "original_case_id": null,
+      "arm": "collinear",
+      "old_gain": -1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        1.0,
+        0.0
+      ],
+      "subsequent_feature": [
+        1.0,
+        0.0
+      ],
+      "boundary": {
+        "theta": [
+          -0.9988209815422262,
+          0.0
+        ],
+        "prediction": -0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -0.9999986099154762,
+        0.0
+      ],
+      "final_ordinary_old_prediction": -0.9999986099154762,
+      "final_ordinary_new_prediction": -0.9999986099154762,
+      "final_api_output": {
+        "status": "abstain_collinear_features",
+        "estimate": null,
+        "projection_denominator": 0.0
+      },
+      "final_trace_output": {
+        "status": "abstain_overlapping_spans",
+        "estimate": null
+      },
+      "old_basis": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "new_basis": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "max_api_boundary_error": null,
+      "max_trace_boundary_error": null,
+      "api_recovery_steps": 0,
+      "trace_recovery_steps": 0,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "collinear_01",
+      "family": "collinear",
+      "geometry": "identity",
+      "original_case_id": null,
+      "arm": "collinear",
+      "old_gain": -1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        1.0,
+        0.0
+      ],
+      "subsequent_feature": [
+        1.0,
+        0.0
+      ],
+      "boundary": {
+        "theta": [
+          -0.9988209815422262,
+          0.0
+        ],
+        "prediction": -0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        0.997643353168976,
+        0.0
+      ],
+      "final_ordinary_old_prediction": 0.997643353168976,
+      "final_ordinary_new_prediction": 0.997643353168976,
+      "final_api_output": {
+        "status": "abstain_collinear_features",
+        "estimate": null,
+        "projection_denominator": 0.0
+      },
+      "final_trace_output": {
+        "status": "abstain_overlapping_spans",
+        "estimate": null
+      },
+      "old_basis": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "new_basis": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "max_api_boundary_error": null,
+      "max_trace_boundary_error": null,
+      "api_recovery_steps": 0,
+      "trace_recovery_steps": 0,
+      "first_B_step_wrong_old_sign": 7,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "collinear_02",
+      "family": "collinear",
+      "geometry": "identity",
+      "original_case_id": null,
+      "arm": "collinear",
+      "old_gain": 1.0,
+      "new_gain": -1.0,
+      "old_feature": [
+        1.0,
+        0.0
+      ],
+      "subsequent_feature": [
+        1.0,
+        0.0
+      ],
+      "boundary": {
+        "theta": [
+          0.9988209815422262,
+          0.0
+        ],
+        "prediction": 0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -0.997643353168976,
+        0.0
+      ],
+      "final_ordinary_old_prediction": -0.997643353168976,
+      "final_ordinary_new_prediction": -0.997643353168976,
+      "final_api_output": {
+        "status": "abstain_collinear_features",
+        "estimate": null,
+        "projection_denominator": 0.0
+      },
+      "final_trace_output": {
+        "status": "abstain_overlapping_spans",
+        "estimate": null
+      },
+      "old_basis": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "new_basis": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "max_api_boundary_error": null,
+      "max_trace_boundary_error": null,
+      "api_recovery_steps": 0,
+      "trace_recovery_steps": 0,
+      "first_B_step_wrong_old_sign": 7,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "collinear_03",
+      "family": "collinear",
+      "geometry": "identity",
+      "original_case_id": null,
+      "arm": "collinear",
+      "old_gain": 1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        1.0,
+        0.0
+      ],
+      "subsequent_feature": [
+        1.0,
+        0.0
+      ],
+      "boundary": {
+        "theta": [
+          0.9988209815422262,
+          0.0
+        ],
+        "prediction": 0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        0.9999986099154762,
+        0.0
+      ],
+      "final_ordinary_old_prediction": 0.9999986099154762,
+      "final_ordinary_new_prediction": 0.9999986099154762,
+      "final_api_output": {
+        "status": "abstain_collinear_features",
+        "estimate": null,
+        "projection_denominator": 0.0
+      },
+      "final_trace_output": {
+        "status": "abstain_overlapping_spans",
+        "estimate": null
+      },
+      "old_basis": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "new_basis": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "max_api_boundary_error": null,
+      "max_trace_boundary_error": null,
+      "api_recovery_steps": 0,
+      "trace_recovery_steps": 0,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "ambiguity_negative",
+      "family": "ambiguity",
+      "geometry": "constructed_unknown_B",
+      "original_case_id": null,
+      "arm": "shared_unknown_geometry",
+      "old_gain": -1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        1.0,
+        0.0
+      ],
+      "subsequent_feature": [
+        0.6182355023431362,
+        0.7859929157712111
+      ],
+      "analytic_final_theta": [
+        0.0,
+        1.2698497783456406
+      ],
+      "boundary": {
+        "theta": [
+          -0.9988209815422262,
+          0.0
+        ],
+        "prediction": -0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        -2.485533480423019e-17,
+        1.269849778345641
+      ],
+      "final_ordinary_old_prediction": -2.485533480423019e-17,
+      "final_ordinary_new_prediction": 0.9980929298733165,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422266,
+        "projection_denominator": 0.61778486364253
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": -0.9988209815422263,
+        "reconstruction_residual": 2.485533480423019e-17
+      },
+      "old_basis": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "new_basis": [
+        [
+          0.6182355023431361,
+          0.785992915771211
+        ]
+      ],
+      "max_api_boundary_error": 4.440892098500626e-16,
+      "max_trace_boundary_error": 2.220446049250313e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    },
+    {
+      "case_id": "ambiguity_positive",
+      "family": "ambiguity",
+      "geometry": "constructed_unknown_B",
+      "original_case_id": null,
+      "arm": "shared_unknown_geometry",
+      "old_gain": 1.0,
+      "new_gain": 1.0,
+      "old_feature": [
+        1.0,
+        0.0
+      ],
+      "subsequent_feature": [
+        -0.6182355023431362,
+        0.7859929157712111
+      ],
+      "analytic_final_theta": [
+        0.0,
+        1.2698497783456406
+      ],
+      "boundary": {
+        "theta": [
+          0.9988209815422262,
+          0.0
+        ],
+        "prediction": 0.9988209815422262,
+        "evaluator_only": true
+      },
+      "final_theta": [
+        2.485533480423019e-17,
+        1.269849778345641
+      ],
+      "final_ordinary_old_prediction": 2.485533480423019e-17,
+      "final_ordinary_new_prediction": 0.9980929298733165,
+      "final_api_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422266,
+        "projection_denominator": 0.61778486364253
+      },
+      "final_trace_output": {
+        "status": "recovered",
+        "estimate": 0.9988209815422263,
+        "reconstruction_residual": 2.485533480423019e-17
+      },
+      "old_basis": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "new_basis": [
+        [
+          0.6182355023431361,
+          -0.785992915771211
+        ]
+      ],
+      "max_api_boundary_error": 4.440892098500626e-16,
+      "max_trace_boundary_error": 2.220446049250313e-16,
+      "api_recovery_steps": 64,
+      "trace_recovery_steps": 64,
+      "first_B_step_wrong_old_sign": null,
+      "declared_arithmetic_consistency": true
+    }
+  ],
+  "training_interactions": 6912,
+  "arithmetic_check_atol": 1e-10,
+  "original_identity_maximum_residual": 0.0,
+  "original_protected_files_unchanged": true,
+  "ambiguous_history_comparison": {
+    "claim_scope": "weights plus old query only, over the declared unknown-B-map class; not the original full API",
+    "gains": "Both histories use old gains in {-1,+1} and new gain +1; no continuous-gain extension is needed.",
+    "maximum_final_weight_difference": 4.971066960846038e-17,
+    "boundary_prediction_difference": 1.9976419630844524,
+    "same_old_query": true,
+    "different_subsequent_feature": true
+  },
+  "declared_arithmetic_consistency": true,
+  "formal_gate_verdict": null,
+  "statistical_inference": "None; exact constructions and arithmetic checks only",
+  "scope_exclusions": [
+    "No autonomous invention or selection of the decoder",
+    "No unknown-world exploration or primitive discovery",
+    "No installation of recovery into the predictor's training or action path",
+    "No old target/label replay, saved boundary estimate or coordinate-specific recovery formula",
+    "No population prevalence, frontier-model or biological inference",
+    "No automatic strengthening or demotion of the broad bottleneck ranking",
+    "No novelty, feasibility or candidate mechanism screening"
+  ]
+}

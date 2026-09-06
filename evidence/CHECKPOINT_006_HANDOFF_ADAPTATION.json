@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "checkpoint_id": "P2_CHECKPOINT_006",
+  "created_utc": "2026-09-06T18:54:32.066063+00:00",
+  "base_commit": "376455150af7b257809a56021431413b2e0c6293",
+  "source_helper": "scripts/checkpoint005_handoff.py",
+  "source_helper_sha256": "f31923621150379bc9fd80c72b92888a3a76e8294d9aa69d7f07ee0c773b05e6",
+  "adapted_helper": "scripts/checkpoint006_handoff.py",
+  "adapted_helper_sha256": "9890af5bac89740da639c7a3d1856f41ccf348233ad7f1566b450a28d1472e6a",
+  "method_reference": "docs/CHECKPOINT_005_HANDOFF_METHODS.md",
+  "description": "Versioned checkpoint006 local transport adaptation; exactly four textual substitutions, without functional redesign.",
+  "changes": [
+    {
+      "old": "Local checkpoint-005 ZIP handoff.",
+      "new": "Local P2 checkpoint-006 ZIP handoff."
+    },
+    {
+      "old": "BASE = \"980b99cbaa90096679eec35c230f3069a255357d\"",
+      "new": "BASE = \"376455150af7b257809a56021431413b2e0c6293\""
+    },
+    {
+      "old": "\"P1_CHECKPOINT_005\"",
+      "new": "\"P2_CHECKPOINT_006\""
+    },
+    {
+      "old": "\"delivery/checkpoint005_backups\"",
+      "new": "\"delivery/checkpoint006_backups\""
+    }
+  ],
+  "validation": {
+    "python_ast_parse": "passed",
+    "python_in_memory_compile": "passed",
+    "exact_four_substitutions": "passed",
+    "normalized_ast_matches_source": "passed",
+    "diff_removed_lines": 4,
+    "diff_added_lines": 4,
+    "source_helper_modified": false,
+    "helper_executed": false,
+    "actual_archive_validation": "not performed; reserved for root after final science and state payload is ready",
+    "scope": "Syntax and exact four-change source equivalence only; no final package generated."
+  },
+  "retained_transport_operations": [
+    "local inspect",
+    "local apply with backup",
+    "local stage",
+    "local verify"
+  ],
+  "performed_transport_operations": [],
+  "network_or_authentication_performed": false,
+  "commit_or_push_performed": false,
+  "project_state_or_ledger_modified": false,
+  "review_classification": "shared-tools engineering consultation; not independent review",
+  "nonzero_tool_exit_codes": [],
+  "error_log": null,
+  "unified_diff": "--- scripts/checkpoint005_handoff.py\n+++ scripts/checkpoint006_handoff.py\n@@ -1,4 +1,4 @@\n-\"\"\"Local checkpoint-005 ZIP handoff. No commit, push, fetch, or authentication.\n+\"\"\"Local P2 checkpoint-006 ZIP handoff. No commit, push, fetch, or authentication.\n \n Supply the ZIP and its published SHA-256. Default: inspect. --apply: install and\n stage known transitions, then verify actual index blobs. --verify: require the\n@@ -17,7 +17,7 @@\n import tempfile\n import zipfile\n \n-BASE = \"980b99cbaa90096679eec35c230f3069a255357d\"\n+BASE = \"376455150af7b257809a56021431413b2e0c6293\"\n REMOTE = \"https://github.com/afazeliUofT/arc-independent-lab.git\"\n ATTRIBUTES = b\"# Preserve the exact bytes of scientific run artifacts.\\n/artifacts/** -text\\n\"\n MAX_BYTES = 64 * 1024 * 1024\n@@ -60,7 +60,7 @@\n             raise ValueError(\"Duplicate ZIP members or oversized uncompressed payload\")\n         manifest = json.loads(archive.read(\"HANDOFF.json\"), object_pairs_hook=unique)\n         if (set(manifest) != {\"checkpoint_id\", \"base_commit\", \"files\"}\n-                or manifest[\"checkpoint_id\"] != \"P1_CHECKPOINT_005\"\n+                or manifest[\"checkpoint_id\"] != \"P2_CHECKPOINT_006\"\n                 or manifest[\"base_commit\"] != BASE\n                 or not isinstance(manifest[\"files\"], dict) or not manifest[\"files\"]):\n             raise ValueError(\"Unexpected handoff manifest\")\n@@ -212,7 +212,7 @@\n     if head != BASE:\n         print(\"Checkpoint commit already exists; no files or index changed.\")\n         return\n-    backup_parent = ordinary(root, \"delivery/checkpoint005_backups\", directory=True)\n+    backup_parent = ordinary(root, \"delivery/checkpoint006_backups\", directory=True)\n     backup_parent.mkdir(parents=True, exist_ok=True)\n     stamp = datetime.datetime.now(datetime.timezone.utc).strftime(\"%Y%m%dT%H%M%S.%fZ-\")\n     backup = Path(tempfile.mkdtemp(prefix=stamp, dir=backup_parent))\n"
+}

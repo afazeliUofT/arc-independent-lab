@@ -1,0 +1,354 @@
+{
+  "created_date": "2026-09-06",
+  "purpose": "Bounded convergence consultation after complete raw generation; a primary indexing of overlapping computational moves, not an efficacy, novelty or feasibility verdict.",
+  "consultation_boundary": "Shared tools and filesystem; not independent review.",
+  "phase": "Phase 2 clustering after generation freeze",
+  "novelty_screening_performed": false,
+  "feasibility_screening_performed": false,
+  "source_freeze": "evidence/P2_GENERATION_FREEZE.json",
+  "raw_integrity_checks": [
+    {
+      "path": "evidence/P2_RAW_B1.md",
+      "sha256": "83ad7ab792a69ec7be151c1bd1f8eda542db1f8fce95c923b54ea023a989620b",
+      "matches_freeze": true,
+      "entry_count": 24
+    },
+    {
+      "path": "evidence/P2_RAW_B2.md",
+      "sha256": "db9db89204417faa8cd195bbe0f2833614ca2947b76fa3036c179cda2196fd35",
+      "matches_freeze": true,
+      "entry_count": 24
+    },
+    {
+      "path": "evidence/P2_RAW_B3.md",
+      "sha256": "6ffb7d9c166d926faf2253f8b433c2588041f668d7a4ad4b4cfb3fd077077020",
+      "matches_freeze": true,
+      "entry_count": 24
+    }
+  ],
+  "primary_assignment_rule": "Every raw entry occurs in exactly one primary cluster. Secondary conceptual overlap is recorded separately and does not alter the primary map.",
+  "entry_count": 72,
+  "cluster_count": 15,
+  "independent_mechanism_count": "not established; neither 72 entries nor 15 clusters denotes independent mechanisms",
+  "clusters": [
+    {
+      "cluster_id": "C01",
+      "name": "Retain alternative interpretations",
+      "underlying_move": "Keep several still-compatible explanations or readings without forcing a single commitment.",
+      "entry_ids": [
+        "B1-01",
+        "B1-23",
+        "B3-09"
+      ],
+      "entry_count": 3
+    },
+    {
+      "cluster_id": "C02",
+      "name": "Construct the description language",
+      "underlying_move": "Discover variables, predicates, identities or relations that the previous description could not distinguish.",
+      "entry_ids": [
+        "B1-02",
+        "B1-14",
+        "B1-15",
+        "B1-20"
+      ],
+      "entry_count": 4
+    },
+    {
+      "cluster_id": "C03",
+      "name": "Bound and revise rule applicability",
+      "underlying_move": "Attach exceptions, substitution boundaries, evidence-type bridges or context guards to a generalization.",
+      "entry_ids": [
+        "B1-03",
+        "B1-10",
+        "B1-12",
+        "B1-24",
+        "B3-16"
+      ],
+      "entry_count": 5
+    },
+    {
+      "cluster_id": "C04",
+      "name": "Preserve relations across description changes",
+      "underlying_move": "Impose or discover equivalence across names, encodings or calibrations.",
+      "entry_ids": [
+        "B1-05",
+        "B1-11",
+        "B1-22"
+      ],
+      "entry_count": 3
+    },
+    {
+      "cluster_id": "C05",
+      "name": "Change what representation selection rewards",
+      "underlying_move": "Allocate compression or representational support by decision distinctions, reliability or otherwise-unexplained errors.",
+      "entry_ids": [
+        "B1-04",
+        "B1-08",
+        "B1-18",
+        "B1-19"
+      ],
+      "entry_count": 4
+    },
+    {
+      "cluster_id": "C06",
+      "name": "Identify the observation process",
+      "underlying_move": "Record or manipulate the conditions of observation to distinguish changes in the world from changes in access or measurement.",
+      "entry_ids": [
+        "B1-06",
+        "B1-16",
+        "B1-21",
+        "B2-03",
+        "B2-13",
+        "B2-15",
+        "B2-16",
+        "B2-22"
+      ],
+      "entry_count": 8
+    },
+    {
+      "cluster_id": "C07",
+      "name": "Preserve or restore opportunities for evidence",
+      "underlying_move": "Keep access to, return to, or reopen conditions in which an unresolved distinction could be observed.",
+      "entry_ids": [
+        "B1-07",
+        "B2-02",
+        "B2-04",
+        "B2-11",
+        "B2-12",
+        "B2-18"
+      ],
+      "entry_count": 6
+    },
+    {
+      "cluster_id": "C08",
+      "name": "Choose actions by the questions they distinguish",
+      "underlying_move": "Use disagreements or a declared future-question family to allocate experiments or decide whether to continue inquiry.",
+      "entry_ids": [
+        "B1-13",
+        "B2-01",
+        "B2-05",
+        "B2-06",
+        "B2-10",
+        "B2-14",
+        "B2-23",
+        "B2-24"
+      ],
+      "entry_count": 8
+    },
+    {
+      "cluster_id": "C09",
+      "name": "Broaden interaction coverage",
+      "underlying_move": "Obtain varied observation opportunities through enumeration, coverage weighting, alternative goals or different policies.",
+      "entry_ids": [
+        "B2-07",
+        "B2-08",
+        "B2-09",
+        "B2-19",
+        "B2-21"
+      ],
+      "entry_count": 5
+    },
+    {
+      "cluster_id": "C10",
+      "name": "Learn whether inquiry obtained its promised evidence",
+      "underlying_move": "Compare predicted experiment informativeness with what the resulting observations actually separated.",
+      "entry_ids": [
+        "B2-17",
+        "B2-20"
+      ],
+      "entry_count": 2
+    },
+    {
+      "cluster_id": "C11",
+      "name": "Separate or duplicate history-bearing states",
+      "underlying_move": "Avoid a single shared evolving state through cases, context separation, freezing, redundant encodings or conditional splitting.",
+      "entry_ids": [
+        "B1-09",
+        "B1-17",
+        "B3-04",
+        "B3-14",
+        "B3-17"
+      ],
+      "entry_count": 5
+    },
+    {
+      "cluster_id": "C12",
+      "name": "Maintain compatibility between changing internal interfaces",
+      "underlying_move": "Track or constrain the mapping between a learned representation and a response interface while either side changes.",
+      "entry_ids": [
+        "B3-01",
+        "B3-06",
+        "B3-07",
+        "B3-08",
+        "B3-20"
+      ],
+      "entry_count": 5
+    },
+    {
+      "cluster_id": "C13",
+      "name": "Diagnose or reconstruct access to surviving state",
+      "underlying_move": "Use constraints, probes, update histories or structural matching to assess and build a readout.",
+      "entry_ids": [
+        "B3-02",
+        "B3-03",
+        "B3-12",
+        "B3-13",
+        "B3-15",
+        "B3-19",
+        "B3-23",
+        "B3-24"
+      ],
+      "entry_count": 8
+    },
+    {
+      "cluster_id": "C14",
+      "name": "Make reading or updating undoable",
+      "underlying_move": "Use inversion or a disposable copy so access attempts can revisit a state or avoid modifying the acting state.",
+      "entry_ids": [
+        "B3-05",
+        "B3-21"
+      ],
+      "entry_count": 2
+    },
+    {
+      "cluster_id": "C15",
+      "name": "Use continuing interaction or external arrangements for later access",
+      "underlying_move": "Renew the relevant encounter, build a new access route, preserve an external cue or retain a reacquisition procedure.",
+      "entry_ids": [
+        "B3-10",
+        "B3-11",
+        "B3-18",
+        "B3-22"
+      ],
+      "entry_count": 4
+    }
+  ],
+  "primary_cluster_by_entry": {
+    "B1-01": "C01",
+    "B1-23": "C01",
+    "B3-09": "C01",
+    "B1-02": "C02",
+    "B1-14": "C02",
+    "B1-15": "C02",
+    "B1-20": "C02",
+    "B1-03": "C03",
+    "B1-10": "C03",
+    "B1-12": "C03",
+    "B1-24": "C03",
+    "B3-16": "C03",
+    "B1-05": "C04",
+    "B1-11": "C04",
+    "B1-22": "C04",
+    "B1-04": "C05",
+    "B1-08": "C05",
+    "B1-18": "C05",
+    "B1-19": "C05",
+    "B1-06": "C06",
+    "B1-16": "C06",
+    "B1-21": "C06",
+    "B2-03": "C06",
+    "B2-13": "C06",
+    "B2-15": "C06",
+    "B2-16": "C06",
+    "B2-22": "C06",
+    "B1-07": "C07",
+    "B2-02": "C07",
+    "B2-04": "C07",
+    "B2-11": "C07",
+    "B2-12": "C07",
+    "B2-18": "C07",
+    "B1-13": "C08",
+    "B2-01": "C08",
+    "B2-05": "C08",
+    "B2-06": "C08",
+    "B2-10": "C08",
+    "B2-14": "C08",
+    "B2-23": "C08",
+    "B2-24": "C08",
+    "B2-07": "C09",
+    "B2-08": "C09",
+    "B2-09": "C09",
+    "B2-19": "C09",
+    "B2-21": "C09",
+    "B2-17": "C10",
+    "B2-20": "C10",
+    "B1-09": "C11",
+    "B1-17": "C11",
+    "B3-04": "C11",
+    "B3-14": "C11",
+    "B3-17": "C11",
+    "B3-01": "C12",
+    "B3-06": "C12",
+    "B3-07": "C12",
+    "B3-08": "C12",
+    "B3-20": "C12",
+    "B3-02": "C13",
+    "B3-03": "C13",
+    "B3-12": "C13",
+    "B3-13": "C13",
+    "B3-15": "C13",
+    "B3-19": "C13",
+    "B3-23": "C13",
+    "B3-24": "C13",
+    "B3-05": "C14",
+    "B3-21": "C14",
+    "B3-10": "C15",
+    "B3-11": "C15",
+    "B3-18": "C15",
+    "B3-22": "C15"
+  },
+  "coverage_validation": {
+    "expected": 72,
+    "assigned": 72,
+    "unique": 72,
+    "missing": [],
+    "duplicates": [],
+    "unexpected": []
+  },
+  "tentative_move_assessment": [
+    {
+      "move": "PI C1: retain executable alternatives",
+      "raw_anchor": [
+        "B1-01"
+      ],
+      "controlled_object": "live explanation/state pairs within a supplied finite transducer family",
+      "distinctness_condition": "Retains compatible alternatives under fixed evidence and acquisition; does not enlarge the hypothesis language.",
+      "dependency": "Can supply alternatives to C2, but C1 is separately compared under a fixed acquisition policy."
+    },
+    {
+      "move": "PI C2: decision-dependent experiment selection",
+      "raw_anchor": [
+        "B2-01",
+        "B2-02"
+      ],
+      "controlled_object": "the next bounded experiment policy and its resulting observations",
+      "distinctness_condition": "Uses an externally fixed predictive and inference substrate; selects by expected later decision loss after world change and cost.",
+      "dependency": "Restoration is an allowed experiment if included and modelled; this operation does not itself learn a restoration procedure or predictive family."
+    },
+    {
+      "move": "PI C3: representation-to-old-interface translation",
+      "raw_anchor": [
+        "B3-01"
+      ],
+      "controlled_object": "the linear correspondence between current features and reference activations",
+      "distinctness_condition": "Encoder training and old readout remain fixed while the map is fitted using declared anchors and reference activations.",
+      "dependency": "Reference activations are a surviving history-bearing channel; held-out access and latent survival remain separate questions."
+    },
+    {
+      "move": "PI C4: conditional-rule scope construction",
+      "raw_anchor": [
+        "B1-03",
+        "B1-14",
+        "B1-24"
+      ],
+      "controlled_object": "a conditional boundary for a supplied target F within a supplied finite atom library",
+      "distinctness_condition": "Retains witnesses and enumerates a scope; does not create predicates or expand the language within an instance.",
+      "dependency": "Raw B1-14 motivated an upstream request, not an implemented predicate learner. C4 is related to C1 through consistency but selects a local scope rather than retaining all compatible explanatory states."
+    }
+  ],
+  "verdict": "No selection, efficacy, novelty or feasibility verdict issued. PI retains selection judgment.",
+  "developed_specifications_read": "docs/P2_OPERATION_SPECIFICATIONS.md",
+  "developed_specifications_sha256_at_consultation": "c12325e1092aaf14591202a404198562882e22969263a8ba430c6166e0c4163f",
+  "consultation_correction": "Initial raw-anchor assessment called the fourth tentative move a composite including predicate discovery. Developed C4 explicitly excludes that operation; witness retention and boundary enumeration now form one defined scope operation. Raw clustering is unchanged."
+}

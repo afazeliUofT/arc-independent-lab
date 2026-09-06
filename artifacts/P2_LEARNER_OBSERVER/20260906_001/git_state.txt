@@ -1,0 +1,27 @@
+376455150af7b257809a56021431413b2e0c6293
+ M README.md
+ M reports/DIGEST_2026-09-06.md
+ M state/ESCALATION.md
+ M state/LEDGER.jsonl
+ M state/PROJECT_STATE.json
+ M state/tool_errors.jsonl
+?? configs/P2_LEARNER_OBSERVER.json
+?? docs/CHECKPOINT_006_HANDOFF_METHODS.md
+?? docs/P2_GENERATION_PROTOCOL.md
+?? docs/followups/
+?? evidence/CHECKPOINT_006_HANDOFF_ADAPTATION.json
+?? evidence/P2_BIOLOGY_ACTION_CONSTRAINTS_2026-09-06.md
+?? evidence/P2_BIOLOGY_ACTION_ERRORS_2026-09-06.jsonl
+?? evidence/P2_BIOLOGY_GENERATION_INPUT.md
+?? evidence/P2_BIOLOGY_IMMUNE_CONSTRAINTS_2026-09-06.md
+?? evidence/P2_BIOLOGY_IMMUNE_ERRORS_2026-09-06.jsonl
+?? evidence/P2_LEARNER_OBSERVER_ERRORS_2026-09-06.jsonl
+?? evidence/P2_LEARNER_OBSERVER_PROTOCOL_FREEZE.json
+?? evidence/P2_RAW_B1.md
+?? evidence/P2_RAW_B2.md
+?? evidence/PHASE1_APPROVAL_VERIFICATION.json
+?? evidence/REMOTE_CHECKPOINT_005_VERIFICATION.json
+?? scripts/checkpoint006_handoff.py
+?? scripts/run_learner_observer.py
+?? state/escalations/2026-09-06_PHASE1_ANSWER_CHANNEL_CORRECTION.md
+?? state/escalations/2026-09-06_PHASE1_APPROVED.md

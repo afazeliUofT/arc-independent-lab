@@ -1,0 +1,12 @@
+{"date": "2026-09-06", "operation": "web open", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2709669/", "result": "Checking your browser - reCAPTCHA; no challenge solved; no article body obtained"}
+{"date": "2026-09-06", "operation": "web open", "url": "https://www.nature.com/articles/nature06390", "result": "Failed to fetch (500); redirected to idp.nature.com authorize URL reported unsafe/non-retryable"}
+{"date": "2026-09-06", "operation": "Python urllib GET", "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2709669/fullTextXML", "error": "HTTP Error 404: Not Found"}
+{"date": "2026-09-06", "operation": "Python urllib GET", "url": "https://escholarship.org/content/qt66q5v3kn/qt66q5v3kn.pdf", "error": "Not a PDF"}
+{"date": "2026-09-06", "operation": "web open/click", "url": "https://europepmc.org/articles/PMC2709669", "result": "Internal Error; no full-text body"}
+{"date": "2026-09-06", "operation": "web open/click", "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.0903214106", "result": "Internal Error; no PDF"}
+{"date": "2026-09-06", "operation": "web open/click", "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2709669/fullTextXML", "result": "web Internal Error; later ordinary Python GET returned404"}
+{"date": "2026-09-06", "operation": "web open/click", "url": "https://elifesciences.org/articles/02152", "result": "403 Forbidden; author PDF later accessible"}
+{"date": "2026-09-06", "operation": "web open/click", "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/23213223/", "result": "Checking your browser - reCAPTCHA; no challenge solved"}
+{"date": "2026-09-06", "operation": "web open/click", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3529072/", "result": "Checking your browser - reCAPTCHA; no challenge solved"}
+{"date": "2026-09-06", "operation": "web open/click", "url": "https://escholarship.org/uc/item/66q5v3kn", "result": "Landing page returned only3lines; direct institutional PDF accessible"}
+{"date": "2026-09-06", "operation": "web screenshot", "url": "https://escholarship.org/content/qt66q5v3kn/qt66q5v3kn.pdf", "pages_zero_indexed": [5, 3, 4], "result": "Tool returned string citation placeholders without inspectable image bytes on initial and one repeated call; no visual audit claimed"}

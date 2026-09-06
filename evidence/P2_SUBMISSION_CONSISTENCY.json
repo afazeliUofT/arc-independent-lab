@@ -1,0 +1,42 @@
+{
+  "verified_utc": "2026-09-06T19:21:59.857992+00:00",
+  "purpose": "Document and archive consistency, not a scientific gate verdict",
+  "phase1_approval_commit": "376455150af7b257809a56021431413b2e0c6293",
+  "approved_diagnosis_unchanged": true,
+  "diagnosis_sha256": "e3106d737f5b50a688d1d5147a015dc091d2986493848b68d33d61949dfa4cc3",
+  "ideas_sha256": "73cab9f6ab1f5eda80c7c2adc6d2ed556c63d5652fd65434e4cc4b24383dc3b8",
+  "generation_freeze_sha256": "04d0980474b843397e334013797c73e6868fd9d808fede5adc577c91fe600dfc",
+  "raw_entries": 72,
+  "raw_batch_counts": [
+    24,
+    24,
+    24
+  ],
+  "raw_batches_unchanged_and_embedded": true,
+  "cluster_count": 15,
+  "every_entry_assigned_once": true,
+  "developed_operation_ids": [
+    "C1",
+    "C2",
+    "C3",
+    "C4"
+  ],
+  "broad_causal_families": 3,
+  "operation_specifications_sha256": "d37a52eeb569461503b262d2790a656048624ede4790aeb49254e5a9f133c26f",
+  "clarification_checks": [
+    "C4 observational aliasing separated from bounded conjunction capacity",
+    "C1 reset relation and empty inconsistency behavior explicit",
+    "C2 finite joint kernel, impossible transcript, branchwise hard allowance and realized cost explicit",
+    "C3 matrix dimensions and historical channel counted"
+  ],
+  "observer_frozen_inputs_and_original_protected_files_match": true,
+  "observer_results_sha256": "9c6c95c115e9d350e26c43707092c65208020eac9b02b91d389d335fa3febd08",
+  "observer_original_and_additional_inventory_files_verified": 15,
+  "observer_metadata_export_limitation": "Required filenames added after run; original exact-inventory auditor receipt applies to pre-export inventory. Current byte checks separately verify original and additional inventories. No retroactive claim of runtime emission.",
+  "biological_pass_completed_before_generation": true,
+  "candidate_experiments_run": false,
+  "novelty_audit_performed": false,
+  "independent_review": false,
+  "phase2_human_approval": "pending",
+  "phase3_started": false
+}

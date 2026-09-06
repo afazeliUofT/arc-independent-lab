@@ -1,6 +1,6 @@
 # ARC Independent Lab
 
-Autonomous research programme funded by Ali Fazeli. Current phase: **Phase 1 — diagnosis**. `DIAGNOSIS.md` is a working document, incomplete and not submitted for approval. No candidate repair has been proposed, selected or tested.
+Autonomous research programme funded by Ali Fazeli. Current phase: **Phase 2 — ideation, submitted for review**. Ali approved the published `DIAGNOSIS.md`; `IDEAS.md` now contains the full generated population, clustering and specified operations. The requested biological pass and learner-access diagnostic follow-up are complete. No candidate efficacy test or novelty audit has begun.
 
 ## Resume without conversation memory
 
@@ -10,7 +10,12 @@ Verify repository state and checkpoint hashes before building on it. If blocked,
 
 ## Scientific navigation
 
-- `DIAGNOSIS.md`: computational demand and required incomplete sections, in the mandated order.
+- `IDEAS.md`: Phase 2 submission, including the unedited population, clusters, developed operations and post-development method flags.
+- `reports/P2_LEARNER_OBSERVER_001.md`: required recovery follow-up and its access limits.
+- `reports/P2_LEARNER_OBSERVER_METADATA_COMPLETION.md`: declared post-run metadata exports and inventory-verification scope.
+- `evidence/P2_BIOLOGY_GENERATION_INPUT.md`: the additional focused biological constraints.
+
+- `DIAGNOSIS.md`: submitted computational demand, failure catalogue, reproduction, interdisciplinary constraints, archaeology and ranked falsifiable claims, in the mandated order.
 - `evidence/SCOUT_RECENT_AI_2026-09-06.md`: bounded methods-based AI source map, including recent preprints and counterevidence.
 - `evidence/SCOUT_BIOLOGY_2026-09-06.md`: bounded biological constraints with evidence classes and limits.
 - `evidence/SCOUT_ARCHAEOLOGY_2026-09-06.md`: historical methods, unresolved uptake explanations and explicit correction record.
@@ -19,7 +24,7 @@ Verify repository state and checkpoint hashes before building on it. If blocked,
 - `reports/P1_REPRODUCTION_001.md`: instrumented performance/interference witness, raw-artifact hashes and scope.
 - `docs/TOOLING_EVIDENCE.md`: what has actually been checked about this runtime.
 
-The bounded Phase 1 reproduction is complete; the broader diagnosis and bottleneck ranking remain unfinished. Phase 2 requires Ali's approval of the completed diagnosis. Ideas that occur during Phase 1 go into the parked file without development or rereading. The other programme and withheld benchmark fact sheet are outside the permitted evidence base.
+The approved Phase 1 diagnosis remains unchanged. The parked file was first read after Phase 2 approval and contained no candidate entries. Phase 3 requires Ali's recorded approval of `IDEAS.md`. The other programme and the withheld benchmark fact sheet remain outside the permitted evidence base. The learner-access follow-up has its own report, protocol and raw artifacts; it is a diagnostic extension, not evidence that any developed candidate works.
 
 The canonical experiment entry point is `scripts/run_reproduction.py`. Reproduce with `python3 scripts/run_reproduction.py --config configs/P1_LINEAR_INTERFERENCE.json --run-id YOUR_NEW_RUN_ID`. Existing raw-run directories are never overwritten. No packages, GPU, cluster or model API are required for this witness. See its report before interpreting the result.
 
