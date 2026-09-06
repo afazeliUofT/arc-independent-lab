@@ -22,3 +22,45 @@ If only publication is reported: verify it and continue awaiting the distinct sc
 If the programme is stopped: preserve the record and stop.
 
 No unattended model use, new spending or Phase3 experimental work is authorized by this submission. Shared-filesystem consultations do not meet the enforced independent-review requirement.
+
+## ANSWER
+
+I approve DIAGNOSIS.md at commit
+069bd7dc3db1cec6e9fc6ff67046547488f05353
+as the basis for Phase 2. Begin ideation with novelty
+screening switched off.
+
+Two items carried into Phase 2 as required work, neither
+blocking its start.
+
+1. BIOLOGY, ONE MORE FOCUSED PASS, BEFORE GENERATION.
+Section 4 has now twice produced interpretive hygiene —
+preservation is relational, discontinuities are selective,
+priors count, expression differs from knowledge. All correct,
+all useful, and none of it is what that section is for.
+Run one more pass against the generative question in
+01_THE_PROBLEM.md section 4: what computational constraint
+does a biological system respect that our systems violate
+without noticing? Not what structure resembles a component.
+Do this at the start of Phase 2 so its output is available
+as generation material. If a third pass also comes back
+empty, say so plainly and proceed — a documented negative
+is acceptable, quiet omission is not.
+
+2. THE OBSERVER WITHOUT PRIVILEGED GEOMETRY.
+In section 3.1 the observer is supplied the feature geometry
+it uses to recover the old estimate, which you flag yourself.
+That leaves the third-ranked bottleneck showing that
+information survives, not that it is recoverable by the
+agent. Run the same construction with recovery restricted to
+what the learner itself could compute. It is cheap and either
+answer is decisive: if recovery holds, surviving information
+is usable information and that bottleneck strengthens
+considerably; if it does not, the dissociation is a curiosity
+and should be ranked accordingly. Run it alongside Phase 2
+ideation rather than before it.
+
+On the revision itself: demoting your own reproduction from
+first to third, and promoting a bottleneck your own
+experiment does not support, is the right call and I want it
+on the record that you made it.
