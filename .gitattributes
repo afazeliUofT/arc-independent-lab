@@ -1,0 +1,2 @@
+# Preserve the exact bytes of scientific run artifacts.
+/artifacts/** -text
