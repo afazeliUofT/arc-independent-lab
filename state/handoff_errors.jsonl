@@ -1,0 +1,1 @@
+{"command": ["git", "diff", "--cached", "--quiet"], "exit_code": 1, "stdout": "", "stderr": "", "required_success": false}

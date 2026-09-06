@@ -1,0 +1,38 @@
+[
+  {
+    "source_upload_name": "00_START_HERE(1).md",
+    "repository_path": "docs/governing/00_START_HERE.md",
+    "sha256": "d598a44576b222d7465fb691671420e85ec10f738a8424f2f2f223c77af4336a",
+    "bytes": 10206
+  },
+  {
+    "source_upload_name": "01_THE_PROBLEM.md",
+    "repository_path": "docs/governing/01_THE_PROBLEM.md",
+    "sha256": "e89ddd629cfc839be31d0127acb59354b5e38d23e77859a8d8c7bbea87e00d3e",
+    "bytes": 8656
+  },
+  {
+    "source_upload_name": "02_RESEARCH_PROCESS.md",
+    "repository_path": "docs/governing/02_RESEARCH_PROCESS.md",
+    "sha256": "7bf3c496962d0ede489ef10a237d3b70830fb439f3395235c3b8c18a23c4bc3d",
+    "bytes": 15889
+  },
+  {
+    "source_upload_name": "03_AUTONOMY_SPEC.md",
+    "repository_path": "docs/governing/03_AUTONOMY_SPEC.md",
+    "sha256": "b4beb0712e44fa7621da14bc2e9c55fb66dbd7866a93cc335b36f9f532b2a912",
+    "bytes": 22371
+  },
+  {
+    "source_upload_name": "04_RESOURCES_AND_SETUP.md",
+    "repository_path": "docs/governing/04_RESOURCES_AND_SETUP.md",
+    "sha256": "00e2e878fbfc1a11d56ada0ed512bd53443250326a0275ad082f842013c25cd5",
+    "bytes": 9359
+  },
+  {
+    "source_upload_name": "05_OPERATIONAL_LESSONS.md",
+    "repository_path": "docs/governing/05_OPERATIONAL_LESSONS.md",
+    "sha256": "bcc4d50bb8b4b9d32c3a8859e9b1cd645fea82cb93184792191649efc30fc000",
+    "bytes": 10746
+  }
+]

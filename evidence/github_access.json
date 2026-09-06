@@ -1,0 +1,18 @@
+{
+  "access_date": "2026-09-06",
+  "method": "GitHub connector get_repo using exact repository_full_name",
+  "requested_repository": "afazeliUofT/arc-independent-lab",
+  "repository_full_name": "afazeliUofT/arc-independent-lab",
+  "clone_url": "https://github.com/afazeliUofT/arc-independent-lab.git",
+  "default_branch": "main",
+  "visibility": "public",
+  "reported_size": 0,
+  "reported_permissions": {
+    "admin": true,
+    "maintain": true,
+    "pull": true,
+    "push": true,
+    "triage": true
+  },
+  "authorization_scope": "Read via connector. User executes prepared commits and pushes. Exposed write privileges are not authorization to publish or evidence of read-only enforcement."
+}

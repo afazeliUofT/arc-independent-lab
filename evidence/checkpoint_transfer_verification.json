@@ -1,0 +1,33 @@
+{
+  "observed_utc": "2026-09-06T03:57:21.254296+00:00",
+  "source_path": "scripts/checkpoint_transfer.py",
+  "source_sha256": "6b18fb30b7ec68658a59f119f950519592c1c7709a39bf4438a5827579bc19fc",
+  "scope": "Local fixture only. Actual GitHub and laptop execution remain unverified. This is transfer integrity verification, not a scientific reviewer verdict.",
+  "checks": [
+    {
+      "test": "payload bytes and repeated install",
+      "result": "passed"
+    },
+    {
+      "test": "conflict stops before payload writes",
+      "result": "passed"
+    },
+    {
+      "test": "destination symlink refused",
+      "result": "passed"
+    },
+    {
+      "test": "payload hash mismatch refused",
+      "result": "passed"
+    },
+    {
+      "test": "payload traversal refused",
+      "result": "passed"
+    },
+    {
+      "test": "local bare-repository push/readback and repeat without new commit",
+      "result": "passed"
+    }
+  ],
+  "local_fixture_commit": "36186627b0835f4680456941fd4c604774faf078"
+}

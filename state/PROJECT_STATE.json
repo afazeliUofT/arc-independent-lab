@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "updated_utc": "2026-09-06T04:00:59.475251+00:00",
+  "current_gate": "P1",
+  "gate_status": "blocked",
+  "gate_entered_utc": "2026-09-06",
+  "last_verified_gate": null,
+  "last_verified_commit": null,
+  "active_task": {
+    "id": "P1.0",
+    "description": "Establish the first recoverable Phase 1 checkpoint: operating evidence, computational demand, and an initial source map",
+    "attempt": 1,
+    "escalation_level": 0,
+    "started_utc": "2026-09-06",
+    "status": "locally_verified_checkpoint_awaiting_human_publication"
+  },
+  "blocked_on": {
+    "reason": "human_checkpoint_publication",
+    "escalation": "state/ESCALATION.md",
+    "required_answer_prefix": "## ANSWER",
+    "papers_can_remain_pending": true
+  },
+  "next_action": "First read the exact GitHub repository and state/ESCALATION.md. If no human ## ANSWER exists, stop cleanly. If it exists, retrieve state/CHECKPOINT_001.json and all listed files at the same immutable commit, hash the actual fetched bytes, and compare. Record the real commit only after verification, archive the answered escalation, then choose and instrument the small Phase 1 failure reproduction with an explicit evidence-access/reset inventory. Keep requested paper-dependent claims unresolved until full methods arrive. Do not open IDEAS_PARKED.md, the other programme, or the withheld fact sheet.",
+  "open_questions": [
+    "First real GitHub byte-verification round trip pending",
+    "Drescher mature original hidden-state maintenance discrepancy: book/thesis requested",
+    "Ryan 2015 supplemental technical controls requested",
+    "Minton expanded methods and total-cost account requested",
+    "Authoritative subscription usage not observable; unattended model use disabled",
+    "Independent reviewer enforcement, restart persistence and large-output transfer remain unverified"
+  ],
+  "mechanisms": {},
+  "consecutive_no_progress_turns": 0,
+  "route_history": [
+    "P1"
+  ],
+  "remote": "https://github.com/afazeliUofT/arc-independent-lab",
+  "durability_status": "awaiting_remote_verification",
+  "commit_status": "human executes prepared first commit and push; no root-agent public mutation"
+}

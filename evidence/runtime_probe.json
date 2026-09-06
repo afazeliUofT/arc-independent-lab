@@ -1,0 +1,14 @@
+{
+  "timestamp_utc": "2026-09-06T03:41:41.222972+00:00",
+  "python": "3.12.13",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+  "cpu_count": 9,
+  "git_path": "/usr/local/bin/git",
+  "cwd": "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab",
+  "subprocess_throwaway_variable": {
+    "returncode": 0,
+    "stdout": "nonsecret-visible\n",
+    "stderr": ""
+  },
+  "scope_limit": "Throwaway environment test covers an environment constructed inside the hosted shell and passed to its Python subprocess. It does not verify client-to-shell environment propagation, laptop runtime behavior, process restart, or persistence after sandbox reset."
+}

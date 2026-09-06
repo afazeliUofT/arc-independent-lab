@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+delivery/
+private_sources/
+*.pem
+*.key
+.env
+.env.*

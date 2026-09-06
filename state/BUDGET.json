@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "programme_end_date": null,
+  "programme_end_date_reason": "User explicitly imposes no calendar end date; reviews at Phase 1 and Phase 3.",
+  "maximum_turns_total": null,
+  "maximum_turns_per_gate": null,
+  "turn_ceiling_reason": "No numeric subscription allowance is known or assumed. Interactive work only until authoritative metering is established; every advancing step is checkpointed locally and at natural GitHub handoffs.",
+  "maximum_attempts_per_task": 3,
+  "default_experiment_wallclock_seconds": 300,
+  "unattended_model_use_allowed": false,
+  "authoritative_usage_reading": null,
+  "usage_status": "unverified; never infer percentages from elapsed time or token counts",
+  "extra_spending_allowed": false,
+  "provider_plan_user_report": "OpenAI ChatGPT Ultra, GPT-6 Astra Ultra; allowance shared with light personal use",
+  "effort_policy": {"scientific_reasoning": "highest available", "research": "highest available", "review": "highest available with independently enforced tools when applicable", "bookkeeping": "scripts only"},
+  "laptop": {"full_use_authorized": true, "reserve_cpu_cores_when_other_programme_running": 4, "other_programme_restart_local": "2026-09-11T17:00:00 America/Toronto", "hibernate_after_hours_user_report": 12.9},
+  "hpc": {"available": true, "allocation": "unmeasured; assume default-tier", "submission": "human via MFA and SLURM"},
+  "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md."
+}
