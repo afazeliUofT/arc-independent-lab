@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-06",
+  "scope": "Conservative versioned adaptation only; Python syntax compilation and four-hunk diff inspection. No package generated and no behavioral tests or real Git mutation.",
+  "original_helper": "scripts/checkpoint003_handoff.py",
+  "original_sha256": "f2e63214eeddf37150a72364fa5174d40429102d4ffae7bbf9bab3ced19b9a58",
+  "new_helper": "scripts/checkpoint004_handoff.py",
+  "new_sha256": "999835b47f575d410ff88bbc50a13c8dfb86ed0832606dad53867f38003ad8b7",
+  "pinned_base": "508a74696704149e2b5191e710f89d4f572bfcad",
+  "checkpoint_id": "P1_CHECKPOINT_004",
+  "zip_manifest_member": "HANDOFF.json",
+  "changes": [
+    {
+      "from": "checkpoint-003 ZIP handoff",
+      "to": "checkpoint-004 ZIP handoff"
+    },
+    {
+      "from": "BASE = \"6c69eca83cadd0346d85110af470a61f3f075d5d\"",
+      "to": "BASE = \"508a74696704149e2b5191e710f89d4f572bfcad\""
+    },
+    {
+      "from": "\"P1_CHECKPOINT_003\"",
+      "to": "\"P1_CHECKPOINT_004\""
+    },
+    {
+      "from": "\"delivery/checkpoint003_backups\"",
+      "to": "\"delivery/checkpoint004_backups\""
+    }
+  ],
+  "original_unchanged": true,
+  "syntax_compiled_before_write": true
+}

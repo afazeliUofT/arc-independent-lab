@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://arxiv.org/html/2608.01149v1",
+    "access_date": "2026-09-06",
+    "html_sha256": "c21225bbd573073f5fa946834006acdacc6eb96d3d1be31b4ef891690f2376e7",
+    "bytes": 244214,
+    "text_sha256": "ac21b6c21f7bbcf1a1a633699f4771cd1b8c5ed61723d7fe04b5d51e32042367"
+  },
+  {
+    "url": "https://arxiv.org/html/2604.27003v1",
+    "access_date": "2026-09-06",
+    "html_sha256": "9d15e1f0e0610c5bc04653813fa02bff0b440b011070d6d30e14500cae24472c",
+    "bytes": 309760,
+    "text_sha256": "bb4f9008f5751d305af09b863d89b0db01e4f8cc7b6cb7a78e9340220f8a437d"
+  },
+  {
+    "url": "https://arxiv.org/html/2604.17308v1",
+    "access_date": "2026-09-06",
+    "html_sha256": "e74a00e7eda04cf53f26f08717370e3ccd9ca93b8a18c17a12b97994846e23f8",
+    "bytes": 1552425,
+    "text_sha256": "426aecc474c7e760986013f7048c09dc7e354cde9ab0d28f3772b59f0d1e6ba1"
+  }
+]

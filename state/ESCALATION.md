@@ -1,11 +1,14 @@
-# Checkpoint003 publication: human execution required
+# Phase1 checkpoint004 and paper batch002
 
-**This is an already-authorized publication action, not a request for Phase1 approval.** The corrected checkpoint002 is verified at `6c69eca83cadd0346d85110af470a61f3f075d5d`. Phase1 has advanced to a first provisional causal ranking and remains incomplete.
+2026-09-06. The previous publication request is fulfilled and archived; checkpoint003 is verified publicly. P1.3 scientific work is complete as a working checkpoint, not a phase-approval request.
 
-Publish the prepared checkpoint003 document/evidence bundle using the supplied helper and foreground commit/push commands. The helper verifies local base, explicit transitions and actual staged bytes before any human commit. It performs no network operations or commits. No force push or credential disclosure is required. A failed push is retried only after verifying the existing child commit; it does not require another scientific commit.
+## Human actions
 
-Why a human is required: Ali explicitly retains execution of commits/pushes, and scratch is ephemeral. The ledger, state, diagnosis and recovery evidence need the next natural GitHub checkpoint. Authoritative model metering and unattended continuation remain unverified; no unattended work is authorized by this action.
+1. Publish the prepared document checkpoint004 using the supplied ZIP, helper and foreground instructions. Commit/push execution remains with Ali under existing authorization. This makes the ledger and new evidence durable; scratch is ephemeral.
+2. Obtain the original papers in `docs/PAPER_REQUESTS_002.md`, priority Tolman–Honzik1930 and lower-priority Jones2012 including its Supporting Online Material. The source notes record the unsuccessful access routes. Reason14 applies to the missing methods; no current claim uses their abstracts. If unavailable, report that and the diagnosis will retain a narrower verified account.
 
-**Answer channel:** after executing the supplied commands, report completion (and nonsecret error output if unsuccessful) in this conversation. The PI will independently read GitHub history and all intended file bytes before recording durability. No separate approval of scientific conclusions is requested or inferred.
+## Next action after the reply
 
-After successful readback, continue Phase1 by seeking an integrated strong-system case that discriminates failed acquisition, retained-but-inaccessible information, and faulty use. Phase2 remains gated on explicit approval of a completed `DIAGNOSIS.md`.
+Verify actual GitHub commit/tree against `state/CHECKPOINT_004.json`, preserve local overlays, and archive this request when fulfilled. Audit supplied original methods or explicitly record their unavailability; then complete a bounded synthesis pass and submit DIAGNOSIS.md for Phase1 review. Do not begin Phase2 without explicit approval. Do not launch unattended model use.
+
+The optional persistent backup of the handoff downloads failed before upload due to unavailable runtime-helper authentication. Do not request or disclose credentials. The delivered local ZIP remains temporary until the already-authorized human GitHub publication; the final handoff will state this limitation.

@@ -1,0 +1,11 @@
+# Checkpoint004: document continuity
+
+Prepared 2026-09-06 from verified human commit `508a74696704149e2b5191e710f89d4f572bfcad` in [arc-independent-lab](https://github.com/afazeliUofT/arc-independent-lab), accessed 2026-09-06. This checkpoint carries the revised Phase1 diagnosis, new methods notes, remote receipt, paper batch and continuation state. It is not phase approval.
+
+`scripts/checkpoint004_handoff.py` is a versioned adaptation of the successfully used checkpoint003 helper. Its only changes are checkpoint identity, exact base and backup directory; the old helper is unchanged. It verifies a supplied ZIP hash, known old/new file transitions, repository identity, unchanged artifact rule, complete expected tree and actual staged blobs. It accepts only the pinned base or an exact direct-child checkpoint commit. Default mode inspects; `--apply` backs up replaced bytes/index, installs and stages declared transitions; `--verify` requires the complete result. It performs no commit, push, fetch or credential handling.
+
+The human executes commit and push in an ordinary foreground terminal with normal authentication. The complete pushed SHA refspec stays on one physical line. If push fails, preserve the verified local commit; rerun the inspection and publish that existing commit after resolving the actual error. No history rewrite or new repair is implied.
+
+The ZIP contains only changed/new public project files and a transition manifest. `state/CHECKPOINT_004.json` inventories the complete intended public tree except its own hash. Original run artifacts, prior evidence notes, old helpers and old manifests are unchanged. Source reading copies, PDFs, temporary fixtures, backups and private files are excluded. The parked-ideas file is neither read for content nor changed; its existing opaque hash remains in the full inventory.
+
+Delivery instructions outside the ZIP pin the final ZIP hash, avoiding a self-referential hash. A final actual-archive application is checked in an isolated local clone with the user's `core.autocrlf=input` behavior before handoff. This checks publication bytes, not scientific validity or reviewer independence. No real project commit or public push is made by the assistant. Public readback after the human push remains necessary.

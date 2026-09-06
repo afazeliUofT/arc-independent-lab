@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-06",
+  "scope": "Document consistency and preserved-byte checks, not independent scientific review",
+  "diagnosis_sha256": "a6da780894cd5e63b784a7c6345741277bbc3eb96fa3bb35ee835930850d49e5",
+  "required_sections": 8,
+  "ranked_claims": 6,
+  "each_claim_has_required_evidence_and_refuter_fields": true,
+  "reproduction_section_unchanged": true,
+  "linked_local_notes_present": true,
+  "protected_original_entries_checked": 13,
+  "all_protected_bytes_match_checkpoint003": true,
+  "mechanisms_proposed": false,
+  "phase2_opened": false,
+  "scientific_judgment": "PI manual reading plus bounded shared-tool consistency consultation; global causal dominance remains unestablished."
+}

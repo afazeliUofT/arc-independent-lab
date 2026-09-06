@@ -1,12 +1,12 @@
 # DIAGNOSIS — working document
 
-**Phase 1, third working checkpoint, 2026-09-06. First provisional causal ranking; not submitted for phase approval.**
+**Phase 1, fourth working checkpoint, 2026-09-06. Revised causal ranking after integrated-agent methods audit; not submitted for phase approval.**
 
 The motivating claim needs narrowing. Artificial systems can learn through interaction, retain useful context and generalize to withheld combinations under specified conditions. Scale and training diversity sometimes help substantially. The reviewed evidence does not establish that humans and animals effortlessly solve the full conjunction, or that scaling cannot close useful parts of the gap. What remains scientifically credible is a set of conditional failures whose causes can differ.
 
-My current diagnosis is that a useful past experience can cease to control a later decision at several distinct stages: the available evidence may not identify the needed relation; fitting may select a relation that does not survive the intended change; subsequent learning may disrupt its usable expression; and a decision process may fail to apply information that remains available. Past training can also make further learning less efficient. These are competing and interacting explanations, not names for a single established defect. Section 6 gives the first ranked, falsifiable claims and their refuters.
+My current diagnosis is that a useful past experience can cease to control a later decision at several distinct stages: the available evidence may not identify the needed relation; fitting may select a relation that does not survive the intended change; subsequent learning may disrupt its usable expression; and a decision process may fail to apply information that remains available. Past training can also make further learning less efficient. These are competing and interacting explanations, not names for a single established defect. Section 6 gives the revised ranked, falsifiable claims and their refuters.
 
-The ranking is provisional because the most decisive local trace concerns a small constructed learner, while stronger systems are usually measured through bundled protocols. This document distinguishes deductions, source-supported observations and unresolved attributions. It contains no proposed repair. User-supplied framing is a hypothesis, not evidence; see `docs/USER_AMENDMENTS_2026-09-06.md`. Scientific source notes are consultations sharing tools and files, not independently enforced reviews. The published reproduction and earlier corrections remain unchanged.
+**Correction to checkpoint003:** I gave retained-information/readout disruption too much priority on the strength of a decisive but deliberately constructed witness. The integrated-agent audit does not establish that it governs the funded category. I move it from first to third priority, and place relation selection and action-dependent acquisition ahead of it. These are research priorities, not measured prevalence; the second has stronger formal than contemporary-agent evidence. This document distinguishes deductions, source-supported observations and unresolved attributions. It contains no proposed repair. User-supplied framing is a hypothesis, not evidence; see `docs/USER_AMENDMENTS_2026-09-06.md`. Scientific source notes are consultations sharing tools and files, not independently enforced reviews. The published reproduction and earlier corrections remain unchanged.
 
 ## 1. The computational demand
 
@@ -77,6 +77,14 @@ The reproduction must go beyond end-task success. For the chosen small failure, 
 
 A controlled diagnostic intervention may reveal which explanation is compatible with a trace. Such an intervention is an explanatory control, not a candidate repair. The reproduction must also show a case where the same apparatus succeeds, or it cannot distinguish a scientific failure from a broken apparatus. Its eventual claim will remain confined to the reproduced system and assumptions.
 
+### 1.8 Acquisition must anticipate a restricted family of later demands
+
+Evidence can be irrelevant to today's reward and useful after tomorrow's goal changes. This does not imply retaining everything. **Our deduction:** if all n-bit histories are possible, only B<n bits survive, no other channel conveys the history, and the later query may ask for any historical bit, some distinct histories must share a retained state. A query on a differing bit then cannot be answered correctly in both cases with certainty. This worst-case argument is not a limit on useful learning in structured worlds.
+
+The defensible demand is therefore preservation sufficient for a declared future family, with specified approximation and cost. An unknown future task need not mean an arbitrary adversarial question about every detail of the past. Conversely, supplying the full future goal schedule gives a learner information about what is worth acquiring now. The control-theory cases below have that advantage; biological preconditioning instead changes the later value of earlier relations within a small cue family. Neither covers unlimited future demands.
+
+This distinction also changes where a trace can break. A policy may never generate distinguishing observations, a learner may discard an apparently irrelevant distinction, or later processing may fail to use a distinction that survived. The same failed endpoint does not identify which occurred. The derivation and assumptions are in `evidence/P1_ACTIVE_IDENTIFICATION_2026-09-06.md`.
+
 ## 2. The failure catalogue
 
 ### 2.1 Scope and evidence standard
@@ -129,6 +137,25 @@ The May and June preprints above add interactive causal testing, stateful fronti
 
 A superficially congenial May preprint claiming a causal-discovery scaling barrier was excluded as support for that barrier: its stated kernel inequality has a direct counterexample, and its hypothetical queries do not acquire environmental observations. The narrow algebraic audit is `evidence/P1_CAUSAL_THEORY_AUDIT_2026-09-06.md`. This corrects a possible inference from the source; it is not evidence that every other result in the paper is false. [Audited preprint](https://arxiv.org/html/2605.27567v1), accessed 2026-09-06.
 
+### 2.6 Integrated experience and positive real-world evidence
+
+The methods audit deliberately sought successes that might overturn the leading diagnosis. All URLs below were accessed **2026-09-06**; source coverage and code-versus-paper qualifications are recorded in `evidence/P1_INTEGRATED_AGENT_CONTROLS_2026-09-06.md`, `evidence/P1_INTEGRATED_RECENT_2026-09-06.md` and `evidence/P1_REAL_WORLD_DISCOVERY_2026-09-06.md`.
+
+| Study and declared surviving channel | Reported outcome | Observed capability or failure | What the contrast identifies |
+|---|---|---|---|
+| [CLIN, COLM 2024](https://www.cis.upenn.edu/~ccb/publications/clin-continual-learning-from-interactions.pdf): summaries across reset trials; frozen model. | Initial new-environment reward improves with transferred memory; later adaptation improves further. | Useful transfer, with harmful specific memories in some cases. | Memory-package utility. Related tasks share objects/locations; electricity tasks violating familiar conventions are excluded. Best later performance also includes relearning. |
+| [Voyager, author v2 of subsequently published TMLR 2024 study](https://arxiv.org/html/2305.16291v2): learned code survives new world/inventory. | Transfer succeeds with the library; the no-library control already succeeds in eleven of twelve attempts. | Experience chiefly improves speed/reliability in this small comparison. | A legitimate surviving-channel benefit under familiar game semantics, not unfamiliar-law discovery or intact-but-unreadable knowledge. Final journal-version equality is unverified. |
+| [Hu et al., April 2026, preprint v1](https://arxiv.org/html/2604.27003v1): external experiences across task phases. | Forward effects can be helpful or harmful; backward outcomes include gains. | Some retrieved prior experience promotes inappropriate actions. | Conditional interference; Appendix C admits retrieval timing and accumulated content co-vary. No unique retrieval mediator. |
+| [SkillFlow, April 2026, preprint v1](https://arxiv.org/html/2604.17308v1): skill files/scripts persist within families. | Some agents improve, others regress. | Useful reuse across changed domains/formats, and executable/toolchain failures. | Workflow topology is deliberately fixed; heterogeneous interference is excluded. History-control prose/table disagree. Feedback includes post-task verifier information; the audited example does not establish hidden-test leakage. |
+| [PATH-Bench, August 2026, preprint v1](https://arxiv.org/html/2608.01149v1): external state changes; the same task is probed without probe-driven memory updates. | Earlier gains can decline; effects differ by task domain. | A stronger longitudinal symptom than comparing two different tasks. | History effects, not verified storage loss. Filtering changes content and computation. Its clipped decline metric requires a stochastic null before being called erasure. |
+| [Robin, Nature, May 2026 publication of work first posted in 2025](https://www.nature.com/articles/s41586-026-10652-y): continuing research records and new laboratory data. | Analyses inform further hypotheses and experiments. | Positive empirical feedback in a human-supported scientific project. | Humans supply protocols, execution and analysis prompts; no controlled interference/recombination test. The data-analysis comparator lacks the dataset and execution tools, so package gains cannot isolate reasoning. |
+
+**Our causal judgment:** these results refute a categorical inability to acquire useful experience, preserve a declared channel and benefit later. They do not establish robustness across every combination of unfamiliar laws, interference and structural novelty. Nor do they jointly show that a useful relation was acquired, remained valid and recoverable, yet stopped controlling action in the same failed case. Joining one paper's successful memory with another paper's failed response would manufacture that causal chain.
+
+The distinction is concrete in pinned code: CLIN can keep raw history on the host while providing only a recent portion to its actor; Voyager exposes retrieved descriptions to the model while making a broader code library executable. These are different access boundaries. Their existence does not prove that either caused a published error; released-code and result-producing configurations are not fully reconciled.
+
+**Our metric check:** for independent unchanged Bernoulli performance measurements X and Y with success probability p, the expected clipped decline E[max(0,X−Y)] is p(1−p), although no learning occurred. This is an illustrative null, not an estimate of PATH-Bench's actual bias. Signed history effects can still be real. A nonzero clipped score alone cannot locate erasure. The full deduction and scope are in the recent-integrated note.
+
 ## 3. Our reproduction
 
 ### 3.1 A behavioural deficit is not sufficient evidence of erased information
@@ -174,6 +201,26 @@ Biology supplies constraints on an explanation of competence, not validation of 
 
 My present conclusion is that biology strongly motivates careful state, access and prior accounting. It does not yet supply evidence for one missing operation that explains the artificial failures. The broad “humans and animals do this easily” premise is not an established result of this review.
 
+### 4.3 Positive relational reuse, with acquisition and use separated
+
+The earlier biology pass emphasized persistence qualifications more heavily than positive acquisition and reuse. That imbalance is corrected here. These **published animal/human interventions** come from overlapping collaborators, not three independent replications. All links accessed **2026-09-06**; complete reading coverage is in `evidence/P1_BIOLOGICAL_REUSE_2026-09-06.md`.
+
+| Study | Positive result and timing | Constraint and limit |
+|---|---|---|
+| [Sharpe et al., 2017](https://doi.org/10.1038/nn.4538) | Initially unrewarded rat cue relationships later support responding sensitive to outcome devaluation; dopamine perturbations during initial transitions change later behavior. | Acquisition before established appetitive utility is possible. Short cue chains, broad interventions and a small devaluation contrast do not identify all integration timing. |
+| [Hart et al., 2020](https://doi.org/10.7554/eLife.59998) | Inhibiting OFC during initially unrewarded pairings impairs later inferred responding, without significant direct-conditioning impairment. | An early-stage perturbation can cause a later reuse deficit. Prior food-cup shaping, attention and context remain relevant; this is not a demonstrated unique storage substrate. |
+| [Wang et al., 2020](https://doi.org/10.1523/JNEUROSCI.1680-20.2020) | Human participants combine learned symbol pairs with later odor outcomes; post-learning stimulation impairs inferred predictions. | Later processing matters, but subjects were explicitly instructed to infer. A nonsignificant recognition-memory difference does not exclude memory mediation. |
+
+These experiments show useful relations learned before their eventual outcome significance, within a continuing organism and a small supplied grammar. They contain no matched modern-AI comparison, substantial unrelated interference, or wholesale state reset. Nevertheless, dismissing their competence because some priors and instructions are supplied would be as unfair as dismissing declared AI memory gains.
+
+The diagnostic constraint is functional: when a later goal depends on an earlier relation, some information distinguishing that relation must survive and affect behavior. A response never rewarded during initial exposure is meaningful reuse; it does not by itself prove that all composition occurred online at the final probe. Perturbation timing helps separate acquisition and use, but does not identify every mediator.
+
+### 4.4 Control and system identification expose an earlier failure location
+
+[Klenske and Hennig, JMLR 2016](https://www.jmlr.org/papers/volume17/15-162/15-162.pdf) and [Simpkins et al., ACC 2008](https://roboti.us/lab/papers/SimpkinsACC08.pdf), accessed **2026-09-06**, make action-dependent information explicit within supplied model families. Movement or excitation determines which unknown coefficients observations constrain. A one-step task criterion can therefore choose actions whose data leave a later-relevant distinction unknown. This is theory plus restricted numerical evidence; Simpkins' small preliminary human comparison does not establish general biological optimality.
+
+Our scalar derivation makes the boundary clear: with observation y=bu+noise and known positive Gaussian noise variance Q, Gaussian posterior precision increases by u²/Q. At u=0 it receives no information about b. An allowed informative action may still be too costly to justify. The failure claim begins only when its expected decision benefit matters within the permitted horizon and budget. Detailed assumptions and refuters are in `evidence/P1_ACTIVE_IDENTIFICATION_2026-09-06.md`; the full six-page Simpkins audit has a separate note.
+
 ## 5. Archaeology
 
 ### 5.1 What was set aside, and what actually expired?
@@ -188,6 +235,7 @@ The unit of analysis is a particular operation or assumption, not an era. A comm
 | [SME lineage, documented in Forbus et al., 2017](https://groups.psych.northwestern.edu/gentner/papers/ForbusFergusonLovett%26Gentner_2017.pdf) | Early restrictions included exhaustive merging, small comparisons and hand-built descriptions. Later versions replaced exhaustive with greedy merging and instrumented larger corpora. | The blanket exhaustive-enumeration objection **has expired for the revised implementation**. This happened through algorithm development. Worst-case bounds overstated many measured intermediate sizes. Search optimality and acquiring useful descriptions remain separate questions. |
 | [Classifier systems: Wilson, 1995](https://www.eskimo.com/~wilson/ps/xcs.pdf); [Holmes et al. historical manuscript](https://www.eskimo.com/~wilson/ps/ipl2000.ps.gz) | Participant testimony links decline to complicated systems and few successful applications, followed by revival through simpler models. Wilson analyzes a payoff criterion that can conflate accurate and overgeneral rules. | The claim that the whole family lacks analyzable alternatives was already outdated in the revival account. Extra compute alone does not change an uninformative criterion. The XCS comparison also changes action selection, limiting fitness-only attribution. |
 | [Version spaces: Hirsh, 1994](https://link.springer.com/content/pdf/10.1023/A%3A1022600917598.pdf) | Strict consistency can empty the feasible hypothesis set under noise or misspecification. The extension changes the assumed observation neighborhoods, with ambiguity and cost tradeoffs. | “Cannot handle any inconsistent observations” was already too broad in that paper. Unchanged contradictory constraints remain contradictory regardless of compute. No defensible community-wide abandonment cause was established. |
+| [Dual control: Simpkins et al., 2008](https://roboti.us/lab/papers/SimpkinsACC08.pdf), with the [1973-lineage revisit by Klenske and Hennig, 2016](https://www.jmlr.org/papers/volume17/15-162/15-162.pdf) | Planning must account for how actions change later uncertainty, expanding the computational state. Both papers pursue approximations; the later paper reports limited attention to the older expansion. | Continued research contradicts wholesale abandonment. More compute changes feasible approximations, not their accuracy guarantees or supplied model/goal assumptions. No measured 2026 hardware-only removal of the relevant cost is established. |
 
 The Holmes source is an **author manuscript/preprint** of work subsequently published in 2002; publisher wording was not verified. Its history is testimony from participants with an advocacy interest, not measured causal attribution across the field. The SME source is a later primary account of changes to an older system; this is why it legitimately informs the 1960–2010 archaeology.
 
@@ -213,23 +261,11 @@ I have not established a hardware-only resurrection with matched present-day mea
 
 This is a ranking of **current priorities for causal investigation**, weighing connection to the funded demand, explanatory specificity and available evidence. It is not a measured ordering of prevalence across AI, or a ranking of proposed repairs. Confidence in a local cause and confidence that it explains the broader phenomenon are stated separately. The ranking can change as contrary evidence arrives.
 
+**Ranking correction:** checkpoint003 placed our best-instrumented local cause first. That overweighted certainty within the witness relative to relevance to the full demand. Selection of an inappropriate relation now comes first; failure to obtain useful distinguishing evidence is second; disrupted expression of a surviving relation is third. History-dependent trainability is fourth, evidence commitment fifth, and access cost sixth. None is established as the dominant cause across current AI. The two acquisition priorities have different counterfactuals: change which observations are obtained versus change what is learned from adequate observations.
+
 There is a prerequisite that should not be mistaken for a bottleneck in a particular algorithm. If permitted evidence cannot distinguish two worlds requiring different actions, uncertainty is unavoidable. No architecture has thereby failed. The empirical question starts when distinguishing evidence is obtainable, or when the restricted future demand is already identified. This condition applies to every claim below.
 
-### 6.2 Rank 1 — subsequent updates can disrupt the usable expression of a retained distinction
-
-**Falsifiable causal claim.** In some sequentially trained systems, updates needed for the new task move the input-to-answer mapping for an older, still-valid relation, even though a history-dependent distinction sufficient for that older answer survives elsewhere in the resulting state. Behaviour deteriorates because the prescribed use of the state changes incompatibly with what the state still contains. This is a stronger and narrower claim than “systems forget.”
-
-**Evidence for.** Our reproduction identifies the update direction and the old readout it moves, while a fixed parameter difference preserves the old estimate. The artifact citations and exact scope are in §3. The language-model recovery study supplies larger-scale evidence compatible with surviving old associations, though its recovery uses old supervision. [Zheng et al., ICLR 2025](https://proceedings.iclr.cc/paper_files/paper/2025/file/a774503daed55eb53c634847ae071ec7-Paper-Conference.pdf), accessed 2026-09-06. The analogy is inferential; the studies do not establish the same internal cause.
-
-**Evidence against / live alternative.** Genuine erasure, a changed world, or absence of acquisition can explain other old-task deficits. Our witness's observer is supplied with the feature geometry. Recovery training in the larger study may reconstruct some associations rather than merely expose them. Evidence for surviving information is not evidence for cheap, appropriate access by the acting system.
-
-**Refuter.** Under a declared recovery class that cannot import withheld old answers, the supposedly informed state provides no benefit over a matched state that never saw those answers, while acquisition and recovery controls work. That would undermine the retained-distinction account for that recovery class. Alternatively, if the old relation reaches the action process in usable form and the failure occurs afterwards, the claimed location is wrong. No finite set of failed decoders proves information absence under every imaginable decoder.
-
-**Unchecked prediction.** The same post-interference state should support different outcomes under semantically equivalent old-task probes, with some failures localized to the conversion from surviving information into the required response. This must persist after accounting for extra evidence or computation in the successful probe.
-
-**Confidence and what would raise it.** High for the constructed witness; moderate for substantial survival in the biography setting; low for prevalence in strong interactive agents. A controlled recovery contrast after actual world learning, with no restored history or leaked old answers and matched computation, would raise the last assessment. This receives first priority because confusing unavailable answers with absent knowledge can send the entire programme towards the wrong problem.
-
-### 6.3 Rank 2 — training can select relations that fit present evidence but are inappropriate under the intended reuse
+### 6.2 Rank 1 — training can select relations that fit present evidence but are inappropriate under the intended reuse
 
 **Falsifiable causal claim.** At fixed representational capacity, the distribution and objective of training can favor a predictor tied to co-occurrences, output lengths or local roles that cease to hold at reuse. Where the relevant distinction is identifiable, failure can arise from what learning selects, before interference or retrieval becomes necessary. Merely showing that all primitive names appeared in training does not establish that their reusable relations were learned.
 
@@ -243,7 +279,35 @@ There is a prerequisite that should not be mistaken for a bottleneck in a partic
 
 **Confidence and what would raise it.** Moderate for training-support effects in the inspected families; low-to-moderate for the proposed mediation through an inappropriate selected relation. A controlled intervention linking training variation to the specific learned distinction and then to held-out behaviour would raise confidence. The key unresolved extension is discovery of the useful variables themselves, which many benchmarks supply.
 
-### 6.4 Rank 3 — learning history can make later updates less effective even when evidence and representational capacity remain available
+### 6.3 Rank 2 — actions chosen for current performance can fail to obtain evidence needed for later decisions
+
+**Falsifiable causal claim.** In an identifiable world family, a policy that neglects the later decision value of observations can select a history under which relevant alternatives remain indistinguishable, despite affordable actions that would distinguish them. The failure originates in the action-to-evidence dependency, before any allegedly forgotten relation was acquired. More accurate fitting of the resulting uninformative data cannot repair that particular absence.
+
+**Evidence for.** The supplied-model control examples isolate this dependency mathematically; Simpkins also contrasts movement/estimation behavior under different control criteria. [Simpkins et al., 2008](https://roboti.us/lab/papers/SimpkinsACC08.pdf), [Klenske and Hennig, 2016](https://www.jmlr.org/papers/volume17/15-162/15-162.pdf), accessed 2026-09-06. Our precision derivation is in §4.4. Biological preconditioning shows why usefulness need not be revealed at initial exposure, but does not measure this artificial failure.
+
+**Evidence against / live alternative.** AdA and Robin demonstrate useful acquisition under their support (§§2.2, 2.6). A task may offer no worthwhile experiment, the model family may be wrong, or adequate observations may already exist and be misused. Classical control commonly supplies future costs and variables. Its specific criterion is not known to describe a contemporary language agent. Calling every poor exploration trace myopic would exceed the evidence.
+
+**Refuter.** Actual accessible observations already distinguish the required decision under the allowed priors, or no permitted affordable action could improve it. If correcting evidence availability leaves the deficit while an isolated downstream operation explains it, acquisition is not the relevant cause for that case.
+
+**Unchecked prediction.** Two policies can have comparable initial task performance yet diverge later because their early action distributions identify different decision-relevant distinctions. That divergence should be explained by the actual evidence acquired, rather than an extra hint, larger state allowance or different future goal disclosure.
+
+**Confidence and what would raise it.** High for the conditional information dependency; low for dominance in strong integrated agents. This is second as an investigative priority because the funded problem begins with selected interaction and the previous ranking largely began after data were available. A modern trace linking missed affordable discrimination to a consequential later error would raise empirical confidence. If that evidence remains absent, this must stay a conditional alternative rather than a claimed general diagnosis.
+
+### 6.4 Rank 3 — subsequent updates can disrupt the usable expression of a retained distinction
+
+**Falsifiable causal claim.** In some sequentially trained systems, updates needed for the new task move the input-to-answer mapping for an older, still-valid relation, even though a history-dependent distinction sufficient for that older answer survives elsewhere in the resulting state. Behaviour deteriorates because the prescribed use of the state changes incompatibly with what the state still contains. This is a stronger and narrower claim than “systems forget.”
+
+**Evidence for.** Our reproduction identifies the update direction and the old readout it moves, while a fixed parameter difference preserves the old estimate. The artifact citations and exact scope are in §3. The language-model recovery study supplies larger-scale evidence compatible with surviving old associations, though its recovery uses old supervision. [Zheng et al., ICLR 2025](https://proceedings.iclr.cc/paper_files/paper/2025/file/a774503daed55eb53c634847ae071ec7-Paper-Conference.pdf), accessed 2026-09-06. The analogy is inferential; the studies do not establish the same internal cause.
+
+**Evidence against / live alternative.** Genuine erasure, a changed world, or absence of acquisition can explain other old-task deficits. Our witness's observer is supplied with the feature geometry. Recovery training in the larger study may reconstruct some associations rather than merely expose them. Evidence for surviving information is not evidence for cheap, appropriate access by the acting system.
+
+**Refuter.** Under a declared recovery class that cannot import withheld old answers, the supposedly informed state provides no benefit over a matched state that never saw those answers, while acquisition and recovery controls work. That would undermine the retained-distinction account for that recovery class. Alternatively, if the old relation reaches the action process in usable form and the failure occurs afterwards, the claimed location is wrong. No finite set of failed decoders proves information absence under every imaginable decoder.
+
+**Unchecked prediction.** The same post-interference state should support different outcomes under semantically equivalent old-task probes, with some failures localized to the conversion from surviving information into the required response. This must persist after accounting for extra evidence or computation in the successful probe.
+
+**Confidence and what would raise it.** High for the constructed witness; moderate for substantial survival in the biography setting; low for prevalence in strong interactive agents. A controlled recovery contrast after actual world learning, with no restored history or leaked old answers and matched computation, would raise the last assessment. Its demotion concerns programme relevance, not the validity of the witness. CLIN, Voyager and the recent external-memory studies do not connect verified surviving knowledge to failed expression after interference in the same case (§2.6).
+
+### 6.5 Rank 4 — learning history can make later updates less effective even when evidence and representational capacity remain available
 
 **Falsifiable causal claim.** The state produced by earlier optimization can be a worse starting point for later fitting than a suitable comparison state, under a declared update budget. The deficit can arise from history-dependent optimization, rather than lack of old examples or an inability of the model class to express the solution. This concerns the efficiency of changing knowledge, not necessarily preservation of old knowledge.
 
@@ -257,7 +321,7 @@ There is a prerequisite that should not be mistaken for a bottleneck in a partic
 
 **Confidence and what would raise it.** Moderate-to-high for history-dependent finite-budget deterioration in the tested systems; low for a universal mediator or unavoidable frontier-scale failure. Controlled learning curves and interventions that isolate the responsible state variable, across matched histories, would raise the mechanistic assessment. A correlation drifting with training time is insufficient.
 
-### 6.5 Rank 4 — an agent can close its evidence-gathering loop before reconciling its answer with evidence already available
+### 6.6 Rank 5 — an agent can close its evidence-gathering loop before reconciling its answer with evidence already available
 
 **Falsifiable causal claim.** In some interactive configurations, the commitment procedure permits an answer that contradicts available observations and ends further inquiry. The failure therefore need not originate in exhausted experimental access or absent stored data. It may arise in the procedure governing when an interpretation becomes an action.
 
@@ -271,7 +335,7 @@ There is a prerequisite that should not be mistaken for a bottleneck in a partic
 
 **Confidence and what would raise it.** Low-to-moderate for this particular protocol; low for generalization. Raw action-time evidence, exact scoring provenance and an equal-computation contrast would raise confidence. This is ranked below the more controlled effects because an author's explanation of a trace is not yet a causal isolation.
 
-### 6.6 Rank 5 — retained knowledge can be unusable because access and application consume the decision budget
+### 6.7 Rank 6 — retained knowledge can be unusable because access and application consume the decision budget
 
 **Falsifiable causal claim.** Enlarging a retained knowledge collection can reduce performance when matching or applying candidates consumes the budget before the relevant relation affects the decision. The collection may contain more correct information while the acting system obtains less useful information in time. The causal issue is the cost and selectivity of use, rather than whether storage succeeded.
 
@@ -285,19 +349,19 @@ There is a prerequisite that should not be mistaken for a bottleneck in a partic
 
 **Confidence and what would raise it.** High that the historical cost phenomenon exists under its conditions; low that it dominates the funded category today. A present workload tracing candidate access, computation and final decisions with content held valid would raise confidence. Modern hardware measurements could either strengthen this priority or remove the practical obstacle.
 
-### 6.7 Why a single cause is not yet justified
+### 6.8 Why a single cause is not yet justified
 
 These claims have different counterfactuals. Protecting the literal old state would not make unidentified relations identifiable, nor make an incorrect learned relation valid. Preserving old answers need not preserve the capacity to learn new ones. Adding more evidence cannot help a decision process that fails to read or reconcile it within its budget. Conversely, none of those deductions shows that a particular existing system fails for that reason.
 
-The common issue is the dependence of later decisions on earlier experience under changed conditions. That describes the scientific target, not its mechanism. Turning it into a single “knowledge management” faculty would merely rename the original question. The next evidence must decide which conditional cause actually governs a stronger integrated case.
+The common issue is the dependence of later decisions on earlier experience under changed conditions. That describes the scientific target, not its mechanism. Turning it into a single “knowledge management” faculty would merely rename the original question. The integrated audit has narrowed the claim without establishing a dominant cause. A completed Phase1 diagnosis may legitimately retain that uncertainty; it must not pretend that more literature alone will supply an unavailable causal intervention.
 
 ## 7. The hypothesis we were handed
 
 The retain / protect / suppress / recompose framing points at important functions, but is too permissive to serve as the leading causal explanation. If any failure to learn, remember or act is called a plasticity-control failure, nothing could refute it. It has to name which existing operation makes which relevant distinction unavailable or ineffective.
 
-**Where it sits.** Update-related disruption of an old response is the first-ranked candidate, and history-dependent loss of later trainability is third. Both make plasticity relevant. They concern different effects, however. The first can occur without erasure; the third can occur while old examples remain fully available. They do not jointly demonstrate a missing controller for four independently identified functions.
+**Where it sits after correction.** Update-related disruption is now third and history-dependent trainability fourth. Their local evidence remains intact, but the stronger integrated agents do not establish the first effect's dominance. Frozen-backbone systems can also benefit or suffer from changing external records; relabeling every such change as neural plasticity would erase the distinction being tested.
 
-The second-ranked claim points earlier: useful reusable structure may never have been selected by learning, even when the current task was fitted. The fourth points to commitment and evidence reconciliation; the fifth to access and computation. Calling these “suppress” or “recompose” does not explain their cause. The framing also assumes that there are already suitable pieces whose validity and relevance can be determined. Whether an agent discovered those distinctions is part of the question, not a given.
+The first two priorities point earlier: learning may select a relation unsuitable for reuse, or action selection may never obtain the evidence needed to establish it. The fifth concerns commitment and reconciliation; the sixth concerns access cost. These cannot be explained merely by assigning them to “suppress” or “recompose.” The handed framing presupposes useful pieces and their relevant conditions; discovering those distinctions is part of the question.
 
 **What would support a narrower plasticity account?** The required relation is demonstrably acquired, remains true and matters to the new decision; the failure follows intervening updates; and a controlled diagnostic intervention attributes it to how those updates change useful state or its expression. Competing information, objective and execution explanations would have to be excluded in that case. This is a criterion for causal evidence, not a proposed controller.
 
@@ -307,29 +371,28 @@ My current judgment is therefore: retain plasticity as a serious, conditional li
 
 ## 8. What remains unresolved
 
-### 8.1 Gaps that could change the ranking
+### 8.1 Questions that still change the interpretation
 
-| Unresolved question | What would resolve it, and why it matters |
+| Unresolved question | Consequence and required evidence |
 |---|---|
-| Does the first-ranked effect govern a strong integrated agent? | Trace actual interaction-derived knowledge through a declared discontinuity and intervening learning into controlled novel reuse. Recovery must not restore hidden history or import the withheld answer. The small witness is insufficient for this extension. |
-| Was reusable structure unlearned, unidentified or merely unused? | Inspect cases with controlled training support, explicit initial knowledge and matched successful substitutions. The origin of useful variables must be separate from recombining supplied ones. This can reverse the first two priorities. |
-| How much of recent scientific-agent failure belongs to the protocol? | Reconcile table results with exact prompts, source trajectories and scorer versions. CausaLab's graph/root distinction and verification provenance need this care. A post-run interrogation is not automatically an action-time state measurement. |
-| Which scaling benefits persist over useful horizons? | Compare what is scaled—parameters, data diversity, history, inference or total training—and test extrapolations on held-out scales/horizons. A finite observed decline is not proof of an eventual universal limit. |
-| Which old resource barriers remain practical? | Measure the relevant implemented operation and input-construction cost on a specified present workload. Historical uptake testimony cannot replace this; worst-case growth cannot determine typical cost by itself. |
-| Is the integrated phenomenon narrower still? | Seek positive real-world and longitudinal cases with full methods. The current sample is selected for diagnostic contrasts, not exhaustive coverage. Finding a successful subclass is a result, not an exception to conceal. |
+| Which acquisition cause governs unfamiliar-world failures? | Action-time observations, allowed experiments and initial priors must distinguish missing information from selection or misuse of adequate information. The control examples give a precise alternative, not present-agent prevalence. |
+| Does retained-information/readout disruption explain integrated decline? | The same case must show acquisition, continuing validity, surviving information and failed access/use. A memory-package gain and an unrelated endpoint deficit cannot establish this chain. |
+| Do old active-learning and probe-only biological results survive a methods audit? | Tolman–Honzik's original maze study could add self-directed acquisition before changed utility. Jones' probe-only intervention could strengthen stage separation. Neither inaccessible source currently supports a claim; the batch below requests their methods. |
+| How much of scientific-agent failure belongs to its interface or scoring? | Exact result-producing prompts, raw acting trajectories and scorer versions remain necessary for CausaLab. Robin's positive loop does not isolate autonomy or equal-evidence reasoning. |
+| Which scaling/resource conclusions generalize? | Positive scaling benefits are established in restricted families. Useful-horizon extrapolation and modern end-to-end costs for old operations remain unmeasured; they cannot be settled by rhetoric about either scale or combinatorics. |
 
-The next scientific pass will focus on the first two questions and on resolving the strongest remaining protocol ambiguity. Additional papers are warranted when their methods decide one of these questions. The supplied batch is resolved for its current claims; no new paywall request is presently necessary. Unread supplementary details and historical comparator questions remain explicitly conditional in the source notes. This is not permission to infer their answers from abstracts.
+### 8.2 The bounded remaining Phase1 task
 
-### 8.2 Why this is still a working diagnosis
+This pass substantially weakens the old first priority and strengthens positive coverage. The remaining paper request is in `docs/PAPER_REQUESTS_002.md`, using the required format. Tolman–Honzik is the priority because its original active-exposure protocol could change the acquisition account. Jones is a lower-priority strengthening; if unavailable, the narrower verified experiments remain. Neither request licenses an argument from an abstract.
 
-The document now contains testable causes, opposing evidence and a preliminary ordering. It is not yet ready for phase approval because the link from controlled local causes to the full integrated demand remains weak. I will not equate a collection of plausible failure locations with one established explanation of current AI. Further work should discriminate the leading alternatives, rather than enlarge the source list or repeat the deterministic witness solely to generate more measurements.
+After the requested methods arrive, I will integrate or explicitly decline their historical/causal claims, perform a final claim-to-evidence consistency pass, and submit a scoped diagnosis for review. If the originals cannot be obtained, I will state that gap and judge whether the existing narrower evidence suffices. I will not require a proof of one universal cause before submitting: that would impose a stronger goal than the evidence supports and turn Phase1 into an endless survey.
 
-The biological survey constrains interpretation but has not isolated an artificial violation of a unique biological principle. The archaeology has found real revisions and expired objections, but no matched hardware-only resurrection. These are limits of the present evidence, not reasons to skip those parts of the programme.
+The current judgment is already actionable as a diagnosis: the leading acquisition claims should be investigated before assuming suitable knowledge existed and needs protection. The strongest demonstrated local interference effect remains a boundary case, not a general explanation. Positive current AI and biological results require declared support and surviving channels. A successful subclass narrows the phenomenon; an unidentified mediator remains unidentified.
 
-### 8.3 Operational facts kept separate from scientific findings
+This document is still a working checkpoint, not a proposal or an approval request. No repair has been proposed or ranked. Phase2 remains closed until Ali approves the completed diagnosis.
 
-The corrected checkpoint and all declared original bytes have now been read back from GitHub; `evidence/REMOTE_CHECKPOINT_002_VERIFICATION.json` records that verification. Recovery notes and this scientific update require the next natural human publication checkpoint. Scratch alone is not durable.
+### 8.3 Operational facts separate from scientific findings
 
-Authoritative subscription usage, unattended continuation, enforced reviewer isolation, restart recovery and large-output transfer remain unverified. Unattended model use remains disabled. No shared-filesystem consultation is an independent reviewer. Laptop/HPC measurements and substantial artifact durability belong to the operational gates before relevant runs; available HPC has not been excluded from the programme. The present evidence pass and completed small reproduction do not require new cluster jobs.
+Human commit `508a74696704149e2b5191e710f89d4f572bfcad` and checkpoint003's complete declared contents were verified through GitHub and local Git readback; `evidence/REMOTE_CHECKPOINT_003_VERIFICATION.json` records the receipt. All original scientific artifact bytes remain unchanged. This fourth document checkpoint and its ledger need the next human commit/push; scratch alone is not durable.
 
-Phase 1 continues. Phase 2 still requires explicit approval of a completed `DIAGNOSIS.md`; a publication checkpoint is not that approval.
+Authoritative subscription usage, unattended continuation, enforced reviewer isolation, restart recovery and large-output transfer remain unverified. Unattended model use stays disabled. Shared-filesystem consultations are not independent reviewers. Laptop/HPC limits and substantial-output durability remain operational-gate work before relevant runs; no laptop-sized experimental programme has been assumed. This bounded methods pass requires no GPU or cluster job.
