@@ -1,6 +1,6 @@
 # ARC Independent Lab
 
-Autonomous research programme funded by Ali Fazeli. Current phase: **Phase 2 — ideation, submitted for review**. Ali approved the published `DIAGNOSIS.md`; `IDEAS.md` now contains the full generated population, clustering and specified operations. The requested biological pass and learner-access diagnostic follow-up are complete. No candidate efficacy test or novelty audit has begun.
+Autonomous research programme funded by Ali Fazeli. Current phase: **Phase 3 — novelty audit and programme design**. Ali approved `DIAGNOSIS.md` and `IDEAS.md`. The first primary-method audit is in `NOVELTY_AUDIT.md`: it documents component reductions, C3's historical-information correction and a separate audit of the shared uncertainty-preserving proposition. Independent verdicts and the measured design remain outstanding; no Phase 3 treatment has run.
 
 ## Resume without conversation memory
 
@@ -9,6 +9,11 @@ Read `state/PROJECT_STATE.json` and `state/BUDGET.json`, then the last ledger en
 Verify repository state and checkpoint hashes before building on it. If blocked, only the human's `## ANSWER` section in `state/ESCALATION.md` clears the conversational-authority dependency. A prepared package is not proof that GitHub contains it.
 
 ## Scientific navigation
+
+- `NOVELTY_AUDIT.md`: first reviewable component and through-line audit, including exactness limits.
+- `docs/P3_DESIGN_DECISIONS.md`: scientific route, context-clearing controls and remaining measurements.
+- `docs/P3_AUDIT_REVIEW_PACKET.md`: separate reviewer task and required enforcement.
+- `docs/P3_GATE0_CAPABILITY_INVENTORY.md`: batched read-only laptop/Alliance observations.
 
 - `IDEAS.md`: Phase 2 submission, including the unedited population, clusters, developed operations and post-development method flags.
 - `reports/P2_LEARNER_OBSERVER_001.md`: required recovery follow-up and its access limits.
@@ -24,7 +29,7 @@ Verify repository state and checkpoint hashes before building on it. If blocked,
 - `reports/P1_REPRODUCTION_001.md`: instrumented performance/interference witness, raw-artifact hashes and scope.
 - `docs/TOOLING_EVIDENCE.md`: what has actually been checked about this runtime.
 
-The approved Phase 1 diagnosis remains unchanged. The parked file was first read after Phase 2 approval and contained no candidate entries. Phase 3 requires Ali's recorded approval of `IDEAS.md`. The other programme and the withheld benchmark fact sheet remain outside the permitted evidence base. The learner-access follow-up has its own report, protocol and raw artifacts; it is a diagnostic extension, not evidence that any developed candidate works.
+The approved Phase 1 diagnosis remains unchanged. The parked file was first read after Phase 2 approval and contained no candidate entries. Phase 3 approval is archived in `state/escalations/2026-09-06_PHASE2_APPROVED.md`. The other programme remains excluded. The withheld benchmark fact sheet has not been requested because instrument selection has not justified an interactive benchmark yet. The learner-access follow-up has its own report, protocol and raw artifacts; it is a diagnostic extension, not evidence that any developed candidate works.
 
 The canonical experiment entry point is `scripts/run_reproduction.py`. Reproduce with `python3 scripts/run_reproduction.py --config configs/P1_LINEAR_INTERFERENCE.json --run-id YOUR_NEW_RUN_ID`. Existing raw-run directories are never overwritten. No packages, GPU, cluster or model API are required for this witness. See its report before interpreting the result.
 

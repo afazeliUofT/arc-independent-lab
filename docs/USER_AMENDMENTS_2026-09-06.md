@@ -15,3 +15,7 @@ Authority: Ali's conversation reply to the consolidated intake, ending “Begin 
 - Phase 1's small failure reproduction may run in the hosted sandbox. Preserve code and trace in GitHub; do not put the laptop or cluster in this critical path unnecessarily.
 
 For all later human blocks, retain the governing file protocol: the human appends a section beginning `## ANSWER` to `state/ESCALATION.md`; the agent archives that answered file and records the decision. Do not silently substitute chat approval once the lab exists.
+
+## Later collaboration preference — Phase3 start
+
+2026-09-06. User instruction in conversation: “From now on try to reduce my approval requests and choose the best path.” Apply this by making routine scientific/implementation decisions autonomously, using existing permissions, batching paper/resource/publication requests, and requiring no new approval for already authorized Phase3 audit work. It does not assert credentials, independent-review enforcement or usage metering that have not been measured. The user continues to execute prepared real commits/pushes under the existing arrangement; no new spending is authorized.

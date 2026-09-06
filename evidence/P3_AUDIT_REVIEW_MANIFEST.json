@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-06T20:38:18.835389+00:00",
+  "scope": "Read-only evidence packet for separate enforced review of first Phase3 novelty audit. No verdict, treatment or verified reviewer runtime.",
+  "approved_base": "d9200bd6061a63cf82037c2fc31f361fa0109cb3",
+  "files": [
+    {
+      "path": "DIAGNOSIS.md",
+      "sha256": "e3106d737f5b50a688d1d5147a015dc091d2986493848b68d33d61949dfa4cc3"
+    },
+    {
+      "path": "IDEAS.md",
+      "sha256": "73cab9f6ab1f5eda80c7c2adc6d2ed556c63d5652fd65434e4cc4b24383dc3b8"
+    },
+    {
+      "path": "NOVELTY_AUDIT.md",
+      "sha256": "cb0234dfc63d70d572eef649b08ec47ddb28a2164b791bb6cefe8403e143b201"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/ADDITIONAL_SHA256SUMS",
+      "sha256": "d4a8de8911fe4f611b2f47f3e7cb66a442f8e25892d268207473dfbfcb46457e"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/SHA256SUMS",
+      "sha256": "62c11df350f2b37f49d020431d8b50083ffd2a8bc2bb50259029f0387e6ff3d3"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/environment_info.json",
+      "sha256": "827c217b798bc589196b7e8b6466eb410802b01a8862ae9783d31ee9d4be43c4"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/git_state.txt",
+      "sha256": "057613e36fc4f69860fafc961c316909e790e320818d0bd94f3e3a3bb1869d98"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/hypotheses.jsonl",
+      "sha256": "a18ee673c7e5027d54eb046385eaf9632f30b292a7c79c592bff8ac330d602cb"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/manifest.json",
+      "sha256": "b2f06a14433f546ea24d2f49990d38c13ec7b8e1ed945c9b8e09ac17927acac9"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/manifest_completion.json",
+      "sha256": "4c137c2e82475d9f6ad28168e8fcc3cca2460167e8187bf021c6eff78f06cd4b"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/metrics.csv",
+      "sha256": "b9d5710cf77695198cde83d55b180e814f412ba6cf9f8db3513b04f2f18721d4"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/protocol.md",
+      "sha256": "24c9e92f528a6cdc5e97a657fa7c8d0db3b4428434eb1d9cef4054d0d3b43bee"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/protocol_freeze.json",
+      "sha256": "eb308135cee0b1aefd9215cc35a1dbbb0cf43e7f4fc8854a1424b5d1df8f9588"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/resolved_config.json",
+      "sha256": "87e452f0c05381aee1451bdbc05a60567fc8295089d27ef85bfbd7a5f8d281c1"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/resolved_config.yaml",
+      "sha256": "87e452f0c05381aee1451bdbc05a60567fc8295089d27ef85bfbd7a5f8d281c1"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/results.json",
+      "sha256": "9c6c95c115e9d350e26c43707092c65208020eac9b02b91d389d335fa3febd08"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/source.py",
+      "sha256": "81682d063317df6f1fd0f0edfd5e86164b86416aac0b83f61aaa11f8f4ba191d"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/stdout.log",
+      "sha256": "b63e7ce96eedf1df9fcc02de7a53b4ec3c23e61dadb11d1ba6b79fa9cf90f836"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/transitions.jsonl",
+      "sha256": "409e2eb4095d2358ae3ac53e379c3c273288f5d604c5c01ced63e704bd452b7d"
+    },
+    {
+      "path": "configs/P2_LEARNER_OBSERVER.json",
+      "sha256": "87e452f0c05381aee1451bdbc05a60567fc8295089d27ef85bfbd7a5f8d281c1"
+    },
+    {
+      "path": "docs/P2_OPERATION_SPECIFICATIONS.md",
+      "sha256": "d37a52eeb569461503b262d2790a656048624ede4790aeb49254e5a9f133c26f"
+    },
+    {
+      "path": "docs/P3_AUDIT_REVIEW_PACKET.md",
+      "sha256": "9dfd170e94112d71914348e9815bd1fbf1746a97bae24353b937983d8b844097"
+    },
+    {
+      "path": "docs/P3_DESIGN_DECISIONS.md",
+      "sha256": "9c7a75e4c3ca094dffc2fb8c50bacbc6c9911ea9b83036acee582a5a8c64edef"
+    },
+    {
+      "path": "docs/USER_AMENDMENTS_2026-09-06.md",
+      "sha256": "dc61574fa31f4e132f181b100e49df59cbb1272e82ec01cd08bb8c25ac4e1e15"
+    },
+    {
+      "path": "docs/followups/P2_LEARNER_OBSERVER_PROTOCOL.md",
+      "sha256": "24c9e92f528a6cdc5e97a657fa7c8d0db3b4428434eb1d9cef4054d0d3b43bee"
+    },
+    {
+      "path": "docs/governing/01_THE_PROBLEM.md",
+      "sha256": "e89ddd629cfc839be31d0127acb59354b5e38d23e77859a8d8c7bbea87e00d3e"
+    },
+    {
+      "path": "docs/governing/02_RESEARCH_PROCESS.md",
+      "sha256": "7bf3c496962d0ede489ef10a237d3b70830fb439f3395235c3b8c18a23c4bc3d"
+    },
+    {
+      "path": "docs/governing/03_AUTONOMY_SPEC.md",
+      "sha256": "b4beb0712e44fa7621da14bc2e9c55fb66dbd7866a93cc335b36f9f532b2a912"
+    },
+    {
+      "path": "evidence/P2_LEARNER_OBSERVER_PROTOCOL_FREEZE.json",
+      "sha256": "eb308135cee0b1aefd9215cc35a1dbbb0cf43e7f4fc8854a1424b5d1df8f9588"
+    },
+    {
+      "path": "evidence/P2_OBSERVER_INTERPRETATION.md",
+      "sha256": "718e010250f31501e17692845d708d70933c6d2c0f369ded6c2b29de408fb982"
+    },
+    {
+      "path": "evidence/P3_C1_C4_PRIMARY_AUDIT.md",
+      "sha256": "2de34586a2e902d5fc2c9ce71393ed92418dedd0a6c458c0a8db047b3144a784"
+    },
+    {
+      "path": "evidence/P3_C2_PRIMARY_AUDIT.md",
+      "sha256": "d56c20d58d390130da2ef7091c1db550352e5593e6ce2e532aca48d91c42e4fc"
+    },
+    {
+      "path": "evidence/P3_C3_PRIMARY_AUDIT.md",
+      "sha256": "07116664720e544d8cc6d8dd979b3469d50ded587f1d2c1175ade5c8a87d3864"
+    },
+    {
+      "path": "evidence/P3_THROUGHLINE_PRIOR_METHODS.md",
+      "sha256": "2cfe2b3cfb38494a394134f7e017cab59ac994d6e70469d427f8361061374913"
+    },
+    {
+      "path": "evidence/P3_THROUGHLINE_PROPOSITION.md",
+      "sha256": "a4504d2730a8bbfdf4e07e6f04ed2c6073bc1140e6a3e28a401f348b3b40918a"
+    },
+    {
+      "path": "evidence/PHASE2_APPROVAL_AND_CHECKPOINT006_VERIFICATION.json",
+      "sha256": "2eedb9d6ac2a6c63ee99d333e2ec334f1f7d474e6343933a30364645781d139c"
+    },
+    {
+      "path": "reports/P2_LEARNER_OBSERVER_001.md",
+      "sha256": "5503b185549fcce4daa841a9f4445f53d4f94dc3a43a73440bf877b2d38d1f11"
+    },
+    {
+      "path": "reports/P2_LEARNER_OBSERVER_METADATA_COMPLETION.md",
+      "sha256": "8a58646a3179d11f882676c2d76869cb0334eeadd57d53baf1dc6a05ced501ac"
+    },
+    {
+      "path": "scripts/run_learner_observer.py",
+      "sha256": "81682d063317df6f1fd0f0edfd5e86164b86416aac0b83f61aaa11f8f4ba191d"
+    },
+    {
+      "path": "state/escalations/2026-09-06_PHASE2_APPROVED.md",
+      "sha256": "23f17f6526f3cf068ccb95175b11fe6f37e0654dfb2bad207a942d635f40f579"
+    }
+  ],
+  "private_primary_sources": "Excluded from public payload. Legitimate full-text URLs and exact source hashes are in audit notes.",
+  "control_status": {
+    "independent_review": "not_invoked; enforcement_unverified",
+    "unattended_model_use": false,
+    "candidate_treatment_runs": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-06T20:38:18.835389+00:00",
+  "audit_manifest": {
+    "path": "evidence/P3_AUDIT_REVIEW_MANIFEST.json",
+    "sha256": "8d475e93aa21db5d7210f337c036e2705e3a4b83b6d99d43d715161d63b7e374"
+  },
+  "pinned_files_all_present_and_hashed": true,
+  "approved_inputs_and_prior_scientific_artifacts_unchanged": true,
+  "check_scope": "Integrity and PI-side analytical consistency only; not an independently enforced scientific verdict.",
+  "analytical_checks": [
+    "C1 subset update/reset induction read against exact specification",
+    "C2 joint-kernel compilation and terminal-task disclosure condition read",
+    "C3 normal equations multiplied by fixed W, including boundary and refresh induction",
+    "C4 A/B scope witness evaluated from fixed tie-breaking rule",
+    "Joint reference construction restricted to positive initial/reset support and explicit response tuple",
+    "Zheng F.1 displayed hypothesis/inequality checked in full-text extraction; scalar counterexample stays separate from empirical finding"
+  ],
+  "corrections_preserved": [
+    "C3 nearest-method flag corrected without rewriting approved IDEAS",
+    "C3 old-history requirement distinguished from current-state observer",
+    "T1-ref response precedence specified after same-tools consultation",
+    "C2 downstream terminal choice distinguished from selector output"
+  ],
+  "formal_verdict": null,
+  "candidate_treatment_run": false,
+  "reviewer_enforcement_verified": false
+}

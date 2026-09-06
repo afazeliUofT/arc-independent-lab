@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-06",
+  "script": "scripts/gate0_capability_inventory.py",
+  "script_sha256": "e2ce2da1ff8a52b86264b9a237c03bfccc396642dcd901d9c1e23b9acde79145",
+  "checks": {
+    "nonzero_exact_byte_preservation": "passed",
+    "bounded_owned_process_timeout_with_partial_output": "passed",
+    "slurm_complete_fake_client_command_scope": "passed",
+    "laptop_complete_fake_client_command_scope": "passed",
+    "unexpected_user_or_qos_fails_closed": "passed",
+    "missing_kernel_memory_counter_preserved_without_blocking_commands": "passed",
+    "symlink_directory_refused": "passed"
+  },
+  "production_clients_executed": false,
+  "real_laptop_or_slurm_executed": false,
+  "real_nonzero_fixture_record": {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-I",
+      "-c",
+      "import sys;sys.stdout.buffer.write(b\"out\\xff\");sys.stderr.buffer.write(b\"err\\x00\");sys.exit(7)"
+    ],
+    "timeout_seconds": 2,
+    "status": "nonzero",
+    "exit_code": 7,
+    "stdout": {
+      "utf8": "out\\xff",
+      "base64": "b3V0/w==",
+      "sha256": "0ed6d53d8fcccde82caab2d1f5d3d6c5ba801e0c90961ce3603e510313f3e106",
+      "bytes": 4
+    },
+    "stderr": {
+      "utf8": "err\u0000",
+      "base64": "ZXJyAA==",
+      "sha256": "f7c0757da8c902ba76a7fa9f6de97b9afc0e3f1ccec784f8dd678634042bd255",
+      "bytes": 4
+    },
+    "elapsed_seconds": 0.041294413997093216
+  },
+  "real_timeout_fixture_record": {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-I",
+      "-u",
+      "-c",
+      "import time;print(\"before timeout\",flush=True);time.sleep(2)"
+    ],
+    "timeout_seconds": 0.1,
+    "status": "timeout",
+    "timeout_exception": "TimeoutExpired(['/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3', '-I', '-u', '-c', 'import time;print(\"before timeout\",flush=True);time.sleep(2)'], 0.1)",
+    "exit_code": -9,
+    "stdout": {
+      "utf8": "before timeout\n",
+      "base64": "YmVmb3JlIHRpbWVvdXQK",
+      "sha256": "0957fc7a1e324ec14badfc9e4a9b499d9399541067a9976a2082a5d86d4ad908",
+      "bytes": 15
+    },
+    "stderr": {
+      "utf8": "",
+      "base64": "",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "elapsed_seconds": 0.10402489700209117
+  },
+  "scope": "Contained engineering checks, not reviewer isolation, resource entitlement or scientific verification.",
+  "fixture_path": "delivery/gate0_inventory_fixture_nklppi0d",
+  "earlier_error_log": "evidence/P3_GATE0_CAPABILITY_INVENTORY_ERRORS.jsonl"
+}

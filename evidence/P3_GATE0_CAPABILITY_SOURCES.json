@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-06",
+  "sources": [
+    {
+      "url": "https://learn.chatgpt.com/docs/developer-commands?surface=cli",
+      "accessed": "2026-09-06",
+      "method_sections_read": "Global flags; exec options; status/usage commands. Advertised options only, no local capability or subscription reading."
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/sandboxing",
+      "accessed": "2026-09-06",
+      "method_sections_read": "Sandbox versus approval policy; Linux/WSL implementation and prerequisites; separate web/plugin controls. No setting change requested."
+    },
+    {
+      "url": "https://slurm.schedmd.com/resource_limits.html",
+      "accessed": "2026-09-06",
+      "method_sections_read": "Hierarchy, association and QOS limits. Limits are not remaining allocation."
+    },
+    {
+      "url": "https://github.com/SchedMD/slurm/blob/master/doc/man/man1/sacctmgr.1",
+      "accessed": "2026-09-06",
+      "source_version_label": "Slurm 26.11 development manual; installed version unmeasured",
+      "method_sections_read": "Association user filters, complete association display fields, complete QOS display fields; inherited display behavior."
+    },
+    {
+      "url": "https://github.com/SchedMD/slurm/blob/master/doc/man/man1/sinfo.1",
+      "accessed": "2026-09-06",
+      "source_version_label": "Slurm 26.11 development manual; installed version unmeasured",
+      "method_sections_read": "Exact grouping, default visible partitions, no-header output, P/a/l/D/c/m/G format fields."
+    }
+  ],
+  "limitations": [
+    "Slurm hosted manual fetches repeatedly failed; official repository manual source resolved field definitions.",
+    "Source checks do not establish installed versions, allocation balances or reviewer enforcement."
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "checkpoint_id": "P3_CHECKPOINT_007",
+  "created_utc": "2026-09-06T20:23:37.069558+00:00",
+  "base_commit": "d9200bd6061a63cf82037c2fc31f361fa0109cb3",
+  "source_helper": "scripts/checkpoint006_handoff.py",
+  "source_helper_sha256": "9890af5bac89740da639c7a3d1856f41ccf348233ad7f1566b450a28d1472e6a",
+  "adapted_helper": "scripts/checkpoint007_handoff.py",
+  "adapted_helper_sha256": "e24b32dbbc52e6547b28bf5ce773a7421f2b6f3ae3164d74c9bb600466d26ebf",
+  "method_reference": "docs/CHECKPOINT_006_HANDOFF_METHODS.md",
+  "description": "Versioned checkpoint007 local transport adaptation; exactly four helper substitutions and corresponding builder names/base substitutions, without functional redesign.",
+  "changes": [
+    {
+      "old": "Local P2 checkpoint-006 ZIP handoff.",
+      "new": "Local P3 checkpoint-007 ZIP handoff."
+    },
+    {
+      "old": "BASE = \"376455150af7b257809a56021431413b2e0c6293\"",
+      "new": "BASE = \"d9200bd6061a63cf82037c2fc31f361fa0109cb3\""
+    },
+    {
+      "old": "\"P2_CHECKPOINT_006\"",
+      "new": "\"P3_CHECKPOINT_007\""
+    },
+    {
+      "old": "\"delivery/checkpoint006_backups\"",
+      "new": "\"delivery/checkpoint007_backups\""
+    }
+  ],
+  "builder": {
+    "source": "delivery/build_checkpoint006.py",
+    "source_sha256": "06ee82b8ea8035528440eb7080ff8f2512a1c6dc31b6cc82d83351953b52e66b",
+    "adapted": "delivery/build_checkpoint007.py",
+    "adapted_sha256": "41ead07969f6f3ffd0f5e3abea83c51177097f51c4fedeffc2d203f4ce7b8062",
+    "substitutions": [
+      {
+        "old": "376455150af7b257809a56021431413b2e0c6293",
+        "new": "d9200bd6061a63cf82037c2fc31f361fa0109cb3",
+        "occurrences": 1
+      },
+      {
+        "old": "checkpoint006",
+        "new": "checkpoint007",
+        "occurrences": 5
+      },
+      {
+        "old": "Checkpoint006",
+        "new": "Checkpoint007",
+        "occurrences": 1
+      },
+      {
+        "old": "P2_CHECKPOINT_006",
+        "new": "P3_CHECKPOINT_007",
+        "occurrences": 3
+      },
+      {
+        "old": "state/CHECKPOINT_006.json",
+        "new": "state/CHECKPOINT_007.json",
+        "occurrences": 1
+      }
+    ],
+    "reverse_substitution_byte_equality": "passed",
+    "normalized_ast_matches_source": "passed",
+    "executed": false
+  },
+  "validation": {
+    "python_ast_parse": "passed",
+    "python_in_memory_compile": "passed",
+    "exact_four_helper_substitutions": "passed",
+    "reverse_substitution_byte_equality": "passed",
+    "normalized_ast_matches_source": "passed",
+    "diff_removed_lines": 4,
+    "diff_added_lines": 4,
+    "source_helper_modified": false,
+    "helper_executed": false,
+    "draft_bash_syntax": "passed",
+    "actual_archive_validation": "not performed; reserved for PI after final science and state payload is ready",
+    "scope": "Syntax and exact source equivalence only; no final package or manifest generated."
+  },
+  "retained_transport_operations": [
+    "local inspect",
+    "local apply with backup",
+    "local stage",
+    "local verify"
+  ],
+  "performed_transport_operations": [],
+  "network_or_authentication_performed": false,
+  "commit_or_push_performed": false,
+  "project_state_or_ledger_modified": false,
+  "review_classification": "shared-tools engineering consultation; not independent review",
+  "nonzero_tool_exit_codes": [],
+  "error_log": null,
+  "unified_diff": "--- scripts/checkpoint006_handoff.py\n+++ scripts/checkpoint007_handoff.py\n@@ -1,4 +1,4 @@\n-\"\"\"Local P2 checkpoint-006 ZIP handoff. No commit, push, fetch, or authentication.\n+\"\"\"Local P3 checkpoint-007 ZIP handoff. No commit, push, fetch, or authentication.\n \n Supply the ZIP and its published SHA-256. Default: inspect. --apply: install and\n stage known transitions, then verify actual index blobs. --verify: require the\n@@ -17,7 +17,7 @@\n import tempfile\n import zipfile\n \n-BASE = \"376455150af7b257809a56021431413b2e0c6293\"\n+BASE = \"d9200bd6061a63cf82037c2fc31f361fa0109cb3\"\n REMOTE = \"https://github.com/afazeliUofT/arc-independent-lab.git\"\n ATTRIBUTES = b\"# Preserve the exact bytes of scientific run artifacts.\\n/artifacts/** -text\\n\"\n MAX_BYTES = 64 * 1024 * 1024\n@@ -60,7 +60,7 @@\n             raise ValueError(\"Duplicate ZIP members or oversized uncompressed payload\")\n         manifest = json.loads(archive.read(\"HANDOFF.json\"), object_pairs_hook=unique)\n         if (set(manifest) != {\"checkpoint_id\", \"base_commit\", \"files\"}\n-                or manifest[\"checkpoint_id\"] != \"P2_CHECKPOINT_006\"\n+                or manifest[\"checkpoint_id\"] != \"P3_CHECKPOINT_007\"\n                 or manifest[\"base_commit\"] != BASE\n                 or not isinstance(manifest[\"files\"], dict) or not manifest[\"files\"]):\n             raise ValueError(\"Unexpected handoff manifest\")\n@@ -212,7 +212,7 @@\n     if head != BASE:\n         print(\"Checkpoint commit already exists; no files or index changed.\")\n         return\n-    backup_parent = ordinary(root, \"delivery/checkpoint006_backups\", directory=True)\n+    backup_parent = ordinary(root, \"delivery/checkpoint007_backups\", directory=True)\n     backup_parent.mkdir(parents=True, exist_ok=True)\n     stamp = datetime.datetime.now(datetime.timezone.utc).strftime(\"%Y%m%dT%H%M%S.%fZ-\")\n     backup = Path(tempfile.mkdtemp(prefix=stamp, dir=backup_parent))\n"
+}

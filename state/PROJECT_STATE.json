@@ -1,69 +1,69 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-06T19:23:57.582046+00:00",
-  "current_gate": "P2",
-  "gate_status": "awaiting_verdict",
-  "gate_entered_utc": "2026-09-06T18:51:56.227927+00:00",
-  "last_verified_gate": "P1",
-  "last_verified_commit": "376455150af7b257809a56021431413b2e0c6293",
+  "updated_utc": "2026-09-06T20:41:56.168180+00:00",
+  "current_gate": "P3",
+  "gate_status": "in_progress",
+  "gate_entered_utc": "2026-09-06T20:14:12.138443+00:00",
+  "last_verified_gate": "P2",
+  "last_verified_commit": "d9200bd6061a63cf82037c2fc31f361fa0109cb3",
   "active_task": {
-    "id": "P2.1",
-    "description": "Phase2 IDEAS submitted; both required follow-ups complete",
+    "id": "P3.2",
+    "description": "Resolve remaining wrapper/observer audit scope and establish enforceable review path",
     "attempt": 1,
     "escalation_level": 0,
-    "started_utc": "2026-09-06T18:51:56.227927+00:00"
+    "started_utc": "2026-09-06T20:40:45.625259+00:00"
   },
-  "blocked_on": {
-    "kind": "human_phase_approval",
-    "reason_code": 13,
-    "deliverable": "IDEAS.md",
-    "sha256": "73cab9f6ab1f5eda80c7c2adc6d2ed556c63d5652fd65434e4cc4b24383dc3b8",
-    "publication_checkpoint": "P2_CHECKPOINT_006",
-    "publication_pending": true,
-    "answer_channel": "Human appends ## ANSWER to state/ESCALATION.md and commits/pushes."
-  },
-  "next_action": "Verify reported checkpoint006 publication against full manifest, exact parent/delta and original artifact bytes, preserving local overlays. Read any human ANSWER. Publication alone is not IDEAS approval. On explicit recorded approval of this IDEAS hash, archive exact answer and begin Phase3 novelty audit/programme design; keep generation distinct, request withheld benchmark facts only when considering instrument selection, and measure operational/compute dependencies before substantial runs. On scientific revision remain P2. Do not rerun unchanged exact-inventory observer auditor against the metadata-expanded folder; its scope and current dual checksum inventories are documented.",
+  "blocked_on": null,
+  "next_action": "First verify checkpoint007 when published, preserving hosted overlays. Read factual laptop/Alliance inventory reports if available and choose a tested independent-review route. Without reports, continue bounded primary-method audit of remaining C4 diagnostic/abstention wrapper and observer current-state API; do not invent a replacement mechanism during screening. No candidate treatment, formal verdict or Phase3 completion until the relevant controls and scientific route are established. Routine decisions need no repeated approval.",
   "open_questions": [
-    "Human Phase2 decision on submitted IDEAS.md is pending.",
-    "Developed operations retain supplied languages, predictive families, goals and interfaces; unrestricted discovery of useful variables remains unresolved.",
-    "Novelty and exact reductions unassessed; nearest-method flags are pointers only.",
-    "Observer local accessibility is now supported; autonomous discovery/use and modern-agent prevalence remain unmeasured.",
-    "Authoritative usage, enforced reviewer isolation, unattended continuation, restart persistence, laptop/HPC limits and large-output durability remain operational-gate requirements."
+    "Independent reviewer read-only enforcement remains unverified; inventory requests capabilities, not a verdict.",
+    "C1 complete operation and C2 selector have explicit reduction certificates; formal dispositions pending review.",
+    "C3 cached-stitch family mapping and exact cached-response equivalence limit novelty; observer API result remains a separate diagnostic contribution.",
+    "C4 scope-selection core reduced; exact wrapper priority/behavior and a fully specified joint claim need further scope decisions.",
+    "Current-state observer broader method/prior-art audit and autonomous discovery/invocation remain open.",
+    "HPC/laptop actual limits, largest-case profiles and representative large-output durability remain unmeasured.",
+    "Authoritative subscription allowance unknown; unattended model use disabled."
   ],
   "mechanisms": {
     "C1": {
-      "status": "specified_for_phase2_review",
-      "novelty": "unaudited",
+      "status": "pi_audit_complete_pending_independent_review",
+      "novelty": "complete_state_query_reduction_certificate",
       "efficacy": "untested",
       "bottleneck": 1
     },
     "C2": {
-      "status": "specified_for_phase2_review",
-      "novelty": "unaudited",
+      "status": "pi_audit_complete_pending_independent_review",
+      "novelty": "modeled_selector_reduction_certificate",
       "efficacy": "untested",
       "bottleneck": 2
     },
     "C3": {
-      "status": "specified_for_phase2_review",
-      "novelty": "unaudited",
+      "status": "pi_audit_complete_pending_independent_review",
+      "novelty": "stitch_family_and_cached_response_reduction",
       "efficacy": "untested",
       "bottleneck": 3
     },
     "C4": {
-      "status": "specified_for_phase2_review",
-      "novelty": "unaudited",
+      "status": "pi_audit_complete_pending_independent_review",
+      "novelty": "scope_core_reduced_wrapper_unresolved",
       "efficacy": "untested",
       "bottleneck": 1
+    },
+    "T": {
+      "status": "separate_joint_audit_open",
+      "novelty": "broad_integrated_prior_art; approved_joint_guarantee_not_implemented; reference_completion_explicitly_scoped",
+      "efficacy": "untested"
     }
   },
   "consecutive_no_progress_turns": 0,
   "route_history": [
     "P1",
-    "P2"
+    "P2",
+    "P3"
   ],
   "remote": "https://github.com/afazeliUofT/arc-independent-lab",
-  "durability_status": "Approval and diagnosis durable at human376455150af7b257809a56021431413b2e0c6293. Current P2 deliverable, observer trace and state prepared as checkpoint006 for human commit/push; not yet verified publicly.",
-  "commit_status": "Hosted HEAD/index remain verified human376455150af7b257809a56021431413b2e0c6293; no assistant real commit or public push.",
+  "durability_status": "Checkpoint006 and Phase2 approval verified on GitHub. Checkpoint007 audit/state package prepared next; current additions remain scratch-only until human publication and readback.",
+  "commit_status": "Hosted HEAD/index adopt verified human d9200bd6061a63cf82037c2fc31f361fa0109cb3; no assistant commit/push.",
   "recovery_dependency": null,
   "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation.",
   "latest_recovery_evidence": [
@@ -77,40 +77,52 @@
     }
   ],
   "private_error_log_handling": "Probe raw error output stays within laptop Git metadata, outside normal commits. Request only safe terminal report; never ask for credentials or publish raw transport logs.",
-  "foreground_execution_note": "Checkpoint005 helper is local inspect/apply/stage/verify only; human commits and pushes visibly using normal local authentication.",
-  "scientific_status": "P1 approved. P2 full population, clustering, operations and post-development flags submitted for human review; required biology and observer follow-ups complete. No candidate trial, novelty audit or Phase3.",
+  "foreground_execution_note": "Checkpoint007 helper only inspects/applies/stages/verifies. Human executes real commits and pushes; no new scientific approval is requested for authorized publication.",
+  "scientific_status": "First Phase3 primary-method component and through-line audit complete as PI analysis; core reductions and joint counterexample documented, remaining scope/independent review open. PROGRAMME is not yet ready.",
   "latest_scientific_evidence": [
     {
-      "path": "IDEAS.md",
-      "sha256": "73cab9f6ab1f5eda80c7c2adc6d2ed556c63d5652fd65434e4cc4b24383dc3b8"
+      "path": "NOVELTY_AUDIT.md",
+      "sha256": "cb0234dfc63d70d572eef649b08ec47ddb28a2164b791bb6cefe8403e143b201"
     },
     {
-      "path": "evidence/P2_SUBMISSION_CONSISTENCY.json",
-      "sha256": "74cf3ffca592bfcd59d38fb6e3409529e5dbc31dadfabcb899e8a969e3780792"
+      "path": "evidence/P3_AUDIT_REVIEW_MANIFEST.json",
+      "sha256": "8d475e93aa21db5d7210f337c036e2705e3a4b83b6d99d43d715161d63b7e374"
     },
     {
-      "path": "evidence/P2_GENERATION_FREEZE.json",
-      "sha256": "04d0980474b843397e334013797c73e6868fd9d808fede5adc577c91fe600dfc"
+      "path": "evidence/P3_AUDIT_PACKET_INTEGRITY.json",
+      "sha256": "cbcc0a89c4572655d2316cf674c3750ffea0e5e3fcc2697178da1d3f2f92cf81"
     },
     {
-      "path": "reports/P2_LEARNER_OBSERVER_001.md",
-      "sha256": "5503b185549fcce4daa841a9f4445f53d4f94dc3a43a73440bf877b2d38d1f11"
+      "path": "docs/P3_DESIGN_DECISIONS.md",
+      "sha256": "9c7a75e4c3ca094dffc2fb8c50bacbc6c9911ea9b83036acee582a5a8c64edef"
     },
     {
-      "path": "evidence/P2_OBSERVER_INTERPRETATION.md",
-      "sha256": "718e010250f31501e17692845d708d70933c6d2c0f369ded6c2b29de408fb982"
+      "path": "evidence/P3_C1_C4_PRIMARY_AUDIT.md",
+      "sha256": "2de34586a2e902d5fc2c9ce71393ed92418dedd0a6c458c0a8db047b3144a784"
     },
     {
-      "path": "evidence/P2_BIOLOGY_GENERATION_INPUT.md",
-      "sha256": "49fa3d54a5d48a19cca623d6d71b88b8aac53c0b40a8a2b4f4b08a99f5e6ed33"
+      "path": "evidence/P3_C2_PRIMARY_AUDIT.md",
+      "sha256": "d56c20d58d390130da2ef7091c1db550352e5593e6ce2e532aca48d91c42e4fc"
+    },
+    {
+      "path": "evidence/P3_C3_PRIMARY_AUDIT.md",
+      "sha256": "07116664720e544d8cc6d8dd979b3469d50ded587f1d2c1175ade5c8a87d3864"
+    },
+    {
+      "path": "evidence/P3_THROUGHLINE_PRIOR_METHODS.md",
+      "sha256": "2cfe2b3cfb38494a394134f7e017cab59ac994d6e70469d427f8361061374913"
+    },
+    {
+      "path": "evidence/P3_THROUGHLINE_PROPOSITION.md",
+      "sha256": "a4504d2730a8bbfdf4e07e6f04ed2c6073bc1140e6a3e28a401f348b3b40918a"
     }
   ],
   "handoff_backup_status": "Prior runtime upload limitation persists as unverified capability; no repeated failed upload. GitHub is the authorized durability bridge.",
   "latest_publication_verification": {
-    "path": "evidence/REMOTE_CHECKPOINT_005_VERIFICATION.json",
-    "sha256": "aebbd8cc3441ac22160887d0bddfabc74699315dd0f39ae41e3458c80b4daeb2"
+    "path": "evidence/PHASE2_APPROVAL_AND_CHECKPOINT006_VERIFICATION.json",
+    "sha256": "2eedb9d6ac2a6c63ee99d333e2ec334f1f7d474e6343933a30364645781d139c"
   },
-  "last_human_message_verbatim": "The answer is published. state/ESCALATION.md on main now contains a ## ANSWER section approving DIAGNOSIS.md at 069bd7dc3db1cec6e9fc6ff67046547488f05353 for Phase 2. Read it from the repository and proceed.",
+  "last_human_message_verbatim": "The github repo is updated. The answer is published. state/ESCALATION.md on main now approves IDEAS.md (SHA-256 73cab9f6\u2026dc3b8) for Phase 3, with three requirements for the novelty audit. Read it from the repository and proceed. From now on try to reduce my approval requests and choose the best path",
   "phase1_approval": {
     "verified_utc": "2026-09-06T18:51:56.227927+00:00",
     "source_url": "https://github.com/afazeliUofT/arc-independent-lab/blob/376455150af7b257809a56021431413b2e0c6293/state/ESCALATION.md",
@@ -134,5 +146,20 @@
     "focused_biology_before_generation": "completed_nonempty_with_limits",
     "learner_computable_observer": "completed_positive_with_original_model_API_and_declared_access_limits"
   },
-  "latest_submission_hash": "73cab9f6ab1f5eda80c7c2adc6d2ed556c63d5652fd65434e4cc4b24383dc3b8"
+  "latest_submission_hash": "73cab9f6ab1f5eda80c7c2adc6d2ed556c63d5652fd65434e4cc4b24383dc3b8",
+  "phase2_approval": {
+    "commit": "d9200bd6061a63cf82037c2fc31f361fa0109cb3",
+    "ideas_sha256": "73cab9f6ab1f5eda80c7c2adc6d2ed556c63d5652fd65434e4cc4b24383dc3b8",
+    "answer_path": "state/escalations/2026-09-06_PHASE2_APPROVED.md",
+    "answer_sha256": "23f17f6526f3cf068ccb95175b11fe6f37e0654dfb2bad207a942d635f40f579"
+  },
+  "collaboration_preference": "Minimize approval requests; decide routine matters autonomously and batch necessary human actions.",
+  "pending_factual_reports": [
+    "Laptop capability inventory",
+    "Alliance capability inventory"
+  ],
+  "audit_review_manifest": {
+    "path": "evidence/P3_AUDIT_REVIEW_MANIFEST.json",
+    "sha256": "8d475e93aa21db5d7210f337c036e2705e3a4b83b6d99d43d715161d63b7e374"
+  }
 }
