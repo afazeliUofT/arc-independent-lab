@@ -1,14 +1,24 @@
-# Phase1 checkpoint004 and paper batch002
+# Phase1 approval requested — DIAGNOSIS.md
 
-2026-09-06. The previous publication request is fulfilled and archived; checkpoint003 is verified publicly. P1.3 scientific work is complete as a working checkpoint, not a phase-approval request.
+Prepared 2026-09-06T17:36:11.716140+00:00. Reason13: `02_RESEARCH_PROCESS.md` requires Ali's approval of the diagnosis before Phase2. All available authorized Phase1 work needed for this scoped submission is complete.
 
-## Human actions
+## Reviewable result
 
-1. Publish the prepared document checkpoint004 using the supplied ZIP, helper and foreground instructions. Commit/push execution remains with Ali under existing authorization. This makes the ledger and new evidence durable; scratch is ephemeral.
-2. Obtain the original papers in `docs/PAPER_REQUESTS_002.md`, priority Tolman–Honzik1930 and lower-priority Jones2012 including its Supporting Online Material. The source notes record the unsuccessful access routes. Reason14 applies to the missing methods; no current claim uses their abstracts. If unavailable, report that and the diagnosis will retain a narrower verified account.
+- Deliverable: `DIAGNOSIS.md`
+- SHA-256: `e3106d737f5b50a688d1d5147a015dc091d2986493848b68d33d61949dfa4cc3`
+- Consistency receipt: `evidence/P1_SUBMISSION_CONSISTENCY_2026-09-06.json`
+- Source resolution: `evidence/PAPER_REQUESTS_002_RESOLUTION.md`
 
-## Next action after the reply
+The diagnosis does not establish a universal dominant cause. The first two ranked entries are investigative priorities whose mediation or modern-agent relevance remain uncertain. The reproduction supplies a precise local cause, and positive AI/biological evidence narrows the original framing. Jones' main article is inspected; its separate SOM is not. Tolman–Honzik is unavailable and its original methods are not used. No more paper search is required for this scoped review.
 
-Verify actual GitHub commit/tree against `state/CHECKPOINT_004.json`, preserve local overlays, and archive this request when fulfilled. Audit supplied original methods or explicitly record their unavailability; then complete a bounded synthesis pass and submit DIAGNOSIS.md for Phase1 review. Do not begin Phase2 without explicit approval. Do not launch unattended model use.
+## Human actions and what each means
 
-The optional persistent backup of the handoff downloads failed before upload due to unavailable runtime-helper authentication. Do not request or disclose credentials. The delivered local ZIP remains temporary until the already-authorized human GitHub publication; the final handoff will state this limitation.
+1. Publish prepared checkpoint005 using its final verified ZIP, helper and foreground instructions under the existing commit/push arrangement. This makes the submission, ledger and current state durable. Publication by itself is not Phase1 approval.
+2. Approve DIAGNOSIS.md as the basis for Phase2, or identify the scientific claim/scope that needs revision.
+
+If approved: verify publication where reported, record the exact human approval and deliverable hash, pass the Phase1 gate, and only then begin Phase2 invention with novelty screening off. The parked-ideas file may be read only once Phase2 begins.
+If revision is requested: remain in Phase1 and address the specified claim, recording the reason.
+If only publication is reported: verify it and continue awaiting the distinct scientific decision; do not infer approval.
+If the programme is stopped: preserve the record and stop.
+
+No unattended model use, new spending or Phase3 experimental work is authorized by this submission. Shared-filesystem consultations do not meet the enforced independent-review requirement.

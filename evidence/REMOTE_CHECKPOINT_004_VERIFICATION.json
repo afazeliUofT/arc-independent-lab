@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-06",
+  "verified_utc": "2026-09-06T17:23:41.563308+00:00",
+  "repository_url": "https://github.com/afazeliUofT/arc-independent-lab",
+  "github_connector_ref_sha": "980b99cbaa90096679eec35c230f3069a255357d",
+  "git_remote_ref_sha": "980b99cbaa90096679eec35c230f3069a255357d",
+  "parent": "508a74696704149e2b5191e710f89d4f572bfcad",
+  "manifest_sha256": "53fd36d63ae0504492af8baaa106562c9a58e5ffed30dacbedc4f0a99f520beb",
+  "manifest_listed_files": 143,
+  "complete_tree_files": 144,
+  "exact_changed_files": 26,
+  "all_declared_hashes_and_modes_match": true,
+  "complete_tree_and_changes_match": true,
+  "original_artifact_bytes_preserved": true,
+  "working_copy_bytes_matched_before_adoption": true,
+  "human_commit_adopted_without_checkout_or_content_rewrite": true,
+  "hosted_backup": "delivery/checkpoint004_pre_adoption_worktree.zip",
+  "assistant_public_write": false
+}

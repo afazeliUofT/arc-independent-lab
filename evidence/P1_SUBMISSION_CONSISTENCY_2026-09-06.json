@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-06",
+  "diagnosis_sha256": "e3106d737f5b50a688d1d5147a015dc091d2986493848b68d33d61949dfa4cc3",
+  "required_sections": 8,
+  "ranked_case_attributions": 6,
+  "all_six_required_fields_per_claim": true,
+  "reproduction_section_unchanged": true,
+  "prior_evidence_and_artifacts_checked": 89,
+  "all_prior_protected_bytes_unchanged": true,
+  "linked_local_sources_present": true,
+  "source_resolution": "Tolman-Honzik unavailable; Jones main and figures inspected, separate SOM unread; stronger interpretation not adopted.",
+  "manual_judgment": "PI adopts bounded scientific submission. Shared-tool consultation supplies critique, not independently enforced review or approval.",
+  "scope_of_checks": "Document and artifact consistency, not reanalysis of every source or certification of causal generality.",
+  "approval_state": "awaiting Ali Phase1 decision",
+  "phase2_begun": false
+}

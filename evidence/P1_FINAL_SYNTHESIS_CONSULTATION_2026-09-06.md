@@ -1,0 +1,79 @@
+# Final synthesis consultation: causal claims and submission scope
+
+Date: **2026-09-06**. Bounded adversarial consistency consultation using the same tools and filesystem as the principal investigator. This is manual judgment, not an independent scientific review, a certification, or phase approval. No mechanism was proposed or evaluated, no new experiment was run, and no source survey was conducted. Only this new note was written; existing diagnosis, ledger, state and scientific artifacts were not edited.
+
+## Material read and scope
+
+Read completely:
+
+- The governing uploaded `/workspace/scratch/d2a3782c2235/upload/01_THE_PROBLEM.md` and `/workspace/scratch/d2a3782c2235/upload/02_RESEARCH_PROCESS.md`.
+- `docs/USER_AMENDMENTS_2026-09-06.md`.
+- The fourth working checkpoint of `DIAGNOSIS.md`, SHA-256 `a6da780894cd5e63b784a7c6345741277bbc3eb96fa3bb35ee835930850d49e5`.
+- The decisive existing notes `evidence/P1_COMPOSITION_METHODS_2026-09-06.md`, `evidence/P1_ACTIVE_IDENTIFICATION_2026-09-06.md`, `evidence/P1_CAUSALAB_METRIC_AUDIT_2026-09-06.md`, and `evidence/MINTON_SUPPLIED_METHODS_2026-09-06.md`.
+
+The primary URLs below are those documented in the inspected notes, whose source-access date is **2026-09-06**. This consultation did not newly retrieve those papers or inspect their private reading copies. It assesses the relationship between existing evidence records and the synthesis, not the correctness of every underlying source extraction. The principal investigator and a separate shared-filesystem consultation are resolving the newly supplied Jones paper. Tolman–Honzik's unavailability is the latest user-supplied status reported in this task; this reader makes no claim about its unread methods.
+
+`IDEAS_PARKED.md` and other programme directories or repositories were not read. No Phase 2 work occurred.
+
+## Overall judgment
+
+**The causal structure is sufficient for a scoped Phase 1 submission once the current source-resolution and submission-status text is brought up to date.** I found no missing scientific requirement that compels another experiment, a new literature survey, a universal causal explanation, or proof of a dominant bottleneck in contemporary integrated agents before submission.
+
+All six ranked entries distinguish evidence for the claim, opposing evidence or live alternatives, an observation that would defeat the attribution, an unchecked prediction, and confidence with conditions that would raise it. They are more specific than topics such as forgetting or exploration. The diagnosis also satisfies the requested eight-part organization, includes positive AI evidence, treats biological constraints separately from engineering validation, and explains why the handed plasticity framing is not established as a unifying account.
+
+This judgment does **not** establish the current rank order as empirically optimal. Its leading entries are priorities for further causal inquiry. The strongest local causal witness sits below two claims whose relevance to the full demand is plausible but whose mediation or contemporary prevalence remains less directly established. The text acknowledges that tradeoff. A reader should be asked to approve that bounded judgment, not infer that the source set measured which cause matters most.
+
+## Claim-by-claim consistency
+
+| Rank | Falsifiability and current support | Opposing evidence and exact boundary | Submission judgment |
+|---|---|---|---|
+| 1 — inappropriate relation selected during training | A case-level claim can fail if the implicated training variation does not alter the deficit while a downstream factor explains it, or if the required relation is demonstrably available for use. The composition note records exposure, support and training-package effects. | Those package effects do not uniquely identify a selected internal relation as mediator. Optimization, non-identifiability and later use remain live alternatives. The same note contains positive compositional transfer and scaling evidence. | Suitable as a **hypothesized mediation with measured training sensitivity**, not an established general causal account. The current low-to-moderate mediation confidence is essential. |
+| 2 — action-dependent absence of useful evidence | The restricted control argument identifies a real dependence: chosen actions can leave an unknown quantity uninformative even though other actions could inform it. Its diagnostic application fails when existing observations already identify the required decision or no allowed informative action has worthwhile future value. | Supplied model families and future cost schedules do not describe a contemporary language agent merely by analogy. Positive interactive acquisition also exists. The absence of an old-information trace can be caused by inadequate acquisition, but it does not show that this occurred in a particular modern failure. | Suitable as a **conditional acquisition alternative and investigative priority**. No evidence reviewed here establishes modern-agent dominance; the diagnosis already says so. |
+| 3 — updates disrupt expression despite a retained distinction | The supplied-feature reproduction traces a particular update/readout effect and preserved observer estimate. The claim about another case is vulnerable to a recovery comparison that supplies no old answers and finds no benefit of the formerly informed state, or to localization after successful access. | The observer is supplied with geometry, and the larger recovery study uses further learning and old supervision. Information survival and affordable autonomous access remain different claims. | The strongest local example is appropriately bounded. It need not cover the entire funded conjunction to satisfy the required small reproduction. A new frontier reproduction is not a submission prerequisite. |
+| 4 — training history reduces subsequent fitting efficiency | The stated deficit is relative to an explicit update allowance and comparison state; matching evidence, difficulty and allowance can defeat the attribution. Retained-data and optimizer-reset evidence exclude some simple sole causes. | Positive transfer, scaling benefits, validation-only degradation and eventual convergence remain relevant. None establishes one universal mediator or permanent inability. | Sufficiently falsifiable and scoped. Finite-budget trainability and loss of old answers are correctly separated. |
+| 5 — commitment closes inquiry with unreconciled evidence | A falsifiable attribution is possible if a decision-relevant contradiction existed in evidence actually accessible before commitment, and commitment contributes beyond additional processing. The current source records reported inconsistency and a procedural intervention. | Released post-run scoring paths, unresolved result-producing provenance and changed prompt/computation packages prevent treating the table as a verified action-time causal trace. A graph error can also be irrelevant to the actual task. | May remain a **candidate procedure-level attribution**. It should not become a claim that premature commitment has already been isolated as the cause. The current caveats and low confidence preserve this distinction. |
+| 6 — access/application cost consumes useful decision resources | A case-level hypothesis is defeated if relevant information arrives at comparable cost with adequate remaining budget and failure persists. Historical work records a search-saving versus rule-application-cost tradeoff. | The Minton validation ablation changes the resulting knowledge and later learning, not only overhead. The stronger prediction about valid irrelevant additions causing an access-stage exclusion is not itself measured by that ablation. Modern memory gains and later practical matching results oppose a universal cost barrier. | Suitable as a historical causal lead with an unchecked modern extension. Current low confidence in present dominance is appropriate. |
+
+The decisive references for the two leading claims are [COGS](https://aclanthology.org/2020.emnlp-main.731.pdf), [Lake and Baroni](https://www.nature.com/articles/s41586-023-06668-3), [Redhardt et al.](https://papers.nips.cc/paper_files/paper/2025/file/5047b64366bc0dbf5047de85f1e0c7be-Paper-Conference.pdf), and [Klenske and Hennig](https://www.jmlr.org/papers/volume17/15-162/15-162.pdf); source access recorded **2026-09-06** in the composition and active-identification notes named above. The decisive lower-rank qualifications are documented against the [CausaLab v2 preprint](https://arxiv.org/html/2605.26029v2) and [Minton's published article](https://doi.org/10.1016/0004-3702(90)90059-9), source access recorded **2026-09-06** in the corresponding audited notes. This paragraph identifies the evidence consulted through those notes; it does not claim renewed primary-source verification.
+
+## Material shortlist: what would actually prevent submission?
+
+### 1. The snapshot still says the requested methods are awaited and it is not submitted
+
+**Present, concrete completion issue.** The header and §8 still describe a working checkpoint, a future final consistency pass, and two inaccessible sources. Those statements are no longer an adequate account once Jones has arrived and Tolman–Honzik has been declared unavailable. A final deliverable must state the actual resolution: what the Jones audit supports or declines to support, and what historical claim remains unassessed because the original Tolman–Honzik study was not obtained. The latter cannot be treated as evidence that the historical result did not occur.
+
+This is bounded source/status reconciliation, already underway in parallel. It does not require obtaining the unavailable original, repeating the request, or expanding the biological survey. If an unavailable supplement would decide a *specific* Jones claim, that claim can remain explicitly unresolved; receiving a main paper does not authorize pretending to have read additional methods.
+
+### 2. A completed diagnosis must preserve the gap between training-package effects and a selected-relation cause
+
+**Conditional scientific blocker, largely already avoided.** If the final rank-one synthesis presents the selected-relation mediator as established by support/objective comparisons, it will overreach the existing evidence. The diagnosis presently avoids that through the explicit mediation uncertainty and alternative explanations. Those qualifications must survive any final compression, particularly in the opening judgment and §7.
+
+There is no need to postpone submission until a new intervention identifies the mediator. The legitimate result is that training support affects outcomes and relation selection is one specific, falsifiable explanation for some of those effects. Its first-place priority is the principal investigator's judgment about the demand and evidence, not a measured victory over all alternatives.
+
+### 3. Formal control evidence must not silently become evidence about modern-agent prevalence
+
+**Conditional scientific blocker, currently avoided.** Neither the information argument nor the restricted control contrasts establish that contemporary integrated agents neglect future information value in consequential failures. The existing rank-two entry states this unusually clearly. The same limitation must remain explicit when the top pair are described together.
+
+The phrase in §8.2 that the leading acquisition claims “should be investigated before” assuming useful knowledge needs protection is defensible as a diagnostic ordering: first establish what was acquired before diagnosing its subsequent loss. It would be too strong if read as a finding that the two acquisition causes explain more contemporary failures or promise a higher-value programme. The current ranking preamble largely prevents that reading; one short sentence identifying the order as judgment would remove residual ambiguity. This is a wording safeguard, not a demand to change the ranking.
+
+### 4. Candidate causal locations must not be promoted during final synthesis
+
+**Conditional scientific blocker, currently avoided.** Rank five's reported intervention has not isolated commitment from extra processing or established table-linked action-time provenance. Rank six's historical application-cost evidence has not established a modern valid-information exclusion trace. A final summary that reports either stronger claim as an observed cause would conflict with its own evidence notes.
+
+Retaining these entries as scoped hypotheses with explicit refuters is compatible with Phase 1. The unresolved CausaLab run manifests or modern workload measurements need not become new human blocks solely to retain the narrower claims.
+
+## Uncertainty that is legitimate to carry into approval
+
+- **No prevalence estimate or single dominant cause.** The survey is purposive and the cases have different counterfactuals. The governing deliverable requires ranked falsifiable claims and unresolved questions; it does not require a universal causal proof.
+- **Imperfect causal mediation evidence for the top priority.** A clearly labeled hypothesis supported by package effects and opposed by plausible alternatives is a defensible part of a diagnosis. It must not be sold as an identified internal operation.
+- **No matched modern demonstration of the old control or access-cost causes.** Historical evidence provides conditional leads. The diagnosis explicitly separates those from claims about contemporary frequency.
+- **A narrow instrumented reproduction.** The reproduction's supplied features and observer limit generalization, but the trace goes beyond reporting failure and identifies how a behavioral deficit coexists with retained information. The prescribed minimum does not require a second experiment against the eventual top-ranked hypothesis.
+- **Unresolved biological integration timing and unread original historical methods.** Narrow verified positive results can constrain the diagnosis without solving every acquisition/use distinction. An unavailable source is neither supporting nor opposing evidence at an unread methods-dependent scope.
+- **No hardware-only historical resurrection.** Documenting that some objections changed through continued algorithmic work, while other workload costs remain unmeasured, is an honest archaeology outcome.
+- **No enforced independent review or complete future-run operational gates.** This consultation cannot supply that independence. The accepted user amendments explicitly identify shared-tool consultations as non-independent. Human approval of Phase 1 remains required; missing later-run infrastructure does not turn a bounded written diagnosis into an unfinished experiment.
+
+## Falsifiability caveat and final recommendation
+
+Most headings use “can” or “in some systems.” An isolated counterexample cannot refute such a broad existential possibility, particularly where a constructed or historical witness already establishes existence. Their useful falsifiability is **the assignment of that cause to a declared system, failure and allowed evidence/budget**. The existing refuters operate at that level, and §6.1 supplies a shared identifiability prerequisite. The final diagnosis should retain that reading rather than imply that a failed attribution to one agent disproves the phenomenon everywhere.
+
+I recommend completing the already authorized methods/status reconciliation and submitting the scoped diagnosis for Ali's review. I do not recommend another scientific work package as a prerequisite on the evidence inspected here. Approval would concern a bounded, evidence-backed causal assessment with material uncertainties openly retained. It would not certify the ranking's generality, approve Phase 2 automatically, or convert this consultation into an independent verdict.
