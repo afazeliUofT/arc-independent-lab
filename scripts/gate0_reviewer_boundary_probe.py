@@ -29,7 +29,17 @@ import uuid
 
 EXPECTED_CODEX_VERSION = "codex-cli 0.151.0"
 COMMAND_TIMEOUT_SECONDS = 40
-PROBE_ID = "GATE0_REVIEWER_COMMAND_BOUNDARY_v1"
+PROBE_ID = "GATE0_REVIEWER_COMMAND_BOUNDARY_v2"
+EXPECTED_RUNTIME_RELATIVE_PATH = (
+    ".codex/packages/standalone/releases/"
+    "0.151.0-x86_64-unknown-linux-musl/bin/codex"
+)
+MAX_RUNTIME_BYTES = 512 * 1024 * 1024
+RUNTIME_HASH_DEADLINE_SECONDS = 12
+RUNTIME_IDENTITY_FIELDS = (
+    "path", "canonical_path", "bytes", "sha256", "mode", "device", "inode",
+    "mtime_ns", "ctime_ns", "regular_file", "executable_for_current_user",
+)
 
 CHILD_SOURCE = r'''import errno
 import hashlib
@@ -153,6 +163,70 @@ def captured_bytes(data: bytes) -> dict:
     return {"utf8": data.decode("utf-8", errors="replace"),
             "base64": base64.b64encode(data).decode("ascii"),
             "bytes": len(data), "sha256": sha256(data)}
+
+
+def inspect_runtime_executable(path: Path) -> dict:
+    """Read only one exact runtime file; reject symlinks and unstable bytes.
+
+    The caller supplies the fixed report-observed versioned path in production.
+    An explicit path also permits tests on fresh synthetic executables. This
+    function never reads configuration, credentials, or neighboring files.
+    """
+    path = Path(path)
+    if not path.is_absolute():
+        raise ValueError("Runtime executable path must be absolute")
+    if any(item.is_symlink() for item in [path, *path.parents]):
+        raise ValueError("Runtime executable path and ancestors must not be symbolic links")
+    canonical = path.resolve(strict=True)
+    if canonical != path:
+        raise ValueError("Runtime executable path must already be canonical")
+    initial = path.lstat()
+    if not stat.S_ISREG(initial.st_mode):
+        raise ValueError("Runtime executable must be a regular file")
+    if not 0 < initial.st_size <= MAX_RUNTIME_BYTES:
+        raise ValueError("Runtime executable size is outside the bounded inspection range")
+    if not os.access(path, os.X_OK):
+        raise ValueError("Runtime executable is not executable by this user")
+
+    def identity(metadata):
+        return (metadata.st_dev, metadata.st_ino, metadata.st_mode,
+                metadata.st_size, metadata.st_mtime_ns, metadata.st_ctime_ns)
+
+    started = time.monotonic()
+    digest = hashlib.sha256()
+    total = 0
+    flags = os.O_RDONLY | os.O_NOFOLLOW | os.O_NONBLOCK
+    descriptor = os.open(path, flags)
+    try:
+        opened = os.fstat(descriptor)
+        if not stat.S_ISREG(opened.st_mode) or identity(opened) != identity(initial):
+            raise ValueError("Runtime executable changed before inspection")
+        while True:
+            block = os.read(descriptor, min(1024 * 1024, MAX_RUNTIME_BYTES - total + 1))
+            if not block:
+                break
+            total += len(block)
+            if total > MAX_RUNTIME_BYTES:
+                raise ValueError("Runtime executable exceeded the bounded inspection range")
+            digest.update(block)
+            if time.monotonic() - started > RUNTIME_HASH_DEADLINE_SECONDS:
+                raise TimeoutError("Runtime executable hashing exceeded its inspection deadline")
+        final_opened = os.fstat(descriptor)
+    finally:
+        os.close(descriptor)
+    final_path = path.lstat()
+    if (identity(initial) != identity(final_opened)
+            or identity(initial) != identity(final_path) or total != initial.st_size
+            or any(item.is_symlink() for item in [path, *path.parents])):
+        raise ValueError("Runtime executable changed during inspection")
+    return {"status": "VERIFIED_RUNTIME_FILE", "path": str(path),
+            "canonical_path": str(canonical), "bytes": total,
+            "sha256": digest.hexdigest(), "mode": stat.S_IMODE(initial.st_mode),
+            "device": initial.st_dev, "inode": initial.st_ino,
+            "mtime_ns": initial.st_mtime_ns, "ctime_ns": initial.st_ctime_ns,
+            "regular_file": True, "executable_for_current_user": True,
+            "read_only_inspection": True,
+            "elapsed_seconds": time.monotonic() - started}
 
 
 def run_command(argv, cwd, timeout_seconds=COMMAND_TIMEOUT_SECONDS):
@@ -405,16 +479,22 @@ def assess_boundary(command, parsed, canary_hash, fingerprints_equal):
     return "OBSERVED_COMMAND_FILESYSTEM_DENIALS", checks
 
 
-def save_report(path: Path, report):
+def save_report(path: Path, report, *, final=False):
+    """Keep progress separate; create the final report once without replacement."""
     data = (json.dumps(report, indent=2, sort_keys=True) + "\n").encode("utf-8")
-    temporary = path.with_suffix(".tmp")
-    temporary.write_bytes(data)
-    temporary.replace(path)
+    destination = path if final else path.with_name("IN_PROGRESS.json")
+    with destination.open("xb") as stream:
+        stream.write(data)
+        stream.flush()
+        os.fsync(stream.fileno())
+    if destination.read_bytes() != data:
+        raise OSError("Saved report bytes differ from the serialized report")
     return sha256(data)
 
 
-def run_harness(lab_root: Path, codex_path, command_runner=run_command):
-    """Importable for validation. A substituted runner always marks simulation."""
+def run_harness(lab_root: Path, codex_path, command_runner=run_command,
+                runtime_inspector=inspect_runtime_executable):
+    """Any substituted command runner or runtime inspector marks simulation."""
     lab_root = Path(lab_root)
     if not lab_root.is_absolute() or not lab_root.is_dir():
         raise ValueError("Lab root must be an existing absolute directory")
@@ -430,15 +510,18 @@ def run_harness(lab_root: Path, codex_path, command_runner=run_command):
     run_root = lab_root / "delivery" / "gate0_boundary" / run_id
     run_root.mkdir(mode=0o700)
     report_path = run_root / "REPORT.json"
-    simulation = command_runner is not run_command
+    simulation = (command_runner is not run_command
+                  or runtime_inspector is not inspect_runtime_executable)
     report = {"schema_version": 1, "probe": PROBE_ID, "run_id": run_id,
               "created_utc": datetime.now(timezone.utc).isoformat(),
               "script_sha256": sha256(Path(__file__).read_bytes()),
               "child_source_sha256": sha256(CHILD_SOURCE.encode("utf-8")),
-              "status": "IN_PROGRESS", "command_runner_substituted": simulation,
+              "status": "IN_PROGRESS", "command_runner_substituted": command_runner is not run_command,
+              "runtime_inspector_substituted": runtime_inspector is not inspect_runtime_executable,
               "model_called": False, "configuration_files_edited": False,
               "credential_or_configuration_files_read_by_script": False,
               "client_internal_file_access_not_traced": True,
+              "outside_lab_read_scope": "Additional explicit host read: fixed observed runtime executable and launcher path metadata",
               "fixtures": "Only fresh synthetic files under this run directory",
               "not_established": ["independent reviewer readiness", "fresh model context",
                   "model tool or connector restrictions", "all network routes",
@@ -446,6 +529,8 @@ def run_harness(lab_root: Path, codex_path, command_runner=run_command):
               "commands": []}
     save_report(report_path, report)
     final_status = "PRECONDITION_FAILED"
+    runtime_path = Path.home() / EXPECTED_RUNTIME_RELATIVE_PATH
+    runtime_preflight = None
     try:
         print("PROBE: fixed Codex CLI version; no model call", flush=True)
         version = command_runner([str(codex_path), "--version"], lab_root, 12)
@@ -455,6 +540,43 @@ def run_harness(lab_root: Path, codex_path, command_runner=run_command):
             if version.get("status") == "interrupted":
                 final_status = "INTERRUPTED"
             report["reason"] = "Expected exactly " + EXPECTED_CODEX_VERSION
+            return report_path, report
+        report["runtime_selection"] = {
+            "source": "Fixed version-specific executable path from the supplied v1 error",
+            "path": str(runtime_path), "launcher_path": str(codex_path),
+            "sandbox_invokes_verified_runtime_directly": True,
+            "no_runtime_directory_grant": True}
+        try:
+            resolved_launcher = str(Path(codex_path).resolve(strict=True))
+            report["runtime_selection"].update(
+                launcher_resolved_path=resolved_launcher,
+                launcher_resolves_to_selected_runtime=resolved_launcher == str(runtime_path))
+        except OSError as exc:
+            report["runtime_selection"]["launcher_resolution_error"] = {
+                "type": type(exc).__name__, "message": str(exc)}
+        print("PROBE: exact installed runtime file; bounded read-only inspection", flush=True)
+        try:
+            observed_runtime = runtime_inspector(runtime_path)
+            if (observed_runtime.get("status") != "VERIFIED_RUNTIME_FILE"
+                    or observed_runtime.get("path") != str(runtime_path)
+                    or observed_runtime.get("canonical_path") != str(runtime_path)
+                    or any(key not in observed_runtime for key in RUNTIME_IDENTITY_FIELDS)):
+                raise ValueError("Runtime inspector did not verify the fixed selected executable")
+            runtime_preflight = observed_runtime
+            report["runtime_preflight"] = runtime_preflight
+        except (OSError, ValueError) as exc:
+            report["runtime_preflight"] = {"status": "PRECONDITION_FAILED",
+                "path": str(runtime_path), "error_type": type(exc).__name__, "error": str(exc)}
+            report["reason"] = "The fixed runtime executable was not verified; no sandbox was launched"
+            return report_path, report
+        print("PROBE: selected runtime version outside sandbox; no model call", flush=True)
+        runtime_version = command_runner([str(runtime_path), "--version"], lab_root, 12)
+        report["commands"].append(runtime_version)
+        if (runtime_version.get("status") != "completed" or runtime_version.get("exit_code") != 0
+                or runtime_version.get("stdout", {}).get("utf8", "").strip() != EXPECTED_CODEX_VERSION):
+            if runtime_version.get("status") == "interrupted":
+                final_status = "INTERRUPTED"
+            report["reason"] = "Selected runtime must independently report exactly " + EXPECTED_CODEX_VERSION
             return report_path, report
         print("PROBE: doctor help only; no doctor task or model call", flush=True)
         doctor_help = command_runner([str(codex_path), "doctor", "--help"], lab_root, 12)
@@ -518,14 +640,16 @@ def run_harness(lab_root: Path, codex_path, command_runner=run_command):
                 return report_path, report
             profile_name = "arc_boundary_" + uuid.uuid4().hex
             quoted_packet = json.dumps(str(packet), ensure_ascii=False)
+            quoted_runtime = json.dumps(str(runtime_path), ensure_ascii=False)
             policy = ("permissions." + profile_name + "={filesystem={"
                       + '":root"="deny",":minimal"="read",' + quoted_packet
-                      + '="read"},network={enabled=false}}')
+                      + '="read",' + quoted_runtime + '="read"},network={enabled=false}}')
             report["requested_profile"] = {"name": profile_name,
-                "filesystem": {":root": "deny", ":minimal": "read", str(packet): "read"},
+                "filesystem": {":root": "deny", ":minimal": "read", str(packet): "read",
+                               str(runtime_path): "read"},
                 "network": {"enabled": False}, "include_managed_config": True,
                 "toml_assignment": policy}
-            argv = [str(codex_path), "sandbox", "-P", profile_name,
+            argv = [str(runtime_path), "sandbox", "-P", profile_name,
                     "--include-managed-config", "-C", str(packet), "-c", policy, "--"]
             argv += child_command + [str(packet / "child.py"), str(packet), str(forbidden),
                                      confined_nonce, str(server.port), canary_hash]
@@ -573,10 +697,33 @@ def run_harness(lab_root: Path, codex_path, command_runner=run_command):
         final_status = "HARNESS_ERROR"
         report["error"] = {"type": type(exc).__name__, "message": str(exc)}
     finally:
+        if runtime_preflight is not None:
+            try:
+                postflight = runtime_inspector(runtime_path)
+                report["runtime_postflight"] = postflight
+                unchanged = (postflight.get("status") == "VERIFIED_RUNTIME_FILE"
+                             and all(postflight.get(key) == runtime_preflight[key]
+                                     for key in RUNTIME_IDENTITY_FIELDS))
+                report["runtime_identity_unchanged"] = unchanged
+                if not unchanged:
+                    report["observation_before_runtime_check"] = final_status
+                    final_status = "RUNTIME_INTEGRITY_NOT_ESTABLISHED"
+            except KeyboardInterrupt:
+                report["runtime_postflight"] = {"status": "INTERRUPTED",
+                    "path": str(runtime_path), "reason": "Human interrupted runtime inspection"}
+                report["runtime_identity_unchanged"] = None
+                report["observation_before_runtime_check"] = final_status
+                final_status = "INTERRUPTED"
+            except Exception as exc:
+                report["runtime_postflight"] = {"status": "INSPECTION_FAILED",
+                    "path": str(runtime_path), "error_type": type(exc).__name__, "error": str(exc)}
+                report["runtime_identity_unchanged"] = False
+                report["observation_before_runtime_check"] = final_status
+                final_status = "RUNTIME_INTEGRITY_NOT_ESTABLISHED"
         report["observation_status"] = final_status
         report["status"] = "HARNESS_SIMULATION" if simulation else final_status
         report["finished_utc"] = datetime.now(timezone.utc).isoformat()
-        digest = save_report(report_path, report)
+        digest = save_report(report_path, report, final=True)
         print("REPORT: " + str(report_path), flush=True)
         print("REPORT_SHA256: " + digest, flush=True)
         print("STATUS: " + report["status"], flush=True)

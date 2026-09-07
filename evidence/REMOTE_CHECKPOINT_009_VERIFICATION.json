@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "verified_utc": "2026-09-07T03:37:40.604121+00:00",
+  "access_date": "2026-09-07",
+  "source_url": "https://github.com/afazeliUofT/arc-independent-lab/commit/221f6c76ea4a72f7723d804dd68416cb86820aa4",
+  "commit": "221f6c76ea4a72f7723d804dd68416cb86820aa4",
+  "parent": "74336f25e9ae95965b486d602c7af759b3aba52f",
+  "remote_main_via_GitHub_connector": "221f6c76ea4a72f7723d804dd68416cb86820aa4",
+  "manifest_sha256": "23bb8bac9e37ce009e5e0188f095c519e21d7a810cea65421758fc937c8abeca",
+  "full_tree_files_verified": 267,
+  "exact_delivered_payload_paths_verified": 27,
+  "review_manifests": [
+    {
+      "path": "evidence/P3_AUDIT_REVIEW_MANIFEST.json",
+      "sha256": "8d475e93aa21db5d7210f337c036e2705e3a4b83b6d99d43d715161d63b7e374",
+      "pinned_entries_verified": 41
+    },
+    {
+      "path": "evidence/P3_RESIDUAL_REVIEW_MANIFEST.json",
+      "sha256": "f7249d53060349fdfbaca2102672457e3e8966ef510d6853322b10da75762128",
+      "pinned_entries_verified": 7
+    }
+  ],
+  "working_bytes_preserved": true,
+  "local_HEAD_and_index_adopt_verified_human_commit": true,
+  "assistant_commit_or_push": false,
+  "scientific_status": "No verdict; only checkpoint publication verified"
+}

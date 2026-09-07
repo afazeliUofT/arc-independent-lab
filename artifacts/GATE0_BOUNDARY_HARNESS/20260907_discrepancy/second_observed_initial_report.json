@@ -1,0 +1,26 @@
+{
+  "child_source_sha256": "52bda229f5f2eeb0d3429543c22c23b499189424b65055233f33423745fcc70f",
+  "client_internal_file_access_not_traced": true,
+  "command_runner_substituted": true,
+  "commands": [],
+  "configuration_files_edited": false,
+  "created_utc": "2026-09-07T03:47:36.550371+00:00",
+  "credential_or_configuration_files_read_by_script": false,
+  "fixtures": "Only fresh synthetic files under this run directory",
+  "model_called": false,
+  "not_established": [
+    "independent reviewer readiness",
+    "fresh model context",
+    "model tool or connector restrictions",
+    "all network routes",
+    "authoritative subscription allowance",
+    "unattended model use"
+  ],
+  "outside_lab_read_scope": "Additional explicit host read: fixed observed runtime executable and launcher path metadata",
+  "probe": "GATE0_REVIEWER_COMMAND_BOUNDARY_v2",
+  "run_id": "20260907T034736Z_696a149332bd4261be13ee9bcc5cf3ea",
+  "runtime_inspector_substituted": true,
+  "schema_version": 1,
+  "script_sha256": "5a47be146c3264705a43845abdffebe65f206f4b8b2c3cf4e8fadda3d2b48a82",
+  "status": "IN_PROGRESS"
+}

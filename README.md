@@ -18,6 +18,8 @@ Verify repository state and checkpoint hashes before building on it. If blocked,
 - `docs/P3_GATE0_CAPABILITY_INVENTORY.md`: batched read-only laptop/Alliance observations.
 - `reports/GATE0_CAPABILITY_FINDINGS_2026-09-07.md`: verified inventory findings, resource limits and remaining unknowns.
 - `docs/GATE0_REVIEWER_BOUNDARY_CHECK.md`: prepared no-model command-boundary observation; actual laptop enforcement remains unmeasured.
+- `reports/GATE0_BOUNDARY_OBSERVATION_001.md`: first actual WSL launch failure and the correction to the proposed setup.
+- `docs/GATE0_REVIEWER_BOUNDARY_RETRY.md`: explicit runtime-file preflight and read grant for the next observation.
 
 - `IDEAS.md`: Phase 2 submission, including the unedited population, clusters, developed operations and post-development method flags.
 - `reports/P2_LEARNER_OBSERVER_001.md`: required recovery follow-up and its access limits.

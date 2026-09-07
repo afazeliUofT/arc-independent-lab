@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-07T02:36:41.427993+00:00",
+  "updated_utc": "2026-09-07T03:54:15.535139+00:00",
   "current_gate": "P3",
   "gate_status": "in_progress",
   "gate_entered_utc": "2026-09-06T20:14:12.138443+00:00",
   "last_verified_gate": "P2",
-  "last_verified_commit": "74336f25e9ae95965b486d602c7af759b3aba52f",
+  "last_verified_commit": "221f6c76ea4a72f7723d804dd68416cb86820aa4",
   "active_task": {
     "id": "P3.3",
-    "description": "Measure actual command enforcement on WSL, then finish full reviewer/tool boundary and original-plus-supplement review",
-    "attempt": 1,
-    "escalation_level": 0,
+    "description": "Measure exact-runtime-file visibility correction and command restrictions before completing independent reviewer setup",
+    "attempt": 2,
+    "escalation_level": 1,
     "started_utc": "2026-09-07T01:27:37.836821+00:00",
-    "status": "boundary_probe_prepared_pending_human_observation"
+    "status": "runtime_visibility_retry_prepared_pending_laptop"
   },
   "blocked_on": null,
-  "next_action": "Publish checkpoint009 using the prepared exact-base handoff, then execute the no-model WSL command-boundary probe and receive its REPORT.json even if unsuccessful. Verify published bytes and inspect actual outcomes before configuring a fresh restricted reviewer. No repeat inventory, scientific approval, model session or cluster treatment in this batch.",
+  "next_action": "Publish checkpoint010 using the exact-base prepared handoff; run revised no-model WSL probe and receive REPORT.json even if unsuccessful. Verify GitHub and all actual report hashes before interpreting runtime-file visibility and command restrictions. No automatic broader policy, no reviewer verdict, no model invocation or new approval in this batch.",
   "open_questions": [
-    "Actual command and full reviewer-tool enforcement remain unmeasured; CLI help and harness simulation do not establish either.",
+    "First actual WSL attempt failed at runtime re-execution; actual child command restrictions and full reviewer-tool enforcement remain unverified.",
     "Formal separate dispositions for C1/C2/C3/C4, joint proposition and observer diagnostic remain pending enforced review.",
     "Whole-wrapper historical identity is unestablished; no novel complete joint algorithm or resource advantage specified.",
     "Observer supplied-contract discovery/invocation and broader practical prevalence remain open; exact recovery does not imply numerical robustness.",
@@ -62,8 +62,8 @@
     "P3"
   ],
   "remote": "https://github.com/afazeliUofT/arc-independent-lab",
-  "durability_status": "Checkpoint008 and prior scientific deliverables verified on GitHub. Verified inventories, operational findings, synthetic harness validation and state are prepared for checkpoint009; pending human publication and public readback. Actual laptop boundary result is not yet available.",
-  "commit_status": "Hosted HEAD/index adopt verified human commit 74336f25e9ae95965b486d602c7af759b3aba52f; assistant made no commit or push.",
+  "durability_status": "Checkpoint009 and all prior scientific deliverables verified on GitHub. First actual failed boundary report, v2 correction, preserved hosted collection discrepancies and state are prepared for checkpoint010; publication and public readback pending.",
+  "commit_status": "Hosted HEAD/index adopt verified human commit221f6c76ea4a72f7723d804dd68416cb86820aa4; assistant made no commit or push.",
   "recovery_dependency": null,
   "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation.",
   "latest_recovery_evidence": [
@@ -81,7 +81,7 @@
     }
   ],
   "private_error_log_handling": "Probe raw error output stays within laptop Git metadata, outside normal commits. Request only safe terminal report; never ask for credentials or publish raw transport logs.",
-  "foreground_execution_note": "Checkpoint009 helper only inspects/applies/stages/verifies. Human executes real commits and pushes. Its successful publication is followed by a bounded synthetic no-model WSL observation under existing authorization.",
+  "foreground_execution_note": "Checkpoint010 helper only inspects/applies/stages/verifies; human commits and pushes. The same batch then runs the v2 synthetic WSL observation under existing authorization.",
   "scientific_status": "Residual novelty audit complete as PI analysis with explicit C4 reconstruction and joint-priority corrections. Observer readout reduces to residualization; query identifiability/conditioning delimited. Independent review and measured PROGRAMME remain outstanding.",
   "latest_scientific_evidence": [
     {
@@ -115,10 +115,10 @@
   ],
   "handoff_backup_status": "Prior runtime upload limitation persists as unverified capability; no repeated failed upload. GitHub is the authorized durability bridge.",
   "latest_publication_verification": {
-    "path": "evidence/REMOTE_CHECKPOINT_008_VERIFICATION.json",
-    "sha256": "b74c685429fdc9da6baef0b0189a665de9393d5274d29e8c5685449615ff9220"
+    "path": "evidence/REMOTE_CHECKPOINT_009_VERIFICATION.json",
+    "sha256": "1672086f05539b3d73e4d456ba0105f32470819b4747c22ec61cd9be0ba92fcd"
   },
-  "last_human_message_verbatim": "Here are two requested json files",
+  "last_human_message_verbatim": "Here is the generated report attached. Also, WSL outcomes are attached.",
   "phase1_approval": {
     "verified_utc": "2026-09-06T18:51:56.227927+00:00",
     "source_url": "https://github.com/afazeliUofT/arc-independent-lab/blob/376455150af7b257809a56021431413b2e0c6293/state/ESCALATION.md",
@@ -169,25 +169,25 @@
     "remote_execution": "Linux shell on Narval",
     "canonical_laptop_project": "WSL ~/ARC_Independent_Lab"
   },
-  "last_human_message_summary": "Both requested laptop and Narval capability JSONs attached; content verified and archived.",
+  "last_human_message_summary": "Checkpoint009 publication and first actual WSL command-boundary report received. Publication verified; child launch failed before any confined tests.",
   "latest_capability_verification": {
     "path": "evidence/GATE0_CAPABILITY_INPUT_VERIFICATION_2026-09-07.json",
     "sha256": "6da38b2b47f6da6c5060f28bee745a4c85ab31538fac30566a776c208c51b559"
   },
   "latest_boundary_harness_validation": {
-    "path": "evidence/GATE0_BOUNDARY_HARNESS_VALIDATION_2026-09-07.json",
-    "sha256": "58f136c952bbcd636669d5f01777d0fa4c80427a0f9efda71d8d1ce036602b60"
+    "path": "evidence/GATE0_BOUNDARY_V2_HARNESS_VALIDATION.json",
+    "sha256": "b5d49dd6aaffd2041db00d7cdb4795b8bd92762647c6b4059fb9001735bd1bd3"
   },
   "prepared_boundary_probe": {
     "path": "scripts/gate0_reviewer_boundary_probe.py",
-    "sha256": "839d67de25280777bdd588cd4baf3e0112f7e946b78beecc34a7c23e069642c4"
+    "sha256": "e8b6e4c52dfd81fc8b797ebb699297975a7026472f5c43de6e73267a31100e41"
   },
   "latest_capability_findings": {
     "path": "reports/GATE0_CAPABILITY_FINDINGS_2026-09-07.md",
     "sha256": "72a0edd7cefc44048035644fc9c1ff084a0d5cadfc542be85cabac0fda791a2b"
   },
   "reviewer_readiness": {
-    "actual_command_enforcement": "unmeasured; next laptop test prepared",
+    "actual_command_enforcement": "first launch failed before child; v2 narrow retry prepared",
     "full_tool_boundary": "unverified",
     "fresh_review_context": "not invoked",
     "formal_verdict": "absent",
@@ -196,5 +196,14 @@
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
-  }
+  },
+  "latest_boundary_observation": {
+    "path": "evidence/GATE0_BOUNDARY_OBSERVATION_001_VERIFICATION.json",
+    "sha256": "bed96ef0742a8be7da53ccb609802542fa9789078334dc8f721d980243278428"
+  },
+  "latest_operational_findings": {
+    "path": "reports/GATE0_BOUNDARY_OBSERVATION_001.md",
+    "sha256": "ac94e49671b422d6482d09edfa453c4dd02328ec2cf3edd59f80211dc33d3d91"
+  },
+  "hosted_output_integrity_note": "Two simulated mutable report-path regressions preserved without causal explanation. Fresh write-once final-report validation and archive checks passed. Package and GitHub readback are still required."
 }

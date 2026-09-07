@@ -33,6 +33,10 @@
       "MemTotal_kib": 32568972,
       "scope": "WSL report; snapshot, not reserved capacity",
       "runtime": "Python 3.12.3; Git 2.43.0; Codex CLI 0.151.0; enforcement unmeasured"
+    },
+    "last_boundary_observation": {
+      "path": "evidence/GATE0_BOUNDARY_OBSERVATION_001_VERIFICATION.json",
+      "sha256": "bed96ef0742a8be7da53ccb609802542fa9789078334dc8f721d980243278428"
     }
   },
   "hpc": {
@@ -57,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-07T02:36:41.427993+00:00",
+  "updated_utc": "2026-09-07T03:54:15.535139+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -65,12 +69,16 @@
   "next_operational_test": {
     "source": {
       "path": "scripts/gate0_reviewer_boundary_probe.py",
-      "sha256": "839d67de25280777bdd588cd4baf3e0112f7e946b78beecc34a7c23e069642c4"
+      "sha256": "e8b6e4c52dfd81fc8b797ebb699297975a7026472f5c43de6e73267a31100e41"
     },
     "model_calls": 0,
     "command_deadline_seconds": 40,
     "version_and_help_deadline_seconds": 12,
     "cleanup_deadline_per_stage_seconds": 3,
-    "scope": "prepared synthetic command observation; not a scientific workload budget"
+    "scope": "Second actual laptop command-boundary attempt prepared; precise runtime-file read grant and write-once final report. Simulations are not machine measurements.",
+    "runtime_hash_deadline_seconds": 12,
+    "maximum_runtime_file_bytes_for_inspection": 536870912,
+    "completed_actual_boundary_attempts": 1,
+    "next_actual_boundary_attempt": 2
   }
 }

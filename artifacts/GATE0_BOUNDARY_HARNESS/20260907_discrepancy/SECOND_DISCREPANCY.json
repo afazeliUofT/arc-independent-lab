@@ -1,0 +1,11 @@
+{
+  "ts": "2026-09-07T03:51:15.637857+00:00",
+  "task": "P3.3",
+  "tool": "hosted validation archive verifier",
+  "error_verbatim": "Traceback (most recent call last):\n  File \"<stdin>\", line 22, in <module>\nAssertionError: runtime_changed_after\n",
+  "expected_report_sha256": "95345bca25ba590595467dea045e56e48cd0c5d425dc4f54e2df248760c3fc38",
+  "actual_report_sha256": "32ddf5eaa0ff581579705777298ee90ce36e37ec444712028a124fb69e59fab9",
+  "actual_status": "IN_PROGRESS",
+  "cause": "not established; same simulated case again reverted to initial report after within-process saved-object and digest checks",
+  "resolution": "L1 output-protocol change: separate IN_PROGRESS.json and exclusive write-once final REPORT.json with flush/fsync/readback; retain all failed collection records and rerun unchanged behavioral checks."
+}

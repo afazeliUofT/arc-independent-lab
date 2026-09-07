@@ -1,0 +1,558 @@
+{
+  "child_source_sha256": "52bda229f5f2eeb0d3429543c22c23b499189424b65055233f33423745fcc70f",
+  "client_internal_file_access_not_traced": true,
+  "command_runner_substituted": true,
+  "commands": [
+    {
+      "argv": [
+        "/synthetic/not-executed-codex",
+        "--version"
+      ],
+      "cwd": "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_harness_validation/ccd4b6414c4a4d01b18718d135574e18/configuration_rejected",
+      "exit_code": 0,
+      "simulation": "Fabricated result; Codex was not invoked",
+      "status": "completed",
+      "stderr": {
+        "base64": "",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "utf8": ""
+      },
+      "stdout": {
+        "base64": "Y29kZXgtY2xpIDAuMTUxLjAK",
+        "bytes": 18,
+        "sha256": "9449baa2ef1407a3b0ba27556ece4fb3c8e2f56801646d80f6a32bbf08870187",
+        "utf8": "codex-cli 0.151.0\n"
+      },
+      "timeout_seconds": 12
+    },
+    {
+      "argv": [
+        "/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+        "--version"
+      ],
+      "cwd": "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_harness_validation/ccd4b6414c4a4d01b18718d135574e18/configuration_rejected",
+      "exit_code": 0,
+      "simulation": "Fabricated result; Codex was not invoked",
+      "status": "completed",
+      "stderr": {
+        "base64": "",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "utf8": ""
+      },
+      "stdout": {
+        "base64": "Y29kZXgtY2xpIDAuMTUxLjAK",
+        "bytes": 18,
+        "sha256": "9449baa2ef1407a3b0ba27556ece4fb3c8e2f56801646d80f6a32bbf08870187",
+        "utf8": "codex-cli 0.151.0\n"
+      },
+      "timeout_seconds": 12
+    },
+    {
+      "argv": [
+        "/synthetic/not-executed-codex",
+        "doctor",
+        "--help"
+      ],
+      "cwd": "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_harness_validation/ccd4b6414c4a4d01b18718d135574e18/configuration_rejected",
+      "exit_code": 0,
+      "simulation": "Fabricated result; Codex was not invoked",
+      "status": "completed",
+      "stderr": {
+        "base64": "",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "utf8": ""
+      },
+      "stdout": {
+        "base64": "U1lOVEhFVElDIEhFTFAgT05MWQo=",
+        "bytes": 20,
+        "sha256": "4c7a058fae393ca50dfa768df1915f0aa06427266691518392da48f48ea138d2",
+        "utf8": "SYNTHETIC HELP ONLY\n"
+      },
+      "timeout_seconds": 12
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-I",
+        "-B",
+        "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_harness_validation/ccd4b6414c4a4d01b18718d135574e18/configuration_rejected/delivery/gate0_boundary/20260907T035116Z_6a4e57b094e345bfb4e1c9807f6b2549/control/packet/child.py",
+        "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_harness_validation/ccd4b6414c4a4d01b18718d135574e18/configuration_rejected/delivery/gate0_boundary/20260907T035116Z_6a4e57b094e345bfb4e1c9807f6b2549/control/packet",
+        "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_harness_validation/ccd4b6414c4a4d01b18718d135574e18/configuration_rejected/delivery/gate0_boundary/20260907T035116Z_6a4e57b094e345bfb4e1c9807f6b2549/control/forbidden",
+        "ca6c8aa690f34231a5c497c2b091796a",
+        "36749",
+        "052f7297ea63440cc1a84ab7500c821f89eeb4072e65c71cdf1cb2cd727cafc9"
+      ],
+      "cwd": "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_harness_validation/ccd4b6414c4a4d01b18718d135574e18/configuration_rejected/delivery/gate0_boundary/20260907T035116Z_6a4e57b094e345bfb4e1c9807f6b2549/control/packet",
+      "elapsed_seconds": 0.15466294898942579,
+      "exit_code": 0,
+      "status": "completed",
+      "stderr": {
+        "base64": "",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "utf8": ""
+      },
+      "stdout": {
+        "base64": "eyJub25jZSI6ICJjYTZjOGFhNjkwZjM0MjMxYTVjNDk3YzJiMDkxNzk2YSIsICJvdXRjb21lIjogInN0YXJ0ZWQiLCAidGVzdCI6ICJjaGlsZF9zdGFydGVkIn0KeyJub25jZSI6ICJjYTZjOGFhNjkwZjM0MjMxYTVjNDk3YzJiMDkxNzk2YSIsICJvdXRjb21lIjogIm9wZXJhdGlvbl9zdWNjZWVkZWQiLCAidGVzdCI6ICJhbGxvd2VkX3JlYWQiLCAidmFsdWUiOiAiMDUyZjcyOTdlYTYzNDQwY2MxYTg0YWI3NTAwYzgyMWY4OWVlYjQwNzJlNjVjNzFjZGYxY2IyY2Q3MjdjYWZjOSJ9Cnsibm9uY2UiOiAiY2E2YzhhYTY5MGYzNDIzMWE1YzQ5N2MyYjA5MTc5NmEiLCAib3V0Y29tZSI6ICJvcGVyYXRpb25fc3VjY2VlZGVkIiwgInRlc3QiOiAiZm9yYmlkZGVuX3JlYWQiLCAidmFsdWUiOiAiMGMwZWNlNTFiMTdlNmMxZTIzOTE3YzhiNzNjOTRlM2MyMjk5NTE5MTFhZDBmOTk4MjJiZWJjYzYyYzNlY2E5ZCJ9Cnsibm9uY2UiOiAiY2E2YzhhYTY5MGYzNDIzMWE1YzQ5N2MyYjA5MTc5NmEiLCAib3V0Y29tZSI6ICJvcGVyYXRpb25fc3VjY2VlZGVkIiwgInRlc3QiOiAic3ltbGlua19mb3JiaWRkZW5fcmVhZCIsICJ2YWx1ZSI6ICIwYzBlY2U1MWIxN2U2YzFlMjM5MTdjOGI3M2M5NGUzYzIyOTk1MTkxMWFkMGY5OTgyMmJlYmNjNjJjM2VjYTlkIn0KeyJub25jZSI6ICJjYTZjOGFhNjkwZjM0MjMxYTVjNDk3YzJiMDkxNzk2YSIsICJvdXRjb21lIjogIm9wZXJhdGlvbl9zdWNjZWVkZWQiLCAidGVzdCI6ICJmb3JiaWRkZW5fd3JpdGUiLCAidmFsdWUiOiA3fQp7Im5vbmNlIjogImNhNmM4YWE2OTBmMzQyMzFhNWM0OTdjMmIwOTE3OTZhIiwgIm91dGNvbWUiOiAib3BlcmF0aW9uX3N1Y2NlZWRlZCIsICJ0ZXN0IjogIm92ZXJ3cml0ZSIsICJ2YWx1ZSI6IDd9Cnsibm9uY2UiOiAiY2E2YzhhYTY5MGYzNDIzMWE1YzQ5N2MyYjA5MTc5NmEiLCAib3V0Y29tZSI6ICJvcGVyYXRpb25fc3VjY2VlZGVkIiwgInRlc3QiOiAiYXBwZW5kIiwgInZhbHVlIjogN30KeyJub25jZSI6ICJjYTZjOGFhNjkwZjM0MjMxYTVjNDk3YzJiMDkxNzk2YSIsICJvdXRjb21lIjogIm9wZXJhdGlvbl9zdWNjZWVkZWQiLCAidGVzdCI6ICJuZXdfZmlsZSIsICJ2YWx1ZSI6IDd9Cnsibm9uY2UiOiAiY2E2YzhhYTY5MGYzNDIzMWE1YzQ5N2MyYjA5MTc5NmEiLCAib3V0Y29tZSI6ICJvcGVyYXRpb25fc3VjY2VlZGVkIiwgInRlc3QiOiAiYXRvbWljX3JlcGxhY2UiLCAidmFsdWUiOiBudWxsfQp7Im5vbmNlIjogImNhNmM4YWE2OTBmMzQyMzFhNWM0OTdjMmIwOTE3OTZhIiwgIm91dGNvbWUiOiAib3BlcmF0aW9uX3N1Y2NlZWRlZCIsICJ0ZXN0IjogInVubGluayIsICJ2YWx1ZSI6IG51bGx9Cnsibm9uY2UiOiAiY2E2YzhhYTY5MGYzNDIzMWE1YzQ5N2MyYjA5MTc5NmEiLCAib3V0Y29tZSI6ICJvcGVyYXRpb25fc3VjY2VlZGVkIiwgInRlc3QiOiAic2hlbGxfcmVkaXJlY3QiLCAidmFsdWUiOiB7ImV4aXRfY29kZSI6IDAsICJzdGRlcnIiOiAiIiwgInN0ZG91dCI6ICIifX0KeyJub25jZSI6ICJjYTZjOGFhNjkwZjM0MjMxYTVjNDk3YzJiMDkxNzk2YSIsICJvdXRjb21lIjogIm9wZXJhdGlvbl9zdWNjZWVkZWQiLCAidGVzdCI6ICJuZXN0ZWQiLCAidmFsdWUiOiB7ImV4aXRfY29kZSI6IDAsICJzdGRlcnIiOiAiIiwgInN0ZG91dCI6ICJ7XCJvdXRjb21lXCI6IFwib3BlcmF0aW9uX3N1Y2NlZWRlZFwiLCBcInRlc3RcIjogXCJuZXN0ZWRfcmVhZFwiLCBcInZhbHVlXCI6IFwiZDY3ZTJlOTQ0OTk0NDk2YzhkOGVjNzZlZWQwY2Y5ZjA5Njc5NDQ4ZDU4NGI1MzJiZWJmOTQxODUyYTM3ZjVlZFwifVxue1wib3V0Y29tZVwiOiBcIm9wZXJhdGlvbl9zdWNjZWVkZWRcIiwgXCJ0ZXN0XCI6IFwibmVzdGVkX3dyaXRlXCIsIFwidmFsdWVcIjogMjJ9XG4ifX0KeyJub25jZSI6ICJjYTZjOGFhNjkwZjM0MjMxYTVjNDk3YzJiMDkxNzk2YSIsICJvdXRjb21lIjogIm9wZXJhdGlvbl9zdWNjZWVkZWQiLCAidGVzdCI6ICJsb29wYmFjayIsICJ2YWx1ZSI6ICJub25jZV9leGNoYW5nZV9jb21wbGV0ZWQifQp7ImV4cGVjdGVkX2NhbmFyeV9oYXNoIjogIjA1MmY3Mjk3ZWE2MzQ0MGNjMWE4NGFiNzUwMGM4MjFmODllZWI0MDcyZTY1YzcxY2RmMWNiMmNkNzI3Y2FmYzkiLCAibm9uY2UiOiAiY2E2YzhhYTY5MGYzNDIzMWE1YzQ5N2MyYjA5MTc5NmEiLCAib3V0Y29tZSI6ICJmaW5pc2hlZCIsICJ0ZXN0IjogImNoaWxkX2ZpbmlzaGVkIn0K",
+        "bytes": 2205,
+        "sha256": "9101ff6bac9e246f51e2dd1d59e10c5953ef60a0e4f9f96447855cee7590c004",
+        "utf8": "{\"nonce\": \"ca6c8aa690f34231a5c497c2b091796a\", \"outcome\": \"started\", \"test\": \"child_started\"}\n{\"nonce\": \"ca6c8aa690f34231a5c497c2b091796a\", \"outcome\": \"operation_succeeded\", \"test\": \"allowed_read\", \"value\": \"052f7297ea63440cc1a84ab7500c821f89eeb4072e65c71cdf1cb2cd727cafc9\"}\n{\"nonce\": \"ca6c8aa690f34231a5c497c2b091796a\", \"outcome\": \"operation_succeeded\", \"test\": \"forbidden_read\", \"value\": \"0c0ece51b17e6c1e23917c8b73c94e3c229951911ad0f99822bebcc62c3eca9d\"}\n{\"nonce\": \"ca6c8aa690f34231a5c497c2b091796a\", \"outcome\": \"operation_succeeded\", \"test\": \"symlink_forbidden_read\", \"value\": \"0c0ece51b17e6c1e23917c8b73c94e3c229951911ad0f99822bebcc62c3eca9d\"}\n{\"nonce\": \"ca6c8aa690f34231a5c497c2b091796a\", \"outcome\": \"operation_succeeded\", \"test\": \"forbidden_write\", \"value\": 7}\n{\"nonce\": \"ca6c8aa690f34231a5c497c2b091796a\", \"outcome\": \"operation_succeeded\", \"test\": \"overwrite\", \"value\": 7}\n{\"nonce\": \"ca6c8aa690f34231a5c497c2b091796a\", \"outcome\": \"operation_succeeded\", \"test\": \"append\", \"value\": 7}\n{\"nonce\": \"ca6c8aa690f34231a5c497c2b091796a\", \"outcome\": \"operation_succeeded\", \"test\": \"new_file\", \"value\": 7}\n{\"nonce\": \"ca6c8aa690f34231a5c497c2b091796a\", \"outcome\": \"operation_succeeded\", \"test\": \"atomic_replace\", \"value\": null}\n{\"nonce\": \"ca6c8aa690f34231a5c497c2b091796a\", \"outcome\": \"operation_succeeded\", \"test\": \"unlink\", \"value\": null}\n{\"nonce\": \"ca6c8aa690f34231a5c497c2b091796a\", \"outcome\": \"operation_succeeded\", \"test\": \"shell_redirect\", \"value\": {\"exit_code\": 0, \"stderr\": \"\", \"stdout\": \"\"}}\n{\"nonce\": \"ca6c8aa690f34231a5c497c2b091796a\", \"outcome\": \"operation_succeeded\", \"test\": \"nested\", \"value\": {\"exit_code\": 0, \"stderr\": \"\", \"stdout\": \"{\\\"outcome\\\": \\\"operation_succeeded\\\", \\\"test\\\": \\\"nested_read\\\", \\\"value\\\": \\\"d67e2e944994496c8d8ec76eed0cf9f09679448d584b532bebf941852a37f5ed\\\"}\\n{\\\"outcome\\\": \\\"operation_succeeded\\\", \\\"test\\\": \\\"nested_write\\\", \\\"value\\\": 22}\\n\"}}\n{\"nonce\": \"ca6c8aa690f34231a5c497c2b091796a\", \"outcome\": \"operation_succeeded\", \"test\": \"loopback\", \"value\": \"nonce_exchange_completed\"}\n{\"expected_canary_hash\": \"052f7297ea63440cc1a84ab7500c821f89eeb4072e65c71cdf1cb2cd727cafc9\", \"nonce\": \"ca6c8aa690f34231a5c497c2b091796a\", \"outcome\": \"finished\", \"test\": \"child_finished\"}\n"
+      },
+      "timeout_seconds": 40
+    },
+    {
+      "argv": [
+        "/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+        "sandbox",
+        "-P",
+        "arc_boundary_07b6361b65be4f8b82f6603669f8cb98",
+        "--include-managed-config",
+        "-C",
+        "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_harness_validation/ccd4b6414c4a4d01b18718d135574e18/configuration_rejected/delivery/gate0_boundary/20260907T035116Z_6a4e57b094e345bfb4e1c9807f6b2549/protected/packet",
+        "-c",
+        "permissions.arc_boundary_07b6361b65be4f8b82f6603669f8cb98={filesystem={\":root\"=\"deny\",\":minimal\"=\"read\",\"/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_harness_validation/ccd4b6414c4a4d01b18718d135574e18/configuration_rejected/delivery/gate0_boundary/20260907T035116Z_6a4e57b094e345bfb4e1c9807f6b2549/protected/packet\"=\"read\",\"/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex\"=\"read\"},network={enabled=false}}",
+        "--",
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-I",
+        "-B",
+        "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_harness_validation/ccd4b6414c4a4d01b18718d135574e18/configuration_rejected/delivery/gate0_boundary/20260907T035116Z_6a4e57b094e345bfb4e1c9807f6b2549/protected/packet/child.py",
+        "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_harness_validation/ccd4b6414c4a4d01b18718d135574e18/configuration_rejected/delivery/gate0_boundary/20260907T035116Z_6a4e57b094e345bfb4e1c9807f6b2549/protected/packet",
+        "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_harness_validation/ccd4b6414c4a4d01b18718d135574e18/configuration_rejected/delivery/gate0_boundary/20260907T035116Z_6a4e57b094e345bfb4e1c9807f6b2549/protected/forbidden",
+        "07473430b83e4b06a5e82e174c1f0248",
+        "36749",
+        "052f7297ea63440cc1a84ab7500c821f89eeb4072e65c71cdf1cb2cd727cafc9"
+      ],
+      "cwd": "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_harness_validation/ccd4b6414c4a4d01b18718d135574e18/configuration_rejected/delivery/gate0_boundary/20260907T035116Z_6a4e57b094e345bfb4e1c9807f6b2549/protected/packet",
+      "exit_code": 2,
+      "simulation": "Fabricated result; Codex was not invoked",
+      "status": "completed",
+      "stderr": {
+        "base64": "U1lOVEhFVElDIHBvbGljeSByZWplY3Rpb24gYmVmb3JlIGNoaWxkIGxhdW5jaAo=",
+        "bytes": 47,
+        "sha256": "5b5c50d3173ed7767d1af16e45823650e020ed7fd75a1e49b3e29052642bb64b",
+        "utf8": "SYNTHETIC policy rejection before child launch\n"
+      },
+      "stdout": {
+        "base64": "",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "utf8": ""
+      },
+      "timeout_seconds": 40
+    }
+  ],
+  "configuration_files_edited": false,
+  "confined_events": {
+    "complete": false,
+    "errors": [],
+    "rows": {}
+  },
+  "control_events": {
+    "complete": true,
+    "errors": [],
+    "rows": {
+      "allowed_read": {
+        "nonce": "ca6c8aa690f34231a5c497c2b091796a",
+        "outcome": "operation_succeeded",
+        "test": "allowed_read",
+        "value": "052f7297ea63440cc1a84ab7500c821f89eeb4072e65c71cdf1cb2cd727cafc9"
+      },
+      "append": {
+        "nonce": "ca6c8aa690f34231a5c497c2b091796a",
+        "outcome": "operation_succeeded",
+        "test": "append",
+        "value": 7
+      },
+      "atomic_replace": {
+        "nonce": "ca6c8aa690f34231a5c497c2b091796a",
+        "outcome": "operation_succeeded",
+        "test": "atomic_replace",
+        "value": null
+      },
+      "child_finished": {
+        "expected_canary_hash": "052f7297ea63440cc1a84ab7500c821f89eeb4072e65c71cdf1cb2cd727cafc9",
+        "nonce": "ca6c8aa690f34231a5c497c2b091796a",
+        "outcome": "finished",
+        "test": "child_finished"
+      },
+      "child_started": {
+        "nonce": "ca6c8aa690f34231a5c497c2b091796a",
+        "outcome": "started",
+        "test": "child_started"
+      },
+      "forbidden_read": {
+        "nonce": "ca6c8aa690f34231a5c497c2b091796a",
+        "outcome": "operation_succeeded",
+        "test": "forbidden_read",
+        "value": "0c0ece51b17e6c1e23917c8b73c94e3c229951911ad0f99822bebcc62c3eca9d"
+      },
+      "forbidden_write": {
+        "nonce": "ca6c8aa690f34231a5c497c2b091796a",
+        "outcome": "operation_succeeded",
+        "test": "forbidden_write",
+        "value": 7
+      },
+      "loopback": {
+        "nonce": "ca6c8aa690f34231a5c497c2b091796a",
+        "outcome": "operation_succeeded",
+        "test": "loopback",
+        "value": "nonce_exchange_completed"
+      },
+      "nested": {
+        "nonce": "ca6c8aa690f34231a5c497c2b091796a",
+        "outcome": "operation_succeeded",
+        "test": "nested",
+        "value": {
+          "exit_code": 0,
+          "stderr": "",
+          "stdout": "{\"outcome\": \"operation_succeeded\", \"test\": \"nested_read\", \"value\": \"d67e2e944994496c8d8ec76eed0cf9f09679448d584b532bebf941852a37f5ed\"}\n{\"outcome\": \"operation_succeeded\", \"test\": \"nested_write\", \"value\": 22}\n"
+        }
+      },
+      "new_file": {
+        "nonce": "ca6c8aa690f34231a5c497c2b091796a",
+        "outcome": "operation_succeeded",
+        "test": "new_file",
+        "value": 7
+      },
+      "overwrite": {
+        "nonce": "ca6c8aa690f34231a5c497c2b091796a",
+        "outcome": "operation_succeeded",
+        "test": "overwrite",
+        "value": 7
+      },
+      "shell_redirect": {
+        "nonce": "ca6c8aa690f34231a5c497c2b091796a",
+        "outcome": "operation_succeeded",
+        "test": "shell_redirect",
+        "value": {
+          "exit_code": 0,
+          "stderr": "",
+          "stdout": ""
+        }
+      },
+      "symlink_forbidden_read": {
+        "nonce": "ca6c8aa690f34231a5c497c2b091796a",
+        "outcome": "operation_succeeded",
+        "test": "symlink_forbidden_read",
+        "value": "0c0ece51b17e6c1e23917c8b73c94e3c229951911ad0f99822bebcc62c3eca9d"
+      },
+      "unlink": {
+        "nonce": "ca6c8aa690f34231a5c497c2b091796a",
+        "outcome": "operation_succeeded",
+        "test": "unlink",
+        "value": null
+      }
+    }
+  },
+  "created_utc": "2026-09-07T03:51:16.888249+00:00",
+  "credential_or_configuration_files_read_by_script": false,
+  "doctor_help_metadata": {
+    "doctor_executed": false,
+    "exit_code": 0,
+    "independent_of_filesystem_controls": true,
+    "quota_reading_obtained": false,
+    "status": "completed"
+  },
+  "filesystem_checks": {},
+  "filesystem_status": "SANDBOX_START_NOT_ESTABLISHED",
+  "finished_utc": "2026-09-07T03:51:17.248801+00:00",
+  "fixtures": "Only fresh synthetic files under this run directory",
+  "loopback": {
+    "confined_event": {},
+    "control_nonce_exchange_passed": true,
+    "host": "127.0.0.1",
+    "listener_errors": [],
+    "listener_events": [
+      {
+        "recognized_nonce": true,
+        "sha256": "32640d07da3b2a14ab7e89f4a865b789f9809f5bdd5a19d7b4cadb48d9429a7f"
+      },
+      {
+        "recognized_nonce": true,
+        "sha256": "7c97ec410f8da4d58ba857ab0eb93a88ccd3a9897fc303905297bd79ce5b10bc"
+      },
+      {
+        "recognized_nonce": true,
+        "sha256": "868ac5213df6f9af8693419eaadedd1bff25c5d49d8bfb15a019f60f950b4afa"
+      }
+    ],
+    "parent_after": {
+      "elapsed_seconds": 0.00047750699741300195,
+      "nonce_sha256": "868ac5213df6f9af8693419eaadedd1bff25c5d49d8bfb15a019f60f950b4afa",
+      "passed": true,
+      "received_sha256": "868ac5213df6f9af8693419eaadedd1bff25c5d49d8bfb15a019f60f950b4afa"
+    },
+    "parent_before": {
+      "elapsed_seconds": 0.00033596198773011565,
+      "nonce_sha256": "32640d07da3b2a14ab7e89f4a865b789f9809f5bdd5a19d7b4cadb48d9429a7f",
+      "passed": true,
+      "received_sha256": "32640d07da3b2a14ab7e89f4a865b789f9809f5bdd5a19d7b4cadb48d9429a7f"
+    },
+    "port": 36749,
+    "scope": "Only this IPv4 host-loopback nonce route; no external network claim",
+    "status": "LOOPBACK_OBSERVATION_INCONCLUSIVE"
+  },
+  "model_called": false,
+  "not_established": [
+    "independent reviewer readiness",
+    "fresh model context",
+    "model tool or connector restrictions",
+    "all network routes",
+    "authoritative subscription allowance",
+    "unattended model use"
+  ],
+  "observation_status": "SANDBOX_START_NOT_ESTABLISHED",
+  "outside_lab_read_scope": "Additional explicit host read: fixed observed runtime executable and launcher path metadata",
+  "parent_loopback_after": {
+    "elapsed_seconds": 0.00047750699741300195,
+    "nonce_sha256": "868ac5213df6f9af8693419eaadedd1bff25c5d49d8bfb15a019f60f950b4afa",
+    "passed": true,
+    "received_sha256": "868ac5213df6f9af8693419eaadedd1bff25c5d49d8bfb15a019f60f950b4afa"
+  },
+  "parent_loopback_before": {
+    "elapsed_seconds": 0.00033596198773011565,
+    "nonce_sha256": "32640d07da3b2a14ab7e89f4a865b789f9809f5bdd5a19d7b4cadb48d9429a7f",
+    "passed": true,
+    "received_sha256": "32640d07da3b2a14ab7e89f4a865b789f9809f5bdd5a19d7b4cadb48d9429a7f"
+  },
+  "parent_protected_fixture_controls": {
+    "allowed_canary_sha256": "052f7297ea63440cc1a84ab7500c821f89eeb4072e65c71cdf1cb2cd727cafc9",
+    "directory_create_and_unlink_passed": true,
+    "forbidden_sibling_owner_write_passed": true,
+    "ordinary_owner_writable_targets": [
+      "overwrite.txt",
+      "append.txt",
+      "replacement-source.txt",
+      "replace-target.txt",
+      "unlink.txt",
+      "shell.txt",
+      "nested.txt"
+    ],
+    "sibling_canary_sha256": "0c0ece51b17e6c1e23917c8b73c94e3c229951911ad0f99822bebcc62c3eca9d",
+    "symlink_read_sha256": "0c0ece51b17e6c1e23917c8b73c94e3c229951911ad0f99822bebcc62c3eca9d"
+  },
+  "probe": "GATE0_REVIEWER_COMMAND_BOUNDARY_v2",
+  "protected_after": {
+    ".": {
+      "kind": "directory",
+      "mode": 448
+    },
+    "forbidden": {
+      "kind": "directory",
+      "mode": 448
+    },
+    "forbidden/canary.txt": {
+      "bytes": 31,
+      "kind": "file",
+      "mode": 384,
+      "sha256": "0c0ece51b17e6c1e23917c8b73c94e3c229951911ad0f99822bebcc62c3eca9d"
+    },
+    "packet": {
+      "kind": "directory",
+      "mode": 448
+    },
+    "packet/append.txt": {
+      "bytes": 35,
+      "kind": "file",
+      "mode": 384,
+      "sha256": "162e2f003b8f803780f02e81539d040743e64f47fb2c7c1d942b3057abc673c8"
+    },
+    "packet/canary.txt": {
+      "bytes": 29,
+      "kind": "file",
+      "mode": 384,
+      "sha256": "052f7297ea63440cc1a84ab7500c821f89eeb4072e65c71cdf1cb2cd727cafc9"
+    },
+    "packet/child.py": {
+      "bytes": 4364,
+      "kind": "file",
+      "mode": 384,
+      "sha256": "52bda229f5f2eeb0d3429543c22c23b499189424b65055233f33423745fcc70f"
+    },
+    "packet/nested.txt": {
+      "bytes": 35,
+      "kind": "file",
+      "mode": 384,
+      "sha256": "6d08b2b4c2819320eb4ee6b4929655ac60ec0b0dc0f2774df3a97832eb64d1cf"
+    },
+    "packet/overwrite.txt": {
+      "bytes": 38,
+      "kind": "file",
+      "mode": 384,
+      "sha256": "8e41839c625e3724469daee3579c147e49a4e79af0d9093b4abf470174db438a"
+    },
+    "packet/replace-target.txt": {
+      "bytes": 43,
+      "kind": "file",
+      "mode": 384,
+      "sha256": "561ca20a32afeb548692eeea52e437c99c80cfac0e15f55c70d1c554a5feb16b"
+    },
+    "packet/replacement-source.txt": {
+      "bytes": 47,
+      "kind": "file",
+      "mode": 384,
+      "sha256": "0f47e0346194c3089c29e5d4d588430ff59fa6f6e31e9f7c2468c4e414068d98"
+    },
+    "packet/shell.txt": {
+      "bytes": 34,
+      "kind": "file",
+      "mode": 384,
+      "sha256": "d77e9649cb098fca6f6d4e9e64a96ec22a9d70781c72a3675d639057d970dab3"
+    },
+    "packet/sibling_link": {
+      "kind": "symlink",
+      "mode": 511,
+      "target": "../forbidden/canary.txt"
+    },
+    "packet/unlink.txt": {
+      "bytes": 35,
+      "kind": "file",
+      "mode": 384,
+      "sha256": "8dbcbf3758a4efa9e7365de65d9622a3fdd90e096fe257b24cf768d2dfee005a"
+    }
+  },
+  "protected_before": {
+    ".": {
+      "kind": "directory",
+      "mode": 448
+    },
+    "forbidden": {
+      "kind": "directory",
+      "mode": 448
+    },
+    "forbidden/canary.txt": {
+      "bytes": 31,
+      "kind": "file",
+      "mode": 384,
+      "sha256": "0c0ece51b17e6c1e23917c8b73c94e3c229951911ad0f99822bebcc62c3eca9d"
+    },
+    "packet": {
+      "kind": "directory",
+      "mode": 448
+    },
+    "packet/append.txt": {
+      "bytes": 35,
+      "kind": "file",
+      "mode": 384,
+      "sha256": "162e2f003b8f803780f02e81539d040743e64f47fb2c7c1d942b3057abc673c8"
+    },
+    "packet/canary.txt": {
+      "bytes": 29,
+      "kind": "file",
+      "mode": 384,
+      "sha256": "052f7297ea63440cc1a84ab7500c821f89eeb4072e65c71cdf1cb2cd727cafc9"
+    },
+    "packet/child.py": {
+      "bytes": 4364,
+      "kind": "file",
+      "mode": 384,
+      "sha256": "52bda229f5f2eeb0d3429543c22c23b499189424b65055233f33423745fcc70f"
+    },
+    "packet/nested.txt": {
+      "bytes": 35,
+      "kind": "file",
+      "mode": 384,
+      "sha256": "6d08b2b4c2819320eb4ee6b4929655ac60ec0b0dc0f2774df3a97832eb64d1cf"
+    },
+    "packet/overwrite.txt": {
+      "bytes": 38,
+      "kind": "file",
+      "mode": 384,
+      "sha256": "8e41839c625e3724469daee3579c147e49a4e79af0d9093b4abf470174db438a"
+    },
+    "packet/replace-target.txt": {
+      "bytes": 43,
+      "kind": "file",
+      "mode": 384,
+      "sha256": "561ca20a32afeb548692eeea52e437c99c80cfac0e15f55c70d1c554a5feb16b"
+    },
+    "packet/replacement-source.txt": {
+      "bytes": 47,
+      "kind": "file",
+      "mode": 384,
+      "sha256": "0f47e0346194c3089c29e5d4d588430ff59fa6f6e31e9f7c2468c4e414068d98"
+    },
+    "packet/shell.txt": {
+      "bytes": 34,
+      "kind": "file",
+      "mode": 384,
+      "sha256": "d77e9649cb098fca6f6d4e9e64a96ec22a9d70781c72a3675d639057d970dab3"
+    },
+    "packet/sibling_link": {
+      "kind": "symlink",
+      "mode": 511,
+      "target": "../forbidden/canary.txt"
+    },
+    "packet/unlink.txt": {
+      "bytes": 35,
+      "kind": "file",
+      "mode": 384,
+      "sha256": "8dbcbf3758a4efa9e7365de65d9622a3fdd90e096fe257b24cf768d2dfee005a"
+    }
+  },
+  "requested_profile": {
+    "filesystem": {
+      "/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex": "read",
+      "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_harness_validation/ccd4b6414c4a4d01b18718d135574e18/configuration_rejected/delivery/gate0_boundary/20260907T035116Z_6a4e57b094e345bfb4e1c9807f6b2549/protected/packet": "read",
+      ":minimal": "read",
+      ":root": "deny"
+    },
+    "include_managed_config": true,
+    "name": "arc_boundary_07b6361b65be4f8b82f6603669f8cb98",
+    "network": {
+      "enabled": false
+    },
+    "toml_assignment": "permissions.arc_boundary_07b6361b65be4f8b82f6603669f8cb98={filesystem={\":root\"=\"deny\",\":minimal\"=\"read\",\"/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_harness_validation/ccd4b6414c4a4d01b18718d135574e18/configuration_rejected/delivery/gate0_boundary/20260907T035116Z_6a4e57b094e345bfb4e1c9807f6b2549/protected/packet\"=\"read\",\"/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex\"=\"read\"},network={enabled=false}}"
+  },
+  "run_id": "20260907T035116Z_6a4e57b094e345bfb4e1c9807f6b2549",
+  "runtime_identity_unchanged": true,
+  "runtime_inspector_substituted": true,
+  "runtime_postflight": {
+    "bytes": 100,
+    "canonical_path": "/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+    "ctime_ns": 0,
+    "device": 0,
+    "executable_for_current_user": true,
+    "inode": 0,
+    "mode": 493,
+    "mtime_ns": 0,
+    "path": "/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+    "regular_file": true,
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "simulation": "Fabricated identity; selected host binary not read",
+    "status": "VERIFIED_RUNTIME_FILE"
+  },
+  "runtime_preflight": {
+    "bytes": 100,
+    "canonical_path": "/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+    "ctime_ns": 0,
+    "device": 0,
+    "executable_for_current_user": true,
+    "inode": 0,
+    "mode": 493,
+    "mtime_ns": 0,
+    "path": "/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+    "regular_file": true,
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "simulation": "Fabricated identity; selected host binary not read",
+    "status": "VERIFIED_RUNTIME_FILE"
+  },
+  "runtime_selection": {
+    "launcher_path": "/synthetic/not-executed-codex",
+    "launcher_resolution_error": {
+      "message": "[Errno 2] No such file or directory: '/synthetic'",
+      "type": "FileNotFoundError"
+    },
+    "no_runtime_directory_grant": true,
+    "path": "/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+    "sandbox_invokes_verified_runtime_directly": true,
+    "source": "Fixed version-specific executable path from the supplied v1 error"
+  },
+  "schema_version": 1,
+  "script_sha256": "e8b6e4c52dfd81fc8b797ebb699297975a7026472f5c43de6e73267a31100e41",
+  "status": "HARNESS_SIMULATION",
+  "unconfined_controls_passed": true
+}

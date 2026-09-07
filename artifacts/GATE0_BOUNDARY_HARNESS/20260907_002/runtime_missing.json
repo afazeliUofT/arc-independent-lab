@@ -1,0 +1,70 @@
+{
+  "child_source_sha256": "52bda229f5f2eeb0d3429543c22c23b499189424b65055233f33423745fcc70f",
+  "client_internal_file_access_not_traced": true,
+  "command_runner_substituted": true,
+  "commands": [
+    {
+      "argv": [
+        "/synthetic/not-executed-codex",
+        "--version"
+      ],
+      "cwd": "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_harness_validation/ccd4b6414c4a4d01b18718d135574e18/runtime_missing",
+      "exit_code": 0,
+      "simulation": "Fabricated result; Codex was not invoked",
+      "status": "completed",
+      "stderr": {
+        "base64": "",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "utf8": ""
+      },
+      "stdout": {
+        "base64": "Y29kZXgtY2xpIDAuMTUxLjAK",
+        "bytes": 18,
+        "sha256": "9449baa2ef1407a3b0ba27556ece4fb3c8e2f56801646d80f6a32bbf08870187",
+        "utf8": "codex-cli 0.151.0\n"
+      },
+      "timeout_seconds": 12
+    }
+  ],
+  "configuration_files_edited": false,
+  "created_utc": "2026-09-07T03:51:17.680433+00:00",
+  "credential_or_configuration_files_read_by_script": false,
+  "finished_utc": "2026-09-07T03:51:17.680795+00:00",
+  "fixtures": "Only fresh synthetic files under this run directory",
+  "model_called": false,
+  "not_established": [
+    "independent reviewer readiness",
+    "fresh model context",
+    "model tool or connector restrictions",
+    "all network routes",
+    "authoritative subscription allowance",
+    "unattended model use"
+  ],
+  "observation_status": "PRECONDITION_FAILED",
+  "outside_lab_read_scope": "Additional explicit host read: fixed observed runtime executable and launcher path metadata",
+  "probe": "GATE0_REVIEWER_COMMAND_BOUNDARY_v2",
+  "reason": "The fixed runtime executable was not verified; no sandbox was launched",
+  "run_id": "20260907T035117Z_97762fc2a9f647ffb5e3226c2a70d87c",
+  "runtime_inspector_substituted": true,
+  "runtime_preflight": {
+    "error": "SYNTHETIC missing selected runtime",
+    "error_type": "FileNotFoundError",
+    "path": "/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+    "status": "PRECONDITION_FAILED"
+  },
+  "runtime_selection": {
+    "launcher_path": "/synthetic/not-executed-codex",
+    "launcher_resolution_error": {
+      "message": "[Errno 2] No such file or directory: '/synthetic'",
+      "type": "FileNotFoundError"
+    },
+    "no_runtime_directory_grant": true,
+    "path": "/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+    "sandbox_invokes_verified_runtime_directly": true,
+    "source": "Fixed version-specific executable path from the supplied v1 error"
+  },
+  "schema_version": 1,
+  "script_sha256": "e8b6e4c52dfd81fc8b797ebb699297975a7026472f5c43de6e73267a31100e41",
+  "status": "HARNESS_SIMULATION"
+}

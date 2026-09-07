@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "verified_utc": "2026-09-07T03:39:06.284241+00:00",
+  "report": {
+    "path": "artifacts/GATE0_BOUNDARY_OBSERVATIONS/20260907_001/REPORT.json",
+    "sha256": "3713ae45b7e3306841fb60b819083a2d9273a723107c22262e9597b3d7e74e19"
+  },
+  "terminal_attachment_sha256": "8f810afd8212853c4c1d570d9752f2c0f3c34a05667d1563a135af626a70d993",
+  "terminal_scope": "Publication/probe receipts read; whole transcript not redistributed",
+  "published_commit": "221f6c76ea4a72f7723d804dd68416cb86820aa4",
+  "delivered_source_sha256": "839d67de25280777bdd588cd4baf3e0112f7e946b78beecc34a7c23e069642c4",
+  "child_source_sha256": "52bda229f5f2eeb0d3429543c22c23b499189424b65055233f33423745fcc70f",
+  "source_and_terminal_hashes_match": true,
+  "captured_streams_verified": 8,
+  "positive_controls_recomputed": true,
+  "confined_protocol_events": 0,
+  "protected_inventory_unchanged": true,
+  "filesystem_classification_recomputed": "SANDBOX_START_NOT_ESTABLISHED",
+  "loopback_classification": "inconclusive; no confined attempt",
+  "error_verbatim": "bwrap: execvp /home/afazeli2006/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex: No such file or directory\n",
+  "inference": "Requested profile omitted exact standalone runtime executable under home; likely self-execution visibility failure, not proven by ENOENT alone",
+  "not_established": [
+    "actual filesystem denials by child",
+    "network isolation",
+    "full reviewer isolation",
+    "authoritative model allowance"
+  ],
+  "model_called": false,
+  "formal_review_verdict": false
+}

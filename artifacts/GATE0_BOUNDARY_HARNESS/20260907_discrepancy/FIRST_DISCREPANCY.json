@@ -1,0 +1,12 @@
+{
+  "ts": "2026-09-07T03:47:33.110995+00:00",
+  "task": "P3.3",
+  "tool": "hosted validation archive verifier",
+  "error_verbatim": "Traceback (most recent call last):\n  File \"<stdin>\", line 27, in <module>\nAssertionError\n",
+  "expected_report_sha256": "fb3e9f4c196423ab4e1aa5623bb517c074aec52e746fabca6cf9a969a2695b78",
+  "actual_report_sha256": "26aa6b6e0154d5e9c9c61a4f7693b97c12a05c1f5b2a363916d2d4f7c3babf8f",
+  "actual_status": "IN_PROGRESS",
+  "source_path": "delivery/gate0_harness_validation/e205944e4cc5440b82026432df9cd164/runtime_changed_after/delivery/gate0_boundary/20260907T034448Z_04ebc7ac044949b6863bab619b208b5f/REPORT.json",
+  "cause": "not established; file is now the initial IN_PROGRESS snapshot although stdout and validator receipt recorded a finalized report",
+  "resolution": "Preserve observed bytes and original validation receipt; do not certify this validation set. Check a fresh run with saved-object comparison and final cross-file digest verification before archiving."
+}

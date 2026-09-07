@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-07T03:47:35.170935+00:00",
+  "scope": "HARNESS_SIMULATION; no actual Codex sandbox, reviewer or model",
+  "validator_sha256": "9f57f5905af49d9d1ebc8ce06700764c11647ab76f728e2eddee63857913e0df",
+  "probe_sha256": "5a47be146c3264705a43845abdffebe65f206f4b8b2c3cf4e8fadda3d2b48a82",
+  "cases": [
+    {
+      "name": "runtime_file_inspector",
+      "status": "matched_expected",
+      "scope": "fresh synthetic files; no real Codex binary read",
+      "ordinary_file_hash_matched": true,
+      "symlink_and_directory_rejected": true
+    },
+    {
+      "name": "intentionally_unconfined",
+      "status": "matched_expected",
+      "observation_status": "FILESYSTEM_BOUNDARY_VIOLATION",
+      "report_path": "delivery/gate0_harness_validation/a585af606cb94484a19be1fcdbb23006/intentionally_unconfined/delivery/gate0_boundary/20260907T034735Z_75f4bfc7cde0466a8778a129b4b988c0/REPORT.json",
+      "report_sha256": "0bc5e70fe4182faee71d4e9f41b55566e8aed4b4c1add7ca25b5a42dc8388dee"
+    },
+    {
+      "name": "configuration_rejected",
+      "status": "matched_expected",
+      "observation_status": "SANDBOX_START_NOT_ESTABLISHED",
+      "report_path": "delivery/gate0_harness_validation/a585af606cb94484a19be1fcdbb23006/configuration_rejected/delivery/gate0_boundary/20260907T034735Z_6d5806863d2141e08835ac7e8c435878/REPORT.json",
+      "report_sha256": "fbff083cca9bd3a5e12ba3a7f650c618a22245dc0cd9cc68041976a3fb7bc4ae"
+    },
+    {
+      "name": "wrapper_timeout",
+      "status": "matched_expected",
+      "observation_status": "TIMEOUT",
+      "report_path": "delivery/gate0_harness_validation/a585af606cb94484a19be1fcdbb23006/wrapper_timeout/delivery/gate0_boundary/20260907T034736Z_96d3e9e904b947b998cb5de3b4a02a76/REPORT.json",
+      "report_sha256": "3fe9c9b17eefdf2f78efa6ba543e34ebb9ec16815173241dc4469dd4f5990ae7"
+    },
+    {
+      "name": "runtime_missing",
+      "status": "matched_expected",
+      "observation_status": "PRECONDITION_FAILED",
+      "report_path": "delivery/gate0_harness_validation/a585af606cb94484a19be1fcdbb23006/runtime_missing/delivery/gate0_boundary/20260907T034736Z_9c9fad6221e74219a6bc8ffd193cfb84/REPORT.json",
+      "report_sha256": "79f0207ac2b6922e83afc36a7df2704fabab754964c2284c5e0123a6e7ceb378"
+    },
+    {
+      "name": "runtime_changed_after",
+      "status": "matched_expected",
+      "observation_status": "RUNTIME_INTEGRITY_NOT_ESTABLISHED",
+      "report_path": "delivery/gate0_harness_validation/a585af606cb94484a19be1fcdbb23006/runtime_changed_after/delivery/gate0_boundary/20260907T034736Z_696a149332bd4261be13ee9bcc5cf3ea/REPORT.json",
+      "report_sha256": "95345bca25ba590595467dea045e56e48cd0c5d425dc4f54e2df248760c3fc38"
+    },
+    {
+      "name": "runtime_postflight_interrupted",
+      "status": "matched_expected",
+      "observation_status": "INTERRUPTED",
+      "report_path": "delivery/gate0_harness_validation/a585af606cb94484a19be1fcdbb23006/runtime_postflight_interrupted/delivery/gate0_boundary/20260907T034736Z_7af7aa5b29cb48e98e2998e5d51c5ca1/REPORT.json",
+      "report_sha256": "2b2a572c735d490e16f7bac51ca73d463635469dcec33c773d5d800210984595"
+    },
+    {
+      "name": "detached_pipe_cleanup_mock",
+      "status": "matched_expected",
+      "communicate_timeouts": [
+        0.25,
+        3,
+        3
+      ],
+      "only_own_mock_process_group_signalled": true,
+      "pipes_closed": true,
+      "partial_output_preserved": true,
+      "real_process_or_signal": false
+    }
+  ],
+  "status": "HARNESS_CHECKS_PASSED",
+  "actual_enforcement_established": false
+}
