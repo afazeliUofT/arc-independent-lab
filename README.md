@@ -17,9 +17,15 @@ Verify repository state and checkpoint hashes before building on it. If blocked,
 - `docs/P3_AUDIT_REVIEW_PACKET.md`: separate reviewer task and required enforcement.
 - `docs/P3_GATE0_CAPABILITY_INVENTORY.md`: batched read-only laptop/Alliance observations.
 - `reports/GATE0_CAPABILITY_FINDINGS_2026-09-07.md`: verified inventory findings, resource limits and remaining unknowns.
-- `docs/GATE0_REVIEWER_BOUNDARY_CHECK.md`: prepared no-model command-boundary observation; actual laptop enforcement remains unmeasured.
+- `reports/P3_OBJECTIVE_AND_NEXT_DECISION_2026-09-07.md`: original scientific objective, current findings and the decision this review must enable.
+- `reports/GATE0_BOUNDARY_OBSERVATION_002.md`: successful actual command canary, with its tested scope and remaining full-client limitations.
+- `evidence/P3_REVIEW_METHOD_COVERAGE_2026-09-07.md`: exact primary-method coverage and private reading aids; no further paper request for the bounded audit.
+- `docs/P3_REVIEW_EXECUTION_CLOSURE.md`: unchanged consistency checker, complete dependencies and original-inventory execution view.
+- `docs/GATE0_REVIEWER_MINIMAL_ROUTE_2026-09-07.md`: finite attended-review route; its addendum supersedes the proposed human schema export.
+- `docs/GATE0_REVIEWER_INTERFACE_DECISIONS_2026-09-07.md`: exact interface data recovered locally, implementation choices and remaining enforcement requirements.
+- `docs/GATE0_REVIEWER_BOUNDARY_CHECK.md`: original command-canary design; read the subsequent observations before interpreting its status.
 - `reports/GATE0_BOUNDARY_OBSERVATION_001.md`: first actual WSL launch failure and the correction to the proposed setup.
-- `docs/GATE0_REVIEWER_BOUNDARY_RETRY.md`: explicit runtime-file preflight and read grant for the next observation.
+- `docs/GATE0_REVIEWER_BOUNDARY_RETRY.md`: historical runtime-file correction; that retry is complete and must not be repeated merely for acknowledgement.
 
 - `IDEAS.md`: Phase 2 submission, including the unedited population, clusters, developed operations and post-development method flags.
 - `reports/P2_LEARNER_OBSERVER_001.md`: required recovery follow-up and its access limits.

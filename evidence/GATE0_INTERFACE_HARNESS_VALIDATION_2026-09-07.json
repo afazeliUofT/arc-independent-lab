@@ -1,0 +1,123 @@
+{
+  "cases": [
+    {
+      "bundle_sha256": "f244ce930cc33377de5676c05534e0edb26d2bd415abc1f2167b11d946717ce5",
+      "name": "valid_experimental",
+      "observation_status": "INTERFACE_SCHEMA_CAPTURED",
+      "report_path": "artifacts/GATE0_INTERFACE_HARNESS/20260907_001/valid_experimental/REPORT.json",
+      "report_sha256": "9333a66914558e5b46bb096f608b1fbb5a72423f4fdb6f01334e3160331da457",
+      "status": "matched_expected"
+    },
+    {
+      "bundle_sha256": "f8471d51096b4ab1fa6f2c51e2401db01644b47be69dd30f19b7e9b1ea7b82a5",
+      "name": "stable_only",
+      "observation_status": "INTERFACE_SCHEMA_CAPTURED",
+      "report_path": "artifacts/GATE0_INTERFACE_HARNESS/20260907_001/stable_only/REPORT.json",
+      "report_sha256": "b3ec1eb52e3d892bfb64956c0437bb71dfc361135c8d70c22ce4e5c3c496cf85",
+      "status": "matched_expected"
+    },
+    {
+      "bundle_sha256": "fd9f4490ed4d9e4bd47b1171393888c948aa22f3d8b5e8eda872ec782fd05898",
+      "name": "unsupported_help",
+      "observation_status": "SCHEMA_OUT_OPTION_NOT_ADVERTISED",
+      "report_path": "artifacts/GATE0_INTERFACE_HARNESS/20260907_001/unsupported_help/REPORT.json",
+      "report_sha256": "7f649b3fdd3fa7d9b009aaa903b81214af0693ac55bb806bb75cbcfce7981620",
+      "status": "matched_expected"
+    },
+    {
+      "bundle_sha256": "c979ff84beffd924788b9bc84f458cfd41e5f508131b2ef98165b82d9fa47291",
+      "name": "launch_failed",
+      "observation_status": "SCHEMA_HELP_NOT_ESTABLISHED",
+      "report_path": "artifacts/GATE0_INTERFACE_HARNESS/20260907_001/launch_failed/REPORT.json",
+      "report_sha256": "500ef74bc3c23a86ad768565e8e8f05ee3fa4c12064182e2fbbe915a04704f03",
+      "status": "matched_expected"
+    },
+    {
+      "bundle_sha256": "7fc9e35cde476c4c3160858b588a47b3e2cd129d6ef3572f6b4017ef8bcb98f4",
+      "name": "generation_nonzero",
+      "observation_status": "SCHEMA_GENERATION_NOT_ESTABLISHED",
+      "report_path": "artifacts/GATE0_INTERFACE_HARNESS/20260907_001/generation_nonzero/REPORT.json",
+      "report_sha256": "4ffc33bafe8640a5daa7d0047b09c8d2622ff9729f9196ab9300d7653cc1c4e9",
+      "status": "matched_expected"
+    },
+    {
+      "bundle_sha256": "1cacd5c9b7f879589a10c43776e3ad91214403a78e7b25af16b1b7211df4c7fd",
+      "name": "runtime_changed",
+      "observation_status": "RUNTIME_INTEGRITY_NOT_ESTABLISHED",
+      "report_path": "artifacts/GATE0_INTERFACE_HARNESS/20260907_001/runtime_changed/REPORT.json",
+      "report_sha256": "a524f9435ec6fd977c043a90480b600a87c54de20e7e7147cca6f85b8f109bd0",
+      "status": "matched_expected"
+    },
+    {
+      "bundle_sha256": "97fcbec318409b4c5718fbf70b72f21aa99db2baed41cb141d05a223601c4860",
+      "name": "invalid_json",
+      "observation_status": "SCHEMA_VALIDATION_FAILED",
+      "report_path": "artifacts/GATE0_INTERFACE_HARNESS/20260907_001/invalid_json/REPORT.json",
+      "report_sha256": "603a269ec94138350cd28f3d3920dede7746b6a80b03c6666f5fdeb91f1a93a2",
+      "status": "matched_expected"
+    },
+    {
+      "bundle_sha256": "15066e2a3a27e5294cb5baf218d9f464a679e3356ff659e5080110ed16d6fbc0",
+      "name": "oversize",
+      "observation_status": "SCHEMA_VALIDATION_FAILED",
+      "report_path": "artifacts/GATE0_INTERFACE_HARNESS/20260907_001/oversize/REPORT.json",
+      "report_sha256": "8c008f174b2b248d03e321a0ca6436f26744553930f29e17e577af6205610fa1",
+      "status": "matched_expected"
+    },
+    {
+      "bundle_sha256": "c0b381edce87015d0379482bd7bfc3f2b94f4eb1e4b053c38ad15bbf655748fc",
+      "name": "symlink",
+      "observation_status": "SCHEMA_VALIDATION_FAILED",
+      "report_path": "artifacts/GATE0_INTERFACE_HARNESS/20260907_001/symlink/REPORT.json",
+      "report_sha256": "107e49ba7b0e40a073f59c3d860db19ef4873af3703c2ce058ebc3947f566147",
+      "status": "matched_expected"
+    },
+    {
+      "bundle_sha256": "19ebee8b39d128bedab438683d204927a6021721d90a4447cc9b6265b918f77b",
+      "name": "interrupted",
+      "observation_status": "SCHEMA_GENERATION_NOT_ESTABLISHED",
+      "report_path": "artifacts/GATE0_INTERFACE_HARNESS/20260907_001/interrupted/REPORT.json",
+      "report_sha256": "a2b8a281784da50a8dfa9cba0b8177c56d73f13b7bbcd44a53321685a413fbff",
+      "status": "matched_expected"
+    },
+    {
+      "name": "bounded_stdout",
+      "observation_status": "output_limit",
+      "report_path": "artifacts/GATE0_INTERFACE_HARNESS/20260907_001/bounded_stdout.json",
+      "report_sha256": "d149bf7b6e08c7dc975a975ae5313b94d8f8c269dbaa498ba636110f2575802f",
+      "scope": "Actual synthetic host subprocess only; not Codex or enforcement",
+      "status": "matched_expected"
+    },
+    {
+      "name": "bounded_timeout",
+      "observation_status": "timeout",
+      "report_path": "artifacts/GATE0_INTERFACE_HARNESS/20260907_001/bounded_timeout.json",
+      "report_sha256": "ce9253e1b1d1536ae5a8d019f85b888ea673adc59fce48e59a5b76e302da7e93",
+      "scope": "Actual synthetic host subprocess only; not Codex or enforcement",
+      "status": "matched_expected"
+    },
+    {
+      "name": "missing_executable",
+      "observation_status": "launch_error",
+      "report_path": "artifacts/GATE0_INTERFACE_HARNESS/20260907_001/missing_executable.json",
+      "report_sha256": "8231ec9132ba3a753c7e90a5e60e8d2941bd2781796b5300dc4dc8fa0dcbdc40",
+      "scope": "Actual synthetic host subprocess only; not Codex or enforcement",
+      "status": "matched_expected"
+    },
+    {
+      "name": "detached_pipe",
+      "observation_status": "timeout",
+      "report_path": "artifacts/GATE0_INTERFACE_HARNESS/20260907_001/detached_pipe.json",
+      "report_sha256": "da57dd92accff868a9adf10eeb9045622b06be89a0474e67fc7bc48fd9c67724",
+      "scope": "Actual synthetic host subprocess only; not Codex or enforcement",
+      "status": "matched_expected"
+    }
+  ],
+  "created_utc": "2026-09-07T05:12:19.210346+00:00",
+  "dependency_sha256": "e8b6e4c52dfd81fc8b797ebb699297975a7026472f5c43de6e73267a31100e41",
+  "probe_sha256": "2d0e9c21942e9714553a94ee0552d1e06996c4f38a12d9fbbe6884d0a4a94ede",
+  "schema_version": 1,
+  "scope": "HARNESS_SIMULATION; no Codex, app-server service, reviewer, model or enforced sandbox",
+  "status": "HARNESS_CHECKS_PASSED",
+  "validator_sha256": "7be49694cbdc6c175be0efb0bdbf0466d3dee3680d793075842c566a64917140"
+}

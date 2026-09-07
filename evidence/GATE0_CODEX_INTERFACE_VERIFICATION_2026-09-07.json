@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-07T05:22:43.624542+00:00",
+  "scope": "Second-process root verification of archive, in-memory exact laptop binary, embedded sourceblobs and all exported schema strings; no binaryexecution",
+  "manifest": {
+    "path": "artifacts/GATE0_CODEX_INTERFACE/20260907_001/MANIFEST.json",
+    "sha256": "61a99383e034ddd892586125664fd67390225f0bbd6410a0447e706926b96147"
+  },
+  "original_payload_files_verified": 14,
+  "schema_strings_verified": 714,
+  "archive_and_in_memory_binary_verified": true,
+  "binary_executed": false,
+  "model_called": false,
+  "machine_enforcement_or_entitlement_verified": false
+}

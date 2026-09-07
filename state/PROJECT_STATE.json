@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-07T03:54:15.535139+00:00",
+  "updated_utc": "2026-09-07T05:30:04.499027+00:00",
   "current_gate": "P3",
   "gate_status": "in_progress",
   "gate_entered_utc": "2026-09-06T20:14:12.138443+00:00",
   "last_verified_gate": "P2",
-  "last_verified_commit": "221f6c76ea4a72f7723d804dd68416cb86820aa4",
+  "last_verified_commit": "9925b3697a2d829044539833f6ca1c26ac8d1702",
   "active_task": {
-    "id": "P3.3",
-    "description": "Measure exact-runtime-file visibility correction and command restrictions before completing independent reviewer setup",
-    "attempt": 2,
-    "escalation_level": 1,
-    "started_utc": "2026-09-07T01:27:37.836821+00:00",
-    "status": "runtime_visibility_retry_prepared_pending_laptop"
+    "id": "P3.5",
+    "description": "Implement finite attended reviewer broker and bounded startup/tool/context preflight",
+    "attempt": 0,
+    "escalation_level": 0,
+    "started_utc": null,
+    "status": "not_started"
   },
   "blocked_on": null,
-  "next_action": "Publish checkpoint010 using the exact-base prepared handoff; run revised no-model WSL probe and receive REPORT.json even if unsuccessful. Verify GitHub and all actual report hashes before interpreting runtime-file visibility and command restrictions. No automatic broader policy, no reviewer verdict, no model invocation or new approval in this batch.",
+  "next_action": "After verifying human checkpoint011 publication and preserving any local overlays, implement the finite reviewer broker and startup preflight using docs/GATE0_REVIEWER_INTERFACE_DECISIONS_2026-09-07.md and exact embedded schemas. Include method coverage and original-verifier execution closure. Exercise all retained tool/output routes before science; verify managed requirements and existing-subscription model. Do not run the obsolete schema probe, repeat the passing shell canary, infer allowance, launch unattended model use or issue a PI verdict.",
   "open_questions": [
-    "First actual WSL attempt failed at runtime re-execution; actual child command restrictions and full reviewer-tool enforcement remain unverified.",
+    "Full client startup, every retained broker/tool route, fresh context, existing-subscription reviewer model and output channel remain to be enforced and observed; methods, checker dependencies and exact interface are now available.",
     "Formal separate dispositions for C1/C2/C3/C4, joint proposition and observer diagnostic remain pending enforced review.",
     "Whole-wrapper historical identity is unestablished; no novel complete joint algorithm or resource advantage specified.",
     "Observer supplied-contract discovery/invocation and broader practical prevalence remain open; exact recovery does not imply numerical robustness.",
@@ -62,8 +62,8 @@
     "P3"
   ],
   "remote": "https://github.com/afazeliUofT/arc-independent-lab",
-  "durability_status": "Checkpoint009 and all prior scientific deliverables verified on GitHub. First actual failed boundary report, v2 correction, preserved hosted collection discrepancies and state are prepared for checkpoint010; publication and public readback pending.",
-  "commit_status": "Hosted HEAD/index adopt verified human commit221f6c76ea4a72f7723d804dd68416cb86820aa4; assistant made no commit or push.",
+  "durability_status": "Checkpoint010 and prior scientific inputs verified on GitHub. Checkpoint011 includes new positive command evidence, method/execution closure, embedded interface and state, pending human publication and readback. Private full papers/reading aids remain local, with public exact source/derivative metadata for reconstruction; not claimed durable remotely.",
+  "commit_status": "Hosted HEAD/index adopt verified human commit9925b3697a2d829044539833f6ca1c26ac8d1702; assistant made no commit or push.",
   "recovery_dependency": null,
   "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation.",
   "latest_recovery_evidence": [
@@ -81,7 +81,7 @@
     }
   ],
   "private_error_log_handling": "Probe raw error output stays within laptop Git metadata, outside normal commits. Request only safe terminal report; never ask for credentials or publish raw transport logs.",
-  "foreground_execution_note": "Checkpoint010 helper only inspects/applies/stages/verifies; human commits and pushes. The same batch then runs the v2 synthetic WSL observation under existing authorization.",
+  "foreground_execution_note": "Checkpoint011 requests publication only. Static embedded-interface recovery removes the proposed laptop schema run. No new machine report, paper, HPC job or approval answer requested.",
   "scientific_status": "Residual novelty audit complete as PI analysis with explicit C4 reconstruction and joint-priority corrections. Observer readout reduces to residualization; query identifiability/conditioning delimited. Independent review and measured PROGRAMME remain outstanding.",
   "latest_scientific_evidence": [
     {
@@ -115,10 +115,10 @@
   ],
   "handoff_backup_status": "Prior runtime upload limitation persists as unverified capability; no repeated failed upload. GitHub is the authorized durability bridge.",
   "latest_publication_verification": {
-    "path": "evidence/REMOTE_CHECKPOINT_009_VERIFICATION.json",
-    "sha256": "1672086f05539b3d73e4d456ba0105f32470819b4747c22ec61cd9be0ba92fcd"
+    "path": "evidence/REMOTE_CHECKPOINT_010_VERIFICATION.json",
+    "sha256": "2693fe4609c2992ef7c8319d687cfb0630b12a9ca58f7b8a5939fcb7bda71f55"
   },
-  "last_human_message_verbatim": "Here is the generated report attached. Also, WSL outcomes are attached.",
+  "last_human_message_verbatim": "review the original request to remember the objective. What is the next step, proceed.",
   "phase1_approval": {
     "verified_utc": "2026-09-06T18:51:56.227927+00:00",
     "source_url": "https://github.com/afazeliUofT/arc-independent-lab/blob/376455150af7b257809a56021431413b2e0c6293/state/ESCALATION.md",
@@ -169,7 +169,7 @@
     "remote_execution": "Linux shell on Narval",
     "canonical_laptop_project": "WSL ~/ARC_Independent_Lab"
   },
-  "last_human_message_summary": "Checkpoint009 publication and first actual WSL command-boundary report received. Publication verified; child launch failed before any confined tests.",
+  "last_human_message_summary": "Re-read original objective and proceed. Prepared bounded independent-audit inputs and exact interface locally; no extra terminal probe or approval request.",
   "latest_capability_verification": {
     "path": "evidence/GATE0_CAPABILITY_INPUT_VERIFICATION_2026-09-07.json",
     "sha256": "6da38b2b47f6da6c5060f28bee745a4c85ab31538fac30566a776c208c51b559"
@@ -187,23 +187,95 @@
     "sha256": "72a0edd7cefc44048035644fc9c1ff084a0d5cadfc542be85cabac0fda791a2b"
   },
   "reviewer_readiness": {
-    "actual_command_enforcement": "first launch failed before child; v2 narrow retry prepared",
+    "actual_command_enforcement": "observed for fixed v2 canary; completed",
     "full_tool_boundary": "unverified",
     "fresh_review_context": "not invoked",
     "formal_verdict": "absent",
-    "shared_workspace_consultants": "not independent reviewers"
+    "shared_workspace_consultants": "not independent reviewers",
+    "primary_method_coverage": "listed Phase3 comparator dependencies complete; broader Phase1 bibliography/priority not certified",
+    "verifier_execution_dependencies": "complete; unchanged original checker reexecuted on declared original-inventory view, post-run metadata checked separately",
+    "installed_static_interface": "recovered from data embedded in exact laptop executable; no client executed"
   },
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
   },
   "latest_boundary_observation": {
-    "path": "evidence/GATE0_BOUNDARY_OBSERVATION_001_VERIFICATION.json",
-    "sha256": "bed96ef0742a8be7da53ccb609802542fa9789078334dc8f721d980243278428"
+    "path": "evidence/GATE0_BOUNDARY_OBSERVATION_002_VERIFICATION.json",
+    "sha256": "374af08fd069efcc42a513560ae5849353e02f3c48ffc5046c0c9eb40ed5b455"
   },
   "latest_operational_findings": {
-    "path": "reports/GATE0_BOUNDARY_OBSERVATION_001.md",
-    "sha256": "ac94e49671b422d6482d09edfa453c4dd02328ec2cf3edd59f80211dc33d3d91"
+    "path": "reports/GATE0_BOUNDARY_OBSERVATION_002.md",
+    "sha256": "45023e70e0ccedf594dc59e8c55f861dfb2246404a5fd6ed412ea97dd83d3c27"
   },
-  "hosted_output_integrity_note": "Two simulated mutable report-path regressions preserved without causal explanation. Fresh write-once final-report validation and archive checks passed. Package and GitHub readback are still required."
+  "hosted_output_integrity_note": "Earlier mutable-report discrepancies and later truncated saved binary are preserved without a causal explanation. New static capture verified from full rehashed TAR/in-memory binary and later per-file readback. Exact-package and GitHub readback remain required.",
+  "review_input_core": {
+    "path": "evidence/P3_REVIEW_INPUT_CORE_AVAILABILITY.json",
+    "sha256": "d4eb4bb4b531c5fb97aca7ff597b2c2f8242835449203a2cb588e0930ba458ae"
+  },
+  "full_reviewer_preflight_scope": {
+    "path": "docs/GATE0_REVIEWER_INTERFACE_DECISIONS_2026-09-07.md",
+    "sha256": "771c627268de321d6a0b56b3ec74bba0f8738e5809da9f5daf83ef8adec033ff"
+  },
+  "last_completed_operational_task": {
+    "id": "P3.3",
+    "result": {
+      "path": "evidence/GATE0_BOUNDARY_OBSERVATION_002_VERIFICATION.json",
+      "sha256": "374af08fd069efcc42a513560ae5849353e02f3c48ffc5046c0c9eb40ed5b455"
+    },
+    "scope": "fixed command boundary only",
+    "actual_attempts": 2,
+    "rerun_needed": false
+  },
+  "last_completed_preparation_task": {
+    "id": "P3.4",
+    "status": "complete",
+    "artifacts": {
+      "method_coverage": {
+        "path": "evidence/P3_REVIEW_METHOD_COVERAGE_2026-09-07.json",
+        "sha256": "9fdeec39cb84294cbe8a19c6f5511c5c5905bd25695d9832132ae0bc19e7a559"
+      },
+      "execution_closure": {
+        "path": "evidence/P3_REVIEW_EXECUTION_CLOSURE_2026-09-07.json",
+        "sha256": "28db528e70e361593545f94ca72b4bd2eaf4cc0ed0705edd5cfdcbb29c10a2a5"
+      },
+      "execution_check": {
+        "path": "evidence/P3_REVIEW_EXECUTION_CLOSURE_CHECK.json",
+        "sha256": "b3a48f115ec122dfabfbc86a9845b12a776edace4943e97f811d47906cada096"
+      },
+      "embedded_interface": {
+        "path": "artifacts/GATE0_CODEX_INTERFACE/20260907_001/MANIFEST.json",
+        "sha256": "61a99383e034ddd892586125664fd67390225f0bbd6410a0447e706926b96147"
+      },
+      "interface_verification": {
+        "path": "evidence/GATE0_CODEX_INTERFACE_VERIFICATION_2026-09-07.json",
+        "sha256": "7e9f3cde718ddce42643a8440b2c94c568e2955a1b8c118f6a0ee2d97db2a941"
+      },
+      "interface_decisions": {
+        "path": "docs/GATE0_REVIEWER_INTERFACE_DECISIONS_2026-09-07.md",
+        "sha256": "771c627268de321d6a0b56b3ec74bba0f8738e5809da9f5daf83ef8adec033ff"
+      },
+      "objective": {
+        "path": "reports/P3_OBJECTIVE_AND_NEXT_DECISION_2026-09-07.md",
+        "sha256": "a876bfaf1ef9782df543be91bb63629e389b67ba34aa2b0507593cd66fe0d818"
+      }
+    },
+    "scope": "source/execution dependencies and exact static interface; full client enforcement and independent verdict still pending"
+  },
+  "full_method_coverage": {
+    "path": "evidence/P3_REVIEW_METHOD_COVERAGE_2026-09-07.json",
+    "sha256": "9fdeec39cb84294cbe8a19c6f5511c5c5905bd25695d9832132ae0bc19e7a559"
+  },
+  "reviewer_execution_closure": {
+    "path": "evidence/P3_REVIEW_EXECUTION_CLOSURE_2026-09-07.json",
+    "sha256": "28db528e70e361593545f94ca72b4bd2eaf4cc0ed0705edd5cfdcbb29c10a2a5"
+  },
+  "latest_interface_verification": {
+    "path": "evidence/GATE0_CODEX_INTERFACE_VERIFICATION_2026-09-07.json",
+    "sha256": "7e9f3cde718ddce42643a8440b2c94c568e2955a1b8c118f6a0ee2d97db2a941"
+  },
+  "objective_and_next_decision": {
+    "path": "reports/P3_OBJECTIVE_AND_NEXT_DECISION_2026-09-07.md",
+    "sha256": "a876bfaf1ef9782df543be91bb63629e389b67ba34aa2b0507593cd66fe0d818"
+  }
 }

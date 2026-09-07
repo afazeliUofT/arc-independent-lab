@@ -1,0 +1,103 @@
+{
+  "timestamp_utc": "2026-09-07T05:23:32.436363+00:00",
+  "run_directory": "artifacts/P2_LEARNER_OBSERVER/20260906_001",
+  "auditor_sha256": "871ab1e62a592d9b49f93d5d5d783e262f8db1cb15bcc0b8ba6191f0ca0d4b1e",
+  "artifact_consistency_passed": true,
+  "formal_gate_verdict": null,
+  "limitations": [
+    "Post-execution consistency check; not a prospective scientific gate.",
+    "Same tools/filesystem; not independent review or an enforced information-flow boundary.",
+    "Hashes prove byte equality, not externally attested execution or remote durability."
+  ],
+  "artifact_hashes": {
+    "environment_info.json": "827c217b798bc589196b7e8b6466eb410802b01a8862ae9783d31ee9d4be43c4",
+    "git_state.txt": "057613e36fc4f69860fafc961c316909e790e320818d0bd94f3e3a3bb1869d98",
+    "manifest.json": "b2f06a14433f546ea24d2f49990d38c13ec7b8e1ed945c9b8e09ac17927acac9",
+    "metrics.csv": "b9d5710cf77695198cde83d55b180e814f412ba6cf9f8db3513b04f2f18721d4",
+    "protocol.md": "24c9e92f528a6cdc5e97a657fa7c8d0db3b4428434eb1d9cef4054d0d3b43bee",
+    "protocol_freeze.json": "eb308135cee0b1aefd9215cc35a1dbbb0cf43e7f4fc8854a1424b5d1df8f9588",
+    "resolved_config.json": "87e452f0c05381aee1451bdbc05a60567fc8295089d27ef85bfbd7a5f8d281c1",
+    "results.json": "9c6c95c115e9d350e26c43707092c65208020eac9b02b91d389d335fa3febd08",
+    "source.py": "81682d063317df6f1fd0f0edfd5e86164b86416aac0b83f61aaa11f8f4ba191d",
+    "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.log": "b63e7ce96eedf1df9fcc02de7a53b4ec3c23e61dadb11d1ba6b79fa9cf90f836",
+    "transitions.jsonl": "409e2eb4095d2358ae3ac53e379c3c273288f5d604c5c01ced63e704bd452b7d"
+  },
+  "SHA256SUMS_sha256": "62c11df350f2b37f49d020431d8b50083ffd2a8bc2bb50259029f0387e6ff3d3",
+  "transitions_checked": 6912,
+  "recovery_unlabeled_encoder_calls": 6912,
+  "evaluator_probes": 13824,
+  "maximum_arithmetic_residual": 1.3322676295501878e-15,
+  "absolute_tolerance": 1e-10,
+  "protected_original_files_checked": 17,
+  "source_interfaces": {
+    "recover_from_current_map": {
+      "arguments": [
+        "theta",
+        "old_query",
+        "subsequent_feature",
+        "tolerance"
+      ],
+      "loaded_names": [
+        "a",
+        "abs",
+        "b",
+        "coefficient",
+        "denominator",
+        "dot",
+        "old_query",
+        "overlap",
+        "projected",
+        "subsequent_feature",
+        "subsequent_norm",
+        "theta",
+        "tolerance",
+        "zip"
+      ]
+    },
+    "recover_from_update_spans": {
+      "arguments": [
+        "theta",
+        "old_basis",
+        "new_basis",
+        "old_query",
+        "tolerance"
+      ],
+      "loaded_names": [
+        "abs",
+        "axis",
+        "coefficient",
+        "coefficients",
+        "column",
+        "columns",
+        "direction",
+        "dot",
+        "enumerate",
+        "index",
+        "later",
+        "len",
+        "length",
+        "list",
+        "math",
+        "max",
+        "new_basis",
+        "old_basis",
+        "old_component",
+        "old_query",
+        "orthonormal",
+        "previous",
+        "range",
+        "reconstructed",
+        "residual",
+        "reversed",
+        "sum",
+        "theta",
+        "tolerance",
+        "triangular",
+        "x",
+        "y",
+        "zip"
+      ]
+    }
+  }
+}

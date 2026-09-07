@@ -32,11 +32,11 @@
       "affinity_CPUs": 16,
       "MemTotal_kib": 32568972,
       "scope": "WSL report; snapshot, not reserved capacity",
-      "runtime": "Python 3.12.3; Git 2.43.0; Codex CLI 0.151.0; enforcement unmeasured"
+      "runtime": "Python3.12.3; Git2.43.0; Codex0.151.0. Exact fixed command restrictions observed; full client/reviewer boundary not yet verified."
     },
     "last_boundary_observation": {
-      "path": "evidence/GATE0_BOUNDARY_OBSERVATION_001_VERIFICATION.json",
-      "sha256": "bed96ef0742a8be7da53ccb609802542fa9789078334dc8f721d980243278428"
+      "path": "evidence/GATE0_BOUNDARY_OBSERVATION_002_VERIFICATION.json",
+      "sha256": "374af08fd069efcc42a513560ae5849353e02f3c48ffc5046c0c9eb40ed5b455"
     }
   },
   "hpc": {
@@ -61,12 +61,12 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-07T03:54:15.535139+00:00",
+  "updated_utc": "2026-09-07T05:29:21.510866+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
   },
-  "next_operational_test": {
+  "completed_operational_test": {
     "source": {
       "path": "scripts/gate0_reviewer_boundary_probe.py",
       "sha256": "e8b6e4c52dfd81fc8b797ebb699297975a7026472f5c43de6e73267a31100e41"
@@ -75,10 +75,31 @@
     "command_deadline_seconds": 40,
     "version_and_help_deadline_seconds": 12,
     "cleanup_deadline_per_stage_seconds": 3,
-    "scope": "Second actual laptop command-boundary attempt prepared; precise runtime-file read grant and write-once final report. Simulations are not machine measurements.",
+    "scope": "v2 actual laptop command canary completed with supported denials and unchanged runtime; no full-reviewer claim",
     "runtime_hash_deadline_seconds": 12,
     "maximum_runtime_file_bytes_for_inspection": 536870912,
-    "completed_actual_boundary_attempts": 1,
-    "next_actual_boundary_attempt": 2
+    "completed_actual_boundary_attempts": 2,
+    "next_actual_boundary_attempt": null,
+    "result": {
+      "path": "evidence/GATE0_BOUNDARY_OBSERVATION_002_VERIFICATION.json",
+      "sha256": "374af08fd069efcc42a513560ae5849353e02f3c48ffc5046c0c9eb40ed5b455"
+    },
+    "rerun_needed": false
+  },
+  "next_operational_test": {
+    "status": "finite reviewer broker/startup preflight to implement; no new human machine request in checkpoint011",
+    "scope": {
+      "path": "docs/GATE0_REVIEWER_INTERFACE_DECISIONS_2026-09-07.md",
+      "sha256": "771c627268de321d6a0b56b3ec74bba0f8738e5809da9f5daf83ef8adec033ff"
+    },
+    "model_calls_authorized_in_preflight": 0,
+    "unattended_model_use_allowed": false,
+    "authoritative_usage_reading": null,
+    "static_interface_discovery": "complete locally without client execution",
+    "repeat_command_canary_or_schema_export_needed": false
+  },
+  "latest_interface_preparation": {
+    "path": "evidence/GATE0_CODEX_INTERFACE_VERIFICATION_2026-09-07.json",
+    "sha256": "7e9f3cde718ddce42643a8440b2c94c568e2955a1b8c118f6a0ee2d97db2a941"
   }
 }

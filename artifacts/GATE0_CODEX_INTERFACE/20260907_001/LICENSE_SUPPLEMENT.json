@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "access_date": "2026-09-07",
+  "original_execution_manifest_sha256": "61a99383e034ddd892586125664fd67390225f0bbd6410a0447e706926b96147",
+  "notice": {
+    "path": "sources/NOTICE",
+    "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/NOTICE",
+    "bytes": 242,
+    "sha256": "9d71575ecfd9a843fc1677b0efb08053c6ba9fd686a0de1a6f5382fd3c220915"
+  },
+  "intermediate_manifest": {
+    "path": "LICENSING_INTERMEDIATE_MANIFEST.json",
+    "sha256": "0e63fa3c21390ab14c27521041e4943bfdde60819a77c8f89263159b5b030e9c",
+    "status": "Packaging intermediate, not an independently executed extractor result"
+  },
+  "packaging_correction": "NOTICE was initially inserted by updating the raw output manifest/source index. Exact initial execution manifest bytes and source index were reconstructed, their original manifest digest verified, and restored. The intermediate is preserved separately. NOTICE now travels as this append-only licensing supplement; original schema outputs unchanged."
+}

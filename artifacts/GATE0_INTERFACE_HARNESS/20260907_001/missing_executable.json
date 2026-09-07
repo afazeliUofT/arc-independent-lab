@@ -1,0 +1,26 @@
+{
+  "argv": [
+    "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_interface_validation/ca492c2e40574f388365c0893328cd86/nonexistent-executable"
+  ],
+  "cwd": "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_interface_validation/ca492c2e40574f388365c0893328cd86",
+  "elapsed_seconds": 0.013369045002036728,
+  "error": {
+    "message": "[Errno 2] No such file or directory: '/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_interface_validation/ca492c2e40574f388365c0893328cd86/nonexistent-executable'",
+    "type": "FileNotFoundError"
+  },
+  "exit_code": null,
+  "status": "launch_error",
+  "stderr": {
+    "base64": "",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utf8": ""
+  },
+  "stdout": {
+    "base64": "",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utf8": ""
+  },
+  "timeout_seconds": 0.1
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "verified_utc": "2026-09-07T04:30:42.435954+00:00",
+  "scope": "PI verification of supplied machine report; not a separate scientific verdict",
+  "report": {
+    "path": "artifacts/GATE0_BOUNDARY_OBSERVATIONS/20260907_002/REPORT.json",
+    "sha256": "386d912567deb1e953faa851c8eaded5ca32e2edc516aad99aadae35bd162cfd"
+  },
+  "published_source_commit": "9925b3697a2d829044539833f6ca1c26ac8d1702",
+  "probe_sha256": "e8b6e4c52dfd81fc8b797ebb699297975a7026472f5c43de6e73267a31100e41",
+  "child_sha256": "52bda229f5f2eeb0d3429543c22c23b499189424b65055233f33423745fcc70f",
+  "captured_streams_verified": 10,
+  "all_outer_commands_completed_exit_zero": true,
+  "child_protocols_reparsed": true,
+  "positive_controls_recomputed": true,
+  "filesystem_classification_recomputed": "OBSERVED_COMMAND_FILESYSTEM_DENIALS",
+  "filesystem_checks_recomputed": {
+    "forbidden_read": true,
+    "symlink_forbidden_read": true,
+    "forbidden_write": true,
+    "overwrite": true,
+    "append": true,
+    "new_file": true,
+    "atomic_replace": true,
+    "unlink": true,
+    "nested_read": true,
+    "nested_write": true,
+    "shell_redirect": true,
+    "protected_inventory_unchanged": true
+  },
+  "protected_inventory_unchanged": true,
+  "loopback": "PermissionError/EPERM for tested IPv4 loopback nonce route; live controls before/after",
+  "runtime_identity_unchanged": true,
+  "runtime_sha256": "9739cbc928b9c573be83256acd46668f5dd4f119d2d09e05246895ca2aaf0c9a",
+  "runtime_bytes": 270815680,
+  "requested_profile_reparsed": {
+    "filesystem": {
+      ":root": "deny",
+      ":minimal": "read",
+      "/home/afazeli2006/ARC_Independent_Lab/delivery/gate0_boundary/20260907T042257Z_cf2548a994b248dd929236f9c671640b/protected/packet": "read",
+      "/home/afazeli2006/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex": "read"
+    },
+    "network": {
+      "enabled": false
+    }
+  },
+  "status": "OBSERVED_REQUESTED_COMMAND_BOUNDARIES",
+  "canary_request_complete": true,
+  "rerun_needed": false,
+  "formal_scientific_verdict": false,
+  "full_reviewer_isolation_established": false,
+  "authoritative_model_allowance_observed": false,
+  "unattended_model_use_allowed": false,
+  "causal_scope": "v2 resolved launch on observed setup; changed invocation and explicit grant together, not a single-factor causal proof"
+}

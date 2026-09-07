@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-07",
+  "scope": "Hosted static extraction of official Codex 0.151.0 interface data; no binary execution",
+  "observations": [
+    {
+      "kind": "later_read_discrepancy",
+      "path": "delivery/CODEX_RELEASE_0151/codex-exact-candidate",
+      "initial_stream_bytes": 270815680,
+      "initial_stream_sha256": "9739cbc928b9c573be83256acd46668f5dd4f119d2d09e05246895ca2aaf0c9a",
+      "later_stat_and_read_bytes": 175112192,
+      "later_read_sha256": "6807f207e8d9a6b9c447053c500344aee800e913f4aedb098de88eab5a6e9a7f",
+      "error_verbatim": "struct.error: unpack_from requires a buffer of at least 270813952 bytes for unpacking 64 bytes at offset 270813888 (actual buffer size is 175112192)",
+      "cause": "unestablished",
+      "invalidated_inference": "The absence of source blobs in this truncated saved file establishes a mismatch between release source and shipped binary",
+      "correction": "The truncated file is not certified or used. Reverify the complete release TAR, reconstruct its sole regular binary entirely in memory, require the exact laptop size/hash, and match source blobs against those complete bytes. Both source blobs then matched uniquely. No cause of the saved-file truncation is claimed."
+    },
+    {
+      "kind": "extractor_output_parent_missing",
+      "error_verbatim": "Traceback (most recent call last):\n  File \"/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/scripts/extract_codex_interface.py\", line 169, in <module>\n    main()\n  File \"/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/scripts/extract_codex_interface.py\", line 143, in main\n    output.mkdir()\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py\", line 1311, in mkdir\n    os.mkdir(self, mode)\nFileNotFoundError: [Errno 2] No such file or directory: '/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/artifacts/GATE0_CODEX_INTERFACE/20260907_001'\n",
+      "cause": "Output parent directory absent",
+      "correction": "Create the new project-contained output directory with parents=True after all inputs validate; preserve exclusive file creation and per-file fsync/readback. No output files existed from the failed invocation."
+    }
+  ],
+  "verified_recovery": {
+    "tar_bytes": 103937941,
+    "tar_sha256": "605b4b183f22c645f5def63a5b7191767407fb66a6feaec4eaf10b5b7e0058f6",
+    "in_memory_binary_bytes": 270815680,
+    "in_memory_binary_sha256": "9739cbc928b9c573be83256acd46668f5dd4f119d2d09e05246895ca2aaf0c9a",
+    "stable_blob_offset": 221021249,
+    "experimental_blob_offset": 221164349,
+    "binary_executed": false,
+    "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.151.0",
+    "access_date": "2026-09-07",
+    "source_commit": "78c290807ce710180111df227df3b7a4fe845452"
+  }
+}

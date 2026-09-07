@@ -1,0 +1,37 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/LICENSE",
+    "access_date": "2026-09-07",
+    "local_name": "LICENSE",
+    "bytes": 10926,
+    "sha256": "d17f227e4df5da1600391338865ce0f3055211760a36688f816941d58232d8dc"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/cli/src/main.rs",
+    "access_date": "2026-09-07",
+    "local_name": "cli-main-exact.rs",
+    "bytes": 176485,
+    "sha256": "470b3a9aff6ecaacb3cd1de036dfa443c6777badcbf821d4044c0c371353b944"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/arg0/src/lib.rs",
+    "access_date": "2026-09-07",
+    "local_name": "arg0-lib-exact.rs",
+    "bytes": 28445,
+    "sha256": "7ca3b9cc82344fe20fa46724ff64b14fad9ddc44901b3e952d1cdaa42bd29613"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server-protocol/src/lib.rs",
+    "access_date": "2026-09-07",
+    "local_name": "protocol-lib-exact.rs",
+    "bytes": 2447,
+    "sha256": "60ccfaa6e8f3319966fb86150f51722ed9160e1fcf92aced3a8a326d287efd5f"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server-protocol/src/precomputed_exports.rs",
+    "access_date": "2026-09-07",
+    "local_name": "precomputed_exports-exact.rs",
+    "bytes": 6874,
+    "sha256": "661397f6329f7fac05e9d7ccfc7bceead266389d0975da7d1ef57544ee5aaa0c"
+  }
+]

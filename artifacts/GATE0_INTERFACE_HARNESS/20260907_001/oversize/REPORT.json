@@ -1,0 +1,203 @@
+{
+  "client_internal_file_access_not_traced": true,
+  "command_runner_substituted": true,
+  "commands": [
+    {
+      "argv": [
+        "/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+        "--version"
+      ],
+      "cwd": "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_interface_validation/ca492c2e40574f388365c0893328cd86/oversize/delivery/gate0_interface/20260907T051219Z_bb2cde01ac954a5c868bd8d1f0567de8/schemas",
+      "exit_code": 0,
+      "simulation": "Fabricated Codex result; no installed CLI or model invoked",
+      "status": "completed",
+      "stderr": {
+        "base64": "",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "utf8": ""
+      },
+      "stdout": {
+        "base64": "Y29kZXgtY2xpIDAuMTUxLjAK",
+        "bytes": 18,
+        "sha256": "9449baa2ef1407a3b0ba27556ece4fb3c8e2f56801646d80f6a32bbf08870187",
+        "utf8": "codex-cli 0.151.0\n"
+      },
+      "timeout_seconds": 12
+    },
+    {
+      "argv": [
+        "/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+        "sandbox",
+        "-P",
+        "arc_interface_75c6044dce574b32b525b77ca33ab7da",
+        "--include-managed-config",
+        "-C",
+        "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_interface_validation/ca492c2e40574f388365c0893328cd86/oversize/delivery/gate0_interface/20260907T051219Z_bb2cde01ac954a5c868bd8d1f0567de8/schemas",
+        "-c",
+        "permissions.arc_interface_75c6044dce574b32b525b77ca33ab7da={filesystem={\":root\"=\"deny\",\":minimal\"=\"read\",\"/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex\"=\"read\",\"/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_interface_validation/ca492c2e40574f388365c0893328cd86/oversize/delivery/gate0_interface/20260907T051219Z_bb2cde01ac954a5c868bd8d1f0567de8/schemas\"=\"write\"},network={enabled=false}}",
+        "--",
+        "/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+        "app-server",
+        "generate-json-schema",
+        "--help"
+      ],
+      "cwd": "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_interface_validation/ca492c2e40574f388365c0893328cd86/oversize/delivery/gate0_interface/20260907T051219Z_bb2cde01ac954a5c868bd8d1f0567de8/schemas",
+      "exit_code": 0,
+      "simulation": "Fabricated Codex result; no installed CLI or model invoked",
+      "status": "completed",
+      "stderr": {
+        "base64": "",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "utf8": ""
+      },
+      "stdout": {
+        "base64": "VXNhZ2U6IGNvZGV4IGFwcC1zZXJ2ZXIgZ2VuZXJhdGUtanNvbi1zY2hlbWEgW09QVElPTlNdIC0tb3V0IDxESVI+CgpPcHRpb25zOgogICAgICAtLW91dCA8RElSPgogICAgICAgICAgT3V0cHV0IGRpcmVjdG9yeQogICAgICAtLWV4cGVyaW1lbnRhbAogICAgICAgICAgSW5jbHVkZSBleHBlcmltZW50YWwgQVBJcyBpbiB0aGUgZ2VuZXJhdGVkIHNjaGVtYQogIC1oLCAtLWhlbHAKICAgICAgICAgIFByaW50IGhlbHAK",
+        "bytes": 237,
+        "sha256": "75c4a176f406e630396dd1fd8e94e9bd0c68bb02d858bb0d5699c33dbb371562",
+        "utf8": "Usage: codex app-server generate-json-schema [OPTIONS] --out <DIR>\n\nOptions:\n      --out <DIR>\n          Output directory\n      --experimental\n          Include experimental APIs in the generated schema\n  -h, --help\n          Print help\n"
+      },
+      "timeout_seconds": 40
+    },
+    {
+      "argv": [
+        "/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+        "sandbox",
+        "-P",
+        "arc_interface_75c6044dce574b32b525b77ca33ab7da",
+        "--include-managed-config",
+        "-C",
+        "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_interface_validation/ca492c2e40574f388365c0893328cd86/oversize/delivery/gate0_interface/20260907T051219Z_bb2cde01ac954a5c868bd8d1f0567de8/schemas",
+        "-c",
+        "permissions.arc_interface_75c6044dce574b32b525b77ca33ab7da={filesystem={\":root\"=\"deny\",\":minimal\"=\"read\",\"/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex\"=\"read\",\"/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_interface_validation/ca492c2e40574f388365c0893328cd86/oversize/delivery/gate0_interface/20260907T051219Z_bb2cde01ac954a5c868bd8d1f0567de8/schemas\"=\"write\"},network={enabled=false}}",
+        "--",
+        "/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+        "app-server",
+        "generate-json-schema",
+        "--out",
+        "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_interface_validation/ca492c2e40574f388365c0893328cd86/oversize/delivery/gate0_interface/20260907T051219Z_bb2cde01ac954a5c868bd8d1f0567de8/schemas",
+        "--experimental"
+      ],
+      "cwd": "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_interface_validation/ca492c2e40574f388365c0893328cd86/oversize/delivery/gate0_interface/20260907T051219Z_bb2cde01ac954a5c868bd8d1f0567de8/schemas",
+      "exit_code": 0,
+      "simulation": "Fabricated Codex result; no installed CLI or model invoked",
+      "status": "completed",
+      "stderr": {
+        "base64": "",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "utf8": ""
+      },
+      "stdout": {
+        "base64": "",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "utf8": ""
+      },
+      "timeout_seconds": 40
+    }
+  ],
+  "configuration_files_edited": false,
+  "created_utc": "2026-09-07T05:12:19.251737+00:00",
+  "credential_or_configuration_files_read_by_script": false,
+  "dependency_sha256": "e8b6e4c52dfd81fc8b797ebb699297975a7026472f5c43de6e73267a31100e41",
+  "error": {
+    "message": "Schema file exceeds per-file limit",
+    "type": "ValueError"
+  },
+  "experimental_scope": "explicitly_requested",
+  "explicit_local_copy_does_not_establish_WSL_startup_or_boundary": false,
+  "finished_utc": "2026-09-07T05:12:19.252587+00:00",
+  "include_managed_config": true,
+  "limits": {
+    "hard_per_file_bytes": 8388608,
+    "hard_per_process_cpu_seconds": [
+      30,
+      31
+    ],
+    "monitored_tree_bytes": 33554432,
+    "monitored_tree_entries": 4096,
+    "stream_bytes_each": 1048576,
+    "tree_monitor_is_not_atomic_filesystem_quota": true,
+    "tree_poll_seconds": 0.05,
+    "wall_seconds_per_command": 40
+  },
+  "model_called": false,
+  "not_established": [
+    "reviewer readiness",
+    "fresh model context",
+    "full-client tool and connector isolation",
+    "authoritative allowance",
+    "all method sources available"
+  ],
+  "observation_status": "SCHEMA_VALIDATION_FAILED",
+  "probe": "GATE0_REVIEWER_INTERFACE_SCHEMA_v1",
+  "protected_inputs_after": {
+    "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/scripts/gate0_reviewer_boundary_probe.py": "e8b6e4c52dfd81fc8b797ebb699297975a7026472f5c43de6e73267a31100e41",
+    "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/scripts/gate0_reviewer_interface_probe.py": "2d0e9c21942e9714553a94ee0552d1e06996c4f38a12d9fbbe6884d0a4a94ede"
+  },
+  "protected_inputs_before": {
+    "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/scripts/gate0_reviewer_boundary_probe.py": "e8b6e4c52dfd81fc8b797ebb699297975a7026472f5c43de6e73267a31100e41",
+    "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/scripts/gate0_reviewer_interface_probe.py": "2d0e9c21942e9714553a94ee0552d1e06996c4f38a12d9fbbe6884d0a4a94ede"
+  },
+  "protected_inputs_unchanged": true,
+  "requested_profile": {
+    "filesystem": {
+      "/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex": "read",
+      "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_interface_validation/ca492c2e40574f388365c0893328cd86/oversize/delivery/gate0_interface/20260907T051219Z_bb2cde01ac954a5c868bd8d1f0567de8/schemas": "write",
+      ":minimal": "read",
+      ":root": "deny"
+    },
+    "include_managed_config": true,
+    "name": "arc_interface_75c6044dce574b32b525b77ca33ab7da",
+    "network": {
+      "enabled": false
+    },
+    "toml_assignment": "permissions.arc_interface_75c6044dce574b32b525b77ca33ab7da={filesystem={\":root\"=\"deny\",\":minimal\"=\"read\",\"/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex\"=\"read\",\"/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_interface_validation/ca492c2e40574f388365c0893328cd86/oversize/delivery/gate0_interface/20260907T051219Z_bb2cde01ac954a5c868bd8d1f0567de8/schemas\"=\"write\"},network={enabled=false}}"
+  },
+  "rpc_sent": false,
+  "run_id": "20260907T051219Z_bb2cde01ac954a5c868bd8d1f0567de8",
+  "runtime_identity_unchanged": true,
+  "runtime_inspector_substituted": true,
+  "runtime_location": "fixed_WSL_installed_path",
+  "runtime_postflight": {
+    "bytes": 270815680,
+    "canonical_path": "/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+    "ctime_ns": 0,
+    "device": 0,
+    "executable_for_current_user": true,
+    "inode": 0,
+    "mode": 493,
+    "mtime_ns": 0,
+    "path": "/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+    "regular_file": true,
+    "sha256": "9739cbc928b9c573be83256acd46668f5dd4f119d2d09e05246895ca2aaf0c9a",
+    "simulation": "Fabricated runtime identity",
+    "status": "VERIFIED_RUNTIME_FILE"
+  },
+  "runtime_preflight": {
+    "bytes": 270815680,
+    "canonical_path": "/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+    "ctime_ns": 0,
+    "device": 0,
+    "executable_for_current_user": true,
+    "inode": 0,
+    "mode": 493,
+    "mtime_ns": 0,
+    "path": "/root/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+    "regular_file": true,
+    "sha256": "9739cbc928b9c573be83256acd46668f5dd4f119d2d09e05246895ca2aaf0c9a",
+    "simulation": "Fabricated runtime identity",
+    "status": "VERIFIED_RUNTIME_FILE"
+  },
+  "schema_options": {
+    "experimental_flag_advertised": true,
+    "experimental_inclusion_meaning_confirmed": true,
+    "out_advertised": true
+  },
+  "schema_version": 1,
+  "script_sha256": "2d0e9c21942e9714553a94ee0552d1e06996c4f38a12d9fbbe6884d0a4a94ede",
+  "server_session_started": false,
+  "status": "HARNESS_SIMULATION"
+}

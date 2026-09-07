@@ -1,0 +1,26 @@
+{
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-I",
+    "-c",
+    "import time; time.sleep(20)"
+  ],
+  "cwd": "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/gate0_interface_validation/ca492c2e40574f388365c0893328cd86",
+  "elapsed_seconds": 0.16427633799321484,
+  "exit_code": -15,
+  "status": "timeout",
+  "stderr": {
+    "base64": "",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utf8": ""
+  },
+  "stdout": {
+    "base64": "",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utf8": ""
+  },
+  "termination_sent": true,
+  "timeout_seconds": 0.1
+}

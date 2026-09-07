@@ -1,0 +1,543 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-07T04:33:41.005828+00:00",
+  "published_science_base": "9925b3697a2d829044539833f6ca1c26ac8d1702",
+  "scope": "Exact frozen public reviewer input core, plus local PDF availability matched only by explicit input hashes; not full bibliographic closure or a reviewer invocation",
+  "public_inputs": [
+    {
+      "path": "DIAGNOSIS.md",
+      "sha256": "e3106d737f5b50a688d1d5147a015dc091d2986493848b68d33d61949dfa4cc3"
+    },
+    {
+      "path": "IDEAS.md",
+      "sha256": "73cab9f6ab1f5eda80c7c2adc6d2ed556c63d5652fd65434e4cc4b24383dc3b8"
+    },
+    {
+      "path": "NOVELTY_AUDIT.md",
+      "sha256": "cb0234dfc63d70d572eef649b08ec47ddb28a2164b791bb6cefe8403e143b201"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/ADDITIONAL_SHA256SUMS",
+      "sha256": "d4a8de8911fe4f611b2f47f3e7cb66a442f8e25892d268207473dfbfcb46457e"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/SHA256SUMS",
+      "sha256": "62c11df350f2b37f49d020431d8b50083ffd2a8bc2bb50259029f0387e6ff3d3"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/environment_info.json",
+      "sha256": "827c217b798bc589196b7e8b6466eb410802b01a8862ae9783d31ee9d4be43c4"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/git_state.txt",
+      "sha256": "057613e36fc4f69860fafc961c316909e790e320818d0bd94f3e3a3bb1869d98"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/hypotheses.jsonl",
+      "sha256": "a18ee673c7e5027d54eb046385eaf9632f30b292a7c79c592bff8ac330d602cb"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/manifest.json",
+      "sha256": "b2f06a14433f546ea24d2f49990d38c13ec7b8e1ed945c9b8e09ac17927acac9"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/manifest_completion.json",
+      "sha256": "4c137c2e82475d9f6ad28168e8fcc3cca2460167e8187bf021c6eff78f06cd4b"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/metrics.csv",
+      "sha256": "b9d5710cf77695198cde83d55b180e814f412ba6cf9f8db3513b04f2f18721d4"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/protocol.md",
+      "sha256": "24c9e92f528a6cdc5e97a657fa7c8d0db3b4428434eb1d9cef4054d0d3b43bee"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/protocol_freeze.json",
+      "sha256": "eb308135cee0b1aefd9215cc35a1dbbb0cf43e7f4fc8854a1424b5d1df8f9588"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/resolved_config.json",
+      "sha256": "87e452f0c05381aee1451bdbc05a60567fc8295089d27ef85bfbd7a5f8d281c1"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/resolved_config.yaml",
+      "sha256": "87e452f0c05381aee1451bdbc05a60567fc8295089d27ef85bfbd7a5f8d281c1"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/results.json",
+      "sha256": "9c6c95c115e9d350e26c43707092c65208020eac9b02b91d389d335fa3febd08"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/source.py",
+      "sha256": "81682d063317df6f1fd0f0edfd5e86164b86416aac0b83f61aaa11f8f4ba191d"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/stdout.log",
+      "sha256": "b63e7ce96eedf1df9fcc02de7a53b4ec3c23e61dadb11d1ba6b79fa9cf90f836"
+    },
+    {
+      "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/transitions.jsonl",
+      "sha256": "409e2eb4095d2358ae3ac53e379c3c273288f5d604c5c01ced63e704bd452b7d"
+    },
+    {
+      "path": "configs/P2_LEARNER_OBSERVER.json",
+      "sha256": "87e452f0c05381aee1451bdbc05a60567fc8295089d27ef85bfbd7a5f8d281c1"
+    },
+    {
+      "path": "docs/P2_OPERATION_SPECIFICATIONS.md",
+      "sha256": "d37a52eeb569461503b262d2790a656048624ede4790aeb49254e5a9f133c26f"
+    },
+    {
+      "path": "docs/P3_AUDIT_REVIEW_PACKET.md",
+      "sha256": "9dfd170e94112d71914348e9815bd1fbf1746a97bae24353b937983d8b844097"
+    },
+    {
+      "path": "docs/P3_DESIGN_DECISIONS.md",
+      "sha256": "9c7a75e4c3ca094dffc2fb8c50bacbc6c9911ea9b83036acee582a5a8c64edef"
+    },
+    {
+      "path": "docs/P3_RESIDUAL_REVIEW_SUPPLEMENT.md",
+      "sha256": "252abc01455e0fa71d30ebfa0179ca547212fe1b945aee9cfd52229be5e3c61a"
+    },
+    {
+      "path": "docs/USER_AMENDMENTS_2026-09-06.md",
+      "sha256": "dc61574fa31f4e132f181b100e49df59cbb1272e82ec01cd08bb8c25ac4e1e15"
+    },
+    {
+      "path": "docs/followups/P2_LEARNER_OBSERVER_PROTOCOL.md",
+      "sha256": "24c9e92f528a6cdc5e97a657fa7c8d0db3b4428434eb1d9cef4054d0d3b43bee"
+    },
+    {
+      "path": "docs/governing/01_THE_PROBLEM.md",
+      "sha256": "e89ddd629cfc839be31d0127acb59354b5e38d23e77859a8d8c7bbea87e00d3e"
+    },
+    {
+      "path": "docs/governing/02_RESEARCH_PROCESS.md",
+      "sha256": "7bf3c496962d0ede489ef10a237d3b70830fb439f3395235c3b8c18a23c4bc3d"
+    },
+    {
+      "path": "docs/governing/03_AUTONOMY_SPEC.md",
+      "sha256": "b4beb0712e44fa7621da14bc2e9c55fb66dbd7866a93cc335b36f9f532b2a912"
+    },
+    {
+      "path": "evidence/P2_LEARNER_OBSERVER_PROTOCOL_FREEZE.json",
+      "sha256": "eb308135cee0b1aefd9215cc35a1dbbb0cf43e7f4fc8854a1424b5d1df8f9588"
+    },
+    {
+      "path": "evidence/P2_OBSERVER_INTERPRETATION.md",
+      "sha256": "718e010250f31501e17692845d708d70933c6d2c0f369ded6c2b29de408fb982"
+    },
+    {
+      "path": "evidence/P3_AUDIT_REVIEW_MANIFEST.json",
+      "sha256": "8d475e93aa21db5d7210f337c036e2705e3a4b83b6d99d43d715161d63b7e374"
+    },
+    {
+      "path": "evidence/P3_C1_C4_PRIMARY_AUDIT.md",
+      "sha256": "2de34586a2e902d5fc2c9ce71393ed92418dedd0a6c458c0a8db047b3144a784"
+    },
+    {
+      "path": "evidence/P3_C2_PRIMARY_AUDIT.md",
+      "sha256": "d56c20d58d390130da2ef7091c1db550352e5593e6ce2e532aca48d91c42e4fc"
+    },
+    {
+      "path": "evidence/P3_C3_PRIMARY_AUDIT.md",
+      "sha256": "07116664720e544d8cc6d8dd979b3469d50ded587f1d2c1175ade5c8a87d3864"
+    },
+    {
+      "path": "evidence/P3_C4_WRAPPER_AUDIT_2026-09-07.md",
+      "sha256": "a9b7b273a85a7962e4b7d57e38b96c82454f6265c8090482710f542b8cb21d3f"
+    },
+    {
+      "path": "evidence/P3_JOINT_AUDIT_BOUNDARY_2026-09-07.md",
+      "sha256": "3db85b6fa9f8050b4c77f75f09717b3902a5795044f7f8c14b6c78904627bf8c"
+    },
+    {
+      "path": "evidence/P3_OBSERVER_IDENTIFIABILITY_2026-09-07.md",
+      "sha256": "cf6e0f2be6994a4ccb7021755dc7f6fa6e6ec867b187135b10be565a2e51ccd5"
+    },
+    {
+      "path": "evidence/P3_OBSERVER_PRIMARY_AUDIT_2026-09-07.md",
+      "sha256": "b3190a1075d56362f8e52c9044dc402b963c02f77127fe570191a4e0cd73ce90"
+    },
+    {
+      "path": "evidence/P3_RESIDUAL_REVIEW_MANIFEST.json",
+      "sha256": "f7249d53060349fdfbaca2102672457e3e8966ef510d6853322b10da75762128"
+    },
+    {
+      "path": "evidence/P3_THROUGHLINE_PRIOR_METHODS.md",
+      "sha256": "2cfe2b3cfb38494a394134f7e017cab59ac994d6e70469d427f8361061374913"
+    },
+    {
+      "path": "evidence/P3_THROUGHLINE_PROPOSITION.md",
+      "sha256": "a4504d2730a8bbfdf4e07e6f04ed2c6073bc1140e6a3e28a401f348b3b40918a"
+    },
+    {
+      "path": "evidence/PHASE2_APPROVAL_AND_CHECKPOINT006_VERIFICATION.json",
+      "sha256": "2eedb9d6ac2a6c63ee99d333e2ec334f1f7d474e6343933a30364645781d139c"
+    },
+    {
+      "path": "reports/P2_LEARNER_OBSERVER_001.md",
+      "sha256": "5503b185549fcce4daa841a9f4445f53d4f94dc3a43a73440bf877b2d38d1f11"
+    },
+    {
+      "path": "reports/P2_LEARNER_OBSERVER_METADATA_COMPLETION.md",
+      "sha256": "8a58646a3179d11f882676c2d76869cb0334eeadd57d53baf1dc6a05ced501ac"
+    },
+    {
+      "path": "reports/P3_RESIDUAL_AUDIT_2026-09-07.md",
+      "sha256": "356999d5d27ac765e8470037470df22d911f7920dad0f4ab22ef8d26848ede19"
+    },
+    {
+      "path": "scripts/run_learner_observer.py",
+      "sha256": "81682d063317df6f1fd0f0edfd5e86164b86416aac0b83f61aaa11f8f4ba191d"
+    },
+    {
+      "path": "state/escalations/2026-09-06_PHASE2_APPROVED.md",
+      "sha256": "23f17f6526f3cf068ccb95175b11fe6f37e0654dfb2bad207a942d635f40f579"
+    }
+  ],
+  "private_source_PDFs_matched_by_explicit_hash": [
+    {
+      "sha256": "1dde8daec314d13fa64126495b756cf0ef7042d9ad6e36f2c8845b9dffc06aa3",
+      "selected_private_source": "private_sources/P3_throughline/Angluin1987.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_throughline/Angluin1987.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_THROUGHLINE_PRIOR_METHODS.md"
+      ],
+      "offline_packet_path": "private_papers/1dde8daec314d13fa64126495b756cf0ef7042d9ad6e36f2c8845b9dffc06aa3.pdf"
+    },
+    {
+      "sha256": "2af08a6e888d5b68ae45399659cc2e27a8aa5d1ce6b25cb91ff7d8190c187e6a",
+      "selected_private_source": "private_sources/P3_throughline/Petrick2002.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_C4_WRAPPER/petrick_bacchus2002.pdf",
+        "private_sources/P3_throughline/Petrick2002.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_C4_WRAPPER_AUDIT_2026-09-07.md",
+        "evidence/P3_JOINT_AUDIT_BOUNDARY_2026-09-07.md",
+        "evidence/P3_THROUGHLINE_PRIOR_METHODS.md"
+      ],
+      "offline_packet_path": "private_papers/2af08a6e888d5b68ae45399659cc2e27a8aa5d1ce6b25cb91ff7d8190c187e6a.pdf"
+    },
+    {
+      "sha256": "349e6ec56de6aaa0b4f118067a68c2062a4aaae25b98c5c2fc2ad489aa675a91",
+      "selected_private_source": "private_sources/P3_C3/LDC2024S.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_C3/LDC2024S.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_C3_PRIMARY_AUDIT.md"
+      ],
+      "offline_packet_path": "private_papers/349e6ec56de6aaa0b4f118067a68c2062a4aaae25b98c5c2fc2ad489aa675a91.pdf"
+    },
+    {
+      "sha256": "3ad83d5f86123687d7ed5929bdbe718ae3f2462d83731182402927cdf52ecd2c",
+      "selected_private_source": "private_sources/P3_C3/Csiszarik2021S.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_C3/Csiszarik2021S.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_C3_PRIMARY_AUDIT.md"
+      ],
+      "offline_packet_path": "private_papers/3ad83d5f86123687d7ed5929bdbe718ae3f2462d83731182402927cdf52ecd2c.pdf"
+    },
+    {
+      "sha256": "46f5eedab58093f2dd4e0470c34d8090ab440cb0d095b288a31ed031bcee6943",
+      "selected_private_source": "private_sources/P3_C3/Maiorca2023.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_C3/Maiorca2023.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_C3_PRIMARY_AUDIT.md"
+      ],
+      "offline_packet_path": "private_papers/46f5eedab58093f2dd4e0470c34d8090ab440cb0d095b288a31ed031bcee6943.pdf"
+    },
+    {
+      "sha256": "493193df7fa4e0dc30d8cef4bb5b08c13d423778447aa2734b97813ab47ed1ce",
+      "selected_private_source": "private_sources/P3_C4_WRAPPER/pawlak1982.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_C4_WRAPPER/pawlak1982.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_C4_WRAPPER_AUDIT_2026-09-07.md"
+      ],
+      "offline_packet_path": "private_papers/493193df7fa4e0dc30d8cef4bb5b08c13d423778447aa2734b97813ab47ed1ce.pdf"
+    },
+    {
+      "sha256": "498e39ae54157e6fe7843325c5b3a034b1c2fb1b27cc5fca6df53a2211cfee3d",
+      "selected_private_source": "private_sources/P3_OBSERVER/davari2022_preprint.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_OBSERVER/davari2022_preprint.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_OBSERVER_PRIMARY_AUDIT_2026-09-07.md"
+      ],
+      "offline_packet_path": "private_papers/498e39ae54157e6fe7843325c5b3a034b1c2fb1b27cc5fca6df53a2211cfee3d.pdf"
+    },
+    {
+      "sha256": "4d5eedc31e9988b9de3fcc546da31d210e5a735b6eccf46116461a2a7d3c42f9",
+      "selected_private_source": "private_sources/P3_throughline/Li2011.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_throughline/Li2011.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_JOINT_AUDIT_BOUNDARY_2026-09-07.md",
+        "evidence/P3_THROUGHLINE_PRIOR_METHODS.md"
+      ],
+      "offline_packet_path": "private_papers/4d5eedc31e9988b9de3fcc546da31d210e5a735b6eccf46116461a2a7d3c42f9.pdf"
+    },
+    {
+      "sha256": "5732a9494b2ae93bfb9b1b4fcbab26f9d7c8046bdb571c85708012f60968de73",
+      "selected_private_source": "private_sources/P3_C2_Grass1997.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_C2_Grass1997.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_C2_PRIMARY_AUDIT.md"
+      ],
+      "offline_packet_path": "private_papers/5732a9494b2ae93bfb9b1b4fcbab26f9d7c8046bdb571c85708012f60968de73.pdf"
+    },
+    {
+      "sha256": "65983cd639bffadb3c0700d2c8314d01f2ffaf31e22bb482ac2255ebb5e5a9a5",
+      "selected_private_source": "private_sources/P3_OBSERVER/lenth2015.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_OBSERVER/lenth2015.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_OBSERVER_PRIMARY_AUDIT_2026-09-07.md"
+      ],
+      "offline_packet_path": "private_papers/65983cd639bffadb3c0700d2c8314d01f2ffaf31e22bb482ac2255ebb5e5a9a5.pdf"
+    },
+    {
+      "sha256": "6afbe29e075cd9dea5591f2dffafeb83a72ae00c568c9e3a506c31d3f371dd0c",
+      "selected_private_source": "private_sources/P3_C1_C4/aq15manual1986.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_C1_C4/aq15manual1986.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_C1_C4_PRIMARY_AUDIT.md"
+      ],
+      "offline_packet_path": "private_papers/6afbe29e075cd9dea5591f2dffafeb83a72ae00c568c9e3a506c31d3f371dd0c.pdf"
+    },
+    {
+      "sha256": "6ee0e363a851db324b6ca1dfb6e6c7937b7a6f7019ff75a8092de569ba62834f",
+      "selected_private_source": "private_sources/P3_C3/Zheng2025.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_C3/Zheng2025.pdf",
+        "private_sources/P3_OBSERVER/zheng2025.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_C3_PRIMARY_AUDIT.md",
+        "evidence/P3_OBSERVER_PRIMARY_AUDIT_2026-09-07.md"
+      ],
+      "offline_packet_path": "private_papers/6ee0e363a851db324b6ca1dfb6e6c7937b7a6f7019ff75a8092de569ba62834f.pdf"
+    },
+    {
+      "sha256": "70c9e813a5208cd334a4f7b5e30eb71c093803d2c690bf4278cf5908096036fc",
+      "selected_private_source": "private_sources/P3_C3/HAL2020v1.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_C3/HAL2020v1.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_C3_PRIMARY_AUDIT.md"
+      ],
+      "offline_packet_path": "private_papers/70c9e813a5208cd334a4f7b5e30eb71c093803d2c690bf4278cf5908096036fc.pdf"
+    },
+    {
+      "sha256": "71a6d1aee278e93c5fae8dd7d0c452c8b7b035af55d9dce2bc367d473bfc9645",
+      "selected_private_source": "private_sources/P3_C1_C4/pomdp1998.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_C1_C4/pomdp1998.pdf",
+        "private_sources/P3_C2_Kaelbling1998.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_C1_C4_PRIMARY_AUDIT.md",
+        "evidence/P3_C2_PRIMARY_AUDIT.md"
+      ],
+      "offline_packet_path": "private_papers/71a6d1aee278e93c5fae8dd7d0c452c8b7b035af55d9dce2bc367d473bfc9645.pdf"
+    },
+    {
+      "sha256": "726c620d1001371ea735a5a8d782af1673e5a9c917cbfa0552596ff513dbba39",
+      "selected_private_source": "private_sources/P3_C1_C4/mitchell1977.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_C1_C4/mitchell1977.pdf",
+        "private_sources/P3_throughline/Mitchell1977.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_C1_C4_PRIMARY_AUDIT.md",
+        "evidence/P3_THROUGHLINE_PRIOR_METHODS.md"
+      ],
+      "offline_packet_path": "private_papers/726c620d1001371ea735a5a8d782af1673e5a9c917cbfa0552596ff513dbba39.pdf"
+    },
+    {
+      "sha256": "77ca6a277eb55ac3c9c4329492a6d3c71e644ff503b33de51ae79ea031508313",
+      "selected_private_source": "private_sources/P3_OBSERVER/lovell1963.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_OBSERVER/lovell1963.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_OBSERVER_PRIMARY_AUDIT_2026-09-07.md"
+      ],
+      "offline_packet_path": "private_papers/77ca6a277eb55ac3c9c4329492a6d3c71e644ff503b33de51ae79ea031508313.pdf"
+    },
+    {
+      "sha256": "86451bd6586237fc8216266d250d4bc53d47abd62f1e6eafb2b1eed960a45692",
+      "selected_private_source": "private_sources/P3_C3/Lenc2015.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_C3/Lenc2015.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_C3_PRIMARY_AUDIT.md"
+      ],
+      "offline_packet_path": "private_papers/86451bd6586237fc8216266d250d4bc53d47abd62f1e6eafb2b1eed960a45692.pdf"
+    },
+    {
+      "sha256": "8d55e38fbef963ee6edc3c00e482e9f57675d39851c21612b4284c10ed6960fd",
+      "selected_private_source": "private_sources/P3_throughline/Li2008.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_throughline/Li2008.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_THROUGHLINE_PRIOR_METHODS.md"
+      ],
+      "offline_packet_path": "private_papers/8d55e38fbef963ee6edc3c00e482e9f57675d39851c21612b4284c10ed6960fd.pdf"
+    },
+    {
+      "sha256": "93126ade4f0879503bc807357ec8ce412eeeab52ca7f86719fe798f6f372f3ae",
+      "selected_private_source": "private_sources/P3_C4_WRAPPER/pawlak_skowron2007.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_C4_WRAPPER/pawlak_skowron2007.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_C4_WRAPPER_AUDIT_2026-09-07.md"
+      ],
+      "offline_packet_path": "private_papers/93126ade4f0879503bc807357ec8ce412eeeab52ca7f86719fe798f6f372f3ae.pdf"
+    },
+    {
+      "sha256": "934249a6e53e8782d41b72b1379ca151941a34c0474dc70e81d4fb71cfc502ce",
+      "selected_private_source": "private_sources/P3_C3/LDC2024.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_C3/LDC2024.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_C3_PRIMARY_AUDIT.md"
+      ],
+      "offline_packet_path": "private_papers/934249a6e53e8782d41b72b1379ca151941a34c0474dc70e81d4fb71cfc502ce.pdf"
+    },
+    {
+      "sha256": "95e5e12c4206f598103557d311b41931750254924655d5fd7ecd22113a5d5de3",
+      "selected_private_source": "private_sources/P3_C1_C4/rabin_scott1959.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_C1_C4/rabin_scott1959.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_C1_C4_PRIMARY_AUDIT.md"
+      ],
+      "offline_packet_path": "private_papers/95e5e12c4206f598103557d311b41931750254924655d5fd7ecd22113a5d5de3.pdf"
+    },
+    {
+      "sha256": "a42d38b52865dac4048eeb1300853b812916ffbcae63b58ef85df22913867c58",
+      "selected_private_source": "private_sources/P3_C3/Cotogni2025.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_C3/Cotogni2025.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_C3_PRIMARY_AUDIT.md"
+      ],
+      "offline_packet_path": "private_papers/a42d38b52865dac4048eeb1300853b812916ffbcae63b58ef85df22913867c58.pdf"
+    },
+    {
+      "sha256": "acb0d65cad3a563a821a3b81c210f6aa0c83a7d730e2b4327bd373a06e5f00f3",
+      "selected_private_source": "private_sources/P3_C2_Huang2024.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_C2_Huang2024.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_C2_PRIMARY_AUDIT.md"
+      ],
+      "offline_packet_path": "private_papers/acb0d65cad3a563a821a3b81c210f6aa0c83a7d730e2b4327bd373a06e5f00f3.pdf"
+    },
+    {
+      "sha256": "d148f051634d1839ff77635b3be79422f03e4a68325ce75b65f57d89fc6b18d5",
+      "selected_private_source": "private_sources/P3_OBSERVER/ogd2020.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_OBSERVER/ogd2020.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_OBSERVER_PRIMARY_AUDIT_2026-09-07.md"
+      ],
+      "offline_packet_path": "private_papers/d148f051634d1839ff77635b3be79422f03e4a68325ce75b65f57d89fc6b18d5.pdf"
+    },
+    {
+      "sha256": "d63315c4ed81ec390979bfaea1bdcb8f3136020be8c9aa115e122b650bde2997",
+      "selected_private_source": "private_sources/P3_C2_Klenske2016.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_C2_Klenske2016.pdf",
+        "private_sources/p13_root/klenske2016.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_C2_PRIMARY_AUDIT.md"
+      ],
+      "offline_packet_path": "private_papers/d63315c4ed81ec390979bfaea1bdcb8f3136020be8c9aa115e122b650bde2997.pdf"
+    },
+    {
+      "sha256": "dd66054de2136f66fb06976e1c68d700db15cc5bb600a75a4cce2912ad63b61c",
+      "selected_private_source": "private_sources/P3_C3/Hou2017.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_C3/Hou2017.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_C3_PRIMARY_AUDIT.md"
+      ],
+      "offline_packet_path": "private_papers/dd66054de2136f66fb06976e1c68d700db15cc5bb600a75a4cce2912ad63b61c.pdf"
+    },
+    {
+      "sha256": "e107aaa12716e4a50ca810c90f5da4a2c44c5689921e67d1dd6bc74457c5c0b2",
+      "selected_private_source": "private_sources/P3_C1_C4/aq151986.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_C1_C4/aq151986.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_C1_C4_PRIMARY_AUDIT.md"
+      ],
+      "offline_packet_path": "private_papers/e107aaa12716e4a50ca810c90f5da4a2c44c5689921e67d1dd6bc74457c5c0b2.pdf"
+    },
+    {
+      "sha256": "e9c4e30a1a140b093f0bb57dc9fc986788e0033205f79ef87dcd4c0336c12d71",
+      "selected_private_source": "private_sources/P3_throughline/Ross2007.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_throughline/Ross2007.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_JOINT_AUDIT_BOUNDARY_2026-09-07.md",
+        "evidence/P3_THROUGHLINE_PRIOR_METHODS.md"
+      ],
+      "offline_packet_path": "private_papers/e9c4e30a1a140b093f0bb57dc9fc986788e0033205f79ef87dcd4c0336c12d71.pdf"
+    },
+    {
+      "sha256": "f78975e59bce5279fa5e200b4bd9dce81d606039c53ddd3d2fa4929e5605319d",
+      "selected_private_source": "private_sources/P3_C3/Csiszarik2021.pdf",
+      "equivalent_local_copies": [
+        "private_sources/P3_C3/Csiszarik2021.pdf"
+      ],
+      "cited_by": [
+        "evidence/P3_C3_PRIMARY_AUDIT.md"
+      ],
+      "offline_packet_path": "private_papers/f78975e59bce5279fa5e200b4bd9dce81d606039c53ddd3d2fa4929e5605319d.pdf"
+    }
+  ],
+  "private_contents_redistributed_publicly": false,
+  "all_packet_copies_verified": true,
+  "full_method_closure": "pending audit of citations without an explicit PDF hash, versions, relevant supporting supplements and extraction readiness",
+  "runtime_enforcement": "only fixed command canary observed; complete reviewer tools and fresh context still unverified",
+  "model_called": false,
+  "formal_verdict": null
+}
