@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-07",
+  "scope": "Execution provenance caveat, not science",
+  "observed_existing_report_path": "artifacts/P3_REVIEW_BROKER_VALIDATION/20260907_002/REPORT.json",
+  "observed_existing_report_sha256": "3654155e124cc575d53963153f866c721053d79f4bb0c8b6983410bfa8cf419b",
+  "observation": "Expected fresh validation destination already contained report, auditor receipt and test logs before the newly written VALIDATE.py was invoked. That invocation stopped on exclusive-create FileExistsError. The new script cannot be cited as the producer of the pre-existing report. Cause unestablished; no existing result overwritten.",
+  "error_verbatim": "FileExistsError: [Errno 17] File exists: artifacts/P3_REVIEW_BROKER_VALIDATION/20260907_002/mount_tests.stdout",
+  "recovery": "Use a fresh UUID-suffixed exclusive directory and verify final source/result bytes directly; preserve both earlier artifacts.",
+  "new_validation_source": "artifacts/P3_REVIEW_BROKER_VALIDATION/20260907_003_aad8feb3/VALIDATE.py"
+}

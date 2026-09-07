@@ -1,0 +1,25 @@
+{
+  "scope": "Transport-only adaptation from checkpoint011; no scientific checker, threshold, output pins or base files changed",
+  "base": "66c15424b545044b310a9e8e6db93b37b0ec1d70",
+  "substitutions": [
+    {
+      "old": "checkpoint-011",
+      "new": "checkpoint-012"
+    },
+    {
+      "old": "BASE = \"9925b3697a2d829044539833f6ca1c26ac8d1702\"",
+      "new": "BASE = \"66c15424b545044b310a9e8e6db93b37b0ec1d70\""
+    },
+    {
+      "old": "P3_CHECKPOINT_011",
+      "new": "P3_CHECKPOINT_012"
+    },
+    {
+      "old": "delivery/checkpoint011_backups",
+      "new": "delivery/checkpoint012_backups"
+    }
+  ],
+  "old_helper_sha256": "ddbbd299558db30d49cfbda8dbb801ebec8194f4ce87a0f6eed9277f76bda0c3",
+  "new_helper_sha256": "d1cc0010530b9590a1453a560e6e2cc6da2dda82c0e8e47654b3aaefb88b55e9",
+  "all_other_helper_bytes_unchanged": true
+}

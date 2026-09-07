@@ -1,0 +1,75 @@
+{
+  "kind": "GATE0_CODEX_IDENTITY_BACKING_SOURCE_v1",
+  "source_commit": "78c290807ce710180111df227df3b7a4fe845452",
+  "source_blob_hashes_verified": true,
+  "runtime_executed": false,
+  "files": [
+    {
+      "path": "codex-rs/core/src/responses_metadata.rs",
+      "bytes": 22664,
+      "sha256": "e6ce9a115938b9134a83e9c76819b6b13446e625a46bf475e3607a0a3e223b87",
+      "git_blob_sha1": "698e5a0ca24394f29f0d3100d997c7ee21452adf",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/responses_metadata.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/core/src/turn_metadata.rs",
+      "bytes": 19576,
+      "sha256": "cce6f05c78cfc1631ec2b48171bb8cf59ad99898fcf39fc0ac6be98aacce5166",
+      "git_blob_sha1": "afae92f22fd3b5cd9b987a7d705471b4be205ef3",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/turn_metadata.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/core/src/client.rs",
+      "bytes": 106486,
+      "sha256": "113bde60551abdbf96e3603b4f1754a072886e712ef0d0049f360a64dddec375",
+      "git_blob_sha1": "eec874f08ca0d9c8772b44f5e0167e881f24cdac",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/client.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/app-server-transport/src/transport/remote_control/server_api.rs",
+      "bytes": 11829,
+      "sha256": "ad0a12002984d0e28df40de123a0f1bb829172fe8543f5e0e396b425912b1148",
+      "git_blob_sha1": "fcd4ae9a42ecedbf801a42d324b0b72a0cd9e66b",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server-transport/src/transport/remote_control/server_api.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/vendor/bubblewrap/bwrap.xml",
+      "bytes": 32070,
+      "sha256": "8af8e849cd635c1db3bbe06733ac4817671441b6c46cb2f0701cbe487278463d",
+      "git_blob_sha1": "f379f0fa46a98ddb648efef6ca9e49e29b7e8c4f",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/vendor/bubblewrap/bwrap.xml",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/vendor/bubblewrap/COPYING",
+      "bytes": 25383,
+      "sha256": "b7993225104d90ddd8024fd838faf300bea5e83d91203eab98e29512acebd69c",
+      "git_blob_sha1": "5bc8fb2c8f757e34a0d8f4644f589d57609e213f",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/vendor/bubblewrap/COPYING",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 10926,
+      "sha256": "d17f227e4df5da1600391338865ce0f3055211760a36688f816941d58232d8dc",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/LICENSE",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 242,
+      "sha256": "9d71575ecfd9a843fc1677b0efb08053c6ba9fd686a0de1a6f5382fd3c220915",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/NOTICE",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "discovery": "GitHub current default-branch search used solely for source path discovery; all cited source contents fetched and blob-verified at the exact release commit.",
+  "capture_correction": {
+    "exact_failure": "Blob mismatch codex-rs/vendor/bubblewrap/LICENSE",
+    "explanation": "LICENSE is a source-tree symlink and the contents fetch dereferenced it; the regular COPYING file is retained and blob-verified instead. The source-tree symlink blob is not claimed to equal the dereferenced content."
+  }
+}

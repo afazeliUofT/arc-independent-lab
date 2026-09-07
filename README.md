@@ -46,3 +46,7 @@ The approved Phase 1 diagnosis remains unchanged. The parked file was first read
 The canonical experiment entry point is `scripts/run_reproduction.py`. Reproduce with `python3 scripts/run_reproduction.py --config configs/P1_LINEAR_INTERFERENCE.json --run-id YOUR_NEW_RUN_ID`. Existing raw-run directories are never overwritten. No packages, GPU, cluster or model API are required for this witness. See its report before interpreting the result.
 
 Original research code and associated project documentation use MIT-0. Referenced papers retain their own copyrights and are not redistributed here. No paid API, extra credits, hosted compute rental or unattended model loop is configured.
+
+## Latest operational step — checkpoint012
+
+Checkpoint011 publication is verified. The finite reviewer broker/protocol and a bounded no-model client-startup driver are implemented. Read `reports/P3_BROKER_PREPARATION_2026-09-07.md` and `docs/GATE0_CLIENT_PREFLIGHT_RUN.md`. Actual client startup, full reviewer enforcement and the scientific verdict remain pending; the driver does not launch a model.

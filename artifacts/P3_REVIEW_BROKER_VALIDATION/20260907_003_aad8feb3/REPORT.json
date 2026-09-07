@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-07T16:55:16.219331+00:00",
+  "scope": "PI engineering validation, not independent review or observed real-client isolation",
+  "unit_tests": [
+    {
+      "test_source": {
+        "path": "tests/test_p3_review_broker.py",
+        "sha256": "8fd3041c35a47b6ea00ff9b3f693fb1b9449fc61bdf943a1c042067bff325bf3"
+      },
+      "tests": 24,
+      "command": [
+        "python3",
+        "-I",
+        "-B",
+        "tests/test_p3_review_broker.py"
+      ],
+      "exit_code": 0,
+      "stdout": {
+        "path": "artifacts/P3_REVIEW_BROKER_VALIDATION/20260907_001/test_p3_review_broker.stdout",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "artifacts/P3_REVIEW_BROKER_VALIDATION/20260907_001/test_p3_review_broker.stderr",
+        "sha256": "6a6250574fa396a4e830fea0e4777a8d12e5b31929ca1efa4c4026e5e10dbb1a"
+      },
+      "reuse": "Passing suite from immediately prior validation; source unchanged"
+    },
+    {
+      "test_source": {
+        "path": "tests/test_p3_review_protocol.py",
+        "sha256": "512965578027dfb8131ee7e1139cab299408a6628bae6c8e3515217d9afbe963"
+      },
+      "tests": 10,
+      "command": [
+        "python3",
+        "-I",
+        "-B",
+        "tests/test_p3_review_protocol.py"
+      ],
+      "exit_code": 0,
+      "stdout": {
+        "path": "artifacts/P3_REVIEW_BROKER_VALIDATION/20260907_001/test_p3_review_protocol.stdout",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "artifacts/P3_REVIEW_BROKER_VALIDATION/20260907_001/test_p3_review_protocol.stderr",
+        "sha256": "de1ed5c58887c453629a97a710ca77b9935ec7f60cadf9bdf56f9e343a40ffbb"
+      },
+      "reuse": "Passing suite from immediately prior validation; source unchanged"
+    },
+    {
+      "test_source": {
+        "path": "tests/test_gate0_client_preflight.py",
+        "sha256": "ec14c1122fccdd7010d59cb756dd52457e01706a60cbe1f63d4c0ad6e37ae3ef"
+      },
+      "tests": 8,
+      "command": [
+        "python3",
+        "-I",
+        "-B",
+        "tests/test_gate0_client_preflight.py"
+      ],
+      "exit_code": 0,
+      "stdout": {
+        "path": "artifacts/P3_REVIEW_BROKER_VALIDATION/20260907_001/test_gate0_client_preflight.stdout",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "artifacts/P3_REVIEW_BROKER_VALIDATION/20260907_001/test_gate0_client_preflight.stderr",
+        "sha256": "45f5a3307f4db18fef0a020a94a51ff3213bd98f16025600f7da6b8700f7b95e"
+      },
+      "reuse": "Passing suite from immediately prior validation; source unchanged"
+    },
+    {
+      "test_source": {
+        "path": "scripts/test_gate0_client_mount_plan.py",
+        "sha256": "fd0896dcceefb924d98a70059d811ee18b33c8d6e3cc8a26551a6ffda583f65d"
+      },
+      "tests": 12,
+      "exit_code": 0,
+      "stdout": {
+        "path": "artifacts/P3_REVIEW_BROKER_VALIDATION/20260907_003_aad8feb3/mount_tests.stdout",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "artifacts/P3_REVIEW_BROKER_VALIDATION/20260907_003_aad8feb3/mount_tests.stderr",
+        "sha256": "fc523972b6a1714a1d54810e5e0468e39c4bd3e3d5232a86ffd2e808fc829bd9"
+      }
+    }
+  ],
+  "test_count": 54,
+  "sources": [
+    {
+      "path": "scripts/p3_review_broker.py",
+      "sha256": "6f2118cb32573c7774db269c09694913040d06adb5eca9e8ca1a0fafe6089536"
+    },
+    {
+      "path": "scripts/p3_review_protocol.py",
+      "sha256": "9bc4315dc3d6af679890828db5a1ee5ef19f49e2c7214cc0dd384728a9cf754f"
+    },
+    {
+      "path": "scripts/prepare_p3_broker_packet.py",
+      "sha256": "e9fb51e406a4f74901150303bccd08a516f64df36fc283bacebd29569f9a028b"
+    },
+    {
+      "path": "scripts/gate0_client_preflight.py",
+      "sha256": "d05d707dff9f6e0e1b546b1c312e493d58a5cf6460fa653227278781f898f680"
+    },
+    {
+      "path": "scripts/gate0_client_mount_plan.py",
+      "sha256": "4500a10227a5209a525e5ab7534a1bd2e55e3574c91381c584e5a99c7095a107"
+    }
+  ],
+  "packet": {
+    "manifest_sha256": "81940ef910efebd9ea67add1c04b54f6b8fa2c2bf81793f435acb0429263ee23",
+    "files": 148,
+    "private_contents_not_published": true
+  },
+  "actual_broker_protocol_routes": [
+    {
+      "tool": "hash_file",
+      "success": true,
+      "content_types": [
+        "inputText"
+      ]
+    },
+    {
+      "tool": "read_text",
+      "success": true,
+      "content_types": [
+        "inputText"
+      ]
+    },
+    {
+      "tool": "read_page_image",
+      "success": true,
+      "content_types": [
+        "inputText",
+        "inputImage"
+      ]
+    },
+    {
+      "tool": "run_observer_audit",
+      "success": true,
+      "content_types": [
+        "inputText"
+      ]
+    }
+  ],
+  "protocol_receipts": [
+    {
+      "method": "item/tool/call",
+      "tool": "hash_file",
+      "request_bytes": 189,
+      "request_sha256": "1f7bde11f9fdd06623617e5b02dc8d2288768ba19681ae81f27619d5883cf0cb",
+      "response_bytes": 277,
+      "response_sha256": "59fd925422f51dde698ec16b7d1417fab7cee0b993d66fc25dac9a2448ff2fe6"
+    },
+    {
+      "method": "item/tool/call",
+      "tool": "read_text",
+      "request_bytes": 227,
+      "request_sha256": "2c61d3126183aaa7dd7ac1f2bdeea45115c3fd0a2f4a64369744c9d8f1503c53",
+      "response_bytes": 1526,
+      "response_sha256": "16e2e69a30c00e6db759d82256ae288f5417cdda36f5c6a182e85b36b7cf2b2d"
+    },
+    {
+      "method": "item/tool/call",
+      "tool": "read_page_image",
+      "request_bytes": 274,
+      "request_sha256": "42592539276b1e67f6bf1b5777eac2f31176d19f6b3d769b72097aaf5dafd888",
+      "response_bytes": 685994,
+      "response_sha256": "6d9b2864e80bbd0f441c73c1923ebc6539becc987554fbd70ff48e8a407399ef"
+    },
+    {
+      "method": "item/tool/call",
+      "tool": "run_observer_audit",
+      "request_bytes": 180,
+      "request_sha256": "d5b87b15c37f3c3c196c9858dba116819fd53eff6a317b85ea9a0bf4b7dab0e8",
+      "response_bytes": 3423,
+      "response_sha256": "4fcbf5ffddfc42ac9a43568a1fae46308c0b751c1a4200360e5e8d0c5d2be4a4"
+    }
+  ],
+  "auditor": {
+    "receipt": {
+      "timestamp_utc": "2026-09-07T16:55:16.001238+00:00",
+      "run_directory": "artifacts/P2_LEARNER_OBSERVER/20260906_001",
+      "auditor_sha256": "871ab1e62a592d9b49f93d5d5d783e262f8db1cb15bcc0b8ba6191f0ca0d4b1e",
+      "artifact_consistency_passed": true,
+      "formal_gate_verdict": null,
+      "limitations": [
+        "Post-execution consistency check; not a prospective scientific gate.",
+        "Same tools/filesystem; not independent review or an enforced information-flow boundary.",
+        "Hashes prove byte equality, not externally attested execution or remote durability."
+      ],
+      "artifact_hashes": {
+        "environment_info.json": "827c217b798bc589196b7e8b6466eb410802b01a8862ae9783d31ee9d4be43c4",
+        "git_state.txt": "057613e36fc4f69860fafc961c316909e790e320818d0bd94f3e3a3bb1869d98",
+        "manifest.json": "b2f06a14433f546ea24d2f49990d38c13ec7b8e1ed945c9b8e09ac17927acac9",
+        "metrics.csv": "b9d5710cf77695198cde83d55b180e814f412ba6cf9f8db3513b04f2f18721d4",
+        "protocol.md": "24c9e92f528a6cdc5e97a657fa7c8d0db3b4428434eb1d9cef4054d0d3b43bee",
+        "protocol_freeze.json": "eb308135cee0b1aefd9215cc35a1dbbb0cf43e7f4fc8854a1424b5d1df8f9588",
+        "resolved_config.json": "87e452f0c05381aee1451bdbc05a60567fc8295089d27ef85bfbd7a5f8d281c1",
+        "results.json": "9c6c95c115e9d350e26c43707092c65208020eac9b02b91d389d335fa3febd08",
+        "source.py": "81682d063317df6f1fd0f0edfd5e86164b86416aac0b83f61aaa11f8f4ba191d",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout.log": "b63e7ce96eedf1df9fcc02de7a53b4ec3c23e61dadb11d1ba6b79fa9cf90f836",
+        "transitions.jsonl": "409e2eb4095d2358ae3ac53e379c3c273288f5d604c5c01ced63e704bd452b7d"
+      },
+      "SHA256SUMS_sha256": "62c11df350f2b37f49d020431d8b50083ffd2a8bc2bb50259029f0387e6ff3d3",
+      "transitions_checked": 6912,
+      "recovery_unlabeled_encoder_calls": 6912,
+      "evaluator_probes": 13824,
+      "maximum_arithmetic_residual": 1.3322676295501878e-15,
+      "absolute_tolerance": 1e-10,
+      "protected_original_files_checked": 17,
+      "source_interfaces": {
+        "recover_from_current_map": {
+          "arguments": [
+            "theta",
+            "old_query",
+            "subsequent_feature",
+            "tolerance"
+          ],
+          "loaded_names": [
+            "a",
+            "abs",
+            "b",
+            "coefficient",
+            "denominator",
+            "dot",
+            "old_query",
+            "overlap",
+            "projected",
+            "subsequent_feature",
+            "subsequent_norm",
+            "theta",
+            "tolerance",
+            "zip"
+          ]
+        },
+        "recover_from_update_spans": {
+          "arguments": [
+            "theta",
+            "old_basis",
+            "new_basis",
+            "old_query",
+            "tolerance"
+          ],
+          "loaded_names": [
+            "abs",
+            "axis",
+            "coefficient",
+            "coefficients",
+            "column",
+            "columns",
+            "direction",
+            "dot",
+            "enumerate",
+            "index",
+            "later",
+            "len",
+            "length",
+            "list",
+            "math",
+            "max",
+            "new_basis",
+            "old_basis",
+            "old_component",
+            "old_query",
+            "orthonormal",
+            "previous",
+            "range",
+            "reconstructed",
+            "residual",
+            "reversed",
+            "sum",
+            "theta",
+            "tolerance",
+            "triangular",
+            "x",
+            "y",
+            "zip"
+          ]
+        }
+      }
+    },
+    "receipt_sha256": "c318244609beee77d77599e3162240a4c24e4884207afb801df8075c59fe3fda",
+    "receipt_output_id": "observer-audit-ktq8smm9/evidence/REEXECUTION_RECEIPT.json",
+    "compared_to_historical_receipt": "all fields except timestamp_utc equal",
+    "source_archive": {
+      "original_files": 13,
+      "post_run_metadata_files": 4,
+      "post_run_metadata_remains_post_run": true
+    },
+    "new_experiment": false,
+    "formal_verdict": null
+  },
+  "public_actual_auditor_receipt": {
+    "path": "artifacts/P3_REVIEW_BROKER_VALIDATION/20260907_003_aad8feb3/ACTUAL_AUDITOR_RECEIPT.json",
+    "sha256": "c318244609beee77d77599e3162240a4c24e4884207afb801df8075c59fe3fda"
+  },
+  "real_codex_or_bwrap_executed": false,
+  "model_called": false,
+  "scientific_verdict_issued": false,
+  "limitations": [
+    "Synthetic transport is not full client enforcement.",
+    "Only manifested rendered pages are visually exposed; text/OCR remains fallible.",
+    "Auditor output size is checked after fixed-process capture, not streamed.",
+    "No allowance, subscription entitlement or reviewer verdict was observed."
+  ],
+  "previous_failed_harness": {
+    "path": "artifacts/P3_REVIEW_BROKER_VALIDATION/20260907_001/REPORT.json",
+    "sha256": "b2f32dca9b093dab851774a879e864704e84d3300d455b5791069542ea5aaf4d"
+  },
+  "prospective_correction": "All substantive verdicts require actual fixed audit; dependency verdict may report inability. No verdict has run."
+}

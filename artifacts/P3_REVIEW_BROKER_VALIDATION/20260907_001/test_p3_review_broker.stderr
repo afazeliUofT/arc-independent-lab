@@ -1,0 +1,29 @@
+test_actual_text_offsets_hashes_and_page_image (__main__.BrokerBoundaryTests.test_actual_text_offsets_hashes_and_page_image) ... ok
+test_all_substantive_verdicts_require_actual_auditor (__main__.BrokerBoundaryTests.test_all_substantive_verdicts_require_actual_auditor) ... ok
+test_any_changed_source_invalidates_unrelated_read_and_stops_broker (__main__.BrokerBoundaryTests.test_any_changed_source_invalidates_unrelated_read_and_stops_broker) ... ok
+test_boolean_negative_float_and_overlarge_bounds (__main__.BrokerBoundaryTests.test_boolean_negative_float_and_overlarge_bounds) ... ok
+test_dependency_verdict_exact_payload_exclusive_output_and_double_submit_denied (__main__.BrokerBoundaryTests.test_dependency_verdict_exact_payload_exclusive_output_and_double_submit_denied) ... ok
+test_duplicate_manifest_json_keys_and_boolean_schema_rejected (__main__.BrokerBoundaryTests.test_duplicate_manifest_json_keys_and_boolean_schema_rejected) ... ok
+test_equal_bytes_replaced_identity_detected (__main__.BrokerBoundaryTests.test_equal_bytes_replaced_identity_detected) ... ok
+test_extra_sha_claim_and_arbitrary_command_destination_denied (__main__.BrokerBoundaryTests.test_extra_sha_claim_and_arbitrary_command_destination_denied) ... ok
+test_forged_manifest_digest_rejected_before_read_return (__main__.BrokerBoundaryTests.test_forged_manifest_digest_rejected_before_read_return) ... ok
+test_forged_manifest_file_hash_rejected (__main__.BrokerBoundaryTests.test_forged_manifest_file_hash_rejected) ... ok
+test_hardlink_and_fifo_denied (__main__.BrokerBoundaryTests.test_hardlink_and_fifo_denied) ... ok
+test_manifest_changed_after_setup_rejected (__main__.BrokerBoundaryTests.test_manifest_changed_after_setup_rejected) ... ok
+test_preexisting_or_symlink_output_never_overwritten (__main__.BrokerBoundaryTests.test_preexisting_or_symlink_output_never_overwritten) ... ok
+test_specs_are_independent_copies (__main__.BrokerBoundaryTests.test_specs_are_independent_copies) ... ok
+test_specs_match_actual_embedded_dynamic_function_discriminator (__main__.BrokerBoundaryTests.test_specs_match_actual_embedded_dynamic_function_discriminator) ... ok
+test_stored_verdict_corruption_before_readback_is_not_reported_as_success (__main__.BrokerBoundaryTests.test_stored_verdict_corruption_before_readback_is_not_reported_as_success) ... ok
+test_symlink_file_and_directory_denied (__main__.BrokerBoundaryTests.test_symlink_file_and_directory_denied) ... ok
+test_traversal_absolute_unmanifested_and_noncanonical_paths (__main__.BrokerBoundaryTests.test_traversal_absolute_unmanifested_and_noncanonical_paths) ... ok
+test_verdict_arbitrary_destination_forged_evidence_and_missing_subject_denied (__main__.BrokerBoundaryTests.test_verdict_arbitrary_destination_forged_evidence_and_missing_subject_denied) ... ok
+test_wrong_resource_kind_and_out_of_range_text_denied (__main__.BrokerBoundaryTests.test_wrong_resource_kind_and_out_of_range_text_denied) ... ok
+test_actual_unchanged_auditor_and_original_metadata_partition (__main__.HistoricalAuditTests.test_actual_unchanged_auditor_and_original_metadata_partition) ... ok
+test_changed_auditor_rejected_before_execution (__main__.HistoricalAuditTests.test_changed_auditor_rejected_before_execution) ... ok
+test_forged_receipt_rejected_and_actual_output_preserved (__main__.HistoricalAuditTests.test_forged_receipt_rejected_and_actual_output_preserved) ... ok
+test_unlisted_expanded_archive_member_rejected_before_execution (__main__.HistoricalAuditTests.test_unlisted_expanded_archive_member_rejected_before_execution) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.576s
+
+OK

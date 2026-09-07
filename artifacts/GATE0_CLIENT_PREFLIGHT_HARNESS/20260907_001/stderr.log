@@ -1,0 +1,13 @@
+test_config_filter_does_not_serialize_unexpected_values (__main__.PreflightCases.test_config_filter_does_not_serialize_unexpected_values) ... ok
+test_deadline_output_limit_and_early_exit (__main__.PreflightCases.test_deadline_output_limit_and_early_exit) ... ok
+test_duplicate_json_and_nonfinite_rejected (__main__.PreflightCases.test_duplicate_json_and_nonfinite_rejected) ... ok
+test_environment_keeps_original_home_excludes_credentials (__main__.PreflightCases.test_environment_keeps_original_home_excludes_credentials) ... ok
+test_foreign_response_and_error_without_disclosure (__main__.PreflightCases.test_foreign_response_and_error_without_disclosure) ... ok
+test_only_three_allowed_requests_and_no_raw_config (__main__.PreflightCases.test_only_three_allowed_requests_and_no_raw_config) ... ok
+test_override_paths_types_and_enums_match_pinned_schema (__main__.PreflightCases.test_override_paths_types_and_enums_match_pinned_schema) ... ok
+test_server_approval_auth_tool_request_rejected (__main__.PreflightCases.test_server_approval_auth_tool_request_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.511s
+
+OK

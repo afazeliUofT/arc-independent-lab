@@ -1,0 +1,9 @@
+{
+  "date": "2026-09-07",
+  "record_type": "post_run_source_addition",
+  "path": "VALIDATE.py",
+  "sha256": "48a8bd8a301047054869684b729d6b46bbeabb0f13e6798c471ecc5b3c4d026f",
+  "is_producer_of_preexisting_report": false,
+  "invocation_result": "exclusive-create FileExistsError; no preexisting payload overwritten",
+  "scope": "Preserved failed rerun source, outside original SHA256SUMS; final operative validation is 20260907_003_aad8feb3"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "PARTIAL_VALIDATION_STOPPED",
+  "scope": "PI harness only; no client/model/reviewer",
+  "failure": "Mount planner test imported sibling via normal sys.path, unavailable under Python -I. First three suites passed; fourth did not execute tests. No real-packet integration ran.",
+  "error_verbatim": "Traceback (most recent call last):\n  File \"/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/scripts/test_gate0_client_mount_plan.py\", line 8, in <module>\n    from gate0_client_mount_plan import MountPlanError, build_mount_plan\nModuleNotFoundError: No module named 'gate0_client_mount_plan'\n",
+  "correction": "Use explicit file-location import in test, consistent with production preflight. Preserve this failed attempt and resume only the failed suite in next artifact."
+}

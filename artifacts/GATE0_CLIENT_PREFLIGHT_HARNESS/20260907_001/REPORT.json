@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-07",
+  "scope": "Final no-model launcher implementation harness; no actual Codex or bwrap run",
+  "source_files": [
+    {
+      "path": "scripts/gate0_client_preflight.py",
+      "sha256": "c4ab3f93969f0e1bb886d3ac1afd70d3626ba8821b3153b21d908b5c02664d14"
+    },
+    {
+      "path": "scripts/gate0_client_mount_plan.py",
+      "sha256": "4500a10227a5209a525e5ab7534a1bd2e55e3574c91381c584e5a99c7095a107"
+    },
+    {
+      "path": "tests/test_gate0_client_preflight.py",
+      "sha256": "ec14c1122fccdd7010d59cb756dd52457e01706a60cbe1f63d4c0ad6e37ae3ef"
+    },
+    {
+      "path": "scripts/test_gate0_client_mount_plan.py",
+      "sha256": "fd0896dcceefb924d98a70059d811ee18b33c8d6e3cc8a26551a6ffda583f65d"
+    }
+  ],
+  "preflight_tests": 8,
+  "exit_code": 0,
+  "late_narrow_correction": "Include existing delivery/.codex/config.toml among actual cwd-ancestor origins, with canonical delivery validation before inspecting it. Earlier broker integration remains unchanged.",
+  "managed_policy_verification": false,
+  "model_calls": 0,
+  "independent_review": false
+}

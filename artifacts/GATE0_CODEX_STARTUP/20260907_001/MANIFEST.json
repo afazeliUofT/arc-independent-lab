@@ -1,0 +1,340 @@
+{
+  "kind": "GATE0_CODEX_STARTUP_SOURCE_v1",
+  "source_commit": "78c290807ce710180111df227df3b7a4fe845452",
+  "accessed": "2026-09-07",
+  "observed_client_execution": false,
+  "source_blob_hashes_verified_against_exact_release_tree": true,
+  "files": [
+    {
+      "path": "codex-rs/app-server/src/lib.rs",
+      "bytes": 56946,
+      "sha256": "14c246a1c7d449faf2c84bd435efc9cc8624c8829cd76711f14e055629e09976",
+      "git_blob_sha1": "fcf9ecff1b5993f81b05252eaff34b3cf7edf7f5",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server/src/lib.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/core/src/installation_id.rs",
+      "bytes": 4535,
+      "sha256": "c279cdce8837195f66c362aa87c8a068c75ac022305e72bb129e98581b6930b5",
+      "git_blob_sha1": "a42e6b6d8353c8b5e4e14e5413850402bd5cb64b",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/installation_id.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/app-server/src/message_processor.rs",
+      "bytes": 70277,
+      "sha256": "14d505d87205a3a54515231770c38d56012316cb1f4b5a30e2c76c49341cc047",
+      "git_blob_sha1": "a4009236a2761c09172e527ba2edd576278fd173",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server/src/message_processor.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/core/src/config/mod.rs",
+      "bytes": 190945,
+      "sha256": "75544f344fef0ad40be9eb9e1d0dbbdafcd50929bfe32376118c9b56003d7d97",
+      "git_blob_sha1": "96da2f76f87d4c3164e4b0fe8f1ed718a294acca",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/config/mod.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/features/src/lib.rs",
+      "bytes": 56307,
+      "sha256": "62ac7c6f6109a1e984a0257aa1096753094b5d9dca9d638d19d75dc07b0c7940",
+      "git_blob_sha1": "a4d275cac8370c28b3b7fbb39daadf4c79e6019b",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/features/src/lib.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/core-plugins/src/manager.rs",
+      "bytes": 138454,
+      "sha256": "a510004da05d4925560afcc88fc7202c8bc7f8ff33ba6df81cd7a5d764047c8a",
+      "git_blob_sha1": "b6a50170bf67b65dc4effe3ddea1dd3a3dbbc9ef",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core-plugins/src/manager.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/app-server/src/models_refresh_worker.rs",
+      "bytes": 1943,
+      "sha256": "f4946acbb956e73240b9df23ae5e7ee8c4516414c587834c2b1389f346de81ce",
+      "git_blob_sha1": "e57abcc938fb78e173e839b626f2ff3a255d89f4",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server/src/models_refresh_worker.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/app-server/src/turn_cost_worker.rs",
+      "bytes": 17781,
+      "sha256": "072a4c77c4705cd09e06e904912dc4ef5112c95efd33373f311902c5891f4874",
+      "git_blob_sha1": "43b7b8e80e854eeef1f1c1553b6957aa9c817c39",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server/src/turn_cost_worker.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/app-server/src/request_processors/config_processor.rs",
+      "bytes": 44133,
+      "sha256": "6de2e4a711b680050214ef2212147d9df3f887774b181f9a48b9ea4eb56572fc",
+      "git_blob_sha1": "278fc8e05061e82e2d65d0c179661e77cb750436",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server/src/request_processors/config_processor.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/config/src/loader/mod.rs",
+      "bytes": 76594,
+      "sha256": "6fc44b60c64065994c9aa18df248eb521dba6b0e9917a8cf69fc60e0035ac56a",
+      "git_blob_sha1": "48ea0d3bc53b2c5852fa79c55a71b343c73093e9",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/config/src/loader/mod.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/config/src/loader/local.rs",
+      "bytes": 13404,
+      "sha256": "7c5f754d7be0141744221c804f7a8d830bca7bc35e8b9bce36ae78bbb3f1b030",
+      "git_blob_sha1": "05beb8020550ea6739f32e2740abf2226733ae74",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/config/src/loader/local.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/exec-server/src/lib.rs",
+      "bytes": 8298,
+      "sha256": "86d12be97ebe78c02688f9250b0c915a5553aab8141f9db1f0c12f904e52db30",
+      "git_blob_sha1": "f0e23038bbd8a2f992592e8ba39ebfaed36a31bb",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/exec-server/src/lib.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/app-server-transport/src/transport/remote_control/mod.rs",
+      "bytes": 41171,
+      "sha256": "21e97397c5b798396393a5c1977b1b2db9e341fbab2c5e47828c33b547117c11",
+      "git_blob_sha1": "a9a7814f4f11570b48f118dc0344b6935c8e478a",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server-transport/src/transport/remote_control/mod.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/exec-server/src/environment_registry.rs",
+      "bytes": 2536,
+      "sha256": "df7ec232d4504d638e28cf850a6c103fbde7fcdcda62aa03759f2f7e4cf46374",
+      "git_blob_sha1": "bc0755fd68b4d5634d3728fff7d5201150b29a9e",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/exec-server/src/environment_registry.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/exec-server/src/environment_config.rs",
+      "bytes": 7371,
+      "sha256": "f18fdcb95067d757e8e3dd58e674657eb4564ccf61d3499b7862ba77ebac5a1d",
+      "git_blob_sha1": "b53208b63a87d10210a0be1b12c2a756270c0e81",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/exec-server/src/environment_config.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/models-manager/src/manager.rs",
+      "bytes": 23981,
+      "sha256": "00a120284c6b1c6549fa39ae938a72cb6cfd40f683878fabdcc22f9216799f9c",
+      "git_blob_sha1": "45835c37cd41d28c3a6c038a3e77a1369621562a",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/models-manager/src/manager.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/config/src/loader/layer_io.rs",
+      "bytes": 7307,
+      "sha256": "a090443bc10317e086cd552c29ec4558917bdade0b397abd5229f81f93042022",
+      "git_blob_sha1": "1f6bf6b92d682e9fe3ff6d3b1be1bc560f0a121c",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/config/src/loader/layer_io.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/exec/src/lib.rs",
+      "bytes": 78627,
+      "sha256": "006216e9cf34be4792fb42aa5531609f366de2f691668c83af0b593f87e807db",
+      "git_blob_sha1": "b449a7195ff8bd396ff96980b47fb0b41bae5534",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/exec/src/lib.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/app-server-client/src/lib.rs",
+      "bytes": 79928,
+      "sha256": "2b9d6f6f5b965d3433fd45be49add3e60486af51ae5b4270c37a410005600717",
+      "git_blob_sha1": "cb9375f2b8783b593933596e0de1c9ec2588e554",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server-client/src/lib.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/app-server/src/in_process.rs",
+      "bytes": 45534,
+      "sha256": "039af6e795bc17faacf9a6e8e5179ab6507fa0ac0f50a3ef55f2038e3bef1695",
+      "git_blob_sha1": "12f82e6b9e68719541d7d67e83bf23caaefeab81",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server/src/in_process.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/linux-sandbox/src/lib.rs",
+      "bytes": 1024,
+      "sha256": "8735433ac001ab723a01cb21ab27ed085c9c0a89dd28941b7d086cd65e8f3905",
+      "git_blob_sha1": "ad442168227e5d52c440f5fc740bbd8cb2746fe7",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/linux-sandbox/src/lib.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/linux-sandbox/src/main.rs",
+      "bytes": 223,
+      "sha256": "48e33740760200bf423fc11fde551c3196ff7bc43f103defdc1cf701c98eafbb",
+      "git_blob_sha1": "83602b508ecfeb412285fe92a76c772758c501eb",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/linux-sandbox/src/main.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/linux-sandbox/src/linux_run_main.rs",
+      "bytes": 55151,
+      "sha256": "04a2baae6c245ff18c23369252b5244431da7563cb5ece2726d0f8272dbc51c9",
+      "git_blob_sha1": "43dfbb99fb4f7ed43e3265d4990b5a48c1d5d95c",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/linux-sandbox/src/linux_run_main.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/linux-sandbox/src/launcher.rs",
+      "bytes": 16007,
+      "sha256": "bf1d23f8020d4e73f7a3e235165f0953154170256a92cf0c8254e5ab32578f91",
+      "git_blob_sha1": "d4e9b521bf93f0861cf497c3153a9efdc6e3c67b",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/linux-sandbox/src/launcher.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/linux-sandbox/src/bundled_bwrap.rs",
+      "bytes": 11001,
+      "sha256": "6d57a035029048db8aeabed4a56c18f7fc72017dafb9ce61a53bd1b384e49566",
+      "git_blob_sha1": "61d10547d3b3eb499f8b8a06d6444845c4ff7f93",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/linux-sandbox/src/bundled_bwrap.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "codex-rs/linux-sandbox/src/bwrap.rs",
+      "bytes": 106289,
+      "sha256": "bfce8aa44048b2441a7c02b301fe7366ae1b8b9ddd8ff8518711cd874a9e749e",
+      "git_blob_sha1": "11e8e612af3cc4245a537fae18199acc74075a3b",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/linux-sandbox/src/bwrap.rs",
+      "accessed": "2026-09-07"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 10926,
+      "sha256": "d17f227e4df5da1600391338865ce0f3055211760a36688f816941d58232d8dc",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/LICENSE",
+      "accessed": "2026-09-07",
+      "note": "Exact copy of previously verified release license material"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 242,
+      "sha256": "9d71575ecfd9a843fc1677b0efb08053c6ba9fd686a0de1a6f5382fd3c220915",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/NOTICE",
+      "accessed": "2026-09-07",
+      "note": "Exact copy of previously verified release license material"
+    }
+  ],
+  "failed_initial_path_guesses": [
+    {
+      "path": "codex-rs/core/src/features.rs",
+      "response": {
+        "content": [
+          {
+            "text": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}",
+            "type": "text"
+          }
+        ],
+        "isError": true,
+        "structuredContent": {
+          "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}",
+          "error_code": "NOT_FOUND",
+          "error_data": {
+            "documentation_url": "https://docs.github.com/rest/repos/contents#get-repository-content",
+            "message": "Not Found",
+            "status": "404"
+          }
+        }
+      }
+    },
+    {
+      "path": "codex-rs/app-server/src/config_api.rs",
+      "response": {
+        "content": [
+          {
+            "text": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}",
+            "type": "text"
+          }
+        ],
+        "isError": true,
+        "structuredContent": {
+          "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}",
+          "error_code": "NOT_FOUND",
+          "error_data": {
+            "documentation_url": "https://docs.github.com/rest/repos/contents#get-repository-content",
+            "message": "Not Found",
+            "status": "404"
+          }
+        }
+      }
+    },
+    {
+      "path": "codex-rs/app-server/src/request_processors/plugin.rs",
+      "response": {
+        "content": [
+          {
+            "text": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}",
+            "type": "text"
+          }
+        ],
+        "isError": true,
+        "structuredContent": {
+          "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}",
+          "error_code": "NOT_FOUND",
+          "error_data": {
+            "documentation_url": "https://docs.github.com/rest/repos/contents#get-repository-content",
+            "message": "Not Found",
+            "status": "404"
+          }
+        }
+      }
+    },
+    {
+      "path": "codex-rs/app-server/src/request_processors/config.rs",
+      "response": {
+        "content": [
+          {
+            "text": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}",
+            "type": "text"
+          }
+        ],
+        "isError": true,
+        "structuredContent": {
+          "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}",
+          "error_code": "NOT_FOUND",
+          "error_data": {
+            "documentation_url": "https://docs.github.com/rest/repos/contents#get-repository-content",
+            "message": "Not Found",
+            "status": "404"
+          }
+        }
+      }
+    },
+    {
+      "path": "codex-rs/environments/src/manager.rs",
+      "response": {
+        "content": [
+          {
+            "text": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}",
+            "type": "text"
+          }
+        ],
+        "isError": true,
+        "structuredContent": {
+          "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}",
+          "error_code": "NOT_FOUND",
+          "error_data": {
+            "documentation_url": "https://docs.github.com/rest/repos/contents#get-repository-content",
+            "message": "Not Found",
+            "status": "404"
+          }
+        }
+      }
+    }
+  ]
+}

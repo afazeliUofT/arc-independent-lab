@@ -1,0 +1,15 @@
+test_duplicate_fields_and_nonfinite_and_boolean_id (__main__.BoundaryCases.test_duplicate_fields_and_nonfinite_and_boolean_id) ... ok
+test_error_contains_no_raw_input (__main__.BoundaryCases.test_error_contains_no_raw_input) ... ok
+test_every_other_exact_server_request_refused_without_dispatch (__main__.BoundaryCases.test_every_other_exact_server_request_refused_without_dispatch) ... ok
+test_exclusive_end_of_review (__main__.BoundaryCases.test_exclusive_end_of_review) ... ok
+test_foreign_bindings_unknown_namespace_and_tools (__main__.BoundaryCases.test_foreign_bindings_unknown_namespace_and_tools) ... ok
+test_image_transport_uses_data_uri (__main__.BoundaryCases.test_image_transport_uses_data_uri) ... ok
+test_oversized_request (__main__.BoundaryCases.test_oversized_request) ... ok
+test_replay_call_or_rpc_identifier (__main__.BoundaryCases.test_replay_call_or_rpc_identifier) ... ok
+test_valid_response_shape (__main__.BoundaryCases.test_valid_response_shape) ... ok
+test_work_limits_and_terminal_failure (__main__.BoundaryCases.test_work_limits_and_terminal_failure) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.017s
+
+OK
