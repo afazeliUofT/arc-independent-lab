@@ -1,6 +1,6 @@
 # ARC Independent Lab
 
-Autonomous research programme funded by Ali Fazeli. Current phase: **Phase 3 — novelty audit and programme design**. Ali approved `DIAGNOSIS.md` and `IDEAS.md`. The first primary-method audit is in `NOVELTY_AUDIT.md`: it documents component reductions, C3's historical-information correction and a separate audit of the shared uncertainty-preserving proposition. Independent verdicts and the measured design remain outstanding; no Phase 3 treatment has run.
+Autonomous research programme funded by Ali Fazeli. Current phase: **Phase 3 — novelty audit and programme design**. Ali approved `DIAGNOSIS.md` and `IDEAS.md`. Read `reports/P3_RESIDUAL_AUDIT_2026-09-07.md` with the preserved first audit, `NOVELTY_AUDIT.md`. The supplement corrects the distinction between reconstructible information and the actual answer path, completes the observer/C4 residual mappings, and limits whole-system priority claims. Independent review and measured design remain outstanding; no Phase 3 treatment has run.
 
 ## Resume without conversation memory
 
@@ -11,6 +11,8 @@ Verify repository state and checkpoint hashes before building on it. If blocked,
 ## Scientific navigation
 
 - `NOVELTY_AUDIT.md`: first reviewable component and through-line audit, including exactness limits.
+- `reports/P3_RESIDUAL_AUDIT_2026-09-07.md`: required corrections, residual audit and next scientific step.
+- `docs/P3_RESIDUAL_REVIEW_SUPPLEMENT.md`: additional questions and pinned evidence for the same separate review.
 - `docs/P3_DESIGN_DECISIONS.md`: scientific route, context-clearing controls and remaining measurements.
 - `docs/P3_AUDIT_REVIEW_PACKET.md`: separate reviewer task and required enforcement.
 - `docs/P3_GATE0_CAPABILITY_INVENTORY.md`: batched read-only laptop/Alliance observations.

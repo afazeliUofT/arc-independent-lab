@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-07T01:26:39.357367+00:00",
+  "base_commit": "7da5cc4ce22fac3163408a4889517c86d386f407",
+  "scope": "Required supplement to first Phase3 audit; union with original manifest; corrections explicit; no verdict or treatment",
+  "files": [
+    {
+      "path": "evidence/P3_AUDIT_REVIEW_MANIFEST.json",
+      "sha256": "8d475e93aa21db5d7210f337c036e2705e3a4b83b6d99d43d715161d63b7e374"
+    },
+    {
+      "path": "evidence/P3_OBSERVER_PRIMARY_AUDIT_2026-09-07.md",
+      "sha256": "b3190a1075d56362f8e52c9044dc402b963c02f77127fe570191a4e0cd73ce90"
+    },
+    {
+      "path": "evidence/P3_OBSERVER_IDENTIFIABILITY_2026-09-07.md",
+      "sha256": "cf6e0f2be6994a4ccb7021755dc7f6fa6e6ec867b187135b10be565a2e51ccd5"
+    },
+    {
+      "path": "evidence/P3_C4_WRAPPER_AUDIT_2026-09-07.md",
+      "sha256": "a9b7b273a85a7962e4b7d57e38b96c82454f6265c8090482710f542b8cb21d3f"
+    },
+    {
+      "path": "evidence/P3_JOINT_AUDIT_BOUNDARY_2026-09-07.md",
+      "sha256": "3db85b6fa9f8050b4c77f75f09717b3902a5795044f7f8c14b6c78904627bf8c"
+    },
+    {
+      "path": "reports/P3_RESIDUAL_AUDIT_2026-09-07.md",
+      "sha256": "356999d5d27ac765e8470037470df22d911f7920dad0f4ab22ef8d26848ede19"
+    },
+    {
+      "path": "docs/P3_RESIDUAL_REVIEW_SUPPLEMENT.md",
+      "sha256": "252abc01455e0fa71d30ebfa0179ca547212fe1b945aee9cfd52229be5e3c61a"
+    }
+  ],
+  "control_status": {
+    "independent_review": "not_invoked; enforcement_unverified",
+    "unattended_model_use": false,
+    "candidate_treatment_runs": false
+  },
+  "original_manifest_entries_verified_unchanged": 41
+}

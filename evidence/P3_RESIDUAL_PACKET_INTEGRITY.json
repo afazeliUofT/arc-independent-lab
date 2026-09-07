@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-07T01:26:39.357367+00:00",
+  "original_manifest": {
+    "path": "evidence/P3_AUDIT_REVIEW_MANIFEST.json",
+    "sha256": "8d475e93aa21db5d7210f337c036e2705e3a4b83b6d99d43d715161d63b7e374",
+    "all_entries_verified": true,
+    "entries": 41
+  },
+  "supplement_manifest": {
+    "path": "evidence/P3_RESIDUAL_REVIEW_MANIFEST.json",
+    "sha256": "f7249d53060349fdfbaca2102672457e3e8966ef510d6853322b10da75762128",
+    "all_entries_verified": true,
+    "entries": 7
+  },
+  "claim": "Byte integrity only; not scientific validity or independent review",
+  "proof_check": "PI plus shared-workspace consultation; tolerance wording clarified before freeze",
+  "candidate_runs": false
+}

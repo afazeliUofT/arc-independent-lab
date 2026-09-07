@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-07T01:26:39.357367+00:00",
+  "source": {
+    "path": "scripts/checkpoint007_handoff.py",
+    "sha256": "e24b32dbbc52e6547b28bf5ce773a7421f2b6f3ae3164d74c9bb600466d26ebf"
+  },
+  "adapted": {
+    "path": "scripts/checkpoint008_handoff.py",
+    "sha256": "931b1b3b5c0d8becb7ceafa0dee27f19b0b8abe0dc80fe3b6821601407bb62ae"
+  },
+  "exact_contextual_substitutions": [
+    [
+      "checkpoint-007",
+      "checkpoint-008"
+    ],
+    [
+      "d9200bd6061a63cf82037c2fc31f361fa0109cb3",
+      "7da5cc4ce22fac3163408a4889517c86d386f407"
+    ],
+    [
+      "P3_CHECKPOINT_007",
+      "P3_CHECKPOINT_008"
+    ],
+    [
+      "checkpoint007_backups",
+      "checkpoint008_backups"
+    ]
+  ],
+  "exact_substitution_equality": true,
+  "syntax_and_in_memory_compile": "passed",
+  "executable_mode_literals_unchanged": true,
+  "diff": "--- scripts/checkpoint007_handoff.py\n+++ scripts/checkpoint008_handoff.py\n@@ -1,4 +1,4 @@\n-\"\"\"Local P3 checkpoint-007 ZIP handoff. No commit, push, fetch, or authentication.\n+\"\"\"Local P3 checkpoint-008 ZIP handoff. No commit, push, fetch, or authentication.\n \n Supply the ZIP and its published SHA-256. Default: inspect. --apply: install and\n stage known transitions, then verify actual index blobs. --verify: require the\n@@ -17,7 +17,7 @@\n import tempfile\n import zipfile\n \n-BASE = \"d9200bd6061a63cf82037c2fc31f361fa0109cb3\"\n+BASE = \"7da5cc4ce22fac3163408a4889517c86d386f407\"\n REMOTE = \"https://github.com/afazeliUofT/arc-independent-lab.git\"\n ATTRIBUTES = b\"# Preserve the exact bytes of scientific run artifacts.\\n/artifacts/** -text\\n\"\n MAX_BYTES = 64 * 1024 * 1024\n@@ -60,7 +60,7 @@\n             raise ValueError(\"Duplicate ZIP members or oversized uncompressed payload\")\n         manifest = json.loads(archive.read(\"HANDOFF.json\"), object_pairs_hook=unique)\n         if (set(manifest) != {\"checkpoint_id\", \"base_commit\", \"files\"}\n-                or manifest[\"checkpoint_id\"] != \"P3_CHECKPOINT_007\"\n+                or manifest[\"checkpoint_id\"] != \"P3_CHECKPOINT_008\"\n                 or manifest[\"base_commit\"] != BASE\n                 or not isinstance(manifest[\"files\"], dict) or not manifest[\"files\"]):\n             raise ValueError(\"Unexpected handoff manifest\")\n@@ -212,7 +212,7 @@\n     if head != BASE:\n         print(\"Checkpoint commit already exists; no files or index changed.\")\n         return\n-    backup_parent = ordinary(root, \"delivery/checkpoint007_backups\", directory=True)\n+    backup_parent = ordinary(root, \"delivery/checkpoint008_backups\", directory=True)\n     backup_parent.mkdir(parents=True, exist_ok=True)\n     stamp = datetime.datetime.now(datetime.timezone.utc).strftime(\"%Y%m%dT%H%M%S.%fZ-\")\n     backup = Path(tempfile.mkdtemp(prefix=stamp, dir=backup_parent))\n",
+  "draft_correction": "A consultation draft used broad 007-to-008 replacement and changed 100755 to 100855. Diff inspection caught it before execution, staging or packaging. Regenerated from unchanged source using exact contextual identifiers; final mode literals verified unchanged.",
+  "actual_archive_validation": "pending final payload and contained-clone application",
+  "real_commit_or_push": false
+}

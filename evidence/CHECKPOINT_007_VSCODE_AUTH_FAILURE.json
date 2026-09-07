@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "observed_utc": "2026-09-06T21:16:52.883416+00:00",
+  "access_date": "2026-09-06",
+  "source_attachment": "Pasted text(1).txt",
+  "source_sha256": "2dc4c8f659777eb1b920852c06f7d084b0b94fc83665c79aca107c996199f4da",
+  "source_raw_copy": "delivery/CHECKPOINT007_USER_TERMINAL_OUTPUT.txt",
+  "local_commit_user_report": "7da5cc4ce22fac3163408a4889517c86d386f407",
+  "local_post_commit_helper_verification_reported": true,
+  "remote_main_verified": "d9200bd6061a63cf82037c2fc31f361fa0109cb3",
+  "remote_ref_url": "https://api.github.com/repos/afazeliUofT/arc-independent-lab/git/ref/heads/main",
+  "error_verbatim": "Missing or invalid credentials.\r\nError: connect ECONNREFUSED /run/user/1000/vscode-git-55d5585e57.sock\r\n    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1706:16) {\r\n  errno: -111,\r\n  code: 'ECONNREFUSED',\r\n  syscall: 'connect',\r\n  address: '/run/user/1000/vscode-git-55d5585e57.sock'\r\n}\r\nMissing or invalid credentials.\r\nError: connect ECONNREFUSED /run/user/1000/vscode-git-55d5585e57.sock\r\n    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1706:16) {\r\n  errno: -111,\r\n  code: 'ECONNREFUSED',\r\n  syscall: 'connect',\r\n  address: '/run/user/1000/vscode-git-55d5585e57.sock'\r\n}\r\nremote: No anonymous write access.\r\nfatal: Authentication failed for 'https://github.com/afazeliUofT/arc-independent-lab.git/'",
+  "diagnosis": "VS Code Git credential-request process could not connect to its local Unix socket; GitHub refused anonymous write. Installation and commit succeeded locally according to complete helper output.",
+  "not_established": [
+    "Why the listener was unavailable",
+    "Credential expiration or validity",
+    "Successful authenticated push",
+    "Literal shell input underlying mangled terminal echo"
+  ],
+  "prior_same_failure": "evidence/CHECKPOINT_002_VSCODE_AUTH_FAILURE_2026-09-06.json",
+  "primary_sources": [
+    {
+      "url": "https://github.com/microsoft/vscode/blob/main/extensions/git/src/ipc/ipcClient.ts",
+      "access_date": "2026-09-06",
+      "finding": "Reads VSCODE_GIT_IPC_HANDLE and routes request through local socket; request errors reject."
+    },
+    {
+      "url": "https://github.com/microsoft/vscode/blob/main/extensions/git/src/askpass-main.ts",
+      "access_date": "2026-09-06",
+      "finding": "IPC rejection triggers generic Missing or invalid credentials message."
+    }
+  ],
+  "next_action": "Use a fresh WSL integrated terminal in a live VS Code window for this lab, complete normal local authentication if requested, then push only the already verified fixed commit. No new approval, repair or new commit needed."
+}
