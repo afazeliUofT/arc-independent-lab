@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-07T17:01:06.410258+00:00",
+  "updated_utc": "2026-09-07T18:55:18.486893+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -87,10 +87,10 @@
     "rerun_needed": false
   },
   "next_operational_test": {
-    "name": "bounded no-model full-client startup observation",
+    "name": "bounded network-disabled contained cached account and filtered layer observation",
     "driver": {
-      "path": "scripts/gate0_client_preflight.py",
-      "sha256": "c4ab3f93969f0e1bb886d3ac1afd70d3626ba8821b3153b21d908b5c02664d14"
+      "path": "scripts/gate0_account_metadata.py",
+      "sha256": "13f4e87a7da463b6915f49df4f97b2cea271a7e8de9f16b21281db50842dac76"
     },
     "wall_seconds": 60,
     "cleanup_seconds_maximum": 4,
@@ -98,11 +98,19 @@
     "per_stream_bytes": 2097152,
     "per_file_bytes_limit": 8388608,
     "runtime_tree_polled_bytes": 67108864,
-    "authoritative_usage_or_entitlement_observed": false,
-    "actual_laptop_execution": "pending human report"
+    "actual_laptop_execution": "pending human report",
+    "fixed_step_directory": "delivery/GATE0_ACCOUNT_METADATA_013",
+    "repeat_policy": "reuse verified complete report; partial or changed report stops",
+    "unattended_model_use_authorized": false
   },
   "latest_interface_preparation": {
     "path": "evidence/GATE0_CODEX_INTERFACE_VERIFICATION_2026-09-07.json",
     "sha256": "7e9f3cde718ddce42643a8440b2c94c568e2955a1b8c118f6a0ee2d97db2a941"
+  },
+  "completed_client_startup_observation": {
+    "path": "evidence/GATE0_CLIENT_PREFLIGHT_OBSERVATION_012_REVIEW.json",
+    "sha256": "8cf8d7f29445ef75413bf0d768c14d36ae3160e2014633352acae427fff372cc",
+    "rerun_needed": false,
+    "scope": "Completed response-only startup observation; no full reviewer pass"
   }
 }

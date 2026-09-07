@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-07T18:56:52.328260+00:00",
+  "path": "docs/USER_AMENDMENTS_2026-09-06.md",
+  "baseline_sha256": "dc61574fa31f4e132f181b100e49df59cbb1272e82ec01cd08bb8c25ac4e1e15",
+  "temporarily_appended_sha256": "ff5e4332337cdbe1f48ad4af69c671f8ecba3f00edfe247b6ea454573ed64001",
+  "append_only": true,
+  "caught_by": "full frozen review-manifest entry comparison before checkpoint build",
+  "exact_error": "Traceback (most recent call last):\n  File \"<stdin>\", line 5, in <module>\nAssertionError: docs/USER_AMENDMENTS_2026-09-06.md\n",
+  "correction": "Restore exact frozen bytes; preserve new user preference in a new unpinned dated document. Do not update frozen manifest.",
+  "new_preference_path": "docs/USER_HANDOFF_PREFERENCES_2026-09-07.md",
+  "scientific_review_or_model_ran_against_changed_input": false,
+  "changed_bytes_committed_or_published": false
+}

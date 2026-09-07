@@ -1,0 +1,7152 @@
+[
+  {
+    "name": "typed_false_in_winning_session_layer",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": true,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": true,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "missing_api_tools_is_projection",
+    "synthetic_input": {
+      "config": {},
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": true,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": true,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "null_api_tools_is_projection",
+    "synthetic_input": {
+      "config": {
+        "tools": null
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": true,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": true,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "origin_missing",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": false,
+          "origin_source_type": null,
+          "origin_is_session_flags": false,
+          "origin_version_valid": false,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "origin_version_mismatch",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "SECRET_DO_NOT_PRINT"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "origin_version_not_string",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": 1
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": false,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "origin_source_wrong",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "user",
+          "origin_is_session_flags": false,
+          "origin_version_valid": true,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "origin_source_unknown",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "SECRET_DO_NOT_PRINT"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": null,
+          "origin_is_session_flags": false,
+          "origin_version_valid": true,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "origin_unexpected_fields",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "secret": "SECRET_DO_NOT_PRINT"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "session_name_unexpected_fields",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags",
+            "secret": "SECRET_DO_NOT_PRINT"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": false
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "winning_layer_disabled",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          },
+          "disabledReason": "SECRET_DO_NOT_PRINT"
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": false
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "duplicate_session_layer",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "true_is_rejected",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "zero_is_not_false_boolean",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": 0
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "false_string_is_not_boolean",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": "false"
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "null_is_not_boolean",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": null
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "missing_winner_leaf",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {},
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "projected_true_contradiction",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null,
+          "update_plan": {
+            "enabled": true
+          }
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "projected_nonbool_contradiction",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null,
+          "update_plan": {
+            "enabled": 0
+          }
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "projected_false_consistent",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null,
+          "update_plan": {
+            "enabled": false
+          }
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": true,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": true,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "higher_enabled_true_shadows",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "legacyManagedConfigTomlFromFile",
+            "file": "/managed.toml"
+          },
+          "version": "v-managed",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "higher_enabled_false_origin_conflict",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "legacyManagedConfigTomlFromFile",
+            "file": "/managed.toml"
+          },
+          "version": "v-managed",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "higher_enabled_ancestor_replaces",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "legacyManagedConfigTomlFromFile",
+            "file": "/managed.toml"
+          },
+          "version": "v-managed",
+          "config": {
+            "tools": "SECRET_DO_NOT_PRINT"
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": false
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "higher_disabled_layer_ignored",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "legacyManagedConfigTomlFromFile",
+            "file": "/managed.toml"
+          },
+          "version": "v-managed",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          },
+          "disabledReason": "disabled synthetic layer"
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": true,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": true,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "higher_unrelated_leaf_ignored",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "legacyManagedConfigTomlFromFile",
+            "file": "/managed.toml"
+          },
+          "version": "v-managed",
+          "config": {
+            "tools": {
+              "other_tool": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": true,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": true,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "malformed_layer_config",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": []
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": false,
+          "origin_present": false,
+          "origin_source_type": null,
+          "origin_is_session_flags": false,
+          "origin_version_valid": false,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": false,
+          "origin_present": false,
+          "origin_source_type": null,
+          "origin_is_session_flags": false,
+          "origin_version_valid": false,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "unknown_layer_source",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "SECRET_DO_NOT_PRINT"
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": false,
+          "origin_present": false,
+          "origin_source_type": null,
+          "origin_is_session_flags": false,
+          "origin_version_valid": false,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": false,
+          "origin_present": false,
+          "origin_source_type": null,
+          "origin_is_session_flags": false,
+          "origin_version_valid": false,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "malformed_disabled_flag",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          },
+          "disabledReason": false
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": false,
+          "origin_present": false,
+          "origin_source_type": null,
+          "origin_is_session_flags": false,
+          "origin_version_valid": false,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": false,
+          "origin_present": false,
+          "origin_source_type": null,
+          "origin_is_session_flags": false,
+          "origin_version_valid": false,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "too_many_layers",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      },
+      "layers": [
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session",
+          "config": {
+            "tools": {
+              "update_plan": {
+                "enabled": false
+              },
+              "experimental_request_user_input": {
+                "enabled": false
+              }
+            }
+          }
+        },
+        {
+          "name": {
+            "type": "user",
+            "file": "/private/config.toml",
+            "profile": null
+          },
+          "version": "v-private",
+          "config": {
+            "private_setting": "SECRET_DO_NOT_PRINT",
+            "tools": {
+              "update_plan": {
+                "enabled": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": false,
+          "origin_present": false,
+          "origin_source_type": null,
+          "origin_is_session_flags": false,
+          "origin_version_valid": false,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": false,
+          "origin_present": false,
+          "origin_source_type": null,
+          "origin_is_session_flags": false,
+          "origin_version_valid": false,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "layers_absent",
+    "synthetic_input": {
+      "config": {
+        "tools": {
+          "web_search": null
+        }
+      },
+      "origins": {
+        "tools.update_plan.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "name": {
+            "type": "sessionFlags"
+          },
+          "version": "v-session"
+        }
+      }
+    },
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": false,
+          "origin_present": false,
+          "origin_source_type": null,
+          "origin_is_session_flags": false,
+          "origin_version_valid": false,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": false,
+          "origin_present": false,
+          "origin_source_type": null,
+          "origin_is_session_flags": false,
+          "origin_version_valid": false,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "invalid_envelope_0",
+    "synthetic_input": null,
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": false,
+          "origin_present": false,
+          "origin_source_type": null,
+          "origin_is_session_flags": false,
+          "origin_version_valid": false,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": false,
+          "origin_present": false,
+          "origin_source_type": null,
+          "origin_is_session_flags": false,
+          "origin_version_valid": false,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "invalid_envelope_1",
+    "synthetic_input": [],
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": false,
+          "origin_present": false,
+          "origin_source_type": null,
+          "origin_is_session_flags": false,
+          "origin_version_valid": false,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": false,
+          "origin_present": false,
+          "origin_source_type": null,
+          "origin_is_session_flags": false,
+          "origin_version_valid": false,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "invalid_envelope_2",
+    "synthetic_input": "SECRET_DO_NOT_PRINT",
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": false,
+          "origin_present": false,
+          "origin_source_type": null,
+          "origin_is_session_flags": false,
+          "origin_version_valid": false,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": false,
+          "origin_present": false,
+          "origin_source_type": null,
+          "origin_is_session_flags": false,
+          "origin_version_valid": false,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  },
+  {
+    "name": "invalid_envelope_3",
+    "synthetic_input": true,
+    "expected_all_two_controls_verified_false": false,
+    "result": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": false,
+          "origin_present": false,
+          "origin_source_type": null,
+          "origin_is_session_flags": false,
+          "origin_version_valid": false,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": false,
+          "origin_present": false,
+          "origin_source_type": null,
+          "origin_is_session_flags": false,
+          "origin_version_valid": false,
+          "unique_session_layer": false,
+          "origin_version_matches_layer": false,
+          "winning_layer_enabled": false,
+          "winning_value_is_false_boolean": false,
+          "higher_enabled_layers_do_not_shadow": false,
+          "projected_value_does_not_contradict": false,
+          "verified_false_control": false
+        }
+      },
+      "all_two_controls_verified_false": false,
+      "runtime_tool_exposure_verified": false
+    },
+    "passed": true
+  }
+]

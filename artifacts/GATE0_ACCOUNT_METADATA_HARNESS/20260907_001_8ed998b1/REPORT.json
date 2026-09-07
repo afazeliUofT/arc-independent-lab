@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-07T18:53:32.021677+00:00",
+  "status": "PASSED_SYNTHETIC_ACCOUNT_TRANSPORT_AND_REFUSAL_TESTS",
+  "results": [
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_gate0_account_metadata.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout_path": "test_gate0_account_metadata.py.stdout",
+      "stderr_path": "test_gate0_account_metadata.py.stderr"
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_gate0_client_preflight.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout_path": "test_gate0_client_preflight.py.stdout",
+      "stderr_path": "test_gate0_client_preflight.py.stderr"
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_gate0_config_controls.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout_path": "test_gate0_config_controls.py.stdout",
+      "stderr_path": "test_gate0_config_controls.py.stderr"
+    }
+  ],
+  "source_sha256": {
+    "scripts/gate0_account_metadata.py": "13f4e87a7da463b6915f49df4f97b2cea271a7e8de9f16b21281db50842dac76",
+    "scripts/gate0_client_preflight.py": "a4d0c4be8d6ade00f82285381dfa68e0310146fca300752bac3fac74d6bd3038",
+    "scripts/gate0_config_controls.py": "9dc478ba6c68e32be69079e154dde1f3debd4d8dbd998f7648577b5df2c4bf8d",
+    "scripts/gate0_client_mount_plan.py": "4500a10227a5209a525e5ab7534a1bd2e55e3574c91381c584e5a99c7095a107",
+    "tests/test_gate0_account_metadata.py": "6e4446bd5faa54137efb80cb15aeec037309a80d12b42b82162be1dd525c347a",
+    "tests/test_gate0_client_preflight.py": "ec14c1122fccdd7010d59cb756dd52457e01706a60cbe1f63d4c0ad6e37ae3ef",
+    "tests/test_gate0_config_controls.py": "b1664caeddbf40ad96306a5d66df8b38b17af6107b48ae756a5ddd7821581b62"
+  },
+  "actual_codex_or_bwrap_executed": false,
+  "model_called": false,
+  "actual_laptop_observation_pending": true
+}

@@ -216,12 +216,14 @@ def child_limits():
     resource.setrlimit(resource.RLIMIT_CPU, (30, 31))
 
 
-def observe(plan, run, requested):
+def observe(plan, run, requested, *, account_status=False):
     """Real finite subprocess transport. No raw configuration/auth transcript file."""
     steps = [("initialize", {"clientInfo": {"name": "arc_reviewer_preflight", "version": "1"},
                              "capabilities": {"experimentalApi": True, "extensions": {}}}),
              ("config/read", {"cwd": str(run), "includeLayers": True}),
              ("configRequirements/read", {})]
+    if account_status:
+        steps.append(("account/read", {"refreshToken": False}))
     report = {"requests_sent": [], "responses": [], "server_requests_dispatched": 0,
               "thread_or_model_request_sent": False}
     try:
@@ -273,11 +275,26 @@ def observe(plan, run, requested):
                     require(index < len(steps), "Unexpected response after completion")
                     require(set(msg) <= {"id", "result", "error"} and type(msg.get("id")) is int
                             and msg["id"] == index + 1, "Unbound/foreign response")
+                    if account_status and "error" in msg:
+                        err = msg["error"] if type(msg["error"]) is dict else {}
+                        message = err.get("message")
+                        message = message.lower() if type(message) is str else ""
+                        report["protocol_error"] = {
+                            "method": steps[index][0],
+                            "code": err.get("code") if type(err.get("code")) is int else None,
+                            "categories_observed": {word: word in message for word in (
+                                "auth", "credential", "keyring", "refresh", "network", "permission", "config")}}
                     require("error" not in msg and type(msg.get("result")) is dict,
                             "Client returned an error; raw payload withheld")
                     method = steps[index][0]
                     if method == "config/read":
                         report["effective_config"] = safe_config(msg["result"], requested)
+                        if account_status:
+                            spec = importlib.util.spec_from_file_location("gate0_account_metadata", ROOT / "scripts/gate0_account_metadata.py")
+                            metadata = importlib.util.module_from_spec(spec); spec.loader.exec_module(metadata)
+                            report["account_configuration"] = metadata.safe_account_config(msg["result"])
+                    elif method == "account/read":
+                        report["contained_account"] = metadata.safe_account(msg["result"])
                     elif method == "configRequirements/read":
                         require(type(msg["result"]) is dict, "Invalid requirements response")
                         report["requirements_present"] = msg["result"].get("requirements") is not None
@@ -288,7 +305,8 @@ def observe(plan, run, requested):
                         process.stdin.write(b'{"method":"initialized","params":{}}\n'); process.stdin.flush()
                     if index < len(steps): send_next()
             require(process.poll() is None or index == len(steps), "Confined client exited before completion")
-        report["status"] = "OBSERVED_STARTUP_AND_CONFIG_RESPONSES_ONLY"
+        report["status"] = ("OBSERVED_CONTAINED_ACCOUNT_METADATA_ONLY" if account_status
+                            else "OBSERVED_STARTUP_AND_CONFIG_RESPONSES_ONLY")
     except (Stop, OSError) as error:
         report["status"] = "STOPPED_WITHOUT_REVIEW"
         report["reason"] = str(error) if isinstance(error, Stop) else "Host subprocess/pipe operation failed"
@@ -317,13 +335,14 @@ def observe(plan, run, requested):
     return report
 
 
-def run_preflight(facts):
+def run_preflight(facts, *, account_status=False):
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S.%fZ")
     # Validate the existing parent before the first write: mount-plan validation
     # happens later and cannot undo a mkdir through a symlinked delivery folder.
     plain(ROOT, True)
     delivery = plain(ROOT / "delivery", True)
-    run = delivery / ("GATE0_CLIENT_PREFLIGHT_" + stamp)
+    run = delivery / ("GATE0_ACCOUNT_METADATA_013" if account_status
+                      else "GATE0_CLIENT_PREFLIGHT_" + stamp)
     run.mkdir(mode=0o700)
     for name in ("runtime_state", "runtime_logs"):
         (run / name).mkdir(mode=0o700)
@@ -341,14 +360,19 @@ def run_preflight(facts):
                 identity_copy_path=copy, readonly_paths=facts["readonly_paths"],
                 writable_paths=[run / "runtime_state", run / "runtime_logs"], command_argv=command)
     report = {"schema_version": 1, "created_utc": datetime.now(timezone.utc).isoformat(),
-              "scope": "No-model outer-startup observation; not complete reviewer isolation",
+              "scope": ("Network-disabled contained account metadata; not host login, entitlement or reviewer certification"
+                        if account_status else "No-model outer-startup observation; not complete reviewer isolation"),
               "origin_inventory": facts["origins"], "mount_plan": plan,
               "runtime_before": facts["runtime_before"], "bwrap_before": facts["bwrap_before"],
               "limits": {"wall_seconds": WALL_SECONDS, "per_stream_bytes": STREAM_LIMIT,
                          "runtime_tree_bytes_polled": TREE_LIMIT},
               "model_called_by_protocol": False, "formal_verdict": None,
               "unattended_model_use_authorized": False}
-    report["observation"] = observe(plan, run, requested)
+    if account_status:
+        report["driver_sources"] = {name: digest((ROOT / name).read_bytes()) for name in (
+            "scripts/gate0_client_preflight.py", "scripts/gate0_client_mount_plan.py",
+            "scripts/gate0_account_metadata.py", "scripts/gate0_config_controls.py")}
+    report["observation"] = observe(plan, run, requested, account_status=account_status)
     report["host_runtime_unchanged"] = signature(facts["runtime"]) == facts["runtime_before"]
     report["host_bwrap_unchanged"] = signature(facts["bwrap"]) == facts["bwrap_before"]
     report["host_installation_id_unchanged"] = signature(facts["identifier"]) == facts["identifier_before"]
@@ -364,6 +388,7 @@ def run_preflight(facts):
     print("REPORT: " + str(path))
     print("REPORT_SHA256: " + digest(data))
     print("No scientific review or model turn was requested. Full reviewer boundary remains unverified.")
+    return path
 
 
 def main():

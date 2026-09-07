@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "verified_utc": "2026-09-07T18:51:09.696701+00:00",
+  "report_path": "artifacts/GATE0_CLIENT_PREFLIGHT_OBSERVATIONS/20260907_001/REPORT.json",
+  "report_sha256": "53b98a9e4c99603de49b3e464f3aeaa5bd950492253c69809934f079fcbb90f3",
+  "exact_recorded_argv_matches_requested_plan": true,
+  "requested_startup_responses_completed": true,
+  "recorded_input_preservation_checks_passed": true,
+  "unobserved_projected_controls": [
+    "tools.update_plan.enabled",
+    "tools.experimental_request_user_input.enabled"
+  ],
+  "planned_sigterm_is_not_startup_failure": true,
+  "report_sufficient_for_requested_startup_observation": true,
+  "scope_limit": "Validation of supplied filtered observation against delivered driver; not independent replay of hidden raw responses or enforcement of every reviewer route.",
+  "full_reviewer_pass": false,
+  "host_login_verified": false,
+  "managed_requirements_verified": false,
+  "model_allowance_observed": false,
+  "all_user_attempts_accounted_for": false
+}

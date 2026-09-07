@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-07T17:01:06.410258+00:00",
+  "updated_utc": "2026-09-07T18:57:33.198004+00:00",
   "current_gate": "P3",
   "gate_status": "in_progress",
   "gate_entered_utc": "2026-09-06T20:14:12.138443+00:00",
   "last_verified_gate": "P2",
-  "last_verified_commit": "66c15424b545044b310a9e8e6db93b37b0ec1d70",
+  "last_verified_commit": "4363226a2fa5fd1aef45d8b458fb5b7fce3e586b",
   "active_task": {
-    "id": "P3.6",
-    "description": "Observe bounded no-model client startup on actual WSL runtime, then resolve exact remaining review boundary",
+    "id": "P3.7",
+    "description": "Observe contained cached account metadata and winning tool controls without a model turn",
     "attempt": 0,
     "escalation_level": 0,
     "started_utc": null,
     "status": "awaiting_factual_machine_report"
   },
   "blocked_on": null,
-  "next_action": "Verify human checkpoint012 publication against exact delivered ZIP/full tree before adopting it, preserving overlays. Read the filtered REPORT.json from scripts/gate0_client_preflight.py (or its exact STOP output). Interpret response-only observation narrowly: do not certify managed requirements/full tool registry/fresh context/model entitlement, launch a scientific turn, or infer allowance. Classify any earliest actual startup error and apply one bounded source-supported correction; do not repeat inventories/canary/schema extraction. The next scientific decision remains independent review of frozen component, joint and observer audit. No new phase approval is requested.",
+  "next_action": "Verify human checkpoint013 against exact delivered ZIP/full tree before adopting HEAD/index, preserving overlays. Read delivery/GATE0_ACCOUNT_METADATA_013/REPORT.json (or safe STOP). Repeats reuse the same verified report; do not rerun startup-only tests or inventories. Validate driver pins, winning two tool flags, configured credential-store enum and contained cached account. Null/absent account is not host logout; a plan enum is not entitlement. If a usable contained ChatGPT route exists, prepare the smallest supported applicable policy/model/allowance observation under justified restrictions; otherwise make the actual supported account-access dependency concrete with side effects (ordinary login may revoke auth), without copying credentials or exposing keyring sockets. No scientific/model request, lower effort, allowance inference or full tool/context certification. Next scientific decision remains enforced independent review of frozen audit. Compare all prospective edit paths with both frozen manifests first; keep new preferences in separate dated files.",
   "open_questions": [
-    "Full client startup, every retained broker/tool route, fresh context, existing-subscription reviewer model and output channel remain to be enforced and observed; methods, checker dependencies and exact interface are now available.",
+    "Actual startup succeeded. Contained account metadata and two winning tool flags remain unobserved; full tool/context isolation, managed-policy applicability and existing-subscription entitlement remain unverified.",
     "Formal separate dispositions for C1/C2/C3/C4, joint proposition and observer diagnostic remain pending enforced review.",
     "Whole-wrapper historical identity is unestablished; no novel complete joint algorithm or resource advantage specified.",
     "Observer supplied-contract discovery/invocation and broader practical prevalence remain open; exact recovery does not imply numerical robustness.",
@@ -273,5 +273,12 @@
   "objective_and_next_decision": {
     "path": "reports/P3_OBJECTIVE_AND_NEXT_DECISION_2026-09-07.md",
     "sha256": "a876bfaf1ef9782df543be91bb63629e389b67ba34aa2b0507593cd66fe0d818"
+  },
+  "handoff_preference": "Include WSL Explorer commands for download and exact report folders; separate push retries from measurements and reuse completed verified report.",
+  "latest_startup_observation": {
+    "path": "evidence/GATE0_CLIENT_PREFLIGHT_OBSERVATION_012_REVIEW.json",
+    "sha256": "8cf8d7f29445ef75413bf0d768c14d36ae3160e2014633352acae427fff372cc",
+    "accepted_for_requested_scope": true,
+    "complete_reviewer_boundary_verified": false
   }
 }

@@ -1,0 +1,37 @@
+[
+  {
+    "path": "codex-rs/app-server/src/config_layer.rs",
+    "sha": "c59278b5ee8d11bb8e3bcb7ffe3e0581de768473",
+    "bytes": 3141
+  },
+  {
+    "path": "codex-rs/app-server/src/config_manager.rs",
+    "sha": "f62118d2922ae3e24e6b4a30df0668c056dc4b9d",
+    "bytes": 12784
+  },
+  {
+    "path": "codex-rs/app-server/src/config_manager_service.rs",
+    "sha": "b7016229e8ab6a534c2112bb344025b77923fb18",
+    "bytes": 33881
+  },
+  {
+    "path": "codex-rs/config/src/config_requirements.rs",
+    "sha": "0b6785b594fde6bf100bc4adeab8c20a2e3dd167",
+    "bytes": 173580
+  },
+  {
+    "path": "codex-rs/config/src/merge.rs",
+    "sha": "187d8bcdd0ef978d10ef86469a63b33ebb15390a",
+    "bytes": 7291
+  },
+  {
+    "path": "codex-rs/config/src/state.rs",
+    "sha": "ea0283313b50153fdfed6cde18a33346ff367061",
+    "bytes": 21185
+  },
+  {
+    "path": "codex-rs/app-server-protocol/src/protocol/v2/config.rs",
+    "sha": "e36240c4ac4abff51a55cc23d122dde226b0659d",
+    "bytes": 39868
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "observation": "GATE0_CONFIG_CONTROLS_PURE_HARNESS_v1",
+  "timestamp_utc": "2026-09-07T18:49:07.511418+00:00",
+  "case_count": 34,
+  "all_case_expectations_met": true,
+  "unittest_exit_code": 0,
+  "codex_executed": false,
+  "network_used": false,
+  "model_request_sent": false,
+  "runtime_tool_exposure_verified": false,
+  "test_scope": "Pure synthetic fixed-path control projection and precedence checks; fixture shape checked against exact embedded schema without a full JSON-schema validation library",
+  "inputs": [
+    {
+      "path": "scripts/gate0_config_controls.py",
+      "bytes": 6367,
+      "sha256": "9dc478ba6c68e32be69079e154dde1f3debd4d8dbd998f7648577b5df2c4bf8d"
+    },
+    {
+      "path": "tests/test_gate0_config_controls.py",
+      "bytes": 6936,
+      "sha256": "b1664caeddbf40ad96306a5d66df8b38b17af6107b48ae756a5ddd7821581b62"
+    },
+    {
+      "path": "artifacts/GATE0_CODEX_INTERFACE/20260907_001/schemas/experimental.json",
+      "bytes": 4546756,
+      "sha256": "dd4014851ef7c60ecacfa5fa4d1a9f02d7dcc2aada93c83091a717b27b753d63"
+    },
+    {
+      "path": "artifacts/GATE0_CONFIG_PROJECTION_SOURCE/20260907_001/MANIFEST.json",
+      "bytes": 4085,
+      "sha256": "5d75ddbee78a502b27a1c38389e99ef3eed24cad2968128240ea4c89141f89b8"
+    }
+  ]
+}

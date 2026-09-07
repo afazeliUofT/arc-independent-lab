@@ -1,0 +1,538 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-07T18:34:01.245041+00:00",
+  "scope": "No-model outer-startup observation; not complete reviewer isolation",
+  "origin_inventory": [
+    {
+      "path": "/etc/codex/config.toml",
+      "present": false
+    },
+    {
+      "path": "/etc/codex/requirements.toml",
+      "present": false
+    },
+    {
+      "path": "/etc/codex/managed_config.toml",
+      "present": false
+    },
+    {
+      "path": "/home/afazeli2006/.codex/config.toml",
+      "present": true,
+      "metadata": {
+        "device": 2096,
+        "inode": 686498,
+        "bytes": 143,
+        "mode": 384,
+        "mtime_ns": 1788074545972320593,
+        "ctime_ns": 1788074545972320593
+      }
+    },
+    {
+      "path": "/home/afazeli2006/.codex/.env",
+      "present": false
+    },
+    {
+      "path": "/home/afazeli2006/.codex/auth.json",
+      "present": false
+    },
+    {
+      "path": "/home/afazeli2006/ARC_Independent_Lab/delivery/.codex/config.toml",
+      "present": false
+    },
+    {
+      "path": "/home/afazeli2006/ARC_Independent_Lab/.codex/config.toml",
+      "present": false
+    },
+    {
+      "path": "/home/.codex/config.toml",
+      "present": false
+    },
+    {
+      "path": "/.codex/config.toml",
+      "present": false
+    }
+  ],
+  "mount_plan": {
+    "kind": "GATE0_CLIENT_MOUNT_PLAN_v1",
+    "observed_boundary": false,
+    "argv": [
+      "/usr/bin/bwrap",
+      "--unshare-all",
+      "--unshare-user",
+      "--die-with-parent",
+      "--new-session",
+      "--tmpfs",
+      "/",
+      "--ro-bind",
+      "/home/afazeli2006/.codex/config.toml",
+      "/home/afazeli2006/.codex/config.toml",
+      "--ro-bind",
+      "/home/afazeli2006/ARC_Independent_Lab/delivery/GATE0_CLIENT_PREFLIGHT_20260907T183401.226510Z",
+      "/home/afazeli2006/ARC_Independent_Lab/delivery/GATE0_CLIENT_PREFLIGHT_20260907T183401.226510Z",
+      "--ro-bind",
+      "/home/afazeli2006/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+      "/home/afazeli2006/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+      "--bind",
+      "/home/afazeli2006/ARC_Independent_Lab/delivery/GATE0_CLIENT_PREFLIGHT_20260907T183401.226510Z/runtime_logs",
+      "/home/afazeli2006/ARC_Independent_Lab/delivery/GATE0_CLIENT_PREFLIGHT_20260907T183401.226510Z/runtime_logs",
+      "--bind",
+      "/home/afazeli2006/ARC_Independent_Lab/delivery/GATE0_CLIENT_PREFLIGHT_20260907T183401.226510Z/runtime_state",
+      "/home/afazeli2006/ARC_Independent_Lab/delivery/GATE0_CLIENT_PREFLIGHT_20260907T183401.226510Z/runtime_state",
+      "--bind",
+      "/home/afazeli2006/ARC_Independent_Lab/delivery/GATE0_CLIENT_PREFLIGHT_20260907T183401.226510Z/installation_id_copy",
+      "/home/afazeli2006/.codex/installation_id",
+      "--proc",
+      "/proc",
+      "--dev",
+      "/dev",
+      "--tmpfs",
+      "/tmp",
+      "--remount-ro",
+      "/",
+      "--cap-drop",
+      "ALL",
+      "--chdir",
+      "/home/afazeli2006/ARC_Independent_Lab/delivery/GATE0_CLIENT_PREFLIGHT_20260907T183401.226510Z",
+      "--",
+      "/home/afazeli2006/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+      "-c",
+      "sqlite_home=\"/home/afazeli2006/ARC_Independent_Lab/delivery/GATE0_CLIENT_PREFLIGHT_20260907T183401.226510Z/runtime_state\"",
+      "-c",
+      "log_dir=\"/home/afazeli2006/ARC_Independent_Lab/delivery/GATE0_CLIENT_PREFLIGHT_20260907T183401.226510Z/runtime_logs\"",
+      "-c",
+      "history.persistence=\"none\"",
+      "-c",
+      "web_search=\"disabled\"",
+      "-c",
+      "agents.enabled=false",
+      "-c",
+      "memories.generate_memories=false",
+      "-c",
+      "memories.use_memories=false",
+      "-c",
+      "orchestrator.skills.enabled=false",
+      "-c",
+      "tools.update_plan.enabled=false",
+      "-c",
+      "tools.experimental_request_user_input.enabled=false",
+      "-c",
+      "analytics.enabled=false",
+      "-c",
+      "approval_policy=\"never\"",
+      "-c",
+      "features.plugins=false",
+      "-c",
+      "features.remote_plugin=false",
+      "-c",
+      "features.plugin_hooks=false",
+      "-c",
+      "features.apps=false",
+      "-c",
+      "features.connectors=false",
+      "-c",
+      "features.enable_mcp_apps=false",
+      "-c",
+      "features.hooks=false",
+      "-c",
+      "features.codex_hooks=false",
+      "-c",
+      "features.memories=false",
+      "-c",
+      "features.memory_tool=false",
+      "-c",
+      "features.external_agent_memory_import=false",
+      "-c",
+      "features.goals=false",
+      "-c",
+      "features.remote_control=false",
+      "-c",
+      "features.multi_agent=false",
+      "-c",
+      "features.multi_agent_v2=false",
+      "-c",
+      "features.collab=false",
+      "-c",
+      "features.enable_fanout=false",
+      "-c",
+      "features.send_async_message=false",
+      "-c",
+      "features.code_mode=false",
+      "-c",
+      "features.code_mode_only=false",
+      "-c",
+      "features.code_mode_prewarm=false",
+      "-c",
+      "features.js_repl=false",
+      "-c",
+      "features.shell_tool=false",
+      "-c",
+      "features.unified_exec=false",
+      "-c",
+      "features.experimental_use_unified_exec_tool=false",
+      "-c",
+      "features.apply_patch_freeform=false",
+      "-c",
+      "features.view_image=false",
+      "-c",
+      "features.web_search=false",
+      "-c",
+      "features.web_search_cached=false",
+      "-c",
+      "features.web_search_request=false",
+      "-c",
+      "features.browser_use=false",
+      "-c",
+      "features.computer_use=false",
+      "-c",
+      "features.tool_search=false",
+      "-c",
+      "features.token_budget=false",
+      "-c",
+      "features.skill_search=false",
+      "-c",
+      "features.shell_snapshot=false",
+      "-c",
+      "features.background_paginated_rollout_migration=false",
+      "-c",
+      "features.auth_elicitation=false",
+      "-c",
+      "features.unbounded_connection_retries=false",
+      "app-server",
+      "--strict-config",
+      "--stdio"
+    ],
+    "mounts": [
+      {
+        "source": "/home/afazeli2006/.codex/config.toml",
+        "destination": "/home/afazeli2006/.codex/config.toml",
+        "access": "read"
+      },
+      {
+        "source": "/home/afazeli2006/ARC_Independent_Lab/delivery/GATE0_CLIENT_PREFLIGHT_20260907T183401.226510Z",
+        "destination": "/home/afazeli2006/ARC_Independent_Lab/delivery/GATE0_CLIENT_PREFLIGHT_20260907T183401.226510Z",
+        "access": "read"
+      },
+      {
+        "source": "/home/afazeli2006/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+        "destination": "/home/afazeli2006/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+        "access": "read"
+      },
+      {
+        "source": "/home/afazeli2006/ARC_Independent_Lab/delivery/GATE0_CLIENT_PREFLIGHT_20260907T183401.226510Z/runtime_logs",
+        "destination": "/home/afazeli2006/ARC_Independent_Lab/delivery/GATE0_CLIENT_PREFLIGHT_20260907T183401.226510Z/runtime_logs",
+        "access": "write"
+      },
+      {
+        "source": "/home/afazeli2006/ARC_Independent_Lab/delivery/GATE0_CLIENT_PREFLIGHT_20260907T183401.226510Z/runtime_state",
+        "destination": "/home/afazeli2006/ARC_Independent_Lab/delivery/GATE0_CLIENT_PREFLIGHT_20260907T183401.226510Z/runtime_state",
+        "access": "write"
+      },
+      {
+        "source": "/home/afazeli2006/ARC_Independent_Lab/delivery/GATE0_CLIENT_PREFLIGHT_20260907T183401.226510Z/installation_id_copy",
+        "destination": "/home/afazeli2006/.codex/installation_id",
+        "access": "write",
+        "kind": "same_identity_private_backing"
+      }
+    ],
+    "command_cwd": "/home/afazeli2006/ARC_Independent_Lab/delivery/GATE0_CLIENT_PREFLIGHT_20260907T183401.226510Z",
+    "network": "new_unshared_namespace",
+    "host_root_bound": false,
+    "home_environment_modified": false,
+    "codex_home_environment_modified": false,
+    "authentication_copied": false,
+    "host_installation_id_writable_bind": false,
+    "temporary_files": "namespace-only /tmp",
+    "identity_copy_content_verification": "parent_required",
+    "policy_config_provenance_verification": "parent_required"
+  },
+  "runtime_before": {
+    "device": 2096,
+    "inode": 289057,
+    "bytes": 270815680,
+    "mode": 493,
+    "mtime_ns": 1787995517570186600,
+    "ctime_ns": 1788063084487398890,
+    "sha256": "9739cbc928b9c573be83256acd46668f5dd4f119d2d09e05246895ca2aaf0c9a"
+  },
+  "bwrap_before": {
+    "device": 2096,
+    "inode": 289095,
+    "bytes": 72160,
+    "mode": 493,
+    "mtime_ns": 1727115356000000000,
+    "ctime_ns": 1788063024428985438,
+    "sha256": "52231e1caf55bcbc667b269f49c63599a6f7db4767ae6a039580d0ff853db712"
+  },
+  "limits": {
+    "wall_seconds": 60,
+    "per_stream_bytes": 2097152,
+    "runtime_tree_bytes_polled": 67108864
+  },
+  "model_called_by_protocol": false,
+  "formal_verdict": null,
+  "unattended_model_use_authorized": false,
+  "observation": {
+    "requests_sent": [
+      "initialize",
+      "config/read",
+      "configRequirements/read"
+    ],
+    "responses": [
+      {
+        "method": "initialize",
+        "received": true
+      },
+      {
+        "method": "config/read",
+        "received": true
+      },
+      {
+        "method": "configRequirements/read",
+        "received": true
+      }
+    ],
+    "server_requests_dispatched": 0,
+    "thread_or_model_request_sent": false,
+    "notifications_received": 2,
+    "effective_config": {
+      "controls": {
+        "sqlite_home": {
+          "present": true,
+          "equals_requested": true
+        },
+        "log_dir": {
+          "present": true,
+          "equals_requested": true
+        },
+        "history.persistence": {
+          "present": true,
+          "equals_requested": true
+        },
+        "web_search": {
+          "present": true,
+          "equals_requested": true
+        },
+        "agents.enabled": {
+          "present": true,
+          "equals_requested": true
+        },
+        "memories.generate_memories": {
+          "present": true,
+          "equals_requested": true
+        },
+        "memories.use_memories": {
+          "present": true,
+          "equals_requested": true
+        },
+        "orchestrator.skills.enabled": {
+          "present": true,
+          "equals_requested": true
+        },
+        "tools.update_plan.enabled": {
+          "present": false,
+          "equals_requested": false
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "present": false,
+          "equals_requested": false
+        },
+        "analytics.enabled": {
+          "present": true,
+          "equals_requested": true
+        },
+        "approval_policy": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.plugins": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.remote_plugin": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.plugin_hooks": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.apps": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.connectors": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.enable_mcp_apps": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.hooks": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.codex_hooks": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.memories": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.memory_tool": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.external_agent_memory_import": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.goals": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.remote_control": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.multi_agent": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.multi_agent_v2": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.collab": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.enable_fanout": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.send_async_message": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.code_mode": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.code_mode_only": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.code_mode_prewarm": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.js_repl": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.shell_tool": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.unified_exec": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.experimental_use_unified_exec_tool": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.apply_patch_freeform": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.view_image": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.web_search": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.web_search_cached": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.web_search_request": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.browser_use": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.computer_use": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.tool_search": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.token_budget": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.skill_search": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.shell_snapshot": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.background_paginated_rollout_migration": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.auth_elicitation": {
+          "present": true,
+          "equals_requested": true
+        },
+        "features.unbounded_connection_retries": {
+          "present": true,
+          "equals_requested": true
+        }
+      },
+      "all_requested_controls_observed": false,
+      "origins_object_present": true,
+      "layers_array_present": true,
+      "managed_requirements_verified": false
+    },
+    "requirements_present": false,
+    "requirements_verified": false,
+    "status": "OBSERVED_STARTUP_AND_CONFIG_RESPONSES_ONLY",
+    "client_exit_code": -15,
+    "streams": {
+      "stdout": {
+        "bytes_observed": 15459,
+        "sha256_observed": "b4ab966ea338772ada4050651d032a8fecaf8da30608442e6e1d180525e6e307"
+      },
+      "stderr": {
+        "bytes_observed": 103,
+        "sha256_observed": "d47a06d59aba2814c3fb7460049fc2ccbfc834196c956d6c6558e8be8b079e24"
+      }
+    },
+    "raw_config_auth_or_diagnostics_saved": false,
+    "diagnostic_categories_observed": {
+      "permission_denied": false,
+      "missing_dependency": false,
+      "unknown_cli_argument": false,
+      "configuration_load_error": false,
+      "default_fallback_warning": false,
+      "namespace_permission": false
+    }
+  },
+  "host_runtime_unchanged": true,
+  "host_bwrap_unchanged": true,
+  "host_installation_id_unchanged": true,
+  "identifier_copy_matches_original": true,
+  "original_observed_origin_metadata_unchanged": true
+}

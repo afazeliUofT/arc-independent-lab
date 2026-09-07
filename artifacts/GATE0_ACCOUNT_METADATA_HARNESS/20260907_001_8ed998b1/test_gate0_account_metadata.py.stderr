@@ -1,0 +1,14 @@
+test_absent_account_is_only_contained_not_host_logout (test_gate0_account_metadata.AccountMetadataCases.test_absent_account_is_only_contained_not_host_logout) ... ok
+test_backend_default_is_labelled_inference_and_unknowns_redacted (test_gate0_account_metadata.AccountMetadataCases.test_backend_default_is_labelled_inference_and_unknowns_redacted) ... ok
+test_enumerations_and_no_refresh_request_match_exact_embedded_interface (test_gate0_account_metadata.AccountMetadataCases.test_enumerations_and_no_refresh_request_match_exact_embedded_interface) ... ok
+test_error_records_only_numeric_code_and_fixed_categories (test_gate0_account_metadata.AccountMetadataCases.test_error_records_only_numeric_code_and_fixed_categories) ... ok
+test_partial_tampered_or_different_driver_receipt_stops (test_gate0_account_metadata.AccountMetadataCases.test_partial_tampered_or_different_driver_receipt_stops) ... ok
+test_real_transport_only_four_requests_no_refresh_no_raw_secrets (test_gate0_account_metadata.AccountMetadataCases.test_real_transport_only_four_requests_no_refresh_no_raw_secrets) ... ok
+test_repeated_completed_step_returns_same_report_without_subprocess (test_gate0_account_metadata.AccountMetadataCases.test_repeated_completed_step_returns_same_report_without_subprocess) ... ok
+test_symlinked_receipt_rejected (test_gate0_account_metadata.AccountMetadataCases.test_symlinked_receipt_rejected) ... ok
+test_unknown_account_provider_and_plan_do_not_leak_or_authorize (test_gate0_account_metadata.AccountMetadataCases.test_unknown_account_provider_and_plan_do_not_leak_or_authorize) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.095s
+
+OK

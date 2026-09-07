@@ -1,0 +1,22 @@
+{
+  "purpose": "Exact-release source closure for ConfigRead API projection and fixed-leaf origin observation; not runtime tool attestation",
+  "accessed_utc_date": "2026-09-07",
+  "repository": "https://github.com/openai/codex",
+  "commit": "78c290807ce710180111df227df3b7a4fe845452",
+  "license": "Apache-2.0",
+  "source_paths": [
+    "codex-rs/app-server/src/config_manager_service.rs",
+    "codex-rs/app-server/src/config_manager.rs",
+    "codex-rs/app-server/src/config_layer.rs",
+    "codex-rs/config/src/state.rs",
+    "codex-rs/config/src/merge.rs",
+    "codex-rs/app-server-protocol/src/protocol/v2/config.rs",
+    "codex-rs/config/src/config_requirements.rs"
+  ],
+  "retrieval_errors": [
+    {
+      "url": "https://api.github.com/repos/openai/codex/contents/codex-rs/app-server-protocol/src/protocol/config.rs?ref=78c290807ce710180111df227df3b7a4fe845452",
+      "result": "Tool isError=true; stale guessed path. Directory inspection resolved actual protocol/v2/config.rs."
+    }
+  ]
+}
