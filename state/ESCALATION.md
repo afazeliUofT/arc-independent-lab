@@ -17,3 +17,7 @@ The concrete command, native cleanup/token-storage effects, safeguards, source e
 Then pull that answer and run the guarded sign-in command in the linked instructions. The script checks this recorded approval. Share only its `REPORT.json`.
 
 To decline, append `## ANSWER` followed by `DECLINE_G0_SIGNIN_015`. This access route will be suspended; the audit remains provisional and preserved. Any qualified answer will be read before choosing a different action. No permission to grade our own work is inferred.
+
+## ANSWER
+APPROVE_G0_SIGNIN_015
+scope_sha256: 6020d46ae6818f6c15341a7074ea4f7306b3764d8c64a92d0dcce745ed1c7ccd
