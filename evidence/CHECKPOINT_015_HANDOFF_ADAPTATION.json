@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-07",
+  "scope": "Mechanical checkpoint number/base adaptation; unchanged transfer checks and publication responsibility",
+  "changes": [
+    {
+      "parent_path": "scripts/checkpoint014_handoff.py",
+      "parent_sha256": "acad3530dd6b9ba93eec12acadd5b49a104e04531a11d1caab6600a08a3db078",
+      "new_path": "scripts/checkpoint015_handoff.py",
+      "new_sha256": "9ffd48fc734663162dccee9879fce65d3c20dc6bbccf0e3505a8c07f2e90f89e",
+      "literal_replacement_counts": {
+        "checkpoint014": 1,
+        "checkpoint-014": 1,
+        "CHECKPOINT_014": 1,
+        "Checkpoint014": 0,
+        "69d70dfb0dd49d51b223c57e29ea25295750e651": 1
+      }
+    },
+    {
+      "parent_path": "delivery/build_checkpoint014.py",
+      "parent_sha256": "42011eac562caf1664218b13a8e72f3e5f1e1a2eda18a89467a6e7b09da67b21",
+      "new_path": "delivery/build_checkpoint015.py",
+      "new_sha256": "15ff622e69847a584c28d65a6ee2702fc7ab1379c85c0e418ba480ddb4d111a5",
+      "literal_replacement_counts": {
+        "checkpoint014": 5,
+        "checkpoint-014": 0,
+        "CHECKPOINT_014": 4,
+        "Checkpoint014": 1,
+        "69d70dfb0dd49d51b223c57e29ea25295750e651": 1
+      }
+    },
+    {
+      "parent_path": "delivery/validate_checkpoint014_release.py",
+      "parent_sha256": "7afd4178c58a0a14c113103f04486660827beacee97be9b0e8a463ed5e98d42e",
+      "new_path": "delivery/validate_checkpoint015_release.py",
+      "new_sha256": "7fd06dff8f3cf9f101ffdef6cbcbfac385e62c786463a6738dde04c4ffd2d116",
+      "literal_replacement_counts": {
+        "checkpoint014": 2,
+        "checkpoint-014": 0,
+        "CHECKPOINT_014": 6,
+        "Checkpoint014": 0,
+        "69d70dfb0dd49d51b223c57e29ea25295750e651": 0
+      }
+    }
+  ],
+  "human_only_commit_and_push": true,
+  "validation": "Exact final archive application remains required before delivery"
+}

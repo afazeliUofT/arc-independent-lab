@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "approval_id": "APPROVE_G0_SIGNIN_015",
+  "scope_id": "GATE0_SIGNIN_SCOPE_015",
+  "date": "2026-09-07",
+  "purpose": "One human-operated supported ChatGPT browser sign-in needed to prepare a separate scientific reviewer; no model invocation.",
+  "canonical_home": "/home/afazeli2006",
+  "canonical_project": "/home/afazeli2006/ARC_Independent_Lab",
+  "runtime_relative_to_home": ".codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+  "runtime_sha256": "9739cbc928b9c573be83256acd46668f5dd4f119d2d09e05246895ca2aaf0c9a",
+  "native_login_argv": [
+    "$HOME/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+    "login"
+  ],
+  "observed_report_path": "artifacts/GATE0_ACCOUNT_METADATA_OBSERVATIONS/20260907_001/REPORT.json",
+  "observed_report_sha256": "ba597b20b890d183edb10b76707d71798bd293013cc4fc03de9d77cd0de1d0f9",
+  "timeout_seconds": 300,
+  "report_directory": "delivery/GATE0_HUMAN_SIGNIN_015",
+  "callback_port": 1455,
+  "authorized_native_effects": [
+    "Human completes the installed Codex client's normal ChatGPT browser login under existing account and workspace policies.",
+    "Native client may create its private credential cache ~/.codex/auth.json and ordinary private login/log/cache/support files within existing ~/.codex or the project. Configured log directories elsewhere must cause refusal.",
+    "Native client may perform its built-in prior-authentication cleanup/revocation. Wrapper requires the observed file credential backend and an absent auth.json immediately before starting; it does not knowingly replace an existing login.",
+    "Native client may open a Windows browser or print a private login URL, bind its local callback, and contact the configured OpenAI authentication service. Browser cookies/session changes are part of this human-operated sign-in.",
+    "Native browser authentication may obtain an optional API-key-style token and store it with ChatGPT auth mode. This permission covers native token management only; it authorizes no API model use or charges.",
+    "Project wrapper may create only its nonsecret fixed attempt/report receipt under the project delivery directory."
+  ],
+  "forbidden_actions": [
+    "No assistant access to credential values; no credential copying, export, hashing, upload or publication.",
+    "No raw native terminal/browser output or native logs included in the report.",
+    "No API-key login, API model call, paid credits, purchases, credit resets or additional spending.",
+    "No change of HOME, CODEX_HOME, authentication backend, account security settings, managed policies or model settings.",
+    "No scientific reviewer/model invocation, unattended loop or claim that sign-in establishes entitlement, usage allowance or reviewer independence.",
+    "No reading or modifying the other research programme.",
+    "If an existing credential file, changed provenance, occupied callback port or incomplete prior attempt is detected, stop and preserve it."
+  ],
+  "approval_protocol": "Publish checkpoint015 first. Human appends ## ANSWER, standalone APPROVE_G0_SIGNIN_015, and scope_sha256: <SHA256 of this exact file> to state/ESCALATION.md, commits and pushes, then pulls that answer before --sign-in. The wrapper requires this recorded authorization.",
+  "source_manifest": "artifacts/GATE0_LOGIN_SOURCE/20260907_001/MANIFEST.json",
+  "source_manifest_sha256": "f67702c332474b345fa7579ccd4947ffbd7081ac01641dcbe6843447f91baf8d"
+}

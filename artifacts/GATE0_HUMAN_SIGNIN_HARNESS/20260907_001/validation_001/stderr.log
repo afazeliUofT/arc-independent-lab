@@ -1,0 +1,17 @@
+test_approval_restrictions_are_not_silently_ignored (test_gate0_human_signin.SigninTests.test_approval_restrictions_are_not_silently_ignored) ... ok
+test_changed_source_and_scope_refuse (test_gate0_human_signin.SigninTests.test_changed_source_and_scope_refuse) ... ok
+test_changed_wrapper_blocks_completed_report_reuse (test_gate0_human_signin.SigninTests.test_changed_wrapper_blocks_completed_report_reuse) ... ok
+test_completed_receipt_reused_without_host_measurement_or_launch (test_gate0_human_signin.SigninTests.test_completed_receipt_reused_without_host_measurement_or_launch) ... ok
+test_default_inspection_never_launches_binds_or_writes (test_gate0_human_signin.SigninTests.test_default_inspection_never_launches_binds_or_writes) ... ok
+test_existing_auth_never_opened_or_replaced (test_gate0_human_signin.SigninTests.test_existing_auth_never_opened_or_replaced) ... ok
+test_fenced_or_indented_template_is_not_approval (test_gate0_human_signin.SigninTests.test_fenced_or_indented_template_is_not_approval) ... ok
+test_origin_metadata_runtime_and_log_directory_changes_refuse (test_gate0_human_signin.SigninTests.test_origin_metadata_runtime_and_log_directory_changes_refuse) ... ok
+test_partial_attempt_or_modified_receipt_preserved (test_gate0_human_signin.SigninTests.test_partial_attempt_or_modified_receipt_preserved) ... ok
+test_receipt_types_do_not_accept_boolean_exit_or_string_flags (test_gate0_human_signin.SigninTests.test_receipt_types_do_not_accept_boolean_exit_or_string_flags) ... ok
+test_timeout_and_nonzero_use_stubs_no_native_execution (test_gate0_human_signin.SigninTests.test_timeout_and_nonzero_use_stubs_no_native_execution) ... ok
+test_unapproved_no_launch_or_directory_writes (test_gate0_human_signin.SigninTests.test_unapproved_no_launch_or_directory_writes) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.031s
+
+OK

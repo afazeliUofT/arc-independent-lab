@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "verified_utc": "2026-09-07T22:36:31.648079+00:00",
+  "access_date": "2026-09-07",
+  "source_url": "https://github.com/afazeliUofT/arc-independent-lab/commit/82cd17dd99bbbd51484540c6288ca98148b87903",
+  "commit": "82cd17dd99bbbd51484540c6288ca98148b87903",
+  "parent": "69d70dfb0dd49d51b223c57e29ea25295750e651",
+  "remote_tree_sha": "9f6101c2ca8dbda22c5eed32572a3996b363b221",
+  "manifest_sha256": "d6f09a92ea23d16f50387037d9a3dbf3eb0832b313f727248f14274285693439",
+  "full_tree_files_verified": 553,
+  "exact_delivered_payload_paths_verified": 17,
+  "empty_file_in_published_tree": false,
+  "review_manifests": [
+    {
+      "path": "evidence/P3_AUDIT_REVIEW_MANIFEST.json",
+      "sha256": "8d475e93aa21db5d7210f337c036e2705e3a4b83b6d99d43d715161d63b7e374",
+      "pinned_entries_verified": 41
+    },
+    {
+      "path": "evidence/P3_RESIDUAL_REVIEW_MANIFEST.json",
+      "sha256": "f7249d53060349fdfbaca2102672457e3e8966ef510d6853322b10da75762128",
+      "pinned_entries_verified": 7
+    }
+  ],
+  "working_overlays_preserved": {
+    "state/LEDGER.jsonl": {
+      "published_sha256": "d0e04a17ce2710d40d0e33ee2ab875ee16039dc99fd7f51760daa81b0b5cf241",
+      "working_sha256": "089fa5d6b2eebd155b190797baa9e69ae3d4bb66d630876d236a15c62112ed77",
+      "appended_bytes": 496
+    }
+  },
+  "local_HEAD_and_index_adopt_verified_human_commit": true,
+  "assistant_commit_or_push": false,
+  "working_bytes_preserved": true,
+  "adopted_utc": "2026-09-07T22:37:30.136845+00:00"
+}

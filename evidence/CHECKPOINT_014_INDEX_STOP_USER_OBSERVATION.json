@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-07",
+  "source": "User-provided terminal output in this conversation; laptop index not directly inspected",
+  "checkpoint": "P3_CHECKPOINT_014",
+  "pinned_base": "69d70dfb0dd49d51b223c57e29ea25295750e651",
+  "reported_download_checksum_checks": "All three passed",
+  "reported_error": "STOP: Unexpected index additions or staged deletions",
+  "source_trace_conclusion": "The first inspection refused an index path outside the base-plus-payload tree or a missing base path. This invocation stopped before apply, staging, commit or push. Printed transitions are planned package changes.",
+  "unknown": "Offending staged paths and whether their changes are intentional",
+  "next_step": "Request read-only staged filename/status diff against pinned base with helper-equivalent Git environment sanitization; preserve all local user work.",
+  "delivery_integrity": "No checkpoint archive, helper, shell script, manifest or publication state modified for this diagnostic.",
+  "durability": "Local recovery note pending inclusion in a later publication checkpoint; not claimed published."
+}

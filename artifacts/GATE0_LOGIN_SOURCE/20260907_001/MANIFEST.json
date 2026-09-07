@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "upstream": "https://github.com/openai/codex",
+  "commit": "78c290807ce710180111df227df3b7a4fe845452",
+  "access_date": "2026-09-07",
+  "license": "Apache-2.0; LICENSE and NOTICE included; exact upstream source bytes preserved",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 10926,
+      "sha256": "d17f227e4df5da1600391338865ce0f3055211760a36688f816941d58232d8dc",
+      "upstream_git_blob": "4606e72e042564097e8780d66c1d4dcb611869bd",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/LICENSE",
+      "access_date": "2026-09-07",
+      "transport_added_final_lf_removed_only_after_blob_match": false
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 242,
+      "sha256": "9d71575ecfd9a843fc1677b0efb08053c6ba9fd686a0de1a6f5382fd3c220915",
+      "upstream_git_blob": "2805899d56d0332d175cfc613c67d45d6f006db7",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/NOTICE",
+      "access_date": "2026-09-07",
+      "transport_added_final_lf_removed_only_after_blob_match": false
+    },
+    {
+      "path": "codex-rs/cli/src/main.rs",
+      "bytes": 176485,
+      "sha256": "470b3a9aff6ecaacb3cd1de036dfa443c6777badcbf821d4044c0c371353b944",
+      "upstream_git_blob": "0bfea04498c6c3ca11e64b859d1ae50d67caf2f4",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/cli/src/main.rs",
+      "access_date": "2026-09-07",
+      "transport_added_final_lf_removed_only_after_blob_match": true
+    },
+    {
+      "path": "codex-rs/login/src/device_code_auth.rs",
+      "bytes": 7564,
+      "sha256": "78bfe08f18fa89c84b261c5e11269239a06bb60cb0a964fbe8532ccede4ba328",
+      "upstream_git_blob": "a909da40f228de5f0e328a0f28b0a21157fd0160",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/login/src/device_code_auth.rs",
+      "access_date": "2026-09-07",
+      "transport_added_final_lf_removed_only_after_blob_match": true
+    },
+    {
+      "path": "codex-rs/login/src/lib.rs",
+      "bytes": 2344,
+      "sha256": "b2b3444b464bca06a645bd423bac1bbc9feb313da78a0b7da2806fafac9d4233",
+      "upstream_git_blob": "33659722fdd28e3a71727cbaac459126c1ca2831",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/login/src/lib.rs",
+      "access_date": "2026-09-07",
+      "transport_added_final_lf_removed_only_after_blob_match": true
+    },
+    {
+      "path": "codex-rs/login/src/server.rs",
+      "bytes": 48361,
+      "sha256": "59ea616627e40ba9682eab03b4c3d57ecbdc66557f188d354fbf6dee0ec1d6ea",
+      "upstream_git_blob": "677c740da21026f92c536ca4e4108b0a674b26f8",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/login/src/server.rs",
+      "access_date": "2026-09-07",
+      "transport_added_final_lf_removed_only_after_blob_match": true
+    }
+  ],
+  "source_acquisition_observations": [
+    "Initial tool response accidentally printed full public sources and was truncated; cached complete tool result used, no repeated source download for that reason.",
+    "apply_patch materialization may add final LF; remove only when resulting bytes match pinned upstream Git blob."
+  ]
+}

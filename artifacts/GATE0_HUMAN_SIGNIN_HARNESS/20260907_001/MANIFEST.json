@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-07",
+  "kind": "GATE0_HUMAN_SIGNIN_SYNTHETIC_VALIDATION",
+  "operative_receipt": "validation_003/RESULT.json",
+  "operative_receipt_sha256": "f53f030e56f4455895c71826367b727f24222406e5a663fba916fb59ec66509e",
+  "source_pins": {
+    "scripts/gate0_human_signin.py": "6afaa0d36ee3162a5043b3252757b49acfb669944951ac1ccdeb200ba0a75f63",
+    "tests/test_gate0_human_signin.py": "26820083118ddc97068981b9c3a5c8cb99dcba30d07d55f09eda2931e6eac3f1",
+    "configs/GATE0_SIGNIN_SCOPE_015.json": "6020d46ae6818f6c15341a7074ea4f7306b3764d8c64a92d0dcce745ed1c7ccd"
+  },
+  "native_client_executed": false,
+  "actual_laptop_test": false,
+  "model_executed": false,
+  "scientific_verdict": false,
+  "earlier_validation": "Intermediate checks retained; final source identities and final test logs are controlling. No real login observation is claimed."
+}

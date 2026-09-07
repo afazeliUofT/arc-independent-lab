@@ -1,0 +1,22 @@
+{
+  "exit_code": 0,
+  "native_client_executed": false,
+  "login_executed": false,
+  "model_executed": false,
+  "files": {
+    "scripts/gate0_human_signin.py": "d4919b7bd9847a9bdb1234360b64c29d579a7dc5d8d666c633eaaf119e898e36",
+    "tests/test_gate0_human_signin.py": "0163bff4d360c4d7a6938451910d856bd4dff98068891bdc833a263407f65f02"
+  },
+  "earlier_missing_scope_read": {
+    "command": "cat configs/GATE0_SIGNIN_SCOPE_015.json",
+    "exit_code": 1,
+    "stderr": "cat: configs/GATE0_SIGNIN_SCOPE_015.json: No such file or directory\n",
+    "cause": "root had not yet created dependency; no dependent client execution followed"
+  },
+  "earlier_scope_presence_check": {
+    "command": "test -f configs/GATE0_SIGNIN_SCOPE_015.json && cat configs/GATE0_SIGNIN_SCOPE_015.json",
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-07",
+  "task": "P3.8",
+  "scope": "Root source-byte verification and exact login-dispatch inspection, not runtime execution",
+  "source_manifest": {
+    "path": "artifacts/GATE0_LOGIN_SOURCE/20260907_001/MANIFEST.json",
+    "sha256": "f67702c332474b345fa7579ccd4947ffbd7081ac01641dcbe6843447f91baf8d"
+  },
+  "checks": "All listed source/license bytes match declared SHA-256, sizes and upstream Git blob IDs",
+  "native_client_executed": false,
+  "scientific_verdict": false
+}

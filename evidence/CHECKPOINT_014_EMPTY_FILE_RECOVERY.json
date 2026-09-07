@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-07",
+  "scope": "Checkpoint014 publication recovery; no scientific inference",
+  "user_observation": {
+    "command": "git diff --cached --name-status against 69d70dfb0dd49d51b223c57e29ea25295750e651 with sanitized Git environment",
+    "output": "A\tempty_file.txt\n",
+    "user_description": "User added an empty file while troubleshooting GitHub and described it as pushed."
+  },
+  "remote_observation": {
+    "observed_utc": "2026-09-07T21:48:45.016Z",
+    "url": "https://api.github.com/repos/afazeliUofT/arc-independent-lab/commits/main",
+    "main_sha": "69d70dfb0dd49d51b223c57e29ea25295750e651",
+    "parents": [
+      "4363226a2fa5fd1aef45d8b458fb5b7fce3e586b"
+    ],
+    "tree_sha": "2343e57305f4355be8bbf49bb4d386847f76681e"
+  },
+  "conclusion": "The only reported staged path outside checkpoint014 is empty_file.txt. Remote main remains the pinned base at observation time. Current laptop HEAD must be checked before exact-path unstaging; diff against base alone does not establish its current HEAD.",
+  "prepared_action": "Human checks local HEAD equals pinned base, then runs git restore --source=HEAD --staged -- empty_file.txt. This changes only that index entry and preserves the file on disk. Human then reuses checksum-verified existing014 publication script.",
+  "retry_rule": "If a commit is created but push fails, retry only the existing publication command, not the base-HEAD repair guard.",
+  "execution_status": "Prepared only; no laptop repair or publication claimed. Delivered014 artifacts unchanged.",
+  "durability": "Local recovery note pending later publication; not claimed on GitHub."
+}

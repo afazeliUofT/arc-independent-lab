@@ -1,0 +1,55 @@
+{
+  "upstream": "https://github.com/openai/codex",
+  "commit": "78c290807ce710180111df227df3b7a4fe845452",
+  "access_date": "2026-09-07",
+  "entries": [
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "4606e72e042564097e8780d66c1d4dcb611869bd",
+      "size": 10926,
+      "type": "blob",
+      "url": "https://api.github.com/repos/openai/codex/git/blobs/4606e72e042564097e8780d66c1d4dcb611869bd"
+    },
+    {
+      "mode": "100644",
+      "path": "NOTICE",
+      "sha": "2805899d56d0332d175cfc613c67d45d6f006db7",
+      "size": 242,
+      "type": "blob",
+      "url": "https://api.github.com/repos/openai/codex/git/blobs/2805899d56d0332d175cfc613c67d45d6f006db7"
+    },
+    {
+      "mode": "100644",
+      "path": "codex-rs/cli/src/main.rs",
+      "sha": "0bfea04498c6c3ca11e64b859d1ae50d67caf2f4",
+      "size": 176485,
+      "type": "blob",
+      "url": "https://api.github.com/repos/openai/codex/git/blobs/0bfea04498c6c3ca11e64b859d1ae50d67caf2f4"
+    },
+    {
+      "mode": "100644",
+      "path": "codex-rs/login/src/device_code_auth.rs",
+      "sha": "a909da40f228de5f0e328a0f28b0a21157fd0160",
+      "size": 7564,
+      "type": "blob",
+      "url": "https://api.github.com/repos/openai/codex/git/blobs/a909da40f228de5f0e328a0f28b0a21157fd0160"
+    },
+    {
+      "mode": "100644",
+      "path": "codex-rs/login/src/lib.rs",
+      "sha": "33659722fdd28e3a71727cbaac459126c1ca2831",
+      "size": 2344,
+      "type": "blob",
+      "url": "https://api.github.com/repos/openai/codex/git/blobs/33659722fdd28e3a71727cbaac459126c1ca2831"
+    },
+    {
+      "mode": "100644",
+      "path": "codex-rs/login/src/server.rs",
+      "sha": "677c740da21026f92c536ca4e4108b0a674b26f8",
+      "size": 48361,
+      "type": "blob",
+      "url": "https://api.github.com/repos/openai/codex/git/blobs/677c740da21026f92c536ca4e4108b0a674b26f8"
+    }
+  ]
+}

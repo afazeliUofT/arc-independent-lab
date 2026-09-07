@@ -1,0 +1,16 @@
+{
+  "exit_code": 0,
+  "test_scope": "Synthetic project-contained native/TTY/port stubs. Added refusal of unknown receipt fields before reuse output.",
+  "native_client_executed": false,
+  "login_executed": false,
+  "model_executed": false,
+  "files": {
+    "scripts/gate0_human_signin.py": "6afaa0d36ee3162a5043b3252757b49acfb669944951ac1ccdeb200ba0a75f63",
+    "tests/test_gate0_human_signin.py": "26820083118ddc97068981b9c3a5c8cb99dcba30d07d55f09eda2931e6eac3f1",
+    "configs/GATE0_SIGNIN_SCOPE_015.json": "6020d46ae6818f6c15341a7074ea4f7306b3764d8c64a92d0dcce745ed1c7ccd"
+  },
+  "previous_validation_records": [
+    "delivery/GATE0_SIGNIN_015_ENGINEERING_TESTS/RESULT.json",
+    "delivery/GATE0_SIGNIN_015_ENGINEERING_TESTS_002/RESULT.json"
+  ]
+}
