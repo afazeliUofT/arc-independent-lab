@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "verified_utc": "2026-09-07T20:01:20.835346+00:00",
+  "report_path": "artifacts/GATE0_ACCOUNT_METADATA_OBSERVATIONS/20260907_001/REPORT.json",
+  "report_sha256": "ba597b20b890d183edb10b76707d71798bd293013cc4fc03de9d77cd0de1d0f9",
+  "exact_driver_source_hashes_matched": true,
+  "recorded_launch_argv_matches_requested_containment": true,
+  "requested_no_model_observation_completed": true,
+  "recorded_input_preservation_checks_passed": true,
+  "two_winning_tool_controls_reported_false": true,
+  "configured_credential_store": "file",
+  "contained_account_available": false,
+  "requires_openai_auth": true,
+  "no_startup_or_account_probe_rerun_needed": true,
+  "scope": "Supplied filtered account/config observation validated against driver bytes; no raw-response replay, host logout conclusion, full tool/context or policy attestation.",
+  "reviewer_access_dependency": "No usable account in authorized namespace; supported human account access is needed before any reviewer model invocation.",
+  "model_entitlement_or_allowance_verified": false,
+  "formal_scientific_verdict": null
+}

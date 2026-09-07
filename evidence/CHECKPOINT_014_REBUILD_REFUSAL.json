@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-09-07T20:13:55.724891+00:00",
+  "errors": [
+    {
+      "command": "python3 -I -B delivery/build_checkpoint014.py --approval delivery/P3_CHECKPOINT_014_APPROVED_PATHS.json",
+      "exit_code": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/build_checkpoint014.py\", line 171, in <module>\n    main()\n  File \"/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/build_checkpoint014.py\", line 104, in main\n    raise ValueError(\"Checkpoint output already exists; inspect it before any explicit replacement\")\nValueError: Checkpoint output already exists; inspect it before any explicit replacement\n"
+    },
+    {
+      "command": "python3 -I -B delivery/validate_checkpoint014_release.py",
+      "exit_code": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/validate_checkpoint014_release.py\", line 55, in <module>\n    assert (ROOT / entry[\"path\"]).read_bytes() == path.read_bytes(), entry[\"path\"]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: state/LEDGER.jsonl\n"
+    }
+  ],
+  "cause": "Builder correctly refuses replacing existing outputs. Root failed to move inspected prior candidate outputs first and then incorrectly launched dependent validation despite build refusal. That validation correctly rejected old candidate vs newly appended canonical ledger. This second failure has a known cause and is different from the first unexplained fixture anomaly.",
+  "correction": "Preserve inspected old outputs by rename, build new finalized byte set once, and run its release validator only after successful build. Never weaken byte checks.",
+  "public_push_performed": false
+}

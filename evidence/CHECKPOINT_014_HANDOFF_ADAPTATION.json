@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-07T20:04:38.438336+00:00",
+  "scope": "Transport-only checkpoint013 to checkpoint014 adaptation for a document/report checkpoint; no scientific checker, threshold, output pins, Git index or existing source files changed. Build and release validation were not executed.",
+  "base": "69d70dfb0dd49d51b223c57e29ea25295750e651",
+  "substitutions": [
+    {
+      "old": "Local P3 checkpoint-013 ZIP handoff.",
+      "new": "Local P3 checkpoint-014 ZIP handoff.",
+      "expected_occurrences": 1
+    },
+    {
+      "old": "BASE = \"4363226a2fa5fd1aef45d8b458fb5b7fce3e586b\"",
+      "new": "BASE = \"69d70dfb0dd49d51b223c57e29ea25295750e651\"",
+      "expected_occurrences": 1
+    },
+    {
+      "old": "manifest[\"checkpoint_id\"] != \"P3_CHECKPOINT_013\"",
+      "new": "manifest[\"checkpoint_id\"] != \"P3_CHECKPOINT_014\"",
+      "expected_occurrences": 1
+    },
+    {
+      "old": "\"delivery/checkpoint013_backups\"",
+      "new": "\"delivery/checkpoint014_backups\"",
+      "expected_occurrences": 1
+    }
+  ],
+  "old_helper_sha256": "58427bb08dc5c0ae50d38c3a7566af47caa91a29688a8ced46ddd634c98c1631",
+  "new_helper_sha256": "acad3530dd6b9ba93eec12acadd5b49a104e04531a11d1caab6600a08a3db078",
+  "all_other_helper_bytes_unchanged": true,
+  "delivery_helper_copy_sha256": "acad3530dd6b9ba93eec12acadd5b49a104e04531a11d1caab6600a08a3db078",
+  "all_source_files": [
+    {
+      "parent_path": "scripts/checkpoint013_handoff.py",
+      "child_path": "scripts/checkpoint014_handoff.py",
+      "parent_sha256": "58427bb08dc5c0ae50d38c3a7566af47caa91a29688a8ced46ddd634c98c1631",
+      "child_sha256": "acad3530dd6b9ba93eec12acadd5b49a104e04531a11d1caab6600a08a3db078",
+      "substitutions": [
+        {
+          "old": "Local P3 checkpoint-013 ZIP handoff.",
+          "new": "Local P3 checkpoint-014 ZIP handoff.",
+          "expected_occurrences": 1
+        },
+        {
+          "old": "BASE = \"4363226a2fa5fd1aef45d8b458fb5b7fce3e586b\"",
+          "new": "BASE = \"69d70dfb0dd49d51b223c57e29ea25295750e651\"",
+          "expected_occurrences": 1
+        },
+        {
+          "old": "manifest[\"checkpoint_id\"] != \"P3_CHECKPOINT_013\"",
+          "new": "manifest[\"checkpoint_id\"] != \"P3_CHECKPOINT_014\"",
+          "expected_occurrences": 1
+        },
+        {
+          "old": "\"delivery/checkpoint013_backups\"",
+          "new": "\"delivery/checkpoint014_backups\"",
+          "expected_occurrences": 1
+        }
+      ],
+      "exact_reverse_substitution_restores_parent_bytes": true,
+      "syntax_compile_passed_without_execution": true,
+      "unified_diff": "--- scripts/checkpoint013_handoff.py\n+++ scripts/checkpoint014_handoff.py\n@@ -1,4 +1,4 @@\n-\"\"\"Local P3 checkpoint-013 ZIP handoff. No commit, push, fetch, or authentication.\n+\"\"\"Local P3 checkpoint-014 ZIP handoff. No commit, push, fetch, or authentication.\n \n Supply the ZIP and its published SHA-256. Default: inspect. --apply: install and\n stage known transitions, then verify actual index blobs. --verify: require the\n@@ -17,7 +17,7 @@\n import tempfile\n import zipfile\n \n-BASE = \"4363226a2fa5fd1aef45d8b458fb5b7fce3e586b\"\n+BASE = \"69d70dfb0dd49d51b223c57e29ea25295750e651\"\n REMOTE = \"https://github.com/afazeliUofT/arc-independent-lab.git\"\n ATTRIBUTES = b\"# Preserve the exact bytes of scientific run artifacts.\\n/artifacts/** -text\\n\"\n MAX_BYTES = 64 * 1024 * 1024\n@@ -60,7 +60,7 @@\n             raise ValueError(\"Duplicate ZIP members or oversized uncompressed payload\")\n         manifest = json.loads(archive.read(\"HANDOFF.json\"), object_pairs_hook=unique)\n         if (set(manifest) != {\"checkpoint_id\", \"base_commit\", \"files\"}\n-                or manifest[\"checkpoint_id\"] != \"P3_CHECKPOINT_013\"\n+                or manifest[\"checkpoint_id\"] != \"P3_CHECKPOINT_014\"\n                 or manifest[\"base_commit\"] != BASE\n                 or not isinstance(manifest[\"files\"], dict) or not manifest[\"files\"]):\n             raise ValueError(\"Unexpected handoff manifest\")\n@@ -212,7 +212,7 @@\n     if head != BASE:\n         print(\"Checkpoint commit already exists; no files or index changed.\")\n         return\n-    backup_parent = ordinary(root, \"delivery/checkpoint013_backups\", directory=True)\n+    backup_parent = ordinary(root, \"delivery/checkpoint014_backups\", directory=True)\n     backup_parent.mkdir(parents=True, exist_ok=True)\n     stamp = datetime.datetime.now(datetime.timezone.utc).strftime(\"%Y%m%dT%H%M%S.%fZ-\")\n     backup = Path(tempfile.mkdtemp(prefix=stamp, dir=backup_parent))\n"
+    },
+    {
+      "parent_path": "delivery/build_checkpoint013.py",
+      "child_path": "delivery/build_checkpoint014.py",
+      "parent_sha256": "5277072cc524156dc8eefa146ac574cace2741cee26e7bbc9d7b135affd6865d",
+      "child_sha256": "42011eac562caf1664218b13a8e72f3e5f1e1a2eda18a89467a6e7b09da67b21",
+      "substitutions": [
+        {
+          "old": "Build checkpoint013 after root finishes science/state",
+          "new": "Build checkpoint014 after root finishes science/state",
+          "expected_occurrences": 1
+        },
+        {
+          "old": "Usage: python3 delivery/build_checkpoint013.py",
+          "new": "Usage: python3 delivery/build_checkpoint014.py",
+          "expected_occurrences": 1
+        },
+        {
+          "old": "BASE = \"4363226a2fa5fd1aef45d8b458fb5b7fce3e586b\"",
+          "new": "BASE = \"69d70dfb0dd49d51b223c57e29ea25295750e651\"",
+          "expected_occurrences": 1
+        },
+        {
+          "old": "CHECKPOINT = \"P3_CHECKPOINT_013\"",
+          "new": "CHECKPOINT = \"P3_CHECKPOINT_014\"",
+          "expected_occurrences": 1
+        },
+        {
+          "old": "MANIFEST = \"state/CHECKPOINT_013.json\"",
+          "new": "MANIFEST = \"state/CHECKPOINT_014.json\"",
+          "expected_occurrences": 1
+        },
+        {
+          "old": "ZIP = ROOT / \"delivery/P3_CHECKPOINT_013.zip\"",
+          "new": "ZIP = ROOT / \"delivery/P3_CHECKPOINT_014.zip\"",
+          "expected_occurrences": 1
+        },
+        {
+          "old": "BUILD_RECORD = ROOT / \"delivery/P3_CHECKPOINT_013_BUILD.json\"",
+          "new": "BUILD_RECORD = ROOT / \"delivery/P3_CHECKPOINT_014_BUILD.json\"",
+          "expected_occurrences": 1
+        },
+        {
+          "old": "spec_from_file_location(\"checkpoint013\", ROOT / \"scripts/checkpoint013_handoff.py\")",
+          "new": "spec_from_file_location(\"checkpoint014\", ROOT / \"scripts/checkpoint014_handoff.py\")",
+          "expected_occurrences": 1
+        },
+        {
+          "old": "\"Checkpoint013 manifest already exists in the base\"",
+          "new": "\"Checkpoint014 manifest already exists in the base\"",
+          "expected_occurrences": 1
+        },
+        {
+          "old": "\"helper_sha256\": sha((ROOT / \"scripts/checkpoint013_handoff.py\").read_bytes())",
+          "new": "\"helper_sha256\": sha((ROOT / \"scripts/checkpoint014_handoff.py\").read_bytes())",
+          "expected_occurrences": 1
+        }
+      ],
+      "exact_reverse_substitution_restores_parent_bytes": true,
+      "syntax_compile_passed_without_execution": true,
+      "unified_diff": "--- delivery/build_checkpoint013.py\n+++ delivery/build_checkpoint014.py\n@@ -1,6 +1,6 @@\n-\"\"\"Build checkpoint013 after root finishes science/state, without staging or network.\n+\"\"\"Build checkpoint014 after root finishes science/state, without staging or network.\n \n-Usage: python3 delivery/build_checkpoint013.py --approval delivery/<approved>.json\n+Usage: python3 delivery/build_checkpoint014.py --approval delivery/<approved>.json\n The approved JSON has exactly new_paths (list), changed_paths (list), and\n scientific_status (string). Every new or changed public path must be explicit.\n The generated full-tree manifest is automatic; do not put it in those lists.\n@@ -17,11 +17,11 @@\n import zipfile\n \n ROOT = Path(__file__).resolve().parents[1]\n-BASE = \"4363226a2fa5fd1aef45d8b458fb5b7fce3e586b\"\n-CHECKPOINT = \"P3_CHECKPOINT_013\"\n-MANIFEST = \"state/CHECKPOINT_013.json\"\n-ZIP = ROOT / \"delivery/P3_CHECKPOINT_013.zip\"\n-BUILD_RECORD = ROOT / \"delivery/P3_CHECKPOINT_013_BUILD.json\"\n+BASE = \"69d70dfb0dd49d51b223c57e29ea25295750e651\"\n+CHECKPOINT = \"P3_CHECKPOINT_014\"\n+MANIFEST = \"state/CHECKPOINT_014.json\"\n+ZIP = ROOT / \"delivery/P3_CHECKPOINT_014.zip\"\n+BUILD_RECORD = ROOT / \"delivery/P3_CHECKPOINT_014_BUILD.json\"\n \n \n def sha(body):\n@@ -64,7 +64,7 @@\n     parser = argparse.ArgumentParser(description=__doc__)\n     parser.add_argument(\"--approval\", type=Path, required=True)\n     args = parser.parse_args()\n-    spec = importlib.util.spec_from_file_location(\"checkpoint013\", ROOT / \"scripts/checkpoint013_handoff.py\")\n+    spec = importlib.util.spec_from_file_location(\"checkpoint014\", ROOT / \"scripts/checkpoint014_handoff.py\")\n     helper = importlib.util.module_from_spec(spec)\n     spec.loader.exec_module(helper)\n     approval_bytes = args.approval.read_bytes()\n@@ -95,7 +95,7 @@\n     if transport.index() != base_tree:\n         raise ValueError(\"Real project index is not the unchanged base; preserved\")\n     if MANIFEST in base_tree:\n-        raise ValueError(\"Checkpoint013 manifest already exists in the base\")\n+        raise ValueError(\"Checkpoint014 manifest already exists in the base\")\n     if allowed[\"new_paths\"] & set(base_tree):\n         raise ValueError(\"Approved new path already exists in the base\")\n     if allowed[\"changed_paths\"] - set(base_tree):\n@@ -153,7 +153,7 @@\n         \"date\": \"2026-09-07\", \"checkpoint\": CHECKPOINT, \"base_commit\": BASE,\n         \"zip_sha256\": sha(zip_bytes), \"zip_bytes\": len(zip_bytes),\n         \"manifest_sha256\": sha(manifest_bytes),\n-        \"helper_sha256\": sha((ROOT / \"scripts/checkpoint013_handoff.py\").read_bytes()),\n+        \"helper_sha256\": sha((ROOT / \"scripts/checkpoint014_handoff.py\").read_bytes()),\n         \"diagnosis_sha256\": manifest[\"diagnosis_sha256\"],\n         \"approval_sha256\": sha(approval_bytes), \"full_inventory_files\": len(manifest[\"files\"]),\n         \"changed_or_new_payload_files\": len(changed),\n"
+    },
+    {
+      "parent_path": "delivery/validate_checkpoint013_release.py",
+      "child_path": "delivery/validate_checkpoint014_release.py",
+      "parent_sha256": "a2db0b3e23a6a8b44e35d268d222e38aaf9f7ca6eaa9a8093f54cc57c0425528",
+      "child_sha256": "7afd4178c58a0a14c113103f04486660827beacee97be9b0e8a463ed5e98d42e",
+      "substitutions": [
+        {
+          "old": "ROOT / \"delivery/P3_CHECKPOINT_013_BUILD.json\"",
+          "new": "ROOT / \"delivery/P3_CHECKPOINT_014_BUILD.json\"",
+          "expected_occurrences": 1
+        },
+        {
+          "old": "ROOT / \"scripts/checkpoint013_handoff.py\"",
+          "new": "ROOT / \"scripts/checkpoint014_handoff.py\"",
+          "expected_occurrences": 1
+        },
+        {
+          "old": "prefix=\"checkpoint013_actual_\"",
+          "new": "prefix=\"checkpoint014_actual_\"",
+          "expected_occurrences": 1
+        },
+        {
+          "old": "ROOT / \"delivery/P3_CHECKPOINT_013.zip\"",
+          "new": "ROOT / \"delivery/P3_CHECKPOINT_014.zip\"",
+          "expected_occurrences": 1
+        },
+        {
+          "old": "\"state/CHECKPOINT_013.json\"",
+          "new": "\"state/CHECKPOINT_014.json\"",
+          "expected_occurrences": 3
+        },
+        {
+          "old": "ROOT / \"delivery/P3_CHECKPOINT_013_RELEASE.json\"",
+          "new": "ROOT / \"delivery/P3_CHECKPOINT_014_RELEASE.json\"",
+          "expected_occurrences": 1
+        }
+      ],
+      "exact_reverse_substitution_restores_parent_bytes": true,
+      "syntax_compile_passed_without_execution": true,
+      "unified_diff": "--- delivery/validate_checkpoint013_release.py\n+++ delivery/validate_checkpoint014_release.py\n@@ -12,14 +12,14 @@\n \n ROOT = Path(__file__).resolve().parents[1]\n sha = lambda body: hashlib.sha256(body).hexdigest()\n-build = json.loads((ROOT / \"delivery/P3_CHECKPOINT_013_BUILD.json\").read_bytes())\n-spec = importlib.util.spec_from_file_location(\"handoff\", ROOT / \"scripts/checkpoint013_handoff.py\")\n+build = json.loads((ROOT / \"delivery/P3_CHECKPOINT_014_BUILD.json\").read_bytes())\n+spec = importlib.util.spec_from_file_location(\"handoff\", ROOT / \"scripts/checkpoint014_handoff.py\")\n h = importlib.util.module_from_spec(spec)\n spec.loader.exec_module(h)\n real = h.Git(ROOT)\n assert real.text(\"rev-parse\", \"HEAD\") == h.BASE\n assert real.index() == real.tree(h.BASE)\n-fixture = Path(tempfile.mkdtemp(prefix=\"checkpoint013_actual_\", dir=ROOT / \"delivery\")) / \"lab\"\n+fixture = Path(tempfile.mkdtemp(prefix=\"checkpoint014_actual_\", dir=ROOT / \"delivery\")) / \"lab\"\n log = []\n \n \n@@ -36,7 +36,7 @@\n command([\"git\", \"-C\", str(fixture), \"config\", \"core.autocrlf\", \"input\"])\n command([\"git\", \"-C\", str(fixture), \"checkout\", \"-B\", \"main\", h.BASE])\n command([\"git\", \"-C\", str(fixture), \"remote\", \"set-url\", \"origin\", h.REMOTE])\n-files = h.load_package(ROOT / \"delivery/P3_CHECKPOINT_013.zip\", build[\"zip_sha256\"])\n+files = h.load_package(ROOT / \"delivery/P3_CHECKPOINT_014.zip\", build[\"zip_sha256\"])\n trace = io.StringIO()\n with redirect_stdout(trace):\n     h.inspect(fixture, files)\n@@ -44,7 +44,7 @@\n     h.inspect(fixture, files, complete=True)\n git = h.Git(fixture)\n index = git.index()\n-manifest = json.loads((fixture / \"state/CHECKPOINT_013.json\").read_bytes())\n+manifest = json.loads((fixture / \"state/CHECKPOINT_014.json\").read_bytes())\n assert len(index) == len(manifest[\"files\"]) + 1\n for entry in manifest[\"files\"]:\n     path = fixture / entry[\"path\"]\n@@ -53,8 +53,8 @@\n     assert index[entry[\"path\"]][0] == entry[\"mode\"] == mode, entry[\"path\"]\n     assert sha(git.run(\"cat-file\", \"blob\", index[entry[\"path\"]][1])) == entry[\"sha256\"], entry[\"path\"]\n     assert (ROOT / entry[\"path\"]).read_bytes() == path.read_bytes(), entry[\"path\"]\n-assert sha((fixture / \"state/CHECKPOINT_013.json\").read_bytes()) == build[\"manifest_sha256\"]\n-assert sha(git.run(\"cat-file\", \"blob\", index[\"state/CHECKPOINT_013.json\"][1])) == build[\"manifest_sha256\"]\n+assert sha((fixture / \"state/CHECKPOINT_014.json\").read_bytes()) == build[\"manifest_sha256\"]\n+assert sha(git.run(\"cat-file\", \"blob\", index[\"state/CHECKPOINT_014.json\"][1])) == build[\"manifest_sha256\"]\n review_checks = []\n for name in (\"evidence/P3_AUDIT_REVIEW_MANIFEST.json\", \"evidence/P3_RESIDUAL_REVIEW_MANIFEST.json\"):\n     review = json.loads((fixture / name).read_bytes())\n@@ -77,7 +77,7 @@\n            \"real_project_head_unchanged\": True, \"real_project_index_unchanged\": True,\n            \"test_commit_performed\": False, \"public_push_performed\": False,\n            \"actual_laptop_boundary_observed\": False, \"formal_independent_verdict\": False}\n-target = ROOT / \"delivery/P3_CHECKPOINT_013_RELEASE.json\"\n+target = ROOT / \"delivery/P3_CHECKPOINT_014_RELEASE.json\"\n with target.open(\"x\") as stream:\n     stream.write(json.dumps(receipt, indent=2) + \"\\n\")\n print(json.dumps({\"status\": receipt[\"status\"], \"working_and_index_files\": len(index),\n"
+    }
+  ],
+  "actual_zip_build_performed": false,
+  "release_application_validation_performed": false,
+  "git_index_mutated": false,
+  "git_commit_performed": false,
+  "git_push_performed": false,
+  "machine_probe_performed": false,
+  "model_request_performed": false
+}

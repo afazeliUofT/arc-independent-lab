@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-09-07T20:09:56.606467+00:00",
+  "exit_code": 1,
+  "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/validate_checkpoint014_release.py\", line 55, in <module>\n    assert (ROOT / entry[\"path\"]).read_bytes() == path.read_bytes(), entry[\"path\"]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: state/LEDGER.jsonl\n",
+  "fixture": "delivery/checkpoint014_actual_hbc2fzod/lab",
+  "observed_after_failure": [
+    {
+      "path": "state/LEDGER.jsonl",
+      "fixture_working_sha256": "4289b74542d31c1ac5590dcb3d2205813557b003bb3c9eda2fe71ba760e220c0",
+      "root_working_sha256": "2f200d3cc60a163a8a335a9c3c9308378fe04c193a15a298de0f7a2dc28513c1",
+      "fixture_index_sha256": "2f200d3cc60a163a8a335a9c3c9308378fe04c193a15a298de0f7a2dc28513c1"
+    },
+    {
+      "path": "state/PROJECT_STATE.json",
+      "fixture_working_sha256": "c9f82293b5e1661ff55df1bf39581e55a4da010cd87153532fb506cee0b5399e",
+      "root_working_sha256": "fbfdad9f06c76cfe14180101596a56a86a78a043e51c14abeefeff08ca36c962",
+      "fixture_index_sha256": "fbfdad9f06c76cfe14180101596a56a86a78a043e51c14abeefeff08ca36c962"
+    },
+    {
+      "path": "state/BUDGET.json",
+      "fixture_working_sha256": "15e76e11ea41c58eea03f0b5f2ebf749821b31baf5cc61d435ec98c24dba9919",
+      "root_working_sha256": "369303d92723362cb10e7d2a629fe2fe7464486f6e2ed65c0c2eb1ede17faf03",
+      "fixture_index_sha256": "369303d92723362cb10e7d2a629fe2fe7464486f6e2ed65c0c2eb1ede17faf03"
+    },
+    {
+      "path": "reports/DIGEST_2026-09-07.md",
+      "fixture_working_sha256": "50a22594b91b326f099613a4ba9e67a79e01ae0ad347213c46b1e58b76fe705f",
+      "root_working_sha256": "c75a6e6315ca7c0b547c681658f3c8ade427fc490b37e3682c8500c3d785dcc9",
+      "fixture_index_sha256": "c75a6e6315ca7c0b547c681658f3c8ade427fc490b37e3682c8500c3d785dcc9"
+    }
+  ],
+  "cause": "Unestablished. Failed fixture working files differ from its index and packaged values; canonical working files still match exact candidate ZIP. No release receipt created.",
+  "unchanged_retry": {
+    "status": "passed exact final archive application in new contained fixture",
+    "receipt_sha256": "8a8e9907fb034a8a6a65c976383bab5bfc5a47c9a35879c95fb97d6989d01ac9",
+    "zip_sha256": "2f2792f07d364a908a5071c1d1bdf9735d72a0c8cf3a95636355b7f50e956ee8",
+    "validator_code_changed": false,
+    "all_working_and_index_files_verified": 551,
+    "cause_of_first_fixture_change": "unestablished"
+  },
+  "interpretation": "No canonical or published scientific input changed. Failed fixture preserved; do not claim why its working tree differed. Final checkpoint includes this observation and requires another exact release application after bookkeeping changes."
+}
