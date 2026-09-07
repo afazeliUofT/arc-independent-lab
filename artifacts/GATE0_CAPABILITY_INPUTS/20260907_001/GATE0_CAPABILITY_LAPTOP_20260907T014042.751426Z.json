@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "inventory": "P3_GATE0_CAPABILITY_v1",
+  "mode": "laptop",
+  "created_utc": "2026-09-07T01:40:42.751452+00:00",
+  "script_sha256": "e2ce2da1ff8a52b86264b9a237c03bfccc396642dcd901d9c1e23b9acde79145",
+  "read_only_probes": true,
+  "report_write_exception": "/home/afazeli2006/ARC_Independent_Lab/delivery/gate0_inventory/GATE0_CAPABILITY_LAPTOP_20260907T014042.751426Z.json",
+  "command_budget_seconds": 150,
+  "commands": [
+    {
+      "argv": [
+        "/usr/bin/python3",
+        "-I",
+        "--version"
+      ],
+      "timeout_seconds": 12,
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": {
+        "utf8": "Python 3.12.3\n",
+        "base64": "UHl0aG9uIDMuMTIuMwo=",
+        "sha256": "5b3e43dc38ca01e3f5a7854ba50d4330864b0c1e0f646650b2c78cf072acc366",
+        "bytes": 14
+      },
+      "stderr": {
+        "utf8": "",
+        "base64": "",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "elapsed_seconds": 0.0009650519932620227
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "--version"
+      ],
+      "timeout_seconds": 12,
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": {
+        "utf8": "git version 2.43.0\n",
+        "base64": "Z2l0IHZlcnNpb24gMi40My4wCg==",
+        "sha256": "25f3602b5caaf92437be1e76b53698e8d73f14a6c71c2e91c8d5875f923ab29f",
+        "bytes": 19
+      },
+      "stderr": {
+        "utf8": "",
+        "base64": "",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "elapsed_seconds": 0.0007784589543007314
+    },
+    {
+      "argv": [
+        "/home/afazeli2006/.local/bin/codex",
+        "--version"
+      ],
+      "timeout_seconds": 12,
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": {
+        "utf8": "codex-cli 0.151.0\n",
+        "base64": "Y29kZXgtY2xpIDAuMTUxLjAK",
+        "sha256": "9449baa2ef1407a3b0ba27556ece4fb3c8e2f56801646d80f6a32bbf08870187",
+        "bytes": 18
+      },
+      "stderr": {
+        "utf8": "",
+        "base64": "",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "elapsed_seconds": 0.03881416597869247
+    },
+    {
+      "argv": [
+        "/home/afazeli2006/.local/bin/codex",
+        "--help"
+      ],
+      "timeout_seconds": 12,
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": {
+        "utf8": "Codex CLI\n\nIf no subcommand is specified, options will be forwarded to the interactive CLI.\n\nUsage: codex [OPTIONS] [PROMPT]\n       codex [OPTIONS] <COMMAND> [ARGS]\n\nCommands:\n  agents            Browse all agent sessions on the shared local app-server daemon\n  exec              Run Codex non-interactively [aliases: e]\n  review            Run a code review non-interactively\n  login             Manage login\n  logout            Remove stored authentication credentials\n  mcp               Manage external MCP servers for Codex\n  plugin            Manage Codex plugins\n  mcp-server        Start Codex as an MCP server (stdio)\n  app-server        [experimental] Run the app server or related tooling\n  remote-control    [experimental] Manage the app-server daemon with remote control enabled\n  completion        Generate shell completion scripts\n  update            Update Codex to the latest version\n  doctor            Diagnose local Codex installation, config, auth, and runtime health\n  sandbox           Run commands within a Codex-provided sandbox\n  debug             Debugging tools\n  apply             Apply the latest diff produced by Codex agent as a `git apply` to your local\n                    working tree [aliases: a]\n  resume            Resume a previous interactive session (picker by default; use --last to continue\n                    the most recent)\n  queue             Queue a message for an existing session\n  archive           Archive a saved session by id or session name\n  delete            Permanently delete a saved session by id or session name\n  migrate-rollouts  Inspect or migrate legacy local sessions to paginated thread history\n  unarchive         Unarchive a saved session by id or session name\n  fork              Fork a previous interactive session (picker by default; use --last to fork the\n                    most recent)\n  cloud             [EXPERIMENTAL] Browse tasks from Codex Cloud and apply changes locally\n  exec-server       [EXPERIMENTAL] Run the standalone exec-server service\n  features          Inspect feature flags\n  help              Print this message or the help of the given subcommand(s)\n\nArguments:\n  [PROMPT]\n          Optional user prompt to start the session\n\nOptions:\n  -c, --config <key=value>\n          Override a configuration value that would otherwise be loaded from `~/.codex/config.toml`.\n          Use a dotted path (`foo.bar.baz`) to override nested values. The `value` portion is parsed\n          as TOML. If it fails to parse as TOML, the raw string is used as a literal.\n          \n          Examples: - `-c model=\"o3\"` - `-c 'sandbox_permissions=[\"disk-full-read-access\"]'` - `-c\n          shell_environment_policy.inherit=all`\n\n      --enable <FEATURE>\n          Enable a feature (repeatable). Equivalent to `-c features.<name>=true`\n\n      --disable <FEATURE>\n          Disable a feature (repeatable). Equivalent to `-c features.<name>=false`\n\n      --remote <ADDR>\n          Connect the TUI to a remote app server endpoint.\n          \n          Accepted forms: `ws://host:port`, `wss://host:port`, `unix://`, or `unix://PATH`.\n\n      --remote-auth-token-env <ENV_VAR>\n          Name of the environment variable containing the bearer token to send to a remote app\n          server websocket\n\n      --strict-config\n          Error out when config.toml contains fields that are not recognized by this version of\n          Codex\n\n  -i, --image <FILE>...\n          Optional image(s) to attach to the initial prompt\n\n  -m, --model <MODEL>\n          Model the agent should use\n\n      --oss\n          Use open-source provider\n\n      --local-provider <OSS_PROVIDER>\n          Specify which local provider to use (lmstudio or ollama). If not specified with --oss,\n          will use config default or show selection\n\n  -p, --profile <CONFIG_PROFILE_V2>\n          Layer $CODEX_HOME/<name>.config.toml on top of the base user config\n\n  -s, --sandbox <SANDBOX_MODE>\n          Select the sandbox policy to use when executing model-generated shell commands\n          \n          [possible values: read-only, workspace-write, danger-full-access]\n\n      --approve-for-me\n          Route approval requests through automatic review using the workspace-write sandbox\n\n      --dangerously-bypass-approvals-and-sandbox\n          Skip all confirmation prompts and execute commands without sandboxing. EXTREMELY\n          DANGEROUS. Intended solely for running in environments that are externally sandboxed\n\n      --dangerously-bypass-hook-trust\n          Run enabled hooks without requiring persisted hook trust for this invocation. DANGEROUS.\n          Intended only for automation that already vets hook sources\n\n  -C, --cd <DIR>\n          Tell the agent to use the specified directory as its working root\n\n      --add-dir <DIR>\n          Additional directories that should be writable alongside the primary workspace\n\n  -a, --ask-for-approval <APPROVAL_POLICY>\n          Configure when the model requires human approval before executing a command\n\n          Possible values:\n          - on-request: The model decides when to ask the user for approval\n          - never:      Never ask for user approval Execution failures are immediately returned to\n            the model\n\n      --search\n          Enable live web search. When enabled, the native Responses `web_search` tool is available\n          to the model (no per\u2011call approval)\n\n      --no-alt-screen\n          Disable alternate screen mode\n          \n          Runs the TUI in inline mode, preserving terminal scrollback history.\n\n  -h, --help\n          Print help (see a summary with '-h')\n\n  -V, --version\n          Print version\n",
+        "base64": "Q29kZXggQ0xJCgpJZiBubyBzdWJjb21tYW5kIGlzIHNwZWNpZmllZCwgb3B0aW9ucyB3aWxsIGJlIGZvcndhcmRlZCB0byB0aGUgaW50ZXJhY3RpdmUgQ0xJLgoKVXNhZ2U6IGNvZGV4IFtPUFRJT05TXSBbUFJPTVBUXQogICAgICAgY29kZXggW09QVElPTlNdIDxDT01NQU5EPiBbQVJHU10KCkNvbW1hbmRzOgogIGFnZW50cyAgICAgICAgICAgIEJyb3dzZSBhbGwgYWdlbnQgc2Vzc2lvbnMgb24gdGhlIHNoYXJlZCBsb2NhbCBhcHAtc2VydmVyIGRhZW1vbgogIGV4ZWMgICAgICAgICAgICAgIFJ1biBDb2RleCBub24taW50ZXJhY3RpdmVseSBbYWxpYXNlczogZV0KICByZXZpZXcgICAgICAgICAgICBSdW4gYSBjb2RlIHJldmlldyBub24taW50ZXJhY3RpdmVseQogIGxvZ2luICAgICAgICAgICAgIE1hbmFnZSBsb2dpbgogIGxvZ291dCAgICAgICAgICAgIFJlbW92ZSBzdG9yZWQgYXV0aGVudGljYXRpb24gY3JlZGVudGlhbHMKICBtY3AgICAgICAgICAgICAgICBNYW5hZ2UgZXh0ZXJuYWwgTUNQIHNlcnZlcnMgZm9yIENvZGV4CiAgcGx1Z2luICAgICAgICAgICAgTWFuYWdlIENvZGV4IHBsdWdpbnMKICBtY3Atc2VydmVyICAgICAgICBTdGFydCBDb2RleCBhcyBhbiBNQ1Agc2VydmVyIChzdGRpbykKICBhcHAtc2VydmVyICAgICAgICBbZXhwZXJpbWVudGFsXSBSdW4gdGhlIGFwcCBzZXJ2ZXIgb3IgcmVsYXRlZCB0b29saW5nCiAgcmVtb3RlLWNvbnRyb2wgICAgW2V4cGVyaW1lbnRhbF0gTWFuYWdlIHRoZSBhcHAtc2VydmVyIGRhZW1vbiB3aXRoIHJlbW90ZSBjb250cm9sIGVuYWJsZWQKICBjb21wbGV0aW9uICAgICAgICBHZW5lcmF0ZSBzaGVsbCBjb21wbGV0aW9uIHNjcmlwdHMKICB1cGRhdGUgICAgICAgICAgICBVcGRhdGUgQ29kZXggdG8gdGhlIGxhdGVzdCB2ZXJzaW9uCiAgZG9jdG9yICAgICAgICAgICAgRGlhZ25vc2UgbG9jYWwgQ29kZXggaW5zdGFsbGF0aW9uLCBjb25maWcsIGF1dGgsIGFuZCBydW50aW1lIGhlYWx0aAogIHNhbmRib3ggICAgICAgICAgIFJ1biBjb21tYW5kcyB3aXRoaW4gYSBDb2RleC1wcm92aWRlZCBzYW5kYm94CiAgZGVidWcgICAgICAgICAgICAgRGVidWdnaW5nIHRvb2xzCiAgYXBwbHkgICAgICAgICAgICAgQXBwbHkgdGhlIGxhdGVzdCBkaWZmIHByb2R1Y2VkIGJ5IENvZGV4IGFnZW50IGFzIGEgYGdpdCBhcHBseWAgdG8geW91ciBsb2NhbAogICAgICAgICAgICAgICAgICAgIHdvcmtpbmcgdHJlZSBbYWxpYXNlczogYV0KICByZXN1bWUgICAgICAgICAgICBSZXN1bWUgYSBwcmV2aW91cyBpbnRlcmFjdGl2ZSBzZXNzaW9uIChwaWNrZXIgYnkgZGVmYXVsdDsgdXNlIC0tbGFzdCB0byBjb250aW51ZQogICAgICAgICAgICAgICAgICAgIHRoZSBtb3N0IHJlY2VudCkKICBxdWV1ZSAgICAgICAgICAgICBRdWV1ZSBhIG1lc3NhZ2UgZm9yIGFuIGV4aXN0aW5nIHNlc3Npb24KICBhcmNoaXZlICAgICAgICAgICBBcmNoaXZlIGEgc2F2ZWQgc2Vzc2lvbiBieSBpZCBvciBzZXNzaW9uIG5hbWUKICBkZWxldGUgICAgICAgICAgICBQZXJtYW5lbnRseSBkZWxldGUgYSBzYXZlZCBzZXNzaW9uIGJ5IGlkIG9yIHNlc3Npb24gbmFtZQogIG1pZ3JhdGUtcm9sbG91dHMgIEluc3BlY3Qgb3IgbWlncmF0ZSBsZWdhY3kgbG9jYWwgc2Vzc2lvbnMgdG8gcGFnaW5hdGVkIHRocmVhZCBoaXN0b3J5CiAgdW5hcmNoaXZlICAgICAgICAgVW5hcmNoaXZlIGEgc2F2ZWQgc2Vzc2lvbiBieSBpZCBvciBzZXNzaW9uIG5hbWUKICBmb3JrICAgICAgICAgICAgICBGb3JrIGEgcHJldmlvdXMgaW50ZXJhY3RpdmUgc2Vzc2lvbiAocGlja2VyIGJ5IGRlZmF1bHQ7IHVzZSAtLWxhc3QgdG8gZm9yayB0aGUKICAgICAgICAgICAgICAgICAgICBtb3N0IHJlY2VudCkKICBjbG91ZCAgICAgICAgICAgICBbRVhQRVJJTUVOVEFMXSBCcm93c2UgdGFza3MgZnJvbSBDb2RleCBDbG91ZCBhbmQgYXBwbHkgY2hhbmdlcyBsb2NhbGx5CiAgZXhlYy1zZXJ2ZXIgICAgICAgW0VYUEVSSU1FTlRBTF0gUnVuIHRoZSBzdGFuZGFsb25lIGV4ZWMtc2VydmVyIHNlcnZpY2UKICBmZWF0dXJlcyAgICAgICAgICBJbnNwZWN0IGZlYXR1cmUgZmxhZ3MKICBoZWxwICAgICAgICAgICAgICBQcmludCB0aGlzIG1lc3NhZ2Ugb3IgdGhlIGhlbHAgb2YgdGhlIGdpdmVuIHN1YmNvbW1hbmQocykKCkFyZ3VtZW50czoKICBbUFJPTVBUXQogICAgICAgICAgT3B0aW9uYWwgdXNlciBwcm9tcHQgdG8gc3RhcnQgdGhlIHNlc3Npb24KCk9wdGlvbnM6CiAgLWMsIC0tY29uZmlnIDxrZXk9dmFsdWU+CiAgICAgICAgICBPdmVycmlkZSBhIGNvbmZpZ3VyYXRpb24gdmFsdWUgdGhhdCB3b3VsZCBvdGhlcndpc2UgYmUgbG9hZGVkIGZyb20gYH4vLmNvZGV4L2NvbmZpZy50b21sYC4KICAgICAgICAgIFVzZSBhIGRvdHRlZCBwYXRoIChgZm9vLmJhci5iYXpgKSB0byBvdmVycmlkZSBuZXN0ZWQgdmFsdWVzLiBUaGUgYHZhbHVlYCBwb3J0aW9uIGlzIHBhcnNlZAogICAgICAgICAgYXMgVE9NTC4gSWYgaXQgZmFpbHMgdG8gcGFyc2UgYXMgVE9NTCwgdGhlIHJhdyBzdHJpbmcgaXMgdXNlZCBhcyBhIGxpdGVyYWwuCiAgICAgICAgICAKICAgICAgICAgIEV4YW1wbGVzOiAtIGAtYyBtb2RlbD0ibzMiYCAtIGAtYyAnc2FuZGJveF9wZXJtaXNzaW9ucz1bImRpc2stZnVsbC1yZWFkLWFjY2VzcyJdJ2AgLSBgLWMKICAgICAgICAgIHNoZWxsX2Vudmlyb25tZW50X3BvbGljeS5pbmhlcml0PWFsbGAKCiAgICAgIC0tZW5hYmxlIDxGRUFUVVJFPgogICAgICAgICAgRW5hYmxlIGEgZmVhdHVyZSAocmVwZWF0YWJsZSkuIEVxdWl2YWxlbnQgdG8gYC1jIGZlYXR1cmVzLjxuYW1lPj10cnVlYAoKICAgICAgLS1kaXNhYmxlIDxGRUFUVVJFPgogICAgICAgICAgRGlzYWJsZSBhIGZlYXR1cmUgKHJlcGVhdGFibGUpLiBFcXVpdmFsZW50IHRvIGAtYyBmZWF0dXJlcy48bmFtZT49ZmFsc2VgCgogICAgICAtLXJlbW90ZSA8QUREUj4KICAgICAgICAgIENvbm5lY3QgdGhlIFRVSSB0byBhIHJlbW90ZSBhcHAgc2VydmVyIGVuZHBvaW50LgogICAgICAgICAgCiAgICAgICAgICBBY2NlcHRlZCBmb3JtczogYHdzOi8vaG9zdDpwb3J0YCwgYHdzczovL2hvc3Q6cG9ydGAsIGB1bml4Oi8vYCwgb3IgYHVuaXg6Ly9QQVRIYC4KCiAgICAgIC0tcmVtb3RlLWF1dGgtdG9rZW4tZW52IDxFTlZfVkFSPgogICAgICAgICAgTmFtZSBvZiB0aGUgZW52aXJvbm1lbnQgdmFyaWFibGUgY29udGFpbmluZyB0aGUgYmVhcmVyIHRva2VuIHRvIHNlbmQgdG8gYSByZW1vdGUgYXBwCiAgICAgICAgICBzZXJ2ZXIgd2Vic29ja2V0CgogICAgICAtLXN0cmljdC1jb25maWcKICAgICAgICAgIEVycm9yIG91dCB3aGVuIGNvbmZpZy50b21sIGNvbnRhaW5zIGZpZWxkcyB0aGF0IGFyZSBub3QgcmVjb2duaXplZCBieSB0aGlzIHZlcnNpb24gb2YKICAgICAgICAgIENvZGV4CgogIC1pLCAtLWltYWdlIDxGSUxFPi4uLgogICAgICAgICAgT3B0aW9uYWwgaW1hZ2UocykgdG8gYXR0YWNoIHRvIHRoZSBpbml0aWFsIHByb21wdAoKICAtbSwgLS1tb2RlbCA8TU9ERUw+CiAgICAgICAgICBNb2RlbCB0aGUgYWdlbnQgc2hvdWxkIHVzZQoKICAgICAgLS1vc3MKICAgICAgICAgIFVzZSBvcGVuLXNvdXJjZSBwcm92aWRlcgoKICAgICAgLS1sb2NhbC1wcm92aWRlciA8T1NTX1BST1ZJREVSPgogICAgICAgICAgU3BlY2lmeSB3aGljaCBsb2NhbCBwcm92aWRlciB0byB1c2UgKGxtc3R1ZGlvIG9yIG9sbGFtYSkuIElmIG5vdCBzcGVjaWZpZWQgd2l0aCAtLW9zcywKICAgICAgICAgIHdpbGwgdXNlIGNvbmZpZyBkZWZhdWx0IG9yIHNob3cgc2VsZWN0aW9uCgogIC1wLCAtLXByb2ZpbGUgPENPTkZJR19QUk9GSUxFX1YyPgogICAgICAgICAgTGF5ZXIgJENPREVYX0hPTUUvPG5hbWU+LmNvbmZpZy50b21sIG9uIHRvcCBvZiB0aGUgYmFzZSB1c2VyIGNvbmZpZwoKICAtcywgLS1zYW5kYm94IDxTQU5EQk9YX01PREU+CiAgICAgICAgICBTZWxlY3QgdGhlIHNhbmRib3ggcG9saWN5IHRvIHVzZSB3aGVuIGV4ZWN1dGluZyBtb2RlbC1nZW5lcmF0ZWQgc2hlbGwgY29tbWFuZHMKICAgICAgICAgIAogICAgICAgICAgW3Bvc3NpYmxlIHZhbHVlczogcmVhZC1vbmx5LCB3b3Jrc3BhY2Utd3JpdGUsIGRhbmdlci1mdWxsLWFjY2Vzc10KCiAgICAgIC0tYXBwcm92ZS1mb3ItbWUKICAgICAgICAgIFJvdXRlIGFwcHJvdmFsIHJlcXVlc3RzIHRocm91Z2ggYXV0b21hdGljIHJldmlldyB1c2luZyB0aGUgd29ya3NwYWNlLXdyaXRlIHNhbmRib3gKCiAgICAgIC0tZGFuZ2Vyb3VzbHktYnlwYXNzLWFwcHJvdmFscy1hbmQtc2FuZGJveAogICAgICAgICAgU2tpcCBhbGwgY29uZmlybWF0aW9uIHByb21wdHMgYW5kIGV4ZWN1dGUgY29tbWFuZHMgd2l0aG91dCBzYW5kYm94aW5nLiBFWFRSRU1FTFkKICAgICAgICAgIERBTkdFUk9VUy4gSW50ZW5kZWQgc29sZWx5IGZvciBydW5uaW5nIGluIGVudmlyb25tZW50cyB0aGF0IGFyZSBleHRlcm5hbGx5IHNhbmRib3hlZAoKICAgICAgLS1kYW5nZXJvdXNseS1ieXBhc3MtaG9vay10cnVzdAogICAgICAgICAgUnVuIGVuYWJsZWQgaG9va3Mgd2l0aG91dCByZXF1aXJpbmcgcGVyc2lzdGVkIGhvb2sgdHJ1c3QgZm9yIHRoaXMgaW52b2NhdGlvbi4gREFOR0VST1VTLgogICAgICAgICAgSW50ZW5kZWQgb25seSBmb3IgYXV0b21hdGlvbiB0aGF0IGFscmVhZHkgdmV0cyBob29rIHNvdXJjZXMKCiAgLUMsIC0tY2QgPERJUj4KICAgICAgICAgIFRlbGwgdGhlIGFnZW50IHRvIHVzZSB0aGUgc3BlY2lmaWVkIGRpcmVjdG9yeSBhcyBpdHMgd29ya2luZyByb290CgogICAgICAtLWFkZC1kaXIgPERJUj4KICAgICAgICAgIEFkZGl0aW9uYWwgZGlyZWN0b3JpZXMgdGhhdCBzaG91bGQgYmUgd3JpdGFibGUgYWxvbmdzaWRlIHRoZSBwcmltYXJ5IHdvcmtzcGFjZQoKICAtYSwgLS1hc2stZm9yLWFwcHJvdmFsIDxBUFBST1ZBTF9QT0xJQ1k+CiAgICAgICAgICBDb25maWd1cmUgd2hlbiB0aGUgbW9kZWwgcmVxdWlyZXMgaHVtYW4gYXBwcm92YWwgYmVmb3JlIGV4ZWN1dGluZyBhIGNvbW1hbmQKCiAgICAgICAgICBQb3NzaWJsZSB2YWx1ZXM6CiAgICAgICAgICAtIG9uLXJlcXVlc3Q6IFRoZSBtb2RlbCBkZWNpZGVzIHdoZW4gdG8gYXNrIHRoZSB1c2VyIGZvciBhcHByb3ZhbAogICAgICAgICAgLSBuZXZlcjogICAgICBOZXZlciBhc2sgZm9yIHVzZXIgYXBwcm92YWwgRXhlY3V0aW9uIGZhaWx1cmVzIGFyZSBpbW1lZGlhdGVseSByZXR1cm5lZCB0bwogICAgICAgICAgICB0aGUgbW9kZWwKCiAgICAgIC0tc2VhcmNoCiAgICAgICAgICBFbmFibGUgbGl2ZSB3ZWIgc2VhcmNoLiBXaGVuIGVuYWJsZWQsIHRoZSBuYXRpdmUgUmVzcG9uc2VzIGB3ZWJfc2VhcmNoYCB0b29sIGlzIGF2YWlsYWJsZQogICAgICAgICAgdG8gdGhlIG1vZGVsIChubyBwZXLigJFjYWxsIGFwcHJvdmFsKQoKICAgICAgLS1uby1hbHQtc2NyZWVuCiAgICAgICAgICBEaXNhYmxlIGFsdGVybmF0ZSBzY3JlZW4gbW9kZQogICAgICAgICAgCiAgICAgICAgICBSdW5zIHRoZSBUVUkgaW4gaW5saW5lIG1vZGUsIHByZXNlcnZpbmcgdGVybWluYWwgc2Nyb2xsYmFjayBoaXN0b3J5LgoKICAtaCwgLS1oZWxwCiAgICAgICAgICBQcmludCBoZWxwIChzZWUgYSBzdW1tYXJ5IHdpdGggJy1oJykKCiAgLVYsIC0tdmVyc2lvbgogICAgICAgICAgUHJpbnQgdmVyc2lvbgo=",
+        "sha256": "50647aa27059558adc3a6a3b9c6faa2a74f71e8e71d5a2eec63942d1cd92756d",
+        "bytes": 5651
+      },
+      "stderr": {
+        "utf8": "",
+        "base64": "",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "elapsed_seconds": 0.014452032977715135
+    },
+    {
+      "argv": [
+        "/home/afazeli2006/.local/bin/codex",
+        "exec",
+        "--help"
+      ],
+      "timeout_seconds": 12,
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": {
+        "utf8": "Run Codex non-interactively\n\nUsage: codex exec [OPTIONS] [PROMPT]\n       codex exec [OPTIONS] <COMMAND> [ARGS]\n\nCommands:\n  resume  Resume a previous session by id or pick the most recent with --last\n  fork    Fork a previous session by id into a new session\n  review  Run a code review against the current repository\n  help    Print this message or the help of the given subcommand(s)\n\nArguments:\n  [PROMPT]\n          Initial instructions for the agent. If not provided as an argument (or if `-` is used),\n          instructions are read from stdin. If stdin is piped and a prompt is also provided, stdin\n          is appended as a `<stdin>` block\n\nOptions:\n  -c, --config <key=value>\n          Override a configuration value that would otherwise be loaded from `~/.codex/config.toml`.\n          Use a dotted path (`foo.bar.baz`) to override nested values. The `value` portion is parsed\n          as TOML. If it fails to parse as TOML, the raw string is used as a literal.\n          \n          Examples: - `-c model=\"o3\"` - `-c 'sandbox_permissions=[\"disk-full-read-access\"]'` - `-c\n          shell_environment_policy.inherit=all`\n\n      --enable <FEATURE>\n          Enable a feature (repeatable). Equivalent to `-c features.<name>=true`\n\n      --disable <FEATURE>\n          Disable a feature (repeatable). Equivalent to `-c features.<name>=false`\n\n      --strict-config\n          Error out when config.toml contains fields that are not recognized by this version of\n          Codex\n\n  -i, --image <FILE>...\n          Optional image(s) to attach to the initial prompt\n\n  -m, --model <MODEL>\n          Model the agent should use\n\n      --oss\n          Use open-source provider\n\n      --local-provider <OSS_PROVIDER>\n          Specify which local provider to use (lmstudio or ollama). If not specified with --oss,\n          will use config default or show selection\n\n  -p, --profile <CONFIG_PROFILE_V2>\n          Layer $CODEX_HOME/<name>.config.toml on top of the base user config\n\n  -s, --sandbox <SANDBOX_MODE>\n          Select the sandbox policy to use when executing model-generated shell commands\n          \n          [possible values: read-only, workspace-write, danger-full-access]\n\n      --approve-for-me\n          Route approval requests through automatic review using the workspace-write sandbox\n\n      --dangerously-bypass-approvals-and-sandbox\n          Skip all confirmation prompts and execute commands without sandboxing. EXTREMELY\n          DANGEROUS. Intended solely for running in environments that are externally sandboxed\n\n      --dangerously-bypass-hook-trust\n          Run enabled hooks without requiring persisted hook trust for this invocation. DANGEROUS.\n          Intended only for automation that already vets hook sources\n\n  -C, --cd <DIR>\n          Tell the agent to use the specified directory as its working root\n\n      --add-dir <DIR>\n          Additional directories that should be writable alongside the primary workspace\n\n      --thread-source <SOURCE>\n          Source classification for newly created or forked threads\n\n      --skip-git-repo-check\n          Allow running Codex outside a Git repository\n\n      --ephemeral\n          Run without persisting session files to disk\n\n      --ignore-user-config\n          Do not load `$CODEX_HOME/config.toml`; auth still uses `CODEX_HOME`\n\n      --ignore-rules\n          Do not load user or project execpolicy `.rules` files\n\n      --output-schema <FILE>\n          Path to a JSON Schema file describing the model's final response shape\n\n      --color <COLOR>\n          Specifies color settings for use in the output\n          \n          [default: auto]\n          [possible values: always, never, auto]\n\n      --json\n          Print events to stdout as JSONL\n\n  -o, --output-last-message <FILE>\n          Specifies file where the last message from the agent should be written\n\n  -h, --help\n          Print help (see a summary with '-h')\n\n  -V, --version\n          Print version\n",
+        "base64": "UnVuIENvZGV4IG5vbi1pbnRlcmFjdGl2ZWx5CgpVc2FnZTogY29kZXggZXhlYyBbT1BUSU9OU10gW1BST01QVF0KICAgICAgIGNvZGV4IGV4ZWMgW09QVElPTlNdIDxDT01NQU5EPiBbQVJHU10KCkNvbW1hbmRzOgogIHJlc3VtZSAgUmVzdW1lIGEgcHJldmlvdXMgc2Vzc2lvbiBieSBpZCBvciBwaWNrIHRoZSBtb3N0IHJlY2VudCB3aXRoIC0tbGFzdAogIGZvcmsgICAgRm9yayBhIHByZXZpb3VzIHNlc3Npb24gYnkgaWQgaW50byBhIG5ldyBzZXNzaW9uCiAgcmV2aWV3ICBSdW4gYSBjb2RlIHJldmlldyBhZ2FpbnN0IHRoZSBjdXJyZW50IHJlcG9zaXRvcnkKICBoZWxwICAgIFByaW50IHRoaXMgbWVzc2FnZSBvciB0aGUgaGVscCBvZiB0aGUgZ2l2ZW4gc3ViY29tbWFuZChzKQoKQXJndW1lbnRzOgogIFtQUk9NUFRdCiAgICAgICAgICBJbml0aWFsIGluc3RydWN0aW9ucyBmb3IgdGhlIGFnZW50LiBJZiBub3QgcHJvdmlkZWQgYXMgYW4gYXJndW1lbnQgKG9yIGlmIGAtYCBpcyB1c2VkKSwKICAgICAgICAgIGluc3RydWN0aW9ucyBhcmUgcmVhZCBmcm9tIHN0ZGluLiBJZiBzdGRpbiBpcyBwaXBlZCBhbmQgYSBwcm9tcHQgaXMgYWxzbyBwcm92aWRlZCwgc3RkaW4KICAgICAgICAgIGlzIGFwcGVuZGVkIGFzIGEgYDxzdGRpbj5gIGJsb2NrCgpPcHRpb25zOgogIC1jLCAtLWNvbmZpZyA8a2V5PXZhbHVlPgogICAgICAgICAgT3ZlcnJpZGUgYSBjb25maWd1cmF0aW9uIHZhbHVlIHRoYXQgd291bGQgb3RoZXJ3aXNlIGJlIGxvYWRlZCBmcm9tIGB+Ly5jb2RleC9jb25maWcudG9tbGAuCiAgICAgICAgICBVc2UgYSBkb3R0ZWQgcGF0aCAoYGZvby5iYXIuYmF6YCkgdG8gb3ZlcnJpZGUgbmVzdGVkIHZhbHVlcy4gVGhlIGB2YWx1ZWAgcG9ydGlvbiBpcyBwYXJzZWQKICAgICAgICAgIGFzIFRPTUwuIElmIGl0IGZhaWxzIHRvIHBhcnNlIGFzIFRPTUwsIHRoZSByYXcgc3RyaW5nIGlzIHVzZWQgYXMgYSBsaXRlcmFsLgogICAgICAgICAgCiAgICAgICAgICBFeGFtcGxlczogLSBgLWMgbW9kZWw9Im8zImAgLSBgLWMgJ3NhbmRib3hfcGVybWlzc2lvbnM9WyJkaXNrLWZ1bGwtcmVhZC1hY2Nlc3MiXSdgIC0gYC1jCiAgICAgICAgICBzaGVsbF9lbnZpcm9ubWVudF9wb2xpY3kuaW5oZXJpdD1hbGxgCgogICAgICAtLWVuYWJsZSA8RkVBVFVSRT4KICAgICAgICAgIEVuYWJsZSBhIGZlYXR1cmUgKHJlcGVhdGFibGUpLiBFcXVpdmFsZW50IHRvIGAtYyBmZWF0dXJlcy48bmFtZT49dHJ1ZWAKCiAgICAgIC0tZGlzYWJsZSA8RkVBVFVSRT4KICAgICAgICAgIERpc2FibGUgYSBmZWF0dXJlIChyZXBlYXRhYmxlKS4gRXF1aXZhbGVudCB0byBgLWMgZmVhdHVyZXMuPG5hbWU+PWZhbHNlYAoKICAgICAgLS1zdHJpY3QtY29uZmlnCiAgICAgICAgICBFcnJvciBvdXQgd2hlbiBjb25maWcudG9tbCBjb250YWlucyBmaWVsZHMgdGhhdCBhcmUgbm90IHJlY29nbml6ZWQgYnkgdGhpcyB2ZXJzaW9uIG9mCiAgICAgICAgICBDb2RleAoKICAtaSwgLS1pbWFnZSA8RklMRT4uLi4KICAgICAgICAgIE9wdGlvbmFsIGltYWdlKHMpIHRvIGF0dGFjaCB0byB0aGUgaW5pdGlhbCBwcm9tcHQKCiAgLW0sIC0tbW9kZWwgPE1PREVMPgogICAgICAgICAgTW9kZWwgdGhlIGFnZW50IHNob3VsZCB1c2UKCiAgICAgIC0tb3NzCiAgICAgICAgICBVc2Ugb3Blbi1zb3VyY2UgcHJvdmlkZXIKCiAgICAgIC0tbG9jYWwtcHJvdmlkZXIgPE9TU19QUk9WSURFUj4KICAgICAgICAgIFNwZWNpZnkgd2hpY2ggbG9jYWwgcHJvdmlkZXIgdG8gdXNlIChsbXN0dWRpbyBvciBvbGxhbWEpLiBJZiBub3Qgc3BlY2lmaWVkIHdpdGggLS1vc3MsCiAgICAgICAgICB3aWxsIHVzZSBjb25maWcgZGVmYXVsdCBvciBzaG93IHNlbGVjdGlvbgoKICAtcCwgLS1wcm9maWxlIDxDT05GSUdfUFJPRklMRV9WMj4KICAgICAgICAgIExheWVyICRDT0RFWF9IT01FLzxuYW1lPi5jb25maWcudG9tbCBvbiB0b3Agb2YgdGhlIGJhc2UgdXNlciBjb25maWcKCiAgLXMsIC0tc2FuZGJveCA8U0FOREJPWF9NT0RFPgogICAgICAgICAgU2VsZWN0IHRoZSBzYW5kYm94IHBvbGljeSB0byB1c2Ugd2hlbiBleGVjdXRpbmcgbW9kZWwtZ2VuZXJhdGVkIHNoZWxsIGNvbW1hbmRzCiAgICAgICAgICAKICAgICAgICAgIFtwb3NzaWJsZSB2YWx1ZXM6IHJlYWQtb25seSwgd29ya3NwYWNlLXdyaXRlLCBkYW5nZXItZnVsbC1hY2Nlc3NdCgogICAgICAtLWFwcHJvdmUtZm9yLW1lCiAgICAgICAgICBSb3V0ZSBhcHByb3ZhbCByZXF1ZXN0cyB0aHJvdWdoIGF1dG9tYXRpYyByZXZpZXcgdXNpbmcgdGhlIHdvcmtzcGFjZS13cml0ZSBzYW5kYm94CgogICAgICAtLWRhbmdlcm91c2x5LWJ5cGFzcy1hcHByb3ZhbHMtYW5kLXNhbmRib3gKICAgICAgICAgIFNraXAgYWxsIGNvbmZpcm1hdGlvbiBwcm9tcHRzIGFuZCBleGVjdXRlIGNvbW1hbmRzIHdpdGhvdXQgc2FuZGJveGluZy4gRVhUUkVNRUxZCiAgICAgICAgICBEQU5HRVJPVVMuIEludGVuZGVkIHNvbGVseSBmb3IgcnVubmluZyBpbiBlbnZpcm9ubWVudHMgdGhhdCBhcmUgZXh0ZXJuYWxseSBzYW5kYm94ZWQKCiAgICAgIC0tZGFuZ2Vyb3VzbHktYnlwYXNzLWhvb2stdHJ1c3QKICAgICAgICAgIFJ1biBlbmFibGVkIGhvb2tzIHdpdGhvdXQgcmVxdWlyaW5nIHBlcnNpc3RlZCBob29rIHRydXN0IGZvciB0aGlzIGludm9jYXRpb24uIERBTkdFUk9VUy4KICAgICAgICAgIEludGVuZGVkIG9ubHkgZm9yIGF1dG9tYXRpb24gdGhhdCBhbHJlYWR5IHZldHMgaG9vayBzb3VyY2VzCgogIC1DLCAtLWNkIDxESVI+CiAgICAgICAgICBUZWxsIHRoZSBhZ2VudCB0byB1c2UgdGhlIHNwZWNpZmllZCBkaXJlY3RvcnkgYXMgaXRzIHdvcmtpbmcgcm9vdAoKICAgICAgLS1hZGQtZGlyIDxESVI+CiAgICAgICAgICBBZGRpdGlvbmFsIGRpcmVjdG9yaWVzIHRoYXQgc2hvdWxkIGJlIHdyaXRhYmxlIGFsb25nc2lkZSB0aGUgcHJpbWFyeSB3b3Jrc3BhY2UKCiAgICAgIC0tdGhyZWFkLXNvdXJjZSA8U09VUkNFPgogICAgICAgICAgU291cmNlIGNsYXNzaWZpY2F0aW9uIGZvciBuZXdseSBjcmVhdGVkIG9yIGZvcmtlZCB0aHJlYWRzCgogICAgICAtLXNraXAtZ2l0LXJlcG8tY2hlY2sKICAgICAgICAgIEFsbG93IHJ1bm5pbmcgQ29kZXggb3V0c2lkZSBhIEdpdCByZXBvc2l0b3J5CgogICAgICAtLWVwaGVtZXJhbAogICAgICAgICAgUnVuIHdpdGhvdXQgcGVyc2lzdGluZyBzZXNzaW9uIGZpbGVzIHRvIGRpc2sKCiAgICAgIC0taWdub3JlLXVzZXItY29uZmlnCiAgICAgICAgICBEbyBub3QgbG9hZCBgJENPREVYX0hPTUUvY29uZmlnLnRvbWxgOyBhdXRoIHN0aWxsIHVzZXMgYENPREVYX0hPTUVgCgogICAgICAtLWlnbm9yZS1ydWxlcwogICAgICAgICAgRG8gbm90IGxvYWQgdXNlciBvciBwcm9qZWN0IGV4ZWNwb2xpY3kgYC5ydWxlc2AgZmlsZXMKCiAgICAgIC0tb3V0cHV0LXNjaGVtYSA8RklMRT4KICAgICAgICAgIFBhdGggdG8gYSBKU09OIFNjaGVtYSBmaWxlIGRlc2NyaWJpbmcgdGhlIG1vZGVsJ3MgZmluYWwgcmVzcG9uc2Ugc2hhcGUKCiAgICAgIC0tY29sb3IgPENPTE9SPgogICAgICAgICAgU3BlY2lmaWVzIGNvbG9yIHNldHRpbmdzIGZvciB1c2UgaW4gdGhlIG91dHB1dAogICAgICAgICAgCiAgICAgICAgICBbZGVmYXVsdDogYXV0b10KICAgICAgICAgIFtwb3NzaWJsZSB2YWx1ZXM6IGFsd2F5cywgbmV2ZXIsIGF1dG9dCgogICAgICAtLWpzb24KICAgICAgICAgIFByaW50IGV2ZW50cyB0byBzdGRvdXQgYXMgSlNPTkwKCiAgLW8sIC0tb3V0cHV0LWxhc3QtbWVzc2FnZSA8RklMRT4KICAgICAgICAgIFNwZWNpZmllcyBmaWxlIHdoZXJlIHRoZSBsYXN0IG1lc3NhZ2UgZnJvbSB0aGUgYWdlbnQgc2hvdWxkIGJlIHdyaXR0ZW4KCiAgLWgsIC0taGVscAogICAgICAgICAgUHJpbnQgaGVscCAoc2VlIGEgc3VtbWFyeSB3aXRoICctaCcpCgogIC1WLCAtLXZlcnNpb24KICAgICAgICAgIFByaW50IHZlcnNpb24K",
+        "sha256": "e504bac5a6364566fbe408132dec7993639def9258ece34e8352f51f8d43687c",
+        "bytes": 3957
+      },
+      "stderr": {
+        "utf8": "",
+        "base64": "",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "elapsed_seconds": 0.010630710981786251
+    },
+    {
+      "argv": [
+        "/home/afazeli2006/.local/bin/codex",
+        "review",
+        "--help"
+      ],
+      "timeout_seconds": 12,
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": {
+        "utf8": "Run a code review non-interactively\n\nUsage: codex review [OPTIONS] [PROMPT]\n\nArguments:\n  [PROMPT]\n          Custom review instructions. If `-` is used, read from stdin\n\nOptions:\n  -c, --config <key=value>\n          Override a configuration value that would otherwise be loaded from `~/.codex/config.toml`.\n          Use a dotted path (`foo.bar.baz`) to override nested values. The `value` portion is parsed\n          as TOML. If it fails to parse as TOML, the raw string is used as a literal.\n          \n          Examples: - `-c model=\"o3\"` - `-c 'sandbox_permissions=[\"disk-full-read-access\"]'` - `-c\n          shell_environment_policy.inherit=all`\n\n      --strict-config\n          Error out when config.toml contains fields that are not recognized by this version of\n          Codex\n\n      --enable <FEATURE>\n          Enable a feature (repeatable). Equivalent to `-c features.<name>=true`\n\n      --uncommitted\n          Review staged, unstaged, and untracked changes\n\n      --base <BRANCH>\n          Review changes against the given base branch\n\n      --disable <FEATURE>\n          Disable a feature (repeatable). Equivalent to `-c features.<name>=false`\n\n      --commit <SHA>\n          Review the changes introduced by a commit\n\n      --title <TITLE>\n          Optional commit title to display in the review summary\n\n  -h, --help\n          Print help (see a summary with '-h')\n",
+        "base64": "UnVuIGEgY29kZSByZXZpZXcgbm9uLWludGVyYWN0aXZlbHkKClVzYWdlOiBjb2RleCByZXZpZXcgW09QVElPTlNdIFtQUk9NUFRdCgpBcmd1bWVudHM6CiAgW1BST01QVF0KICAgICAgICAgIEN1c3RvbSByZXZpZXcgaW5zdHJ1Y3Rpb25zLiBJZiBgLWAgaXMgdXNlZCwgcmVhZCBmcm9tIHN0ZGluCgpPcHRpb25zOgogIC1jLCAtLWNvbmZpZyA8a2V5PXZhbHVlPgogICAgICAgICAgT3ZlcnJpZGUgYSBjb25maWd1cmF0aW9uIHZhbHVlIHRoYXQgd291bGQgb3RoZXJ3aXNlIGJlIGxvYWRlZCBmcm9tIGB+Ly5jb2RleC9jb25maWcudG9tbGAuCiAgICAgICAgICBVc2UgYSBkb3R0ZWQgcGF0aCAoYGZvby5iYXIuYmF6YCkgdG8gb3ZlcnJpZGUgbmVzdGVkIHZhbHVlcy4gVGhlIGB2YWx1ZWAgcG9ydGlvbiBpcyBwYXJzZWQKICAgICAgICAgIGFzIFRPTUwuIElmIGl0IGZhaWxzIHRvIHBhcnNlIGFzIFRPTUwsIHRoZSByYXcgc3RyaW5nIGlzIHVzZWQgYXMgYSBsaXRlcmFsLgogICAgICAgICAgCiAgICAgICAgICBFeGFtcGxlczogLSBgLWMgbW9kZWw9Im8zImAgLSBgLWMgJ3NhbmRib3hfcGVybWlzc2lvbnM9WyJkaXNrLWZ1bGwtcmVhZC1hY2Nlc3MiXSdgIC0gYC1jCiAgICAgICAgICBzaGVsbF9lbnZpcm9ubWVudF9wb2xpY3kuaW5oZXJpdD1hbGxgCgogICAgICAtLXN0cmljdC1jb25maWcKICAgICAgICAgIEVycm9yIG91dCB3aGVuIGNvbmZpZy50b21sIGNvbnRhaW5zIGZpZWxkcyB0aGF0IGFyZSBub3QgcmVjb2duaXplZCBieSB0aGlzIHZlcnNpb24gb2YKICAgICAgICAgIENvZGV4CgogICAgICAtLWVuYWJsZSA8RkVBVFVSRT4KICAgICAgICAgIEVuYWJsZSBhIGZlYXR1cmUgKHJlcGVhdGFibGUpLiBFcXVpdmFsZW50IHRvIGAtYyBmZWF0dXJlcy48bmFtZT49dHJ1ZWAKCiAgICAgIC0tdW5jb21taXR0ZWQKICAgICAgICAgIFJldmlldyBzdGFnZWQsIHVuc3RhZ2VkLCBhbmQgdW50cmFja2VkIGNoYW5nZXMKCiAgICAgIC0tYmFzZSA8QlJBTkNIPgogICAgICAgICAgUmV2aWV3IGNoYW5nZXMgYWdhaW5zdCB0aGUgZ2l2ZW4gYmFzZSBicmFuY2gKCiAgICAgIC0tZGlzYWJsZSA8RkVBVFVSRT4KICAgICAgICAgIERpc2FibGUgYSBmZWF0dXJlIChyZXBlYXRhYmxlKS4gRXF1aXZhbGVudCB0byBgLWMgZmVhdHVyZXMuPG5hbWU+PWZhbHNlYAoKICAgICAgLS1jb21taXQgPFNIQT4KICAgICAgICAgIFJldmlldyB0aGUgY2hhbmdlcyBpbnRyb2R1Y2VkIGJ5IGEgY29tbWl0CgogICAgICAtLXRpdGxlIDxUSVRMRT4KICAgICAgICAgIE9wdGlvbmFsIGNvbW1pdCB0aXRsZSB0byBkaXNwbGF5IGluIHRoZSByZXZpZXcgc3VtbWFyeQoKICAtaCwgLS1oZWxwCiAgICAgICAgICBQcmludCBoZWxwIChzZWUgYSBzdW1tYXJ5IHdpdGggJy1oJykK",
+        "sha256": "cea76537e3c698800cad0181fcd31c87f321e3f3c3363d5b9572be50661dfeb6",
+        "bytes": 1383
+      },
+      "stderr": {
+        "utf8": "",
+        "base64": "",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "elapsed_seconds": 0.009065548016224056
+    },
+    {
+      "argv": [
+        "/home/afazeli2006/.local/bin/codex",
+        "sandbox",
+        "--help"
+      ],
+      "timeout_seconds": 12,
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": {
+        "utf8": "Run commands within a Codex-provided sandbox\n\nUsage: codex sandbox [OPTIONS] [COMMAND]...\n\nArguments:\n  [COMMAND]...\n          Full command args to run under the Linux sandbox\n\nOptions:\n  -c, --config <key=value>\n          Override a configuration value that would otherwise be loaded from `~/.codex/config.toml`.\n          Use a dotted path (`foo.bar.baz`) to override nested values. The `value` portion is parsed\n          as TOML. If it fails to parse as TOML, the raw string is used as a literal.\n          \n          Examples: - `-c model=\"o3\"` - `-c 'sandbox_permissions=[\"disk-full-read-access\"]'` - `-c\n          shell_environment_policy.inherit=all`\n\n      --sandbox-state-json <JSON>\n          JSON value from `codex/sandbox-state-meta` to apply directly\n\n      --enable <FEATURE>\n          Enable a feature (repeatable). Equivalent to `-c features.<name>=true`\n\n      --sandbox-state-readable-root <SANDBOX_STATE_READABLE_ROOT>\n          Add a readable root to the supplied sandbox state. Repeat for multiple roots\n\n      --disable <FEATURE>\n          Disable a feature (repeatable). Equivalent to `-c features.<name>=false`\n\n      --sandbox-state-disable-network\n          Disable direct network access in the supplied sandbox state\n\n  -P, --permission-profile <NAME>\n          Named permissions profile to apply from the active configuration stack\n\n  -p, --profile <CONFIG_PROFILE>\n          Layer $CODEX_HOME/<name>.config.toml on top of the base user config\n\n  -C, --cd <DIR>\n          Working directory used for profile resolution and command execution\n\n      --include-managed-config\n          Include managed requirements while resolving an explicit permissions profile\n\n  -h, --help\n          Print help (see a summary with '-h')\n",
+        "base64": "UnVuIGNvbW1hbmRzIHdpdGhpbiBhIENvZGV4LXByb3ZpZGVkIHNhbmRib3gKClVzYWdlOiBjb2RleCBzYW5kYm94IFtPUFRJT05TXSBbQ09NTUFORF0uLi4KCkFyZ3VtZW50czoKICBbQ09NTUFORF0uLi4KICAgICAgICAgIEZ1bGwgY29tbWFuZCBhcmdzIHRvIHJ1biB1bmRlciB0aGUgTGludXggc2FuZGJveAoKT3B0aW9uczoKICAtYywgLS1jb25maWcgPGtleT12YWx1ZT4KICAgICAgICAgIE92ZXJyaWRlIGEgY29uZmlndXJhdGlvbiB2YWx1ZSB0aGF0IHdvdWxkIG90aGVyd2lzZSBiZSBsb2FkZWQgZnJvbSBgfi8uY29kZXgvY29uZmlnLnRvbWxgLgogICAgICAgICAgVXNlIGEgZG90dGVkIHBhdGggKGBmb28uYmFyLmJhemApIHRvIG92ZXJyaWRlIG5lc3RlZCB2YWx1ZXMuIFRoZSBgdmFsdWVgIHBvcnRpb24gaXMgcGFyc2VkCiAgICAgICAgICBhcyBUT01MLiBJZiBpdCBmYWlscyB0byBwYXJzZSBhcyBUT01MLCB0aGUgcmF3IHN0cmluZyBpcyB1c2VkIGFzIGEgbGl0ZXJhbC4KICAgICAgICAgIAogICAgICAgICAgRXhhbXBsZXM6IC0gYC1jIG1vZGVsPSJvMyJgIC0gYC1jICdzYW5kYm94X3Blcm1pc3Npb25zPVsiZGlzay1mdWxsLXJlYWQtYWNjZXNzIl0nYCAtIGAtYwogICAgICAgICAgc2hlbGxfZW52aXJvbm1lbnRfcG9saWN5LmluaGVyaXQ9YWxsYAoKICAgICAgLS1zYW5kYm94LXN0YXRlLWpzb24gPEpTT04+CiAgICAgICAgICBKU09OIHZhbHVlIGZyb20gYGNvZGV4L3NhbmRib3gtc3RhdGUtbWV0YWAgdG8gYXBwbHkgZGlyZWN0bHkKCiAgICAgIC0tZW5hYmxlIDxGRUFUVVJFPgogICAgICAgICAgRW5hYmxlIGEgZmVhdHVyZSAocmVwZWF0YWJsZSkuIEVxdWl2YWxlbnQgdG8gYC1jIGZlYXR1cmVzLjxuYW1lPj10cnVlYAoKICAgICAgLS1zYW5kYm94LXN0YXRlLXJlYWRhYmxlLXJvb3QgPFNBTkRCT1hfU1RBVEVfUkVBREFCTEVfUk9PVD4KICAgICAgICAgIEFkZCBhIHJlYWRhYmxlIHJvb3QgdG8gdGhlIHN1cHBsaWVkIHNhbmRib3ggc3RhdGUuIFJlcGVhdCBmb3IgbXVsdGlwbGUgcm9vdHMKCiAgICAgIC0tZGlzYWJsZSA8RkVBVFVSRT4KICAgICAgICAgIERpc2FibGUgYSBmZWF0dXJlIChyZXBlYXRhYmxlKS4gRXF1aXZhbGVudCB0byBgLWMgZmVhdHVyZXMuPG5hbWU+PWZhbHNlYAoKICAgICAgLS1zYW5kYm94LXN0YXRlLWRpc2FibGUtbmV0d29yawogICAgICAgICAgRGlzYWJsZSBkaXJlY3QgbmV0d29yayBhY2Nlc3MgaW4gdGhlIHN1cHBsaWVkIHNhbmRib3ggc3RhdGUKCiAgLVAsIC0tcGVybWlzc2lvbi1wcm9maWxlIDxOQU1FPgogICAgICAgICAgTmFtZWQgcGVybWlzc2lvbnMgcHJvZmlsZSB0byBhcHBseSBmcm9tIHRoZSBhY3RpdmUgY29uZmlndXJhdGlvbiBzdGFjawoKICAtcCwgLS1wcm9maWxlIDxDT05GSUdfUFJPRklMRT4KICAgICAgICAgIExheWVyICRDT0RFWF9IT01FLzxuYW1lPi5jb25maWcudG9tbCBvbiB0b3Agb2YgdGhlIGJhc2UgdXNlciBjb25maWcKCiAgLUMsIC0tY2QgPERJUj4KICAgICAgICAgIFdvcmtpbmcgZGlyZWN0b3J5IHVzZWQgZm9yIHByb2ZpbGUgcmVzb2x1dGlvbiBhbmQgY29tbWFuZCBleGVjdXRpb24KCiAgICAgIC0taW5jbHVkZS1tYW5hZ2VkLWNvbmZpZwogICAgICAgICAgSW5jbHVkZSBtYW5hZ2VkIHJlcXVpcmVtZW50cyB3aGlsZSByZXNvbHZpbmcgYW4gZXhwbGljaXQgcGVybWlzc2lvbnMgcHJvZmlsZQoKICAtaCwgLS1oZWxwCiAgICAgICAgICBQcmludCBoZWxwIChzZWUgYSBzdW1tYXJ5IHdpdGggJy1oJykK",
+        "sha256": "c2b01cefce76b83a1c7e8fb117453426a20f1de6d431287c9057fa62e6fe1cdb",
+        "bytes": 1749
+      },
+      "stderr": {
+        "utf8": "",
+        "base64": "",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "elapsed_seconds": 0.00929397897562012
+    },
+    {
+      "argv": [
+        "/home/afazeli2006/.local/bin/codex",
+        "app-server",
+        "--help"
+      ],
+      "timeout_seconds": 12,
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": {
+        "utf8": "[experimental] Run the app server or related tooling\n\nUsage: codex app-server [OPTIONS] [COMMAND]\n\nCommands:\n  daemon                Manage the local app-server daemon\n  proxy                 Proxy stdio bytes to the running app-server control socket\n  generate-ts           [experimental] Generate TypeScript bindings for the app server protocol\n  generate-json-schema  [experimental] Generate JSON Schema for the app server protocol\n  help                  Print this message or the help of the given subcommand(s)\n\nOptions:\n  -c, --config <key=value>\n          Override a configuration value that would otherwise be loaded from `~/.codex/config.toml`.\n          Use a dotted path (`foo.bar.baz`) to override nested values. The `value` portion is parsed\n          as TOML. If it fails to parse as TOML, the raw string is used as a literal.\n          \n          Examples: - `-c model=\"o3\"` - `-c 'sandbox_permissions=[\"disk-full-read-access\"]'` - `-c\n          shell_environment_policy.inherit=all`\n\n      --enable <FEATURE>\n          Enable a feature (repeatable). Equivalent to `-c features.<name>=true`\n\n      --disable <FEATURE>\n          Disable a feature (repeatable). Equivalent to `-c features.<name>=false`\n\n      --code-mode-host <URL>\n          Connect to a remote code-mode host instead of starting a local host\n\n      --strict-config\n          Error out when config.toml contains fields that are not recognized by this version of\n          Codex\n\n      --listen <URL>\n          Transport endpoint URL. Supported values: `stdio://` (default), `unix://`, `unix://PATH`,\n          `ws://IP:PORT`, `off`\n          \n          [default: stdio://]\n\n      --stdio\n          Use stdio as the transport (equivalent to `--listen stdio://`)\n\n      --analytics-default-enabled\n          Controls whether analytics are enabled by default.\n          \n          Analytics are disabled by default for app-server. Users have to explicitly opt in via the\n          `analytics` section in the config.toml file.\n          \n          However, for first-party use cases like the VSCode IDE extension, we default analytics to\n          be enabled by default by setting this flag. Users can still opt out by setting this in\n          their config.toml:\n          \n          ```toml [analytics] enabled = false ```\n          \n          See https://developers.openai.com/codex/config-advanced/#metrics for more details.\n\n      --ws-auth <MODE>\n          Websocket auth mode for non-loopback listeners\n          \n          [possible values: capability-token, signed-bearer-token]\n\n      --ws-token-file <PATH>\n          Absolute path to the capability-token file\n\n      --ws-token-sha256 <HEX>\n          Hex-encoded SHA-256 digest of the capability token\n\n      --ws-shared-secret-file <PATH>\n          Absolute path to the shared secret file for signed JWT bearer tokens\n\n      --ws-issuer <ISSUER>\n          Expected issuer for signed JWT bearer tokens\n\n      --ws-audience <AUDIENCE>\n          Expected audience for signed JWT bearer tokens\n\n      --ws-max-clock-skew-seconds <SECONDS>\n          Maximum clock skew when validating signed JWT bearer tokens\n\n  -h, --help\n          Print help (see a summary with '-h')\n",
+        "base64": "W2V4cGVyaW1lbnRhbF0gUnVuIHRoZSBhcHAgc2VydmVyIG9yIHJlbGF0ZWQgdG9vbGluZwoKVXNhZ2U6IGNvZGV4IGFwcC1zZXJ2ZXIgW09QVElPTlNdIFtDT01NQU5EXQoKQ29tbWFuZHM6CiAgZGFlbW9uICAgICAgICAgICAgICAgIE1hbmFnZSB0aGUgbG9jYWwgYXBwLXNlcnZlciBkYWVtb24KICBwcm94eSAgICAgICAgICAgICAgICAgUHJveHkgc3RkaW8gYnl0ZXMgdG8gdGhlIHJ1bm5pbmcgYXBwLXNlcnZlciBjb250cm9sIHNvY2tldAogIGdlbmVyYXRlLXRzICAgICAgICAgICBbZXhwZXJpbWVudGFsXSBHZW5lcmF0ZSBUeXBlU2NyaXB0IGJpbmRpbmdzIGZvciB0aGUgYXBwIHNlcnZlciBwcm90b2NvbAogIGdlbmVyYXRlLWpzb24tc2NoZW1hICBbZXhwZXJpbWVudGFsXSBHZW5lcmF0ZSBKU09OIFNjaGVtYSBmb3IgdGhlIGFwcCBzZXJ2ZXIgcHJvdG9jb2wKICBoZWxwICAgICAgICAgICAgICAgICAgUHJpbnQgdGhpcyBtZXNzYWdlIG9yIHRoZSBoZWxwIG9mIHRoZSBnaXZlbiBzdWJjb21tYW5kKHMpCgpPcHRpb25zOgogIC1jLCAtLWNvbmZpZyA8a2V5PXZhbHVlPgogICAgICAgICAgT3ZlcnJpZGUgYSBjb25maWd1cmF0aW9uIHZhbHVlIHRoYXQgd291bGQgb3RoZXJ3aXNlIGJlIGxvYWRlZCBmcm9tIGB+Ly5jb2RleC9jb25maWcudG9tbGAuCiAgICAgICAgICBVc2UgYSBkb3R0ZWQgcGF0aCAoYGZvby5iYXIuYmF6YCkgdG8gb3ZlcnJpZGUgbmVzdGVkIHZhbHVlcy4gVGhlIGB2YWx1ZWAgcG9ydGlvbiBpcyBwYXJzZWQKICAgICAgICAgIGFzIFRPTUwuIElmIGl0IGZhaWxzIHRvIHBhcnNlIGFzIFRPTUwsIHRoZSByYXcgc3RyaW5nIGlzIHVzZWQgYXMgYSBsaXRlcmFsLgogICAgICAgICAgCiAgICAgICAgICBFeGFtcGxlczogLSBgLWMgbW9kZWw9Im8zImAgLSBgLWMgJ3NhbmRib3hfcGVybWlzc2lvbnM9WyJkaXNrLWZ1bGwtcmVhZC1hY2Nlc3MiXSdgIC0gYC1jCiAgICAgICAgICBzaGVsbF9lbnZpcm9ubWVudF9wb2xpY3kuaW5oZXJpdD1hbGxgCgogICAgICAtLWVuYWJsZSA8RkVBVFVSRT4KICAgICAgICAgIEVuYWJsZSBhIGZlYXR1cmUgKHJlcGVhdGFibGUpLiBFcXVpdmFsZW50IHRvIGAtYyBmZWF0dXJlcy48bmFtZT49dHJ1ZWAKCiAgICAgIC0tZGlzYWJsZSA8RkVBVFVSRT4KICAgICAgICAgIERpc2FibGUgYSBmZWF0dXJlIChyZXBlYXRhYmxlKS4gRXF1aXZhbGVudCB0byBgLWMgZmVhdHVyZXMuPG5hbWU+PWZhbHNlYAoKICAgICAgLS1jb2RlLW1vZGUtaG9zdCA8VVJMPgogICAgICAgICAgQ29ubmVjdCB0byBhIHJlbW90ZSBjb2RlLW1vZGUgaG9zdCBpbnN0ZWFkIG9mIHN0YXJ0aW5nIGEgbG9jYWwgaG9zdAoKICAgICAgLS1zdHJpY3QtY29uZmlnCiAgICAgICAgICBFcnJvciBvdXQgd2hlbiBjb25maWcudG9tbCBjb250YWlucyBmaWVsZHMgdGhhdCBhcmUgbm90IHJlY29nbml6ZWQgYnkgdGhpcyB2ZXJzaW9uIG9mCiAgICAgICAgICBDb2RleAoKICAgICAgLS1saXN0ZW4gPFVSTD4KICAgICAgICAgIFRyYW5zcG9ydCBlbmRwb2ludCBVUkwuIFN1cHBvcnRlZCB2YWx1ZXM6IGBzdGRpbzovL2AgKGRlZmF1bHQpLCBgdW5peDovL2AsIGB1bml4Oi8vUEFUSGAsCiAgICAgICAgICBgd3M6Ly9JUDpQT1JUYCwgYG9mZmAKICAgICAgICAgIAogICAgICAgICAgW2RlZmF1bHQ6IHN0ZGlvOi8vXQoKICAgICAgLS1zdGRpbwogICAgICAgICAgVXNlIHN0ZGlvIGFzIHRoZSB0cmFuc3BvcnQgKGVxdWl2YWxlbnQgdG8gYC0tbGlzdGVuIHN0ZGlvOi8vYCkKCiAgICAgIC0tYW5hbHl0aWNzLWRlZmF1bHQtZW5hYmxlZAogICAgICAgICAgQ29udHJvbHMgd2hldGhlciBhbmFseXRpY3MgYXJlIGVuYWJsZWQgYnkgZGVmYXVsdC4KICAgICAgICAgIAogICAgICAgICAgQW5hbHl0aWNzIGFyZSBkaXNhYmxlZCBieSBkZWZhdWx0IGZvciBhcHAtc2VydmVyLiBVc2VycyBoYXZlIHRvIGV4cGxpY2l0bHkgb3B0IGluIHZpYSB0aGUKICAgICAgICAgIGBhbmFseXRpY3NgIHNlY3Rpb24gaW4gdGhlIGNvbmZpZy50b21sIGZpbGUuCiAgICAgICAgICAKICAgICAgICAgIEhvd2V2ZXIsIGZvciBmaXJzdC1wYXJ0eSB1c2UgY2FzZXMgbGlrZSB0aGUgVlNDb2RlIElERSBleHRlbnNpb24sIHdlIGRlZmF1bHQgYW5hbHl0aWNzIHRvCiAgICAgICAgICBiZSBlbmFibGVkIGJ5IGRlZmF1bHQgYnkgc2V0dGluZyB0aGlzIGZsYWcuIFVzZXJzIGNhbiBzdGlsbCBvcHQgb3V0IGJ5IHNldHRpbmcgdGhpcyBpbgogICAgICAgICAgdGhlaXIgY29uZmlnLnRvbWw6CiAgICAgICAgICAKICAgICAgICAgIGBgYHRvbWwgW2FuYWx5dGljc10gZW5hYmxlZCA9IGZhbHNlIGBgYAogICAgICAgICAgCiAgICAgICAgICBTZWUgaHR0cHM6Ly9kZXZlbG9wZXJzLm9wZW5haS5jb20vY29kZXgvY29uZmlnLWFkdmFuY2VkLyNtZXRyaWNzIGZvciBtb3JlIGRldGFpbHMuCgogICAgICAtLXdzLWF1dGggPE1PREU+CiAgICAgICAgICBXZWJzb2NrZXQgYXV0aCBtb2RlIGZvciBub24tbG9vcGJhY2sgbGlzdGVuZXJzCiAgICAgICAgICAKICAgICAgICAgIFtwb3NzaWJsZSB2YWx1ZXM6IGNhcGFiaWxpdHktdG9rZW4sIHNpZ25lZC1iZWFyZXItdG9rZW5dCgogICAgICAtLXdzLXRva2VuLWZpbGUgPFBBVEg+CiAgICAgICAgICBBYnNvbHV0ZSBwYXRoIHRvIHRoZSBjYXBhYmlsaXR5LXRva2VuIGZpbGUKCiAgICAgIC0td3MtdG9rZW4tc2hhMjU2IDxIRVg+CiAgICAgICAgICBIZXgtZW5jb2RlZCBTSEEtMjU2IGRpZ2VzdCBvZiB0aGUgY2FwYWJpbGl0eSB0b2tlbgoKICAgICAgLS13cy1zaGFyZWQtc2VjcmV0LWZpbGUgPFBBVEg+CiAgICAgICAgICBBYnNvbHV0ZSBwYXRoIHRvIHRoZSBzaGFyZWQgc2VjcmV0IGZpbGUgZm9yIHNpZ25lZCBKV1QgYmVhcmVyIHRva2VucwoKICAgICAgLS13cy1pc3N1ZXIgPElTU1VFUj4KICAgICAgICAgIEV4cGVjdGVkIGlzc3VlciBmb3Igc2lnbmVkIEpXVCBiZWFyZXIgdG9rZW5zCgogICAgICAtLXdzLWF1ZGllbmNlIDxBVURJRU5DRT4KICAgICAgICAgIEV4cGVjdGVkIGF1ZGllbmNlIGZvciBzaWduZWQgSldUIGJlYXJlciB0b2tlbnMKCiAgICAgIC0td3MtbWF4LWNsb2NrLXNrZXctc2Vjb25kcyA8U0VDT05EUz4KICAgICAgICAgIE1heGltdW0gY2xvY2sgc2tldyB3aGVuIHZhbGlkYXRpbmcgc2lnbmVkIEpXVCBiZWFyZXIgdG9rZW5zCgogIC1oLCAtLWhlbHAKICAgICAgICAgIFByaW50IGhlbHAgKHNlZSBhIHN1bW1hcnkgd2l0aCAnLWgnKQo=",
+        "sha256": "95d290035d274e91e6f85b9af63e9a3fd2cf70a2295d9eedbfc23a2ee82d4383",
+        "bytes": 3206
+      },
+      "stderr": {
+        "utf8": "",
+        "base64": "",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "elapsed_seconds": 0.010097500984556973
+    }
+  ],
+  "capabilities_not_established": [
+    "authoritative subscription allowance or remaining percentage",
+    "reviewer context isolation, read scope or tool restrictions",
+    "sandbox enforcement on this machine",
+    "unattended model continuation or model affordability",
+    "GPU execution, sustained throughput, power/hibernate behavior",
+    "HPC remaining allocation, inherited account caps, user storage quota or queue availability"
+  ],
+  "model_task_or_authentication_requested": false,
+  "settings_or_git_changes_requested": false,
+  "credential_or_configuration_files_read_by_script": false,
+  "client_internal_file_access_not_traced": true,
+  "host": {
+    "system": "Linux",
+    "release": "6.18.33.2-microsoft-standard-WSL2",
+    "machine": "x86_64",
+    "logical_cpu_count": 16,
+    "scope": "Current OS/WSL or login host; not a compute-node allocation.",
+    "affinity_cpu_count": 16,
+    "memory_kernel_counters": {
+      "MemTotal": "32568972 kB",
+      "MemAvailable": "25864696 kB",
+      "SwapTotal": "8388608 kB",
+      "SwapFree": "8388608 kB"
+    },
+    "lab_filesystem_bytes": {
+      "total": 1081101176832,
+      "used": 65230458880,
+      "free": 960878362624
+    },
+    "disk_scope": "Filesystem free bytes at lab path, not user quota or I/O performance."
+  },
+  "status": "inventory_complete_with_explicit_unknowns",
+  "elapsed_seconds": 0.12609017203794792
+}

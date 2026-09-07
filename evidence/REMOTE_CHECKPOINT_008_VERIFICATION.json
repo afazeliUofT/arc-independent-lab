@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "verified_utc": "2026-09-07T02:00:30.551905+00:00",
+  "source_url": "https://api.github.com/repos/afazeliUofT/arc-independent-lab/git/ref/heads/main",
+  "access_date": "2026-09-07",
+  "published_commit": "74336f25e9ae95965b486d602c7af759b3aba52f",
+  "direct_parent": "7da5cc4ce22fac3163408a4889517c86d386f407",
+  "checkpoint": "P3_CHECKPOINT_008",
+  "package_sha256": "fa3a5734858fb670dc96d36ed85f1f1da108bdc7acb98a9b9ada63f99b368edc",
+  "manifest_sha256": "be661b21b5d18160fcfd8c9cc439d321e87ad3bff41bcbacd78cefc3049c09d6",
+  "complete_tree_files_checked": 245,
+  "payload_paths_checked": 20,
+  "complete_tree_paths_hashes_modes": "matched",
+  "exact_archive_payload_delta": "matched",
+  "original_and_supplement_review_pins": "matched",
+  "all_hosted_working_bytes_before_adoption": "matched published tree",
+  "adoption": "read-tree plus update-ref to verified human commit; no checkout or file replacement",
+  "assistant_created_commit": false,
+  "assistant_pushed": false,
+  "reported_inventory_contents_present_in_checkpoint": false
+}

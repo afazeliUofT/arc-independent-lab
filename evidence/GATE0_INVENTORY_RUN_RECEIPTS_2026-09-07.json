@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-09-07T02:03:18.350217+00:00",
+  "source": "User chat plus attached Pasted text(2).txt; JSON report contents not yet supplied",
+  "attached_transcript_sha256": "728aa60264d7e514d9eddb50d45ef57ea0aa8fb19faa8bfbefa37ac99a5a7016",
+  "raw_transcript_publication": "not proposed; public record contains only required programme facts",
+  "checkpoint008_published_commit": "74336f25e9ae95965b486d602c7af759b3aba52f",
+  "script_identity_expected": {
+    "path": "scripts/gate0_capability_inventory.py",
+    "sha256": "e2ce2da1ff8a52b86264b9a237c03bfccc396642dcd901d9c1e23b9acde79145"
+  },
+  "laptop": {
+    "path": "/home/afazeli2006/ARC_Independent_Lab/delivery/gate0_inventory/GATE0_CAPABILITY_LAPTOP_20260907T014042.751426Z.json",
+    "reported_sha256": "cc94e45fb4d4cef09a789c30b4b57db375a0e84a8772fbef6781968c58149c05",
+    "probe_statuses": "all eight reported ok, meaning subprocess exit code zero in the delivered script",
+    "contents_received": false,
+    "capabilities_inferred": []
+  },
+  "narval": {
+    "path": "/home/rsadve1/ARC_Independent_Lab/delivery/gate0_inventory/GATE0_CAPABILITY_SLURM_20260907T015414.435418Z.json",
+    "reported_sha256": "f53cee6616044ff947b239129a799ac618bd8a6b163169583ac6623f0d14f982",
+    "probe_statuses": "all eight reported ok; named QOS query normal completed; actual returned values not provided",
+    "contents_received": false,
+    "limits_or_remaining_allocation_inferred": []
+  },
+  "user_interface_preference_verbatim": "I usually run codes on narval using Powershell, not WSL",
+  "decision": "Retrieve existing JSONs in one PowerShell batch; keep canonical project storage in WSL. No reruns or new phase approval. Do not infer limits or reviewer enforcement from status logs.",
+  "retrieval_instructions": {
+    "path": "docs/GATE0_REPORT_RETRIEVAL_POWERSHELL.md",
+    "sha256": "20e9e7664c978d49b74d09075225f6394c32fc3f4034ac3bb774d3486180f816"
+  }
+}

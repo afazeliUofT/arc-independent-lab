@@ -16,6 +16,8 @@ Verify repository state and checkpoint hashes before building on it. If blocked,
 - `docs/P3_DESIGN_DECISIONS.md`: scientific route, context-clearing controls and remaining measurements.
 - `docs/P3_AUDIT_REVIEW_PACKET.md`: separate reviewer task and required enforcement.
 - `docs/P3_GATE0_CAPABILITY_INVENTORY.md`: batched read-only laptop/Alliance observations.
+- `reports/GATE0_CAPABILITY_FINDINGS_2026-09-07.md`: verified inventory findings, resource limits and remaining unknowns.
+- `docs/GATE0_REVIEWER_BOUNDARY_CHECK.md`: prepared no-model command-boundary observation; actual laptop enforcement remains unmeasured.
 
 - `IDEAS.md`: Phase 2 submission, including the unedited population, clusters, developed operations and post-development method flags.
 - `reports/P2_LEARNER_OBSERVER_001.md`: required recovery follow-up and its access limits.

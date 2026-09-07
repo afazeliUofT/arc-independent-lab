@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "inventory": "P3_GATE0_CAPABILITY_v1",
+  "mode": "slurm",
+  "created_utc": "2026-09-07T01:54:14.435459+00:00",
+  "script_sha256": "e2ce2da1ff8a52b86264b9a237c03bfccc396642dcd901d9c1e23b9acde79145",
+  "read_only_probes": true,
+  "report_write_exception": "/home/rsadve1/ARC_Independent_Lab/delivery/gate0_inventory/GATE0_CAPABILITY_SLURM_20260907T015414.435418Z.json",
+  "command_budget_seconds": 150,
+  "commands": [
+    {
+      "argv": [
+        "/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/lib/python-exec/python3.11/python3",
+        "-I",
+        "--version"
+      ],
+      "timeout_seconds": 12,
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": {
+        "utf8": "Python 3.11.4\n",
+        "base64": "UHl0aG9uIDMuMTEuNAo=",
+        "sha256": "2d394c21945a20c8d8f3152f573e1b9718cdf3adf08e34f8a0832f0a5d5553e2",
+        "bytes": 14
+      },
+      "stderr": {
+        "utf8": "",
+        "base64": "",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "elapsed_seconds": 0.0030936459661461413
+    },
+    {
+      "argv": [
+        "/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/bin/git",
+        "--version"
+      ],
+      "timeout_seconds": 12,
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": {
+        "utf8": "git version 2.41.0\n",
+        "base64": "Z2l0IHZlcnNpb24gMi40MS4wCg==",
+        "sha256": "fb494f1c29064cdd046c0fdaaa81e6def01451bb4dfe41d11d74cff688288749",
+        "bytes": 19
+      },
+      "stderr": {
+        "utf8": "",
+        "base64": "",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "elapsed_seconds": 0.004500765004195273
+    },
+    {
+      "argv": [
+        "/opt/software/slurm/bin/sinfo",
+        "--version"
+      ],
+      "timeout_seconds": 12,
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": {
+        "utf8": "slurm 25.11.8\n",
+        "base64": "c2x1cm0gMjUuMTEuOAo=",
+        "sha256": "1fcdbd76a84434d1fdce9d0ac0d456a61c3e8d4eb592808782e0ebdeaaab2e5a",
+        "bytes": 14
+      },
+      "stderr": {
+        "utf8": "",
+        "base64": "",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "elapsed_seconds": 0.009952452033758163
+    },
+    {
+      "argv": [
+        "/opt/software/slurm/bin/sacctmgr",
+        "--version"
+      ],
+      "timeout_seconds": 12,
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": {
+        "utf8": "slurm 25.11.8\n",
+        "base64": "c2x1cm0gMjUuMTEuOAo=",
+        "sha256": "1fcdbd76a84434d1fdce9d0ac0d456a61c3e8d4eb592808782e0ebdeaaab2e5a",
+        "bytes": 14
+      },
+      "stderr": {
+        "utf8": "",
+        "base64": "",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "elapsed_seconds": 0.009783473971765488
+    },
+    {
+      "argv": [
+        "/opt/software/slurm/bin/sinfo",
+        "--noheader",
+        "--exact",
+        "--format=%P|%a|%l|%D|%c|%m|%G"
+      ],
+      "timeout_seconds": 30,
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": {
+        "utf8": "cpubase_interac|up|8:00:00|24|64|512000|(null)\ncpubase_interac|up|8:00:00|724|64|256000|(null)\ncpubase_bynode_b1|up|3:00:00|1147|64|256000|(null)\ncpubase_bynode_b1|up|3:00:00|84|64|512000|(null)\ncpubase_bynode_b2|up|12:00:00|1147|64|256000|(null)\ncpubase_bynode_b2|up|12:00:00|32|64|512000|(null)\ncpubase_bynode_b3|up|1-00:00:00|1147|64|256000|(null)\ncpubase_bynode_b3|up|1-00:00:00|32|64|512000|(null)\ncpubase_bynode_b4|up|3-00:00:00|1091|64|256000|(null)\ncpubase_bynode_b4|up|3-00:00:00|32|64|512000|(null)\ncpubase_bynode_b5|up|7-00:00:00|1035|64|256000|(null)\ncpubase_bynode_b5|up|7-00:00:00|32|64|512000|(null)\ncpubase_bycore_b1|up|3:00:00|615|64|256000|(null)\ncpubase_bycore_b1|up|3:00:00|32|64|512000|(null)\ncpubase_bycore_b2|up|12:00:00|615|64|256000|(null)\ncpubase_bycore_b2|up|12:00:00|32|64|512000|(null)\ncpubase_bycore_b3|up|1-00:00:00|615|64|256000|(null)\ncpubase_bycore_b3|up|1-00:00:00|32|64|512000|(null)\ncpubase_bycore_b4|up|3-00:00:00|615|64|256000|(null)\ncpubase_bycore_b4|up|3-00:00:00|32|64|512000|(null)\ncpubase_bycore_b5|up|7-00:00:00|451|64|256000|(null)\ncpubase_bycore_b5|up|7-00:00:00|32|64|512000|(null)\ncpularge_interac|up|8:00:00|34|64|2057500|(null)\ncpularge_bynode_b1|up|3:00:00|33|64|2057500|(null)\ncpularge_bynode_b1|up|3:00:00|3|64|4115000|(null)\ncpularge_bynode_b2|up|12:00:00|33|64|2057500|(null)\ncpularge_bynode_b2|up|12:00:00|3|64|4115000|(null)\ncpularge_bynode_b3|up|1-00:00:00|32|64|2057500|(null)\ncpularge_bynode_b3|up|1-00:00:00|3|64|4115000|(null)\ncpularge_bynode_b4|up|3-00:00:00|32|64|2057500|(null)\ncpularge_bynode_b4|up|3-00:00:00|3|64|4115000|(null)\ncpularge_bynode_b5|up|7-00:00:00|31|64|2057500|(null)\ncpularge_bynode_b5|up|7-00:00:00|3|64|4115000|(null)\ncpularge_bycore_b1|up|3:00:00|27|64|2057500|(null)\ncpularge_bycore_b1|up|3:00:00|3|64|4115000|(null)\ncpularge_bycore_b2|up|12:00:00|27|64|2057500|(null)\ncpularge_bycore_b2|up|12:00:00|3|64|4115000|(null)\ncpularge_bycore_b3|up|1-00:00:00|26|64|2057500|(null)\ncpularge_bycore_b3|up|1-00:00:00|3|64|4115000|(null)\ncpularge_bycore_b4|up|3-00:00:00|25|64|2057500|(null)\ncpularge_bycore_b4|up|3-00:00:00|3|64|4115000|(null)\ncpularge_bycore_b5|up|7-00:00:00|24|64|2057500|(null)\ncpularge_bycore_b5|up|7-00:00:00|3|64|4115000|(null)\ngpubase_interac|up|8:00:00|46|48|510000|gpu:a100:4(S:0-1)\ngpubase_interac|up|8:00:00|1|48|510000|gpu:a100_3g.20gb:4(S:0-1),gpu:a100_2g.10gb:4(S:0-1),gpu:a100_1g.5gb:8(S:0-1)\ngpubase_interac|up|8:00:00|20|48|510000|gpu:a100_4g.20gb:1(S:0),gpu:a100_3g.20gb:3(S:0-1),gpu:a100_2g.10gb:4(S:0-1),gpu:a100_1g.5gb:7(S:0-1)\ngpubase_interac|up|8:00:00|12|48|510000|gpu:a100_3g.20gb:3(S:0-1),gpu:a100_4g.20gb:1(S:0),gpu:a100_2g.10gb:4(S:0-1),gpu:a100_1g.5gb:7(S:0-1)\ngpubase_interac|up|8:00:00|10|64|1024000|gpu:a100:4(S:0-1)\ngpubase_bynode_b1|up|3:00:00|125|48|510000|gpu:a100:4(S:0-1)\ngpubase_bynode_b1|up|3:00:00|16|64|1024000|gpu:a100:4(S:0-1)\ngpubase_bynode_b2|up|12:00:00|125|48|510000|gpu:a100:4(S:0-1)\ngpubase_bynode_b2|up|12:00:00|16|64|1024000|gpu:a100:4(S:0-1)\ngpubase_bynode_b3|up|1-00:00:00|125|48|510000|gpu:a100:4(S:0-1)\ngpubase_bynode_b3|up|1-00:00:00|16|64|1024000|gpu:a100:4(S:0-1)\ngpubase_bynode_b4|up|3-00:00:00|125|48|510000|gpu:a100:4(S:0-1)\ngpubase_bynode_b4|up|3-00:00:00|16|64|1024000|gpu:a100:4(S:0-1)\ngpubase_bynode_b5|up|7-00:00:00|100|48|510000|gpu:a100:4(S:0-1)\ngpubase_bynode_b5|up|7-00:00:00|16|64|1024000|gpu:a100:4(S:0-1)\ngpubase_bygpu_b1|up|3:00:00|102|48|510000|gpu:a100:4(S:0-1)\ngpubase_bygpu_b1|up|3:00:00|1|48|510000|gpu:a100_3g.20gb:4(S:0-1),gpu:a100_2g.10gb:4(S:0-1),gpu:a100_1g.5gb:8(S:0-1)\ngpubase_bygpu_b1|up|3:00:00|20|48|510000|gpu:a100_4g.20gb:1(S:0),gpu:a100_3g.20gb:3(S:0-1),gpu:a100_2g.10gb:4(S:0-1),gpu:a100_1g.5gb:7(S:0-1)\ngpubase_bygpu_b1|up|3:00:00|12|48|510000|gpu:a100_3g.20gb:3(S:0-1),gpu:a100_4g.20gb:1(S:0),gpu:a100_2g.10gb:4(S:0-1),gpu:a100_1g.5gb:7(S:0-1)\ngpubase_bygpu_b1|up|3:00:00|16|64|1024000|gpu:a100:4(S:0-1)\ngpubase_bygpu_b2|up|12:00:00|102|48|510000|gpu:a100:4(S:0-1)\ngpubase_bygpu_b2|up|12:00:00|1|48|510000|gpu:a100_3g.20gb:4(S:0-1),gpu:a100_2g.10gb:4(S:0-1),gpu:a100_1g.5gb:8(S:0-1)\ngpubase_bygpu_b2|up|12:00:00|20|48|510000|gpu:a100_4g.20gb:1(S:0),gpu:a100_3g.20gb:3(S:0-1),gpu:a100_2g.10gb:4(S:0-1),gpu:a100_1g.5gb:7(S:0-1)\ngpubase_bygpu_b2|up|12:00:00|12|48|510000|gpu:a100_3g.20gb:3(S:0-1),gpu:a100_4g.20gb:1(S:0),gpu:a100_2g.10gb:4(S:0-1),gpu:a100_1g.5gb:7(S:0-1)\ngpubase_bygpu_b2|up|12:00:00|16|64|1024000|gpu:a100:4(S:0-1)\ngpubase_bygpu_b3|up|1-00:00:00|102|48|510000|gpu:a100:4(S:0-1)\ngpubase_bygpu_b3|up|1-00:00:00|1|48|510000|gpu:a100_3g.20gb:4(S:0-1),gpu:a100_2g.10gb:4(S:0-1),gpu:a100_1g.5gb:8(S:0-1)\ngpubase_bygpu_b3|up|1-00:00:00|18|48|510000|gpu:a100_4g.20gb:1(S:0),gpu:a100_3g.20gb:3(S:0-1),gpu:a100_2g.10gb:4(S:0-1),gpu:a100_1g.5gb:7(S:0-1)\ngpubase_bygpu_b3|up|1-00:00:00|12|48|510000|gpu:a100_3g.20gb:3(S:0-1),gpu:a100_4g.20gb:1(S:0),gpu:a100_2g.10gb:4(S:0-1),gpu:a100_1g.5gb:7(S:0-1)\ngpubase_bygpu_b3|up|1-00:00:00|16|64|1024000|gpu:a100:4(S:0-1)\ngpubase_bygpu_b4|up|3-00:00:00|102|48|510000|gpu:a100:4(S:0-1)\ngpubase_bygpu_b4|up|3-00:00:00|1|48|510000|gpu:a100_3g.20gb:4(S:0-1),gpu:a100_2g.10gb:4(S:0-1),gpu:a100_1g.5gb:8(S:0-1)\ngpubase_bygpu_b4|up|3-00:00:00|16|48|510000|gpu:a100_4g.20gb:1(S:0),gpu:a100_3g.20gb:3(S:0-1),gpu:a100_2g.10gb:4(S:0-1),gpu:a100_1g.5gb:7(S:0-1)\ngpubase_bygpu_b4|up|3-00:00:00|12|48|510000|gpu:a100_3g.20gb:3(S:0-1),gpu:a100_4g.20gb:1(S:0),gpu:a100_2g.10gb:4(S:0-1),gpu:a100_1g.5gb:7(S:0-1)\ngpubase_bygpu_b4|up|3-00:00:00|16|64|1024000|gpu:a100:4(S:0-1)\ngpubase_bygpu_b5|up|7-00:00:00|77|48|510000|gpu:a100:4(S:0-1)\ngpubase_bygpu_b5|up|7-00:00:00|1|48|510000|gpu:a100_3g.20gb:4(S:0-1),gpu:a100_2g.10gb:4(S:0-1),gpu:a100_1g.5gb:8(S:0-1)\ngpubase_bygpu_b5|up|7-00:00:00|14|48|510000|gpu:a100_4g.20gb:1(S:0),gpu:a100_3g.20gb:3(S:0-1),gpu:a100_2g.10gb:4(S:0-1),gpu:a100_1g.5gb:7(S:0-1)\ngpubase_bygpu_b5|up|7-00:00:00|6|48|510000|gpu:a100_3g.20gb:3(S:0-1),gpu:a100_4g.20gb:1(S:0),gpu:a100_2g.10gb:4(S:0-1),gpu:a100_1g.5gb:7(S:0-1)\ngpubase_bygpu_b5|up|7-00:00:00|16|64|1024000|gpu:a100:4(S:0-1)\ncpubackfill|up|1-00:00:00|608|64|256000|(null)\ncpubackfill|up|1-00:00:00|20|64|512000|(null)\ngpubackfill|up|1-00:00:00|35|48|510000|gpu:a100:4(S:0-1)\ngpubackfill|up|1-00:00:00|10|48|510000|gpu:a100_3g.20gb:3(S:0-1),gpu:a100_4g.20gb:1(S:0),gpu:a100_2g.10gb:4(S:0-1),gpu:a100_1g.5gb:7(S:0-1)\ngpubackfill|up|1-00:00:00|10|48|510000|gpu:a100_4g.20gb:1(S:0),gpu:a100_3g.20gb:3(S:0-1),gpu:a100_2g.10gb:4(S:0-1),gpu:a100_1g.5gb:7(S:0-1)\ngpubackfill|up|1-00:00:00|10|64|1024000|gpu:a100:4(S:0-1)\nc-frigon|up|7-00:00:00|52|64|512000|(null)\n",
+        "base64": "Y3B1YmFzZV9pbnRlcmFjfHVwfDg6MDA6MDB8MjR8NjR8NTEyMDAwfChudWxsKQpjcHViYXNlX2ludGVyYWN8dXB8ODowMDowMHw3MjR8NjR8MjU2MDAwfChudWxsKQpjcHViYXNlX2J5bm9kZV9iMXx1cHwzOjAwOjAwfDExNDd8NjR8MjU2MDAwfChudWxsKQpjcHViYXNlX2J5bm9kZV9iMXx1cHwzOjAwOjAwfDg0fDY0fDUxMjAwMHwobnVsbCkKY3B1YmFzZV9ieW5vZGVfYjJ8dXB8MTI6MDA6MDB8MTE0N3w2NHwyNTYwMDB8KG51bGwpCmNwdWJhc2VfYnlub2RlX2IyfHVwfDEyOjAwOjAwfDMyfDY0fDUxMjAwMHwobnVsbCkKY3B1YmFzZV9ieW5vZGVfYjN8dXB8MS0wMDowMDowMHwxMTQ3fDY0fDI1NjAwMHwobnVsbCkKY3B1YmFzZV9ieW5vZGVfYjN8dXB8MS0wMDowMDowMHwzMnw2NHw1MTIwMDB8KG51bGwpCmNwdWJhc2VfYnlub2RlX2I0fHVwfDMtMDA6MDA6MDB8MTA5MXw2NHwyNTYwMDB8KG51bGwpCmNwdWJhc2VfYnlub2RlX2I0fHVwfDMtMDA6MDA6MDB8MzJ8NjR8NTEyMDAwfChudWxsKQpjcHViYXNlX2J5bm9kZV9iNXx1cHw3LTAwOjAwOjAwfDEwMzV8NjR8MjU2MDAwfChudWxsKQpjcHViYXNlX2J5bm9kZV9iNXx1cHw3LTAwOjAwOjAwfDMyfDY0fDUxMjAwMHwobnVsbCkKY3B1YmFzZV9ieWNvcmVfYjF8dXB8MzowMDowMHw2MTV8NjR8MjU2MDAwfChudWxsKQpjcHViYXNlX2J5Y29yZV9iMXx1cHwzOjAwOjAwfDMyfDY0fDUxMjAwMHwobnVsbCkKY3B1YmFzZV9ieWNvcmVfYjJ8dXB8MTI6MDA6MDB8NjE1fDY0fDI1NjAwMHwobnVsbCkKY3B1YmFzZV9ieWNvcmVfYjJ8dXB8MTI6MDA6MDB8MzJ8NjR8NTEyMDAwfChudWxsKQpjcHViYXNlX2J5Y29yZV9iM3x1cHwxLTAwOjAwOjAwfDYxNXw2NHwyNTYwMDB8KG51bGwpCmNwdWJhc2VfYnljb3JlX2IzfHVwfDEtMDA6MDA6MDB8MzJ8NjR8NTEyMDAwfChudWxsKQpjcHViYXNlX2J5Y29yZV9iNHx1cHwzLTAwOjAwOjAwfDYxNXw2NHwyNTYwMDB8KG51bGwpCmNwdWJhc2VfYnljb3JlX2I0fHVwfDMtMDA6MDA6MDB8MzJ8NjR8NTEyMDAwfChudWxsKQpjcHViYXNlX2J5Y29yZV9iNXx1cHw3LTAwOjAwOjAwfDQ1MXw2NHwyNTYwMDB8KG51bGwpCmNwdWJhc2VfYnljb3JlX2I1fHVwfDctMDA6MDA6MDB8MzJ8NjR8NTEyMDAwfChudWxsKQpjcHVsYXJnZV9pbnRlcmFjfHVwfDg6MDA6MDB8MzR8NjR8MjA1NzUwMHwobnVsbCkKY3B1bGFyZ2VfYnlub2RlX2IxfHVwfDM6MDA6MDB8MzN8NjR8MjA1NzUwMHwobnVsbCkKY3B1bGFyZ2VfYnlub2RlX2IxfHVwfDM6MDA6MDB8M3w2NHw0MTE1MDAwfChudWxsKQpjcHVsYXJnZV9ieW5vZGVfYjJ8dXB8MTI6MDA6MDB8MzN8NjR8MjA1NzUwMHwobnVsbCkKY3B1bGFyZ2VfYnlub2RlX2IyfHVwfDEyOjAwOjAwfDN8NjR8NDExNTAwMHwobnVsbCkKY3B1bGFyZ2VfYnlub2RlX2IzfHVwfDEtMDA6MDA6MDB8MzJ8NjR8MjA1NzUwMHwobnVsbCkKY3B1bGFyZ2VfYnlub2RlX2IzfHVwfDEtMDA6MDA6MDB8M3w2NHw0MTE1MDAwfChudWxsKQpjcHVsYXJnZV9ieW5vZGVfYjR8dXB8My0wMDowMDowMHwzMnw2NHwyMDU3NTAwfChudWxsKQpjcHVsYXJnZV9ieW5vZGVfYjR8dXB8My0wMDowMDowMHwzfDY0fDQxMTUwMDB8KG51bGwpCmNwdWxhcmdlX2J5bm9kZV9iNXx1cHw3LTAwOjAwOjAwfDMxfDY0fDIwNTc1MDB8KG51bGwpCmNwdWxhcmdlX2J5bm9kZV9iNXx1cHw3LTAwOjAwOjAwfDN8NjR8NDExNTAwMHwobnVsbCkKY3B1bGFyZ2VfYnljb3JlX2IxfHVwfDM6MDA6MDB8Mjd8NjR8MjA1NzUwMHwobnVsbCkKY3B1bGFyZ2VfYnljb3JlX2IxfHVwfDM6MDA6MDB8M3w2NHw0MTE1MDAwfChudWxsKQpjcHVsYXJnZV9ieWNvcmVfYjJ8dXB8MTI6MDA6MDB8Mjd8NjR8MjA1NzUwMHwobnVsbCkKY3B1bGFyZ2VfYnljb3JlX2IyfHVwfDEyOjAwOjAwfDN8NjR8NDExNTAwMHwobnVsbCkKY3B1bGFyZ2VfYnljb3JlX2IzfHVwfDEtMDA6MDA6MDB8MjZ8NjR8MjA1NzUwMHwobnVsbCkKY3B1bGFyZ2VfYnljb3JlX2IzfHVwfDEtMDA6MDA6MDB8M3w2NHw0MTE1MDAwfChudWxsKQpjcHVsYXJnZV9ieWNvcmVfYjR8dXB8My0wMDowMDowMHwyNXw2NHwyMDU3NTAwfChudWxsKQpjcHVsYXJnZV9ieWNvcmVfYjR8dXB8My0wMDowMDowMHwzfDY0fDQxMTUwMDB8KG51bGwpCmNwdWxhcmdlX2J5Y29yZV9iNXx1cHw3LTAwOjAwOjAwfDI0fDY0fDIwNTc1MDB8KG51bGwpCmNwdWxhcmdlX2J5Y29yZV9iNXx1cHw3LTAwOjAwOjAwfDN8NjR8NDExNTAwMHwobnVsbCkKZ3B1YmFzZV9pbnRlcmFjfHVwfDg6MDA6MDB8NDZ8NDh8NTEwMDAwfGdwdTphMTAwOjQoUzowLTEpCmdwdWJhc2VfaW50ZXJhY3x1cHw4OjAwOjAwfDF8NDh8NTEwMDAwfGdwdTphMTAwXzNnLjIwZ2I6NChTOjAtMSksZ3B1OmExMDBfMmcuMTBnYjo0KFM6MC0xKSxncHU6YTEwMF8xZy41Z2I6OChTOjAtMSkKZ3B1YmFzZV9pbnRlcmFjfHVwfDg6MDA6MDB8MjB8NDh8NTEwMDAwfGdwdTphMTAwXzRnLjIwZ2I6MShTOjApLGdwdTphMTAwXzNnLjIwZ2I6MyhTOjAtMSksZ3B1OmExMDBfMmcuMTBnYjo0KFM6MC0xKSxncHU6YTEwMF8xZy41Z2I6NyhTOjAtMSkKZ3B1YmFzZV9pbnRlcmFjfHVwfDg6MDA6MDB8MTJ8NDh8NTEwMDAwfGdwdTphMTAwXzNnLjIwZ2I6MyhTOjAtMSksZ3B1OmExMDBfNGcuMjBnYjoxKFM6MCksZ3B1OmExMDBfMmcuMTBnYjo0KFM6MC0xKSxncHU6YTEwMF8xZy41Z2I6NyhTOjAtMSkKZ3B1YmFzZV9pbnRlcmFjfHVwfDg6MDA6MDB8MTB8NjR8MTAyNDAwMHxncHU6YTEwMDo0KFM6MC0xKQpncHViYXNlX2J5bm9kZV9iMXx1cHwzOjAwOjAwfDEyNXw0OHw1MTAwMDB8Z3B1OmExMDA6NChTOjAtMSkKZ3B1YmFzZV9ieW5vZGVfYjF8dXB8MzowMDowMHwxNnw2NHwxMDI0MDAwfGdwdTphMTAwOjQoUzowLTEpCmdwdWJhc2VfYnlub2RlX2IyfHVwfDEyOjAwOjAwfDEyNXw0OHw1MTAwMDB8Z3B1OmExMDA6NChTOjAtMSkKZ3B1YmFzZV9ieW5vZGVfYjJ8dXB8MTI6MDA6MDB8MTZ8NjR8MTAyNDAwMHxncHU6YTEwMDo0KFM6MC0xKQpncHViYXNlX2J5bm9kZV9iM3x1cHwxLTAwOjAwOjAwfDEyNXw0OHw1MTAwMDB8Z3B1OmExMDA6NChTOjAtMSkKZ3B1YmFzZV9ieW5vZGVfYjN8dXB8MS0wMDowMDowMHwxNnw2NHwxMDI0MDAwfGdwdTphMTAwOjQoUzowLTEpCmdwdWJhc2VfYnlub2RlX2I0fHVwfDMtMDA6MDA6MDB8MTI1fDQ4fDUxMDAwMHxncHU6YTEwMDo0KFM6MC0xKQpncHViYXNlX2J5bm9kZV9iNHx1cHwzLTAwOjAwOjAwfDE2fDY0fDEwMjQwMDB8Z3B1OmExMDA6NChTOjAtMSkKZ3B1YmFzZV9ieW5vZGVfYjV8dXB8Ny0wMDowMDowMHwxMDB8NDh8NTEwMDAwfGdwdTphMTAwOjQoUzowLTEpCmdwdWJhc2VfYnlub2RlX2I1fHVwfDctMDA6MDA6MDB8MTZ8NjR8MTAyNDAwMHxncHU6YTEwMDo0KFM6MC0xKQpncHViYXNlX2J5Z3B1X2IxfHVwfDM6MDA6MDB8MTAyfDQ4fDUxMDAwMHxncHU6YTEwMDo0KFM6MC0xKQpncHViYXNlX2J5Z3B1X2IxfHVwfDM6MDA6MDB8MXw0OHw1MTAwMDB8Z3B1OmExMDBfM2cuMjBnYjo0KFM6MC0xKSxncHU6YTEwMF8yZy4xMGdiOjQoUzowLTEpLGdwdTphMTAwXzFnLjVnYjo4KFM6MC0xKQpncHViYXNlX2J5Z3B1X2IxfHVwfDM6MDA6MDB8MjB8NDh8NTEwMDAwfGdwdTphMTAwXzRnLjIwZ2I6MShTOjApLGdwdTphMTAwXzNnLjIwZ2I6MyhTOjAtMSksZ3B1OmExMDBfMmcuMTBnYjo0KFM6MC0xKSxncHU6YTEwMF8xZy41Z2I6NyhTOjAtMSkKZ3B1YmFzZV9ieWdwdV9iMXx1cHwzOjAwOjAwfDEyfDQ4fDUxMDAwMHxncHU6YTEwMF8zZy4yMGdiOjMoUzowLTEpLGdwdTphMTAwXzRnLjIwZ2I6MShTOjApLGdwdTphMTAwXzJnLjEwZ2I6NChTOjAtMSksZ3B1OmExMDBfMWcuNWdiOjcoUzowLTEpCmdwdWJhc2VfYnlncHVfYjF8dXB8MzowMDowMHwxNnw2NHwxMDI0MDAwfGdwdTphMTAwOjQoUzowLTEpCmdwdWJhc2VfYnlncHVfYjJ8dXB8MTI6MDA6MDB8MTAyfDQ4fDUxMDAwMHxncHU6YTEwMDo0KFM6MC0xKQpncHViYXNlX2J5Z3B1X2IyfHVwfDEyOjAwOjAwfDF8NDh8NTEwMDAwfGdwdTphMTAwXzNnLjIwZ2I6NChTOjAtMSksZ3B1OmExMDBfMmcuMTBnYjo0KFM6MC0xKSxncHU6YTEwMF8xZy41Z2I6OChTOjAtMSkKZ3B1YmFzZV9ieWdwdV9iMnx1cHwxMjowMDowMHwyMHw0OHw1MTAwMDB8Z3B1OmExMDBfNGcuMjBnYjoxKFM6MCksZ3B1OmExMDBfM2cuMjBnYjozKFM6MC0xKSxncHU6YTEwMF8yZy4xMGdiOjQoUzowLTEpLGdwdTphMTAwXzFnLjVnYjo3KFM6MC0xKQpncHViYXNlX2J5Z3B1X2IyfHVwfDEyOjAwOjAwfDEyfDQ4fDUxMDAwMHxncHU6YTEwMF8zZy4yMGdiOjMoUzowLTEpLGdwdTphMTAwXzRnLjIwZ2I6MShTOjApLGdwdTphMTAwXzJnLjEwZ2I6NChTOjAtMSksZ3B1OmExMDBfMWcuNWdiOjcoUzowLTEpCmdwdWJhc2VfYnlncHVfYjJ8dXB8MTI6MDA6MDB8MTZ8NjR8MTAyNDAwMHxncHU6YTEwMDo0KFM6MC0xKQpncHViYXNlX2J5Z3B1X2IzfHVwfDEtMDA6MDA6MDB8MTAyfDQ4fDUxMDAwMHxncHU6YTEwMDo0KFM6MC0xKQpncHViYXNlX2J5Z3B1X2IzfHVwfDEtMDA6MDA6MDB8MXw0OHw1MTAwMDB8Z3B1OmExMDBfM2cuMjBnYjo0KFM6MC0xKSxncHU6YTEwMF8yZy4xMGdiOjQoUzowLTEpLGdwdTphMTAwXzFnLjVnYjo4KFM6MC0xKQpncHViYXNlX2J5Z3B1X2IzfHVwfDEtMDA6MDA6MDB8MTh8NDh8NTEwMDAwfGdwdTphMTAwXzRnLjIwZ2I6MShTOjApLGdwdTphMTAwXzNnLjIwZ2I6MyhTOjAtMSksZ3B1OmExMDBfMmcuMTBnYjo0KFM6MC0xKSxncHU6YTEwMF8xZy41Z2I6NyhTOjAtMSkKZ3B1YmFzZV9ieWdwdV9iM3x1cHwxLTAwOjAwOjAwfDEyfDQ4fDUxMDAwMHxncHU6YTEwMF8zZy4yMGdiOjMoUzowLTEpLGdwdTphMTAwXzRnLjIwZ2I6MShTOjApLGdwdTphMTAwXzJnLjEwZ2I6NChTOjAtMSksZ3B1OmExMDBfMWcuNWdiOjcoUzowLTEpCmdwdWJhc2VfYnlncHVfYjN8dXB8MS0wMDowMDowMHwxNnw2NHwxMDI0MDAwfGdwdTphMTAwOjQoUzowLTEpCmdwdWJhc2VfYnlncHVfYjR8dXB8My0wMDowMDowMHwxMDJ8NDh8NTEwMDAwfGdwdTphMTAwOjQoUzowLTEpCmdwdWJhc2VfYnlncHVfYjR8dXB8My0wMDowMDowMHwxfDQ4fDUxMDAwMHxncHU6YTEwMF8zZy4yMGdiOjQoUzowLTEpLGdwdTphMTAwXzJnLjEwZ2I6NChTOjAtMSksZ3B1OmExMDBfMWcuNWdiOjgoUzowLTEpCmdwdWJhc2VfYnlncHVfYjR8dXB8My0wMDowMDowMHwxNnw0OHw1MTAwMDB8Z3B1OmExMDBfNGcuMjBnYjoxKFM6MCksZ3B1OmExMDBfM2cuMjBnYjozKFM6MC0xKSxncHU6YTEwMF8yZy4xMGdiOjQoUzowLTEpLGdwdTphMTAwXzFnLjVnYjo3KFM6MC0xKQpncHViYXNlX2J5Z3B1X2I0fHVwfDMtMDA6MDA6MDB8MTJ8NDh8NTEwMDAwfGdwdTphMTAwXzNnLjIwZ2I6MyhTOjAtMSksZ3B1OmExMDBfNGcuMjBnYjoxKFM6MCksZ3B1OmExMDBfMmcuMTBnYjo0KFM6MC0xKSxncHU6YTEwMF8xZy41Z2I6NyhTOjAtMSkKZ3B1YmFzZV9ieWdwdV9iNHx1cHwzLTAwOjAwOjAwfDE2fDY0fDEwMjQwMDB8Z3B1OmExMDA6NChTOjAtMSkKZ3B1YmFzZV9ieWdwdV9iNXx1cHw3LTAwOjAwOjAwfDc3fDQ4fDUxMDAwMHxncHU6YTEwMDo0KFM6MC0xKQpncHViYXNlX2J5Z3B1X2I1fHVwfDctMDA6MDA6MDB8MXw0OHw1MTAwMDB8Z3B1OmExMDBfM2cuMjBnYjo0KFM6MC0xKSxncHU6YTEwMF8yZy4xMGdiOjQoUzowLTEpLGdwdTphMTAwXzFnLjVnYjo4KFM6MC0xKQpncHViYXNlX2J5Z3B1X2I1fHVwfDctMDA6MDA6MDB8MTR8NDh8NTEwMDAwfGdwdTphMTAwXzRnLjIwZ2I6MShTOjApLGdwdTphMTAwXzNnLjIwZ2I6MyhTOjAtMSksZ3B1OmExMDBfMmcuMTBnYjo0KFM6MC0xKSxncHU6YTEwMF8xZy41Z2I6NyhTOjAtMSkKZ3B1YmFzZV9ieWdwdV9iNXx1cHw3LTAwOjAwOjAwfDZ8NDh8NTEwMDAwfGdwdTphMTAwXzNnLjIwZ2I6MyhTOjAtMSksZ3B1OmExMDBfNGcuMjBnYjoxKFM6MCksZ3B1OmExMDBfMmcuMTBnYjo0KFM6MC0xKSxncHU6YTEwMF8xZy41Z2I6NyhTOjAtMSkKZ3B1YmFzZV9ieWdwdV9iNXx1cHw3LTAwOjAwOjAwfDE2fDY0fDEwMjQwMDB8Z3B1OmExMDA6NChTOjAtMSkKY3B1YmFja2ZpbGx8dXB8MS0wMDowMDowMHw2MDh8NjR8MjU2MDAwfChudWxsKQpjcHViYWNrZmlsbHx1cHwxLTAwOjAwOjAwfDIwfDY0fDUxMjAwMHwobnVsbCkKZ3B1YmFja2ZpbGx8dXB8MS0wMDowMDowMHwzNXw0OHw1MTAwMDB8Z3B1OmExMDA6NChTOjAtMSkKZ3B1YmFja2ZpbGx8dXB8MS0wMDowMDowMHwxMHw0OHw1MTAwMDB8Z3B1OmExMDBfM2cuMjBnYjozKFM6MC0xKSxncHU6YTEwMF80Zy4yMGdiOjEoUzowKSxncHU6YTEwMF8yZy4xMGdiOjQoUzowLTEpLGdwdTphMTAwXzFnLjVnYjo3KFM6MC0xKQpncHViYWNrZmlsbHx1cHwxLTAwOjAwOjAwfDEwfDQ4fDUxMDAwMHxncHU6YTEwMF80Zy4yMGdiOjEoUzowKSxncHU6YTEwMF8zZy4yMGdiOjMoUzowLTEpLGdwdTphMTAwXzJnLjEwZ2I6NChTOjAtMSksZ3B1OmExMDBfMWcuNWdiOjcoUzowLTEpCmdwdWJhY2tmaWxsfHVwfDEtMDA6MDA6MDB8MTB8NjR8MTAyNDAwMHxncHU6YTEwMDo0KFM6MC0xKQpjLWZyaWdvbnx1cHw3LTAwOjAwOjAwfDUyfDY0fDUxMjAwMHwobnVsbCkK",
+        "sha256": "60d82d2d6516e4ecc8f033d59bb3080955f0481fa7032a37ec334c761263c9a9",
+        "bytes": 6558
+      },
+      "stderr": {
+        "utf8": "",
+        "base64": "",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "elapsed_seconds": 1.6954886589664966
+    },
+    {
+      "argv": [
+        "/opt/software/slurm/bin/sacctmgr",
+        "--noheader",
+        "--parsable2",
+        "show",
+        "association",
+        "where",
+        "user=rsadve1",
+        "format=Cluster,Account,User,Partition,DefaultQOS,QOS"
+      ],
+      "timeout_seconds": 30,
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": {
+        "utf8": "narval|def-rsadve_cpu|rsadve1|||normal\nnarval|def-rsadve_gpu|rsadve1|||normal\n",
+        "base64": "bmFydmFsfGRlZi1yc2FkdmVfY3B1fHJzYWR2ZTF8fHxub3JtYWwKbmFydmFsfGRlZi1yc2FkdmVfZ3B1fHJzYWR2ZTF8fHxub3JtYWwK",
+        "sha256": "aea633e3c8fe7eb83a1203003cfcc6fac057c8da92f6d92c27e1211e9d0752b2",
+        "bytes": 78
+      },
+      "stderr": {
+        "utf8": "",
+        "base64": "",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "elapsed_seconds": 0.022214323980733752
+    },
+    {
+      "argv": [
+        "/opt/software/slurm/bin/sacctmgr",
+        "--noheader",
+        "--parsable2",
+        "show",
+        "association",
+        "where",
+        "user=rsadve1",
+        "format=Cluster,Account,User,Partition,GrpTRES,GrpTRESMins,GrpTRESRunMins,MaxTRES,MaxTRESMins,MaxWall,MaxJobs,MaxSubmitJobs"
+      ],
+      "timeout_seconds": 30,
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": {
+        "utf8": "narval|def-rsadve_cpu|rsadve1|||||||||1000\nnarval|def-rsadve_gpu|rsadve1|||||||||1000\n",
+        "base64": "bmFydmFsfGRlZi1yc2FkdmVfY3B1fHJzYWR2ZTF8fHx8fHx8fHwxMDAwCm5hcnZhbHxkZWYtcnNhZHZlX2dwdXxyc2FkdmUxfHx8fHx8fHx8MTAwMAo=",
+        "sha256": "72a41ba513c22248a3c9166a6b7999bd1765356dba829b4f6fdb2d84c31c236b",
+        "bytes": 86
+      },
+      "stderr": {
+        "utf8": "",
+        "base64": "",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "elapsed_seconds": 0.021553508995566517
+    },
+    {
+      "argv": [
+        "/opt/software/slurm/bin/sacctmgr",
+        "--noheader",
+        "--parsable2",
+        "show",
+        "qos",
+        "where",
+        "name=normal",
+        "format=Name,Flags,GrpTRES,GrpTRESMins,GrpTRESRunMins,MaxTRESPJ,MaxTRESPU,MaxTRESMinsPJ,MaxWall,MaxJobsPU,MaxSubmitJobsPU"
+      ],
+      "timeout_seconds": 30,
+      "status": "ok",
+      "exit_code": 0,
+      "stdout": {
+        "utf8": "normal||||||||||\n",
+        "base64": "bm9ybWFsfHx8fHx8fHx8fAo=",
+        "sha256": "79c27414f16ce30158c3223480d446999044a74eafb1e708dda6a4e53bc99ee6",
+        "bytes": 17
+      },
+      "stderr": {
+        "utf8": "",
+        "base64": "",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "elapsed_seconds": 0.0172084360383451
+    }
+  ],
+  "capabilities_not_established": [
+    "authoritative subscription allowance or remaining percentage",
+    "reviewer context isolation, read scope or tool restrictions",
+    "sandbox enforcement on this machine",
+    "unattended model continuation or model affordability",
+    "GPU execution, sustained throughput, power/hibernate behavior",
+    "HPC remaining allocation, inherited account caps, user storage quota or queue availability"
+  ],
+  "model_task_or_authentication_requested": false,
+  "settings_or_git_changes_requested": false,
+  "credential_or_configuration_files_read_by_script": false,
+  "client_internal_file_access_not_traced": true,
+  "host": {
+    "system": "Linux",
+    "release": "5.14.0-687.42.1.el9_8.x86_64",
+    "machine": "x86_64",
+    "logical_cpu_count": 64,
+    "scope": "Current OS/WSL or login host; not a compute-node allocation.",
+    "affinity_cpu_count": 64,
+    "memory_kernel_counters": {
+      "MemTotal": "263556116 kB",
+      "MemAvailable": "149890584 kB",
+      "SwapTotal": "0 kB",
+      "SwapFree": "0 kB"
+    },
+    "lab_filesystem_bytes": {
+      "total": 51200000000,
+      "used": 31856394240,
+      "free": 19343605760
+    },
+    "disk_scope": "Filesystem free bytes at lab path, not user quota or I/O performance."
+  },
+  "slurm_user_filter": "rsadve1",
+  "qos_selection": {
+    "names": [
+      "normal"
+    ],
+    "scope": "Only current user's returned QOS names",
+    "limitation": null
+  },
+  "status": "inventory_complete_with_explicit_unknowns",
+  "elapsed_seconds": 2.08579241897678
+}

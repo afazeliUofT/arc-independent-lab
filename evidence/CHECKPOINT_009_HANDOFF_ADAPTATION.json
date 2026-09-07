@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-07T02:24:42.309460+00:00",
+  "checkpoint": "P3_CHECKPOINT_009",
+  "base_commit": "74336f25e9ae95965b486d602c7af759b3aba52f",
+  "helper": {
+    "source": {
+      "path": "scripts/checkpoint008_handoff.py",
+      "sha256": "931b1b3b5c0d8becb7ceafa0dee27f19b0b8abe0dc80fe3b6821601407bb62ae",
+      "mode": "0o644"
+    },
+    "adapted": {
+      "path": "scripts/checkpoint009_handoff.py",
+      "sha256": "1872a158295380fc856bf506bc95a3d43ec9dad382e8a0f0aedadb730df58abb",
+      "mode": "0o644"
+    },
+    "exact_contextual_substitutions": [
+      {
+        "before": "checkpoint-008",
+        "after": "checkpoint-009",
+        "occurrences": 1
+      },
+      {
+        "before": "BASE = \"7da5cc4ce22fac3163408a4889517c86d386f407\"",
+        "after": "BASE = \"74336f25e9ae95965b486d602c7af759b3aba52f\"",
+        "occurrences": 1
+      },
+      {
+        "before": "P3_CHECKPOINT_008",
+        "after": "P3_CHECKPOINT_009",
+        "occurrences": 1
+      },
+      {
+        "before": "checkpoint008_backups",
+        "after": "checkpoint009_backups",
+        "occurrences": 1
+      }
+    ],
+    "exact_substitution_equality": true,
+    "syntax_and_in_memory_compile": "passed",
+    "executable_mode_literals_unchanged": true,
+    "source_bytes_unchanged": true,
+    "diff": "--- scripts/checkpoint008_handoff.py\n+++ scripts/checkpoint009_handoff.py\n@@ -1,4 +1,4 @@\n-\"\"\"Local P3 checkpoint-008 ZIP handoff. No commit, push, fetch, or authentication.\n+\"\"\"Local P3 checkpoint-009 ZIP handoff. No commit, push, fetch, or authentication.\n \n Supply the ZIP and its published SHA-256. Default: inspect. --apply: install and\n stage known transitions, then verify actual index blobs. --verify: require the\n@@ -17,7 +17,7 @@\n import tempfile\n import zipfile\n \n-BASE = \"7da5cc4ce22fac3163408a4889517c86d386f407\"\n+BASE = \"74336f25e9ae95965b486d602c7af759b3aba52f\"\n REMOTE = \"https://github.com/afazeliUofT/arc-independent-lab.git\"\n ATTRIBUTES = b\"# Preserve the exact bytes of scientific run artifacts.\\n/artifacts/** -text\\n\"\n MAX_BYTES = 64 * 1024 * 1024\n@@ -60,7 +60,7 @@\n             raise ValueError(\"Duplicate ZIP members or oversized uncompressed payload\")\n         manifest = json.loads(archive.read(\"HANDOFF.json\"), object_pairs_hook=unique)\n         if (set(manifest) != {\"checkpoint_id\", \"base_commit\", \"files\"}\n-                or manifest[\"checkpoint_id\"] != \"P3_CHECKPOINT_008\"\n+                or manifest[\"checkpoint_id\"] != \"P3_CHECKPOINT_009\"\n                 or manifest[\"base_commit\"] != BASE\n                 or not isinstance(manifest[\"files\"], dict) or not manifest[\"files\"]):\n             raise ValueError(\"Unexpected handoff manifest\")\n@@ -212,7 +212,7 @@\n     if head != BASE:\n         print(\"Checkpoint commit already exists; no files or index changed.\")\n         return\n-    backup_parent = ordinary(root, \"delivery/checkpoint008_backups\", directory=True)\n+    backup_parent = ordinary(root, \"delivery/checkpoint009_backups\", directory=True)\n     backup_parent.mkdir(parents=True, exist_ok=True)\n     stamp = datetime.datetime.now(datetime.timezone.utc).strftime(\"%Y%m%dT%H%M%S.%fZ-\")\n     backup = Path(tempfile.mkdtemp(prefix=stamp, dir=backup_parent))\n"
+  },
+  "builder": {
+    "source": {
+      "path": "delivery/build_checkpoint008.py",
+      "sha256": "eed98527998bbfe177db9775d623dd68fdb6e0bf07be793b8027db87a36d8136",
+      "mode": "0o644"
+    },
+    "adapted": {
+      "path": "delivery/build_checkpoint009.py",
+      "sha256": "78d7a7f295bd3e5069b8ed99b847d1bc873995855c67ede51165821581b5b35b",
+      "mode": "0o644"
+    },
+    "exact_contextual_substitutions": [
+      {
+        "before": "Build checkpoint008 after root",
+        "after": "Build checkpoint009 after root",
+        "occurrences": 1
+      },
+      {
+        "before": "Usage: python3 delivery/build_checkpoint008.py",
+        "after": "Usage: python3 delivery/build_checkpoint009.py",
+        "occurrences": 1
+      },
+      {
+        "before": "BASE = \"7da5cc4ce22fac3163408a4889517c86d386f407\"",
+        "after": "BASE = \"74336f25e9ae95965b486d602c7af759b3aba52f\"",
+        "occurrences": 1
+      },
+      {
+        "before": "CHECKPOINT = \"P3_CHECKPOINT_008\"",
+        "after": "CHECKPOINT = \"P3_CHECKPOINT_009\"",
+        "occurrences": 1
+      },
+      {
+        "before": "MANIFEST = \"state/CHECKPOINT_008.json\"",
+        "after": "MANIFEST = \"state/CHECKPOINT_009.json\"",
+        "occurrences": 1
+      },
+      {
+        "before": "ZIP = ROOT / \"delivery/P3_CHECKPOINT_008.zip\"",
+        "after": "ZIP = ROOT / \"delivery/P3_CHECKPOINT_009.zip\"",
+        "occurrences": 1
+      },
+      {
+        "before": "BUILD_RECORD = ROOT / \"delivery/P3_CHECKPOINT_008_BUILD.json\"",
+        "after": "BUILD_RECORD = ROOT / \"delivery/P3_CHECKPOINT_009_BUILD.json\"",
+        "occurrences": 1
+      },
+      {
+        "before": "spec_from_file_location(\"checkpoint008\", ROOT / \"scripts/checkpoint008_handoff.py\")",
+        "after": "spec_from_file_location(\"checkpoint009\", ROOT / \"scripts/checkpoint009_handoff.py\")",
+        "occurrences": 1
+      },
+      {
+        "before": "Checkpoint008 manifest already exists in the base",
+        "after": "Checkpoint009 manifest already exists in the base",
+        "occurrences": 1
+      },
+      {
+        "before": "sha((ROOT / \"scripts/checkpoint008_handoff.py\").read_bytes())",
+        "after": "sha((ROOT / \"scripts/checkpoint009_handoff.py\").read_bytes())",
+        "occurrences": 1
+      }
+    ],
+    "exact_substitution_equality": true,
+    "syntax_and_in_memory_compile": "passed",
+    "executable_mode_literals_unchanged": true,
+    "source_bytes_unchanged": true,
+    "diff": "--- delivery/build_checkpoint008.py\n+++ delivery/build_checkpoint009.py\n@@ -1,6 +1,6 @@\n-\"\"\"Build checkpoint008 after root finishes science/state, without staging or network.\n+\"\"\"Build checkpoint009 after root finishes science/state, without staging or network.\n \n-Usage: python3 delivery/build_checkpoint008.py --approval delivery/<approved>.json\n+Usage: python3 delivery/build_checkpoint009.py --approval delivery/<approved>.json\n The approved JSON has exactly new_paths (list), changed_paths (list), and\n scientific_status (string). Every new or changed public path must be explicit.\n The generated full-tree manifest is automatic; do not put it in those lists.\n@@ -17,11 +17,11 @@\n import zipfile\n \n ROOT = Path(__file__).resolve().parents[1]\n-BASE = \"7da5cc4ce22fac3163408a4889517c86d386f407\"\n-CHECKPOINT = \"P3_CHECKPOINT_008\"\n-MANIFEST = \"state/CHECKPOINT_008.json\"\n-ZIP = ROOT / \"delivery/P3_CHECKPOINT_008.zip\"\n-BUILD_RECORD = ROOT / \"delivery/P3_CHECKPOINT_008_BUILD.json\"\n+BASE = \"74336f25e9ae95965b486d602c7af759b3aba52f\"\n+CHECKPOINT = \"P3_CHECKPOINT_009\"\n+MANIFEST = \"state/CHECKPOINT_009.json\"\n+ZIP = ROOT / \"delivery/P3_CHECKPOINT_009.zip\"\n+BUILD_RECORD = ROOT / \"delivery/P3_CHECKPOINT_009_BUILD.json\"\n \n \n def sha(body):\n@@ -64,7 +64,7 @@\n     parser = argparse.ArgumentParser(description=__doc__)\n     parser.add_argument(\"--approval\", type=Path, required=True)\n     args = parser.parse_args()\n-    spec = importlib.util.spec_from_file_location(\"checkpoint008\", ROOT / \"scripts/checkpoint008_handoff.py\")\n+    spec = importlib.util.spec_from_file_location(\"checkpoint009\", ROOT / \"scripts/checkpoint009_handoff.py\")\n     helper = importlib.util.module_from_spec(spec)\n     spec.loader.exec_module(helper)\n     approval_bytes = args.approval.read_bytes()\n@@ -95,7 +95,7 @@\n     if transport.index() != base_tree:\n         raise ValueError(\"Real project index is not the unchanged base; preserved\")\n     if MANIFEST in base_tree:\n-        raise ValueError(\"Checkpoint008 manifest already exists in the base\")\n+        raise ValueError(\"Checkpoint009 manifest already exists in the base\")\n     if allowed[\"new_paths\"] & set(base_tree):\n         raise ValueError(\"Approved new path already exists in the base\")\n     if allowed[\"changed_paths\"] - set(base_tree):\n@@ -153,7 +153,7 @@\n         \"date\": \"2026-09-07\", \"checkpoint\": CHECKPOINT, \"base_commit\": BASE,\n         \"zip_sha256\": sha(zip_bytes), \"zip_bytes\": len(zip_bytes),\n         \"manifest_sha256\": sha(manifest_bytes),\n-        \"helper_sha256\": sha((ROOT / \"scripts/checkpoint008_handoff.py\").read_bytes()),\n+        \"helper_sha256\": sha((ROOT / \"scripts/checkpoint009_handoff.py\").read_bytes()),\n         \"diagnosis_sha256\": manifest[\"diagnosis_sha256\"],\n         \"approval_sha256\": sha(approval_bytes), \"full_inventory_files\": len(manifest[\"files\"]),\n         \"changed_or_new_payload_files\": len(changed),\n"
+  },
+  "helper_diff_hunks": 4,
+  "actual_archive_validation": "pending final payload and contained-clone application by root",
+  "new_package_built": false,
+  "git_operations_performed": false,
+  "real_commit_or_push": false
+}

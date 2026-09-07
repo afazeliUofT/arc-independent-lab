@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "verified_utc": "2026-09-07T02:21:56.342956+00:00",
+  "scope": "Operational inventory reports supplied by user; internal/receipt integrity, not independent observation of machines",
+  "inputs": [
+    {
+      "path": "artifacts/GATE0_CAPABILITY_INPUTS/20260907_001/GATE0_CAPABILITY_LAPTOP_20260907T014042.751426Z.json",
+      "sha256": "cc94e45fb4d4cef09a789c30b4b57db375a0e84a8772fbef6781968c58149c05",
+      "mode": "laptop",
+      "created_utc": "2026-09-07T01:40:42.751452+00:00",
+      "commands": 8,
+      "verified_captured_streams": 16,
+      "script_sha256": "e2ce2da1ff8a52b86264b9a237c03bfccc396642dcd901d9c1e23b9acde79145",
+      "report_shape_and_internal_hashes": "matched"
+    },
+    {
+      "path": "artifacts/GATE0_CAPABILITY_INPUTS/20260907_001/GATE0_CAPABILITY_SLURM_20260907T015414.435418Z.json",
+      "sha256": "f53cee6616044ff947b239129a799ac618bd8a6b163169583ac6623f0d14f982",
+      "mode": "slurm",
+      "created_utc": "2026-09-07T01:54:14.435459+00:00",
+      "commands": 8,
+      "verified_captured_streams": 16,
+      "script_sha256": "e2ce2da1ff8a52b86264b9a237c03bfccc396642dcd901d9c1e23b9acde79145",
+      "report_shape_and_internal_hashes": "matched"
+    }
+  ],
+  "all_report_hashes_match_prior_terminal_receipts": true,
+  "all_source_script_hashes_match_delivered_script": true,
+  "all_commands_successful": true,
+  "source_files_unchanged": true,
+  "privacy_scope": "Version/help/resource metadata only; no credentials or configuration-file values in supplied JSON. MFA terminal transcript not included.",
+  "laptop_interpretation": {
+    "logical_cpu_count": 16,
+    "affinity_cpu_count": 16,
+    "MemTotal_kib": 32568972,
+    "MemTotal_GiB": 31.060192108154297,
+    "MemAvailable_kib_at_report": 25864696,
+    "filesystem_free_bytes_at_report": 960878362624,
+    "python_version": "3.12.3",
+    "git_version": "2.43.0",
+    "codex_version": "0.151.0",
+    "advertised_controls": "sandbox named profiles; exec ephemeral and ignore-user-config; app-server stdio",
+    "enforcement_observed": false
+  },
+  "narval_interpretation": {
+    "cluster": "narval",
+    "CPU_account": "def-rsadve_cpu",
+    "GPU_account": "def-rsadve_gpu",
+    "allowed_qos": [
+      "normal"
+    ],
+    "DefaultQOS": null,
+    "MaxSubmitJobs_per_association": 1000,
+    "remaining_allocation": null,
+    "available_GPU_count": null,
+    "filesystem_free_bytes_at_report": 19343605760,
+    "login_host_not_compute_allocation": true
+  },
+  "unattended_model_use_enabled": false,
+  "authoritative_subscription_reading": null
+}
