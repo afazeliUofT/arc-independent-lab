@@ -1,0 +1,20 @@
+{
+  "kind": "GATE0_POSTLOGIN_016_OBSERVATION_REVIEW_v1",
+  "reviewed_utc": "2026-09-08T16:44:50.498700+00:00",
+  "report_path": "artifacts/GATE0_POSTLOGIN_OBSERVATIONS/20260908_001/REPORT.json",
+  "report_sha256": "4aa0757da0d56a4db65ca7a33cf15d7454129c21fab7283457261d3a8ebcbba7",
+  "approval_commit": "6cae5d3c8f1ac3ed2745415924eb478ee53e5951",
+  "schema_and_driver_pins_match": true,
+  "reported_synthetic_boundary_pass": true,
+  "reported_initialize_success": true,
+  "reported_failure": "Invalid notification envelope",
+  "account_config_limits_models_unobserved": true,
+  "reported_host_checks_pass": true,
+  "credential_metadata_changed": false,
+  "credential_contents_checked": false,
+  "native_process_reaped": true,
+  "full_reviewer_boundary_verified": false,
+  "formal_verdict": null,
+  "interpretation": "Accepted failure evidence; exact missing offending envelope not retained, so source reconstruction is not direct observation.",
+  "next_step": "Reproduce source-supported notification envelope rejection and correct parser within existing metadata scope; preserve failed attempt and no repeated sign-in/canary."
+}

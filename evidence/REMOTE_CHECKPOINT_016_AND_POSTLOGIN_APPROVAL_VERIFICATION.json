@@ -1,0 +1,31 @@
+{
+  "kind": "REMOTE_CHECKPOINT_016_AND_POSTLOGIN_APPROVAL_VERIFICATION_v1",
+  "verified_utc": "2026-09-08T16:41:53.374946+00:00",
+  "access_date": "2026-09-08",
+  "remote_head_url": "https://github.com/afazeliUofT/arc-independent-lab/commit/6cae5d3c8f1ac3ed2745415924eb478ee53e5951",
+  "base_commit": "aef4f9edbf0fb6288a80dd37a69151fc195936ab",
+  "checkpoint_commit": "e735a13a094dbbf11843cc5d4b378b8f0fb6d9ce",
+  "checkpoint_tree": "d5d8b8e1baa53a35151293bf667890e80316fd21",
+  "approval_commit": "6cae5d3c8f1ac3ed2745415924eb478ee53e5951",
+  "approval_tree": "070a0cbe9d2050fc9212460ba4421b45c915ffe5",
+  "full_checkpoint_files_verified": 619,
+  "manifest_sha256": "eb79620c352769f0d006e75be5cd2378352725f849d5211d26716f67abedbf1a",
+  "approval_only_changed_path": "state/ESCALATION.md",
+  "approval_sha256": "73d96a954fa9f13d5d286f2153b46326577904412450996857c6e175af24214a",
+  "scope_sha256": "fbd7ca325593c9c8de5573417faf1381dbf669b80218f85e4a31ae519beacc61",
+  "approval_archive": "state/escalations/2026-09-08_POSTLOGIN_REFRESH_APPROVED.md",
+  "frozen_inputs": [
+    {
+      "path": "evidence/P3_AUDIT_REVIEW_MANIFEST.json",
+      "sha256": "8d475e93aa21db5d7210f337c036e2705e3a4b83b6d99d43d715161d63b7e374",
+      "verified_entries": 41
+    },
+    {
+      "path": "evidence/P3_RESIDUAL_REVIEW_MANIFEST.json",
+      "sha256": "f7249d53060349fdfbaca2102672457e3e8966ef510d6853322b10da75762128",
+      "verified_entries": 7
+    }
+  ],
+  "hosted_human_head_and_index_adopted": true,
+  "assistant_commit_or_push": false
+}

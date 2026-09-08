@@ -1,0 +1,30 @@
+{
+  "kind": "GATE0_NOTIFICATION_REPAIR_CONTROLLER_VALIDATION_v1",
+  "created_utc": "2026-09-08T16:51:34.426748+00:00",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_gate0_postlogin_metadata.py",
+    "-v"
+  ],
+  "exit_code": 0,
+  "synthetic_only": true,
+  "native_codex_launched": false,
+  "network_or_credentials_used": false,
+  "model_invoked": false,
+  "source_sha256_before": {
+    "scripts/gate0_postlogin_metadata.py": "b7fc9db3af9004c89a8fd87961f3e83ae94bad707e05c355a7a30b6646502197",
+    "tests/test_gate0_postlogin_metadata.py": "c4aab5aabf1e9225b39036a03feb1579446d3a6b4221aa44639147cd79af5772"
+  },
+  "source_sha256_after": {
+    "scripts/gate0_postlogin_metadata.py": "b7fc9db3af9004c89a8fd87961f3e83ae94bad707e05c355a7a30b6646502197",
+    "tests/test_gate0_postlogin_metadata.py": "c4aab5aabf1e9225b39036a03feb1579446d3a6b4221aa44639147cd79af5772"
+  },
+  "source_bytes_unchanged_during_command": true,
+  "output_sha256": "9d2b58b13c0a1af9396d57b6a5d5c23161b73cd26e6625598702b7328fc9e70d"
+}

@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-08T00:14:22.688996+00:00",
+  "updated_utc": "2026-09-08T16:55:06.815444+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -119,19 +119,20 @@
     "rerun_needed": false
   },
   "next_operational_test": {
-    "name": "One approved human-launched post-login metadata session, preceded by synthetic write-bind prerequisite",
+    "name": "Explicit corrected notification parser under existing post-login metadata approval",
     "permission_scope": {
       "path": "configs/GATE0_POSTLOGIN_SCOPE_016.json",
       "sha256": "fbd7ca325593c9c8de5573417faf1381dbf669b80218f85e4a31ae519beacc61"
     },
-    "permission_status": "prepared; awaiting narrowly scoped native existing-credential refresh permission",
-    "synthetic_prerequisite_seconds": 10,
-    "synthetic_cleanup_seconds": 2,
+    "permission_status": "approved at 6cae5d3c8f1ac3ed2745415924eb478ee53e5951; no wider grant needed for mechanical correction",
+    "synthetic_prerequisite": "reuse accepted passing original report and unchanged source/executable; not a fresh kernel attestation",
     "native_protocol_and_cleanup_seconds": 90,
     "per_method_seconds": 20,
     "model_turn_requests": 0,
+    "completed_actual_attempts": 1,
+    "next_actual_attempt": 2,
     "maximum_attempts_this_invocation": 1,
-    "repeat_policy": "verify and reuse complete report; no automatic retry of partial or failed attempt; publication retries are separate"
+    "repeat_policy": "explicit --run-repaired-metadata only; complete corrected report reused; partial stops; original command reopens original report; publication retries separate"
   },
   "completed_native_signin": {
     "receipt": {
@@ -140,5 +141,17 @@
     },
     "rerun_needed": false,
     "model_calls": 0
+  },
+  "completed_postlogin_attempt": {
+    "name": "Original016 post-login metadata attempt",
+    "result": {
+      "path": "evidence/GATE0_POSTLOGIN_016_OBSERVATION_REVIEW.json",
+      "sha256": "eb9445c5383a981c0339edf74ae2168df69e5bc2fcb362107f91b2a96217081d"
+    },
+    "reported_status": "STOPPED_WITHOUT_REVIEW: Invalid notification envelope",
+    "synthetic_boundary_passed": true,
+    "native_initialize_passed": true,
+    "account_limits_model_metadata_observed": false,
+    "rerun_original_command": false
   }
 }

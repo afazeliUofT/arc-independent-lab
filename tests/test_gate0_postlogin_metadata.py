@@ -82,6 +82,18 @@ class PostloginControlTests(unittest.TestCase):
             text = "## ANSWER\n" + self.scope["approval_id"] + "\nscope_sha256: " + post.SCOPE_SHA256 + "\n"
         (self.root / "state/ESCALATION.md").write_text(text)
 
+    def write_prior(self, passed=True):
+        """Public synthetic receipt only; no native runtime files involved."""
+        path = self.root / "delivery" / post.PRIOR_RUN_NAME / "REPORT.json"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        prior = {"pins": {"scope_sha256": post.SCOPE_SHA256,
+                          "driver_sources": dict(post.DRIVER_PINS)},
+                 "synthetic_boundary": {"passed": passed}}
+        raw = (json.dumps(prior) + "\n").encode()
+        path.write_bytes(raw)
+        (path.parent / "REPORT.sha256").write_text(post.sha(raw) + "\n")
+        return path, prior, post.sha(raw)
+
     def inventory(self):
         preflight = types.SimpleNamespace(inventory=lambda: self.facts)
         with mock.patch.object(post.Path, "home", return_value=self.home), \
@@ -100,6 +112,84 @@ class PostloginControlTests(unittest.TestCase):
                 self.write_answer(wrong)
                 with self.assertRaises(post.Stop):
                     post.approval(self.scope)
+
+    def test_archived_permission_requires_empty_current_request_and_pinned_bytes(self):
+        archive = self.root / post.APPROVAL_ARCHIVE
+        archive.parent.mkdir(parents=True)
+        answer = "## ANSWER\n" + self.scope["approval_id"] + "\nscope_sha256: " + post.SCOPE_SHA256 + "\n"
+        archive.write_text(answer)
+        with mock.patch.object(post, "APPROVAL_SHA256", post.sha(archive.read_bytes())):
+            self.write_answer(" \n\t")
+            post.approval(self.scope)
+            # A new restriction cannot be bypassed by an earlier valid answer.
+            self.write_answer("Do not launch. A new restriction requires review.\n")
+            original_open = Path.open
+            def guard_archive(path, *args, **kwargs):
+                self.assertNotEqual(path, archive, "Nonempty current request was bypassed")
+                return original_open(path, *args, **kwargs)
+            with mock.patch.object(Path, "open", guard_archive):
+                with self.assertRaises(post.Stop):
+                    post.approval(self.scope)
+            self.write_answer("")
+            archive.write_text(answer + "Changed archive.\n")
+            with self.assertRaisesRegex(post.Stop, "Archived approval differs"):
+                post.approval(self.scope)
+
+    def test_original_local_report_hash_checksum_and_prerequisite_are_guarded(self):
+        path, prior, digest = self.write_prior()
+        with mock.patch.object(post, "PRIOR_REPORT_SHA256", digest):
+            self.assertEqual(post.prior_observation(), (path, prior))
+            original = path.read_bytes()
+            path.write_bytes(original + b" ")
+            with self.assertRaisesRegex(post.Stop, "Original local failed report differs"):
+                post.prior_observation()
+            self.assertEqual(path.read_bytes(), original + b" ")
+            path.write_bytes(original)
+            (path.parent / "REPORT.sha256").write_text("0" * 64 + "\n")
+            with self.assertRaisesRegex(post.Stop, "Original receipt checksum differs"):
+                post.prior_observation()
+        for failed in (False, None, 1):
+            _, _, digest = self.write_prior(passed=failed)
+            with mock.patch.object(post, "PRIOR_REPORT_SHA256", digest):
+                with self.assertRaisesRegex(post.Stop, "Accepted prerequisite observation is unavailable"):
+                    post.prior_observation()
+
+    def test_load_bundle_guards_archived_failed_report_hash(self):
+        self.scope.update({"signin_receipt_path": "signin.json", "signin_receipt_sha256": post.sha(b"{}\n")})
+        (self.root / "signin.json").write_bytes(b"{}\n")
+        scope_path = self.root / post.SCOPE_PATH
+        scope_path.parent.mkdir(parents=True)
+        raw = json.dumps(self.scope).encode()
+        scope_path.write_bytes(raw)
+        driver = self.root / "scripts/synthetic_driver.py"
+        driver.write_bytes(b"# synthetic driver never invoked\n")
+        (self.root / "scripts/gate0_postlogin_metadata.py").write_bytes(b"# synthetic wrapper source\n")
+        archived = self.root / post.PRIOR_REPORT_PATH
+        archived.parent.mkdir(parents=True)
+        archived.write_bytes(b"{}\n")
+        with mock.patch.object(post, "SCOPE_SHA256", post.sha(raw)), \
+             mock.patch.object(post, "DRIVER_PINS", {"scripts/synthetic_driver.py": post.sha(driver.read_bytes())}), \
+             mock.patch.object(post, "PRIOR_REPORT_SHA256", post.sha(archived.read_bytes())):
+            _, pins = post.load_bundle()
+            self.assertEqual(pins["prior_failed_report_sha256"], post.sha(b"{}\n"))
+            archived.write_bytes(b"{ }\n")
+            with self.assertRaisesRegex(post.Stop, "Accepted failed attempt differs"):
+                post.load_bundle()
+
+    def test_boundary_reuse_requires_original_driver_and_namespace_identity(self):
+        _, prior, _ = self.write_prior()
+        facts = {"bwrap_before": {"sha256": "52231e1caf55bcbc667b269f49c63599a6f7db4767ae6a039580d0ff853db712"}}
+        reused = post.reuse_boundary(facts, prior)
+        self.assertTrue(reused["passed"])
+        self.assertFalse(reused["executed_this_attempt"])
+        self.assertFalse(reused["fresh_kernel_or_full_reviewer_attestation"])
+        for key in ("scripts/gate0_postlogin_boundary.py", "scripts/gate0_client_mount_plan.py"):
+            changed = json.loads(json.dumps(prior))
+            changed["pins"]["driver_sources"][key] = "different"
+            with self.assertRaises(post.Stop):
+                post.reuse_boundary(facts, changed)
+        with self.assertRaisesRegex(post.Stop, "Namespace executable changed"):
+            post.reuse_boundary({"bwrap_before": {"sha256": "different"}}, prior)
 
     def test_inventory_does_not_open_credential_or_cache_contents(self):
         cache = self.codex_home / "cloud-config-bundle-cache.json"
@@ -164,8 +254,10 @@ class PostloginControlTests(unittest.TestCase):
         self.write_answer("No approval yet.\n")
         with mock.patch.object(post, "load_bundle", return_value=(self.scope, {})), \
              mock.patch.object(post, "module"), mock.patch.object(post, "inventory"), \
+             mock.patch.object(post, "prior_observation", return_value=(None, {})), \
+             mock.patch.object(post, "reuse_boundary", return_value={"passed": True}), \
              mock.patch.object(post, "run_once") as run_once, \
-             mock.patch("sys.argv", ["gate0_postlogin_metadata.py", "--run-metadata"]), \
+             mock.patch("sys.argv", ["gate0_postlogin_metadata.py", "--run-repaired-metadata"]), \
              contextlib.redirect_stdout(io.StringIO()):
             with self.assertRaises(SystemExit) as result:
                 post.main()
@@ -176,6 +268,8 @@ class PostloginControlTests(unittest.TestCase):
     def test_default_inspection_never_asks_approval_or_enters_run(self):
         with mock.patch.object(post, "load_bundle", return_value=(self.scope, {})), \
              mock.patch.object(post, "module"), mock.patch.object(post, "inventory"), \
+             mock.patch.object(post, "prior_observation", return_value=(None, {})), \
+             mock.patch.object(post, "reuse_boundary", return_value={"passed": True}), \
              mock.patch.object(post, "approval") as approval, \
              mock.patch.object(post, "run_once") as run_once, \
              mock.patch("sys.argv", ["gate0_postlogin_metadata.py"]), \
@@ -191,14 +285,38 @@ class PostloginControlTests(unittest.TestCase):
         with mock.patch.object(post, "load_bundle", return_value=(self.scope, {})), \
              mock.patch.object(post, "existing", return_value=self.run / "REPORT.json"), \
              mock.patch.object(post, "show"), mock.patch.object(post, "module") as module, \
+             mock.patch.object(post, "inventory") as inventory, \
+             mock.patch.object(post, "prior_observation") as prior_observation, \
+             mock.patch.object(post, "approval") as approval, \
+             mock.patch.object(post, "run_once") as run_once, \
+             mock.patch("sys.argv", ["gate0_postlogin_metadata.py", "--run-repaired-metadata"]), \
+             contextlib.redirect_stdout(io.StringIO()):
+            post.main()
+            module.assert_not_called()
+            inventory.assert_not_called()
+            prior_observation.assert_not_called()
+            approval.assert_not_called()
+            run_once.assert_not_called()
+
+    def test_legacy_flag_only_shows_original_receipt_without_inventory_or_run(self):
+        path, _, digest = self.write_prior()
+        original = {p.name: p.read_bytes() for p in path.parent.iterdir()}
+        with mock.patch.object(post, "load_bundle", return_value=(self.scope, {})), \
+             mock.patch.object(post, "PRIOR_REPORT_SHA256", digest), \
+             mock.patch.object(post, "show") as show, \
+             mock.patch.object(post, "existing") as existing, \
+             mock.patch.object(post, "module") as module, \
+             mock.patch.object(post, "inventory") as inventory, \
              mock.patch.object(post, "approval") as approval, \
              mock.patch.object(post, "run_once") as run_once, \
              mock.patch("sys.argv", ["gate0_postlogin_metadata.py", "--run-metadata"]), \
              contextlib.redirect_stdout(io.StringIO()):
             post.main()
-            module.assert_not_called()
-            approval.assert_not_called()
-            run_once.assert_not_called()
+        show.assert_called_once_with(path)
+        for operation in (existing, module, inventory, approval, run_once):
+            operation.assert_not_called()
+        self.assertEqual(original, {p.name: p.read_bytes() for p in path.parent.iterdir()})
+        self.assertFalse(self.run.exists())
 
     def test_partial_receipt_is_preserved_and_not_retried(self):
         self.run.mkdir()
@@ -207,7 +325,7 @@ class PostloginControlTests(unittest.TestCase):
         before = attempt.read_bytes()
         with mock.patch.object(post, "load_bundle", return_value=(self.scope, {})), \
              mock.patch.object(post, "run_once") as run_once, \
-             mock.patch("sys.argv", ["gate0_postlogin_metadata.py", "--run-metadata"]), \
+             mock.patch("sys.argv", ["gate0_postlogin_metadata.py", "--run-repaired-metadata"]), \
              contextlib.redirect_stdout(io.StringIO()):
             with self.assertRaises(SystemExit):
                 post.main()
@@ -215,28 +333,46 @@ class PostloginControlTests(unittest.TestCase):
         self.assertEqual(attempt.read_bytes(), before)
         self.assertFalse((self.run / "REPORT.json").exists())
 
-    def test_failed_synthetic_boundary_saves_reusable_report_without_native_access(self):
+    def test_unverified_prerequisite_refuses_before_creating_repair_directory(self):
+        for boundary in ({"passed": False}, {"passed": 1}, {"passed": None}, {}, None):
+            with self.subTest(boundary=boundary), mock.patch.object(post, "module") as module:
+                with self.assertRaisesRegex(post.Stop, "Verified prior boundary is required"):
+                    post.run_once(self.scope, {}, self.facts, object(), boundary)
+                module.assert_not_called()
+                self.assertFalse(self.run.exists())
+
+    def test_repair_report_is_reusable_and_preserves_original_attempt_bytes(self):
+        original_path, _, _ = self.write_prior()
+        original = {p.name: p.read_bytes() for p in original_path.parent.iterdir()}
         self.facts.update({"auth_before": post.metadata(self.auth), "cache_origins": [],
                            "identifier_before": {"sha256": "identifier-fixture"}})
         signatures = {self.runtime: self.facts["runtime_before"],
                       self.bwrap: self.facts["bwrap_before"],
                       self.identifier: self.facts["identifier_before"]}
         preflight = types.SimpleNamespace(overrides=lambda run: {}, signature=lambda path: signatures[path])
-        boundary = types.SimpleNamespace(check=mock.Mock(return_value={"passed": False}))
-        protocol = types.SimpleNamespace(observe=mock.Mock())
-        modules = {"gate0_client_mount_plan": mount, "gate0_postlogin_boundary": boundary,
-                   "gate0_postlogin_protocol": protocol}
+        boundary = {"passed": True, "executed_this_attempt": False}
+        protocol = types.SimpleNamespace(observe=mock.Mock(return_value={
+            "status": "SYNTHETIC_ONLY_NO_NATIVE_LAUNCHED", "client_started": False,
+            "thread_or_model_request_sent": False, "requests_sent": [], "responses": []}))
+        modules = {"gate0_client_mount_plan": mount, "gate0_postlogin_protocol": protocol,
+                   "gate0_account_metadata": object()}
         original_open = Path.open
         def guarded_open(path, *args, **kwargs):
             self.assertNotEqual(path, self.auth, "Parent opened the credential fixture")
             return original_open(path, *args, **kwargs)
         with mock.patch.object(post, "module", side_effect=modules.__getitem__), \
              mock.patch.object(Path, "open", guarded_open):
-            path = post.run_once(self.scope, {"synthetic": True}, self.facts, preflight)
-        protocol.observe.assert_not_called()
+            path = post.run_once(self.scope, {"synthetic": True}, self.facts, preflight, boundary)
+        protocol.observe.assert_called_once()
         value = json.loads(path.read_bytes())
         self.assertEqual(set(value), post.REPORT_KEYS)
         self.assertFalse(value["native_credential_refresh_may_have_occurred"])
+        self.assertFalse(value["synthetic_boundary"]["executed_this_attempt"])
+        self.assertEqual(original, {p.name: p.read_bytes() for p in original_path.parent.iterdir()})
+        created = {p.name: p.read_bytes() for p in self.run.iterdir() if p.is_file()}
+        with self.assertRaises(FileExistsError):
+            post.run_once(self.scope, {"synthetic": True}, self.facts, preflight, boundary)
+        self.assertEqual(created, {p.name: p.read_bytes() for p in self.run.iterdir() if p.is_file()})
         self.assertEqual(post.existing(self.run, {"synthetic": True}), path)
         with self.assertRaises(post.Stop):
             post.existing(self.run, {"synthetic": False})

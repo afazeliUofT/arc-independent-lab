@@ -1,0 +1,80 @@
+{
+  "kind": "GATE0_NOTIFICATION_ENVELOPE_SYNTHETIC_REPRO_v1",
+  "scope": "Synthetic test responder only; no Codex binary, native network, credential or model operation",
+  "published_protocol_sha256": "f26b0e7513f57fa521591c5991dcfd2f1f89cad9f5bd8861e3a3a2108a8a75fa",
+  "fixture_origin": "tests/test_gate0_postlogin_protocol.py in memory with one extra synthetic notification emitted when config/read arrives",
+  "actual_user_notification_captured": false,
+  "synthetic_timestamp_type": "signed 64-bit integer",
+  "source_manifest_sha256": "68502be129cdc106299adfe01e14f34d66c38934ddb4f034e9a1ea3e64b1facf",
+  "original_parser": {
+    "status": "STOPPED_WITHOUT_REVIEW",
+    "reason": "Invalid notification envelope",
+    "requests_sent": [
+      "initialize",
+      "config/read"
+    ],
+    "responses": [
+      {
+        "method": "initialize",
+        "received": true,
+        "success": true
+      }
+    ],
+    "notifications_received": 1,
+    "native_process_reaped": true,
+    "synthetic_canary_absent_from_report": true,
+    "raw_streams_saved": false,
+    "server_requests_dispatched": 0,
+    "thread_or_model_request_sent": false
+  },
+  "minimal_candidate_parser": {
+    "status": "OBSERVED_POSTLOGIN_METADATA_ONLY",
+    "reason": null,
+    "requests_sent": [
+      "initialize",
+      "config/read",
+      "configRequirements/read",
+      "account/read",
+      "account/rateLimits/read",
+      "model/list"
+    ],
+    "responses": [
+      {
+        "method": "initialize",
+        "received": true,
+        "success": true
+      },
+      {
+        "method": "config/read",
+        "received": true,
+        "success": true
+      },
+      {
+        "method": "configRequirements/read",
+        "received": true,
+        "success": true
+      },
+      {
+        "method": "account/read",
+        "received": true,
+        "success": true
+      },
+      {
+        "method": "account/rateLimits/read",
+        "received": true,
+        "success": true
+      },
+      {
+        "method": "model/list",
+        "received": true,
+        "success": true
+      }
+    ],
+    "notifications_received": 2,
+    "native_process_reaped": true,
+    "synthetic_canary_absent_from_report": true,
+    "raw_streams_saved": false,
+    "server_requests_dispatched": 0,
+    "thread_or_model_request_sent": false
+  }
+}

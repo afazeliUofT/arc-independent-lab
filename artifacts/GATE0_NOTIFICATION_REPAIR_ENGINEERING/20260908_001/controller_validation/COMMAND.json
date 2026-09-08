@@ -1,0 +1,11 @@
+[
+  "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "-m",
+  "unittest",
+  "discover",
+  "-s",
+  "tests",
+  "-p",
+  "test_gate0_postlogin_metadata.py",
+  "-v"
+]

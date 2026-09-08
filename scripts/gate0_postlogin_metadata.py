@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""One human-launched metadata check; native credential refresh needs recorded scope approval.
+"""One explicit correction of the approved metadata check; no new access grant.
 
 Default inspection does not launch a client or write files. A completed report is
 reused without another native process. Credentials are never opened by this parent.
@@ -23,13 +23,18 @@ DRIVER_PINS = {
     "scripts/gate0_client_mount_plan.py": "4500a10227a5209a525e5ab7534a1bd2e55e3574c91381c584e5a99c7095a107",
     "scripts/gate0_config_controls.py": "9dc478ba6c68e32be69079e154dde1f3debd4d8dbd998f7648577b5df2c4bf8d",
     "scripts/gate0_account_metadata.py": "13f4e87a7da463b6915f49df4f97b2cea271a7e8de9f16b21281db50842dac76",
-    "scripts/gate0_postlogin_protocol.py": "f26b0e7513f57fa521591c5991dcfd2f1f89cad9f5bd8861e3a3a2108a8a75fa",
+    "scripts/gate0_postlogin_protocol.py": "222ed3eb698b947b0d7286991101308485f44554c823abb7723c9882d213877a",
     "scripts/gate0_postlogin_boundary.py": "aab4cb14a30bb1ee9f7b1e0d983f54fe509977bdc9d8aad7a4d8e54fbec6d20f"
 }
-RUN_NAME = "GATE0_POSTLOGIN_METADATA_016"
+PRIOR_RUN_NAME = "GATE0_POSTLOGIN_METADATA_016"
+PRIOR_REPORT_PATH = "artifacts/GATE0_POSTLOGIN_OBSERVATIONS/20260908_001/REPORT.json"
+PRIOR_REPORT_SHA256 = "4aa0757da0d56a4db65ca7a33cf15d7454129c21fab7283457261d3a8ebcbba7"
+APPROVAL_ARCHIVE = "state/escalations/2026-09-08_POSTLOGIN_REFRESH_APPROVED.md"
+APPROVAL_SHA256 = "73d96a954fa9f13d5d286f2153b46326577904412450996857c6e175af24214a"
+RUN_NAME = "GATE0_POSTLOGIN_METADATA_016_REPAIR_001"
 AUTH_RELATIVE = ".codex/auth.json"
 SECRET_ENV = ("OPENAI_API_KEY", "CODEX_API_KEY", "CODEX_ACCESS_TOKEN")
-REPORT_KIND = "GATE0_POSTLOGIN_METADATA_016_v1"
+REPORT_KIND = "GATE0_POSTLOGIN_METADATA_016_REPAIR_001_v1"
 REPORT_KEYS = {
     "kind", "created_utc", "pins", "scope", "model_requested", "formal_verdict",
     "unattended_model_use_authorized", "mount_plan", "observation", "origin_inventory",
@@ -91,17 +96,25 @@ def load_bundle():
     scope = json.loads(raw)
     receipt = bounded(ROOT / scope["signin_receipt_path"])
     require(sha(receipt) == scope["signin_receipt_sha256"], "Accepted sign-in receipt differs")
+    require(sha(bounded(ROOT / PRIOR_REPORT_PATH)) == PRIOR_REPORT_SHA256,
+            "Accepted failed attempt differs; preserve it")
     return scope, {
         "scope_sha256": sha(raw),
         "wrapper_sha256": sha(bounded(ROOT / "scripts/gate0_postlogin_metadata.py")),
         "driver_sources": DRIVER_PINS,
         "signin_receipt_sha256": sha(receipt),
+        "prior_failed_report_sha256": PRIOR_REPORT_SHA256,
+        "repair_id": "notification_envelope_001",
     }
 
 
 def approval(scope):
-    # Same reviewed Markdown parser as015; adapt only the exact new token/hash.
+    # Existing permission persists. A nonempty new escalation is never ignored.
     text = bounded(ROOT / "state/ESCALATION.md").decode("utf-8")
+    if not text.strip():
+        raw = bounded(ROOT / APPROVAL_ARCHIVE)
+        require(sha(raw) == APPROVAL_SHA256, "Archived approval differs from the published human answer")
+        text = raw.decode("utf-8")
     lines, headings, fence = text.splitlines(), [], None
     for i, line in enumerate(lines):
         stripped = line.lstrip(" ")
@@ -119,6 +132,36 @@ def approval(scope):
     answer = [line for line in lines[headings[0] + 1:] if line.strip()]
     require(answer == [scope["approval_id"], "scope_sha256: " + SCOPE_SHA256],
             "ANSWER differs from the exact approved scope; no client launched")
+
+
+def prior_observation():
+    """Read only the already-shared receipt; never native logs or credentials."""
+    path = ROOT / "delivery" / PRIOR_RUN_NAME / "REPORT.json"
+    raw = bounded(path)
+    require(sha(raw) == PRIOR_REPORT_SHA256, "Original local failed report differs; preserve it")
+    require(bounded(path.parent / "REPORT.sha256", 65) == (PRIOR_REPORT_SHA256 + "\n").encode(),
+            "Original receipt checksum differs; preserve it")
+    prior = json.loads(raw)
+    require(prior["pins"]["scope_sha256"] == SCOPE_SHA256
+            and prior["synthetic_boundary"]["passed"] is True,
+            "Accepted prerequisite observation is unavailable")
+    return path, prior
+
+
+def reuse_boundary(facts, prior):
+    """Reuse the passed prerequisite, explicitly not a fresh kernel attestation."""
+    require(prior["pins"]["driver_sources"]["scripts/gate0_postlogin_boundary.py"] ==
+            DRIVER_PINS["scripts/gate0_postlogin_boundary.py"], "Boundary implementation changed")
+    require(prior["pins"]["driver_sources"]["scripts/gate0_client_mount_plan.py"] ==
+            DRIVER_PINS["scripts/gate0_client_mount_plan.py"], "Mount planner changed")
+    # Actual executable checks were made by inventory against the unchanged scope.
+    require(facts["bwrap_before"]["sha256"] == "52231e1caf55bcbc667b269f49c63599a6f7db4767ae6a039580d0ff853db712",
+            "Namespace executable changed since the passing prerequisite")
+    return {"kind": "GATE0_POSTLOGIN_SYNTHETIC_BIND_REUSED_v1", "passed": True,
+            "executed_this_attempt": False, "prior_report_path": PRIOR_REPORT_PATH,
+            "prior_report_sha256": PRIOR_REPORT_SHA256,
+            "same_boundary_implementation_and_bwrap_verified": True,
+            "fresh_kernel_or_full_reviewer_attestation": False}
 
 
 def exact_network_inputs():
@@ -244,7 +287,9 @@ def exclusive(path, value):
     return raw
 
 
-def run_once(scope, pins, facts, preflight):
+def run_once(scope, pins, facts, preflight, boundary):
+    require(type(boundary) is dict and boundary.get("passed") is True,
+            "Verified prior boundary is required before a correction attempt")
     run = plain(ROOT / "delivery", True) / RUN_NAME
     run.mkdir(mode=0o700)
     exclusive(run / "ATTEMPT.json", {"created_utc": datetime.now(timezone.utc).isoformat(), "pins": pins})
@@ -260,7 +305,6 @@ def run_once(scope, pins, facts, preflight):
         command += ["-c", key + "=" + json.dumps(value)]
     command += ["app-server", "--strict-config", "--stdio"]
     plan = build_live_plan(facts, run, command, module("gate0_client_mount_plan"))
-    boundary = module("gate0_postlogin_boundary").check(facts, run)
     if boundary.get("passed") is True:
         observation = module("gate0_postlogin_protocol").observe(
             plan, run, requested, preflight, module("gate0_account_metadata"))
@@ -305,31 +349,42 @@ def run_once(scope, pins, facts, preflight):
 def show(path):
     print("REPORT: " + str(path))
     print("REPORT_SHA256: " + sha(bounded(path)))
-    print('REPORT_FOLDER_COMMAND: explorer.exe "$(wslpath -w "$HOME/ARC_Independent_Lab/delivery/' + RUN_NAME + '")"')
+    print('REPORT_FOLDER_COMMAND: explorer.exe "$(wslpath -w "$HOME/ARC_Independent_Lab/delivery/' + path.parent.name + '")"')
     print("Share only REPORT.json. Keep native runtime files private. No model or verdict was requested.")
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--run-metadata", action="store_true")
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument("--run-metadata", action="store_true",
+                      help="Show the original completed attempt only; never rerun it")
+    mode.add_argument("--run-repaired-metadata", action="store_true",
+                      help="Explicit human launch of the corrected protocol under the existing approval")
     args = parser.parse_args()
     preflight = None
     try:
         scope, pins = load_bundle()
+        if args.run_metadata:
+            path, _ = prior_observation()
+            print("Original attempt preserved; legacy command cannot start a correction.")
+            show(path)
+            return
         prior = existing(ROOT / "delivery" / RUN_NAME, pins)
         if prior:
             print("Verified completed report; native client was not rerun.")
             show(prior)
             return
+        _, prior_report = prior_observation()
         preflight = module("gate0_client_preflight")
         facts = inventory(scope, preflight)
+        boundary = reuse_boundary(facts, prior_report)
         print("Pinned runtime and original configuration inspected; credential contents were not read.")
-        print("Proposed: one finite native metadata process with existing auth.json refresh access and host network.")
-        if not args.run_metadata:
+        print("Correction only: supported notification timestamp; existing permissions and passed prerequisite reused.")
+        if not args.run_repaired_metadata:
             print("Inspection only. No native process, network call or filesystem change was made.")
             return
         approval(scope)
-        show(run_once(scope, pins, facts, preflight))
+        show(run_once(scope, pins, facts, preflight, boundary))
     except Exception as error:
         # Native/config/credential errors can carry secrets; only our fixed Stop text is public.
         known = isinstance(error, Stop) or (preflight is not None and isinstance(error, preflight.Stop))

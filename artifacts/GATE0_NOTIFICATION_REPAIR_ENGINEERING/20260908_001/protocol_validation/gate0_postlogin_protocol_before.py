@@ -43,34 +43,6 @@ def _integer(value, bits=64):
     return type(value) is int and -(2 ** (bits - 1)) <= value < 2 ** (bits - 1)
 
 
-def notification_envelope_shape(message):
-    """Describe only fixed field presence/types; retain no native field values.
-
-    The pinned native ServerNotificationEnvelope flattens method/params and
-    permits an optional signed 64-bit emittedAtMs. This describes the transport
-    envelope only; it does not interpret notification methods or parameters.
-    """
-    allowed = {"method", "params", "emittedAtMs"}
-
-    def field_type(key):
-        if key not in message:
-            return "absent"
-        value = message[key]
-        return {type(None): "null", bool: "boolean", int: "integer", float: "number",
-                str: "string", list: "array", dict: "object"}.get(type(value), "other")
-
-    timestamp_valid = ("emittedAtMs" not in message or message["emittedAtMs"] is None
-                       or _integer(message["emittedAtMs"]))
-    method_valid = "method" in message and type(message["method"]) is str
-    return {"known_key_presence": {key: key in message for key in sorted(allowed)},
-            "unknown_key_count": len(set(message) - allowed),
-            "method_type": field_type("method"), "params_type": field_type("params"),
-            "emitted_at_ms_type": field_type("emittedAtMs"),
-            "method_type_valid": method_valid,
-            "emitted_at_ms_type_and_range_valid": timestamp_valid,
-            "envelope_valid": set(message) <= allowed and method_valid and timestamp_valid}
-
-
 def _window(value):
     if value is None:
         return {"present": False, "shape_recognized": True}
@@ -317,14 +289,10 @@ The caller is responsible for the credential/network plan and artifact handling.
                     line, _, rest = stdout_buffer.partition(b"\n")
                     stdout_buffer = bytearray(rest)
                     msg = preflight.parse_line(line)
-                    if "method" in msg:
-                        # Preserve the last shape before any envelope rejection.
-                        # Never retain a raw key, method, timestamp, params or hash.
-                        report["last_notification_envelope_shape"] = notification_envelope_shape(msg)
                     require(not ("method" in msg and "id" in msg),
                             "Unexpected server request; no response dispatched")
                     if "method" in msg:
-                        require(report["last_notification_envelope_shape"]["envelope_valid"],
+                        require(set(msg) <= {"method", "params"} and type(msg["method"]) is str,
                                 "Invalid notification envelope")
                         report["notifications_received"] += 1
                         continue

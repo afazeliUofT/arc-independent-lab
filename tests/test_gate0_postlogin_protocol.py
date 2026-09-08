@@ -53,8 +53,11 @@ for raw in sys.stdin:
         sys.stdout.write(canary * 100)
         sys.stdout.flush()
         time.sleep(20)
-    if scenario == "server_request":
-        emit({"id": 99, "method": canary, "params": {"token": canary}})
+    if scenario in ("server_request", "server_request_timestamp"):
+        notification = {"id": 99, "method": canary, "params": {"token": canary}}
+        if scenario == "server_request_timestamp":
+            notification["emittedAtMs"] = 1790000000000
+        emit(notification)
         time.sleep(20)
     if scenario == "invalid_json":
         print('{"id":1,"result":{"secret":"' + canary + '"},"id":2}', flush=True)
@@ -87,7 +90,28 @@ for raw in sys.stdin:
             result["userAgent"] = 7
         if scenario == "wrong_codex_home":
             result["codexHome"] = "/synthetic/" + canary
-        emit({"method": canary, "params": {"secret": canary}})
+        notification = {"method": canary, "params": {"secret": canary}}
+        timestamps = {"notification_timestamp_null": None,
+                      "notification_timestamp_zero": 0,
+                      "notification_timestamp_native": 1790000000000,
+                      "notification_timestamp_min": -(2 ** 63),
+                      "notification_timestamp_max": 2 ** 63 - 1,
+                      "notification_timestamp_bool": True,
+                      "notification_timestamp_float": 1.5,
+                      "notification_timestamp_string": canary,
+                      "notification_timestamp_too_large": 2 ** 63,
+                      "notification_timestamp_too_small": -(2 ** 63) - 1,
+                      "notification_timestamp_array": [canary],
+                      "notification_timestamp_object": {canary: canary}}
+        if scenario in timestamps:
+            notification["emittedAtMs"] = timestamps[scenario]
+        if scenario == "notification_unknown_key":
+            notification[canary] = canary
+        if scenario == "notification_jsonrpc":
+            notification["jsonrpc"] = "2.0"
+        if scenario == "notification_invalid_method":
+            notification["method"] = {canary: canary}
+        emit(notification)
         print(canary, file=sys.stderr, flush=True)
     elif method == "config/read":
         result = {"config": {"approval_policy": "never", "cli_auth_credentials_store": "file",
@@ -184,15 +208,17 @@ class FilterTests(PrivacyAssertions, unittest.TestCase):
 
 
 class TransportTests(PrivacyAssertions, unittest.TestCase):
-    def run_case(self, scenario, *, stream_limit=None, wall_seconds=None, tree_size=None, method_seconds=None):
+    def run_case(self, scenario, *, stream_limit=None, wall_seconds=None, tree_size=None,
+                 method_seconds=None, module=None):
+        module = module or protocol
         with tempfile.TemporaryDirectory(prefix="arc_postlogin_test_", dir=ROOT / "delivery") as name:
             run = Path(name)
-            with mock.patch.object(protocol, "STREAM_LIMIT", stream_limit or protocol.STREAM_LIMIT), \
-                 mock.patch.object(protocol, "WALL_SECONDS", wall_seconds or protocol.WALL_SECONDS), \
-                 mock.patch.object(protocol, "METHOD_SECONDS", method_seconds or protocol.METHOD_SECONDS), \
-                 mock.patch.object(protocol, "CLEANUP_SECONDS", 0.2 if wall_seconds else protocol.CLEANUP_SECONDS), \
+            with mock.patch.object(module, "STREAM_LIMIT", stream_limit or module.STREAM_LIMIT), \
+                 mock.patch.object(module, "WALL_SECONDS", wall_seconds or module.WALL_SECONDS), \
+                 mock.patch.object(module, "METHOD_SECONDS", method_seconds or module.METHOD_SECONDS), \
+                 mock.patch.object(module, "CLEANUP_SECONDS", 0.2 if wall_seconds else module.CLEANUP_SECONDS), \
                  mock.patch.object(preflight, "tree_size", return_value=tree_size or 0):
-                result = protocol.observe({"argv": [sys.executable, "-u", "-c", CHILD, scenario, CANARY]},
+                result = module.observe({"argv": [sys.executable, "-u", "-c", CHILD, scenario, CANARY]},
                                           run, {"approval_policy": "never"}, preflight, account)
             path = run / "requests.jsonl"
             requests = [json.loads(line) for line in path.read_text().splitlines()] if path.exists() else []
@@ -224,6 +250,63 @@ class TransportTests(PrivacyAssertions, unittest.TestCase):
         self.assertTrue(result["model_catalog"]["matching_entries"][0]["recognized_efforts"]["ultra"])
         self.assertEqual(result["notifications_received"], 1)
         self.assertTrue(result["initialization"]["codex_home_equals_original_environment"])
+        shape = result["last_notification_envelope_shape"]
+        self.assertEqual(shape["emitted_at_ms_type"], "absent")
+        self.assertTrue(shape["envelope_valid"])
+
+    def test_preserved_parser_rejects_native_source_shaped_timestamp(self):
+        path = ROOT / ("artifacts/GATE0_NOTIFICATION_REPAIR_ENGINEERING/20260908_001/"
+                       "protocol_validation/gate0_postlogin_protocol_before.py")
+        self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(),
+                         "f26b0e7513f57fa521591c5991dcfd2f1f89cad9f5bd8861e3a3a2108a8a75fa")
+        spec = importlib.util.spec_from_file_location("protocol_before_notification_repair", path)
+        before = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(before)
+        result, requests = self.run_case("notification_timestamp_native", module=before)
+        self.assertEqual(result["status"], "STOPPED_WITHOUT_REVIEW")
+        self.assertEqual(result["reason"], "Invalid notification envelope")
+        self.assertEqual([item["method"] for item in requests], ["initialize"])
+
+    def test_native_timestamp_null_and_signed_64_bit_integers_are_accepted(self):
+        for suffix in ("null", "zero", "native", "min", "max"):
+            with self.subTest(suffix=suffix):
+                result, requests = self.run_case("notification_timestamp_" + suffix)
+                self.assertEqual(result["status"], "OBSERVED_POSTLOGIN_METADATA_ONLY")
+                self.assertEqual(len(requests), 7)
+                shape = result["last_notification_envelope_shape"]
+                self.assertTrue(shape["known_key_presence"]["emittedAtMs"])
+                self.assertEqual(shape["emitted_at_ms_type"], "null" if suffix == "null" else "integer")
+                self.assertTrue(shape["emitted_at_ms_type_and_range_valid"])
+                self.assertTrue(shape["envelope_valid"])
+                self.assertEqual(shape["unknown_key_count"], 0)
+
+    def test_invalid_timestamp_types_and_ranges_stop_with_only_shape_diagnostics(self):
+        expected_types = {"bool": "boolean", "float": "number", "string": "string",
+                          "too_large": "integer", "too_small": "integer",
+                          "array": "array", "object": "object"}
+        for suffix, expected_type in expected_types.items():
+            with self.subTest(suffix=suffix):
+                result, requests = self.run_case("notification_timestamp_" + suffix)
+                self.assertEqual(result["status"], "STOPPED_WITHOUT_REVIEW")
+                self.assertEqual(result["reason"], "Invalid notification envelope")
+                self.assertEqual(len(requests), 1)
+                self.assertEqual(result["notifications_received"], 0)
+                shape = result["last_notification_envelope_shape"]
+                self.assertEqual(shape["emitted_at_ms_type"], expected_type)
+                self.assertFalse(shape["emitted_at_ms_type_and_range_valid"])
+                self.assertFalse(shape["envelope_valid"])
+
+    def test_unknown_notification_keys_and_invalid_method_are_still_rejected(self):
+        for scenario in ("notification_unknown_key", "notification_jsonrpc", "notification_invalid_method"):
+            with self.subTest(scenario=scenario):
+                result, requests = self.run_case(scenario)
+                self.assertEqual(result["status"], "STOPPED_WITHOUT_REVIEW")
+                self.assertEqual(result["reason"], "Invalid notification envelope")
+                self.assertEqual(len(requests), 1)
+                shape = result["last_notification_envelope_shape"]
+                self.assertFalse(shape["envelope_valid"])
+                self.assertEqual(shape["unknown_key_count"], 0 if scenario == "notification_invalid_method" else 1)
+                self.assertEqual(shape["method_type_valid"], scenario != "notification_invalid_method")
 
     def test_optional_errors_do_not_repeat_or_abort_remaining_metadata(self):
         result, requests = self.run_case("optional_errors")
@@ -243,11 +326,15 @@ class TransportTests(PrivacyAssertions, unittest.TestCase):
         self.assertNotIn("account/rateLimits/read", result["requests_sent"])
 
     def test_server_request_gets_no_response(self):
-        result, requests = self.run_case("server_request")
-        self.assertEqual(result["status"], "STOPPED_WITHOUT_REVIEW")
-        self.assertEqual(len(requests), 1)
-        self.assertEqual(result["server_requests_dispatched"], 0)
-        self.assertTrue(all("result" not in item and "error" not in item for item in requests))
+        for scenario in ("server_request", "server_request_timestamp"):
+            with self.subTest(scenario=scenario):
+                result, requests = self.run_case(scenario)
+                self.assertEqual(result["status"], "STOPPED_WITHOUT_REVIEW")
+                self.assertEqual(result["reason"], "Unexpected server request; no response dispatched")
+                self.assertEqual(len(requests), 1)
+                self.assertEqual(result["server_requests_dispatched"], 0)
+                self.assertFalse(result["last_notification_envelope_shape"]["envelope_valid"])
+                self.assertTrue(all("result" not in item and "error" not in item for item in requests))
 
     def test_duplicate_keys_nonfinite_foreign_and_ambiguous_envelopes_stop(self):
         for scenario in ("invalid_json", "nonfinite_json", "deep_json", "foreign_response", "ambiguous_envelope"):

@@ -1,0 +1,55 @@
+{
+  "kind": "GATE0_NOTIFICATION_REPAIR_ENGINEERING_MANIFEST_v1",
+  "created_utc": "2026-09-08T16:53:47.096129+00:00",
+  "source_bytes_match_tested_versions": true,
+  "test_counts": {
+    "protocol_validation": 24,
+    "controller_validation": 16
+  },
+  "total_tests_passed": 40,
+  "actual_native_client_or_credentials_or_model_used": false,
+  "actual_corrected_wsl_run": false,
+  "formal_independent_verdict": false,
+  "files": [
+    {
+      "path": "controller_validation/COMMAND.json",
+      "sha256": "af94d473963029a9d0acddfd959d0ecbf4430ed604f02a72b183f6f9274455b8"
+    },
+    {
+      "path": "controller_validation/OUTPUT.txt",
+      "sha256": "9d2b58b13c0a1af9396d57b6a5d5c23161b73cd26e6625598702b7328fc9e70d"
+    },
+    {
+      "path": "controller_validation/REPORT.json",
+      "sha256": "c5c768333849a7792014256707cff71f4c636586ea459ddbd7346544fa34e70a"
+    },
+    {
+      "path": "protocol_validation/BEFORE_SHA256SUMS",
+      "sha256": "12fda58cd9fff8c5b8a45556864fd4fe78feb5b478c5d4a28d57a4283fbb0e4e"
+    },
+    {
+      "path": "protocol_validation/COMMAND.json",
+      "sha256": "ae3b9a1ebffff6d9b3990c574e119fa975e8504e7254dc6610ad0be18141a7b5"
+    },
+    {
+      "path": "protocol_validation/REPORT.json",
+      "sha256": "547aa71487a59c00cd04d773eec4972727fd1fb56b6e5a102e3da27f10383a5a"
+    },
+    {
+      "path": "protocol_validation/SHA256SUMS",
+      "sha256": "8f32dd274a75b3d5cb475b81bba6373b482038cd6dae46861e04d8f6a105458f"
+    },
+    {
+      "path": "protocol_validation/STDERR.txt",
+      "sha256": "4383877123803b6cc64b2014db518f18ce15d9540f0e744a9309620cf5de389c"
+    },
+    {
+      "path": "protocol_validation/STDOUT.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "protocol_validation/gate0_postlogin_protocol_before.py",
+      "sha256": "f26b0e7513f57fa521591c5991dcfd2f1f89cad9f5bd8861e3a3a2108a8a75fa"
+    }
+  ]
+}

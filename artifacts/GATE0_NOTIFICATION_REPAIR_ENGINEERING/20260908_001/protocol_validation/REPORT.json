@@ -1,0 +1,16 @@
+{
+  "kind": "GATE0_NOTIFICATION_PROTOCOL_REPAIR_VALIDATION_v1",
+  "started_utc": "2026-09-08T16:48:16.327774+00:00",
+  "completed_utc": "2026-09-08T16:48:18.435319+00:00",
+  "exit_code": 0,
+  "passed": true,
+  "real_native_client_invoked": false,
+  "network_invoked": false,
+  "credentials_accessed": false,
+  "model_invoked": false,
+  "historical_parser_copy_sha256": "f26b0e7513f57fa521591c5991dcfd2f1f89cad9f5bd8861e3a3a2108a8a75fa",
+  "protocol_sha256": "222ed3eb698b947b0d7286991101308485f44554c823abb7723c9882d213877a",
+  "tests_sha256": "ea85a1a7cd3e0492ce5e3e893f2ace38115465b3f4e0a6fa1d7a0a1b8394a81e",
+  "actual_user_rejected_notification_was_retained": false,
+  "causal_scope": "Synthetic source-shaped envelope reproduces the old parser rejection; does not identify the unretained native envelope from the user run."
+}

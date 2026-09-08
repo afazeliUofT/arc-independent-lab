@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "upstream": "https://github.com/openai/codex",
+  "commit": "78c290807ce710180111df227df3b7a4fe845452",
+  "access_date": "2026-09-08",
+  "license": "Apache-2.0; LICENSE and NOTICE included; exact upstream source bytes preserved",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 10926,
+      "sha256": "d17f227e4df5da1600391338865ce0f3055211760a36688f816941d58232d8dc",
+      "upstream_git_blob": "4606e72e042564097e8780d66c1d4dcb611869bd",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/LICENSE",
+      "access_date": "2026-09-07",
+      "transport_added_final_lf_removed_only_after_blob_match": false,
+      "copied_from_archive": "artifacts/GATE0_LOGIN_SOURCE/20260907_001/LICENSE",
+      "archive_checked_date": "2026-09-08"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 242,
+      "sha256": "9d71575ecfd9a843fc1677b0efb08053c6ba9fd686a0de1a6f5382fd3c220915",
+      "upstream_git_blob": "2805899d56d0332d175cfc613c67d45d6f006db7",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/NOTICE",
+      "access_date": "2026-09-07",
+      "transport_added_final_lf_removed_only_after_blob_match": false,
+      "copied_from_archive": "artifacts/GATE0_LOGIN_SOURCE/20260907_001/NOTICE",
+      "archive_checked_date": "2026-09-08"
+    },
+    {
+      "path": "codex-rs/app-server-protocol/src/protocol/common.rs",
+      "bytes": 168683,
+      "sha256": "f67267aa0645d50ee997334036f26ef8d7b3ed42f7c79afa33e6ebb507c0c45d",
+      "upstream_git_blob": "156d16001bf0686ebc6994f788e5939715221af6",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server-protocol/src/protocol/common.rs",
+      "access_date": "2026-09-08",
+      "transport_added_final_lf_removed_only_after_blob_match": false
+    },
+    {
+      "path": "codex-rs/app-server-protocol/src/rpc.rs",
+      "bytes": 2656,
+      "sha256": "78c516097c55b665e375807be6dcdceba232805c9ae9fa48420b0a537f0df705",
+      "upstream_git_blob": "23920864dd3fc7e09a64fc46909ef598f6f3b7ae",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server-protocol/src/rpc.rs",
+      "access_date": "2026-09-08",
+      "transport_added_final_lf_removed_only_after_blob_match": false
+    },
+    {
+      "path": "codex-rs/app-server-transport/src/outgoing_message.rs",
+      "bytes": 1618,
+      "sha256": "bf66cbcd78a92152312d09270cd6cedfa52b935d825e47ac4f8f1ee584dccad3",
+      "upstream_git_blob": "7f60ceb44bd264af8255e48aa757096ff891a0cc",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server-transport/src/outgoing_message.rs",
+      "access_date": "2026-09-08",
+      "transport_added_final_lf_removed_only_after_blob_match": false
+    },
+    {
+      "path": "codex-rs/app-server-transport/src/transport/mod.rs",
+      "bytes": 21005,
+      "sha256": "62a3acdb675a7d36625d40665e25ada29052900eac6265a6616ac526355eb503",
+      "upstream_git_blob": "c8b0e57e44e242b56da20c44a42ce2bcc956cf73",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server-transport/src/transport/mod.rs",
+      "access_date": "2026-09-08",
+      "transport_added_final_lf_removed_only_after_blob_match": false
+    },
+    {
+      "path": "codex-rs/app-server-transport/src/transport/stdio.rs",
+      "bytes": 4021,
+      "sha256": "ffb372ec8a369b307ad3c0fb3d7af19982098360df12ed4158fe5180beb0a91b",
+      "upstream_git_blob": "2d30296cd07430d98c02ec0e4e6f7b7380af80f4",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server-transport/src/transport/stdio.rs",
+      "access_date": "2026-09-08",
+      "transport_added_final_lf_removed_only_after_blob_match": false
+    },
+    {
+      "path": "codex-rs/app-server/src/outgoing_message.rs",
+      "bytes": 52058,
+      "sha256": "df283be051d56d4615472c137b2d827ccbb9e392675d3c10fbe46990e15bdd9c",
+      "upstream_git_blob": "6624df8230af8faa504a4440431ad56e1fe6c96a",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server/src/outgoing_message.rs",
+      "access_date": "2026-09-08",
+      "transport_added_final_lf_removed_only_after_blob_match": false
+    }
+  ],
+  "source_acquisition_observations": [
+    "Initial GitHub directory metadata output was unnecessarily large and truncated; filtered complete metadata was used thereafter.",
+    "The transport-added final LF was removed only when the resulting exact bytes matched the upstream Git blob."
+  ]
+}

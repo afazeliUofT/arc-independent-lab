@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_gate0_postlogin_protocol.py",
+    "-v"
+  ],
+  "cwd": "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab",
+  "environment_additions": {
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "scope": "Only synthetic protocol unit tests; no native client, credential access, network or model invocation"
+}
