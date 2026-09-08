@@ -1,0 +1,15 @@
+{
+  "kind": "P3_CHECKPOINT_018_RECOVERY_NOTES_v1",
+  "date": "2026-09-08",
+  "accepted_report": {
+    "path": "artifacts/GATE0_POSTLOGIN_REPAIR_OBSERVATIONS/20260908_001/REPORT.json",
+    "sha256": "ab6b731d21a3e161e43e33b6db011db93037030e56d8bd40bfbd50cd2070b9c6"
+  },
+  "receipt_validation_script": {
+    "path": "delivery/verify_postlogin_repair_017_receipt.py",
+    "sha256": "58e69172239a6cae3220c297adcd4312d0563fba3a73fc1405aa544337e0c73c",
+    "stored_as_reference_only": true,
+    "archived_reference_path": "artifacts/GATE0_POSTLOGIN_REPAIR_OBSERVATIONS/20260908_001/VERIFY_RECEIPT_REFERENCE.py"
+  },
+  "next_scope": "Source-supported reviewer profile/catalog helpers only; no new native launch authorization or implementation claimed."
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "access_date": "2026-09-08",
+    "git_blob": "8de41adf9b106061a5a0a3e78b2d637ea2670ff5",
+    "path": "codex-rs/core/src/tools/handlers/send_user_message_async.rs",
+    "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/tools/handlers/send_user_message_async.rs"
+  },
+  {
+    "access_date": "2026-09-08",
+    "git_blob": "f9f15f01ad691fbd9e6ed8220befecfc4bbe3445",
+    "path": "codex-rs/core/src/tools/handlers/test_sync.rs",
+    "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/tools/handlers/test_sync.rs"
+  },
+  {
+    "access_date": "2026-09-08",
+    "git_blob": "333e59d2d0b0a32f3346e6d00ae9a7e4bb5b39cf",
+    "path": "codex-rs/core/src/thread_manager.rs",
+    "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/thread_manager.rs"
+  },
+  {
+    "access_date": "2026-09-08",
+    "git_blob": "1465766a82f6059b3af4e0fcfd633ad08051fee6",
+    "path": "codex-rs/core/src/tools/code_mode/mod.rs",
+    "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/tools/code_mode/mod.rs"
+  },
+  {
+    "access_date": "2026-09-08",
+    "git_blob": "fb38e2899e441474f615f6cbbafd15e30c6ed9a8",
+    "path": "codex-rs/code-mode/src/remote_session.rs",
+    "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/code-mode/src/remote_session.rs"
+  },
+  {
+    "path": "codex-rs/core/src/tools/mod.rs",
+    "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/tools/mod.rs",
+    "access_date": "2026-09-07",
+    "local_reinspection_date": "2026-09-08",
+    "reused_from": "artifacts/GATE0_TOOL_BOUNDARY_SOURCE/20260907_001/codex-rs/core/src/tools/mod.rs"
+  },
+  {
+    "path": "codex-rs/core/src/config/mod.rs",
+    "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/config/mod.rs",
+    "access_date": "2026-09-07",
+    "local_reinspection_date": "2026-09-08",
+    "reused_from": "artifacts/GATE0_TOOL_BOUNDARY_SOURCE/20260907_001/codex-rs/core/src/config/mod.rs"
+  },
+  {
+    "path": "codex-rs/core/src/tools/spec_plan.rs",
+    "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/tools/spec_plan.rs",
+    "access_date": "2026-09-07",
+    "local_reinspection_date": "2026-09-08",
+    "reused_from": "artifacts/GATE0_TOOL_BOUNDARY_SOURCE/20260907_001/codex-rs/core/src/tools/spec_plan.rs"
+  },
+  {
+    "path": "codex-rs/core/src/tools/handlers/dynamic.rs",
+    "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/tools/handlers/dynamic.rs",
+    "access_date": "2026-09-07",
+    "local_reinspection_date": "2026-09-08",
+    "reused_from": "artifacts/GATE0_TOOL_BOUNDARY_SOURCE/20260907_001/codex-rs/core/src/tools/handlers/dynamic.rs"
+  },
+  {
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/LICENSE",
+    "access_date": "2026-09-07",
+    "reused_from": "artifacts/GATE0_TOOL_BOUNDARY_SOURCE/20260907_001/LICENSE"
+  },
+  {
+    "path": "NOTICE",
+    "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/NOTICE",
+    "access_date": "2026-09-07",
+    "reused_from": "artifacts/GATE0_TOOL_BOUNDARY_SOURCE/20260907_001/NOTICE"
+  }
+]

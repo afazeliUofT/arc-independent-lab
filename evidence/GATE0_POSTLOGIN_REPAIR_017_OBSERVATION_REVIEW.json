@@ -1,0 +1,79 @@
+{
+  "kind": "GATE0_POSTLOGIN_REPAIR_017_OBSERVATION_REVIEW_v1",
+  "reviewed_utc": "2026-09-08T20:04:25.132781+00:00",
+  "report_path": "artifacts/GATE0_POSTLOGIN_REPAIR_OBSERVATIONS/20260908_001/REPORT.json",
+  "report_sha256": "ab6b731d21a3e161e43e33b6db011db93037030e56d8bd40bfbd50cd2070b9c6",
+  "published_code_commit": "e0cd916249990c1a5993a8adefba12c893f9c60d",
+  "approval_commit": "6cae5d3c8f1ac3ed2745415924eb478ee53e5951",
+  "schema_and_driver_pins_match": true,
+  "launch_plan_matches_prior_verified_plan_with_only_run_directory_substitution": true,
+  "all_fixed_rpc_responses_successful": true,
+  "reported_host_checks_pass": true,
+  "credential_metadata_unchanged": true,
+  "credential_contents_checked": false,
+  "native_process_reaped": true,
+  "exit_minus15_is_parent_cleanup": true,
+  "synthetic_boundary_reused_not_reexecuted": true,
+  "account_kind": "chatgpt",
+  "reported_plan_type": "pro",
+  "live_codex_rate_limit_endpoint_response": true,
+  "codex_rate_limit_snapshot": {
+    "response_shape_recognized": true,
+    "codex_bucket_observed": true,
+    "codex_snapshots": {
+      "explicit_codex_map_entry": {
+        "primary": {
+          "present": true,
+          "shape_recognized": true,
+          "usedPercent": 1,
+          "windowDurationMins": 10080,
+          "resetsAt": 1789490427
+        },
+        "secondary": {
+          "present": false,
+          "shape_recognized": true
+        }
+      },
+      "explicit_codex_legacy_entry": {
+        "primary": {
+          "present": true,
+          "shape_recognized": true,
+          "usedPercent": 1,
+          "windowDurationMins": 10080,
+          "resetsAt": 1789490427
+        },
+        "secondary": {
+          "present": false,
+          "shape_recognized": true
+        }
+      }
+    },
+    "unrecognized_bucket_count": 2,
+    "legacy_bucket_identity_recognized": true,
+    "scope": "Codex_rate_limit_metadata_returned_by_account_rateLimits_read",
+    "hosted_chatgpt_allowance_verified": false,
+    "requested_model_entitlement_verified": false,
+    "reset_credits_used": false,
+    "unattended_model_use_authorized": false
+  },
+  "catalog_observation": {
+    "response_shape_recognized": true,
+    "page_entry_count": 5,
+    "additional_page_available": false,
+    "page_complete_for_returned_catalog": true,
+    "exact_requested_model_present_on_page": false,
+    "exact_requested_id_present_on_page": false,
+    "matching_entries": [],
+    "effort_names_are_local_output_allowlist": true,
+    "scope": "returned_model_catalog_page_may_use_cached_metadata",
+    "model_entitlement_verified": false,
+    "model_tool_registry_verified": false,
+    "scientific_reviewer_boundary_verified": false
+  },
+  "model_names_discarded_by_our_literal_filter": true,
+  "full_reviewer_boundary_verified": false,
+  "formal_verdict": null,
+  "unattended_model_use_authorized": false,
+  "rerun_completed_operation_needed": false,
+  "interpretation": "Accept successful user-supplied bounded metadata receipt; not independent remote attestation. Codex meter applies to its named bucket only. Account/read(false) is cached; successful rateLimits RPC gives separate live endpoint evidence. Model/list omitted hidden entries and may use cached metadata; literal absence is not model unavailability. Corrected native parser observed timestamp envelope successfully."
+}

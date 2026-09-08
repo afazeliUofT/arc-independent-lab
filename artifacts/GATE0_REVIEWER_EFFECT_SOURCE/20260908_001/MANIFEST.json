@@ -1,0 +1,144 @@
+{
+  "status": "STATIC_SOURCE_EFFECT_ANALYSIS_NO_NATIVE_OR_MODEL_EXECUTED",
+  "created_utc": "2026-09-08T20:06:49.345666+00:00",
+  "release_commit": "78c290807ce710180111df227df3b7a4fe845452",
+  "reused_source_manifest": "artifacts/GATE0_TOOL_BOUNDARY_SOURCE/20260907_001/MANIFEST.json",
+  "reused_source_manifest_sha256": "bfdc6e4bb2547df33490bec334d1ea1668f8615ce1f412387a9c25c6374c3873",
+  "independent_scientific_reviewer": false,
+  "actual_reviewer_tool_boundary_observed": false,
+  "files": [
+    {
+      "access_date": "2026-09-08",
+      "path": "codex-rs/core/src/tools/handlers/send_user_message_async.rs",
+      "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/tools/handlers/send_user_message_async.rs",
+      "git_blob_sha1": "8de41adf9b106061a5a0a3e78b2d637ea2670ff5",
+      "git_blob_source": "GitHub directory response",
+      "bytes": 4283,
+      "sha256": "741392b19f655cdf253a2b0bf903a19e875caa312a016e556dfd1835f0f189d4"
+    },
+    {
+      "access_date": "2026-09-08",
+      "path": "codex-rs/core/src/tools/handlers/test_sync.rs",
+      "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/tools/handlers/test_sync.rs",
+      "git_blob_sha1": "f9f15f01ad691fbd9e6ed8220befecfc4bbe3445",
+      "git_blob_source": "GitHub directory response",
+      "bytes": 5746,
+      "sha256": "b0e2a02e5d70c872010d17c91b797fef6e64eefa96ede02beca8009a752079b5"
+    },
+    {
+      "access_date": "2026-09-08",
+      "path": "codex-rs/core/src/thread_manager.rs",
+      "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/thread_manager.rs",
+      "git_blob_sha1": "333e59d2d0b0a32f3346e6d00ae9a7e4bb5b39cf",
+      "git_blob_source": "GitHub directory response",
+      "bytes": 89990,
+      "sha256": "8413832bd97d1e216f4ba0444d3cbb9cde3cb922cb149c40cdf653c832266336"
+    },
+    {
+      "access_date": "2026-09-08",
+      "path": "codex-rs/core/src/tools/code_mode/mod.rs",
+      "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/tools/code_mode/mod.rs",
+      "git_blob_sha1": "1465766a82f6059b3af4e0fcfd633ad08051fee6",
+      "git_blob_source": "GitHub directory response",
+      "bytes": 19861,
+      "sha256": "77000ec10c248dd17c354a95e11a9f7ab9aff893f7c6243c9e2ffd9bb4533659"
+    },
+    {
+      "access_date": "2026-09-08",
+      "path": "codex-rs/code-mode/src/remote_session.rs",
+      "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/code-mode/src/remote_session.rs",
+      "git_blob_sha1": "fb38e2899e441474f615f6cbbafd15e30c6ed9a8",
+      "git_blob_source": "GitHub directory response",
+      "bytes": 19244,
+      "sha256": "30f866ccc860e3f0185da4a1e4e040b0042e06a6fc31041e4227721cbb29e3ce"
+    },
+    {
+      "path": "codex-rs/core/src/tools/mod.rs",
+      "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/tools/mod.rs",
+      "access_date": "2026-09-07",
+      "local_reinspection_date": "2026-09-08",
+      "reused_from": "artifacts/GATE0_TOOL_BOUNDARY_SOURCE/20260907_001/codex-rs/core/src/tools/mod.rs",
+      "git_blob_sha1": "ff1b6d063d5a8431c40a9b9c1a2f89be200455a0",
+      "git_blob_source": "previous exact-source manifest",
+      "bytes": 4986,
+      "sha256": "0c8ec9324f67053cf7c14dac5d53504c9e8c370b84cb2323fdb0239e674572d7"
+    },
+    {
+      "path": "codex-rs/core/src/config/mod.rs",
+      "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/config/mod.rs",
+      "access_date": "2026-09-07",
+      "local_reinspection_date": "2026-09-08",
+      "reused_from": "artifacts/GATE0_TOOL_BOUNDARY_SOURCE/20260907_001/codex-rs/core/src/config/mod.rs",
+      "git_blob_sha1": "96da2f76f87d4c3164e4b0fe8f1ed718a294acca",
+      "git_blob_source": "previous exact-source manifest",
+      "bytes": 190945,
+      "sha256": "75544f344fef0ad40be9eb9e1d0dbbdafcd50929bfe32376118c9b56003d7d97"
+    },
+    {
+      "path": "codex-rs/core/src/tools/spec_plan.rs",
+      "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/tools/spec_plan.rs",
+      "access_date": "2026-09-07",
+      "local_reinspection_date": "2026-09-08",
+      "reused_from": "artifacts/GATE0_TOOL_BOUNDARY_SOURCE/20260907_001/codex-rs/core/src/tools/spec_plan.rs",
+      "git_blob_sha1": "15d7d4c2cdb341a82bc6a9ebb104c8892b218e4c",
+      "git_blob_source": "previous exact-source manifest",
+      "bytes": 56770,
+      "sha256": "52f549a2ac0836aece71f159850a634e71d1fbe5cb3bb58b98cca9b5744d6f9d"
+    },
+    {
+      "path": "codex-rs/core/src/tools/handlers/dynamic.rs",
+      "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/tools/handlers/dynamic.rs",
+      "access_date": "2026-09-07",
+      "local_reinspection_date": "2026-09-08",
+      "reused_from": "artifacts/GATE0_TOOL_BOUNDARY_SOURCE/20260907_001/codex-rs/core/src/tools/handlers/dynamic.rs",
+      "git_blob_sha1": "f2b7860d06385301ebefa9bdd70eb0a43a8639ad",
+      "git_blob_source": "previous exact-source manifest",
+      "bytes": 7964,
+      "sha256": "5e315b42993b4637e5543bcfcc858b82336437f7fb3a367ff5dc911273fa97b4"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/LICENSE",
+      "access_date": "2026-09-07",
+      "reused_from": "artifacts/GATE0_TOOL_BOUNDARY_SOURCE/20260907_001/LICENSE",
+      "computed_git_blob_sha1": "4606e72e042564097e8780d66c1d4dcb611869bd",
+      "git_blob_source": "local calculation only; upstream Git blob not supplied in reused licensing record",
+      "bytes": 10926,
+      "sha256": "d17f227e4df5da1600391338865ce0f3055211760a36688f816941d58232d8dc"
+    },
+    {
+      "path": "NOTICE",
+      "url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/NOTICE",
+      "access_date": "2026-09-07",
+      "reused_from": "artifacts/GATE0_TOOL_BOUNDARY_SOURCE/20260907_001/NOTICE",
+      "computed_git_blob_sha1": "2805899d56d0332d175cfc613c67d45d6f006db7",
+      "git_blob_source": "local calculation only; upstream Git blob not supplied in reused licensing record",
+      "bytes": 242,
+      "sha256": "9d71575ecfd9a843fc1677b0efb08053c6ba9fd686a0de1a6f5382fd3c220915"
+    },
+    {
+      "path": "FETCH_METADATA.json",
+      "kind": "local_provenance_or_consultation",
+      "bytes": 3578,
+      "sha256": "d365f6c5ce8e75a2b5228228d1a8ee43005fee02117194d52eee246b7d5fa738"
+    },
+    {
+      "path": "TRANSFER_CORRECTION.json",
+      "kind": "local_provenance_or_consultation",
+      "bytes": 2207,
+      "sha256": "f2053616b81d6e04c424745b4a85b5f78500db42a9ad71b40b6564d8ed433f2e"
+    },
+    {
+      "path": "CONSULTATION.md",
+      "kind": "local_provenance_or_consultation",
+      "bytes": 11319,
+      "sha256": "d7f4c4043fcd0ef97a8d42a9e681c25893a1d66087d1dc99b47fdc9a3b972b1e"
+    },
+    {
+      "path": "MANIFEST_BUILD_ERROR.json",
+      "kind": "local_provenance_or_consultation",
+      "bytes": 299,
+      "sha256": "5ee9d091b3454add71bc2f8491e43d31617cfcac0a991f811feb4619a475132d"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "purpose": "Exact plan-family source and bounded engineering interpretation of successful metadata; no native/model execution",
+  "upstream_commit": "78c290807ce710180111df227df3b7a4fe845452",
+  "upstream_release": "0.151.0",
+  "license": "Apache-2.0; LICENSE and NOTICE included",
+  "created_date": "2026-09-08",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 10926,
+      "sha256": "d17f227e4df5da1600391338865ce0f3055211760a36688f816941d58232d8dc",
+      "git_blob_sha1": "4606e72e042564097e8780d66c1d4dcb611869bd",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/LICENSE",
+      "access_date": "2026-09-07",
+      "transport_correction": null,
+      "materialized_from": "artifacts/GATE0_SUBSCRIPTION_SOURCE/20260907_001/LICENSE",
+      "reverified_date": "2026-09-08"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 242,
+      "sha256": "9d71575ecfd9a843fc1677b0efb08053c6ba9fd686a0de1a6f5382fd3c220915",
+      "git_blob_sha1": "2805899d56d0332d175cfc613c67d45d6f006db7",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/NOTICE",
+      "access_date": "2026-09-07",
+      "transport_correction": null,
+      "materialized_from": "artifacts/GATE0_SUBSCRIPTION_SOURCE/20260907_001/NOTICE",
+      "reverified_date": "2026-09-08"
+    },
+    {
+      "path": "codex-rs/protocol/src/account.rs",
+      "bytes": 9130,
+      "sha256": "8a24048aa3bcd3fa64b971626eeb25166c5f93c80b921f19b6af7dedd9b84080",
+      "git_blob_sha1": "d9aa9ebf5732a4c22a9afc45f888c9b5c115df98",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/protocol/src/account.rs",
+      "access_date": "2026-09-08",
+      "transport_correction": null
+    },
+    {
+      "path": "CONSULTATION.md",
+      "bytes": 5178,
+      "sha256": "c787ee8f43becea1006f1300c1a5fb98017c76ec5bf8345669f3b8dc2560e9d8",
+      "kind": "local_consultation"
+    },
+    {
+      "path": "GIT_TREE_PROVENANCE.json",
+      "bytes": 945,
+      "sha256": "ceb2ce6395eaf3bc621f2ed68c3f8225d000ba0f62026be4d9f6cc49c3c08ecd",
+      "kind": "upstream_tree_route_receipt"
+    }
+  ]
+}

@@ -9,7 +9,7 @@
   "default_experiment_wallclock_seconds": 300,
   "unattended_model_use_allowed": false,
   "authoritative_usage_reading": null,
-  "usage_status": "unverified; never infer percentages from elapsed time or token counts",
+  "usage_status": "Live native Codex bucket observed and retained separately; hosted ChatGPT allowance remains unavailable. Never extrapolate between products/buckets or infer usage from elapsed time/token counts.",
   "extra_spending_allowed": false,
   "provider_plan_user_report": "OpenAI ChatGPT Ultra, GPT-6 Astra Ultra; allowance shared with light personal use",
   "effort_policy": {
@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-08T16:55:06.815444+00:00",
+  "updated_utc": "2026-09-08T20:13:13.499151+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -118,22 +118,7 @@
     },
     "rerun_needed": false
   },
-  "next_operational_test": {
-    "name": "Explicit corrected notification parser under existing post-login metadata approval",
-    "permission_scope": {
-      "path": "configs/GATE0_POSTLOGIN_SCOPE_016.json",
-      "sha256": "fbd7ca325593c9c8de5573417faf1381dbf669b80218f85e4a31ae519beacc61"
-    },
-    "permission_status": "approved at 6cae5d3c8f1ac3ed2745415924eb478ee53e5951; no wider grant needed for mechanical correction",
-    "synthetic_prerequisite": "reuse accepted passing original report and unchanged source/executable; not a fresh kernel attestation",
-    "native_protocol_and_cleanup_seconds": 90,
-    "per_method_seconds": 20,
-    "model_turn_requests": 0,
-    "completed_actual_attempts": 1,
-    "next_actual_attempt": 2,
-    "maximum_attempts_this_invocation": 1,
-    "repeat_policy": "explicit --run-repaired-metadata only; complete corrected report reused; partial stops; original command reopens original report; publication retries separate"
-  },
+  "next_operational_test": null,
   "completed_native_signin": {
     "receipt": {
       "path": "evidence/GATE0_HUMAN_SIGNIN_015_RECEIPT_REVIEW.json",
@@ -152,6 +137,85 @@
     "synthetic_boundary_passed": true,
     "native_initialize_passed": true,
     "account_limits_model_metadata_observed": false,
-    "rerun_original_command": false
+    "rerun_original_command": false,
+    "historical_failed_attempt_preserved": true
+  },
+  "authoritative_usage_reading_scope": "Hosted ChatGPT conversation allowance; unavailable to this runtime.",
+  "native_codex_usage_observation": {
+    "receipt": {
+      "path": "artifacts/GATE0_POSTLOGIN_REPAIR_OBSERVATIONS/20260908_001/REPORT.json",
+      "sha256": "ab6b731d21a3e161e43e33b6db011db93037030e56d8bd40bfbd50cd2070b9c6"
+    },
+    "observed_utc": "2026-09-08T19:51:25.707096+00:00",
+    "scope": "Named codex bucket returned by successful account/rateLimits/read in the native configured backend. Historical snapshot; not a continuing reservation.",
+    "snapshot": {
+      "response_shape_recognized": true,
+      "codex_bucket_observed": true,
+      "codex_snapshots": {
+        "explicit_codex_map_entry": {
+          "primary": {
+            "present": true,
+            "shape_recognized": true,
+            "usedPercent": 1,
+            "windowDurationMins": 10080,
+            "resetsAt": 1789490427
+          },
+          "secondary": {
+            "present": false,
+            "shape_recognized": true
+          }
+        },
+        "explicit_codex_legacy_entry": {
+          "primary": {
+            "present": true,
+            "shape_recognized": true,
+            "usedPercent": 1,
+            "windowDurationMins": 10080,
+            "resetsAt": 1789490427
+          },
+          "secondary": {
+            "present": false,
+            "shape_recognized": true
+          }
+        }
+      },
+      "unrecognized_bucket_count": 2,
+      "legacy_bucket_identity_recognized": true,
+      "scope": "Codex_rate_limit_metadata_returned_by_account_rateLimits_read",
+      "hosted_chatgpt_allowance_verified": false,
+      "requested_model_entitlement_verified": false,
+      "reset_credits_used": false,
+      "unattended_model_use_authorized": false
+    },
+    "hosted_chatgpt_allowance_verified": false,
+    "selected_model_limit_verified": false,
+    "provider_display_crosscheck_completed": false
+  },
+  "completed_postlogin_metadata": {
+    "name": "Corrected017 post-login metadata operation",
+    "result": {
+      "path": "evidence/GATE0_POSTLOGIN_REPAIR_017_OBSERVATION_REVIEW.json",
+      "sha256": "9ace019b17493d9b4a2b9cda945acf49131fd32ac010ad9b7ce932b1159cff03"
+    },
+    "reported_status": "OBSERVED_POSTLOGIN_METADATA_ONLY",
+    "completed_actual_attempts": 2,
+    "next_actual_attempt": null,
+    "all_fixed_responses_succeeded": true,
+    "model_calls": 0,
+    "rerun_needed": false
+  },
+  "prepared_reviewer_helpers": {
+    "source": {
+      "path": "scripts/p3_reviewer_profile.py",
+      "sha256": "669da4f8bae0cac3f43433ebc2b462da607be631b259d7ff08919b8f1130991f"
+    },
+    "validation": {
+      "path": "artifacts/P3_REVIEWER_PROFILE_VALIDATION/20260908_001/REPORT.json",
+      "sha256": "acbc599a337845e585af8cec04fd72af44cdb7d10321c1ae4329fce6120613a4"
+    },
+    "native_controller_implemented": false,
+    "next_action": "Integrate finite controller and concrete budgets before proposing human execution; use needed startup for model catalog, no standalone account/cache probe.",
+    "unattended_model_use_authorized": false,
+    "extra_spending_allowed": false
   }
 }

@@ -1,0 +1,37 @@
+[
+  {
+    "path": "codex-rs/core/src/tools/handlers/send_user_message_async.rs",
+    "initial_local_sha256": "cf884c7472044ff650dda8a33028871ce11854cbf2b0ef4c25eb7dbdf07ed3b5",
+    "initial_git_blob": "228f0a4d5556141d3555302ee1eae916c8de2fb9",
+    "reason": "apply_patch serialization added one terminal LF; corrected only after removing exactly one LF matched advertised Git blob",
+    "corrected_git_blob": "8de41adf9b106061a5a0a3e78b2d637ea2670ff5"
+  },
+  {
+    "path": "codex-rs/core/src/tools/handlers/test_sync.rs",
+    "initial_local_sha256": "666dc43408a0990c788b70eaf3fc97d67336f40dee07c289a8307011148e1894",
+    "initial_git_blob": "c021e7d709eabf92adba91033bd3b27ffb5c01c7",
+    "reason": "apply_patch serialization added one terminal LF; corrected only after removing exactly one LF matched advertised Git blob",
+    "corrected_git_blob": "f9f15f01ad691fbd9e6ed8220befecfc4bbe3445"
+  },
+  {
+    "path": "codex-rs/core/src/thread_manager.rs",
+    "initial_local_sha256": "142486d38265e5fecec311a820e021f789d2b43c46d3686422fd7800f8f8ec48",
+    "initial_git_blob": "6606628d8e67db25e8829d38c9986894fe885407",
+    "reason": "apply_patch serialization added one terminal LF; corrected only after removing exactly one LF matched advertised Git blob",
+    "corrected_git_blob": "333e59d2d0b0a32f3346e6d00ae9a7e4bb5b39cf"
+  },
+  {
+    "path": "codex-rs/core/src/tools/code_mode/mod.rs",
+    "initial_local_sha256": "c7b93f44fd928074d0ad6cf3a738e8c6010b537c923eda0b810261395e35186e",
+    "initial_git_blob": "fc24542ed67652ab9023149087cae5f93095b217",
+    "reason": "apply_patch serialization added one terminal LF; corrected only after removing exactly one LF matched advertised Git blob",
+    "corrected_git_blob": "1465766a82f6059b3af4e0fcfd633ad08051fee6"
+  },
+  {
+    "path": "codex-rs/code-mode/src/remote_session.rs",
+    "initial_local_sha256": "091d2ec926d64475e6e8dfc508e3de4f1582852b8b79e4bb07cf49aaa7fcab47",
+    "initial_git_blob": "ca77f467673e8e608a226a0503764c9d7f14fec9",
+    "reason": "apply_patch serialization added one terminal LF; corrected only after removing exactly one LF matched advertised Git blob",
+    "corrected_git_blob": "fb38e2899e441474f615f6cbbafd15e30c6ed9a8"
+  }
+]

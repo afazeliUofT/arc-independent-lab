@@ -1,0 +1,19 @@
+{
+  "kind": "GATE0_REVIEWER_SOURCE_RECHECK_018_v1",
+  "checked_utc": "2026-09-08T20:07:55.036297+00:00",
+  "archives": [
+    {
+      "path": "artifacts/GATE0_ACCOUNT_PLAN_SOURCE/20260908_001/MANIFEST.json",
+      "sha256": "f47ece02e29f93aeb14cc08ea1fc53109e13eb197465699c9ba6a4f516c70704",
+      "files_reverified": 5
+    },
+    {
+      "path": "artifacts/GATE0_REVIEWER_EFFECT_SOURCE/20260908_001/MANIFEST.json",
+      "sha256": "88f6567051f17865584d5b0a90c9d655c3c0819b77a25d636333eb71363cdee1",
+      "files_reverified": 15
+    }
+  ],
+  "method": "Rehashed every archived member and verified recorded Git blob IDs. Root read relevant account eligibility, configuration resolver, disabled provider selection and direct-only tool exposure source.",
+  "actual_native_or_model_execution": false,
+  "independent_scientific_verdict": false
+}

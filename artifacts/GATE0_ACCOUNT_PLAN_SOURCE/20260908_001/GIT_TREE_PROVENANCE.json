@@ -1,0 +1,35 @@
+{
+  "upstream_commit": "78c290807ce710180111df227df3b7a4fe845452",
+  "access_date": "2026-09-08",
+  "route": [
+    {
+      "mode": "040000",
+      "path": "codex-rs",
+      "sha": "906ef093455d3172292cd9a60b0f6b4a28d8d1cf",
+      "tree_sha": "78c290807ce710180111df227df3b7a4fe845452",
+      "type": "tree"
+    },
+    {
+      "mode": "040000",
+      "path": "protocol",
+      "sha": "fa1f635a223375446976459cb677415d1b6ccba8",
+      "tree_sha": "906ef093455d3172292cd9a60b0f6b4a28d8d1cf",
+      "type": "tree"
+    },
+    {
+      "mode": "040000",
+      "path": "src",
+      "sha": "93a88765c79012ffbd9e3b7dbc751eba28fa80ba",
+      "tree_sha": "fa1f635a223375446976459cb677415d1b6ccba8",
+      "type": "tree"
+    },
+    {
+      "mode": "100644",
+      "path": "account.rs",
+      "sha": "d9aa9ebf5732a4c22a9afc45f888c9b5c115df98",
+      "size": 9130,
+      "tree_sha": "93a88765c79012ffbd9e3b7dbc751eba28fa80ba",
+      "type": "blob"
+    }
+  ]
+}

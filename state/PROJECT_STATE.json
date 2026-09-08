@@ -1,23 +1,22 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-08T16:55:06.815444+00:00",
+  "updated_utc": "2026-09-08T20:13:13.499151+00:00",
   "current_gate": "P3",
   "gate_status": "in_progress",
   "gate_entered_utc": "2026-09-06T20:14:12.138443+00:00",
   "last_verified_gate": "P2",
-  "last_verified_commit": "6cae5d3c8f1ac3ed2745415924eb478ee53e5951",
+  "last_verified_commit": "e0cd916249990c1a5993a8adefba12c893f9c60d",
   "active_task": {
-    "id": "P3.9",
-    "description": "Complete approved metadata observation with corrected notification parser",
+    "id": "P3.10",
+    "description": "Accept successful metadata and prepare restrictive reviewer profile/catalog helpers",
     "attempt": 1,
-    "next_actual_attempt": 2,
-    "escalation_level": 1,
-    "status": "source defect reproduced and correction verified; awaiting explicit human repair command"
+    "status": "completed; checkpoint018 publication prepared next",
+    "native_attempts_performed_by_assistant": 0
   },
   "blocked_on": null,
-  "next_action": "Verify human checkpoint017 against base 6cae5d3c8f1ac3ed2745415924eb478ee53e5951 and exact manifest/payload while preserving overlays. Existing APPROVE_G0_POSTLOGIN_016 scope SHAfbd7ca325593c9c8de5573417faf1381dbf669b80218f85e4a31ae519beacc61 is archived and accepted; do not ask again. User runs canonical scripts/gate0_postlogin_metadata.py --run-repaired-metadata, which validates preserved original failed receipt SHA4aa0757da0d56a4db65ca7a33cf15d7454129c21fab7283457261d3a8ebcbba7 and reuses passed prerequisite, writing delivery/GATE0_POSTLOGIN_METADATA_016_REPAIR_001. Validate new report pins, typednotification shape, request/result progression and host checks. Old--run-metadata onlyreopensoriginal; no repeat sign-in/canary. If anotherfailure, use safe reportshape and exactsource; no rawcredential/native transcript request. No scientificmodeluntilactualreviewerboundary/policy/access established. Keep frozen novelty/residual audit and acquisition question as scientific nextdecision; no general infrastructure expansion.",
+  "next_action": "Verify human checkpoint018 against exact full manifest/payload at base e0cd916249990c1a5993a8adefba12c893f9c60d while preserving local overlays. REPORT(6) is accepted; never rerun passing sign-in/account/canary or launch a standalone cache probe. Implement P3.11 finite reviewer controller using existing p3_review_broker/protocol and scripts/p3_reviewer_profile.py; use cli_override_arguments (TOML table syntax, not json.dumps for structured values). Read effect-source CONSULTATION and profile validation. Keep effective boolean code_mode_host=false, structured direct-only broker namespace, other restrictions, original config/auth/policy sources and empty environments. During necessary native startup retain full filtered model catalog, bind acceptable actual model/provider/highest effort, verify policy/source-sensitive control winners and observe synthetic restrictions before fresh scientific input. Freeze/check packet hashes, bound runtime/output/calls, preserve raw reviewer verdict; no resume/fork/inherited PI context. Prepare concrete scope and controller before any genuinely new native auth-write exception; scope016 completed metadata grant is not general reviewer permission. No assistant commit/push, paid API, unattended model use, lower-model substitution by convenience, or control weakening. Scientific next decision remains separate component/joint/observer review, followed by explicit acquisition-focused ideation return if reductions survive.",
   "open_questions": [
-    "Corrected metadata attempt needed: original attempt initialized but framing failed before account/config/limits/catalog responses. Reviewer access, model entitlement, applicable policy and full tool/context independence remain unverified.",
+    "Actual finite reviewer controller, model/effort admission and empirical context/tool boundary remain unfinished. Successful account/metadata observation and observed-Pro cloud-bundle applicability are closed; no repeat probes needed.",
     "Formal separate dispositions for C1/C2/C3/C4, joint proposition and observer diagnostic remain pending enforced review.",
     "Whole-wrapper historical identity is unestablished; no novel complete joint algorithm or resource advantage specified.",
     "Observer supplied-contract discovery/invocation and broader practical prevalence remain open; exact recovery does not imply numerical robustness.",
@@ -62,8 +61,8 @@
     "P3"
   ],
   "remote": "https://github.com/afazeliUofT/arc-independent-lab",
-  "durability_status": "Published016 and exact approval verified; checkpoint017 prepared for human publication with failure evidence, source diagnosis and tested repair.",
-  "commit_status": "Hosted HEAD/index adopt human approval commit6cae5d3c8f1ac3ed2745415924eb478ee53e5951; assistant made no commit/push.",
+  "durability_status": "Human checkpoint017 verified on GitHub. Checkpoint018 preserves accepted successful receipt, source closure and tested pure reviewer helpers; pending human publication.",
+  "commit_status": "Hosted HEAD/index adopt human e0cd916249990c1a5993a8adefba12c893f9c60d. Current018 work is an uncommitted overlay for user-executed publication; no assistant commit/push.",
   "recovery_dependency": null,
   "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation.",
   "latest_recovery_evidence": [
@@ -81,7 +80,7 @@
     }
   ],
   "private_error_log_handling": "Probe raw error output stays within laptop Git metadata, outside normal commits. Request only safe terminal report; never ask for credentials or publish raw transport logs.",
-  "foreground_execution_note": "Sign-in complete. Original native post-login attempt failed during framing after initialization. Corrected attempt awaits explicit human command; no model or scientific review performed.",
+  "foreground_execution_note": "Native sign-in and corrected bounded authenticated metadata completed on laptop. No scientific reviewer/model has run. Pure reviewer profile/catalog helpers passed offline tests; complete controller integration remains next.",
   "scientific_status": "Residual novelty audit complete as PI analysis with explicit C4 reconstruction and joint-priority corrections. Observer readout reduces to residualization; query identifiability/conditioning delimited. Independent review and measured PROGRAMME remain outstanding.",
   "latest_scientific_evidence": [
     {
@@ -115,10 +114,10 @@
   ],
   "handoff_backup_status": "Prior runtime upload limitation persists as unverified capability; no repeated failed upload. GitHub is the authorized durability bridge.",
   "latest_publication_verification": {
-    "path": "evidence/REMOTE_CHECKPOINT_016_AND_POSTLOGIN_APPROVAL_VERIFICATION.json",
-    "sha256": "71bfef12729e2e5f2e92e21b83f23cca50d2e9c4e6b63671c3ff055381b09276"
+    "path": "evidence/REMOTE_CHECKPOINT_017_VERIFICATION.json",
+    "sha256": "f574da597f91fc65106ac169ce4c49b3a62143c80b8288740a6a049b13eae4a5"
   },
-  "last_human_message_verbatim": "Attached is the requested report.",
+  "last_human_message_verbatim": "Here is the new report attached",
   "phase1_approval": {
     "verified_utc": "2026-09-06T18:51:56.227927+00:00",
     "source_url": "https://github.com/afazeliUofT/arc-independent-lab/blob/376455150af7b257809a56021431413b2e0c6293/state/ESCALATION.md",
@@ -159,7 +158,7 @@
     "path": "evidence/P3_RESIDUAL_REVIEW_MANIFEST.json",
     "sha256": "f7249d53060349fdfbaca2102672457e3e8966ef510d6853322b10da75762128"
   },
-  "factual_dependency_note": "No new approval needed for this same-scope protocol correction. ESCALATION is empty; existing approved scope archived and code-checked.",
+  "factual_dependency_note": "No human measurement or new approval requested for018. Completed metadata scope remains archived; concrete future reviewer operation must separately assess any genuinely new native auth-write exception.",
   "latest_inventory_receipt": {
     "path": "evidence/GATE0_INVENTORY_RUN_RECEIPTS_2026-09-07.json",
     "sha256": "4dd4a78189b9e3633c526e5a9c208aa11a09941920f1c0f3f4da92070e1df055"
@@ -169,7 +168,7 @@
     "remote_execution": "Linux shell on Narval",
     "canonical_laptop_project": "WSL ~/ARC_Independent_Lab"
   },
-  "last_human_message_summary": "REPORT(5).json is valid failure evidence: synthetic boundary passes, initialization succeeds, metadata reader rejects native notification envelope. Scope016 approval and checkpoint verified on GitHub.",
+  "last_human_message_summary": "REPORT(6).json accepted as successful corrected metadata. Repository017 exact tree verified.",
   "latest_capability_verification": {
     "path": "evidence/GATE0_CAPABILITY_INPUT_VERIFICATION_2026-09-07.json",
     "sha256": "6da38b2b47f6da6c5060f28bee745a4c85ab31538fac30566a776c208c51b559"
@@ -188,7 +187,7 @@
   },
   "reviewer_readiness": {
     "actual_command_enforcement": "observed for fixed v2 canary; completed",
-    "full_tool_boundary": "unverified; dynamic tools additive and model metadata can alter native registry",
+    "full_tool_boundary": "Source-supported disabled Code Mode provider and restricted profile prepared; actual reviewer context/tool enforcement remains unobserved.",
     "fresh_review_context": "not invoked",
     "formal_verdict": "absent",
     "shared_workspace_consultants": "not independent reviewers",
@@ -196,9 +195,18 @@
     "verifier_execution_dependencies": "complete; unchanged original checker reexecuted on declared original-inventory view, post-run metadata checked separately",
     "installed_static_interface": "recovered from data embedded in exact laptop executable; no client executed",
     "broker": "implemented; adversarial synthetic and actual historical-auditor integration passed",
-    "full_client_startup": "actual bounded no-model startup and account metadata completed; original-file checks passed; not full reviewer certification",
-    "contained_account": "unavailable; file backend observed, account null, authentication required",
-    "two_projected_tool_controls": "winning session-layer false values reported in accepted013 observation; actual full tool exposure remains separate"
+    "full_client_startup": "Bounded authenticated no-model metadata completed; exact source pins/launch plan and reported host checks verified. Not full reviewer certification.",
+    "contained_account": "ChatGPT Pro enum reported in contained session; separate live native Codex limits endpoint succeeded. Accepted017; no repeat signin/account check.",
+    "two_projected_tool_controls": "winning session-layer false values reported in accepted013 observation; actual full tool exposure remains separate",
+    "cloud_bundle_applicability": "Observed Pro account excluded by exact native eligibility source; this specific route resolved by source inference, not generic policy attestation.",
+    "prepared_profile": {
+      "path": "scripts/p3_reviewer_profile.py",
+      "sha256": "669da4f8bae0cac3f43433ebc2b462da607be631b259d7ff08919b8f1130991f"
+    },
+    "profile_validation": {
+      "path": "artifacts/P3_REVIEWER_PROFILE_VALIDATION/20260908_001/REPORT.json",
+      "sha256": "acbc599a337845e585af8cec04fd72af44cdb7d10321c1ae4329fce6120613a4"
+    }
   },
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
@@ -209,8 +217,8 @@
     "sha256": "374af08fd069efcc42a513560ae5849353e02f3c48ffc5046c0c9eb40ed5b455"
   },
   "latest_operational_findings": {
-    "path": "reports/P3_CHECKPOINT_017_STATUS.md",
-    "sha256": "cff09cadbcef87ad0c6e052de61a0822d0569c2bafce0acbd369ef9458b3f14a"
+    "path": "reports/P3_CHECKPOINT_018_STATUS.md",
+    "sha256": "fc2387167af928e1b16e48752630d7bfa01e2367be6d071348187cec62928ec7"
   },
   "hosted_output_integrity_note": "Earlier report/binary anomalies retained. Current validation also found a supposedly new directory already populated; cause unestablished, preserved and not overwritten. Operative validation succeeded in fresh UUID-suffixed directory with explicit return and hash. Final ZIP application/readback remains mandatory.",
   "review_input_core": {
@@ -222,13 +230,14 @@
     "sha256": "771c627268de321d6a0b56b3ec74bba0f8738e5809da9f5daf83ef8adec033ff"
   },
   "last_completed_operational_task": {
-    "id": "P3.9.attempt1",
+    "id": "P3.9.attempt2",
     "result": {
-      "path": "evidence/GATE0_POSTLOGIN_016_OBSERVATION_REVIEW.json",
-      "sha256": "eb9445c5383a981c0339edf74ae2168df69e5bc2fcb362107f91b2a96217081d"
+      "path": "evidence/GATE0_POSTLOGIN_REPAIR_017_OBSERVATION_REVIEW.json",
+      "sha256": "9ace019b17493d9b4a2b9cda945acf49131fd32ac010ad9b7ce932b1159cff03"
     },
-    "scope": "accepted failed protocol observation; no account or quota result",
-    "rerun_original_needed": false
+    "scope": "Accepted successful bounded authenticated metadata; no model or scientific review.",
+    "rerun_original_needed": false,
+    "rerun_corrected_needed": false
   },
   "last_completed_preparation_task": {
     "id": "P3.5",
@@ -276,8 +285,8 @@
     "complete_reviewer_boundary_verified": false
   },
   "latest_objective_review": {
-    "path": "reports/P3_CHECKPOINT_014_ACCEPTED_AND_NEXT_STEP.md",
-    "sha256": "7b7741275571b42c320ce97b688bbb08d601945561db6714224a4e5cb9ed5976"
+    "path": "reports/P3_CHECKPOINT_018_STATUS.md",
+    "sha256": "fc2387167af928e1b16e48752630d7bfa01e2367be6d071348187cec62928ec7"
   },
   "objective_continuity": {
     "read_each_substantive_turn": "docs/OBJECTIVE_CONTINUITY_2026-09-07.md",
@@ -339,7 +348,9 @@
     },
     "explicit_flag": "--run-repaired-metadata",
     "original_attempt_executed": true,
-    "actual_corrected_native_metadata_executed": false
+    "actual_corrected_native_metadata_executed": true,
+    "completed": true,
+    "rerun_needed": false
   },
   "postlogin_approval": {
     "commit": "6cae5d3c8f1ac3ed2745415924eb478ee53e5951",
@@ -348,7 +359,23 @@
     "approval_sha256": "73d96a954fa9f13d5d286f2153b46326577904412450996857c6e175af24214a"
   },
   "latest_postlogin_observation": {
-    "path": "evidence/GATE0_POSTLOGIN_016_OBSERVATION_REVIEW.json",
-    "sha256": "eb9445c5383a981c0339edf74ae2168df69e5bc2fcb362107f91b2a96217081d"
+    "path": "evidence/GATE0_POSTLOGIN_REPAIR_017_OBSERVATION_REVIEW.json",
+    "sha256": "9ace019b17493d9b4a2b9cda945acf49131fd32ac010ad9b7ce932b1159cff03"
+  },
+  "latest_reviewer_preparation": {
+    "source": {
+      "path": "scripts/p3_reviewer_profile.py",
+      "sha256": "669da4f8bae0cac3f43433ebc2b462da607be631b259d7ff08919b8f1130991f"
+    },
+    "validation": {
+      "path": "artifacts/P3_REVIEWER_PROFILE_VALIDATION/20260908_001/REPORT.json",
+      "sha256": "acbc599a337845e585af8cec04fd72af44cdb7d10321c1ae4329fce6120613a4"
+    },
+    "effect_source": {
+      "path": "artifacts/GATE0_REVIEWER_EFFECT_SOURCE/20260908_001/MANIFEST.json",
+      "sha256": "88f6567051f17865584d5b0a90c9d655c3c0819b77a25d636333eb71363cdee1"
+    },
+    "controller_ready_for_execution": false,
+    "actual_reviewer_enforcement_observed": false
   }
 }

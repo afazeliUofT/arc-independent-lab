@@ -1,0 +1,25 @@
+{
+  "kind": "P3_REVIEWER_PROFILE_VALIDATION_v1",
+  "created_utc": "2026-09-08T20:11:42.752784+00:00",
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-I",
+    "-B",
+    "tests/test_p3_reviewer_profile.py",
+    "-v"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_cursor_is_not_retained_and_partial_page_is_not_complete (__main__.CatalogTests.test_cursor_is_not_retained_and_partial_page_is_not_complete) ... ok\ntest_duplicate_identifiers_and_resource_bounds_refused (__main__.CatalogTests.test_duplicate_identifiers_and_resource_bounds_refused) ... ok\ntest_every_model_retained_without_silent_selection (__main__.CatalogTests.test_every_model_retained_without_silent_selection) ... ok\ntest_hidden_inclusion_is_caller_observation_not_inferred_from_page (__main__.CatalogTests.test_hidden_inclusion_is_caller_observation_not_inferred_from_page) ... ok\ntest_hostile_identifiers_refused_without_echo (__main__.CatalogTests.test_hostile_identifiers_refused_without_echo) ... ok\ntest_open_schema_unknown_fields_discarded_without_echo (__main__.CatalogTests.test_open_schema_unknown_fields_discarded_without_echo) ... ok\ntest_optional_nulls_and_unselected_text_are_not_retained (__main__.CatalogTests.test_optional_nulls_and_unselected_text_are_not_retained) ... ok\ntest_required_null_or_wrong_shape_metadata_refused (__main__.CatalogTests.test_required_null_or_wrong_shape_metadata_refused) ... ok\ntest_selected_field_contract_matches_exact_embedded_schema (__main__.CatalogTests.test_selected_field_contract_matches_exact_embedded_schema) ... ok\ntest_unknown_efforts_suppressed_not_mapped_to_fallback (__main__.CatalogTests.test_unknown_efforts_suppressed_not_mapped_to_fallback) ... ok\ntest_changed_schema_or_nested_conflict_refused (__main__.ProfileTests.test_changed_schema_or_nested_conflict_refused) ... ok\ntest_cli_strings_preserve_escaping_unicode_and_shell_metacharacters (__main__.ProfileTests.test_cli_strings_preserve_escaping_unicode_and_shell_metacharacters) ... ok\ntest_enabled_or_missing_base_control_refused (__main__.ProfileTests.test_enabled_or_missing_base_control_refused) ... ok\ntest_every_final_cli_override_roundtrips_as_toml (__main__.ProfileTests.test_every_final_cli_override_roundtrips_as_toml) ... ok\ntest_invalid_cli_keys_values_and_surrogates_refused (__main__.ProfileTests.test_invalid_cli_keys_values_and_surrogates_refused) ... ok\ntest_overlay_preserves_base_and_adds_only_exact_controls (__main__.ProfileTests.test_overlay_preserves_base_and_adds_only_exact_controls) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.030s\n\nOK\n",
+  "files": [
+    {
+      "path": "scripts/p3_reviewer_profile.py",
+      "sha256": "669da4f8bae0cac3f43433ebc2b462da607be631b259d7ff08919b8f1130991f"
+    },
+    {
+      "path": "tests/test_p3_reviewer_profile.py",
+      "sha256": "b92375fb1dfe0aac29df34026975d7d9a04f874e2842db5a095a0d58bfd64fa6"
+    }
+  ],
+  "scope": "Targeted offline pure-helper and exact-schema/TOML checks only; no runtime native process, real account, network, model, full client boundary or independent scientific verdict."
+}
