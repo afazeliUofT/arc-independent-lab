@@ -27,3 +27,7 @@ scope_sha256: fbd7ca325593c9c8de5573417faf1381dbf669b80218f85e4a31ae519beacc61
 ```
 
 After the answer is committed and pushed, run the canonical wrapper with `--run-metadata` and share only its `REPORT.json`. The handoff instructions provide exact commands, including folder-opening commands. If you decline, put that decision in an actual ANSWER section; no client will be launched.
+
+## ANSWER
+APPROVE_G0_POSTLOGIN_016
+scope_sha256: fbd7ca325593c9c8de5573417faf1381dbf669b80218f85e4a31ae519beacc61
