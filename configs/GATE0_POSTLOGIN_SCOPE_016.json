@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "scope_id": "GATE0_POSTLOGIN_SCOPE_016",
+  "approval_id": "APPROVE_G0_POSTLOGIN_016",
+  "date": "2026-09-08",
+  "purpose": "One human-launched finite native account, policy-projection, Codex-limit and model-catalog metadata observation; no model turn or scientific review.",
+  "canonical_home": "/home/afazeli2006",
+  "canonical_project": "/home/afazeli2006/ARC_Independent_Lab",
+  "runtime_sha256": "9739cbc928b9c573be83256acd46668f5dd4f119d2d09e05246895ca2aaf0c9a",
+  "bwrap_sha256": "52231e1caf55bcbc667b269f49c63599a6f7db4767ae6a039580d0ff853db712",
+  "signin_receipt_path": "artifacts/GATE0_HUMAN_SIGNIN_OBSERVATIONS/20260907_001/REPORT.json",
+  "signin_receipt_sha256": "3293ab230f5c9e3f32f5bbd4f6a45abe2d603021ec08d6bc7af0dea230020a0c",
+  "prelogin_report_path": "artifacts/GATE0_ACCOUNT_METADATA_OBSERVATIONS/20260907_001/REPORT.json",
+  "prelogin_report_sha256": "ba597b20b890d183edb10b76707d71798bd293013cc4fc03de9d77cd0de1d0f9",
+  "report_directory": "delivery/GATE0_POSTLOGIN_METADATA_016",
+  "maximum_process_seconds": 90,
+  "maximum_cleanup_seconds": 4,
+  "model_turns": 0,
+  "authorized_native_effects": [
+    "Before native credential access, one local synthetic bubblewrap test checks exact fake-file writes and parent/read-only-file denials. It uses no real credential or network request and stops the native check if it fails.",
+    "The pinned installed Codex client may read and update only the existing /home/afazeli2006/.codex/auth.json through a same-path writable file mount for its normal credential refresh. Its parent directory remains unwritable; parent Python never opens, hashes, copies or exports credential contents.",
+    "The bounded native process may use inherited host networking for account authentication/refresh and startup or requested metadata services. This is not an enforced network endpoint allowlist.",
+    "Existing configuration, managed-policy origins, cloud-policy/model caches, resolver and CA inputs are preserved as exact read-only file inputs. No HOME, CODEX_HOME, backend, account security or managed-policy setting is changed.",
+    "Other writable mounts are the fixed fresh project runtime directories and a private project-backed copy of the same existing nonsecret installation identifier. The original identifier is not writable.",
+    "The parent may send only initialize, initialized, config/read, configRequirements/read, account/read with refreshToken false, account/rateLimits/read and one model/list page. Native startup can perform its own metadata/authentication work.",
+    "Only filtered nonsecret report fields are shared. A completed report is reused, never remeasured merely because publication failed."
+  ],
+  "forbidden_actions": [
+    "No assistant or parent access to credential values; no credential copy, backup, content hash, export, upload, publication or raw native output capture in a report.",
+    "No native login/logout or account replacement requested; no thread, model turn, prompt, scientific input, credit/reset consumption, paid API usage, purchases or new spending.",
+    "No full home/Codex-home write or read grant, session-bus socket, other-programme access, background supervisor or unattended model continuation.",
+    "No automatic retry, permission expansion, client upgrade, configuration repair, removal of a partial attempt or repeated completed observation."
+  ],
+  "limitations": [
+    "Native credential persistence truncates and writes in place. Interruption or I/O failure during this native operation can leave an incomplete credential file; the wrapper does not copy credentials to conceal that client limitation.",
+    "A Codex limit response is not an authoritative hosted-ChatGPT allowance reading. A model catalog entry is not a successful model invocation or full entitlement proof.",
+    "Effective policy projection is observed but cloud-policy closure and the full scientific reviewer tool boundary remain unverified."
+  ],
+  "approval_protocol": "After publishing checkpoint016, human appends one actual ## ANSWER section containing only APPROVE_G0_POSTLOGIN_016 and scope_sha256: <hash of this exact file> to state/ESCALATION.md, commits/pushes the answer, then launches the canonical script with --run-metadata. Default inspection needs no new approval.",
+  "synthetic_boundary_seconds": 10,
+  "synthetic_boundary_cleanup_seconds": 2
+}

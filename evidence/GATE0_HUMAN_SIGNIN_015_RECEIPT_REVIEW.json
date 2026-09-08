@@ -1,0 +1,28 @@
+{
+  "kind": "GATE0_HUMAN_SIGNIN_015_RECEIPT_REVIEW_v1",
+  "reviewed_utc": "2026-09-07T23:54:16.944807+00:00",
+  "report_path": "artifacts/GATE0_HUMAN_SIGNIN_OBSERVATIONS/20260907_001/REPORT.json",
+  "report_sha256": "3293ab230f5c9e3f32f5bbd4f6a45abe2d603021ec08d6bc7af0dea230020a0c",
+  "published_base": "aef4f9edbf0fb6288a80dd37a69151fc195936ab",
+  "pins": {
+    "scope_sha256": "6020d46ae6818f6c15341a7074ea4f7306b3764d8c64a92d0dcce745ed1c7ccd",
+    "wrapper_sha256": "6afaa0d36ee3162a5043b3252757b49acfb669944951ac1ccdeb200ba0a75f63",
+    "observed_report_sha256": "ba597b20b890d183edb10b76707d71798bd293013cc4fc03de9d77cd0de1d0f9",
+    "runtime_sha256": "9739cbc928b9c573be83256acd46668f5dd4f119d2d09e05246895ca2aaf0c9a",
+    "source_manifest_sha256": "f67702c332474b345fa7579ccd4947ffbd7081ac01641dcbe6843447f91baf8d"
+  },
+  "schema_and_provenance_match": true,
+  "reported_native_exit_success": true,
+  "reported_credential_path_present": true,
+  "user_reports_browser_signin_complete": true,
+  "model_invoked_by_wrapper": false,
+  "account_live_verified": false,
+  "allowance_verified": false,
+  "reviewer_boundary_verified": false,
+  "limitations": [
+    "User-supplied receipt validated against published wrapper; execution is not independently attested.",
+    "Native exit and path presence do not prove provider entitlement, managed policy closure or authenticated model request.",
+    "No credential contents/hash or raw native output requested or accessed."
+  ],
+  "next_action": "Prepare a separate finite post-login observation; preserve completed015 and013 receipts and never rerun them for publication retries."
+}

@@ -1,0 +1,63 @@
+{
+  "kind": "GATE0_POSTLOGIN_UNIT_VALIDATION_v1",
+  "created_utc": "2026-09-08T00:10:27.217465+00:00",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-I",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_gate0_postlogin*.py",
+    "-v"
+  ],
+  "exit_code": 0,
+  "sources": [
+    {
+      "path": "scripts/gate0_postlogin_boundary.py",
+      "sha256": "aab4cb14a30bb1ee9f7b1e0d983f54fe509977bdc9d8aad7a4d8e54fbec6d20f"
+    },
+    {
+      "path": "scripts/gate0_postlogin_metadata.py",
+      "sha256": "dd6d7950ed9f811a3a1325e7fec288142a1fd69fa84855dbe9ed2bac544d72a7"
+    },
+    {
+      "path": "scripts/gate0_postlogin_protocol.py",
+      "sha256": "f26b0e7513f57fa521591c5991dcfd2f1f89cad9f5bd8861e3a3a2108a8a75fa"
+    },
+    {
+      "path": "tests/test_gate0_postlogin_boundary.py",
+      "sha256": "9dadf6a4e4a0844e2572a19478409ba5d82ead1fe3c72961ccf275c031402222"
+    },
+    {
+      "path": "tests/test_gate0_postlogin_metadata.py",
+      "sha256": "0157c2363dda2049974ab11c02fa50efe7f4d0eb3de7064b613e27cf6b4c41e3"
+    },
+    {
+      "path": "tests/test_gate0_postlogin_protocol.py",
+      "sha256": "4ddb732f86bbfae51226c9d863d347e9e8493648193b2449c4c7215bc24820bd"
+    }
+  ],
+  "bundle_pins_validated": {
+    "scope_sha256": "fbd7ca325593c9c8de5573417faf1381dbf669b80218f85e4a31ae519beacc61",
+    "wrapper_sha256": "dd6d7950ed9f811a3a1325e7fec288142a1fd69fa84855dbe9ed2bac544d72a7",
+    "driver_sources": {
+      "scripts/gate0_client_preflight.py": "a4d0c4be8d6ade00f82285381dfa68e0310146fca300752bac3fac74d6bd3038",
+      "scripts/gate0_client_mount_plan.py": "4500a10227a5209a525e5ab7534a1bd2e55e3574c91381c584e5a99c7095a107",
+      "scripts/gate0_config_controls.py": "9dc478ba6c68e32be69079e154dde1f3debd4d8dbd998f7648577b5df2c4bf8d",
+      "scripts/gate0_account_metadata.py": "13f4e87a7da463b6915f49df4f97b2cea271a7e8de9f16b21281db50842dac76",
+      "scripts/gate0_postlogin_protocol.py": "f26b0e7513f57fa521591c5991dcfd2f1f89cad9f5bd8861e3a3a2108a8a75fa",
+      "scripts/gate0_postlogin_boundary.py": "aab4cb14a30bb1ee9f7b1e0d983f54fe509977bdc9d8aad7a4d8e54fbec6d20f"
+    },
+    "signin_receipt_sha256": "3293ab230f5c9e3f32f5bbd4f6a45abe2d603021ec08d6bc7af0dea230020a0c"
+  },
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "4747f11ec7d26f04dffd979aa2cf77006aa5415f427d99e347fd68c20f7fb4ef",
+  "actual_native_codex_invoked": false,
+  "real_credentials_accessed": false,
+  "network_requests_sent": false,
+  "formal_scientific_verdict": false
+}

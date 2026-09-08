@@ -1,0 +1,56 @@
+{
+  "kind": "GATE0_POSTLOGIN_ENGINEERING_MANIFEST_v1",
+  "created_utc": "2026-09-08T00:12:44.310606+00:00",
+  "controlling_unit_validation": "unit_validation_002/REPORT.json",
+  "controlling_validation_sha256": "c5613ba3d2cd4927aba8b4513702f24029006a0c24a2c4ac0cf97b92a094e3bd",
+  "tests_passed": 35,
+  "synthetic_real_namespace_attempt": "blocked before child: hosted proc setting unavailable",
+  "actual_wsl_native_metadata_run": false,
+  "formal_independent_verdict": false,
+  "files": [
+    {
+      "path": "boundary_attempt_001/COMMAND.json",
+      "sha256": "a9583ab0713199fbfd2cfab7d2618f8767d2e4ba2d6cf269631d30181e8b89ad"
+    },
+    {
+      "path": "boundary_attempt_001/REPORT.json",
+      "sha256": "b661006498dd4a3f1016b5ee00df1bf2f1fa8195ea285374bd6bc1558fd8fbc9"
+    },
+    {
+      "path": "boundary_attempt_001/stderr.txt",
+      "sha256": "9bc96225a95b371745bbf04d56b9ec5d83274f7a5b09596c0c5bf65955cbd8e4"
+    },
+    {
+      "path": "boundary_attempt_001/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "boundary_attempt_001/synthetic_child.py",
+      "sha256": "d6967dc9ee27d9973225df359400feda8f77e0ab533d9349692904756c479ef2"
+    },
+    {
+      "path": "unit_validation_001/REPORT.json",
+      "sha256": "952a3845a561a615ec3f17d454269fbda325c4033a88ab4585764f19e4379356"
+    },
+    {
+      "path": "unit_validation_001/stderr.txt",
+      "sha256": "a33288be45da23046b3de78288673a45840be4ef0ee6ee232f1b12c038276058"
+    },
+    {
+      "path": "unit_validation_001/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "unit_validation_002/REPORT.json",
+      "sha256": "c5613ba3d2cd4927aba8b4513702f24029006a0c24a2c4ac0cf97b92a094e3bd"
+    },
+    {
+      "path": "unit_validation_002/stderr.txt",
+      "sha256": "4747f11ec7d26f04dffd979aa2cf77006aa5415f427d99e347fd68c20f7fb4ef"
+    },
+    {
+      "path": "unit_validation_002/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

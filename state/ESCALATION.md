@@ -1,23 +1,29 @@
-# P3.8 — supported native sign-in exception
+# Native refresh access for the finite post-login check
 
-Date: 2026-09-07. No sign-in, new model call or scientific verdict has been executed.
+The sign-in receipt is accepted. This request extends only the native credential-management permission required by the next concrete check. It does not approve a model run or a scientific verdict.
 
-The account observation is complete and found no available cached account in the authorized reviewer namespace. The next scientific dependency is a genuinely separate, restricted fresh-context review of the frozen novelty audit. Repeating the passing setup probes will not resolve account access.
+The previous approved scope, `configs/GATE0_SIGNIN_SCOPE_015.json`, authorized one human sign-in. It did not authorize a subsequent client's credential writes. The containment and credential rules in `00_START_HERE.md` §7 and `04_RESOURCES_AND_SETUP.md` §7 therefore require this extension. Routine read-only metadata preparation has already been done without asking again.
 
-I request one human-operated native ChatGPT browser sign-in through the existing installed client, under the exact scope in `configs/GATE0_SIGNIN_SCOPE_015.json`:
+## Prepared action
 
-SHA-256 `6020d46ae6818f6c15341a7074ea4f7306b3764d8c64a92d0dcce745ed1c7ccd`.
+Run `scripts/gate0_postlogin_metadata.py --run-metadata` through the installed pinned client. Before native access, the same invocation checks a dummy-file boundary and stops if it fails. The native client can then update only its existing `/home/afazeli2006/.codex/auth.json` during normal token refresh. The directory stays unwritable, and parent Python never opens, copies, hashes or exports the credential. Other writes stay within the fresh project run.
 
-Why permission is required: `04_RESOURCES_AND_SETUP.md` section 6 and `03_AUTONOMY_SPEC.md` section 6, reasons 1 and 5, require an explicit exception for native credential-file storage and outside-project effects. The observed file backend writes `~/.codex/auth.json`; native logs/support files and browser session state can also change. Your existing full-laptop permission and request to minimize approvals do not explicitly remove that credential-storage rule. The guard refuses an existing auth file without reading it, changed provenance, or an occupied callback port. No credential copying, backend/policy/home change, API-key login, spending, model invocation or unattended run is included.
+This finite process uses inherited host networking for native authentication and metadata; it is not an endpoint allowlist. It requests account status, policy projection, Codex limits and a model-catalog page. No login, model turn, scientific prompt, credit/reset consumption, purchase or paid API use is requested. A completed report is reused.
 
-The concrete command, native cleanup/token-storage effects, safeguards, source evidence and report instructions are prepared in `docs/GATE0_HUMAN_SIGNIN_015.md`. This is a decision on a reviewable action, not a request to approve unspecified setup.
+Why the write grant matters: exact native source refreshes tokens before saving them. Live networking with read-only credentials could allow a server refresh and then prevent saving the result. The chosen grant supports the client's normal in-place save. That native save can be interrupted; the wrapper does not make a credential backup.
 
-**Answer by appending a section beginning `## ANSWER` to this same file, committing and pushing it.** To approve, follow that heading with a standalone line `APPROVE_G0_SIGNIN_015`, then a standalone line `scope_sha256: 6020d46ae6818f6c15341a7074ea4f7306b3764d8c64a92d0dcce745ed1c7ccd`. A copyable answer is provided in the sign-in instructions. The request itself contains no answer section.
+Exact scope: `configs/GATE0_POSTLOGIN_SCOPE_016.json`, SHA-256 `fbd7ca325593c9c8de5573417faf1381dbf669b80218f85e4a31ae519beacc61`.
+Wrapper: `scripts/gate0_postlogin_metadata.py`, SHA-256 `dd6d7950ed9f811a3a1325e7fec288142a1fd69fa84855dbe9ed2bac544d72a7`.
+Validation: `artifacts/GATE0_POSTLOGIN_ENGINEERING/20260908_001/MANIFEST.json`, SHA-256 `63435cd1fa5239bfc9d3fa45f8af57c7d8aae87d99455fef871449c49beb9e1c`. Synthetic tests pass; the hosted environment cannot run the real namespace check, so it is required in the same WSL invocation before credential access.
 
-Then pull that answer and run the guarded sign-in command in the linked instructions. The script checks this recorded approval. Share only its `REPORT.json`.
+## Answer protocol
 
-To decline, append `## ANSWER` followed by `DECLINE_G0_SIGNIN_015`. This access route will be suspended; the audit remains provisional and preserved. Any qualified answer will be read before choosing a different action. No permission to grade our own work is inferred.
+Publish checkpoint016 first. To approve, append the following as an actual section at the end of this file, then commit and push it. This fenced example is not an answer and cannot authorize the wrapper.
 
+```text
 ## ANSWER
-APPROVE_G0_SIGNIN_015
-scope_sha256: 6020d46ae6818f6c15341a7074ea4f7306b3764d8c64a92d0dcce745ed1c7ccd
+APPROVE_G0_POSTLOGIN_016
+scope_sha256: fbd7ca325593c9c8de5573417faf1381dbf669b80218f85e4a31ae519beacc61
+```
+
+After the answer is committed and pushed, run the canonical wrapper with `--run-metadata` and share only its `REPORT.json`. The handoff instructions provide exact commands, including folder-opening commands. If you decline, put that decision in an actual ANSWER section; no client will be launched.

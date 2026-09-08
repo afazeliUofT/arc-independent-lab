@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "verified_utc": "2026-09-07T23:25:11.366042+00:00",
+  "access_date": "2026-09-07",
+  "published_checkpoint_commit": "0291b949961fc90268ef960c9fa8ab0ef308a9c1",
+  "approval_commit": "aef4f9edbf0fb6288a80dd37a69151fc195936ab",
+  "source_url": "https://github.com/afazeliUofT/arc-independent-lab/commit/aef4f9edbf0fb6288a80dd37a69151fc195936ab",
+  "full_checkpoint_files_verified": 584,
+  "exact_payload_paths_verified": 37,
+  "manifest_sha256": "3507dae1b724fa23fbf9b93ca59bb1c34dbb5fea24d28bcb088515c2f3c83df2",
+  "review_manifests": [
+    {
+      "path": "evidence/P3_AUDIT_REVIEW_MANIFEST.json",
+      "sha256": "8d475e93aa21db5d7210f337c036e2705e3a4b83b6d99d43d715161d63b7e374"
+    },
+    {
+      "path": "evidence/P3_RESIDUAL_REVIEW_MANIFEST.json",
+      "sha256": "f7249d53060349fdfbaca2102672457e3e8966ef510d6853322b10da75762128"
+    }
+  ],
+  "approval_only_changed_path": "state/ESCALATION.md",
+  "approval_file_sha256": "84e6cb1769f1081ccbf2509d8d6e5295d1e0b1415b45ff4fadbf18a3c0117b89",
+  "scope_sha256": "6020d46ae6818f6c15341a7074ea4f7306b3764d8c64a92d0dcce745ed1c7ccd",
+  "archived_answer": "state/escalations/2026-09-07_NATIVE_SIGNIN_APPROVED.md",
+  "guard_accepted_exact_answer": true,
+  "working_overlays_preserved": {
+    "state/LEDGER.jsonl": {
+      "published_sha256": "529bdb01531f51b4a9ee6a7e7abcb5a073ddae7e2377cf05ce2ed1d4602acb84",
+      "working_sha256": "318c1301218ac1c99ec48b193c8563ae598fb7851ec017abe021eed45f3dd17e",
+      "appended_bytes": 429
+    }
+  },
+  "local_HEAD_and_index_adopt_human_approval_commit": true,
+  "assistant_commit_or_push": false,
+  "native_signin_executed": false,
+  "model_invoked": false
+}

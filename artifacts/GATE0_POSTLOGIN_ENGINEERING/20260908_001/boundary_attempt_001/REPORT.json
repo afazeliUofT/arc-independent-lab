@@ -1,0 +1,11 @@
+{
+  "exit_code": 1,
+  "timed_out": false,
+  "native_codex_executed": false,
+  "network_requests_sent": false,
+  "real_credentials_read_or_written": false,
+  "inherited_network_flag_present": true,
+  "same_file_contents_after": "synthetic initial content only\n",
+  "sibling_created": false,
+  "observed_boundary_pass": false
+}
