@@ -1,0 +1,75 @@
+{
+  "kind": "P3_FINITE_REVIEW_019_OFFLINE_VALIDATION_v1",
+  "created_utc": "2026-09-08T21:34:59.200931+00:00",
+  "scope": "Synthetic engineering and read-only default inspection; no native client, account, network, model or independent scientific review",
+  "status": "PASS",
+  "tests": [
+    {
+      "test": "tests/test_p3_reviewer_admission.py",
+      "test_sha256": "d2f4b7980bae2db039f8d62142e8270c8960dfe3b5501eedb85e8cc84b716e0d",
+      "exit_code": 0,
+      "tests_run": 28,
+      "skipped": 1,
+      "stdout": {
+        "path": "artifacts/P3_FINITE_REVIEW_VALIDATION/20260908_001/test_p3_reviewer_admission.stdout.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "artifacts/P3_FINITE_REVIEW_VALIDATION/20260908_001/test_p3_reviewer_admission.stderr.txt",
+        "sha256": "8d9649b15f3041be79425d12a64ac1c2460ce11d335727d1092c8d123c4d2e47"
+      }
+    },
+    {
+      "test": "tests/test_p3_reviewer_session.py",
+      "test_sha256": "d9a779665cc19a09a9d69eee682e3be732fd44d34ef2ddf1153b5b406015a152",
+      "exit_code": 0,
+      "tests_run": 21,
+      "skipped": 0,
+      "stdout": {
+        "path": "artifacts/P3_FINITE_REVIEW_VALIDATION/20260908_001/test_p3_reviewer_session.stdout.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "artifacts/P3_FINITE_REVIEW_VALIDATION/20260908_001/test_p3_reviewer_session.stderr.txt",
+        "sha256": "aa15ecca97b8eeead928c5f59bba6959fbdd3c71d0e0c1fbe30394e8076de40c"
+      }
+    },
+    {
+      "test": "tests/test_p3_finite_review.py",
+      "test_sha256": "60a26ecd991e9f30863bec5d981b4ef7900db43caa17cf3ae56e8595940d4993",
+      "exit_code": 0,
+      "tests_run": 18,
+      "skipped": 0,
+      "stdout": {
+        "path": "artifacts/P3_FINITE_REVIEW_VALIDATION/20260908_001/test_p3_finite_review.stdout.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "artifacts/P3_FINITE_REVIEW_VALIDATION/20260908_001/test_p3_finite_review.stderr.txt",
+        "sha256": "3ead1c8890757a77e192ba42615850407c99abb48a0322d7692304b6c852df21"
+      }
+    }
+  ],
+  "tests_run": 67,
+  "tests_skipped": 1,
+  "default_inspection": {
+    "exit_code": 0,
+    "stdout_sha256": "5b364ae35629f3762ba9687ee14257812640dabf2dd98cc20d9c2a9d7e678106",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "controller_sha256": "187cfab78d43736728294f45ee8a6004590766490fe0af98e8b711be71e734f1",
+  "scope_sha256": "99d7f62d60b3384b5bb83923047b390f7f7e6e8d90c2654b33d996101755d5ea",
+  "implementation_sources": {
+    "scripts/p3_reviewer_admission.py": "9b589287b6b56ad56e12075d655d0c9935a570076a35544fa64a40973b6969cb",
+    "scripts/p3_reviewer_profile.py": "669da4f8bae0cac3f43433ebc2b462da607be631b259d7ff08919b8f1130991f",
+    "scripts/p3_reviewer_session.py": "6ab41524d9759fd26e4f63b75a8f5a4cdad867906434ecb57aee106a9e70066d"
+  },
+  "optional_jsonschema_validation": "Skipped because jsonschema absent; explicit exact embedded-schema and source-specific payload checks passed. No claim of complete JSON-Schema validation.",
+  "native_boundary_observed": false,
+  "formal_independent_verdict": false,
+  "installer_validation_reused": {
+    "path": "evidence/P3_REVIEW_PACKET_019_AVAILABILITY.json",
+    "sha256": "15c50fa84895c87a6ff8ed1badd8527547b7b19789140b1b1726e883c8e8bb2c",
+    "scope": "16 hostile archive/tree tests and actual private archive install/reuse already completed; not rerun as a new measurement."
+  }
+}

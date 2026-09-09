@@ -1,0 +1,11 @@
+{
+  "kind": "DUPLICATE_REPORT_007_RECEIPT_v1",
+  "checked_utc": "2026-09-08T20:50:46.631375+00:00",
+  "uploaded_filename": "REPORT(7).json",
+  "sha256": "ab6b731d21a3e161e43e33b6db011db93037030e56d8bd40bfbd50cd2070b9c6",
+  "matches_accepted_receipt": "artifacts/GATE0_POSTLOGIN_REPAIR_OBSERVATIONS/20260908_001/REPORT.json",
+  "same_bytes": true,
+  "new_native_run_inferred": false,
+  "new_measurement_counted": false,
+  "new_raw_archive_needed": false
+}

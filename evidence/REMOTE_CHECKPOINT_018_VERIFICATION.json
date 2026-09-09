@@ -1,0 +1,26 @@
+{
+  "kind": "REMOTE_CHECKPOINT_018_VERIFICATION_v1",
+  "verified_utc": "2026-09-08T20:50:46.631375+00:00",
+  "access_date": "2026-09-08",
+  "remote_head_url": "https://github.com/afazeliUofT/arc-independent-lab/commit/728e57f85cc3e995cec10c3a6ee3b950d550d787",
+  "base_commit": "e0cd916249990c1a5993a8adefba12c893f9c60d",
+  "checkpoint_commit": "728e57f85cc3e995cec10c3a6ee3b950d550d787",
+  "checkpoint_tree": "1e756309cad5c798ca2b98fd5f26cd16db699604",
+  "full_checkpoint_files_verified": 687,
+  "manifest_sha256": "f0390e7ccf15055cb74bf55f50bb7e788e5a327bee9f3742f20146327b9eb0dd",
+  "frozen_inputs": [
+    {
+      "path": "evidence/P3_AUDIT_REVIEW_MANIFEST.json",
+      "sha256": "8d475e93aa21db5d7210f337c036e2705e3a4b83b6d99d43d715161d63b7e374"
+    },
+    {
+      "path": "evidence/P3_RESIDUAL_REVIEW_MANIFEST.json",
+      "sha256": "f7249d53060349fdfbaca2102672457e3e8966ef510d6853322b10da75762128"
+    }
+  ],
+  "working_overlay_preserved": [
+    "state/LEDGER.jsonl"
+  ],
+  "hosted_human_head_and_index_adopted": true,
+  "assistant_commit_or_push": false
+}

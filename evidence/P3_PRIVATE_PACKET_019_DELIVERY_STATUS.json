@@ -1,0 +1,12 @@
+{
+  "ts": "2026-09-08T21:35:57.078231+00:00",
+  "gate": "P3",
+  "task": "P3.11",
+  "private_archive_path": "delivery/P3_REVIEW_PACKET_019_PRIVATE.zip",
+  "archive_sha256": "5b7afe3b742e14dffacfe0640e5b1d9210b449bbb9c5fd7a08b5083484859759",
+  "persistent_upload": "failed before successful write; no library identity returned",
+  "scratch_download_exists": true,
+  "required_durability_action": "Download and retain the archive and installed packet under the canonical laptop delivery directory; never add papers to public Git.",
+  "github_backed": false,
+  "credentials_requested_or_modified": false
+}

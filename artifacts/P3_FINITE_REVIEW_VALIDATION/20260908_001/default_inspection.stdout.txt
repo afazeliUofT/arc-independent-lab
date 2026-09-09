@@ -1,0 +1,3 @@
+Scope SHA256: 99d7f62d60b3384b5bb83923047b390f7f7e6e8d90c2654b33d996101755d5ea
+Inspection only. No changes, network, account or model operation performed.
+Private packet must be installed; recorded exact scope ANSWER precedes --run-attended-review.

@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-08T20:13:13.499151+00:00",
+  "updated_utc": "2026-09-08T21:40:04.294770+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -118,7 +118,57 @@
     },
     "rerun_needed": false
   },
-  "next_operational_test": null,
+  "next_operational_test": {
+    "name": "finite019 synthetic admission then independent scientific reviewer",
+    "scope": {
+      "path": "configs/P3_FINITE_REVIEW_SCOPE_019.json",
+      "sha256": "99d7f62d60b3384b5bb83923047b390f7f7e6e8d90c2654b33d996101755d5ea"
+    },
+    "controller": {
+      "path": "scripts/p3_finite_review.py",
+      "sha256": "187cfab78d43736728294f45ee8a6004590766490fe0af98e8b711be71e734f1"
+    },
+    "status": "prepared; exact new scope approval and explicit WSL run required",
+    "native_processes_maximum": 2,
+    "explicit_model_turns_maximum": 2,
+    "synthetic_wall_seconds_including_cleanup": 600,
+    "scientific_wall_seconds_including_cleanup": 3600,
+    "automatic_retries": 0,
+    "fresh_scientific_process_only_after_synthetic_pass": true,
+    "model_policy": {
+      "requested_identity": "gpt-6-astra",
+      "provider": "openai using existing ChatGPT account",
+      "effort": "highest recognized effort in the actual admitted model catalog",
+      "automatic_model_or_provider_fallback": false,
+      "if_identity_is_absent": "Stop before model invocation and retain useful filtered catalog; PI decides a supported route from evidence, with no silent downgrade or paid fallback."
+    },
+    "unattended_model_use_authorized": false,
+    "continuous_human_attendance_verified": false,
+    "no_new_spending": true,
+    "reported_native_Codex_percentage_is_not_hosted_allowance": true,
+    "limits": {
+      "maximum_native_processes": 2,
+      "maximum_model_turns": 2,
+      "maximum_synthetic_broker_calls": 16,
+      "maximum_scientific_broker_calls": 512,
+      "maximum_native_file_bytes": 33554432,
+      "maximum_native_runtime_tree_bytes": 268435456,
+      "maximum_synthetic_native_cpu_seconds": 120,
+      "maximum_scientific_native_cpu_seconds": 600,
+      "maximum_run_attempts_per_invocation": 1,
+      "maximum_synthetic_stdout_bytes": 67108864,
+      "maximum_scientific_stdout_bytes": 536870912,
+      "maximum_stderr_bytes_per_process": 67108864,
+      "maximum_protocol_frame_bytes": 25165824,
+      "maximum_outbound_queue_bytes": 33554432,
+      "maximum_early_frames": 64,
+      "maximum_early_frame_bytes": 1048576,
+      "parent_request_timeout_seconds": 30,
+      "maximum_catalog_pages": 8,
+      "maximum_catalog_entries": 800,
+      "native_cpu_hard_limit_grace_seconds": 1
+    }
+  },
   "completed_native_signin": {
     "receipt": {
       "path": "evidence/GATE0_HUMAN_SIGNIN_015_RECEIPT_REVIEW.json",
@@ -217,5 +267,14 @@
     "next_action": "Integrate finite controller and concrete budgets before proposing human execution; use needed startup for model catalog, no standalone account/cache probe.",
     "unattended_model_use_authorized": false,
     "extra_spending_allowed": false
+  },
+  "private_review_packet_durability": {
+    "github_backed": false,
+    "hosted_persistent_upload": "failed",
+    "human_action": "Retain downloaded private ZIP and installed packet in laptop delivery; no public papers",
+    "evidence": {
+      "path": "evidence/P3_PRIVATE_PACKET_019_DELIVERY_STATUS.json",
+      "sha256": "bf3eaf3359aaac116d45ea44279f32c0704a723691733d59e4e73906b1bf1602"
+    }
   }
 }

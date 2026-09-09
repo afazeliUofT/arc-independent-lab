@@ -1,22 +1,33 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-08T20:13:13.499151+00:00",
+  "updated_utc": "2026-09-08T21:40:04.294770+00:00",
   "current_gate": "P3",
   "gate_status": "in_progress",
   "gate_entered_utc": "2026-09-06T20:14:12.138443+00:00",
   "last_verified_gate": "P2",
-  "last_verified_commit": "e0cd916249990c1a5993a8adefba12c893f9c60d",
+  "last_verified_commit": "728e57f85cc3e995cec10c3a6ee3b950d550d787",
   "active_task": {
-    "id": "P3.10",
-    "description": "Accept successful metadata and prepare restrictive reviewer profile/catalog helpers",
+    "id": "P3.11",
+    "description": "Finite independent-review controller and private paper packet prepared",
     "attempt": 1,
-    "status": "completed; checkpoint018 publication prepared next",
+    "status": "prepared; awaiting human publication, exact scope approval and canonical run",
     "native_attempts_performed_by_assistant": 0
   },
-  "blocked_on": null,
-  "next_action": "Verify human checkpoint018 against exact full manifest/payload at base e0cd916249990c1a5993a8adefba12c893f9c60d while preserving local overlays. REPORT(6) is accepted; never rerun passing sign-in/account/canary or launch a standalone cache probe. Implement P3.11 finite reviewer controller using existing p3_review_broker/protocol and scripts/p3_reviewer_profile.py; use cli_override_arguments (TOML table syntax, not json.dumps for structured values). Read effect-source CONSULTATION and profile validation. Keep effective boolean code_mode_host=false, structured direct-only broker namespace, other restrictions, original config/auth/policy sources and empty environments. During necessary native startup retain full filtered model catalog, bind acceptable actual model/provider/highest effort, verify policy/source-sensitive control winners and observe synthetic restrictions before fresh scientific input. Freeze/check packet hashes, bound runtime/output/calls, preserve raw reviewer verdict; no resume/fork/inherited PI context. Prepare concrete scope and controller before any genuinely new native auth-write exception; scope016 completed metadata grant is not general reviewer permission. No assistant commit/push, paid API, unattended model use, lower-model substitution by convenience, or control weakening. Scientific next decision remains separate component/joint/observer review, followed by explicit acquisition-focused ideation return if reductions survive.",
+  "blocked_on": {
+    "kind": "human_native_refresh_scope_and_execution",
+    "reason": "The new reviewer operation may refresh the existing auth file outside the project; completed scope016 covered metadata only. Concrete files and tests are ready. The user commits, pushes and launches WSL.",
+    "escalation": {
+      "path": "state/ESCALATION.md",
+      "sha256": "391298e1406bbbb21c089c100180c7ffb921e85a399875c0fce988327fd83c77"
+    },
+    "scope": {
+      "path": "configs/P3_FINITE_REVIEW_SCOPE_019.json",
+      "sha256": "99d7f62d60b3384b5bb83923047b390f7f7e6e8d90c2654b33d996101755d5ea"
+    }
+  },
+  "next_action": "Verify human checkpoint019 publication and the recorded exact scope ANSWER. Do not repeat sign-in or metadata-only checks. The human can approve, publish the answer, install the private packet and launch scripts/p3_finite_review.py --run-attended-review without an extra assistant turn. Accept only the safe REPORT with actual pins and the unchanged reviewer output if created. Completed or partial attempts never automatically rerun. If model or control admission fails, use the full filtered receipt to choose the best supported route without silent downgrade, weaker policy or paid API. If review completes, validate execution separately from the scientific verdict and preserve its object unchanged; require separate C1/C2/C3/C4/T/observer dispositions. If the negative audit survives, explicitly return to novelty-free invention focused on acquisition. No PI self-verdict or PROGRAMME approval claim.",
   "open_questions": [
-    "Actual finite reviewer controller, model/effort admission and empirical context/tool boundary remain unfinished. Successful account/metadata observation and observed-Pro cloud-bundle applicability are closed; no repeat probes needed.",
+    "Actual finite native model availability and synthetic/scientific context/tool admission remain unobserved. Controller/paperpacket/offlineengineering complete; no standalone probe or repeatpassingmetadata needed.",
     "Formal separate dispositions for C1/C2/C3/C4, joint proposition and observer diagnostic remain pending enforced review.",
     "Whole-wrapper historical identity is unestablished; no novel complete joint algorithm or resource advantage specified.",
     "Observer supplied-contract discovery/invocation and broader practical prevalence remain open; exact recovery does not imply numerical robustness.",
@@ -61,8 +72,8 @@
     "P3"
   ],
   "remote": "https://github.com/afazeliUofT/arc-independent-lab",
-  "durability_status": "Human checkpoint017 verified on GitHub. Checkpoint018 preserves accepted successful receipt, source closure and tested pure reviewer helpers; pending human publication.",
-  "commit_status": "Hosted HEAD/index adopt human e0cd916249990c1a5993a8adefba12c893f9c60d. Current018 work is an uncommitted overlay for user-executed publication; no assistant commit/push.",
+  "durability_status": "Human checkpoint018 verified on GitHub. Checkpoint019 code, evidence and state are prepared for human publication. Private papers are excluded and must be retained on the laptop because the hosted persistent save failed.",
+  "commit_status": "Hosted HEAD/index remain at human commit 728e57f85cc3e995cec10c3a6ee3b950d550d787; checkpoint019 is an uncommitted overlay for user publication. No assistant commit or push.",
   "recovery_dependency": null,
   "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation.",
   "latest_recovery_evidence": [
@@ -80,7 +91,7 @@
     }
   ],
   "private_error_log_handling": "Probe raw error output stays within laptop Git metadata, outside normal commits. Request only safe terminal report; never ask for credentials or publish raw transport logs.",
-  "foreground_execution_note": "Native sign-in and corrected bounded authenticated metadata completed on laptop. No scientific reviewer/model has run. Pure reviewer profile/catalog helpers passed offline tests; complete controller integration remains next.",
+  "foreground_execution_note": "No scientific reviewer or model has run. Offline tests and private packaging are complete; exact scope approval and one human-launched bounded operation remain.",
   "scientific_status": "Residual novelty audit complete as PI analysis with explicit C4 reconstruction and joint-priority corrections. Observer readout reduces to residualization; query identifiability/conditioning delimited. Independent review and measured PROGRAMME remain outstanding.",
   "latest_scientific_evidence": [
     {
@@ -158,7 +169,7 @@
     "path": "evidence/P3_RESIDUAL_REVIEW_MANIFEST.json",
     "sha256": "f7249d53060349fdfbaca2102672457e3e8966ef510d6853322b10da75762128"
   },
-  "factual_dependency_note": "No human measurement or new approval requested for018. Completed metadata scope remains archived; concrete future reviewer operation must separately assess any genuinely new native auth-write exception.",
+  "factual_dependency_note": "REPORT(7) duplicates accepted REPORT(6); no new measurement. The new scope request concerns auth refresh during finite review, not a new phase approval. The actual model catalog may not contain the requested literal; stop and report rather than guess.",
   "latest_inventory_receipt": {
     "path": "evidence/GATE0_INVENTORY_RUN_RECEIPTS_2026-09-07.json",
     "sha256": "4dd4a78189b9e3633c526e5a9c208aa11a09941920f1c0f3f4da92070e1df055"
@@ -377,5 +388,26 @@
     },
     "controller_ready_for_execution": false,
     "actual_reviewer_enforcement_observed": false
+  },
+  "latest_finite_review_preparation": {
+    "controller": {
+      "path": "scripts/p3_finite_review.py",
+      "sha256": "187cfab78d43736728294f45ee8a6004590766490fe0af98e8b711be71e734f1"
+    },
+    "validation": {
+      "path": "artifacts/P3_FINITE_REVIEW_VALIDATION/20260908_001/REPORT.json",
+      "sha256": "9c630973d1e4bde12e8d0b8f584f8499b615c4ea097f4c2f243c2ea6e9c6eef1"
+    },
+    "packet_availability": {
+      "path": "evidence/P3_REVIEW_PACKET_019_AVAILABILITY.json",
+      "sha256": "15c50fa84895c87a6ff8ed1badd8527547b7b19789140b1b1726e883c8e8bb2c"
+    },
+    "status_report": {
+      "path": "reports/P3_CHECKPOINT_019_STATUS.md",
+      "sha256": "2033f7c17b2d6f9f9cb1c5e3dfaf813cf9292be27d8bb451b7cbd55741f65a3c"
+    },
+    "actual_native_model_calls": 0,
+    "formal_review_complete": false,
+    "new_scope_approved": false
   }
 }

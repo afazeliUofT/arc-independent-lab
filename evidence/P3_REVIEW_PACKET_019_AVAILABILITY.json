@@ -1,0 +1,467 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-08T21:06:27.077251+00:00",
+  "scope": "Hosted exact private reviewer packet expansion and installer engineering; no scientific claims, laptop observation, model call or reviewer verdict",
+  "packet_path": "delivery/P3_REVIEW_PACKET_019",
+  "manifest_path": "delivery/P3_REVIEW_PACKET_019/BROKER_MANIFEST.json",
+  "manifest_sha256": "437700c8850b7194b052d159b1eaf6a22b366c4a464e63148bb9b6b3084bdd98",
+  "manifest_entries": 722,
+  "total_files_including_manifest": 723,
+  "payload_bytes_by_kind": {
+    "text": 13817029,
+    "image": 201183154,
+    "binary": 45771818
+  },
+  "payload_files_by_kind": {
+    "text": 104,
+    "image": 589,
+    "binary": 29
+  },
+  "total_bytes_including_manifest": 260928491,
+  "original_packet_manifest_sha256": "81940ef910efebd9ea67add1c04b54f6b8fa2c2bf81793f435acb0429263ee23",
+  "original_payload_entries_verified_unchanged": 148,
+  "original_manifest_preserved_at": "provenance/ORIGINAL_BROKER_MANIFEST.json",
+  "all_original_scientific_files_and_PDFs_byte_identical": true,
+  "original_audit_manifest_sha256": "8d475e93aa21db5d7210f337c036e2705e3a4b83b6d99d43d715161d63b7e374",
+  "original_residual_manifest_sha256": "f7249d53060349fdfbaca2102672457e3e8966ef510d6853322b10da75762128",
+  "original_pdf_count": 29,
+  "physical_pages_rendered": 570,
+  "all_source_page_pairs_present_exactly_once": true,
+  "new_PNGs_decoded_and_verified": 570,
+  "render_dpi": 150,
+  "renderer": "PyMuPDF",
+  "renderer_version": "1.26.6",
+  "render_elapsed_seconds": 38.61583761100019,
+  "render_page_deadline_seconds": 300,
+  "render_external_process_deadline": "timeout --signal=TERM --kill-after=4s 310s",
+  "render_provenance_script_path": "delivery/P3_REVIEW_PACKET_019/provenance/render_p3_review_packet_019.py",
+  "render_provenance_script_sha256": "33252a6a9328d36f9e1ebc94b69134eb6722ea5a12f05529fdb083b7eb70257f",
+  "render_script_original_execution_location": "delivery/render_p3_review_packet_019.py",
+  "render_receipt_path": "delivery/P3_REVIEW_PACKET_019/provenance/PDF_RENDER_RECEIPT.json",
+  "render_receipt_sha256": "9d42508c20ae472283a7aec3eedc1c304efb42b72b10dead9de8b61670bba81b",
+  "renderer_parser_warnings": "bogus font ascent/descent values (0 / 0)\n... repeated 3 times...\nbogus font ascent/descent values (0 / -204)\nbogus font ascent/descent values (0 / 0)\n... repeated 28 times...\nbogus font ascent/descent values (40 / -2959)\nbogus font ascent/descent values (0 / -1000)\nopenjpeg warning: Found a misplaced 'cmap' box outside jp2h box\nopenjpeg warning: Non conformant codestream TPsot==TNsot.\nopenjpeg warning: Found a misplaced 'cmap' box outside jp2h box\nopenjpeg warning: Non conformant codestream TPsot==TNsot.\nbogus font ascent/descent values (0 / 0)\n... repeated 11 times...\nbogus font ascent/descent values (772 / -2960)\nbogus font ascent/descent values (0 / 0)\n... repeated 2 times...\nbogus font ascent/descent values (40 / -2359)",
+  "page_index_path": "delivery/P3_REVIEW_PACKET_019/PDF_PAGE_INDEX.json",
+  "page_index_sha256": "3cc64db7181a18eeb78533017627cdbcb4036756cca5e15785b4f5e0a4677f67",
+  "page_paths_rule": "pdf_pages/<source_sha256>_p<four-digit-1-based-physical-page>.png",
+  "sources": [
+    {
+      "source_id": "Angluin1987.pdf",
+      "title": "Angluin 1987, Learning Regular Sets from Queries and Counterexamples",
+      "source_sha256": "1dde8daec314d13fa64126495b756cf0ef7042d9ad6e36f2c8845b9dffc06aa3",
+      "source_url": "https://doi.org/10.1016/0890-5401(87)90052-6",
+      "version_status": "published journal paper",
+      "physical_pdf_pages": 20,
+      "offline_core_path": "private_papers/1dde8daec314d13fa64126495b756cf0ef7042d9ad6e36f2c8845b9dffc06aa3.pdf"
+    },
+    {
+      "source_id": "Petrick2002.pdf",
+      "title": "Petrick and Bacchus 2002, A Knowledge-Based Approach to Planning with Incomplete Information and Sensing",
+      "source_sha256": "2af08a6e888d5b68ae45399659cc2e27a8aa5d1ce6b25cb91ff7d8190c187e6a",
+      "source_url": "https://cdn.aaai.org/AIPS/2002/AIPS02-022.pdf",
+      "version_status": "published AIPS paper",
+      "physical_pdf_pages": 10,
+      "offline_core_path": "private_papers/2af08a6e888d5b68ae45399659cc2e27a8aa5d1ce6b25cb91ff7d8190c187e6a.pdf"
+    },
+    {
+      "source_id": "LDC2024S.pdf",
+      "title": "Gomez-Villa et al. 2024, LDC supplementary materials",
+      "source_sha256": "349e6ec56de6aaa0b4f118067a68c2062a4aaae25b98c5c2fc2ad489aa675a91",
+      "source_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01192-supp.pdf",
+      "version_status": "published ECCV supplement",
+      "physical_pdf_pages": 4,
+      "offline_core_path": "private_papers/349e6ec56de6aaa0b4f118067a68c2062a4aaae25b98c5c2fc2ad489aa675a91.pdf"
+    },
+    {
+      "source_id": "Csiszarik2021S.pdf",
+      "title": "Csiszarik et al. 2021, supplementary materials",
+      "source_sha256": "3ad83d5f86123687d7ed5929bdbe718ae3f2462d83731182402927cdf52ecd2c",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/2cb274e6ce940f47beb8011d8ecb1462-Supplemental.pdf",
+      "version_status": "published NeurIPS supplement",
+      "physical_pdf_pages": 17,
+      "offline_core_path": "private_papers/3ad83d5f86123687d7ed5929bdbe718ae3f2462d83731182402927cdf52ecd2c.pdf"
+    },
+    {
+      "source_id": "Maiorca2023.pdf",
+      "title": "Maiorca et al. 2023, Latent Space Translation via Semantic Alignment",
+      "source_sha256": "46f5eedab58093f2dd4e0470c34d8090ab440cb0d095b288a31ed031bcee6943",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/ad5fa03c906ca15905144ca3fbf2a768-Paper-Conference.pdf",
+      "version_status": "published NeurIPS paper with appendices",
+      "physical_pdf_pages": 21,
+      "offline_core_path": "private_papers/46f5eedab58093f2dd4e0470c34d8090ab440cb0d095b288a31ed031bcee6943.pdf"
+    },
+    {
+      "source_id": "pawlak1982.pdf",
+      "title": "Pawlak 1982, Rough Sets",
+      "source_sha256": "493193df7fa4e0dc30d8cef4bb5b08c13d423778447aa2734b97813ab47ed1ce",
+      "source_url": "https://wiki.eecs.yorku.ca/course_archive/2013-14/F/4403/_media/rough_sets.pdf",
+      "version_status": "published journal paper",
+      "physical_pdf_pages": 16,
+      "offline_core_path": "private_papers/493193df7fa4e0dc30d8cef4bb5b08c13d423778447aa2734b97813ab47ed1ce.pdf"
+    },
+    {
+      "source_id": "davari2022_preprint.pdf",
+      "title": "Davari et al. 2022, Probing Representation Forgetting in Supervised and Unsupervised Continual Learning",
+      "source_sha256": "498e39ae54157e6fe7843325c5b3a034b1c2fb1b27cc5fca6df53a2211cfee3d",
+      "source_url": "https://arxiv.org/pdf/2203.13381v2",
+      "version_status": "PREPRINT arXiv:2203.13381v2, 2022-04-05; not claimed final CVPR bytes",
+      "physical_pdf_pages": 13,
+      "offline_core_path": "private_papers/498e39ae54157e6fe7843325c5b3a034b1c2fb1b27cc5fca6df53a2211cfee3d.pdf"
+    },
+    {
+      "source_id": "Li2011.pdf",
+      "title": "Li, Littman, Walsh and Strehl, Knows what it knows: a framework for self-aware learning",
+      "source_sha256": "4d5eedc31e9988b9de3fcc546da31d210e5a735b6eccf46116461a2a7d3c42f9",
+      "source_url": "https://thomasjwalsh.net/pub/Li11Knows.pdf",
+      "version_status": "2011 journal publication; downloaded author-hosted Springer article with 2010 copyright",
+      "physical_pdf_pages": 45,
+      "offline_core_path": "private_papers/4d5eedc31e9988b9de3fcc546da31d210e5a735b6eccf46116461a2a7d3c42f9.pdf"
+    },
+    {
+      "source_id": "P3_C2_Grass1997.pdf",
+      "title": "Grass and Zilberstein 1997, Value-Driven Information Gathering",
+      "source_sha256": "5732a9494b2ae93bfb9b1b4fcbab26f9d7c8046bdb571c85708012f60968de73",
+      "source_url": "https://cdn.aaai.org/Workshops/1997/WS-97-06/WS97-06-010.pdf",
+      "version_status": "published AAAI workshop technical report WS-97-06",
+      "physical_pdf_pages": 6,
+      "offline_core_path": "private_papers/5732a9494b2ae93bfb9b1b4fcbab26f9d7c8046bdb571c85708012f60968de73.pdf"
+    },
+    {
+      "source_id": "lenth2015.pdf",
+      "title": "Lenth 2015, Estimability Tools for Package Developers",
+      "source_sha256": "65983cd639bffadb3c0700d2c8314d01f2ffaf31e22bb482ac2255ebb5e5a9a5",
+      "source_url": "https://journal.r-project.org/articles/RJ-2015-016/RJ-2015-016.pdf",
+      "version_status": "published R Journal software-method paper",
+      "physical_pdf_pages": 5,
+      "offline_core_path": "private_papers/65983cd639bffadb3c0700d2c8314d01f2ffaf31e22bb482ac2255ebb5e5a9a5.pdf"
+    },
+    {
+      "source_id": "aq15manual1986.pdf",
+      "title": "Michalski, Mozetic, Hong and Lavrac, July 1986, The AQ15 Inductive Learning System: An Overview and Experiments",
+      "source_sha256": "6afbe29e075cd9dea5591f2dffafeb83a72ae00c568c9e3a506c31d3f371dd0c",
+      "source_url": "https://www.mli.gmu.edu/papers/86-90/86-23.pdf",
+      "version_status": "technical report ISG 86-20 / UIUCDCS-R-86-1260; image-only scan",
+      "physical_pdf_pages": 36,
+      "offline_core_path": "private_papers/6afbe29e075cd9dea5591f2dffafeb83a72ae00c568c9e3a506c31d3f371dd0c.pdf"
+    },
+    {
+      "source_id": "Zheng2025.pdf",
+      "title": "Zheng et al. 2025, Spurious Forgetting in Continual Learning of Language Models",
+      "source_sha256": "6ee0e363a851db324b6ca1dfb6e6c7937b7a6f7019ff75a8092de569ba62834f",
+      "source_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/a774503daed55eb53c634847ae071ec7-Paper-Conference.pdf",
+      "version_status": "published ICLR paper, complete 66-page PDF including appendices",
+      "physical_pdf_pages": 66,
+      "offline_core_path": "private_papers/6ee0e363a851db324b6ca1dfb6e6c7937b7a6f7019ff75a8092de569ba62834f.pdf"
+    },
+    {
+      "source_id": "HAL2020v1.pdf",
+      "title": "Chaudhry et al., Using Hindsight to Anchor Past Knowledge in Continual Learning",
+      "source_sha256": "70c9e813a5208cd334a4f7b5e30eb71c093803d2c690bf4278cf5908096036fc",
+      "source_url": "https://arxiv.org/pdf/2002.08165v1",
+      "version_status": "PREPRINT arXiv:2002.08165v1, 2020; not claimed final AAAI 2021 bytes",
+      "physical_pdf_pages": 15,
+      "offline_core_path": "private_papers/70c9e813a5208cd334a4f7b5e30eb71c093803d2c690bf4278cf5908096036fc.pdf"
+    },
+    {
+      "source_id": "pomdp1998.pdf",
+      "title": "Kaelbling, Littman and Cassandra 1998, Planning and Acting in Partially Observable Stochastic Domains",
+      "source_sha256": "71a6d1aee278e93c5fae8dd7d0c452c8b7b035af55d9dce2bc367d473bfc9645",
+      "source_url": "https://people.csail.mit.edu/lpk/papers/aij98-pomdp.pdf",
+      "version_status": "published journal paper",
+      "physical_pdf_pages": 36,
+      "offline_core_path": "private_papers/71a6d1aee278e93c5fae8dd7d0c452c8b7b035af55d9dce2bc367d473bfc9645.pdf"
+    },
+    {
+      "source_id": "mitchell1977.pdf",
+      "title": "Mitchell 1977, Version Spaces: A Candidate Elimination Approach to Rule Learning",
+      "source_sha256": "726c620d1001371ea735a5a8d782af1673e5a9c917cbfa0552596ff513dbba39",
+      "source_url": "https://www.ijcai.org/Proceedings/77-1/Papers/048.pdf",
+      "version_status": "published IJCAI paper",
+      "physical_pdf_pages": 6,
+      "offline_core_path": "private_papers/726c620d1001371ea735a5a8d782af1673e5a9c917cbfa0552596ff513dbba39.pdf"
+    },
+    {
+      "source_id": "lovell1963.pdf",
+      "title": "Lovell 1963, Seasonal Adjustment of Economic Time Series and Multiple Regression",
+      "source_sha256": "77ca6a277eb55ac3c9c4329492a6d3c71e644ff503b33de51ae79ea031508313",
+      "source_url": "https://cowles.yale.edu/sites/default/files/2022-08/d0151.pdf",
+      "version_status": "PREPRINT / Cowles Discussion Paper 151; image-only working-paper scan, not final JASA typesetting",
+      "physical_pdf_pages": 50,
+      "offline_core_path": "private_papers/77ca6a277eb55ac3c9c4329492a6d3c71e644ff503b33de51ae79ea031508313.pdf"
+    },
+    {
+      "source_id": "Lenc2015.pdf",
+      "title": "Lenc and Vedaldi 2015, Understanding Image Representations by Measuring Their Equivariance and Equivalence",
+      "source_sha256": "86451bd6586237fc8216266d250d4bc53d47abd62f1e6eafb2b1eed960a45692",
+      "source_url": "https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Lenc_Understanding_Image_Representations_2015_CVPR_paper.pdf",
+      "version_status": "published CVPR paper",
+      "physical_pdf_pages": 9,
+      "offline_core_path": "private_papers/86451bd6586237fc8216266d250d4bc53d47abd62f1e6eafb2b1eed960a45692.pdf"
+    },
+    {
+      "source_id": "Li2008.pdf",
+      "title": "Li, Littman and Walsh 2008, Knows What It Knows: A Framework For Self-Aware Learning",
+      "source_sha256": "8d55e38fbef963ee6edc3c00e482e9f57675d39851c21612b4284c10ed6960fd",
+      "source_url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/published-9.pdf",
+      "version_status": "published ICML paper, three authors",
+      "physical_pdf_pages": 8,
+      "offline_core_path": "private_papers/8d55e38fbef963ee6edc3c00e482e9f57675d39851c21612b4284c10ed6960fd.pdf"
+    },
+    {
+      "source_id": "pawlak_skowron2007.pdf",
+      "title": "Pawlak and Skowron 2007, Rough sets and Boolean reasoning",
+      "source_sha256": "93126ade4f0879503bc807357ec8ce412eeeab52ca7f86719fe798f6f372f3ae",
+      "source_url": "https://bcpw.bg.pw.edu.pl/Content/1970",
+      "version_status": "published author survey and method exposition; not earliest-priority proof",
+      "physical_pdf_pages": 33,
+      "offline_core_path": "private_papers/93126ade4f0879503bc807357ec8ce412eeeab52ca7f86719fe798f6f372f3ae.pdf"
+    },
+    {
+      "source_id": "LDC2024.pdf",
+      "title": "Gomez-Villa et al. 2024, Exemplar-free Continual Representation Learning via Learnable Drift Compensation",
+      "source_sha256": "934249a6e53e8782d41b72b1379ca151941a34c0474dc70e81d4fb71cfc502ce",
+      "source_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01192.pdf",
+      "version_status": "published ECCV paper",
+      "physical_pdf_pages": 18,
+      "offline_core_path": "private_papers/934249a6e53e8782d41b72b1379ca151941a34c0474dc70e81d4fb71cfc502ce.pdf"
+    },
+    {
+      "source_id": "rabin_scott1959.pdf",
+      "title": "Rabin and Scott 1959, Finite Automata and Their Decision Problems",
+      "source_sha256": "95e5e12c4206f598103557d311b41931750254924655d5fd7ecd22113a5d5de3",
+      "source_url": "https://raw.githubusercontent.com/CMU-HoTT/scott/main/pdfs/1959-Rabin-Scott-finite-automata.pdf",
+      "version_status": "published IBM journal article, author-archive copy",
+      "physical_pdf_pages": 12,
+      "offline_core_path": "private_papers/95e5e12c4206f598103557d311b41931750254924655d5fd7ecd22113a5d5de3.pdf"
+    },
+    {
+      "source_id": "Cotogni2025.pdf",
+      "title": "Cotogni et al. 2025, Exemplar-Free Continual Learning of Vision Transformers via Gated Class-Attention and Cascaded Feature Drift Compensation",
+      "source_sha256": "a42d38b52865dac4048eeb1300853b812916ffbcae63b58ef85df22913867c58",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s11263-025-02374-x.pdf",
+      "version_status": "published IJCV 133:4571-4589 article",
+      "physical_pdf_pages": 19,
+      "offline_core_path": "private_papers/a42d38b52865dac4048eeb1300853b812916ffbcae63b58ef85df22913867c58.pdf"
+    },
+    {
+      "source_id": "P3_C2_Huang2024.pdf",
+      "title": "Huang, Guo, Acerbi and Kaski 2024, Amortized Bayesian Experimental Design for Decision-Making",
+      "source_sha256": "acb0d65cad3a563a821a3b81c210f6aa0c83a7d730e2b4327bd373a06e5f00f3",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/c59f05d7ab3638b138cc61f32e1a7cd1-Paper-Conference.pdf",
+      "version_status": "published NeurIPS paper with appendices; not discovery preprint v2",
+      "physical_pdf_pages": 27,
+      "offline_core_path": "private_papers/acb0d65cad3a563a821a3b81c210f6aa0c83a7d730e2b4327bd373a06e5f00f3.pdf"
+    },
+    {
+      "source_id": "ogd2020.pdf",
+      "title": "Farajtabar, Azizan, Mott and Li 2020, Orthogonal Gradient Descent for Continual Learning",
+      "source_sha256": "d148f051634d1839ff77635b3be79422f03e4a68325ce75b65f57d89fc6b18d5",
+      "source_url": "https://proceedings.mlr.press/v108/farajtabar20a/farajtabar20a.pdf",
+      "version_status": "published AISTATS paper",
+      "physical_pdf_pages": 11,
+      "offline_core_path": "private_papers/d148f051634d1839ff77635b3be79422f03e4a68325ce75b65f57d89fc6b18d5.pdf"
+    },
+    {
+      "source_id": "P3_C2_Klenske2016.pdf",
+      "title": "Klenske and Hennig 2016, Dual Control for Approximate Bayesian Reinforcement Learning",
+      "source_sha256": "d63315c4ed81ec390979bfaea1bdcb8f3136020be8c9aa115e122b650bde2997",
+      "source_url": "https://www.jmlr.org/papers/volume17/15-162/15-162.pdf",
+      "version_status": "published JMLR paper",
+      "physical_pdf_pages": 30,
+      "offline_core_path": "private_papers/d63315c4ed81ec390979bfaea1bdcb8f3136020be8c9aa115e122b650bde2997.pdf"
+    },
+    {
+      "source_id": "Hou2017.pdf",
+      "title": "Hou, Zhang and Zhou 2017, Learning with Feature Evolvable Streams",
+      "source_sha256": "dd66054de2136f66fb06976e1c68d700db15cc5bb600a75a4cce2912ad63b61c",
+      "source_url": "https://proceedings.neurips.cc/paper/6740-learning-with-feature-evolvable-streams.pdf",
+      "version_status": "published NeurIPS paper with appendices",
+      "physical_pdf_pages": 11,
+      "offline_core_path": "private_papers/dd66054de2136f66fb06976e1c68d700db15cc5bb600a75a4cce2912ad63b61c.pdf"
+    },
+    {
+      "source_id": "aq151986.pdf",
+      "title": "Michalski et al. 1986, The Multi-Purpose Incremental Learning System AQ15 and Its Testing Application to Three Medical Domains",
+      "source_sha256": "e107aaa12716e4a50ca810c90f5da4a2c44c5689921e67d1dd6bc74457c5c0b2",
+      "source_url": "https://kt.ijs.si/personal-pages/igor_mozetic/papers/Michetal-AQ15-AAAI-86.pdf",
+      "version_status": "published AAAI paper",
+      "physical_pdf_pages": 5,
+      "offline_core_path": "private_papers/e107aaa12716e4a50ca810c90f5da4a2c44c5689921e67d1dd6bc74457c5c0b2.pdf"
+    },
+    {
+      "source_id": "Ross2007.pdf",
+      "title": "Ross, Chaib-draa and Pineau 2007, Bayes-Adaptive POMDPs",
+      "source_sha256": "e9c4e30a1a140b093f0bb57dc9fc986788e0033205f79ef87dcd4c0336c12d71",
+      "source_url": "https://www.cs.cmu.edu/~sross1/publications/Ross-NIPS07-BAPOMDP.pdf",
+      "version_status": "published NIPS paper",
+      "physical_pdf_pages": 8,
+      "offline_core_path": "private_papers/e9c4e30a1a140b093f0bb57dc9fc986788e0033205f79ef87dcd4c0336c12d71.pdf"
+    },
+    {
+      "source_id": "Csiszarik2021.pdf",
+      "title": "Csiszarik et al. 2021, Similarity and Matching of Neural Network Representations",
+      "source_sha256": "f78975e59bce5279fa5e200b4bd9dce81d606039c53ddd3d2fa4929e5605319d",
+      "source_url": "https://proceedings.neurips.cc/paper/2021/file/2cb274e6ce940f47beb8011d8ecb1462-Paper.pdf",
+      "version_status": "published NeurIPS main paper",
+      "physical_pdf_pages": 13,
+      "offline_core_path": "private_papers/f78975e59bce5279fa5e200b4bd9dce81d606039c53ddd3d2fa4929e5605319d.pdf"
+    }
+  ],
+  "source_URL_provenance": "URLs/sourceversions inherited from frozen coverage; this operation locally reverified bytes on 2026-09-08 and did not freshly fetch URLs",
+  "representative_visual_checks": [
+    {
+      "source_sha256": "65983cd639bffadb3c0700d2c8314d01f2ffaf31e22bb482ac2255ebb5e5a9a5",
+      "physical_pdf_page_1_based": 1,
+      "path": "pdf_pages/65983cd639bffadb3c0700d2c8314d01f2ffaf31e22bb482ac2255ebb5e5a9a5_p0001.png",
+      "sha256": "4c6009fae6bc73a00c04d12ab446e7a13c9697bfe7170e8f6d941a5636165699",
+      "bytes": 252189,
+      "width": 1241,
+      "height": 1754,
+      "dpi": 150
+    },
+    {
+      "source_sha256": "6afbe29e075cd9dea5591f2dffafeb83a72ae00c568c9e3a506c31d3f371dd0c",
+      "physical_pdf_page_1_based": 9,
+      "path": "pdf_pages/6afbe29e075cd9dea5591f2dffafeb83a72ae00c568c9e3a506c31d3f371dd0c_p0009.png",
+      "sha256": "813d046a3a114dddd0f322551894c164a00b03fa085bd0e14cfb7f1163631b45",
+      "bytes": 792271,
+      "width": 1275,
+      "height": 1650,
+      "dpi": 150
+    },
+    {
+      "source_sha256": "6ee0e363a851db324b6ca1dfb6e6c7937b7a6f7019ff75a8092de569ba62834f",
+      "physical_pdf_page_1_based": 23,
+      "path": "pdf_pages/6ee0e363a851db324b6ca1dfb6e6c7937b7a6f7019ff75a8092de569ba62834f_p0023.png",
+      "sha256": "e345839d51f3872b7a066d433a4a8788d4070b6eb0b4b6e3f1e7163c6319ef30",
+      "bytes": 305263,
+      "width": 1275,
+      "height": 1650,
+      "dpi": 150
+    },
+    {
+      "source_sha256": "6ee0e363a851db324b6ca1dfb6e6c7937b7a6f7019ff75a8092de569ba62834f",
+      "physical_pdf_page_1_based": 48,
+      "path": "pdf_pages/6ee0e363a851db324b6ca1dfb6e6c7937b7a6f7019ff75a8092de569ba62834f_p0048.png",
+      "sha256": "73134eccd518447262d6d2e202d1b52dcb742b330388ebb8b105ff4fde727645",
+      "bytes": 318353,
+      "width": 1275,
+      "height": 1650,
+      "dpi": 150
+    },
+    {
+      "source_sha256": "71a6d1aee278e93c5fae8dd7d0c452c8b7b035af55d9dce2bc367d473bfc9645",
+      "physical_pdf_page_1_based": 8,
+      "path": "pdf_pages/71a6d1aee278e93c5fae8dd7d0c452c8b7b035af55d9dce2bc367d473bfc9645_p0008.png",
+      "sha256": "4f041bb53b5ffcee83dbdb5b4f7eef4444b95fb0935c965c5dd5582b665bd730",
+      "bytes": 247485,
+      "width": 1132,
+      "height": 1548,
+      "dpi": 150
+    },
+    {
+      "source_sha256": "77ca6a277eb55ac3c9c4329492a6d3c71e644ff503b33de51ae79ea031508313",
+      "physical_pdf_page_1_based": 28,
+      "path": "pdf_pages/77ca6a277eb55ac3c9c4329492a6d3c71e644ff503b33de51ae79ea031508313_p0028.png",
+      "sha256": "0ec51458a9d8b683354c8a4a22c56429371e907f9dd61fb644dc6ab03d7e9480",
+      "bytes": 218245,
+      "width": 1271,
+      "height": 1650,
+      "dpi": 150
+    },
+    {
+      "source_sha256": "95e5e12c4206f598103557d311b41931750254924655d5fd7ecd22113a5d5de3",
+      "physical_pdf_page_1_based": 8,
+      "path": "pdf_pages/95e5e12c4206f598103557d311b41931750254924655d5fd7ecd22113a5d5de3_p0008.png",
+      "sha256": "5f1c6da69d2817fdfabb3883f7bec58ad1d5581937189d94435aabbb2d646e9c",
+      "bytes": 877150,
+      "width": 1304,
+      "height": 1667,
+      "dpi": 150
+    }
+  ],
+  "representative_visual_observation": "Seven listed original-page renders inspected: text, equations, historical scan notation and POMDP diagram legible with no newly observed crop/overlay defects. Original black scan borders retained. No claim all 570 pages were visually inspected or scientific methods reviewed independently.",
+  "optional_poppler_comparison": {
+    "status": "UNAVAILABLE_NOT_REQUIRED_FOR_PYMUPDF_DELIVERY",
+    "numeric_exit_code_not_retained": true,
+    "stdout_path": "delivery/P3_REVIEW_PACKET_019_RENDER_QA/poppler_stdout.bin",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_path": "delivery/P3_REVIEW_PACKET_019_RENDER_QA/poppler_stderr.bin",
+    "stderr_sha256": "a643ae6c9efaa109ce42fb7da4926c1f61343700b1838af42e2ce4d6cb4d5d6a",
+    "stderr": "/opt/codex/runtimes/codex-primary-runtime/dependencies/native/poppler/poppler/bin/pdftoppm: error while loading shared libraries: libpoppler.so.160: cannot open shared object file: No such file or directory\n",
+    "subsequent_capture_error": "FileNotFoundError attempting to hash absent zheng_p0023_poppler.png before recording process return code; optional view_image also failed because no PNG existed. Existing successful renderer outputs unaffected. No cross-render agreement claimed."
+  },
+  "private_archive_path": "delivery/P3_REVIEW_PACKET_019_PRIVATE.zip",
+  "private_archive_sha256": "5b7afe3b742e14dffacfe0640e5b1d9210b449bbb9c5fd7a08b5083484859759",
+  "private_archive_bytes": 233079345,
+  "every_archived_file_compared_to_actual_packet": true,
+  "public_redistribution_authorized": false,
+  "private_contents_in_public_record": false,
+  "installer_path": "scripts/install_p3_review_packet.py",
+  "installer_sha256": "3e97c509a06dd1518b8ed0b121600b834e689df34d832aac26a6bc3d20ebc051",
+  "installer_test_path": "tests/test_install_p3_review_packet.py",
+  "installer_test_sha256": "41dbb2ca6e7461321ec594ba8ff88682c8cf679b8a785ff87cfd53230fd0c196",
+  "installer_validation_receipt_path": "delivery/P3_REVIEW_PACKET_019_VALIDATION/REPORT.json",
+  "installer_validation_receipt_sha256": "c02bd92c7995b00d0d5aa6183ed64d224667be7a063c10ef47227dbafdfc8af8",
+  "installer_validation": {
+    "schema_version": 1,
+    "scope": "Hosted installer engineering; no laptop/native/model invocation",
+    "test_command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-I",
+      "-B",
+      "tests/test_install_p3_review_packet.py"
+    ],
+    "exit_code": 0,
+    "tests_passed": 16,
+    "test_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "test_stderr_sha256": "a81ddaa6199192946e44911141271b712ebf03cea0c58d60d829b6d50e6b0139",
+    "test_stdout": "",
+    "test_stderr": "test_absolute_path_rejected (__main__.InstallerTests.test_absolute_path_rejected) ... ok\ntest_changed_complete_tree_preserved (__main__.InstallerTests.test_changed_complete_tree_preserved) ... ok\ntest_complete_install_and_reuse_without_archive (__main__.InstallerTests.test_complete_install_and_reuse_without_archive) ... ok\ntest_destination_symlink_rejected (__main__.InstallerTests.test_destination_symlink_rejected) ... ok\ntest_duplicate_member_rejected (__main__.InstallerTests.test_duplicate_member_rejected) ... /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/zipfile/__init__.py:1625: UserWarning: Duplicate name: 'a.txt'\n  return self._open_to_write(zinfo, force_zip64=force_zip64)\nok\ntest_extra_empty_directory_rejected (__main__.InstallerTests.test_extra_empty_directory_rejected) ... ok\ntest_extra_member_rejected (__main__.InstallerTests.test_extra_member_rejected) ... ok\ntest_hardlinked_packet_member_rejected (__main__.InstallerTests.test_hardlinked_packet_member_rejected) ... ok\ntest_inspection_writes_nothing (__main__.InstallerTests.test_inspection_writes_nothing) ... ok\ntest_member_hash_mismatch_rejected (__main__.InstallerTests.test_member_hash_mismatch_rejected) ... ok\ntest_nonfixed_archive_argument_rejected (__main__.InstallerTests.test_nonfixed_archive_argument_rejected) ... ok\ntest_partial_tree_preserved (__main__.InstallerTests.test_partial_tree_preserved) ... ok\ntest_symlink_member_rejected (__main__.InstallerTests.test_symlink_member_rejected) ... ok\ntest_traversal_path_rejected (__main__.InstallerTests.test_traversal_path_rejected) ... ok\ntest_writer_rejects_symlink_intermediate (__main__.InstallerTests.test_writer_rejects_symlink_intermediate) ... ok\ntest_wrong_outer_hash_stops_before_destination (__main__.InstallerTests.test_wrong_outer_hash_stops_before_destination) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.026s\n\nOK\n",
+    "installer_sha256": "3e97c509a06dd1518b8ed0b121600b834e689df34d832aac26a6bc3d20ebc051",
+    "test_source_sha256": "41dbb2ca6e7461321ec594ba8ff88682c8cf679b8a785ff87cfd53230fd0c196",
+    "real_archive_inspection": {
+      "status": "VERIFIED_ARCHIVE_NOT_INSTALLED",
+      "action": "INSTALL_ONLY_WITH_EXPLICIT_FLAG",
+      "packet_path": "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/P3_REVIEW_PACKET_019_VALIDATION/full_archive_fixture/lab/delivery/P3_REVIEW_PACKET_019",
+      "archive_sha256": "5b7afe3b742e14dffacfe0640e5b1d9210b449bbb9c5fd7a08b5083484859759",
+      "manifest_sha256": "437700c8850b7194b052d159b1eaf6a22b366c4a464e63148bb9b6b3084bdd98",
+      "files_verified": 723,
+      "writes_performed": false,
+      "model_called": false,
+      "git_changed": false
+    },
+    "real_archive_install": {
+      "packet_path": "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/P3_REVIEW_PACKET_019_VALIDATION/full_archive_fixture/lab/delivery/P3_REVIEW_PACKET_019",
+      "manifest_sha256": "437700c8850b7194b052d159b1eaf6a22b366c4a464e63148bb9b6b3084bdd98",
+      "files_verified": 723,
+      "bytes_verified": 260928491,
+      "status": "VERIFIED_EXACT_PRIVATE_PACKET",
+      "model_called": false,
+      "git_changed": false,
+      "public_redistribution_authorized": false,
+      "action": "INSTALLED_EXACT_PRIVATE_PACKET",
+      "archive_sha256": "5b7afe3b742e14dffacfe0640e5b1d9210b449bbb9c5fd7a08b5083484859759",
+      "writes_performed": true
+    },
+    "real_archive_reuse": {
+      "packet_path": "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/P3_REVIEW_PACKET_019_VALIDATION/full_archive_fixture/lab/delivery/P3_REVIEW_PACKET_019",
+      "manifest_sha256": "437700c8850b7194b052d159b1eaf6a22b366c4a464e63148bb9b6b3084bdd98",
+      "files_verified": 723,
+      "bytes_verified": 260928491,
+      "status": "VERIFIED_EXACT_PRIVATE_PACKET",
+      "model_called": false,
+      "git_changed": false,
+      "public_redistribution_authorized": false,
+      "action": "REUSED_COMPLETE_PACKET",
+      "writes_performed": false
+    },
+    "elapsed_seconds": 6.420350820000294,
+    "actual_laptop_execution": false,
+    "model_called": false,
+    "formal_verdict": null
+  },
+  "full_reviewer_runtime_enforcement_verified": false,
+  "laptop_packet_installation_measured": false,
+  "model_called": false,
+  "independent_verdict": null
+}
