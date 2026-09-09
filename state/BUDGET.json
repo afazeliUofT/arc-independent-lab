@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-09T00:27:25.064283+00:00",
+  "updated_utc": "2026-09-09T01:04:05.880681+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -119,14 +119,14 @@
     "rerun_needed": false
   },
   "next_operational_test": {
-    "name": "Manual warning-handling correction within approved finite019 access scope",
+    "name": "Manual source-contract correction within approved finite019 access scope",
     "scope": {
       "path": "configs/P3_FINITE_REVIEW_SCOPE_019.json",
       "sha256": "99d7f62d60b3384b5bb83923047b390f7f7e6e8d90c2654b33d996101755d5ea"
     },
     "controller": {
-      "path": "scripts/p3_finite_review_020.py",
-      "sha256": "a88512ebe176a593556dc728d562ab50f392e272f0347cf756db2addf26911f5"
+      "path": "scripts/p3_finite_review_021.py",
+      "sha256": "ee0189800a94643a52a7082b7c447f93bc0dd917b4ba45b492cb3fc052f14966"
     },
     "status": "prepared; existing scope approved, awaiting explicit human launch",
     "native_processes_maximum": 2,
@@ -168,17 +168,18 @@
       "maximum_catalog_entries": 800,
       "native_cpu_hard_limit_grace_seconds": 1
     },
-    "fixed_step_directory": "delivery/P3_FINITE_REVIEW_019_REPAIR_001",
-    "prior_failed_native_processes": 1,
+    "fixed_step_directory": "delivery/P3_FINITE_REVIEW_019_REPAIR_002",
+    "prior_failed_native_processes": 2,
     "additional_native_processes_maximum": 2,
-    "cumulative_native_processes_maximum": 3,
+    "cumulative_native_processes_maximum": 4,
     "cumulative_explicit_model_turns_maximum": 2,
     "new_approval_requested": false,
     "original_failed_attempt_preserved": true,
     "scope_unchanged": {
       "path": "configs/P3_FINITE_REVIEW_SCOPE_019.json",
       "sha256": "99d7f62d60b3384b5bb83923047b390f7f7e6e8d90c2654b33d996101755d5ea"
-    }
+    },
+    "both_previous_failed_attempts_preserved": true
   },
   "completed_native_signin": {
     "receipt": {
@@ -274,8 +275,8 @@
       "path": "artifacts/P3_REVIEWER_PROFILE_VALIDATION/20260908_001/REPORT.json",
       "sha256": "acbc599a337845e585af8cec04fd72af44cdb7d10321c1ae4329fce6120613a4"
     },
-    "native_controller_implemented": false,
-    "next_action": "Integrate finite controller and concrete budgets before proposing human execution; use needed startup for model catalog, no standalone account/cache probe.",
+    "native_controller_implemented": true,
+    "next_action": "Versioned finite controller021 is implemented and offline-tested; native admission pending explicit human execution.",
     "unattended_model_use_authorized": false,
     "extra_spending_allowed": false
   },
@@ -300,6 +301,21 @@
     "native_processes": 1,
     "explicit_model_turns": 0,
     "status": "Stopped on unclassified configWarning after initialize",
+    "scientific_review_completed": false,
+    "repeat_original_command": false
+  },
+  "completed_finite_review_020_attempt": {
+    "receipt": {
+      "path": "artifacts/P3_FINITE_REVIEW_CORRECTION_OBSERVATIONS/20260909_001/REPORT.json",
+      "sha256": "d9e52a7c7401651e482945c9d30786abde6f63d10fcb2412c7b92017b42635e7"
+    },
+    "review": {
+      "path": "evidence/P3_FINITE_REVIEW_020_OBSERVATION_REVIEW.json",
+      "sha256": "97438bcaa4a32ccbf8d9ef98f6e20e6d70fc5aa5710e66103fa096c2ef1817d5"
+    },
+    "native_processes": 1,
+    "explicit_model_turns": 0,
+    "status": "Exact advisory admitted; initialize/config-read succeeded; local origin check stopped before thread",
     "scientific_review_completed": false,
     "repeat_original_command": false
   }

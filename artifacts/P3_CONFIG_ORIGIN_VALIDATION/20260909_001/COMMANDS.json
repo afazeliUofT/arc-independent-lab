@@ -1,0 +1,47 @@
+[
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_p3_reviewer_session_021.py",
+      "-v"
+    ],
+    "exit_code": 0,
+    "stdout": "run1.stdout.txt",
+    "stderr": "run1.stderr.txt"
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_p3_finite_review_021.py",
+      "-v"
+    ],
+    "exit_code": 0,
+    "stdout": "run2.stdout.txt",
+    "stderr": "run2.stderr.txt"
+  },
+  {
+    "argv": [
+      "python3",
+      "-I",
+      "-B",
+      "scripts/p3_finite_review_021.py"
+    ],
+    "exit_code": 0,
+    "stdout": "run3.stdout.txt",
+    "stderr": "run3.stderr.txt"
+  }
+]

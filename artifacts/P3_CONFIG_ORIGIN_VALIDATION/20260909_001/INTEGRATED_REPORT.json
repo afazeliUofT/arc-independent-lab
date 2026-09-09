@@ -1,0 +1,96 @@
+{
+  "kind": "P3_CONFIG_ORIGIN_INTEGRATED_VALIDATION_v1",
+  "created_utc": "2026-09-09T01:04:05.880681+00:00",
+  "scope": "Offline engineering; Python fake stdio children and unchanged real closed broker. No native Codex, credential operation, model invocation or formal scientific review.",
+  "dedicated_admission_tests": 21,
+  "session_integration_tests": 32,
+  "controller_orchestration_tests": 25,
+  "total_distinct_tests": 78,
+  "all_tests_passed": true,
+  "actual_read_only_controller_inspection_passed": true,
+  "native_execution_verified": false,
+  "source_pins_count": 54,
+  "code": [
+    {
+      "path": "scripts/p3_reviewer_admission_021.py",
+      "sha256": "f70408e71322ca582935f1b04431302a2a910ab1c561aa8fae5a261bdb361860"
+    },
+    {
+      "path": "scripts/p3_reviewer_session_021.py",
+      "sha256": "32f0eaff8b4c68a8ab270e691cae204c9f95e54618b2651173b825e9d5442c2e"
+    },
+    {
+      "path": "scripts/p3_finite_review_021.py",
+      "sha256": "ee0189800a94643a52a7082b7c447f93bc0dd917b4ba45b492cb3fc052f14966"
+    }
+  ],
+  "tests": [
+    {
+      "path": "tests/test_p3_reviewer_admission_021.py",
+      "sha256": "f6f00c34b59aa12648932faa4950bce819b248985b0ab6cfcf6720d2d0e9f3fc"
+    },
+    {
+      "path": "tests/test_p3_reviewer_session_021.py",
+      "sha256": "e77c24a88832fab88fddd5b2a943c93d584191fbcbcfc89e8c2ce3ea9736bc13"
+    },
+    {
+      "path": "tests/test_p3_finite_review_021.py",
+      "sha256": "db90adce8f83285646c8c3039745d7eff8131e25e9f3b763bc846bade17190db"
+    }
+  ],
+  "dedicated_admission_receipt": {
+    "path": "artifacts/P3_CONFIG_ORIGIN_VALIDATION/20260909_001/REPORT.json",
+    "sha256": "5b1e8f62f01130d6ac6dbb30f26e4b1d35ff527743a0d215893435b6ac5893c8"
+  },
+  "integrated_commands": [
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_p3_reviewer_session_021.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "run1.stdout.txt",
+      "stderr": "run1.stderr.txt"
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_p3_finite_review_021.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "run2.stdout.txt",
+      "stderr": "run2.stderr.txt"
+    },
+    {
+      "argv": [
+        "python3",
+        "-I",
+        "-B",
+        "scripts/p3_finite_review_021.py"
+      ],
+      "exit_code": 0,
+      "stdout": "run3.stdout.txt",
+      "stderr": "run3.stderr.txt"
+    }
+  ],
+  "old_fixtures_shared_wrong_origin_assumptions": true,
+  "source_derived_literal_origins_used": true,
+  "safe_control_failure_diagnostics_verified": true,
+  "historical_scope_and_scientific_inputs_unchanged": true
+}

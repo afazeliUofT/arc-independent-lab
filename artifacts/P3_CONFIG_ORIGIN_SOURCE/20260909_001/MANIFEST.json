@@ -1,0 +1,84 @@
+{
+  "purpose": "Exact-release configuration origin semantics and independent offline failure reproduction; engineering consultation only",
+  "source_repository": "https://github.com/openai/codex",
+  "source_commit": "78c290807ce710180111df227df3b7a4fe845452",
+  "accessed_utc_date": "2026-09-09",
+  "license": "Apache-2.0",
+  "prior_source_closure": {
+    "path": "artifacts/GATE0_CONFIG_PROJECTION_SOURCE/20260907_001/MANIFEST.json",
+    "sha256": "5d75ddbee78a502b27a1c38389e99ef3eed24cad2968128240ea4c89141f89b8"
+  },
+  "source_blob_identity_checks": {
+    "checked": 5,
+    "passed": 5
+  },
+  "files": [
+    {
+      "path": "ADMISSION_VALIDATION.json",
+      "bytes": 919,
+      "sha256": "ecf42bc4d549595d3d93fd2864b94cebff18808bdccf9a90b1b3a9c27836aa9c"
+    },
+    {
+      "path": "CONSULTATION.md",
+      "bytes": 8486,
+      "sha256": "be3f24b236d9c1e6d2bf2fbfe579d8651d63099d4424645f06f0441856297735"
+    },
+    {
+      "path": "GITHUB_BLOB_IDENTITIES.json",
+      "bytes": 2281,
+      "sha256": "acd588523bd1d91b9f1562b195c46ecb2e7be1e4a6fc480a0312ff7b79ffc90d"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 10926,
+      "sha256": "d17f227e4df5da1600391338865ce0f3055211760a36688f816941d58232d8dc"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 242,
+      "sha256": "9d71575ecfd9a843fc1677b0efb08053c6ba9fd686a0de1a6f5382fd3c220915"
+    },
+    {
+      "path": "OFFLINE_REPRODUCTION.json",
+      "bytes": 1080,
+      "sha256": "babebe6316110bc8e8c1ff5368a916bced705b46ef31a19ea715526facb7cc05"
+    },
+    {
+      "path": "SEARCH_OBSERVATIONS.json",
+      "bytes": 894,
+      "sha256": "9f373cb22406d0436dbdf2e507c5c13ce440e36abc100b4696715df8efc6f3b5"
+    },
+    {
+      "path": "codex-rs/config/src/config_layer_source.rs",
+      "bytes": 4166,
+      "sha256": "6816bf7bd44b1f2799aae30331b77a7e8231ccacdc4cd3d44d6485f9e1118364"
+    },
+    {
+      "path": "codex-rs/config/src/fingerprint.rs",
+      "bytes": 2661,
+      "sha256": "efc9fb8365a1bfaf4d27933a495624f2763c429789bb1a6399c68ae271e305ca"
+    },
+    {
+      "path": "codex-rs/config/src/key_aliases.rs",
+      "bytes": 1854,
+      "sha256": "a99676453589c93c57288bc7c17c3a171f9ba13c2bfad5dbf1b067489df68a6c"
+    },
+    {
+      "path": "codex-rs/features/src/feature_configs.rs",
+      "bytes": 18845,
+      "sha256": "6e60306024c738e9d17a20b0ea0d2c5f91f66dccfd62bc708ebd9141e507b476"
+    },
+    {
+      "path": "codex-rs/features/src/lib.rs",
+      "bytes": 56307,
+      "sha256": "62ac7c6f6109a1e984a0257aa1096753094b5d9dca9d638d19d75dc07b0c7940"
+    },
+    {
+      "path": "reproduce_origin_contract_021.py",
+      "bytes": 3308,
+      "sha256": "e186cae205c3db8875caa1168e34eb82af6adb5795d385e32adcc611d98b2f47"
+    }
+  ],
+  "native_client_executed": false,
+  "model_request_sent": false
+}

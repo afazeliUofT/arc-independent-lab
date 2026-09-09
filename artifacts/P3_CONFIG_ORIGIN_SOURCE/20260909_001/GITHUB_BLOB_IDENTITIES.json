@@ -1,0 +1,46 @@
+{
+  "commit": "78c290807ce710180111df227df3b7a4fe845452",
+  "accessed_utc_date": "2026-09-09",
+  "files": [
+    {
+      "path": "codex-rs/config/src/config_layer_source.rs",
+      "sha": "c044ff5593e7257209f08736782d9e487e96a285",
+      "size": 4166,
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/config/src/config_layer_source.rs",
+      "computed_git_blob_sha1": "c044ff5593e7257209f08736782d9e487e96a285",
+      "sha256": "6816bf7bd44b1f2799aae30331b77a7e8231ccacdc4cd3d44d6485f9e1118364"
+    },
+    {
+      "path": "codex-rs/config/src/fingerprint.rs",
+      "sha": "75cfd3eafd7e4b2d802b8961fbc7cd7849641d7e",
+      "size": 2661,
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/config/src/fingerprint.rs",
+      "computed_git_blob_sha1": "75cfd3eafd7e4b2d802b8961fbc7cd7849641d7e",
+      "sha256": "efc9fb8365a1bfaf4d27933a495624f2763c429789bb1a6399c68ae271e305ca"
+    },
+    {
+      "path": "codex-rs/config/src/key_aliases.rs",
+      "sha": "c0f2dea391d4e22c9f381aa17be4e9153be3846e",
+      "size": 1854,
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/config/src/key_aliases.rs",
+      "computed_git_blob_sha1": "c0f2dea391d4e22c9f381aa17be4e9153be3846e",
+      "sha256": "a99676453589c93c57288bc7c17c3a171f9ba13c2bfad5dbf1b067489df68a6c"
+    },
+    {
+      "path": "codex-rs/features/src/feature_configs.rs",
+      "sha": "7fa2ab6f09a704c62b6718420712d33634557403",
+      "size": 18845,
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/features/src/feature_configs.rs",
+      "computed_git_blob_sha1": "7fa2ab6f09a704c62b6718420712d33634557403",
+      "sha256": "6e60306024c738e9d17a20b0ea0d2c5f91f66dccfd62bc708ebd9141e507b476"
+    },
+    {
+      "path": "codex-rs/features/src/lib.rs",
+      "sha": "a4d275cac8370c28b3b7fbb39daadf4c79e6019b",
+      "size": 56307,
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/features/src/lib.rs",
+      "computed_git_blob_sha1": "a4d275cac8370c28b3b7fbb39daadf4c79e6019b",
+      "sha256": "62ac7c6f6109a1e984a0257aa1096753094b5d9dca9d638d19d75dc07b0c7940"
+    }
+  ]
+}

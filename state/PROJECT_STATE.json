@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-09T00:27:25.064283+00:00",
+  "updated_utc": "2026-09-09T01:04:05.880681+00:00",
   "current_gate": "P3",
   "gate_status": "in_progress",
   "gate_entered_utc": "2026-09-06T20:14:12.138443+00:00",
   "last_verified_gate": "P2",
-  "last_verified_commit": "9006972e4084fde2580c83ff3c9942fbca2bb52d",
+  "last_verified_commit": "b6a57210fcbf86d29a6e8d788c7b8cf8bf4d7689",
   "active_task": {
-    "id": "P3.12",
-    "description": "Preserve failed native019 observation and prepare narrow startup warning correction",
+    "id": "P3.13",
+    "description": "Preserve second failed startup and correct source-derived configuration origin contract",
     "attempt": 1,
-    "status": "prepared; awaiting human checkpoint020 publication and explicit corrective WSL launch",
+    "status": "prepared; awaiting human checkpoint021 publication and explicit corrective WSL launch",
     "native_attempts_performed_by_assistant": 0
   },
   "blocked_on": {
     "kind": "human_canonical_execution",
-    "reason": "Versioned correction prepared and tested. Existing scope019 approval persists; the actual WSL native client and private run files are on the user laptop. User executes publication and explicit corrective command.",
+    "reason": "Versioned021 correction prepared and tested. Existing scope019 approval persists; actual native client/private runs are on user laptop. User executes publication and explicit corrective command.",
     "new_permission_required": false
   },
-  "next_action": "Verify human checkpoint020 publication, then validate the exact safe report from delivery/P3_FINITE_REVIEW_019_REPAIR_001. The user may run it immediately after publishing with the already recorded scope019 approval. Do not repeat original019, sign-in, or metadata-only probes; do not download the private packet again. Preserve the failed019 report and all previous controls. If the exact source advisory is observed, record it while retaining every later admission check; consequential or unknown warnings stop with safe categories. Model availability, actual synthetic refusal and fresh scientific context remain to be established. Validate execution separately from any unmodified reviewer verdict. Require separate C1/C2/C3/C4/T/observer dispositions. If the negative audit survives, explicitly return to novelty-free invention focused on acquisition. No self-verdict, paid API, silent model downgrade or unattended continuation.",
+  "next_action": "Verify human checkpoint021 publication and exact safe REPORT from delivery/P3_FINITE_REVIEW_019_REPAIR_002. User may run immediately after publishing under existing scope019 approval. Do not repeat sign-in, metadata-only probes or old native attempts; do not download private papers again. Check safe control diagnostics if native admission stops. Preserve any unchanged reviewer verdict separately from execution admission. Require separate C1/C2/C3/C4/T/observer dispositions. If negative reductions survive, explicitly return to novelty-free invention focused on acquisition. No self-verdict, paid fallback, silent downgrade or unattended continuation.",
   "open_questions": [
-    "Actual corrected native startup, model availability, synthetic refusal and scientific reviewer admission remain unobserved. The first019 warning family cannot be recovered from its redacted report; a narrow source-compatible handler and safe warning categories are prepared.",
+    "Corrected021 native admission, model availability, synthetic refusal and scientific reviewer completion remain unobserved. REPORT9 establishes prescience origin refusal without identifying the exact failing field; source proves two validator errors now corrected.",
     "Formal separate dispositions for C1/C2/C3/C4, joint proposition and observer diagnostic remain pending enforced review.",
     "Whole-wrapper historical identity is unestablished; no novel complete joint algorithm or resource advantage specified.",
     "Observer supplied-contract discovery/invocation and broader practical prevalence remain open; exact recovery does not imply numerical robustness.",
@@ -65,8 +65,8 @@
     "P3"
   ],
   "remote": "https://github.com/afazeliUofT/arc-independent-lab",
-  "durability_status": "Human checkpoint019 and exact approval verified on GitHub. Checkpoint020 preserves the safe failed run, new source evidence and correction for human publication. Existing private paper packet remains on the laptop; no new private download needed.",
-  "commit_status": "Hosted HEAD/index adopt human9006972e4084fde2580c83ff3c9942fbca2bb52d; checkpoint020 is an uncommitted overlay for user publication. No assistant commit or push.",
+  "durability_status": "Human checkpoint020 verified on GitHub. Checkpoint021 prepares safe REPORT9, exact source correction and logs for human publication. Existing private paper packet remains on laptop.",
+  "commit_status": "Hosted HEAD/index adopt human b6a57210fcbf86d29a6e8d788c7b8cf8bf4d7689; checkpoint021 uncommitted overlay for user publication. No assistant commit or push.",
   "recovery_dependency": null,
   "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation.",
   "latest_recovery_evidence": [
@@ -84,7 +84,7 @@
     }
   ],
   "private_error_log_handling": "Probe raw error output stays within laptop Git metadata, outside normal commits. Request only safe terminal report; never ask for credentials or publish raw transport logs.",
-  "foreground_execution_note": "Original019 native initialize succeeded and then stopped on configWarning before any model turn. The versioned020 correction passed offline tests but has not run natively.",
+  "foreground_execution_note": "Two observed finite-series native starts and zero explicit model turns. Latest native run admitted exact advisory and config/read, then origin check stopped. Corrected021 origin contract passed offline tests; native review still pending.",
   "scientific_status": "Residual novelty audit complete as PI analysis with explicit C4 reconstruction and joint-priority corrections. Observer readout reduces to residualization; query identifiability/conditioning delimited. Independent review and measured PROGRAMME remain outstanding.",
   "latest_scientific_evidence": [
     {
@@ -118,8 +118,8 @@
   ],
   "handoff_backup_status": "Prior runtime upload limitation persists as unverified capability; no repeated failed upload. GitHub is the authorized durability bridge.",
   "latest_publication_verification": {
-    "path": "evidence/REMOTE_CHECKPOINT_017_VERIFICATION.json",
-    "sha256": "f574da597f91fc65106ac169ce4c49b3a62143c80b8288740a6a049b13eae4a5"
+    "path": "evidence/REMOTE_CHECKPOINT_020_VERIFICATION.json",
+    "sha256": "06b0456365917139ed80cc727796f9e111d94e4669b586f76850baa645c8b189"
   },
   "last_human_message_verbatim": "Here is the new report attached",
   "phase1_approval": {
@@ -289,8 +289,8 @@
     "complete_reviewer_boundary_verified": false
   },
   "latest_objective_review": {
-    "path": "reports/P3_CHECKPOINT_018_STATUS.md",
-    "sha256": "fc2387167af928e1b16e48752630d7bfa01e2367be6d071348187cec62928ec7"
+    "path": "reports/P3_CHECKPOINT_021_STATUS.md",
+    "sha256": "207c5dde36d28fa0c5b205aea673f4bce738179ab3945da1044c85b8eed4a761"
   },
   "objective_continuity": {
     "read_each_substantive_turn": "docs/OBJECTIVE_CONTINUITY_2026-09-07.md",
@@ -384,29 +384,30 @@
   },
   "latest_finite_review_preparation": {
     "controller": {
-      "path": "scripts/p3_finite_review_020.py",
-      "sha256": "a88512ebe176a593556dc728d562ab50f392e272f0347cf756db2addf26911f5"
+      "path": "scripts/p3_finite_review_021.py",
+      "sha256": "ee0189800a94643a52a7082b7c447f93bc0dd917b4ba45b492cb3fc052f14966"
     },
     "validation": {
-      "path": "artifacts/P3_CONFIG_WARNING_VALIDATION/20260909_001/REPORT.json",
-      "sha256": "7a63b5f72fa6dac1d884ed51d22d82bd994dc195db04fe9453d642c1c412449d"
+      "path": "artifacts/P3_CONFIG_ORIGIN_VALIDATION/20260909_001/INTEGRATED_REPORT.json",
+      "sha256": "b93ffdaeacec39570487729a83b9e86697120944cf0d21d77824f5884d69cc8e"
     },
     "scope": {
       "path": "configs/P3_FINITE_REVIEW_SCOPE_019.json",
       "sha256": "99d7f62d60b3384b5bb83923047b390f7f7e6e8d90c2654b33d996101755d5ea"
     },
-    "scope_approved": true,
-    "approval_commit": "9006972e4084fde2580c83ff3c9942fbca2bb52d",
-    "original_attempt": {
-      "path": "artifacts/P3_FINITE_REVIEW_OBSERVATIONS/20260909_001/REPORT.json",
-      "sha256": "2725b63acd12a09a89041760ca9ea21f0f004a0ece1a6e4d2b7df125a48d54f6"
+    "source_contract": {
+      "path": "artifacts/P3_CONFIG_ORIGIN_SOURCE/20260909_001/MANIFEST.json",
+      "sha256": "7bf4edcf21565174afd7abe9f3b5b13406823995145d871d50e9bc8ca7853a60"
     },
-    "status_report": {
-      "path": "reports/P3_CHECKPOINT_020_STATUS.md",
-      "sha256": "bf64cc854c9c4cfed781b6743e8af805380cf2029beeac3a157539ae72f4c085"
-    },
-    "actual_reviewer_model_turns": 0,
-    "formal_review_complete": false,
-    "new_scope_approval_requested": false
+    "status": "Prepared; existing approval remains valid; native execution pending human launch",
+    "new_permission_required": false
+  },
+  "latest_finite_review_observation": {
+    "path": "evidence/P3_FINITE_REVIEW_020_OBSERVATION_REVIEW.json",
+    "sha256": "97438bcaa4a32ccbf8d9ef98f6e20e6d70fc5aa5710e66103fa096c2ef1817d5"
+  },
+  "latest_correction_validation": {
+    "path": "artifacts/P3_CONFIG_ORIGIN_VALIDATION/20260909_001/INTEGRATED_REPORT.json",
+    "sha256": "b93ffdaeacec39570487729a83b9e86697120944cf0d21d77824f5884d69cc8e"
   }
 }

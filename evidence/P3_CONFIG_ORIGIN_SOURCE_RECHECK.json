@@ -1,0 +1,16 @@
+{
+  "kind": "P3_CONFIG_ORIGIN_SOURCE_RECHECK_v1",
+  "verified_utc": "2026-09-09T01:02:13.829343+00:00",
+  "source_commit": "78c290807ce710180111df227df3b7a4fe845452",
+  "access_date": "2026-09-09",
+  "source_manifest_path": "artifacts/P3_CONFIG_ORIGIN_SOURCE/20260909_001/MANIFEST.json",
+  "source_manifest_sha256": "7bf4edcf21565174afd7abe9f3b5b13406823995145d871d50e9bc8ca7853a60",
+  "members_verified": 13,
+  "new_git_blob_identities_verified": 5,
+  "prior_source_closure_manifest_verified": true,
+  "engineer_consultation_not_independent_scientific_review": true,
+  "native_operation_performed": false,
+  "pre_finalization_manifest_sha256": "e0de6df0d7fddb95d676862fe70a5d91cc427994d3303433ac1240027e592bce",
+  "pre_finalization_verified_utc": "2026-09-09T01:00:30.395405+00:00",
+  "finalization_changes": "Consultation records strict projection policy; copied reproduction root corrected; dedicated validation receipt added before final controller pinning."
+}

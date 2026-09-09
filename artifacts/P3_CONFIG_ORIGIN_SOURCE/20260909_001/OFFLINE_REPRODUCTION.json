@@ -1,0 +1,30 @@
+{
+  "kind": "P3_CONFIG_ORIGIN_OFFLINE_REPRODUCTION_021_v1",
+  "native_client_executed": false,
+  "model_request_sent": false,
+  "user_configuration_read": false,
+  "fixture_is_source_model_not_native_observation": true,
+  "source_commit": "78c290807ce710180111df227df3b7a4fe845452",
+  "validator_path": "scripts/p3_reviewer_admission.py",
+  "validator_sha256": "9b589287b6b56ad56e12075d655d0c9935a570076a35544fa64a40973b6969cb",
+  "missing_origin_paths_expected_by_old_validator": [
+    "features.multi_agent_v2",
+    "features.code_mode.direct_only_tool_namespaces"
+  ],
+  "required_source_paths_instead": [
+    "features.multi_agent_v2.enabled",
+    "features.code_mode.direct_only_tool_namespaces.0"
+  ],
+  "outcomes": [
+    {
+      "fixture": "source_correct_origins",
+      "admitted": false,
+      "reason": "Reviewer control origin is not the prescribed session layer"
+    },
+    {
+      "fixture": "only_array_defect_isolated_by_adding_legacy_boolean_key",
+      "admitted": false,
+      "reason": "Reviewer control origin is not the prescribed session layer"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "P3_CONFIG_ORIGIN_ADMISSION_021_VALIDATION_v1",
+  "command": "python3 -I -B tests/test_p3_reviewer_admission_021.py",
+  "exit_code": 0,
+  "tests_run": 21,
+  "tests_failed": 0,
+  "tests_skipped": 0,
+  "reported_elapsed_seconds": 0.13,
+  "native_client_executed": false,
+  "model_request_sent": false,
+  "user_configuration_read": false,
+  "failed_test_executions": [],
+  "inputs": {
+    "scripts/p3_reviewer_admission_021.py": "f70408e71322ca582935f1b04431302a2a910ab1c561aa8fae5a261bdb361860",
+    "tests/test_p3_reviewer_admission_021.py": "f6f00c34b59aa12648932faa4950bce819b248985b0ab6cfcf6720d2d0e9f3fc",
+    "scripts/p3_reviewer_admission.py": "9b589287b6b56ad56e12075d655d0c9935a570076a35544fa64a40973b6969cb"
+  },
+  "scope": "Independent literal origin fixtures, scalar-index/structured-boolean traversal, exact source/winner/shadow/refusal, safe complete diagnostics; not actual native admission",
+  "tool_chunk_id": "f22e0c",
+  "tool_wall_time_seconds": 0.099415796,
+  "command_output": {
+    "path": "COMMAND_OUTPUT.txt",
+    "sha256": "d7bb5ebf0a150c8fafa8ab11b6ed39d10bba62ad4d07154626586575506194d0",
+    "provenance": "Verbatim combined exec tool output; stdout and stderr were not captured into separate files by that invocation"
+  }
+}

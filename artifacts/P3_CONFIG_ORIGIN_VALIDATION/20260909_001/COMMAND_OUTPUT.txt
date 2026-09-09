@@ -1,0 +1,26 @@
+test_all_known_controls_observed_before_failure (__main__.OriginContractTests.test_all_known_controls_observed_before_failure) ... ok
+test_code_mode_host_nested_fallback_not_admitted (__main__.OriginContractTests.test_code_mode_host_nested_fallback_not_admitted) ... ok
+test_custom_instruction_checks_and_diagnostics_preserved (__main__.OriginContractTests.test_custom_instruction_checks_and_diagnostics_preserved) ... ok
+test_disabled_higher_shadow_is_not_effective (__main__.OriginContractTests.test_disabled_higher_shadow_is_not_effective) ... ok
+test_empty_collections_have_no_native_origin (__main__.OriginContractTests.test_empty_collections_have_no_native_origin) ... ok
+test_indexed_origin_exact_version_required (__main__.OriginContractTests.test_indexed_origin_exact_version_required) ... ok
+test_indexed_origin_source_required (__main__.OriginContractTests.test_indexed_origin_source_required) ... ok
+test_literal_native_origins_admitted (__main__.OriginContractTests.test_literal_native_origins_admitted) ... ok
+test_malformed_layer_and_top_level_fail_safely (__main__.OriginContractTests.test_malformed_layer_and_top_level_fail_safely) ... ok
+test_malformed_origin_never_leaks_raw_values (__main__.OriginContractTests.test_malformed_origin_never_leaks_raw_values) ... ok
+test_missing_managed_requirement_origin_not_invented (__main__.OriginContractTests.test_missing_managed_requirement_origin_not_invented) ... ok
+test_nested_arrays_and_tables_use_scalar_indices (__main__.OriginContractTests.test_nested_arrays_and_tables_use_scalar_indices) ... ok
+test_old_boolean_origin_does_not_substitute_for_native_enabled_origin (__main__.OriginContractTests.test_old_boolean_origin_does_not_substitute_for_native_enabled_origin) ... ok
+test_only_two_source_defined_structured_features_are_transformed (__main__.OriginContractTests.test_only_two_source_defined_structured_features_are_transformed) ... ok
+test_pinned_source_semantics_identified (__main__.OriginContractTests.test_pinned_source_semantics_identified) ... ok
+test_replacement_ancestor_still_stops (__main__.OriginContractTests.test_replacement_ancestor_still_stops) ... ok
+test_same_value_higher_enabled_layer_still_stops (__main__.OriginContractTests.test_same_value_higher_enabled_layer_still_stops) ... ok
+test_source_profile_feature_transformation_is_narrow (__main__.OriginContractTests.test_source_profile_feature_transformation_is_narrow) ... ok
+test_structured_multi_agent_projection_deliberate_stop (__main__.OriginContractTests.test_structured_multi_agent_projection_deliberate_stop) ... ok
+test_unexpected_code_mode_table_member_stops (__main__.OriginContractTests.test_unexpected_code_mode_table_member_stops) ... ok
+test_whole_array_origin_does_not_substitute_for_indexed_origin (__main__.OriginContractTests.test_whole_array_origin_does_not_substitute_for_indexed_origin) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.130s
+
+OK
