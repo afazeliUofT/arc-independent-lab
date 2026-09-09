@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-09-09T03:36:30.740877+00:00",
+  "errors": [
+    {
+      "command": "cat delivery/validate_checkpoint022.py",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "cat: delivery/validate_checkpoint022.py: No such file or directory\n",
+      "resolution": "Actual existing file is delivery/validate_checkpoint022_release.py; read successfully."
+    },
+    {
+      "command": "cat delivery/SOL_NATIVE_MODE_AUDIT_023.md",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "cat: delivery/SOL_NATIVE_MODE_AUDIT_023.md: No such file or directory\n",
+      "resolution": "Premature read of pending engineering output; await agent completion."
+    },
+    {
+      "tool": "web.run",
+      "request": {
+        "open": "https://learn.chatgpt.com/docs/config-reference",
+        "find": "model_reasoning"
+      },
+      "observed_output": "Failed to fetch https://learn.chatgpt.com/docs/config-reference: DisabledError\nNo matching text found for \"model_reasoning\"",
+      "resolution": "No claim drawn from failed page. Use already archived exact installed-client config schema and source; successful official reasoning/models pages separately support product distinctions."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-I",
+    "-B",
+    "tests/test_p3_model_option_022.py",
+    "-v"
+  ],
+  "exit_code": 0,
+  "created_utc": "2026-09-09T03:13:42.142449+00:00",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "552e27b6fefec049cb887655d4f478d04f5ea4a24326ecb7df0093b9d252878a",
+  "native_codex_invoked": false,
+  "model_invoked": false
+}

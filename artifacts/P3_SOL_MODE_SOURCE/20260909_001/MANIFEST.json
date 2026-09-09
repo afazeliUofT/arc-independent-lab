@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "access_date": "2026-09-09",
+  "native_source_commit": "78c290807ce710180111df227df3b7a4fe845452",
+  "root_recomputed_new_source_sha256_and_git_blob_ids": true,
+  "files": [
+    {
+      "path": "common.rs",
+      "sha256": "f525d1593a01b579dd2dcadf96744888b4a7529155dddbf74963ba55cf7f23d5",
+      "git_blob_sha1": "5adfe8db6a013a0f3e434445eda0378e0f4962ee",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/codex-api/src/common.rs"
+    },
+    {
+      "path": "lib.rs",
+      "sha256": "ef31a528a67cfa4bd11445e5e2e2f29d147c763b1e9fb73b43d5a60003be1a29",
+      "git_blob_sha1": "17e3ceb69b3a7d51e25c1f900713ff84984aedf0",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/codex-api/src/lib.rs"
+    },
+    {
+      "path": "CONSULTATION.md",
+      "sha256": "7804e3eea6d50c773da71c1c10f56cf74955ca0540520c514a3e2384e8e840b9",
+      "role": "Same-workspace engineering consultation; not independent scientific review. Original delivery references preserved; new source bytes duplicated in this artifact directory."
+    }
+  ]
+}

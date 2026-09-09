@@ -1,0 +1,18 @@
+test_any_prior_missing_or_changed_session_stops_without_creating_run (__main__.ControllerTests.test_any_prior_missing_or_changed_session_stops_without_creating_run) ... ok
+test_complete_receipt_reuse_is_read_only_before_any_new_approval_or_model (__main__.ControllerTests.test_complete_receipt_reuse_is_read_only_before_any_new_approval_or_model) ... ok
+test_exact_three_receipt_chain_counts_and_scope_separation (__main__.ControllerTests.test_exact_three_receipt_chain_counts_and_scope_separation) ... ok
+test_latest_prior_model_thread_science_or_wrong_scope_is_refused (__main__.ControllerTests.test_latest_prior_model_thread_science_or_wrong_scope_is_refused) ... ok
+test_old_approval_stops_launch_before_packet_or_native_operation (__main__.ControllerTests.test_old_approval_stops_launch_before_packet_or_native_operation) ... ok
+test_original_approval_never_authorizes_and_new_exact_approval_does (__main__.ControllerTests.test_original_approval_never_authorizes_and_new_exact_approval_does) ... ok
+test_absent_sol_absent_max_and_unknown_effort_stop_without_fallback (__main__.SelectionTests.test_absent_sol_absent_max_and_unknown_effort_stop_without_fallback) ... ok
+test_exact_sol_max_is_selected_even_when_ultra_is_advertised (__main__.SelectionTests.test_exact_sol_max_is_selected_even_when_ultra_is_advertised) ... ok
+test_profile_retains_all_original_restrictions_and_only_changes_model_identity (__main__.SelectionTests.test_profile_retains_all_original_restrictions_and_only_changes_model_identity) ... ok
+test_thread_and_turn_control_reject_model_or_effort_substitution (__main__.SelectionTests.test_thread_and_turn_control_reject_model_or_effort_substitution) ... ok
+test_literal_source_origins_sol_max_and_real_broker_synthetic_refusal (__main__.SessionIntegrationTests.test_literal_source_origins_sol_max_and_real_broker_synthetic_refusal) ... ok
+test_server_model_substitution_stops_before_any_model_turn (__main__.SessionIntegrationTests.test_server_model_substitution_stops_before_any_model_turn) ... ok
+test_sol_without_max_stops_before_any_thread_or_model (__main__.SessionIntegrationTests.test_sol_without_max_stops_before_any_thread_or_model) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.150s
+
+OK

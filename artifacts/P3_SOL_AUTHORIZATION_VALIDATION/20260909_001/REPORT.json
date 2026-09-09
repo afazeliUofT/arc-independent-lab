@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-09T03:40:06.262119+00:00",
+  "status": "OFFLINE_SCOPE_AND_ANSWER_ACCEPTED",
+  "controller_sha256": "ef9b1bb0b19e3d8687aac88d70f268183f00c435c789420e47996211ea09e116",
+  "scope_sha256": "46301a69ae7a2d0cdac537eb2127415e8d4ac3c4ab5d7e8ea00ff1a1894a9f0f",
+  "source_pins_verified": 82,
+  "recorded_approval": {
+    "path": "state/ESCALATION.md",
+    "sha256": "19aecf27fc839b9a066fd099645de38880af8e3dd75b702caf32310ded8d082a"
+  },
+  "frozen_manifests_verified": {
+    "evidence/P3_AUDIT_REVIEW_MANIFEST.json": "8d475e93aa21db5d7210f337c036e2705e3a4b83b6d99d43d715161d63b7e374",
+    "evidence/P3_RESIDUAL_REVIEW_MANIFEST.json": "f7249d53060349fdfbaca2102672457e3e8966ef510d6853322b10da75762128"
+  },
+  "private_packet_manifest_sha256": "437700c8850b7194b052d159b1eaf6a22b366c4a464e63148bb9b6b3084bdd98",
+  "packet_installation_not_retested": true,
+  "native_launch_performed": false,
+  "model_invocation_performed": false,
+  "independent_scientific_verdict": false,
+  "limit": "Only existing load_bundle and approval functions invoked. No canonical_host, execute, account, thread, turn or broker run."
+}

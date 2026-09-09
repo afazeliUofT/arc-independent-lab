@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-09T01:04:05.880681+00:00",
+  "updated_utc": "2026-09-09T03:39:17.452122+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -119,16 +119,16 @@
     "rerun_needed": false
   },
   "next_operational_test": {
-    "name": "Manual source-contract correction within approved finite019 access scope",
+    "name": "Authorized Sol Max isolated review",
     "scope": {
-      "path": "configs/P3_FINITE_REVIEW_SCOPE_019.json",
-      "sha256": "99d7f62d60b3384b5bb83923047b390f7f7e6e8d90c2654b33d996101755d5ea"
+      "path": "configs/P3_FINITE_REVIEW_SCOPE_022.json",
+      "sha256": "46301a69ae7a2d0cdac537eb2127415e8d4ac3c4ab5d7e8ea00ff1a1894a9f0f"
     },
     "controller": {
-      "path": "scripts/p3_finite_review_021.py",
-      "sha256": "ee0189800a94643a52a7082b7c447f93bc0dd917b4ba45b492cb3fc052f14966"
+      "path": "scripts/p3_finite_review_022.py",
+      "sha256": "ef9b1bb0b19e3d8687aac88d70f268183f00c435c789420e47996211ea09e116"
     },
-    "status": "prepared; existing scope approved, awaiting explicit human launch",
+    "status": "Current conversation authorization accepted and exact scope answer prepared; pending human publication and separate explicit canonical launch",
     "native_processes_maximum": 2,
     "explicit_model_turns_maximum": 2,
     "synthetic_wall_seconds_including_cleanup": 600,
@@ -136,11 +136,16 @@
     "automatic_retries": 0,
     "fresh_scientific_process_only_after_synthetic_pass": true,
     "model_policy": {
-      "requested_identity": "gpt-6-astra",
+      "requested_identity": "gpt-5.6-sol",
       "provider": "openai using existing ChatGPT account",
-      "effort": "highest recognized effort in the actual admitted model catalog",
+      "effort": "max, explicitly advertised for gpt-5.6-sol in the admitted native catalog; no effort fallback",
       "automatic_model_or_provider_fallback": false,
-      "if_identity_is_absent": "Stop before model invocation and retain useful filtered catalog; PI decides a supported route from evidence, with no silent downgrade or paid fallback."
+      "if_identity_is_absent": "Stop before model invocation and retain filtered catalog. Do not select a different model.",
+      "role_scope": "This explicit exception applies only to the bounded independent reviewer. PI research remains GPT-6 Astra at highest available effort.",
+      "original_requested_identity": "gpt-6-astra",
+      "change_requires_explicit_approval": true,
+      "effort_choice_reason": "Official documentation distinguishes Max single-agent reasoning from Ultra automatic delegation. The reviewer remains one process/context with collaboration disabled.",
+      "requested_effort": "max"
     },
     "unattended_model_use_authorized": false,
     "continuous_human_attendance_verified": false,
@@ -168,18 +173,22 @@
       "maximum_catalog_entries": 800,
       "native_cpu_hard_limit_grace_seconds": 1
     },
-    "fixed_step_directory": "delivery/P3_FINITE_REVIEW_019_REPAIR_002",
-    "prior_failed_native_processes": 2,
+    "fixed_step_directory": "delivery/P3_FINITE_REVIEW_022",
+    "prior_failed_native_processes": 3,
     "additional_native_processes_maximum": 2,
-    "cumulative_native_processes_maximum": 4,
+    "cumulative_native_processes_maximum": 5,
     "cumulative_explicit_model_turns_maximum": 2,
     "new_approval_requested": false,
     "original_failed_attempt_preserved": true,
-    "scope_unchanged": {
-      "path": "configs/P3_FINITE_REVIEW_SCOPE_019.json",
-      "sha256": "99d7f62d60b3384b5bb83923047b390f7f7e6e8d90c2654b33d996101755d5ea"
+    "all_three_previous_attempts_preserved": true,
+    "authorization_record": {
+      "path": "evidence/P3_SOL_APPROVAL_023.json",
+      "sha256": "9456538e6cf8a23f159b73fba445d88d415b1060b0495517b3ca7eda62f435db"
     },
-    "both_previous_failed_attempts_preserved": true
+    "capability_interpretation": {
+      "path": "reports/P3_SOL_CAPABILITY_DECISION_023.md",
+      "sha256": "85691b80b31a7b5262e0efb31688a7852da2422456ba7c511dd93c5f103b5f40"
+    }
   },
   "completed_native_signin": {
     "receipt": {
@@ -205,10 +214,10 @@
   "authoritative_usage_reading_scope": "Hosted ChatGPT conversation allowance; unavailable to this runtime.",
   "native_codex_usage_observation": {
     "receipt": {
-      "path": "artifacts/GATE0_POSTLOGIN_REPAIR_OBSERVATIONS/20260908_001/REPORT.json",
-      "sha256": "ab6b731d21a3e161e43e33b6db011db93037030e56d8bd40bfbd50cd2070b9c6"
+      "path": "artifacts/P3_FINITE_REVIEW_MODEL_OBSERVATIONS/20260909_001/REPORT.json",
+      "sha256": "d024d5b1ec85cce7ec61f36e7f5594efe0b37d7e2eb6db7ca6d4b2094115631c"
     },
-    "observed_utc": "2026-09-08T19:51:25.707096+00:00",
+    "observed_utc": "2026-09-09T03:01:22.551603+00:00",
     "scope": "Named codex bucket returned by successful account/rateLimits/read in the native configured backend. Historical snapshot; not a continuing reservation.",
     "snapshot": {
       "response_shape_recognized": true,
@@ -218,7 +227,7 @@
           "primary": {
             "present": true,
             "shape_recognized": true,
-            "usedPercent": 1,
+            "usedPercent": 8,
             "windowDurationMins": 10080,
             "resetsAt": 1789490427
           },
@@ -231,7 +240,7 @@
           "primary": {
             "present": true,
             "shape_recognized": true,
-            "usedPercent": 1,
+            "usedPercent": 8,
             "windowDurationMins": 10080,
             "resetsAt": 1789490427
           },
@@ -276,7 +285,7 @@
       "sha256": "acbc599a337845e585af8cec04fd72af44cdb7d10321c1ae4329fce6120613a4"
     },
     "native_controller_implemented": true,
-    "next_action": "Versioned finite controller021 is implemented and offline-tested; native admission pending explicit human execution.",
+    "next_action": "022 option prepared and tested; await exact model/effort approval before canonical native execution.",
     "unattended_model_use_authorized": false,
     "extra_spending_allowed": false
   },
@@ -316,6 +325,21 @@
     "native_processes": 1,
     "explicit_model_turns": 0,
     "status": "Exact advisory admitted; initialize/config-read succeeded; local origin check stopped before thread",
+    "scientific_review_completed": false,
+    "repeat_original_command": false
+  },
+  "completed_finite_review_021_attempt": {
+    "receipt": {
+      "path": "artifacts/P3_FINITE_REVIEW_MODEL_OBSERVATIONS/20260909_001/REPORT.json",
+      "sha256": "d024d5b1ec85cce7ec61f36e7f5594efe0b37d7e2eb6db7ca6d4b2094115631c"
+    },
+    "review": {
+      "path": "evidence/P3_FINITE_REVIEW_021_OBSERVATION_REVIEW.json",
+      "sha256": "ac84e3c6b53f8e199962062b70a9ba519bc89535f59c2ba084d881bb852002d4"
+    },
+    "native_processes": 1,
+    "explicit_model_turns": 0,
+    "status": "Configuration passed; exact Astra absent from returned catalog; stopped before thread",
     "scientific_review_completed": false,
     "repeat_original_command": false
   }

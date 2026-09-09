@@ -1,0 +1,33 @@
+{
+  "source_commit": "78c290807ce710180111df227df3b7a4fe845452",
+  "access_date": "2026-09-09",
+  "tree_url": "https://api.github.com/repos/openai/codex/git/trees/78c290807ce710180111df227df3b7a4fe845452?recursive=1",
+  "tree_sha": "78c290807ce710180111df227df3b7a4fe845452",
+  "truncated": false,
+  "entries": [
+    {
+      "path": "codex-rs/models-manager/models.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c4137ad9560e1ac7b9baf1adc95dbc7051e2b6c",
+      "size": 424117,
+      "url": "https://api.github.com/repos/openai/codex/git/blobs/0c4137ad9560e1ac7b9baf1adc95dbc7051e2b6c"
+    },
+    {
+      "path": "codex-rs/models-manager/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd7b59a0530b6ead4c3852d0a3217aa7115a4d81",
+      "size": 798,
+      "url": "https://api.github.com/repos/openai/codex/git/blobs/cd7b59a0530b6ead4c3852d0a3217aa7115a4d81"
+    },
+    {
+      "path": "codex-rs/protocol/src/openai_models.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25d34b250199f0185a9381a4f0a382a4182a0ff6",
+      "size": 71264,
+      "url": "https://api.github.com/repos/openai/codex/git/blobs/25d34b250199f0185a9381a4f0a382a4182a0ff6"
+    }
+  ]
+}

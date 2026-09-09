@@ -1,0 +1,4 @@
+Prepared Sol option scope SHA256: 46301a69ae7a2d0cdac537eb2127415e8d4ac3c4ab5d7e8ea00ff1a1894a9f0f
+Preserves all three Astra attempts; original019 approval does not admit this model change.
+Inspection only. No changes, network, account or model operation performed.
+Private packet must be installed; recorded exact scope ANSWER precedes --run-attended-review.

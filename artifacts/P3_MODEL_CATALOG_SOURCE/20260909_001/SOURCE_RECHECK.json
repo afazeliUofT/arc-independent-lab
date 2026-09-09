@@ -1,0 +1,74 @@
+{
+  "kind": "P3_MODEL_CATALOG_SOURCE_RECHECK_v1",
+  "access_date": "2026-09-09",
+  "source_commit": "78c290807ce710180111df227df3b7a4fe845452",
+  "fetched_file_checks": [
+    {
+      "path": "codex-rs/models-manager/models.json",
+      "bytes": 424117,
+      "sha256": "eb0d7b9a5dcaf103895c5f8a14c16b269df46e039b375a55ba97f6238542d2ed",
+      "git_blob_sha1": "0c4137ad9560e1ac7b9baf1adc95dbc7051e2b6c",
+      "matches_exact_commit_tree": true
+    },
+    {
+      "path": "codex-rs/models-manager/src/lib.rs",
+      "bytes": 798,
+      "sha256": "b31b6e8fdaebedbbf07999b27c02201020e8d876ae293ac05a8fe4bf051244d3",
+      "git_blob_sha1": "cd7b59a0530b6ead4c3852d0a3217aa7115a4d81",
+      "matches_exact_commit_tree": true
+    },
+    {
+      "path": "codex-rs/protocol/src/openai_models.rs",
+      "bytes": 71264,
+      "sha256": "8ec03e1382ef5bc4350c93262d1eb8833c7462057e2e995887c6e147deb63758",
+      "git_blob_sha1": "25d34b250199f0185a9381a4f0a382a4182a0ff6",
+      "matches_exact_commit_tree": true
+    }
+  ],
+  "existing_source_files_rehashed": 10,
+  "exact_export_schemas_checked": 2,
+  "receipt_sha256": "d024d5b1ec85cce7ec61f36e7f5594efe0b37d7e2eb6db7ca6d4b2094115631c",
+  "receipt_catalog_models": [
+    "gpt-reserve",
+    "gpt-5.6-sol",
+    "gpt-5.6-terra",
+    "gpt-5.6-luna",
+    "gpt-5.5",
+    "gpt-5.3-codex-spark",
+    "codex-auto-review"
+  ],
+  "receipt_catalog_complete": true,
+  "receipt_hidden_requested": true,
+  "bundled_catalog_models": [
+    "gpt-5.6-sol",
+    "gpt-5.6-terra",
+    "gpt-5.6-luna",
+    "gpt-daybreak-blue-latest",
+    "gpt-daybreak-red-latest",
+    "gpt-5.5",
+    "gpt-5.4",
+    "gpt-5.4-mini",
+    "gpt-5.2",
+    "codex-auto-review"
+  ],
+  "only_in_received_catalog": [
+    "gpt-5.3-codex-spark",
+    "gpt-reserve"
+  ],
+  "only_in_bundled_catalog": [
+    "gpt-5.2",
+    "gpt-5.4",
+    "gpt-5.4-mini",
+    "gpt-daybreak-blue-latest",
+    "gpt-daybreak-red-latest"
+  ],
+  "received_catalog_is_unchanged_bundle": false,
+  "fresh_remote_catalog_attested": false,
+  "requested_model_entitlement_established": false,
+  "native_processes_launched": 0,
+  "model_turns_launched": 0,
+  "credential_contents_read": false,
+  "independent_scientific_review": false,
+  "ultra_request_conversion_source_checked": true,
+  "proactive_mode_depends_on_runtime_v2_and_no_custom_hint": true
+}

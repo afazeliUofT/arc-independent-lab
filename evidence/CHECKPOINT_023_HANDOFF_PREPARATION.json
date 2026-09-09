@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-09-09T03:40:03.933201+00:00",
+  "status": "SCAFFOLD_READY_FINAL_ARCHIVE_NOT_BUILT",
+  "previous_zip_sha256": "2678ebb907f0e58fd9bf4be3945f40d29a197172dab9e4e841de649abb886795",
+  "previous_entries_verified": 42,
+  "syntax_compilation": "passed",
+  "files": {
+    "scripts/checkpoint023_handoff.py": "fb9c44317ad0ee59aedd37c509ffaac85d332f265c53867743fe38b7478f22da",
+    "delivery/build_checkpoint023.py": "19dfaf84e9ef0dc50920128499419057b8287888cad3b07715443aa18835924a",
+    "delivery/validate_checkpoint023_release.py": "151a2f48a083009401f2b03a4f51b9d08189ca934b2a12b4dd2b29b12e52cf22"
+  },
+  "exploratory_tool_error": {
+    "command": "cat delivery/validate_checkpoint022.py",
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "cat: delivery/validate_checkpoint022.py: No such file or directory\n"
+  },
+  "public_push_performed": false,
+  "commit_performed": false,
+  "actual_native_launch": false
+}

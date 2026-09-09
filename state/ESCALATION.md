@@ -1,35 +1,21 @@
-# Exact native reviewer operation: one new outside-project exception
+# Sol reviewer authorization recorded
 
-2026-09-08. Task P3.11. The controller and offline validation are complete and reviewable. This is not a repeated Phase 3 approval or a request to rerun sign-in/metadata.
+2026-09-09. The funder has approved Sol with its highest usable capability. No further approval decision is requested. Publication and explicit WSL execution remain necessary.
 
-## REQUEST
+## PROVENANCE AND PI IMPLEMENTATION
 
-Approve `configs/P3_FINITE_REVIEW_SCOPE_019.json`, SHA-256 `99d7f62d60b3384b5bb83923047b390f7f7e6e8d90c2654b33d996101755d5ea`, for the explicit human-launched command `python3 -I -B scripts/p3_finite_review.py --run-attended-review` on the existing canonical WSL laptop project.
+The funder wrote in this conversation:
 
-The specific new effect is native read/refresh of the existing `/home/afazeli2006/.codex/auth.json` during a bounded reviewer model operation. The earlier scope016 grant covered metadata only. This file is outside the lab, so `docs/governing/03_AUTONOMY_SPEC.md` §6(5) requires this exception. The parent never reads, hashes, copies or exports credential contents. No new money, account change, policy repair, client upgrade or general unattended permission is requested.
+> I approve chatgpt sol 5.6, but need its highest (most capable) tier. If Ultra or pro are the highest sol 5.6 tiers, use them
 
-The scope allows at most one synthetic admission turn and one separately fresh scientific audit turn using the existing subscription, with respective process deadlines of 600 and 3600 seconds including cleanup. Failed admission prevents science; a completed or partial attempt is never automatically rerun. The exact requested model and highest recognized effort must be admitted from a complete bounded catalog. Its actual availability remains unresolved; an absent match stops before a model request and retains the catalog. No alternative model is silently selected.
+The funder did not explicitly name Max or approve a SHA-256 string. The PI implements the instruction as exact gpt-5.6-sol with explicit max: the highest directly selectable individual reasoning effort in the measured isolated native route. Ultra adds delegation, which the approved reviewer disables; the pinned native client cannot explicitly serialize the API Pro reasoning mode. This does not assert that Max is the strongest Sol option on every product surface. Existing access, independent-review restrictions, budget and no-spending requirements continue.
 
-The existing sign-in file is bound writable only at that path, with its parent directory unwritable. Native in-place refresh can leave an incomplete file if interrupted or an I/O error occurs; no credential backup is made. Native inherited networking is not an endpoint allowlist. Full declared restrictions and limitations are in the pinned scope and `docs/P3_FINITE_REVIEW_019_CONTRACT.md`.
+This is a disclosed PI transcription and implementation of the current authorization. The human handoff command commits/pushes this concrete record; it is not another permission request or a fabricated human signature. The unchanged controller requires the exact ANSWER below before a separate explicit human launch. Original Astra approval alone still cannot admit Sol.
 
-## WORK ALREADY COMPLETED
+Decision: reports/P3_SOL_CAPABILITY_DECISION_023.md, SHA-256 `85691b80b31a7b5262e0efb31688a7852da2422456ba7c511dd93c5f103b5f40`. Provenance: evidence/P3_SOL_APPROVAL_023.json, SHA-256 `9456538e6cf8a23f159b73fba445d88d415b1060b0495517b3ca7eda62f435db`. The unanswered proposal is preserved at state/escalations/2026-09-09_SOL_MODEL_REQUEST_022.md.
 
-Published018 and duplicate REPORT(7) verified. Exact controller, private-packet installer and synthetic fake-child tests completed; source-sensitive restrictions and hash-pinned evidence broker integrated. The original verifier, frozen scientific specifications and thresholds are unchanged. This request is made only after concrete preparation, not as a substitute for implementation. Details and artifact hashes: `reports/P3_CHECKPOINT_019_STATUS.md`.
-
-## ACTION FOR EACH ANSWER
-
-Approval: publish the prepared checkpoint, record the exact answer below, commit/push it, install the private packet, and run the canonical command. The controller will validate the answer itself, so there is no need to wait for another assistant turn. Return only the safe REPORT.json and the unaltered REVIEW_VERDICT.json if created.
-
-Decline: leave the existing file and completed metadata operation untouched; do not launch the reviewer. The PI must assess a separate enforced review route from the stated restriction; no self-issued scientific verdict or silent model downgrade.
-
-To approve, append the following as an actual Markdown section after this example (the example itself is not approval):
-
-```text
-## ANSWER
-APPROVE_P3_FINITE_REVIEW_019
-scope_sha256: 99d7f62d60b3384b5bb83923047b390f7f7e6e8d90c2654b33d996101755d5ea
-```
+After successful publication, run `python3 -I -B "$HOME/ARC_Independent_Lab/scripts/p3_finite_review_022.py" --run-attended-review`. Preserve the returned report and any unchanged verdict. No review or verdict is claimed here.
 
 ## ANSWER
-APPROVE_P3_FINITE_REVIEW_019
-scope_sha256: 99d7f62d60b3384b5bb83923047b390f7f7e6e8d90c2654b33d996101755d5ea
+APPROVE_P3_FINITE_REVIEW_022_SOL
+scope_sha256: 46301a69ae7a2d0cdac537eb2127415e8d4ac3c4ab5d7e8ea00ff1a1894a9f0f

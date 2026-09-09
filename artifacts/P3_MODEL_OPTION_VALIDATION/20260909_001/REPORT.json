@@ -1,0 +1,46 @@
+{
+  "kind": "P3_MODEL_OPTION_022_VALIDATION_v1",
+  "created_utc": "2026-09-09T03:14:58.223968+00:00",
+  "distinct_focused_tests_passed": 13,
+  "test_execution_receipt": {
+    "path": "artifacts/P3_MODEL_OPTION_VALIDATION/dev_022/attempt_001.json",
+    "sha256": "18d3ac51386d85f90b2e8ae8fc033c52c18e53989e309882d6fc9bf7e4d6bb48"
+  },
+  "test_source": {
+    "path": "tests/test_p3_model_option_022.py",
+    "sha256": "140ca5be10f446907341960c230a3e0a8bcb9604aa5df4c0fdbe8f9b3d87e733"
+  },
+  "controller": {
+    "path": "scripts/p3_finite_review_022.py",
+    "sha256": "ef9b1bb0b19e3d8687aac88d70f268183f00c435c789420e47996211ea09e116"
+  },
+  "scope": {
+    "path": "configs/P3_FINITE_REVIEW_SCOPE_022.json",
+    "sha256": "46301a69ae7a2d0cdac537eb2127415e8d4ac3c4ab5d7e8ea00ff1a1894a9f0f"
+  },
+  "source_dependency_pins_verified": 82,
+  "actual_read_only_controller_inspection": {
+    "argv": [
+      "python3",
+      "-I",
+      "-B",
+      "scripts/p3_finite_review_022.py"
+    ],
+    "exit_code": 0
+  },
+  "old_actual_scope019_answer_refused_by022": true,
+  "selection_from_unchanged_REPORT10_catalog": {
+    "model": "gpt-5.6-sol",
+    "id": "gpt-5.6-sol",
+    "effort": "max"
+  },
+  "selection_input": {
+    "path": "artifacts/P3_FINITE_REVIEW_MODEL_OBSERVATIONS/20260909_001/REPORT.json",
+    "sha256": "d024d5b1ec85cce7ec61f36e7f5594efe0b37d7e2eb6db7ca6d4b2094115631c"
+  },
+  "selection_is_local_computation_not_model_invocation": true,
+  "native_operation_performed": false,
+  "model_operation_performed": false,
+  "scientific_verdict": null,
+  "approval_of_new_option_observed": false
+}

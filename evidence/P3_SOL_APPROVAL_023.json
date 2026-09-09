@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-09-09T03:39:17.452122+00:00",
+  "source": "Funder message in this conversation; no independent signature or message timestamp is asserted.",
+  "user_message_verbatim": "I approve chatgpt sol 5.6, but need its highest (most capable) tier. If Ultra or pro are the highest sol 5.6 tiers, use them",
+  "scope_of_authorization": "Sol at highest usable capability, interpreted together with existing independent-review isolation and no-spending constraints.",
+  "pi_implementation": {
+    "model": "gpt-5.6-sol",
+    "effort": "max",
+    "reason": "Highest directly selectable individual reasoning effort in the measured native route. API Pro cannot be explicitly serialized by pinned client; Ultra adds delegation and metadata effort mapping.",
+    "not_a_claim_of_highest_capability_on_all_surfaces": true,
+    "not_verbatim_human_approval_of_max_or_hash": true
+  },
+  "decision_report": {
+    "path": "reports/P3_SOL_CAPABILITY_DECISION_023.md",
+    "sha256": "85691b80b31a7b5262e0efb31688a7852da2422456ba7c511dd93c5f103b5f40"
+  },
+  "scope": {
+    "path": "configs/P3_FINITE_REVIEW_SCOPE_022.json",
+    "sha256": "46301a69ae7a2d0cdac537eb2127415e8d4ac3c4ab5d7e8ea00ff1a1894a9f0f"
+  },
+  "approval_record_type": "Disclosed PI transcription of current conversation authorization; human commits/pushes the concrete record through the handoff.",
+  "no_additional_approval_requested": true,
+  "native_launch_still_explicit_and_separate": true,
+  "native_operation_performed": false
+}
