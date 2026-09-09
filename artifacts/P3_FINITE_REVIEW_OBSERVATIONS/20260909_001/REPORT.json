@@ -1,0 +1,517 @@
+{
+  "kind": "P3_FINITE_REVIEW_019_v1",
+  "created_utc": "2026-09-09T00:07:21.894761+00:00",
+  "pins": {
+    "scope_sha256": "99d7f62d60b3384b5bb83923047b390f7f7e6e8d90c2654b33d996101755d5ea",
+    "controller_sha256": "187cfab78d43736728294f45ee8a6004590766490fe0af98e8b711be71e734f1",
+    "source_pins": {
+      "artifacts/GATE0_ACCOUNT_PLAN_SOURCE/20260908_001/MANIFEST.json": "f47ece02e29f93aeb14cc08ea1fc53109e13eb197465699c9ba6a4f516c70704",
+      "artifacts/GATE0_CODEX_INTERFACE/20260907_001/config-schema.json": "ed663d6d4c6c8b36917596882414c93858f6cf9ca5449ea8c616fc76d1aac114",
+      "artifacts/GATE0_CODEX_INTERFACE/20260907_001/schemas/experimental.json": "dd4014851ef7c60ecacfa5fa4d1a9f02d7dcc2aada93c83091a717b27b753d63",
+      "artifacts/GATE0_POSTLOGIN_OBSERVATIONS/20260908_001/REPORT.json": "4aa0757da0d56a4db65ca7a33cf15d7454129c21fab7283457261d3a8ebcbba7",
+      "artifacts/GATE0_REVIEWER_EFFECT_SOURCE/20260908_001/MANIFEST.json": "88f6567051f17865584d5b0a90c9d655c3c0819b77a25d636333eb71363cdee1",
+      "configs/P3_REVIEW_SCIENTIFIC_019.txt": "12978892ea087dad73ca57fda28d735254262ef3e883cdf9e4240be6dafb1d4d",
+      "configs/P3_REVIEW_SYNTHETIC_019.txt": "e8bb9c827beff3ca9056e81c04062f3d93f2ac851ae992ff806ac5ada8e434ae",
+      "scripts/audit_learner_observer.py": "871ab1e62a592d9b49f93d5d5d783e262f8db1cb15bcc0b8ba6191f0ca0d4b1e",
+      "scripts/gate0_account_metadata.py": "13f4e87a7da463b6915f49df4f97b2cea271a7e8de9f16b21281db50842dac76",
+      "scripts/gate0_client_mount_plan.py": "4500a10227a5209a525e5ab7534a1bd2e55e3574c91381c584e5a99c7095a107",
+      "scripts/gate0_client_preflight.py": "a4d0c4be8d6ade00f82285381dfa68e0310146fca300752bac3fac74d6bd3038",
+      "scripts/gate0_config_controls.py": "9dc478ba6c68e32be69079e154dde1f3debd4d8dbd998f7648577b5df2c4bf8d",
+      "scripts/gate0_postlogin_boundary.py": "aab4cb14a30bb1ee9f7b1e0d983f54fe509977bdc9d8aad7a4d8e54fbec6d20f",
+      "scripts/gate0_postlogin_metadata.py": "b7fc9db3af9004c89a8fd87961f3e83ae94bad707e05c355a7a30b6646502197",
+      "scripts/gate0_postlogin_protocol.py": "222ed3eb698b947b0d7286991101308485f44554c823abb7723c9882d213877a",
+      "scripts/install_p3_review_packet.py": "3e97c509a06dd1518b8ed0b121600b834e689df34d832aac26a6bc3d20ebc051",
+      "scripts/p3_review_broker.py": "6f2118cb32573c7774db269c09694913040d06adb5eca9e8ca1a0fafe6089536",
+      "scripts/p3_review_protocol.py": "9bc4315dc3d6af679890828db5a1ee5ef19f49e2c7214cc0dd384728a9cf754f",
+      "scripts/p3_reviewer_admission.py": "9b589287b6b56ad56e12075d655d0c9935a570076a35544fa64a40973b6969cb",
+      "scripts/p3_reviewer_profile.py": "669da4f8bae0cac3f43433ebc2b462da607be631b259d7ff08919b8f1130991f",
+      "scripts/p3_reviewer_session.py": "6ab41524d9759fd26e4f63b75a8f5a4cdad867906434ecb57aee106a9e70066d"
+    },
+    "accepted_metadata_sha256": "ab6b731d21a3e161e43e33b6db011db93037030e56d8bd40bfbd50cd2070b9c6",
+    "frozen_manifests": {
+      "evidence/P3_AUDIT_REVIEW_MANIFEST.json": "8d475e93aa21db5d7210f337c036e2705e3a4b83b6d99d43d715161d63b7e374",
+      "evidence/P3_RESIDUAL_REVIEW_MANIFEST.json": "f7249d53060349fdfbaca2102672457e3e8966ef510d6853322b10da75762128"
+    },
+    "packet_manifest_sha256": "437700c8850b7194b052d159b1eaf6a22b366c4a464e63148bb9b6b3084bdd98"
+  },
+  "authorization": {
+    "path": "state/ESCALATION.md",
+    "sha256": "482cca0d8f73483047c8658579b106b7b96fb8378d59d8806126e32ab0ba4700"
+  },
+  "status": "STOPPED_WITHOUT_COMPLETED_REVIEW",
+  "stages": [
+    {
+      "stage": "synthetic",
+      "mount_plan": {
+        "kind": "P3_FINITE_REVIEW_NATIVE_MOUNT_PLAN_019_v1",
+        "observed_boundary": false,
+        "argv": [
+          "/usr/bin/bwrap",
+          "--unshare-all",
+          "--share-net",
+          "--unshare-user",
+          "--die-with-parent",
+          "--new-session",
+          "--tmpfs",
+          "/",
+          "--ro-bind",
+          "/home/afazeli2006/.codex/config.toml",
+          "/home/afazeli2006/.codex/config.toml",
+          "--ro-bind",
+          "/home/afazeli2006/.codex/models_cache.json",
+          "/home/afazeli2006/.codex/models_cache.json",
+          "--ro-bind",
+          "/home/afazeli2006/ARC_Independent_Lab/delivery/P3_FINITE_REVIEW_019/synthetic_native",
+          "/home/afazeli2006/ARC_Independent_Lab/delivery/P3_FINITE_REVIEW_019/synthetic_native",
+          "--ro-bind",
+          "/home/afazeli2006/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+          "/home/afazeli2006/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+          "--bind",
+          "/home/afazeli2006/ARC_Independent_Lab/delivery/P3_FINITE_REVIEW_019/synthetic_native/runtime_logs",
+          "/home/afazeli2006/ARC_Independent_Lab/delivery/P3_FINITE_REVIEW_019/synthetic_native/runtime_logs",
+          "--bind",
+          "/home/afazeli2006/ARC_Independent_Lab/delivery/P3_FINITE_REVIEW_019/synthetic_native/runtime_state",
+          "/home/afazeli2006/ARC_Independent_Lab/delivery/P3_FINITE_REVIEW_019/synthetic_native/runtime_state",
+          "--bind",
+          "/home/afazeli2006/ARC_Independent_Lab/delivery/P3_FINITE_REVIEW_019/synthetic_native/installation_id_copy",
+          "/home/afazeli2006/.codex/installation_id",
+          "--proc",
+          "/proc",
+          "--dev",
+          "/dev",
+          "--tmpfs",
+          "/tmp",
+          "--ro-bind",
+          "/mnt/wsl/resolv.conf",
+          "/etc/resolv.conf",
+          "--ro-bind",
+          "/etc/hosts",
+          "/etc/hosts",
+          "--ro-bind",
+          "/etc/nsswitch.conf",
+          "/etc/nsswitch.conf",
+          "--ro-bind",
+          "/etc/ssl/certs/ca-certificates.crt",
+          "/etc/ssl/certs/ca-certificates.crt",
+          "--bind",
+          "/home/afazeli2006/.codex/auth.json",
+          "/home/afazeli2006/.codex/auth.json",
+          "--remount-ro",
+          "/",
+          "--cap-drop",
+          "ALL",
+          "--chdir",
+          "/home/afazeli2006/ARC_Independent_Lab/delivery/P3_FINITE_REVIEW_019/synthetic_native",
+          "--",
+          "/home/afazeli2006/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+          "-c",
+          "sqlite_home=\"/home/afazeli2006/ARC_Independent_Lab/delivery/P3_FINITE_REVIEW_019/synthetic_native/runtime_state\"",
+          "-c",
+          "log_dir=\"/home/afazeli2006/ARC_Independent_Lab/delivery/P3_FINITE_REVIEW_019/synthetic_native/runtime_logs\"",
+          "-c",
+          "history.persistence=\"none\"",
+          "-c",
+          "web_search=\"disabled\"",
+          "-c",
+          "agents.enabled=false",
+          "-c",
+          "memories.generate_memories=false",
+          "-c",
+          "memories.use_memories=false",
+          "-c",
+          "orchestrator.skills.enabled=false",
+          "-c",
+          "tools.update_plan.enabled=false",
+          "-c",
+          "tools.experimental_request_user_input.enabled=false",
+          "-c",
+          "analytics.enabled=false",
+          "-c",
+          "approval_policy=\"never\"",
+          "-c",
+          "features.plugins=false",
+          "-c",
+          "features.remote_plugin=false",
+          "-c",
+          "features.plugin_hooks=false",
+          "-c",
+          "features.apps=false",
+          "-c",
+          "features.connectors=false",
+          "-c",
+          "features.enable_mcp_apps=false",
+          "-c",
+          "features.hooks=false",
+          "-c",
+          "features.codex_hooks=false",
+          "-c",
+          "features.memories=false",
+          "-c",
+          "features.memory_tool=false",
+          "-c",
+          "features.external_agent_memory_import=false",
+          "-c",
+          "features.goals=false",
+          "-c",
+          "features.remote_control=false",
+          "-c",
+          "features.multi_agent=false",
+          "-c",
+          "features.multi_agent_v2=false",
+          "-c",
+          "features.collab=false",
+          "-c",
+          "features.enable_fanout=false",
+          "-c",
+          "features.send_async_message=false",
+          "-c",
+          "features.code_mode={enabled = false, direct_only_tool_namespaces = [\"functions\"]}",
+          "-c",
+          "features.code_mode_only=false",
+          "-c",
+          "features.code_mode_prewarm=false",
+          "-c",
+          "features.js_repl=false",
+          "-c",
+          "features.shell_tool=false",
+          "-c",
+          "features.unified_exec=false",
+          "-c",
+          "features.experimental_use_unified_exec_tool=false",
+          "-c",
+          "features.apply_patch_freeform=false",
+          "-c",
+          "features.view_image=false",
+          "-c",
+          "features.web_search=false",
+          "-c",
+          "features.web_search_cached=false",
+          "-c",
+          "features.web_search_request=false",
+          "-c",
+          "features.browser_use=false",
+          "-c",
+          "features.computer_use=false",
+          "-c",
+          "features.tool_search=false",
+          "-c",
+          "features.token_budget=false",
+          "-c",
+          "features.skill_search=false",
+          "-c",
+          "features.shell_snapshot=false",
+          "-c",
+          "features.background_paginated_rollout_migration=false",
+          "-c",
+          "features.auth_elicitation=false",
+          "-c",
+          "features.unbounded_connection_retries=false",
+          "-c",
+          "features.code_mode_host=false",
+          "-c",
+          "features.image_generation=false",
+          "-c",
+          "features.deferred_executor=false",
+          "-c",
+          "features.current_time_reminder=false",
+          "-c",
+          "orchestrator.mcp.enabled=false",
+          "app-server",
+          "--strict-config",
+          "--stdio"
+        ],
+        "mounts": [
+          {
+            "source": "/home/afazeli2006/.codex/config.toml",
+            "destination": "/home/afazeli2006/.codex/config.toml",
+            "access": "read"
+          },
+          {
+            "source": "/home/afazeli2006/.codex/models_cache.json",
+            "destination": "/home/afazeli2006/.codex/models_cache.json",
+            "access": "read"
+          },
+          {
+            "source": "/home/afazeli2006/ARC_Independent_Lab/delivery/P3_FINITE_REVIEW_019/synthetic_native",
+            "destination": "/home/afazeli2006/ARC_Independent_Lab/delivery/P3_FINITE_REVIEW_019/synthetic_native",
+            "access": "read"
+          },
+          {
+            "source": "/home/afazeli2006/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+            "destination": "/home/afazeli2006/.codex/packages/standalone/releases/0.151.0-x86_64-unknown-linux-musl/bin/codex",
+            "access": "read"
+          },
+          {
+            "source": "/home/afazeli2006/ARC_Independent_Lab/delivery/P3_FINITE_REVIEW_019/synthetic_native/runtime_logs",
+            "destination": "/home/afazeli2006/ARC_Independent_Lab/delivery/P3_FINITE_REVIEW_019/synthetic_native/runtime_logs",
+            "access": "write"
+          },
+          {
+            "source": "/home/afazeli2006/ARC_Independent_Lab/delivery/P3_FINITE_REVIEW_019/synthetic_native/runtime_state",
+            "destination": "/home/afazeli2006/ARC_Independent_Lab/delivery/P3_FINITE_REVIEW_019/synthetic_native/runtime_state",
+            "access": "write"
+          },
+          {
+            "source": "/home/afazeli2006/ARC_Independent_Lab/delivery/P3_FINITE_REVIEW_019/synthetic_native/installation_id_copy",
+            "destination": "/home/afazeli2006/.codex/installation_id",
+            "access": "write",
+            "kind": "same_identity_private_backing"
+          },
+          {
+            "source": "/mnt/wsl/resolv.conf",
+            "destination": "/etc/resolv.conf",
+            "access": "read"
+          },
+          {
+            "source": "/etc/hosts",
+            "destination": "/etc/hosts",
+            "access": "read"
+          },
+          {
+            "source": "/etc/nsswitch.conf",
+            "destination": "/etc/nsswitch.conf",
+            "access": "read"
+          },
+          {
+            "source": "/etc/ssl/certs/ca-certificates.crt",
+            "destination": "/etc/ssl/certs/ca-certificates.crt",
+            "access": "read"
+          },
+          {
+            "source": "/home/afazeli2006/.codex/auth.json",
+            "destination": "/home/afazeli2006/.codex/auth.json",
+            "access": "write",
+            "kind": "approved_native_existing_credential_refresh_only"
+          }
+        ],
+        "command_cwd": "/home/afazeli2006/ARC_Independent_Lab/delivery/P3_FINITE_REVIEW_019/synthetic_native",
+        "network": "inherited_host_network",
+        "host_root_bound": false,
+        "home_environment_modified": false,
+        "codex_home_environment_modified": false,
+        "authentication_copied": false,
+        "host_installation_id_writable_bind": false,
+        "temporary_files": "namespace-only /tmp",
+        "identity_copy_content_verification": "parent_required",
+        "policy_config_provenance_verification": "parent_required",
+        "network_endpoint_allowlist_enforced": false,
+        "native_existing_credential_writable": true,
+        "full_reviewer_boundary_verified": false,
+        "native_operation_scope_sha256": "99d7f62d60b3384b5bb83923047b390f7f7e6e8d90c2654b33d996101755d5ea"
+      },
+      "observation": {
+        "kind": "P3_FINITE_REVIEWER_SESSION_v1",
+        "mode": "synthetic",
+        "requests_sent": [
+          "initialize"
+        ],
+        "requests_queued": [
+          "initialize",
+          "config/read"
+        ],
+        "responses": [
+          {
+            "method": "initialize",
+            "success": true
+          }
+        ],
+        "client_started": true,
+        "thread_request_sent": false,
+        "model_turn_request_sent": false,
+        "model_turn_request_queued": false,
+        "synthetic_allowed_read_observed": false,
+        "observed_refusal": false,
+        "verdict_submitted": false,
+        "server_requests_dispatched": 0,
+        "early_frames_buffered": 0,
+        "automatic_retry_requested": false,
+        "raw_config_auth_or_diagnostics_saved": false,
+        "native_tool_inventory_attested": false,
+        "full_boundary_proven_by_notifications": false,
+        "hosted_chatgpt_allowance_verified": false,
+        "unattended_model_use_authorized": false,
+        "catalog_pagination": {
+          "maximum_pages": 8,
+          "maximum_entries": 800,
+          "pages_received": 0,
+          "pages_validated": 0,
+          "total_entries_validated": 0,
+          "complete": false,
+          "cursor_values_saved_or_hashed": false
+        },
+        "limits": {
+          "wall_seconds_including_cleanup": 600,
+          "cleanup_seconds": 4,
+          "parent_request_seconds": 30,
+          "max_broker_calls": 16,
+          "stdout_bytes": 67108864,
+          "stderr_bytes": 67108864,
+          "frame_bytes": 25165824,
+          "outbound_queue_bytes": 33554432,
+          "runtime_tree_bytes": 268435456,
+          "early_frame_count": 64,
+          "early_frame_bytes": 1048576,
+          "catalog_maximum_pages": 8,
+          "catalog_maximum_entries": 800,
+          "child_cpu_seconds": 120,
+          "child_file_bytes": 33554432,
+          "limits_are_not_subscription_allowance_estimates": true
+        },
+        "initialization": {
+          "codex_home_equals_original_environment": true
+        },
+        "status": "STOPPED_WITHOUT_VERDICT",
+        "reason": "Unadvertised native notification effect",
+        "notifications": {},
+        "last_notification_type": "configWarning",
+        "broker_receipts": [],
+        "native_process_reaped": true,
+        "client_exit_code": -15,
+        "streams": {
+          "stdout": {
+            "bytes_observed": 746,
+            "raw_saved": false,
+            "hashed": false
+          },
+          "stderr": {
+            "bytes_observed": 103,
+            "raw_saved": false,
+            "hashed": false
+          }
+        },
+        "elapsed_seconds": 0.411554
+      },
+      "host_checks": {
+        "config_metadata_unchanged": true,
+        "cache_metadata_unchanged": true,
+        "runtime_unchanged": true,
+        "bwrap_unchanged": true,
+        "host_installation_id_unchanged": true,
+        "credential_metadata_after": {
+          "device": 2096,
+          "inode": 733079,
+          "bytes": 4325,
+          "mode": 384,
+          "mtime_ns": 1788824788791819102,
+          "ctime_ns": 1788824788791819102
+        },
+        "credential_contents_checked": false,
+        "all_noncredential_checks_pass": true,
+        "private_installation_id_matches": true
+      },
+      "credential_metadata_before": {
+        "device": 2096,
+        "inode": 733079,
+        "bytes": 4325,
+        "mode": 384,
+        "mtime_ns": 1788824788791819102,
+        "ctime_ns": 1788824788791819102
+      },
+      "config_origins": [
+        {
+          "path": "/etc/codex/config.toml",
+          "present": false
+        },
+        {
+          "path": "/etc/codex/requirements.toml",
+          "present": false
+        },
+        {
+          "path": "/etc/codex/managed_config.toml",
+          "present": false
+        },
+        {
+          "path": "/home/afazeli2006/.codex/config.toml",
+          "present": true,
+          "metadata": {
+            "device": 2096,
+            "inode": 686498,
+            "bytes": 143,
+            "mode": 384,
+            "mtime_ns": 1788074545972320593,
+            "ctime_ns": 1788074545972320593
+          }
+        },
+        {
+          "path": "/home/afazeli2006/.codex/.env",
+          "present": false
+        },
+        {
+          "path": "/home/afazeli2006/.codex/auth.json",
+          "present": true,
+          "metadata": {
+            "device": 2096,
+            "inode": 733079,
+            "bytes": 4325,
+            "mode": 384,
+            "mtime_ns": 1788824788791819102,
+            "ctime_ns": 1788824788791819102
+          }
+        },
+        {
+          "path": "/home/afazeli2006/ARC_Independent_Lab/delivery/.codex/config.toml",
+          "present": false
+        },
+        {
+          "path": "/home/afazeli2006/ARC_Independent_Lab/.codex/config.toml",
+          "present": false
+        },
+        {
+          "path": "/home/.codex/config.toml",
+          "present": false
+        },
+        {
+          "path": "/.codex/config.toml",
+          "present": false
+        }
+      ],
+      "cache_origins": [
+        {
+          "path": "/home/afazeli2006/.codex/cloud-config-bundle-cache.json",
+          "present": false
+        },
+        {
+          "path": "/home/afazeli2006/.codex/models_cache.json",
+          "present": true,
+          "metadata": {
+            "device": 2096,
+            "inode": 686455,
+            "bytes": 217763,
+            "mode": 420,
+            "mtime_ns": 1788224067351545813,
+            "ctime_ns": 1788224067351545813
+          }
+        }
+      ],
+      "packet_before": {
+        "manifest_sha256": "03f29e07cf852ecc21360e05b570b572fc3f078dbecd029b45060480a0e9a381",
+        "files_rehashed": 1
+      },
+      "packet_after": null,
+      "fresh_process_and_runtime_directories": true,
+      "pi_conversation_imported": false,
+      "prior_mount_observation": {
+        "path": "artifacts/GATE0_POSTLOGIN_OBSERVATIONS/20260908_001/REPORT.json",
+        "sha256": "4aa0757da0d56a4db65ca7a33cf15d7454129c21fab7283457261d3a8ebcbba7",
+        "exact_archived_bytes_pinned_by_controller": true,
+        "executed_this_stage": false,
+        "fresh_kernel_attestation": false
+      }
+    }
+  ],
+  "parent_credential_contents_read": false,
+  "unattended_model_use_authorized": false,
+  "continuous_human_attendance_verified": false,
+  "scientific_verdict_chosen_by_parent": false,
+  "reviewer_output": null,
+  "raw_native_logs_or_protocol_in_report": false,
+  "actual_native_tool_denials_inferred_from_nonuse": false,
+  "model_calls_authorized_maximum": 2,
+  "reason": "Synthetic dynamic refusal admission incomplete; no science started",
+  "preserved_session_receipts": [
+    {
+      "path": "synthetic_SESSION.json",
+      "sha256": "03116f48a67e5f0058685ab07924521cb0dc241e0cea91da1aabd9bde0cfb7e9"
+    }
+  ]
+}

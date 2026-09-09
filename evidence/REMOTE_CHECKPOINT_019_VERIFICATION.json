@@ -1,0 +1,27 @@
+{
+  "kind": "REMOTE_CHECKPOINT_019_VERIFICATION_v1",
+  "verified_utc": "2026-09-09T00:12:22.230925+00:00",
+  "repository": "https://github.com/afazeliUofT/arc-independent-lab",
+  "publication_commit": "2ca1007f6cb124acdb7a41c36117b24d7ba2745b",
+  "approval_commit": "9006972e4084fde2580c83ff3c9942fbca2bb52d",
+  "approval_sha256": "482cca0d8f73483047c8658579b106b7b96fb8378d59d8806126e32ab0ba4700",
+  "approval_scope_sha256": "99d7f62d60b3384b5bb83923047b390f7f7e6e8d90c2654b33d996101755d5ea",
+  "publication_manifest_sha256": "4a0762b851dee6910f74b8ddc1cf8a0ce3f0caf4371050f4dc46cef0082d9bf3",
+  "publication_files_verified": 716,
+  "approval_only_change": "state/ESCALATION.md appended exact ANSWER",
+  "frozen": [
+    {
+      "path": "evidence/P3_AUDIT_REVIEW_MANIFEST.json",
+      "sha256": "8d475e93aa21db5d7210f337c036e2705e3a4b83b6d99d43d715161d63b7e374",
+      "members_verified": 41
+    },
+    {
+      "path": "evidence/P3_RESIDUAL_REVIEW_MANIFEST.json",
+      "sha256": "f7249d53060349fdfbaca2102672457e3e8966ef510d6853322b10da75762128",
+      "members_verified": 7
+    }
+  ],
+  "local_overlay_preserved": true,
+  "assistant_commit_or_push": false,
+  "access_date": "2026-09-09"
+}

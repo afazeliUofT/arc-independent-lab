@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-08T21:40:04.294770+00:00",
+  "updated_utc": "2026-09-09T00:27:25.064283+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -119,16 +119,16 @@
     "rerun_needed": false
   },
   "next_operational_test": {
-    "name": "finite019 synthetic admission then independent scientific reviewer",
+    "name": "Manual warning-handling correction within approved finite019 access scope",
     "scope": {
       "path": "configs/P3_FINITE_REVIEW_SCOPE_019.json",
       "sha256": "99d7f62d60b3384b5bb83923047b390f7f7e6e8d90c2654b33d996101755d5ea"
     },
     "controller": {
-      "path": "scripts/p3_finite_review.py",
-      "sha256": "187cfab78d43736728294f45ee8a6004590766490fe0af98e8b711be71e734f1"
+      "path": "scripts/p3_finite_review_020.py",
+      "sha256": "a88512ebe176a593556dc728d562ab50f392e272f0347cf756db2addf26911f5"
     },
-    "status": "prepared; exact new scope approval and explicit WSL run required",
+    "status": "prepared; existing scope approved, awaiting explicit human launch",
     "native_processes_maximum": 2,
     "explicit_model_turns_maximum": 2,
     "synthetic_wall_seconds_including_cleanup": 600,
@@ -167,6 +167,17 @@
       "maximum_catalog_pages": 8,
       "maximum_catalog_entries": 800,
       "native_cpu_hard_limit_grace_seconds": 1
+    },
+    "fixed_step_directory": "delivery/P3_FINITE_REVIEW_019_REPAIR_001",
+    "prior_failed_native_processes": 1,
+    "additional_native_processes_maximum": 2,
+    "cumulative_native_processes_maximum": 3,
+    "cumulative_explicit_model_turns_maximum": 2,
+    "new_approval_requested": false,
+    "original_failed_attempt_preserved": true,
+    "scope_unchanged": {
+      "path": "configs/P3_FINITE_REVIEW_SCOPE_019.json",
+      "sha256": "99d7f62d60b3384b5bb83923047b390f7f7e6e8d90c2654b33d996101755d5ea"
     }
   },
   "completed_native_signin": {
@@ -276,5 +287,20 @@
       "path": "evidence/P3_PRIVATE_PACKET_019_DELIVERY_STATUS.json",
       "sha256": "bf3eaf3359aaac116d45ea44279f32c0704a723691733d59e4e73906b1bf1602"
     }
+  },
+  "completed_finite_review_019_attempt": {
+    "receipt": {
+      "path": "artifacts/P3_FINITE_REVIEW_OBSERVATIONS/20260909_001/REPORT.json",
+      "sha256": "2725b63acd12a09a89041760ca9ea21f0f004a0ece1a6e4d2b7df125a48d54f6"
+    },
+    "review": {
+      "path": "evidence/P3_FINITE_REVIEW_019_OBSERVATION_REVIEW.json",
+      "sha256": "d6cbebfdbbd316925b472ee4cbf5d3133ac591c9ef52f540287746e446bed021"
+    },
+    "native_processes": 1,
+    "explicit_model_turns": 0,
+    "status": "Stopped on unclassified configWarning after initialize",
+    "scientific_review_completed": false,
+    "repeat_original_command": false
   }
 }

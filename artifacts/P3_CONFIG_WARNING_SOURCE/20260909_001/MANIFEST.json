@@ -1,0 +1,115 @@
+{
+  "kind": "P3_CONFIG_WARNING_SOURCE_CONSULTATION_v1",
+  "commit": "78c290807ce710180111df227df3b7a4fe845452",
+  "access_date": "2026-09-09",
+  "license": "Apache-2.0; exact archived LICENSE and NOTICE included",
+  "new_source_tree_blob_identity_verified": true,
+  "existing_references": [
+    {
+      "path": "artifacts/GATE0_CODEX_STARTUP/20260907_001/codex-rs/app-server/src/lib.rs",
+      "sha256": "14c246a1c7d449faf2c84bd435efc9cc8624c8829cd76711f14e055629e09976",
+      "original_access_date": "2026-09-07",
+      "reinspection_date": "2026-09-09",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server/src/lib.rs"
+    },
+    {
+      "path": "artifacts/GATE0_CODEX_STARTUP/20260907_001/codex-rs/core/src/config/mod.rs",
+      "sha256": "75544f344fef0ad40be9eb9e1d0dbbdafcd50929bfe32376118c9b56003d7d97",
+      "original_access_date": "2026-09-07",
+      "reinspection_date": "2026-09-09",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/config/mod.rs"
+    },
+    {
+      "path": "artifacts/GATE0_CONFIG_PROJECTION_SOURCE/20260907_001/codex-rs/app-server-protocol/src/protocol/v2/config.rs",
+      "sha256": "0fb8af9784c1f5a846643fa4b1759924027953dd1926cd0e1e64875554990833",
+      "original_access_date": "2026-09-07",
+      "reinspection_date": "2026-09-09",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server-protocol/src/protocol/v2/config.rs"
+    },
+    {
+      "path": "artifacts/GATE0_NOTIFICATION_ENVELOPE_SOURCE/20260908_001/codex-rs/app-server/src/outgoing_message.rs",
+      "sha256": "df283be051d56d4615472c137b2d827ccbb9e392675d3c10fbe46990e15bdd9c",
+      "original_access_date": "2026-09-08",
+      "reinspection_date": "2026-09-09",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server/src/outgoing_message.rs"
+    }
+  ],
+  "schema_copied_from": {
+    "path": "artifacts/GATE0_CODEX_INTERFACE/20260907_001/schemas/experimental.json",
+    "sha256": "dd4014851ef7c60ecacfa5fa4d1a9f02d7dcc2aada93c83091a717b27b753d63",
+    "key": "v2/ConfigWarningNotification.json"
+  },
+  "native_execution_performed": false,
+  "independent_scientific_review": false,
+  "actual_report_warning_family_known": false,
+  "files": [
+    {
+      "path": "CONSULTATION.md",
+      "bytes": 9949,
+      "sha256": "4386369bb2bd8c95f92babaf143494174b7236c02a633591972c0469f3816fab"
+    },
+    {
+      "path": "ConfigWarningNotification.json",
+      "bytes": 1640,
+      "sha256": "533e713405b582cce4d772d0b4ebbc75e840f0fe71cedbb17c2c83da285a21d4"
+    },
+    {
+      "path": "FETCH_ERRORS.json",
+      "bytes": 696,
+      "sha256": "f9ffb8602d2affc348f78e19a4a8d1c68c029dd874a7f57c3afaea1a57d142ad"
+    },
+    {
+      "path": "FETCH_METADATA.json",
+      "bytes": 1207,
+      "sha256": "194542d04d32398b04a0bb018692a786940418bfb74bae13baf08d99c9cbe92b"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 10926,
+      "sha256": "d17f227e4df5da1600391338865ce0f3055211760a36688f816941d58232d8dc"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 242,
+      "sha256": "9d71575ecfd9a843fc1677b0efb08053c6ba9fd686a0de1a6f5382fd3c220915"
+    },
+    {
+      "path": "TREE_IDENTITY.json",
+      "bytes": 1164,
+      "sha256": "ac2a35580e4b6172c634058523ac908253870cb127e0908f83bc818cd7207777"
+    },
+    {
+      "path": "codex-rs/app-server/src/request_processors/initialize_processor.rs",
+      "bytes": 7553,
+      "sha256": "6e73dce0275c7264b23ee0a312f215fead241ce55dc1a86fa1dbd109ad4278e0"
+    },
+    {
+      "path": "codex-rs/sandboxing/src/bwrap.rs",
+      "bytes": 6734,
+      "sha256": "43abc86eb6a62689c6aa75dc27f6cd05101cab831b339d4e85e316c1c296d19c"
+    },
+    {
+      "path": "codex-rs/sandboxing/src/lib.rs",
+      "bytes": 3504,
+      "sha256": "33d4349a394bd02f729d015d818da34bbd262cb7a1632ae58efb4b7881d9e7c6"
+    }
+  ],
+  "license_provenance": [
+    {
+      "path": "LICENSE",
+      "source_archive": "artifacts/GATE0_NOTIFICATION_ENVELOPE_SOURCE/20260908_001/LICENSE",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/LICENSE",
+      "original_access_date": "2026-09-07",
+      "reinspection_date": "2026-09-09",
+      "sha256": "d17f227e4df5da1600391338865ce0f3055211760a36688f816941d58232d8dc"
+    },
+    {
+      "path": "NOTICE",
+      "source_archive": "artifacts/GATE0_NOTIFICATION_ENVELOPE_SOURCE/20260908_001/NOTICE",
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/NOTICE",
+      "original_access_date": "2026-09-07",
+      "reinspection_date": "2026-09-09",
+      "sha256": "9d71575ecfd9a843fc1677b0efb08053c6ba9fd686a0de1a6f5382fd3c220915"
+    }
+  ]
+}

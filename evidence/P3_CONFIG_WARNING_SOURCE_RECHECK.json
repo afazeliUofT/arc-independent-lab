@@ -1,0 +1,14 @@
+{
+  "kind": "P3_CONFIG_WARNING_SOURCE_RECHECK_v1",
+  "created_utc": "2026-09-09T00:20:33.234812+00:00",
+  "manifest_path": "artifacts/P3_CONFIG_WARNING_SOURCE/20260909_001/MANIFEST.json",
+  "manifest_sha256": "b81d453cb840b243dad9f7e123a851be4144db94550573e8fcb149d5cef1c6c1",
+  "manifest_members_and_existing_references_verified": true,
+  "new_git_blobs_recomputed": 3,
+  "warning_from_report8_identified": false,
+  "inference": "Exact missing inner system-bwrap advisory is plausible; report omitted its original content. Accepting only that source-fixed startup advisory does not alter executable mounts or native permissions.",
+  "unchanged_historical_controller_and_session": true,
+  "scope_019_unchanged": true,
+  "new_approval_required_for_same_access_envelope": false,
+  "native_execution_performed": false
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "path": "codex-rs/sandboxing/src/lib.rs",
+    "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/sandboxing/src/lib.rs",
+    "access_date": "2026-09-09",
+    "bytes": 3504,
+    "sha256": "33d4349a394bd02f729d015d818da34bbd262cb7a1632ae58efb4b7881d9e7c6",
+    "git_blob_sha1": "a756012a272a794ca1302a87327d9eb9ac1c48ae"
+  },
+  {
+    "path": "codex-rs/sandboxing/src/bwrap.rs",
+    "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/sandboxing/src/bwrap.rs",
+    "access_date": "2026-09-09",
+    "bytes": 6734,
+    "sha256": "43abc86eb6a62689c6aa75dc27f6cd05101cab831b339d4e85e316c1c296d19c",
+    "git_blob_sha1": "633487136abe00065ee0f30707573ceb67b04e5b"
+  },
+  {
+    "path": "codex-rs/app-server/src/request_processors/initialize_processor.rs",
+    "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server/src/request_processors/initialize_processor.rs",
+    "access_date": "2026-09-09",
+    "bytes": 7553,
+    "sha256": "6e73dce0275c7264b23ee0a312f215fead241ce55dc1a86fa1dbd109ad4278e0",
+    "git_blob_sha1": "442b71f335ac83c2ecd698aea0f11a74fdc4a495"
+  }
+]
