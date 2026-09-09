@@ -1,0 +1,55 @@
+{
+  "kind": "P3_DEPRECATION_OFFLINE_VALIDATION_024_REBUILT_v1",
+  "created_utc": "2026-09-09T20:16:40.174984+00:00",
+  "status": "PASS",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_p3_deprecation_correction_024.py",
+    "-v"
+  ],
+  "exit_code": 0,
+  "test_count": 21,
+  "unittest_elapsed_seconds": 0.57,
+  "wall_elapsed_seconds": 0.652052,
+  "scope": "Offline engineering fixtures, not independent scientific review or a live native observation",
+  "native_client_executed": false,
+  "authentication_accessed": false,
+  "model_called": false,
+  "network_used_by_tests": false,
+  "scientific_verdict_created": false,
+  "real_unchanged_broker_exercised": true,
+  "lost024_original_bytes_recovered": false,
+  "original_failed_notice_payload_recovered": false,
+  "exact_pairs_source_commit": "78c290807ce710180111df227df3b7a4fe845452",
+  "critical_cases": {
+    "thread_started_plus_eight_notices_before_empty_turn_response": "PASS",
+    "nonempty_turn_response_closes_before_buffered_notices": "PASS",
+    "real_canary_read_then_real_canonical_traversal_refusal": "PASS",
+    "strict_exact_pairs_shape_context_profile_duplicates_privacy": "PASS"
+  },
+  "file_sha256": {
+    "scripts/p3_deprecation_notice.py": "bace2c079803f87c36e79784b7be7b84d715fb2d9443d96f6a19fe4c5f60188b",
+    "scripts/p3_reviewer_session_024.py": "072e8376ab6e6e2c41b2dea2838d4126024b1fad615aa497c696dd704747551e",
+    "tests/test_p3_deprecation_correction_024.py": "ae2395276ce51e2b487704c9c9cc8c9d8c48ccb111a3e177e8e3e721563fb61e",
+    "scripts/p3_reviewer_session_022.py": "fce5d0707ed16a0155cf0852e4e7d5e37d715ef14c33400c244a5f183b5c1730",
+    "scripts/p3_reviewer_profile_022.py": "3c1d66ace2c3441d3c1ce1da98f2ec9bd253d3fe470b03d5ff54ec7ee7eeaa4d",
+    "scripts/p3_reviewer_admission_022.py": "329bccdfba14c93bb345841e6764b00f911b1ab8e3067636879a8a58194a783e",
+    "scripts/p3_review_broker.py": "6f2118cb32573c7774db269c09694913040d06adb5eca9e8ca1a0fafe6089536",
+    "scripts/p3_review_protocol.py": "9bc4315dc3d6af679890828db5a1ee5ef19f49e2c7214cc0dd384728a9cf754f",
+    "scripts/p3_config_warning.py": "60461b6493a37c917c86578b640de42fb780cd50246932058356594136048463",
+    "artifacts/P3_DEPRECATION_SOURCE/20260909_REBUILD024/EXPECTED_NOTICES.json": "86077981a1e5f9634d70fc686ebaed36ed179138cef6b12c2d8bf1d12404b4cc"
+  },
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "25e0766e36e15651f6aa7314881e4367a76bc34fb8425a5ce28e676ae416b343",
+  "remaining_limitations": [
+    "The failed live report discarded its native notice payload; source compatibility does not identify what it emitted.",
+    "No live corrected reviewer session was run; hosted account, native runtime and scientific review outcomes are not established.",
+    "Rebuilt024 files have new hashes and are not asserted identical to historical lost024 files."
+  ]
+}

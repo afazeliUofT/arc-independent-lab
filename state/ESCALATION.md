@@ -1,21 +1,29 @@
-# Sol reviewer authorization recorded
+# One bounded correction to the existing Sol Max review
 
-2026-09-09. The funder has approved Sol with its highest usable capability. No further approval decision is requested. Publication and explicit WSL execution remain necessary.
+Prepared 2026-09-09. This request is unsigned. The funder has already approved the model, effort and existing access; this requests only the smallest cumulative allowance increase needed after the preserved failed turn.
 
-## PROVENANCE AND PI IMPLEMENTATION
+## What happened and what changes
 
-The funder wrote in this conversation:
+The original022 synthetic turn request was sent and accepted, then the local controller stopped on a startup deprecationNotice before any broker read/refusal or scientific review. It counts as one explicit model turn even without output. The exact original report is archived at artifacts/P3_FINITE_REVIEW_DEPRECATION_OBSERVATIONS/20260909_REBUILD024/REPORT.json, SHA-256 ce5af6d5d8ae3e6a332ce5289af60a8b4633ef101892aba8d92b2c383e13372c. The actual notice strings were discarded; the correction recognizes only the exact finite source-derived notices from the unchanged restrictive profile.
 
-> I approve chatgpt sol 5.6, but need its highest (most capable) tier. If Ultra or pro are the highest sol 5.6 tiers, use them
+Four native starts and one explicit model turn have been consumed. The old cumulative ceiling was five starts and two turns. One fresh synthetic refusal check followed, only on success, by one separately fresh scientific reviewer needs up to two further starts and two turns. Approving this request raises the cumulative ceilings to six starts and three explicit turns: one more of each than the old ceiling. All earlier attempts remain counted and preserved. No automatic retry is authorized.
 
-The funder did not explicitly name Max or approve a SHA-256 string. The PI implements the instruction as exact gpt-5.6-sol with explicit max: the highest directly selectable individual reasoning effort in the measured isolated native route. Ultra adds delegation, which the approved reviewer disables; the pinned native client cannot explicitly serialize the API Pro reasoning mode. This does not assert that Max is the strongest Sol option on every product surface. Existing access, independent-review restrictions, budget and no-spending requirements continue.
+The scope is configs/P3_FINITE_REVIEW_SCOPE_024.json, SHA-256 bdf0d9cb689793656c8616f72f2f1a6a45a6bc4a6cf5abed3e0e0e4dde8ee0db. Sol Max, the native executable, host and account restrictions, broker, fresh contexts, frozen scientific evidence, process deadlines and no-additional-spending rule continue. Hosted subscription allowance remains unknown; unattended model use remains unauthorized. Scientific results and reviewer independence are not established by this engineering correction.
 
-This is a disclosed PI transcription and implementation of the current authorization. The human handoff command commits/pushes this concrete record; it is not another permission request or a fabricated human signature. The unchanged controller requires the exact ANSWER below before a separate explicit human launch. Original Astra approval alone still cannot admit Sol.
+## How the funder answers
 
-Decision: reports/P3_SOL_CAPABILITY_DECISION_023.md, SHA-256 `85691b80b31a7b5262e0efb31688a7852da2422456ba7c511dd93c5f103b5f40`. Provenance: evidence/P3_SOL_APPROVAL_023.json, SHA-256 `9456538e6cf8a23f159b73fba445d88d415b1060b0495517b3ca7eda62f435db`. The unanswered proposal is preserved at state/escalations/2026-09-09_SOL_MODEL_REQUEST_022.md.
+The answer belongs in state/ESCALATION.md as one actual section beginning with the literal heading `## ANSWER`. Its only nonblank contents must be `APPROVE_P3_FINITE_REVIEW_024_CORRECTION` and `scope_sha256: bdf0d9cb689793656c8616f72f2f1a6a45a6bc4a6cf5abed3e0e0e4dde8ee0db` on separate lines. No extra prose belongs after that section.
 
-After successful publication, run `python3 -I -B "$HOME/ARC_Independent_Lab/scripts/p3_finite_review_022.py" --run-attended-review`. Preserve the returned report and any unchanged verdict. No review or verdict is claimed here.
+For convenience, explicitly running the delivered publication wrapper with `--approve-correction` records exactly that answer and updates its checkpoint inventory hash, then commits and pushes the selected checkpoint. The flag is the funder's affirmative authorization of this exact request. The PI has not applied it. A separate manual GitHub edit or another chat confirmation is unnecessary. Without the flag the wrapper only inspects. Publication never starts a model.
+
+After successful publication, the separate command is `python3 -I -B "$HOME/ARC_Independent_Lab/scripts/p3_finite_review_024.py" --run-attended-review`. The existing private paper packet is reused. A completed receipt is reused; a partial or changed run is preserved and stops.
+
+If the increase is declined, the reviewer remains stopped and the independent scientific verdict remains pending. The PI will not silently bypass the synthetic admission, combine contexts, reset counters, or use the old approval for this new ceiling.
+
+## Rebuild provenance
+
+The previous024 download was not recoverable from the current workspace and had never reached GitHub. This newly verified build replaces its file hashes. The reattached022 report is byte-identical to the original. The old024 links and shell checksum must not be used. This is an engineering recovery, not new scientific evidence.
 
 ## ANSWER
-APPROVE_P3_FINITE_REVIEW_022_SOL
-scope_sha256: 46301a69ae7a2d0cdac537eb2127415e8d4ac3c4ab5d7e8ea00ff1a1894a9f0f
+APPROVE_P3_FINITE_REVIEW_024_CORRECTION
+scope_sha256: bdf0d9cb689793656c8616f72f2f1a6a45a6bc4a6cf5abed3e0e0e4dde8ee0db

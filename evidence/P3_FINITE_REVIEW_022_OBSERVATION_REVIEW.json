@@ -1,0 +1,76 @@
+{
+  "created_utc": "2026-09-09T20:15:04.894267+00:00",
+  "scope": "PI engineering assessment of supplied receipt, not an independent scientific verdict",
+  "source": {
+    "path": "artifacts/P3_FINITE_REVIEW_DEPRECATION_OBSERVATIONS/20260909_REBUILD024/REPORT.json",
+    "sha256": "ce5af6d5d8ae3e6a332ce5289af60a8b4633ef101892aba8d92b2c383e13372c"
+  },
+  "exact_original_report_recovered": true,
+  "published_base": "b0a46da67e18212be58764ac525eb693d8eea55e",
+  "pins_equal_unchanged_022_controller": true,
+  "source_pins_verified": 82,
+  "status": "STOPPED_WITHOUT_COMPLETED_REVIEW",
+  "reason": "Synthetic dynamic refusal admission incomplete; no science started",
+  "synthetic_session": {
+    "selected_binding": {
+      "model": "gpt-5.6-sol",
+      "id": "gpt-5.6-sol",
+      "effort": "max"
+    },
+    "thread_admission": {
+      "thread_id": "01a0845b-1e83-7172-a4d2-5ba79a26a20d",
+      "session_id": "01a0845b-1e83-7172-a4d2-5ba79a26a20d",
+      "returned_controls_match": true,
+      "native_instruction_files_absent": true,
+      "thread_response_history_field_is_not_freshness_proof": true,
+      "full_fresh_context_verified": false,
+      "full_tool_registry_verified": false
+    },
+    "turn_binding": {
+      "thread_id": "01a0845b-1e83-7172-a4d2-5ba79a26a20d",
+      "turn_id": "01a0845b-1e8a-7573-8c36-2c1216d78b22"
+    },
+    "status": "STOPPED_WITHOUT_VERDICT",
+    "reason": "Unadvertised native notification effect",
+    "client_started": true,
+    "thread_request_sent": true,
+    "model_turn_request_sent": true,
+    "model_turn_request_queued": true,
+    "early_frames_buffered": 9,
+    "last_notification_type": "deprecationNotice",
+    "synthetic_allowed_read_observed": false,
+    "observed_refusal": false,
+    "verdict_submitted": false,
+    "server_requests_dispatched": 0,
+    "broker_receipts": [],
+    "native_process_reaped": true,
+    "client_exit_code": -15
+  },
+  "canonical_embedded_session_sha256": "78577773614c0710e18d6e488635a71f15e59ead76fd1c39ca070b9ac50571f5",
+  "separate_laptop_session_file_supplied": false,
+  "separate_laptop_session_verification": "Required by corrected controller on canonical laptop; not inferred from embedded serialization",
+  "actual_notice_payload_available": false,
+  "actual_notice_text_reconstructed": false,
+  "cumulative_consumption": {
+    "native_starts": 4,
+    "explicit_model_turn_requests": 1,
+    "basis": "Three earlier starts and zero explicit turns in validated published history; current sent synthetic turn counts even without output",
+    "backend_inference_or_charge_established": false
+  },
+  "old_cumulative_cap": {
+    "native_starts": 5,
+    "explicit_model_turn_requests": 2
+  },
+  "proposed_cumulative_cap": {
+    "native_starts": 6,
+    "explicit_model_turn_requests": 3
+  },
+  "new_run_maximum": {
+    "native_starts": 2,
+    "explicit_model_turn_requests": 2
+  },
+  "new_explicit_budget_approval_required": true,
+  "scientific_review_completed": false,
+  "native_boundary_passed": false,
+  "hosted_allowance_observed": false
+}

@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-09T03:39:17.452122+00:00",
+  "updated_utc": "2026-09-09T20:24:54.848451+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -119,22 +119,30 @@
     "rerun_needed": false
   },
   "next_operational_test": {
-    "name": "Authorized Sol Max isolated review",
+    "name": "Rebuilt bounded startup-notice correction for Sol Max reviewer",
     "scope": {
-      "path": "configs/P3_FINITE_REVIEW_SCOPE_022.json",
-      "sha256": "46301a69ae7a2d0cdac537eb2127415e8d4ac3c4ab5d7e8ea00ff1a1894a9f0f"
+      "path": "configs/P3_FINITE_REVIEW_SCOPE_024.json",
+      "sha256": "bdf0d9cb689793656c8616f72f2f1a6a45a6bc4a6cf5abed3e0e0e4dde8ee0db"
     },
     "controller": {
-      "path": "scripts/p3_finite_review_022.py",
-      "sha256": "ef9b1bb0b19e3d8687aac88d70f268183f00c435c789420e47996211ea09e116"
+      "path": "scripts/p3_finite_review_024.py",
+      "sha256": "810c57eeebedac2867b5330969a50816611f196b32cb50419d0952c5a4580f21"
     },
-    "status": "Current conversation authorization accepted and exact scope answer prepared; pending human publication and separate explicit canonical launch",
-    "native_processes_maximum": 2,
-    "explicit_model_turns_maximum": 2,
-    "synthetic_wall_seconds_including_cleanup": 600,
-    "scientific_wall_seconds_including_cleanup": 3600,
+    "status": "Prepared; pending explicit human budget-amendment flag, publication and separate canonical launch",
+    "prior_native_starts": 4,
+    "prior_explicit_model_turns": 1,
+    "additional_native_starts_maximum": 2,
+    "additional_explicit_model_turns_maximum": 2,
+    "currently_approved_cumulative_ceiling": {
+      "native_starts": 5,
+      "explicit_model_turns": 2
+    },
+    "proposed_cumulative_ceiling": {
+      "native_starts": 6,
+      "explicit_model_turns": 3
+    },
+    "new_approval_required": true,
     "automatic_retries": 0,
-    "fresh_scientific_process_only_after_synthetic_pass": true,
     "model_policy": {
       "requested_identity": "gpt-5.6-sol",
       "provider": "openai using existing ChatGPT account",
@@ -147,48 +155,12 @@
       "effort_choice_reason": "Official documentation distinguishes Max single-agent reasoning from Ultra automatic delegation. The reviewer remains one process/context with collaboration disabled.",
       "requested_effort": "max"
     },
+    "fixed_step_directory": "delivery/P3_FINITE_REVIEW_024",
+    "synthetic_wall_seconds_including_cleanup": 600,
+    "scientific_wall_seconds_including_cleanup": 3600,
     "unattended_model_use_authorized": false,
-    "continuous_human_attendance_verified": false,
     "no_new_spending": true,
-    "reported_native_Codex_percentage_is_not_hosted_allowance": true,
-    "limits": {
-      "maximum_native_processes": 2,
-      "maximum_model_turns": 2,
-      "maximum_synthetic_broker_calls": 16,
-      "maximum_scientific_broker_calls": 512,
-      "maximum_native_file_bytes": 33554432,
-      "maximum_native_runtime_tree_bytes": 268435456,
-      "maximum_synthetic_native_cpu_seconds": 120,
-      "maximum_scientific_native_cpu_seconds": 600,
-      "maximum_run_attempts_per_invocation": 1,
-      "maximum_synthetic_stdout_bytes": 67108864,
-      "maximum_scientific_stdout_bytes": 536870912,
-      "maximum_stderr_bytes_per_process": 67108864,
-      "maximum_protocol_frame_bytes": 25165824,
-      "maximum_outbound_queue_bytes": 33554432,
-      "maximum_early_frames": 64,
-      "maximum_early_frame_bytes": 1048576,
-      "parent_request_timeout_seconds": 30,
-      "maximum_catalog_pages": 8,
-      "maximum_catalog_entries": 800,
-      "native_cpu_hard_limit_grace_seconds": 1
-    },
-    "fixed_step_directory": "delivery/P3_FINITE_REVIEW_022",
-    "prior_failed_native_processes": 3,
-    "additional_native_processes_maximum": 2,
-    "cumulative_native_processes_maximum": 5,
-    "cumulative_explicit_model_turns_maximum": 2,
-    "new_approval_requested": false,
-    "original_failed_attempt_preserved": true,
-    "all_three_previous_attempts_preserved": true,
-    "authorization_record": {
-      "path": "evidence/P3_SOL_APPROVAL_023.json",
-      "sha256": "9456538e6cf8a23f159b73fba445d88d415b1060b0495517b3ca7eda62f435db"
-    },
-    "capability_interpretation": {
-      "path": "reports/P3_SOL_CAPABILITY_DECISION_023.md",
-      "sha256": "85691b80b31a7b5262e0efb31688a7852da2422456ba7c511dd93c5f103b5f40"
-    }
+    "approval_flag": "--approve-correction"
   },
   "completed_native_signin": {
     "receipt": {
@@ -342,5 +314,16 @@
     "status": "Configuration passed; exact Astra absent from returned catalog; stopped before thread",
     "scientific_review_completed": false,
     "repeat_original_command": false
+  },
+  "completed_finite_review_022": {
+    "assessment": {
+      "path": "evidence/P3_FINITE_REVIEW_022_OBSERVATION_REVIEW.json",
+      "sha256": "16bcffb510dc15523ade23e8c77efb42b95d0b074707b7c4dc94c19f3e0d8b84"
+    },
+    "prior_native_starts_observed": 4,
+    "prior_explicit_model_turns_sent": 1,
+    "scientific_verdict": false,
+    "original_attempt_preserved": true,
+    "backend_charge": "unknown"
   }
 }

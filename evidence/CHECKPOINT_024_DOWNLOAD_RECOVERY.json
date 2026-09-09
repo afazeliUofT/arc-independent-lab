@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-09-09T20:15:04.894267+00:00",
+  "incident": "Previous024 delivery files and unpublished workspace changes unavailable in this workspace; no024 paths on published023 base. Recovery scan found no copies in available archives or localGit. Exact reset cause unestablished.",
+  "previously_claimed_zip_sha256": "7bebb551481ee433b0317abe3f0201afeb3942b9fa54680d504afb1f7fd815d6",
+  "previously_claimed_shell_sha256": "516ff5f96553b85db18d7d61c2dcac65962e348b6d09cf251b89f4529b30a598",
+  "previous_bytes_available": false,
+  "previous_validation_claims_reused_as_current_evidence": false,
+  "rebuilt_files_are_new_bytes_and_require_new_hashes": true,
+  "reattached_report": "evidence/P3_FINITE_REVIEW_022_OBSERVATION_REVIEW.json",
+  "reattached_report_sha256": "ce5af6d5d8ae3e6a332ce5289af60a8b4633ef101892aba8d92b2c383e13372c",
+  "base_recovery": {
+    "path": "evidence/REMOTE_CHECKPOINT_023_REBUILD_VERIFICATION.json",
+    "sha256": "c3df8d55acd145a6a81e3a1d922fcde21f69ff2562f2de877b27933354c67071"
+  },
+  "delivery_policy": "One outerZIP containing payloadZIP, helper, wrapper and instructions. Preserve the transfer archive before final link. Publication and native execution remain separate.",
+  "user_commands_from_previous_delivery_retired": true,
+  "raw_report_recreated_or_modified": false
+}

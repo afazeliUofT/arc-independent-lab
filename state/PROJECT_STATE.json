@@ -1,32 +1,23 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-09T03:41:16.177756+00:00",
+  "updated_utc": "2026-09-09T20:24:54.848451+00:00",
   "current_gate": "P3",
   "gate_status": "blocked",
   "gate_entered_utc": "2026-09-06T20:14:12.138443+00:00",
   "last_verified_gate": "P2",
   "last_verified_commit": "bb5dbae9d5cfc3b591d8080548bdc72eab4a7f44",
-  "active_task": {
-    "id": "P3.15",
-    "description": "Apply highest usable Sol authorization and publish exact approval before isolated reviewer launch",
-    "attempt": 1,
-    "status": "authorized in conversation; concrete approval prepared; awaiting human publication and native execution",
-    "native_attempts_performed_by_assistant": 0
-  },
+  "active_task": "P3.16.rebuild024",
   "blocked_on": {
-    "kind": "human_publication_and_native_execution",
-    "reason": "Human executes commits/pushes and canonical WSL native reviewer; chat approval is accepted and mechanically recorded, no new permission decision requested.",
-    "new_permission_required": false,
+    "kind": "explicit_bounded_budget_amendment_and_canonical_execution",
+    "new_permission_required": true,
+    "reason": "Existing cumulative cap5starts/2turns cannot cover remaining fresh synthetic+science after prior4starts/1turn. New exactscope proposes6/3. Existing model/access approval remains.",
     "scope": {
-      "path": "configs/P3_FINITE_REVIEW_SCOPE_022.json",
-      "sha256": "46301a69ae7a2d0cdac537eb2127415e8d4ac3c4ab5d7e8ea00ff1a1894a9f0f"
+      "path": "configs/P3_FINITE_REVIEW_SCOPE_024.json",
+      "sha256": "bdf0d9cb689793656c8616f72f2f1a6a45a6bc4a6cf5abed3e0e0e4dde8ee0db"
     },
-    "authorization": {
-      "path": "evidence/P3_SOL_APPROVAL_023.json",
-      "sha256": "9456538e6cf8a23f159b73fba445d88d415b1060b0495517b3ca7eda62f435db"
-    }
+    "approval_via": "Delivered wrapper --approve-correction writes actual state/ESCALATION.md ANSWER and updates checkpoint inventory; user commits/pushes via wrapper."
   },
-  "next_action": "Human publishes checkpoint023, which includes unpublished022 and disclosed approval transcription, then separately runs unchanged scripts/p3_finite_review_022.py --run-attended-review. Inspect REPORT and unmodified REVIEW_VERDICT if created; do not equate execution admission with scientific approval. Same frozen scientific packet and six separate dispositions required. If negative reductions survive review, return explicitly to novelty-free invention around acquisition.",
+  "next_action": "Preserve and deliver one rebuilt024 outerZIP. Human explicitly authorizes the bounded increase through --approve-correction and publishes, then separately runs scripts/p3_finite_review_024.py --run-attended-review on canonical WSL. Inspect original REPORT and unchanged science_output/REVIEW_VERDICT.json if created. Do not rerun signin, recopy papers, reset counters or equate engineering admission with scientific approval. After independent negative dispositions, explicitly return to novelty-free acquisition ideation.",
   "open_questions": [
     "Exact Astra absent from returned native catalog. Sol at highest usable isolated setting authorized; explicit Max selected from exact source/catalog audit. Actual model access, synthetic admission and independent science verdict remain unobserved.",
     "Formal separate dispositions for C1/C2/C3/C4, joint proposition and observer diagnostic remain pending enforced review.",
@@ -180,7 +171,7 @@
     "remote_execution": "Linux shell on Narval",
     "canonical_laptop_project": "WSL ~/ARC_Independent_Lab"
   },
-  "last_human_message_summary": "Sol approved conditional on highest capability. PI source audit selects explicit Max as highest direct individual effort in measured native route; cannot serialize API Pro; Ultra delegation remains disabled.",
+  "last_human_message_summary": "Reattached original022 report after lost024 downloads; one ZIP delivery required. No new native run was requested to recover the report.",
   "latest_capability_verification": {
     "path": "evidence/GATE0_CAPABILITY_INPUT_VERIFICATION_2026-09-07.json",
     "sha256": "6da38b2b47f6da6c5060f28bee745a4c85ab31538fac30566a776c208c51b559"
@@ -200,9 +191,9 @@
   "reviewer_readiness": {
     "actual_command_enforcement": "observed for fixed v2 canary; completed",
     "full_tool_boundary": "Source-supported disabled Code Mode provider and restricted profile prepared; actual reviewer context/tool enforcement remains unobserved.",
-    "fresh_review_context": "not invoked",
+    "fresh_review_context": "Prior022 synthetic thread/turn accepted; synthetic refusal and scientific stage not completed",
     "formal_verdict": "absent",
-    "shared_workspace_consultants": "not independent reviewers",
+    "shared_workspace_consultants": "engineering consultants only, not independent scientific reviewers",
     "primary_method_coverage": "listed Phase3 comparator dependencies complete; broader Phase1 bibliography/priority not certified",
     "verifier_execution_dependencies": "complete; unchanged original checker reexecuted on declared original-inventory view, post-run metadata checked separately",
     "installed_static_interface": "recovered from data embedded in exact laptop executable; no client executed",
@@ -229,8 +220,8 @@
     "sha256": "374af08fd069efcc42a513560ae5849353e02f3c48ffc5046c0c9eb40ed5b455"
   },
   "latest_operational_findings": {
-    "path": "reports/P3_CHECKPOINT_018_STATUS.md",
-    "sha256": "fc2387167af928e1b16e48752630d7bfa01e2367be6d071348187cec62928ec7"
+    "path": "reports/P3_CHECKPOINT_024_STATUS.md",
+    "sha256": "da2f0592213b1287e29b3427b587b91ec7b01d0b0a64eda61bc0b0654dd71c34"
   },
   "hosted_output_integrity_note": "Earlier report/binary anomalies retained. Current validation also found a supposedly new directory already populated; cause unestablished, preserved and not overwritten. Operative validation succeeded in fresh UUID-suffixed directory with explicit return and hash. Final ZIP application/readback remains mandatory.",
   "review_input_core": {
@@ -271,7 +262,7 @@
     "path": "reports/P3_OBJECTIVE_AND_NEXT_DECISION_2026-09-07.md",
     "sha256": "a876bfaf1ef9782df543be91bb63629e389b67ba34aa2b0507593cd66fe0d818"
   },
-  "handoff_preference": "Direct one-click links for every delivered ZIP/Python/shell artifact, WSL Explorer commands for download and exact report folders; separate publication retries from observations.",
+  "handoff_preference": "One preserved outerZIP containing all Python/shell scripts and instructions; no separate script download links. Exact WSL folder-open commands for copied download and output report. Separate publication from native execution.",
   "latest_startup_observation": {
     "path": "evidence/GATE0_CLIENT_PREFLIGHT_OBSERVATION_012_REVIEW.json",
     "sha256": "8cf8d7f29445ef75413bf0d768c14d36ae3160e2014633352acae427fff372cc",
@@ -279,8 +270,8 @@
     "complete_reviewer_boundary_verified": false
   },
   "latest_objective_review": {
-    "path": "reports/P3_CHECKPOINT_022_STATUS.md",
-    "sha256": "fd9f9aeba9e798ba036d8f688e421aea6d358c6a05c80b2f4ba10b80ada1e366"
+    "path": "reports/P3_CHECKPOINT_024_STATUS.md",
+    "sha256": "da2f0592213b1287e29b3427b587b91ec7b01d0b0a64eda61bc0b0654dd71c34"
   },
   "objective_continuity": {
     "read_each_substantive_turn": "docs/OBJECTIVE_CONTINUITY_2026-09-07.md",
@@ -373,32 +364,35 @@
     "actual_reviewer_enforcement_observed": false
   },
   "latest_finite_review_preparation": {
-    "controller": {
-      "path": "scripts/p3_finite_review_022.py",
-      "sha256": "ef9b1bb0b19e3d8687aac88d70f268183f00c435c789420e47996211ea09e116"
-    },
     "scope": {
-      "path": "configs/P3_FINITE_REVIEW_SCOPE_022.json",
-      "sha256": "46301a69ae7a2d0cdac537eb2127415e8d4ac3c4ab5d7e8ea00ff1a1894a9f0f"
+      "path": "configs/P3_FINITE_REVIEW_SCOPE_024.json",
+      "sha256": "bdf0d9cb689793656c8616f72f2f1a6a45a6bc4a6cf5abed3e0e0e4dde8ee0db"
     },
-    "validation": {
-      "path": "artifacts/P3_MODEL_OPTION_VALIDATION/20260909_001/REPORT.json",
-      "sha256": "027a2519b50ef4c15956541ef978a689b1487b28d99e79d16809dd0ead1c06cf"
+    "controller": {
+      "path": "scripts/p3_finite_review_024.py",
+      "sha256": "810c57eeebedac2867b5330969a50816611f196b32cb50419d0952c5a4580f21"
     },
-    "source": {
-      "path": "artifacts/P3_MODEL_CATALOG_SOURCE/20260909_001/MANIFEST.json",
-      "sha256": "45a8991fafa7937eeaab275d08bba172101b85c7a9b5396e54953a1f2176c068"
+    "session_validation": {
+      "path": "artifacts/P3_DEPRECATION_VALIDATION/20260909_REBUILD024/REPORT.json",
+      "sha256": "a56eaabf323484f8857450cc10fe16803c46583680c167167013cecc2ae0a7e7"
     },
-    "new_approval_required": true,
-    "authorization_023": {
-      "path": "evidence/P3_SOL_APPROVAL_023.json",
-      "sha256": "9456538e6cf8a23f159b73fba445d88d415b1060b0495517b3ca7eda62f435db"
+    "controller_validation": {
+      "path": "artifacts/P3_DEPRECATION_VALIDATION/20260909_REBUILD024_CONTROLLER/REPORT.json",
+      "sha256": "b9fc7171e4eb1975991f6373db6a9f2fde561c8c93b3f23bea21407b4b132352"
     },
-    "new_approval_requested": false
+    "handoff_validation": {
+      "path": "artifacts/P3_HANDOFF_VALIDATION/20260909_REBUILD024/REPORT.json",
+      "sha256": "f234ae7b7841524ac690cf9e6c0eaba4984cb0acff61eddc82f1e99e55246b4d"
+    },
+    "root_integration": {
+      "path": "artifacts/P3_DEPRECATION_VALIDATION/20260909_REBUILD024_ROOT/REPORT.json",
+      "sha256": "fe2793edbb7dfc0ac254e67883c8589e8badb267dc3347c74836c4d03b29cfe4"
+    },
+    "new_approval_required": true
   },
   "latest_finite_review_observation": {
-    "path": "evidence/P3_FINITE_REVIEW_021_OBSERVATION_REVIEW.json",
-    "sha256": "ac84e3c6b53f8e199962062b70a9ba519bc89535f59c2ba084d881bb852002d4"
+    "path": "evidence/P3_FINITE_REVIEW_022_OBSERVATION_REVIEW.json",
+    "sha256": "16bcffb510dc15523ade23e8c77efb42b95d0b074707b7c4dc94c19f3e0d8b84"
   },
   "latest_correction_validation": {
     "path": "artifacts/P3_CONFIG_ORIGIN_VALIDATION/20260909_001/INTEGRATED_REPORT.json",
@@ -415,5 +409,9 @@
   "latest_sol_authorization_validation": {
     "path": "artifacts/P3_SOL_AUTHORIZATION_VALIDATION/20260909_001/REPORT.json",
     "sha256": "ff3bc8280e9817e14365bb993affb0ce0d7020da9a2d017ccc6cf5bd3aeb7ef1"
+  },
+  "download_recovery": {
+    "path": "evidence/CHECKPOINT_024_DOWNLOAD_RECOVERY.json",
+    "sha256": "8bb24da0436b4e6efb9f2400ded6833c63a0772db8727a2505d8b2dd3a22fb30"
   }
 }

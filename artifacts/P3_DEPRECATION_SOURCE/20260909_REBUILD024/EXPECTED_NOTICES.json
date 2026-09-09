@@ -1,0 +1,75 @@
+{
+  "source_commit": "78c290807ce710180111df227df3b7a4fe845452",
+  "accessed_on": "2026-09-09",
+  "method": "deprecationNotice",
+  "exact_pair_count": 8,
+  "source_derived": true,
+  "original_failed_notice_payload_recovered": false,
+  "profile_condition": "These eight literal-false feature overrides must be present in the admitted reviewer profile; all other controls remain intact. No claim about runtime receipt count or ordering.",
+  "notices": [
+    {
+      "alias": "codex_hooks",
+      "canonical": "hooks",
+      "override_key": "features.codex_hooks",
+      "required_override_value": false,
+      "summary": "`[features].codex_hooks` is deprecated. Use `[features].hooks` instead.",
+      "details": "Enable it with `--enable hooks` or `[features].hooks` in config.toml. See https://developers.openai.com/codex/config-basic#feature-flags for details."
+    },
+    {
+      "alias": "collab",
+      "canonical": "multi_agent",
+      "override_key": "features.collab",
+      "required_override_value": false,
+      "summary": "`[features].collab` is deprecated. Use `[features].multi_agent` instead.",
+      "details": "Enable it with `--enable multi_agent` or `[features].multi_agent` in config.toml. See https://developers.openai.com/codex/config-basic#feature-flags for details."
+    },
+    {
+      "alias": "connectors",
+      "canonical": "apps",
+      "override_key": "features.connectors",
+      "required_override_value": false,
+      "summary": "`[features].connectors` is deprecated. Use `[features].apps` instead.",
+      "details": "Enable it with `--enable apps` or `[features].apps` in config.toml. See https://developers.openai.com/codex/config-basic#feature-flags for details."
+    },
+    {
+      "alias": "experimental_use_unified_exec_tool",
+      "canonical": "unified_exec",
+      "override_key": "features.experimental_use_unified_exec_tool",
+      "required_override_value": false,
+      "summary": "`[features].experimental_use_unified_exec_tool` is deprecated. Use `[features].unified_exec` instead.",
+      "details": "Enable it with `--enable unified_exec` or `[features].unified_exec` in config.toml. See https://developers.openai.com/codex/config-basic#feature-flags for details."
+    },
+    {
+      "alias": "memory_tool",
+      "canonical": "memories",
+      "override_key": "features.memory_tool",
+      "required_override_value": false,
+      "summary": "`[features].memory_tool` is deprecated. Use `[features].memories` instead.",
+      "details": "Enable it with `--enable memories` or `[features].memories` in config.toml. See https://developers.openai.com/codex/config-basic#feature-flags for details."
+    },
+    {
+      "alias": "web_search",
+      "canonical": "web_search_request",
+      "override_key": "features.web_search",
+      "required_override_value": false,
+      "summary": "`[features].web_search` is deprecated because web search is enabled by default.",
+      "details": "Set `web_search` to `\"live\"`, `\"indexed\"`, `\"cached\"`, or `\"disabled\"` at the top level (or under a profile) in config.toml if you want to override it."
+    },
+    {
+      "alias": "web_search_cached",
+      "canonical": "web_search_cached",
+      "override_key": "features.web_search_cached",
+      "required_override_value": false,
+      "summary": "`[features].web_search_cached` is deprecated because web search is enabled by default.",
+      "details": "Set `web_search` to `\"live\"`, `\"indexed\"`, `\"cached\"`, or `\"disabled\"` at the top level (or under a profile) in config.toml if you want to override it."
+    },
+    {
+      "alias": "web_search_request",
+      "canonical": "web_search_request",
+      "override_key": "features.web_search_request",
+      "required_override_value": false,
+      "summary": "`[features].web_search_request` is deprecated because web search is enabled by default.",
+      "details": "Set `web_search` to `\"live\"`, `\"indexed\"`, `\"cached\"`, or `\"disabled\"` at the top level (or under a profile) in config.toml if you want to override it."
+    }
+  ]
+}

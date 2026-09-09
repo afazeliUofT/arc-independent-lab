@@ -1,0 +1,39 @@
+{
+  "created_utc": "2026-09-09T20:21:23.610003+00:00",
+  "kind": "P3_HANDOFF024_ENGINEERING_VALIDATION",
+  "exit_code": 0,
+  "test_script": {
+    "path": "tests/test_checkpoint024_handoff.py",
+    "sha256": "e93b088831f7a6190f7ba73e8cada8052e50e80559e2b87d067623895bcd2e1d"
+  },
+  "helper_sha256": "4b561cd04d43601de4bf941a70ff968d5eaf9107bfc73cc20e4014252f784163",
+  "stdout_sha256": "1c9d3081f37048079c5a1cc147219fa02972e1a7e1c3ac60b1e0cdbc7af989d9",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "native_or_model_operation": false,
+  "commit_or_push": false,
+  "approval_in_real_working_copy": false,
+  "scope": "Offline engineering tests with fabricated scope/request in local fixtures. Actual final archive and controller-consumer integration checked separately.",
+  "checks": {
+    "test_type": "engineering_only",
+    "passed": 15,
+    "checks": [
+      "verified_unsigned_zip_and_full_manifest",
+      "deterministic_two_file_approval_exact_answer_no_self_hash",
+      "default_inspection_preserves_every_fixture_byte_and_mode",
+      "unsigned_apply_approval_transition_and_retry_are_idempotent",
+      "approved_state_requires_matching_explicit_variant",
+      "direct_staging_preserves_crlf_nul_executable_mode_and_git_credential_configuration",
+      "unknown_staged_addition_refused_without_mutation",
+      "staged_tracked_deletion_refused_without_mutation",
+      "unknown_tracked_work_edit_refused_without_mutation",
+      "unknown_payload_work_edit_refused_without_mutation",
+      "unknown_staged_mode_refused_without_mutation",
+      "assume_unchanged_cannot_hide_edit_refused_without_mutation",
+      "partial_file_apply_retry_completes_known_transitions",
+      "altered_unsigned_approval_request_refused",
+      "exact_child_parent_and_tree_rule_without_creating_commits"
+    ],
+    "actual_commits_pushes_network_or_native_operations": 0,
+    "controller_approval_parser": "Root separately validates actual controller against delivered payload."
+  }
+}

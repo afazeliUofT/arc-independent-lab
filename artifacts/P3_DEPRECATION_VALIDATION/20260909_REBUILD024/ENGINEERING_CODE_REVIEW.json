@@ -1,0 +1,25 @@
+{
+  "kind": "P3_DEPRECATION_ENGINEERING_CODE_REVIEW_024_REBUILT_v1",
+  "scope": "Read-only engineering delta review, not independent scientific review",
+  "files_reviewed": [
+    "scripts/p3_deprecation_notice.py",
+    "scripts/p3_reviewer_session_024.py",
+    "tests/test_p3_deprecation_correction_024.py"
+  ],
+  "baseline": "scripts/p3_reviewer_session_022.py",
+  "concrete_issues_found": [],
+  "checks": [
+    "Exact eight full source-derived summary/details pairs",
+    "All relevant aliases and canonical controls literal false; web_search disabled",
+    "Distinct bounded history and duplicate refusal",
+    "Privacy-safe fixed-label receipts without notice content or hashes",
+    "Activity item/lifecycle/token/model/broker closure",
+    "Empty turn response preserves startup window for nine buffered frames",
+    "Nonempty turn response intentionally closes before buffered notices are drained"
+  ],
+  "files_edited_by_reviewer": false,
+  "native_client_executed": false,
+  "authentication_accessed": false,
+  "model_called": false,
+  "network_used": false
+}

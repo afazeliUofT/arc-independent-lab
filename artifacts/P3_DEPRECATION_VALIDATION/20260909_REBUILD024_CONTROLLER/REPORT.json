@@ -1,0 +1,60 @@
+{
+  "kind": "P3_FINITE_REVIEW_024_CONTROLLER_ENGINEERING_VALIDATION_v1",
+  "synthetic_engineering_tests_only": true,
+  "command": [
+    "python3",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_p3_finite_review_024.py",
+    "-v"
+  ],
+  "exit_code": 0,
+  "passed": true,
+  "tests_passed": 14,
+  "controller_sha256_at_test": "810c57eeebedac2867b5330969a50816611f196b32cb50419d0952c5a4580f21",
+  "scope_sha256": "bdf0d9cb689793656c8616f72f2f1a6a45a6bc4a6cf5abed3e0e0e4dde8ee0db",
+  "test_sha256": "d916e7f338df4cd75a6c2b2d6b381e4b2beee720b547501c05f35bf0cd873d62",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "24893f17194cbc6ebfa73ae8f682f33864f60f7274895730d549dc58146289c0",
+  "native_client_started": false,
+  "model_or_authentication_operation_performed": false,
+  "scientific_review_performed": false,
+  "true_controller_consumers_tested": [
+    "approval",
+    "existing"
+  ],
+  "temporary_fixture_root_only_patched": true,
+  "preserved022_source_pins": 82,
+  "appended024_source_pins": 18,
+  "all12_source_manifest_members_exact_hash_and_size_verified": true,
+  "scope022_unchanged_sha256": "46301a69ae7a2d0cdac537eb2127415e8d4ac3c4ab5d7e8ea00ff1a1894a9f0f",
+  "changed_scope_top_level_fields": [
+    "approval_id",
+    "approval_protocol",
+    "constraints",
+    "deprecation_notice_policy",
+    "limitations",
+    "prior_attempt_accounting",
+    "prior_attempt_evidence",
+    "prior_finite_review_scope",
+    "purpose",
+    "report_directory",
+    "scope_id"
+  ],
+  "scope": "Exact approval/parser acceptance and adversarial rejection; complete terminal receipt reuse and partial/nonterminal rejection with byte preservation. Final controller preserves82 historical pins and adds18 exact completed dependency pins.",
+  "limits": {
+    "prior_native_starts": 4,
+    "prior_sent_turns": 1,
+    "additional_native_starts_maximum": 2,
+    "additional_sent_turns_maximum": 2,
+    "cumulative_native_starts_maximum": 6,
+    "cumulative_sent_turns_maximum": 3
+  },
+  "actual_canonical_laptop022_session_present_or_verified_in_this_test": false,
+  "prior_guard_requires_actual_canonical022_report_and_session_at_launch": true,
+  "token_usage_or_subscription_charge": "unknown"
+}

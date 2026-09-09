@@ -1,0 +1,23 @@
+{
+  "test_type": "engineering_only",
+  "passed": 15,
+  "checks": [
+    "verified_unsigned_zip_and_full_manifest",
+    "deterministic_two_file_approval_exact_answer_no_self_hash",
+    "default_inspection_preserves_every_fixture_byte_and_mode",
+    "unsigned_apply_approval_transition_and_retry_are_idempotent",
+    "approved_state_requires_matching_explicit_variant",
+    "direct_staging_preserves_crlf_nul_executable_mode_and_git_credential_configuration",
+    "unknown_staged_addition_refused_without_mutation",
+    "staged_tracked_deletion_refused_without_mutation",
+    "unknown_tracked_work_edit_refused_without_mutation",
+    "unknown_payload_work_edit_refused_without_mutation",
+    "unknown_staged_mode_refused_without_mutation",
+    "assume_unchanged_cannot_hide_edit_refused_without_mutation",
+    "partial_file_apply_retry_completes_known_transitions",
+    "altered_unsigned_approval_request_refused",
+    "exact_child_parent_and_tree_rule_without_creating_commits"
+  ],
+  "actual_commits_pushes_network_or_native_operations": 0,
+  "controller_approval_parser": "Root separately validates actual controller against delivered payload."
+}
