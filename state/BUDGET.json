@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-09T20:24:54.848451+00:00",
+  "updated_utc": "2026-09-09T21:55:18.346075+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -119,48 +119,22 @@
     "rerun_needed": false
   },
   "next_operational_test": {
-    "name": "Rebuilt bounded startup-notice correction for Sol Max reviewer",
-    "scope": {
-      "path": "configs/P3_FINITE_REVIEW_SCOPE_024.json",
-      "sha256": "bdf0d9cb689793656c8616f72f2f1a6a45a6bc4a6cf5abed3e0e0e4dde8ee0db"
-    },
-    "controller": {
-      "path": "scripts/p3_finite_review_024.py",
-      "sha256": "810c57eeebedac2867b5330969a50816611f196b32cb50419d0952c5a4580f21"
-    },
-    "status": "Prepared; pending explicit human budget-amendment flag, publication and separate canonical launch",
-    "prior_native_starts": 4,
-    "prior_explicit_model_turns": 1,
-    "additional_native_starts_maximum": 2,
-    "additional_explicit_model_turns_maximum": 2,
-    "currently_approved_cumulative_ceiling": {
-      "native_starts": 5,
-      "explicit_model_turns": 2
-    },
-    "proposed_cumulative_ceiling": {
+    "name": "Offline warning-state diagnostic025",
+    "native_starts": 0,
+    "model_turns": 0,
+    "network_calls": 0,
+    "new_permission_required": false,
+    "current_approved_cumulative_ceiling": {
       "native_starts": 6,
       "explicit_model_turns": 3
     },
-    "new_approval_required": true,
-    "automatic_retries": 0,
-    "model_policy": {
-      "requested_identity": "gpt-5.6-sol",
-      "provider": "openai using existing ChatGPT account",
-      "effort": "max, explicitly advertised for gpt-5.6-sol in the admitted native catalog; no effort fallback",
-      "automatic_model_or_provider_fallback": false,
-      "if_identity_is_absent": "Stop before model invocation and retain filtered catalog. Do not select a different model.",
-      "role_scope": "This explicit exception applies only to the bounded independent reviewer. PI research remains GPT-6 Astra at highest available effort.",
-      "original_requested_identity": "gpt-6-astra",
-      "change_requires_explicit_approval": true,
-      "effort_choice_reason": "Official documentation distinguishes Max single-agent reasoning from Ultra automatic delegation. The reviewer remains one process/context with collaboration disabled.",
-      "requested_effort": "max"
+    "consumed": {
+      "native_starts": 5,
+      "sent_turns": 2
     },
-    "fixed_step_directory": "delivery/P3_FINITE_REVIEW_024",
-    "synthetic_wall_seconds_including_cleanup": 600,
-    "scientific_wall_seconds_including_cleanup": 3600,
-    "unattended_model_use_authorized": false,
-    "no_new_spending": true,
-    "approval_flag": "--approve-correction"
+    "automatic_retries": 0,
+    "status": "Preparing; human executes against retained laptop files",
+    "scope": "Read only existing approved noncredential config/cache and fixed024 run state; write filtered receipt inside lab. No control-surface change."
   },
   "completed_native_signin": {
     "receipt": {
@@ -257,7 +231,7 @@
       "sha256": "acbc599a337845e585af8cec04fd72af44cdb7d10321c1ae4329fce6120613a4"
     },
     "native_controller_implemented": true,
-    "next_action": "022 option prepared and tested; await exact model/effort approval before canonical native execution.",
+    "next_action": "Do not rerun024. Inspect the offline025 warning-state diagnostic before preparing any future reviewer operation.",
     "unattended_model_use_authorized": false,
     "extra_spending_allowed": false
   },
@@ -325,5 +299,20 @@
     "scientific_verdict": false,
     "original_attempt_preserved": true,
     "backend_charge": "unknown"
+  },
+  "completed_finite_review_024": {
+    "assessment": {
+      "path": "evidence/P3_FINITE_REVIEW_024_OBSERVATION_REVIEW.json",
+      "sha256": "a0a611e816228281e184b13a0d632081f3d524f473a8cbe20e43480bcf1cebfb"
+    },
+    "cumulative_native_starts": 5,
+    "cumulative_sent_turns": 2,
+    "approved_cumulative_ceiling": {
+      "native_starts": 6,
+      "explicit_model_turns": 3
+    },
+    "backend_usage_or_charge": "unknown",
+    "scientific_verdict": false,
+    "repeat_original_command": false
   }
 }

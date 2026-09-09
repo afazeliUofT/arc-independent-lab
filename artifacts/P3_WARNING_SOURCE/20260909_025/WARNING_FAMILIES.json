@@ -1,0 +1,359 @@
+{
+  "schema": "arc.codex-startup-warning-family-catalog.v1",
+  "commit": "78c290807ce710180111df227df3b7a4fe845452",
+  "access_date": "2026-09-09",
+  "scope": "Bounded startup, first-turn prelude, and effect-bearing warning exclusions. Family recognition is diagnostic only; no family is an authorization.",
+  "families": [
+    {
+      "id": "config.project_keys_ignored",
+      "path": "source/codex-rs/config/src/loader/mod.rs",
+      "line": 1297,
+      "phase": "thread_start_before_unstable",
+      "template": "Ignored unsupported project-local config keys in {config_path}: {ignored_keys}. If you want these settings to apply, manually set them in your user-level config.toml.",
+      "condition": "Supported trusted project config contains disallowed project-local keys.",
+      "classification": "dependency_or_configuration_stop",
+      "logging": "No producer body tracing in this formatter."
+    },
+    {
+      "id": "config.windows_managed_ignored",
+      "path": "source/codex-rs/config/src/loader/layer_io.rs",
+      "line": 75,
+      "phase": "thread_start_before_unstable",
+      "template": "Ignoring deprecated managed config file at {path}; CODEX_HOME/managed_config.toml is no longer supported on Windows. Use %ProgramData%\\OpenAI\\Codex\\requirements.toml for enforced settings or config.toml for defaults.",
+      "condition": "Windows only, deprecated default managed config exists and is ignored.",
+      "classification": "configuration_stop; unreachable_on_approved_linux",
+      "logging": "No body trace on successful warning branch."
+    },
+    {
+      "id": "config.exact_requirement_override",
+      "path": "source/codex-rs/core/src/config/requirements.rs",
+      "line": 83,
+      "phase": "thread_start_before_unstable",
+      "template": "Configured value for `{field_name}` is overridden by the required value {value:?} from {source}.",
+      "condition": "Managed exact requirement conflicts with cli_auth_credentials_store/chatgpt_base_url/sqlite_home/log_dir/model_catalog_json/check_for_update_on_startup/allow_login_shell/windows.sandbox_private_desktop.",
+      "classification": "security_or_configuration_stop",
+      "logging": "Producer tracing includes field/value/source; textual diagnostic differs from wire warning."
+    },
+    {
+      "id": "config.feedback_requirement_override",
+      "path": "source/codex-rs/core/src/config/requirements.rs",
+      "line": 169,
+      "phase": "thread_start_before_unstable",
+      "template": "Configured values under `{field_name}` are overridden by requirements from {source}.",
+      "condition": "Managed feedback.enabled conflicts.",
+      "classification": "configuration_stop",
+      "logging": "Producer trace exists."
+    },
+    {
+      "id": "config.residency_header_ignored",
+      "path": "source/codex-rs/core/src/config/requirements.rs",
+      "line": 52,
+      "phase": "thread_start_before_unstable",
+      "template": "Ignoring `{RESIDENCY_HEADER_NAME}` in `model_providers.{provider_name}` because managed residency is required.",
+      "condition": "Managed residency exists and provider contains residency header.",
+      "classification": "security_or_provider_configuration_stop",
+      "logging": "Producer tracing prints full warning."
+    },
+    {
+      "id": "config.sqlite_env_override",
+      "path": "source/codex-rs/core/src/config/requirements.rs",
+      "line": 138,
+      "phase": "thread_start_before_unstable",
+      "template": "Environment value for `$CODEX_SQLITE_HOME` is overridden by the required `sqlite_home` value {value:?} from {source}.",
+      "condition": "No configured sqlite_home, conflicting env and managed requirement.",
+      "classification": "configuration_stop; profile_sets_sqlite_home_and_does_not_forward_env",
+      "logging": "Producer trace exists."
+    },
+    {
+      "id": "config.hook_trust_bypass",
+      "path": "source/codex-rs/core/src/config/mod.rs",
+      "line": 3243,
+      "phase": "thread_start_before_unstable",
+      "template": "`--dangerously-bypass-hook-trust` is enabled. Enabled hooks may run without review for this invocation.",
+      "condition": "bypass_hook_trust true.",
+      "classification": "security_stop; contradicts_approved_invocation",
+      "logging": "No producer body trace in this branch."
+    },
+    {
+      "id": "config.legacy_feature_requirement",
+      "path": "source/codex-rs/core/src/config/managed_features.rs",
+      "line": 229,
+      "phase": "thread_start_before_unstable",
+      "template": "Using legacy `features` requirement `{key}` from {source}; prefer canonical feature key `{canonical}`",
+      "condition": "Requirement key uses recognized legacy alias.",
+      "classification": "security_requirements_stop",
+      "logging": "push_feature_requirement_warning traces full message."
+    },
+    {
+      "id": "config.unknown_feature_requirement",
+      "path": "source/codex-rs/core/src/config/managed_features.rs",
+      "line": 241,
+      "phase": "thread_start_before_unstable",
+      "template": "Ignoring unknown `features` requirement `{key}` from {source}",
+      "condition": "Requirement feature key not recognized.",
+      "classification": "security_requirements_stop",
+      "logging": "push_feature_requirement_warning traces full message."
+    },
+    {
+      "id": "config.constrained_value_fallback",
+      "path": "source/codex-rs/core/src/config/mod.rs",
+      "line": 2141,
+      "phase": "thread_start_before_unstable",
+      "template": "Configured value for `{field_name}` is disallowed by requirements; falling back to required value {fallback_value:?}. Details: {err}",
+      "condition": "Setter rejects windows.sandbox/approval_policy/approvals_reviewer/permission_profile/web_search_mode.",
+      "classification": "security_or_permission_stop",
+      "logging": "Producer trace has field/fallback/source/error; not exact wire template."
+    },
+    {
+      "id": "config.permission_profile_fallback",
+      "path": "source/codex-rs/core/src/config/mod.rs",
+      "line": 4601,
+      "phase": "thread_start_before_unstable",
+      "template": "Configured value for `permission_profile` is disallowed by requirements; falling back from `{selected_permissions}` to required value `{fallback_permissions}`.",
+      "condition": "Selected named permission profile disallowed by requirements.",
+      "classification": "security_or_permission_stop",
+      "logging": "No tracing statement in this exact branch."
+    },
+    {
+      "id": "config.permissions_missing_entries",
+      "path": "source/codex-rs/core/src/config/permissions.rs",
+      "line": 894,
+      "phase": "thread_start_before_unstable",
+      "template": "Permissions profile `{profile_name}` does not define any recognized filesystem entries for this version of Codex. Filesystem access will remain restricted. Upgrade Codex if this profile expects filesystem permissions.",
+      "condition": "Selected custom profile lacks recognized filesystem entries.",
+      "classification": "permission_compatibility_stop",
+      "logging": "push_warning traces full warning."
+    },
+    {
+      "id": "config.filesystem_glob_unsupported",
+      "path": "source/codex-rs/core/src/config/permissions.rs",
+      "line": 367,
+      "phase": "thread_start_before_unstable",
+      "template": "Filesystem glob `{pattern}` uses `read` or `write` access, which is not fully supported by this platform's sandboxing. Use an exact path or trailing `/**` subtree rule instead. `deny` globs are supported.",
+      "condition": "Non-macOS selected custom profile has unsupported read/write glob.",
+      "classification": "permission_compatibility_stop",
+      "logging": "push_warning traces full warning."
+    },
+    {
+      "id": "config.filesystem_globstar_unsupported",
+      "path": "source/codex-rs/core/src/config/permissions.rs",
+      "line": 376,
+      "phase": "thread_start_before_unstable",
+      "template": "Filesystem deny-read glob `{pattern}` uses `**`. Non-macOS sandboxing does not support unbounded `**` natively; set `glob_scan_max_depth` in this filesystem profile to cap Linux glob expansion and silence this warning, or enumerate explicit depths such as `*.env`, `*/*.env`, and `*/*/*.env`.",
+      "condition": "Unbounded unreadable globstar on non-macOS custom profile.",
+      "classification": "permission_compatibility_stop",
+      "logging": "push_warning traces full warning."
+    },
+    {
+      "id": "config.filesystem_special_path_unknown",
+      "path": "source/codex-rs/core/src/config/permissions.rs",
+      "line": 900,
+      "phase": "thread_start_before_unstable",
+      "template": "Configured filesystem path `{path}` [with nested entry `{subpath}` ]is not recognized by this version of Codex and will be ignored. Upgrade Codex if this path is required.",
+      "condition": "Unknown special path in selected profile; two exact source variants.",
+      "classification": "permission_compatibility_stop",
+      "logging": "push_warning traces full warning."
+    },
+    {
+      "id": "config.agent_role_malformed",
+      "path": "source/codex-rs/agent-roles/src/loader.rs",
+      "line": 119,
+      "phase": "thread_start_before_unstable",
+      "template": "Ignoring malformed agent role definition: {err}",
+      "condition": "Malformed/duplicate agent role definition; config loading scans roles independently of later agent execution.",
+      "classification": "configuration_stop",
+      "logging": "Producer traces full message."
+    },
+    {
+      "id": "config.otel_invalid",
+      "path": "source/codex-rs/core/src/config/otel.rs",
+      "line": 110,
+      "phase": "thread_start_before_unstable",
+      "template": "Ignoring invalid `{config_key}` config: {err}",
+      "condition": "Invalid otel.span_attributes or otel.tracestate; entries ignored.",
+      "classification": "informational_emission_but_configuration_stop_unless_exactly_preapproved",
+      "logging": "Producer traces full message."
+    },
+    {
+      "id": "config.global_instructions_read_failed",
+      "path": "source/codex-rs/codex-home/src/instructions/mod.rs",
+      "line": 24,
+      "phase": "thread_start_before_unstable",
+      "template": "Failed to read global AGENTS.md instructions from `{path}`: {err}",
+      "condition": "Metadata/read error other than missing file for global instructions provider.",
+      "classification": "instructions_dependency_stop",
+      "logging": "Provider pushes warning without tracing the warning body."
+    },
+    {
+      "id": "features.under_development",
+      "path": "source/codex-rs/features/src/lib.rs",
+      "line": 1642,
+      "phase": "thread_start_after_config_before_hooks",
+      "template": "Under-development features enabled: {sorted_canonical_keys}. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in {config_path}.",
+      "condition": "Not suppressed; explicit effective config canonical feature=true or enabled=true; effective enabled; stage UnderDevelopment. Nonempty keys sorted.",
+      "classification": "informational_emission; unapproved_or_false_control_key_is_capability_stop",
+      "logging": "No producer body tracing. Full list of 48 keys in UNDER_DEVELOPMENT_FEATURES.json."
+    },
+    {
+      "id": "hooks.startup_discovery",
+      "path": "source/codex-rs/hooks/src/engine/discovery.rs",
+      "line": 108,
+      "phase": "thread_start_after_unstable",
+      "template": "Open family of hook/plugin loading, schema, matcher, timeout and duplicate-representation diagnostics.",
+      "condition": "CodexHooks feature enabled; engine new(enabled=false) short-circuits with empty warnings.",
+      "classification": "hook_dependency_stop; unreachable_if_approved_hooks_false_effective",
+      "logging": "Exact variable subfamilies in captured discovery.rs; do not admit broad hook text."
+    },
+    {
+      "id": "model.service_tier_unsupported",
+      "path": "source/codex-rs/core/src/session/mod.rs",
+      "line": 960,
+      "phase": "thread_start_after_session_new",
+      "template": "Configured service tier `{service_tier}` is not advertised as supported for model `{slug}` and will be omitted from requests.",
+      "condition": "FastMode enabled, configured non-default tier, tier unsupported by model metadata.",
+      "classification": "model_request_configuration_stop",
+      "logging": "No direct body tracing in warning function or send_event path."
+    },
+    {
+      "id": "model.resume_mismatch",
+      "path": "source/codex-rs/core/src/session/mod.rs",
+      "line": 1387,
+      "phase": "resume_only",
+      "template": "This session was recorded with model `{prev}` but is resuming with `{curr}`. Consider switching back to `{prev}` as it may affect Codex performance.",
+      "condition": "Resumed history last model differs.",
+      "classification": "model_change_stop; unreachable_on_new_ephemeral_thread",
+      "logging": "Producer warns previous/current model with a different log template."
+    },
+    {
+      "id": "model.metadata_fallback",
+      "path": "source/codex-rs/core/src/session/turn_context.rs",
+      "line": 1042,
+      "phase": "turn_input_before_start_task",
+      "template": "Model metadata for `{slug}` not found. Defaulting to fallback metadata; this can degrade performance and cause issues.",
+      "condition": "ModelInfo.used_fallback_model_metadata true.",
+      "classification": "model_metadata_dependency_stop; does_not_itself_rename_model",
+      "logging": "models-manager/src/model_info.rs:143 independently traces unknown model, not exact notification."
+    },
+    {
+      "id": "tools.code_mode_unavailable",
+      "path": "source/codex-rs/core/src/session/turn_context.rs",
+      "line": 1055,
+      "phase": "turn_input_before_start_task",
+      "template": "Code Mode is unavailable because {error}. {behavior}; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "condition": "Runtime unavailable and requested_tool_mode metadata/feature result is CodeMode or CodeModeOnly; warning once. behavior is Falling back to direct tools or Code mode will fail closed.",
+      "classification": "tool_route_or_dependency_stop",
+      "logging": "No direct body trace; formatter tools/code_mode/mod.rs:102."
+    },
+    {
+      "id": "tools.code_mode_model_unsupported",
+      "path": "source/codex-rs/core/src/session/code_mode_warning.rs",
+      "line": 5,
+      "phase": "turn_input_before_start_task",
+      "template": "Code Mode is enabled in configuration, but model `{model}` does not advertise Code Mode support. This may degrade model performance. Disable `features.code_mode` and `features.code_mode_only`, or select a model whose metadata enables Code Mode.",
+      "condition": "CodeMode/CodeModeOnly feature enabled, model tool_mode None, no fallback metadata.",
+      "classification": "tool_route_or_dependency_stop; false_features_exclude",
+      "logging": "No direct body trace in formatter or generic send_event path."
+    },
+    {
+      "id": "model.transport_fallback",
+      "path": "source/codex-rs/core/src/responses_retry.rs",
+      "line": 87,
+      "phase": "after_model_stream_attempt",
+      "template": "Falling back from WebSockets to HTTPS transport. {err:#}",
+      "condition": "Streaming connection failed and transport fallback allowed.",
+      "classification": "transport_dependency_stop",
+      "logging": "No direct body trace at this emission; separately logged transport errors may identify dependency failure."
+    },
+    {
+      "id": "model.rerouted",
+      "path": "source/codex-rs/core/src/session/mod.rs",
+      "line": 3485,
+      "phase": "after_model_response",
+      "template": "Your account was flagged for potentially high-risk cyber activity and this request was routed to gpt-5.2 as a fallback. To regain access to gpt-5.3-codex, apply for trusted access: {CYBER_VERIFY_URL} or learn more: {CYBER_SAFETY_URL}",
+      "condition": "Detected restricted cyber model reroute; separate ModelReroute event emitted first.",
+      "classification": "model_change_security_stop",
+      "logging": "Producer trace reports requested/server model."
+    },
+    {
+      "id": "hooks.async_output_warning",
+      "path": "source/codex-rs/core/src/hook_runtime.rs",
+      "line": 716,
+      "phase": "turn_boundary",
+      "template": "Arbitrary hook output entry.text",
+      "condition": "Finished hook result contains Warning entry.",
+      "classification": "hook_effect_stop; disabled_hooks_exclude",
+      "logging": "No general exact family boundary; reject."
+    },
+    {
+      "id": "skills.host_warning",
+      "path": "source/codex-rs/core/src/session/turn.rs",
+      "line": 835,
+      "phase": "turn_input_processing",
+      "template": "Arbitrary host skill invocation warning",
+      "condition": "Extension skill invocation outcome carries warnings.",
+      "classification": "skill_dependency_stop",
+      "logging": "Provider-defined text; no general exact family boundary."
+    },
+    {
+      "id": "hooks.stop_without_prompt",
+      "path": "source/codex-rs/core/src/session/turn.rs",
+      "line": 542,
+      "phase": "after_sampling",
+      "template": "Stop hook requested continuation without a prompt; ignoring the block.",
+      "condition": "Stop hook returned continuation without prompt.",
+      "classification": "hook_effect_stop; disabled_hooks_exclude",
+      "logging": "Unreachable before initial sampling."
+    },
+    {
+      "id": "state.transcript_save_failed",
+      "path": "source/codex-rs/core/src/tasks/mod.rs",
+      "line": 376,
+      "phase": "turn_task_completion",
+      "template": "Failed to save the conversation transcript; Codex will continue retrying. Error: {err}",
+      "condition": "flush_rollout fails at task completion.",
+      "classification": "persistence_dependency_stop",
+      "logging": "Producer tracing has failure error."
+    },
+    {
+      "id": "state.rollback_save_failed",
+      "path": "source/codex-rs/core/src/session/handlers.rs",
+      "line": 349,
+      "phase": "rollback_request",
+      "template": "Rolled the thread back, but failed to save the rollback marker. Codex will continue retrying. Error: {err}",
+      "condition": "Rollback operation flush fails.",
+      "classification": "unexpected_operation_stop",
+      "logging": "Not reachable without rollback request."
+    },
+    {
+      "id": "security.execpolicy_amendment_failed",
+      "path": "source/codex-rs/core/src/session/handlers.rs",
+      "line": 180,
+      "phase": "approval_response",
+      "template": "Failed to apply execpolicy amendment: {err}",
+      "condition": "ApprovedExecpolicyAmendment cannot persist.",
+      "classification": "security_effect_stop",
+      "logging": "Producer traces full message."
+    },
+    {
+      "id": "security.network_amendment_failed",
+      "path": "source/codex-rs/core/src/tools/network_approval.rs",
+      "line": 885,
+      "phase": "network_approval_response",
+      "template": "Failed to apply network policy amendment: {err}",
+      "condition": "Allow/deny network amendment persistence fails.",
+      "classification": "security_effect_stop",
+      "logging": "Producer traces full message."
+    },
+    {
+      "id": "context.compaction_accuracy",
+      "path": "source/codex-rs/core/src/compact.rs",
+      "line": 394,
+      "phase": "after_compaction",
+      "template": "Heads up: Long threads and multiple compactions can cause the model to be less accurate. Start a new thread when possible to keep threads small and targeted.",
+      "condition": "Compaction completion.",
+      "classification": "unexpected_compaction_stop",
+      "logging": "Fresh bounded initial turn should not reach this producer."
+    }
+  ],
+  "template_note": "Templates preserve fixed source text where a single formatter exists. Braced placeholders describe source variables, not safe regex wildcards. Open provider families and the explicit two-variant special-path summary are not executable matchers."
+}

@@ -1,0 +1,290 @@
+[
+  {
+    "feature": "TranscriptV2",
+    "key": "transcript_v2",
+    "default_enabled": false,
+    "source_line": 849
+  },
+  {
+    "feature": "ShellZshFork",
+    "key": "shell_zsh_fork",
+    "default_enabled": false,
+    "source_line": 886
+  },
+  {
+    "feature": "ShellSnapshotV2",
+    "key": "shell_snapshot_v2",
+    "default_enabled": false,
+    "source_line": 904
+  },
+  {
+    "feature": "DeferredExecutor",
+    "key": "deferred_executor",
+    "default_enabled": false,
+    "source_line": 910
+  },
+  {
+    "feature": "CwdRelativeTurnDiffs",
+    "key": "cwd_relative_turn_diffs",
+    "default_enabled": false,
+    "source_line": 916
+  },
+  {
+    "feature": "ExecutedToolCallMetadata",
+    "key": "executed_tool_call_metadata",
+    "default_enabled": false,
+    "source_line": 934
+  },
+  {
+    "feature": "CodeMode",
+    "key": "code_mode",
+    "default_enabled": false,
+    "source_line": 940
+  },
+  {
+    "feature": "CodeModePrewarm",
+    "key": "code_mode_prewarm",
+    "default_enabled": false,
+    "source_line": 958
+  },
+  {
+    "feature": "CodeModeInterrupt",
+    "key": "code_mode_interrupt",
+    "default_enabled": false,
+    "source_line": 964
+  },
+  {
+    "feature": "CodeModeOnly",
+    "key": "code_mode_only",
+    "default_enabled": false,
+    "source_line": 970
+  },
+  {
+    "feature": "StandaloneWebSearch",
+    "key": "standalone_web_search",
+    "default_enabled": false,
+    "source_line": 1000
+  },
+  {
+    "feature": "RuntimeMetrics",
+    "key": "runtime_metrics",
+    "default_enabled": false,
+    "source_line": 1018
+  },
+  {
+    "feature": "ExternalAgentMemoryImport",
+    "key": "external_agent_memory_import",
+    "default_enabled": false,
+    "source_line": 1036
+  },
+  {
+    "feature": "LocalThreadStoreCompression",
+    "key": "local_thread_store_compression",
+    "default_enabled": false,
+    "source_line": 1042
+  },
+  {
+    "feature": "BackgroundPaginatedRolloutMigration",
+    "key": "background_paginated_rollout_migration",
+    "default_enabled": false,
+    "source_line": 1048
+  },
+  {
+    "feature": "Chronicle",
+    "key": "chronicle",
+    "default_enabled": false,
+    "source_line": 1054
+  },
+  {
+    "feature": "ApplyPatchStreamingEvents",
+    "key": "apply_patch_streaming_events",
+    "default_enabled": false,
+    "source_line": 1066
+  },
+  {
+    "feature": "ApplyPatchPreserveLineEndings",
+    "key": "apply_patch_preserve_line_endings",
+    "default_enabled": false,
+    "source_line": 1072
+  },
+  {
+    "feature": "ExecPermissionApprovals",
+    "key": "exec_permission_approvals",
+    "default_enabled": false,
+    "source_line": 1078
+  },
+  {
+    "feature": "WriteStdinApproval",
+    "key": "write_stdin_approval",
+    "default_enabled": false,
+    "source_line": 1084
+  },
+  {
+    "feature": "RequestPermissionsTool",
+    "key": "request_permissions_tool",
+    "default_enabled": false,
+    "source_line": 1096
+  },
+  {
+    "feature": "RespectSystemProxy",
+    "key": "respect_system_proxy",
+    "default_enabled": false,
+    "source_line": 1160
+  },
+  {
+    "feature": "Psp",
+    "key": "psp",
+    "default_enabled": false,
+    "source_line": 1196
+  },
+  {
+    "feature": "EnableMcpApps",
+    "key": "enable_mcp_apps",
+    "default_enabled": false,
+    "source_line": 1202
+  },
+  {
+    "feature": "Mcp20260728",
+    "key": "mcp_2026_07_28",
+    "default_enabled": false,
+    "source_line": 1208
+  },
+  {
+    "feature": "DeferredToolWorldState",
+    "key": "deferred_tool_world_state",
+    "default_enabled": false,
+    "source_line": 1232
+  },
+  {
+    "feature": "NonPrefixedMcpToolNames",
+    "key": "non_prefixed_mcp_tool_names",
+    "default_enabled": false,
+    "source_line": 1238
+  },
+  {
+    "feature": "ExecutorCapabilityDiscovery",
+    "key": "executor_capability_discovery",
+    "default_enabled": false,
+    "source_line": 1268
+  },
+  {
+    "feature": "SkipHostSkillDiscovery",
+    "key": "skip_host_skill_discovery",
+    "default_enabled": false,
+    "source_line": 1274
+  },
+  {
+    "feature": "ImageResizeNotice",
+    "key": "image_resize_notice",
+    "default_enabled": false,
+    "source_line": 1364
+  },
+  {
+    "feature": "UnifiedImageBudget",
+    "key": "unified_image_budget",
+    "default_enabled": false,
+    "source_line": 1370
+  },
+  {
+    "feature": "ConcurrentReasoningSummaries",
+    "key": "concurrent_reasoning_summaries",
+    "default_enabled": false,
+    "source_line": 1388
+  },
+  {
+    "feature": "DefaultModeRequestUserInput",
+    "key": "default_mode_request_user_input",
+    "default_enabled": false,
+    "source_line": 1424
+  },
+  {
+    "feature": "TerminalVisualizationInstructions",
+    "key": "terminal_visualization_instructions",
+    "default_enabled": false,
+    "source_line": 1436
+  },
+  {
+    "feature": "GuardianReuseParentCompaction",
+    "key": "guardian_reuse_parent_compaction",
+    "default_enabled": false,
+    "source_line": 1448
+  },
+  {
+    "feature": "GuardianEnhancedNodeReplTranscripts",
+    "key": "guardian_enhanced_node_repl_transcripts",
+    "default_enabled": false,
+    "source_line": 1454
+  },
+  {
+    "feature": "GuardianNodeReplTranscriptImages",
+    "key": "guardian_node_repl_transcript_images",
+    "default_enabled": false,
+    "source_line": 1460
+  },
+  {
+    "feature": "GuardianV2",
+    "key": "guardianv2",
+    "default_enabled": false,
+    "source_line": 1466
+  },
+  {
+    "feature": "GuardianExt",
+    "key": "guardian_ext",
+    "default_enabled": false,
+    "source_line": 1472
+  },
+  {
+    "feature": "TokenBudget",
+    "key": "token_budget",
+    "default_enabled": false,
+    "source_line": 1484
+  },
+  {
+    "feature": "RolloutBudget",
+    "key": "rollout_budget",
+    "default_enabled": false,
+    "source_line": 1490
+  },
+  {
+    "feature": "CurrentTimeReminder",
+    "key": "current_time_reminder",
+    "default_enabled": false,
+    "source_line": 1496
+  },
+  {
+    "feature": "BedrockSetupWizard",
+    "key": "bedrock_setup_wizard",
+    "default_enabled": false,
+    "source_line": 1520
+  },
+  {
+    "feature": "Artifact",
+    "key": "artifact",
+    "default_enabled": false,
+    "source_line": 1532
+  },
+  {
+    "feature": "StepModelSwitching",
+    "key": "step_model_switching",
+    "default_enabled": false,
+    "source_line": 1544
+  },
+  {
+    "feature": "RealtimeConversation",
+    "key": "realtime_conversation",
+    "default_enabled": false,
+    "source_line": 1550
+  },
+  {
+    "feature": "RetainClientDeveloperMessages",
+    "key": "retain_client_developer_messages",
+    "default_enabled": false,
+    "source_line": 1622
+  },
+  {
+    "feature": "UseAgentIdentity",
+    "key": "use_agent_identity",
+    "default_enabled": false,
+    "source_line": 1628
+  }
+]

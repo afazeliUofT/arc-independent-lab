@@ -1,0 +1,178 @@
+{
+  "created_utc": "2026-09-09T21:55:18.346075+00:00",
+  "report": {
+    "path": "artifacts/P3_FINITE_REVIEW_WARNING_OBSERVATIONS/20260909_025/REPORT.json",
+    "sha256": "60f7a041d8415990a28362459e4ddd1b6029f10c1066d92ab85e0c6efee25c5f"
+  },
+  "publication": {
+    "path": "evidence/REMOTE_CHECKPOINT_024_VERIFICATION.json",
+    "sha256": "607667aea18091fbbf4a35ee040874e2c220dc4b4ca18f47fa6b635bb74e8d3d"
+  },
+  "kind": "engineering_observation_not_scientific_verdict",
+  "report_pins_equal_published_controller_pins": true,
+  "authorization": {
+    "path": "state/ESCALATION.md",
+    "sha256": "741e40e1ab2e13be3d4cef989c342857ba21fb7de29029bd1e99e2e33771314d"
+  },
+  "reported_status": "STOPPED_WITHOUT_COMPLETED_REVIEW",
+  "reported_reason": "Synthetic dynamic refusal admission incomplete; no science started",
+  "stage": "synthetic",
+  "inner_status": "STOPPED_WITHOUT_VERDICT",
+  "inner_reason": "Unadvertised native notification effect",
+  "last_notification": "warning",
+  "deprecation_notices": [
+    {
+      "category": "disabled_legacy_alias_codex_hooks",
+      "decision": "admitted_disabled_alias_startup_notice",
+      "admitted": true,
+      "related_controls_verified_disabled": true,
+      "raw_content_saved_or_hashed": false,
+      "shape": {
+        "parameters_object": true,
+        "exact_parameter_keys": true,
+        "summary_string": true,
+        "details_string": true
+      }
+    },
+    {
+      "category": "disabled_legacy_alias_collab",
+      "decision": "admitted_disabled_alias_startup_notice",
+      "admitted": true,
+      "related_controls_verified_disabled": true,
+      "raw_content_saved_or_hashed": false,
+      "shape": {
+        "parameters_object": true,
+        "exact_parameter_keys": true,
+        "summary_string": true,
+        "details_string": true
+      }
+    },
+    {
+      "category": "disabled_legacy_alias_connectors",
+      "decision": "admitted_disabled_alias_startup_notice",
+      "admitted": true,
+      "related_controls_verified_disabled": true,
+      "raw_content_saved_or_hashed": false,
+      "shape": {
+        "parameters_object": true,
+        "exact_parameter_keys": true,
+        "summary_string": true,
+        "details_string": true
+      }
+    },
+    {
+      "category": "disabled_legacy_alias_experimental_use_unified_exec_tool",
+      "decision": "admitted_disabled_alias_startup_notice",
+      "admitted": true,
+      "related_controls_verified_disabled": true,
+      "raw_content_saved_or_hashed": false,
+      "shape": {
+        "parameters_object": true,
+        "exact_parameter_keys": true,
+        "summary_string": true,
+        "details_string": true
+      }
+    },
+    {
+      "category": "disabled_legacy_web_alias_web_search_cached",
+      "decision": "admitted_disabled_alias_startup_notice",
+      "admitted": true,
+      "related_controls_verified_disabled": true,
+      "raw_content_saved_or_hashed": false,
+      "shape": {
+        "parameters_object": true,
+        "exact_parameter_keys": true,
+        "summary_string": true,
+        "details_string": true
+      }
+    },
+    {
+      "category": "disabled_legacy_web_alias_web_search_request",
+      "decision": "admitted_disabled_alias_startup_notice",
+      "admitted": true,
+      "related_controls_verified_disabled": true,
+      "raw_content_saved_or_hashed": false,
+      "shape": {
+        "parameters_object": true,
+        "exact_parameter_keys": true,
+        "summary_string": true,
+        "details_string": true
+      }
+    },
+    {
+      "category": "disabled_legacy_alias_memory_tool",
+      "decision": "admitted_disabled_alias_startup_notice",
+      "admitted": true,
+      "related_controls_verified_disabled": true,
+      "raw_content_saved_or_hashed": false,
+      "shape": {
+        "parameters_object": true,
+        "exact_parameter_keys": true,
+        "summary_string": true,
+        "details_string": true
+      }
+    },
+    {
+      "category": "disabled_legacy_web_alias_web_search",
+      "decision": "admitted_disabled_alias_startup_notice",
+      "admitted": true,
+      "related_controls_verified_disabled": true,
+      "raw_content_saved_or_hashed": false,
+      "shape": {
+        "parameters_object": true,
+        "exact_parameter_keys": true,
+        "summary_string": true,
+        "details_string": true
+      }
+    }
+  ],
+  "model_turn_request_sent": true,
+  "broker_receipts": [],
+  "science_stage_started": false,
+  "verdict_expected": false,
+  "warning_body": "Discarded by controller; identity unknown. Source order alone cannot identify it.",
+  "preserved_session_receipts": [
+    {
+      "path": "synthetic_SESSION.json",
+      "sha256": "ca0bcc98b2ba16f4eab396f79e5792deb0af1610d80c77546e1c2a751ad7b02e"
+    }
+  ],
+  "embedded_observation_reencodes_to_declared_session_sha256": true,
+  "separate_laptop_session_file_received": false,
+  "attempt_accounting": {
+    "prior_native_starts_observed": 4,
+    "prior_explicit_model_turns_observed": 1,
+    "this_invocation_native_starts_observed_in_session_receipts": 1,
+    "this_invocation_explicit_model_turns_sent_in_session_receipts": 1,
+    "cumulative_native_starts_observed_in_session_receipts": 5,
+    "cumulative_explicit_model_turns_sent_in_session_receipts": 2,
+    "cumulative_native_starts_authorized_maximum": 6,
+    "cumulative_explicit_model_turns_authorized_maximum": 3,
+    "session_receipts_recorded_for_modes": [
+      "synthetic"
+    ],
+    "counts_are_minimum_observations_if_an_attempt_has_no_session_receipt": true,
+    "sent_turn_counts_even_without_model_output": true,
+    "token_usage_or_subscription_charge": "unknown",
+    "no_counter_reset": true
+  },
+  "host_checks": {
+    "config_metadata_unchanged": true,
+    "cache_metadata_unchanged": true,
+    "runtime_unchanged": true,
+    "bwrap_unchanged": true,
+    "host_installation_id_unchanged": true,
+    "credential_metadata_after": {
+      "device": 2096,
+      "inode": 733079,
+      "bytes": 4325,
+      "mode": 384,
+      "mtime_ns": 1788824788791819102,
+      "ctime_ns": 1788824788791819102
+    },
+    "credential_contents_checked": false,
+    "all_noncredential_checks_pass": true,
+    "private_installation_id_matches": true
+  },
+  "next_action": "Offline existing-run diagnostic; no native process or new turn. Do not infer harmlessness from absent logs."
+}

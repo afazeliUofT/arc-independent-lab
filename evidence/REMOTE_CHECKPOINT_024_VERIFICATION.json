@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-09-09T21:55:18.346075+00:00",
+  "source_url": "https://github.com/afazeliUofT/arc-independent-lab/tree/60d7be8501fe918a61957b74739333a06f8f9726",
+  "access_date": "2026-09-09",
+  "commit": "60d7be8501fe918a61957b74739333a06f8f9726",
+  "parent": "b0a46da67e18212be58764ac525eb693d8eea55e",
+  "tree": "8822f584bb80fa04335e0d341bda650d72fe841c",
+  "published_files_verified": 888,
+  "exact_git_blob_sha_and_file_sha256_and_modes_verified": true,
+  "approved_escalation": {
+    "path": "state/ESCALATION.md",
+    "sha256": "741e40e1ab2e13be3d4cef989c342857ba21fb7de29029bd1e99e2e33771314d"
+  },
+  "source_pin_count": 100,
+  "controller_load_bundle_and_actual_approval_accepted": true,
+  "restoration": "Exact published Git objects restored and SHA verified; no new assistant commit or push.",
+  "scientific_verdict": false
+}

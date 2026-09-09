@@ -1,0 +1,27 @@
+test_bad_report_digest_stops_before_session_logs_config_cache (__main__.ProbeTests.test_bad_report_digest_stops_before_session_logs_config_cache) ... ok
+test_config_and_cache_redact_values_and_do_not_attest_effective_state (__main__.ProbeTests.test_config_and_cache_redact_values_and_do_not_attest_effective_state) ... ok
+test_config_known_boolean_shapes_follow_pinned_schema (__main__.ProbeTests.test_config_known_boolean_shapes_follow_pinned_schema) ... ok
+test_db_wal_fragments_are_non_authoritative_and_chunk_boundary_match_is_found_once (__main__.ProbeTests.test_db_wal_fragments_are_non_authoritative_and_chunk_boundary_match_is_found_once) ... ok
+test_hashing_is_limited_to_receipts_and_pinned_sources (__main__.ProbeTests.test_hashing_is_limited_to_receipts_and_pinned_sources) ... ok
+test_main_receipt_on_missing_history_and_no_arbitrary_cli_paths (__main__.ProbeTests.test_main_receipt_on_missing_history_and_no_arbitrary_cli_paths) ... ok
+test_metadata_change_blocks_content_read_before_read_syscall (__main__.ProbeTests.test_metadata_change_blocks_content_read_before_read_syscall) ... ok
+test_missing_logs_still_produce_persisted_receipt (__main__.ProbeTests.test_missing_logs_still_produce_persisted_receipt) ... ok
+test_missing_session_is_not_reconstructed_from_report (__main__.ProbeTests.test_missing_session_is_not_reconstructed_from_report) ... ok
+test_only_two_approved_nonsecret_host_files_are_opened_and_nothing_mutates (__main__.ProbeTests.test_only_two_approved_nonsecret_host_files_are_opened_and_nothing_mutates) ... ok
+test_output_symlink_refuses_without_touching_target (__main__.ProbeTests.test_output_symlink_refuses_without_touching_target) ... ok
+test_production_receipt_and_source_pins_are_exact (__main__.ProbeTests.test_production_receipt_and_source_pins_are_exact) ... ok
+test_receipt_publication_failure_never_exposes_partial_report (__main__.ProbeTests.test_receipt_publication_failure_never_exposes_partial_report) ... ok
+test_repeated_receipts_never_overwrite_prior_receipt (__main__.ProbeTests.test_repeated_receipts_never_overwrite_prior_receipt) ... ok
+test_report_cannot_redirect_fixed_config_path (__main__.ProbeTests.test_report_cannot_redirect_fixed_config_path) ... ok
+test_report_parent_symlink_refused_before_other_inputs (__main__.ProbeTests.test_report_parent_symlink_refused_before_other_inputs) ... ok
+test_scan_byte_and_count_caps (__main__.ProbeTests.test_scan_byte_and_count_caps) ... ok
+test_source_pin_failure_prevents_config_cache_read (__main__.ProbeTests.test_source_pin_failure_prevents_config_cache_read) ... ok
+test_static_no_native_network_sqlite_or_dynamic_execution_surface (__main__.ProbeTests.test_static_no_native_network_sqlite_or_dynamic_execution_surface) ... ok
+test_strict_json_rejects_duplicate_nonfinite_deep_and_malformed_config_without_leak (__main__.ProbeTests.test_strict_json_rejects_duplicate_nonfinite_deep_and_malformed_config_without_leak) ... ok
+test_symlink_leaf_parent_hardlink_fifo_and_relative_paths_refused (__main__.ProbeTests.test_symlink_leaf_parent_hardlink_fifo_and_relative_paths_refused) ... ok
+test_valid_digest_cannot_hide_report_session_observation_mismatch (__main__.ProbeTests.test_valid_digest_cannot_hide_report_session_observation_mismatch) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.327s
+
+OK

@@ -1,0 +1,11 @@
+{
+  "kind": "P3_WARNING_PROBE_025_ENGINEERING_VALIDATION_v1",
+  "tests_run": 22,
+  "failures": 0,
+  "errors": 0,
+  "successful": true,
+  "native_processes_auth_operations_model_turns_network_calls": 0,
+  "science_or_controller_modified": false,
+  "tests_use_synthetic_local_fixture_pins_only": true,
+  "production_probe_sha256": "02c75ea232432f9dcd0d6e1001570a16aed86c251302ec4de6d068a7569f31d6"
+}
