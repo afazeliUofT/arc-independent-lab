@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-09-10T02:48:10.957326+00:00",
+  "input": {
+    "path": "artifacts/P3_SCIENTIFIC_BROKER_STOP_OBSERVATIONS/20260910_028/REPORT.json",
+    "sha256": "6460fffe52e02b5388d871c328d3d7d72885d7222b086d664786b4a822084769"
+  },
+  "source_and_approval_pins_verified": true,
+  "embedded_sessions_match_reported_separate_session_hashes": true,
+  "separate_laptop_session_files_read_here": false,
+  "actual_synthetic_read_and_refusal_passed": true,
+  "fresh_science_started": true,
+  "science_successful_broker_receipts": 0,
+  "science_broker_protocol_reason": "Broker or protocol validation failed",
+  "exact_failed_request_or_broker_reason_retained": false,
+  "scientific_verdict": false,
+  "cumulative_native_starts": 8,
+  "cumulative_sent_turns": 5,
+  "approved_ceiling_exhausted": true,
+  "backend_usage_or_charge": "unknown",
+  "new_native_or_model_run": false
+}

@@ -1,0 +1,114 @@
+{
+  "source_commit": "78c290807ce710180111df227df3b7a4fe845452",
+  "access_date": "2026-09-10",
+  "entries": [
+    {
+      "_links": {
+        "git": "https://api.github.com/repos/openai/codex/git/blobs/192a730b4849cfedddcbf8b337aad5c8d51dcb08",
+        "html": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/tools/src/dynamic_tool.rs",
+        "self": "https://api.github.com/repos/openai/codex/contents/codex-rs/tools/src/dynamic_tool.rs?ref=78c290807ce710180111df227df3b7a4fe845452"
+      },
+      "download_url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/tools/src/dynamic_tool.rs",
+      "git_url": "https://api.github.com/repos/openai/codex/git/blobs/192a730b4849cfedddcbf8b337aad5c8d51dcb08",
+      "html_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/tools/src/dynamic_tool.rs",
+      "name": "dynamic_tool.rs",
+      "path": "codex-rs/tools/src/dynamic_tool.rs",
+      "sha": "192a730b4849cfedddcbf8b337aad5c8d51dcb08",
+      "size": 548,
+      "type": "file",
+      "url": "https://api.github.com/repos/openai/codex/contents/codex-rs/tools/src/dynamic_tool.rs?ref=78c290807ce710180111df227df3b7a4fe845452",
+      "sha256": "2ddaa469e12273bd06ad0e27fdd89e48492ce929cf5dd706894b1f7ae38e74b8",
+      "bytes": 548
+    },
+    {
+      "_links": {
+        "git": "https://api.github.com/repos/openai/codex/git/blobs/9b076479740324b8eb3798e69cf056231a5cdce9",
+        "html": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/tools/src/dynamic_tool_tests.rs",
+        "self": "https://api.github.com/repos/openai/codex/contents/codex-rs/tools/src/dynamic_tool_tests.rs?ref=78c290807ce710180111df227df3b7a4fe845452"
+      },
+      "download_url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/tools/src/dynamic_tool_tests.rs",
+      "git_url": "https://api.github.com/repos/openai/codex/git/blobs/9b076479740324b8eb3798e69cf056231a5cdce9",
+      "html_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/tools/src/dynamic_tool_tests.rs",
+      "name": "dynamic_tool_tests.rs",
+      "path": "codex-rs/tools/src/dynamic_tool_tests.rs",
+      "sha": "9b076479740324b8eb3798e69cf056231a5cdce9",
+      "size": 1957,
+      "type": "file",
+      "url": "https://api.github.com/repos/openai/codex/contents/codex-rs/tools/src/dynamic_tool_tests.rs?ref=78c290807ce710180111df227df3b7a4fe845452",
+      "sha256": "3d0e24b5b4314e76d704126c0f82bb31263001c8966bd3e7de90428c363265d4",
+      "bytes": 1957
+    },
+    {
+      "_links": {
+        "git": "https://api.github.com/repos/openai/codex/git/blobs/7c9edd08e167626cc524962884baa3ad626247a0",
+        "html": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/tools/src/json_schema.rs",
+        "self": "https://api.github.com/repos/openai/codex/contents/codex-rs/tools/src/json_schema.rs?ref=78c290807ce710180111df227df3b7a4fe845452"
+      },
+      "download_url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/tools/src/json_schema.rs",
+      "git_url": "https://api.github.com/repos/openai/codex/git/blobs/7c9edd08e167626cc524962884baa3ad626247a0",
+      "html_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/tools/src/json_schema.rs",
+      "name": "json_schema.rs",
+      "path": "codex-rs/tools/src/json_schema.rs",
+      "sha": "7c9edd08e167626cc524962884baa3ad626247a0",
+      "size": 26262,
+      "type": "file",
+      "url": "https://api.github.com/repos/openai/codex/contents/codex-rs/tools/src/json_schema.rs?ref=78c290807ce710180111df227df3b7a4fe845452",
+      "sha256": "ccfc96787883f2c1c3d51a61c36db34ec2d371fc1e029bef4c42683d5069748d",
+      "bytes": 26262
+    },
+    {
+      "_links": {
+        "git": "https://api.github.com/repos/openai/codex/git/blobs/c7377f31d98557bf98f3193b03746a70ac2e61b5",
+        "html": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/tools/src/json_schema_tests.rs",
+        "self": "https://api.github.com/repos/openai/codex/contents/codex-rs/tools/src/json_schema_tests.rs?ref=78c290807ce710180111df227df3b7a4fe845452"
+      },
+      "download_url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/tools/src/json_schema_tests.rs",
+      "git_url": "https://api.github.com/repos/openai/codex/git/blobs/c7377f31d98557bf98f3193b03746a70ac2e61b5",
+      "html_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/tools/src/json_schema_tests.rs",
+      "name": "json_schema_tests.rs",
+      "path": "codex-rs/tools/src/json_schema_tests.rs",
+      "sha": "c7377f31d98557bf98f3193b03746a70ac2e61b5",
+      "size": 62736,
+      "type": "file",
+      "url": "https://api.github.com/repos/openai/codex/contents/codex-rs/tools/src/json_schema_tests.rs?ref=78c290807ce710180111df227df3b7a4fe845452",
+      "sha256": "5ec5460b6a7e1ed1ccc446360615bb0b5715d85ea6d2825744f380bef0dabe77",
+      "bytes": 62736
+    },
+    {
+      "_links": {
+        "git": "https://api.github.com/repos/openai/codex/git/blobs/e450dcf35f93ab4af7bf3f34956755066114ccae",
+        "html": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/tools/src/responses_api.rs",
+        "self": "https://api.github.com/repos/openai/codex/contents/codex-rs/tools/src/responses_api.rs?ref=78c290807ce710180111df227df3b7a4fe845452"
+      },
+      "download_url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/tools/src/responses_api.rs",
+      "git_url": "https://api.github.com/repos/openai/codex/git/blobs/e450dcf35f93ab4af7bf3f34956755066114ccae",
+      "html_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/tools/src/responses_api.rs",
+      "name": "responses_api.rs",
+      "path": "codex-rs/tools/src/responses_api.rs",
+      "sha": "e450dcf35f93ab4af7bf3f34956755066114ccae",
+      "size": 5346,
+      "type": "file",
+      "url": "https://api.github.com/repos/openai/codex/contents/codex-rs/tools/src/responses_api.rs?ref=78c290807ce710180111df227df3b7a4fe845452",
+      "sha256": "7af0354e43c3fa7f052d86df5ae0c6ce276569243af6f6ea5fe00abcb15bd244",
+      "bytes": 5346
+    },
+    {
+      "_links": {
+        "git": "https://api.github.com/repos/openai/codex/git/blobs/a8cfa569d36a23f170f3bed0f4f64c9808dd09d0",
+        "html": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/tools/src/tool_output.rs",
+        "self": "https://api.github.com/repos/openai/codex/contents/codex-rs/tools/src/tool_output.rs?ref=78c290807ce710180111df227df3b7a4fe845452"
+      },
+      "download_url": "https://raw.githubusercontent.com/openai/codex/78c290807ce710180111df227df3b7a4fe845452/codex-rs/tools/src/tool_output.rs",
+      "git_url": "https://api.github.com/repos/openai/codex/git/blobs/a8cfa569d36a23f170f3bed0f4f64c9808dd09d0",
+      "html_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/tools/src/tool_output.rs",
+      "name": "tool_output.rs",
+      "path": "codex-rs/tools/src/tool_output.rs",
+      "sha": "a8cfa569d36a23f170f3bed0f4f64c9808dd09d0",
+      "size": 9066,
+      "type": "file",
+      "url": "https://api.github.com/repos/openai/codex/contents/codex-rs/tools/src/tool_output.rs?ref=78c290807ce710180111df227df3b7a4fe845452",
+      "sha256": "20055cefc287a0137055857f49925daf173504288096ee5d9152beadbd861983",
+      "bytes": 9066
+    }
+  ]
+}

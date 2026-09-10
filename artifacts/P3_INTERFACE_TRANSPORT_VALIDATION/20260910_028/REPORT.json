@@ -1,0 +1,35 @@
+{
+  "artifacts": {
+    "OBSERVATIONS.json": "959a5bac543699b5f7b35ef09eb55dbdcdf268fb99c9ffcca442cd53fbddfa89",
+    "TRACE.txt": "405d29cb82ee4cc114779014bf25dfe815dae8fbdc026af3beb4fd93773211e9"
+  },
+  "authentication_read": false,
+  "created_utc": "2026-09-10T03:00:49.285219+00:00",
+  "errors": 0,
+  "failures": 0,
+  "independent_scientific_review": false,
+  "model_calls": 0,
+  "native_codex_launched": false,
+  "network_used": false,
+  "schema": "arc.interface-transport-validation028.v1",
+  "science_run": false,
+  "scope": "Offline protocol tests and full session transport against generated engineering fixtures",
+  "source_hashes": {
+    "configs/P3_SYNTHETIC_PROMPT_028.txt": "c930a6accbe8d704cf3467319a39cf81b189e0c18425108baed0023d01873c1a",
+    "scripts/p3_review_broker.py": "6f2118cb32573c7774db269c09694913040d06adb5eca9e8ca1a0fafe6089536",
+    "scripts/p3_review_interface_028.py": "ef41a59491f67252674079b18fa21e46257bdaf5cb2cabf76d9ba376ce6e2d1a",
+    "scripts/p3_review_protocol.py": "9bc4315dc3d6af679890828db5a1ee5ef19f49e2c7214cc0dd384728a9cf754f",
+    "scripts/p3_review_protocol_028.py": "d41ecb40a6d63179657e5e04df2491b4bf431a5b28229210b96e640fba49b224",
+    "scripts/p3_reviewer_session_027.py": "cb87ebdf3b95d798b2ed0024c5e762ab57a941bf74e6b309333633b118ec49aa",
+    "scripts/p3_reviewer_session_028.py": "ddaac65b673ccf17095b7a8a4c5f1d7908a497fbef865dee5ed5bd77f9149bea",
+    "tests/test_p3_review_protocol_028.py": "dde200817c7f3ec0656497a568642e3a20e767e9d7e182ff03a86f6c3c22d38b",
+    "tests/test_p3_reviewer_session_028.py": "834c1f5914f80d80f83eb30a1340f127d312d2fc1eac445b08f284d6c20d1ff1"
+  },
+  "status": "PASS",
+  "synthetic_dependency_verdicts_are_temporary_fixture_outputs_only": true,
+  "tests_by_module": {
+    "test_p3_review_protocol_028": 18,
+    "test_p3_reviewer_session_028": 24
+  },
+  "tests_run": 42
+}

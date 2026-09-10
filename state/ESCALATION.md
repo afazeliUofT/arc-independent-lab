@@ -1,33 +1,41 @@
-# Finite review correction027: retain direct broker access
+# Checkpoint 028: complete tool-interface correction and finite allowance
 
-Prepared 2026-09-10. This request is unsigned. Sol Max and existing host restrictions remain unchanged.
+Prepared 2026-09-10. This is an unsigned, concrete request. No new native/model operation has been performed.
 
-## Observed failure and concrete correction
+## Evidence and cause
 
-The026 report is the requested diagnostic. Its pins match published checkpoint1380057c0e136446fb9ec8cc35ffa883c2e5aa78. It records a thread-bound Code Mode unavailable/fail-closed warning, then the local controller stopping before broker access or science. The original is artifacts/P3_WARNING_CAPTURE_OBSERVATIONS/20260910_027/REPORT.json, SHA-256 ccbfa9a5d6e356fa62a11499ad68dd3740159b96bffb106880b2295fdd871043. Its embedded observation matches the declared separate SESSION hash; the actual laptop file must still be verified at launch and never reconstructed.
+The actual027 report records a successful native synthetic read and real path refusal, then a fresh scientific session failing at its first broker request without a verdict. Its original bytes are archived at artifacts/P3_SCIENTIFIC_BROKER_STOP_OBSERVATIONS/20260910_028/REPORT.json, SHA-256 6460fffe52e02b5388d871c328d3d7d72885d7222b086d664786b4a822084769. The underlying exception and arguments were discarded; the precise trigger is unknown. Both separate laptop SESSION files will be reverified and never reconstructed.
 
-The pinned source explicitly supports direct-only functions under CodeModeOnly. The unavailable executor does not disable these separate functions, and the warning does not itself abort a turn. See artifacts/P3_DIRECT_BROKER_SOURCE/20260910_027/FINDINGS.md and its source manifest for URL/access-date citations. The upstream direct-only test was read, not executed here. Actual Sol use of the broker remains unverified.
+The complete source audit demonstrates a systemic defect: pinned native schema conversion strips constraints that the broker still enforces, ordinary argument errors stop the whole session, and generic diagnostics hide their causes. The postmortem is reports/P3_INTERFACE_POSTMORTEM_028.md, with primary-source URLs and access dates. The source-derived schema projection is a Python transcription, not execution of native Rust. The user followed the handoff correctly.
 
-New027 acknowledges at most one exact source-derived disabled-host/fail-closed notice, bound to the active thread after the sole turn request is sent and the unchanged restrictive controls and Sol Max selection are verified. Other reasons, extra text, malformed/unbound notices and duplicates stop. Code Mode remains disabled. This changes local notice handling; it does not install a host, change model metadata, grant a tool, or attest the native tool inventory. The opaque internal026 reason was not retained: exact disabled-host wording is a source-derived expectation, not recovered verbatim text.
+## Prepared correction
 
-Six native starts and three sent turns have exhausted the approved6/3 ceiling. This request reserves at most two more starts and two more turns, raising cumulative ceilings to8/5. A sent turn counts even without output; backend usage/charge is unknown. First, a fresh synthetic direct broker read and real out-of-bounds refusal must succeed, with cleanup and unchanged protected inputs. Only then may a separately fresh scientific reviewer read the installed frozen paper packet. Existing stage limits remain10minutes synthetic and60minutes scientific, including cleanup. No automatic retry, spending or unattended continuation is authorized. Verified terminal receipts are reused; partial/changed attempts are preserved and refused.
+The new adapter/protocol/session make constraints visible in descriptions, return fixed actionable unsuccessful results for selected argument errors before invoking the original broker, and preserve categorical failure diagnostics. At most eight correctable errors are admitted per session; the ninth stops. All requests consume the existing call/time limits. Unknown or noncanonical resources, path traversal, false evidence digests, integrity failures, foreign requests and replay remain terminal. The adapter cannot choose or rewrite scientific content. The original broker, protocol, auditor, scientific prompt and frozen scientific evidence are unchanged.
 
-The exact scope is configs/P3_FINITE_REVIEW_SCOPE_027.json, SHA-256 a69877f8bbeddfd4b638943d850e73a8eb2e978d9d1ce08600484d6c5a0df7a9. The ZIP contains implementation, source audit, offline validation and original026 report. No027 native/model operation has been performed by the PI. Scientific inputs, verifiers and prior attempts remain unchanged.
+The actual private packet is checked locally before any native reservation: complete hashes and resource kinds, UTF-8, bounded PNG signatures, bootstrap JSON and fixed auditor dependencies. No undocumented page-index layout is assumed. The complete actual private packet is unavailable in the hosted copy; local fixture tests do not certify it.
 
-## Why this needs an answer
+Local validation passes 28 interface tests, 42 protocol/session tests and 34 controller tests. The actual original auditor runs in engineering fixtures. No generated fixture verdict is a scientific review. The checkpoint includes these exact-source receipts and an external final ZIP installation/repeat receipt.
 
-03_AUTONOMY_SPEC.md section6 item10 requires escalation at a budget ceiling; item16 covers a change to the control surface. This combines both in one concrete request. The old024 answer cannot authorize the new ceiling or exact notice policy. Already approved model and host access are not being requested again.
+## Exact finite allowance
+
+Actual027 has exhausted the approved cumulative ceiling at eight native starts and five sent model turns. This request adds at most two starts and two turns, to cumulative ceilings of ten and seven. A fresh synthetic session must demonstrate the deliberately oversized read error, its corrected allowed read, and the original real traversal refusal. Only on complete admission may a separately fresh scientific reviewer read the frozen packet. Existing stage limits remain ten minutes synthetic and sixty minutes scientific, including cleanup. Sol Max, host restrictions, account, tools and paper scope stay the same. No new sign-in, spending, model fallback, unattended continuation or automatic retry is authorized. A sent turn counts without output; backend usage/charge is unknown.
+
+The exact scope is configs/P3_FINITE_REVIEW_SCOPE_028.json, SHA-256 69d8413411518a4a33998fc0a271049b125520d7854341cc5584fa9dea4056c6. The preserved original027 approval is state/escalations/2026-09-10_FINITE_REVIEW_027_APPROVED.md, SHA-256 a3c7990fafb5abace91929e46eecca6fb40de76e80248fa5865c0d0d2ab30a84. Prior allowance is not reset or silently extended.
+
+## Why one answer is required
+
+03_AUTONOMY_SPEC.md section6 item10 requires escalation at the budget ceiling, and item16 requires approval of control changes. This combines both into one prepared amendment. Earlier approval cannot authorize a higher numerical ceiling or this new recovery policy. No already-approved account or model permission is requested again.
 
 ## How the funder answers
 
-Record one actual section in state/ESCALATION.md beginning with the literal heading `## ANSWER`. Its only nonblank contents must be `APPROVE_P3_FINITE_REVIEW_027_CORRECTION` and `scope_sha256: a69877f8bbeddfd4b638943d850e73a8eb2e978d9d1ce08600484d6c5a0df7a9` on separate lines. No extra answer prose follows.
+Append exactly one actual section in state/ESCALATION.md beginning with the literal heading `## ANSWER`. Its only nonblank lines must be `APPROVE_P3_FINITE_REVIEW_028_CORRECTION` and `scope_sha256: 69d8413411518a4a33998fc0a271049b125520d7854341cc5584fa9dea4056c6`. No extra prose follows the answer.
 
-For convenience, explicitly running the delivered publication wrapper with `--approve-correction` is the funder's authorization of this exact request. It records that answer, updates its checkpoint inventory, commits and pushes. The PI has not applied the flag to the working repository. No separate GitHub edit or chat confirmation is needed. Without the flag, the wrapper only inspects. Publication cannot start a model.
+For convenience, the funder's explicit invocation of the delivered publication wrapper with `--approve-correction` authorizes this exact request and records that answer, updates the checkpoint inventory, commits and pushes. Without the flag the wrapper only inspects. Publication cannot launch a native process or model. No separate chat answer or GitHub edit is needed. The PI has not applied approval to the working repository.
 
-After successful publication, separately run scripts/p3_finite_review_027.py with `--run-attended-review`. Attach REPORT.json, plus science_output/REVIEW_VERDICT.json only if present, from delivery/P3_FINITE_REVIEW_027. A stopped synthetic stage creates no science directory/verdict. Preserve earlier results; do not reconstruct missing files or rerun old checkpoints.
+After publication succeeds, separately invoke scripts/p3_finite_review_028.py with `--run-attended-review`. It first verifies canonical history and packet, then performs the one bounded operation. Attach delivery/P3_FINITE_REVIEW_028/REPORT.json and science_output/REVIEW_VERDICT.json only if it exists. If a pre-reservation check stops without a report directory, send the printed STOP; preserve all files. Publication retries never launch a model, completed receipts are reused, and partial/changed runs stop without retry.
 
-If declined, native review remains stopped without a scientific verdict. The PI preserves the evidence and continues only authorized work. Another failed direct broker attempt calls for reassessment; it does not authorize enabling the execution host or resetting counters.
+If declined, native review remains stopped. If the bounded operation fails, preserve its categorical evidence and reassess the route before proposing any new native request; this is not permission for an indefinite diagnostic sequence. If the reviewer reports a scientific dependency or rejects candidates, treat that disposition as evidence rather than engineering failure. Independent review, final mechanism selection and PROGRAMME remain unfinished.
 
 ## ANSWER
-APPROVE_P3_FINITE_REVIEW_027_CORRECTION
-scope_sha256: a69877f8bbeddfd4b638943d850e73a8eb2e978d9d1ce08600484d6c5a0df7a9
+APPROVE_P3_FINITE_REVIEW_028_CORRECTION
+scope_sha256: 69d8413411518a4a33998fc0a271049b125520d7854341cc5584fa9dea4056c6

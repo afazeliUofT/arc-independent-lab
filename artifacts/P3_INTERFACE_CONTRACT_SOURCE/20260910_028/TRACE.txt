@@ -1,0 +1,125 @@
+{
+  "observations": 20,
+  "cases": [
+    {
+      "case": "valid_bootstrap_read",
+      "projected_schema_accepts": true,
+      "direct_error": null,
+      "protocol_error": null
+    },
+    {
+      "case": "undisclosed_upper_bound",
+      "projected_schema_accepts": true,
+      "direct_error": "BrokerError: Invalid integer bound",
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed"
+    },
+    {
+      "case": "undisclosed_lower_bound",
+      "projected_schema_accepts": true,
+      "direct_error": "BrokerError: Invalid integer bound",
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed"
+    },
+    {
+      "case": "integer_numeric_representation",
+      "projected_schema_accepts": true,
+      "direct_error": "BrokerError: Invalid integer bound",
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed"
+    },
+    {
+      "case": "missing_required_offset",
+      "projected_schema_accepts": false,
+      "direct_error": "BrokerError: Unexpected argument fields",
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed"
+    },
+    {
+      "case": "canonical_unknown_path",
+      "projected_schema_accepts": true,
+      "direct_error": "BrokerError: Unmanifested resource denied",
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed"
+    },
+    {
+      "case": "noncanonical_dot_path",
+      "projected_schema_accepts": true,
+      "direct_error": "BrokerError: Noncanonical resource path",
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed"
+    },
+    {
+      "case": "offset_past_end",
+      "projected_schema_accepts": true,
+      "direct_error": "BrokerError: Text offset past end",
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed"
+    },
+    {
+      "case": "wrong_resource_kind",
+      "projected_schema_accepts": true,
+      "direct_error": "BrokerError: Wrong resource kind",
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed"
+    },
+    {
+      "case": "valid_page_image",
+      "projected_schema_accepts": true,
+      "direct_error": null,
+      "protocol_error": null
+    },
+    {
+      "case": "valid_full_file_hash",
+      "projected_schema_accepts": true,
+      "direct_error": null,
+      "protocol_error": null
+    },
+    {
+      "case": "valid_fixed_audit",
+      "projected_schema_accepts": true,
+      "direct_error": null,
+      "protocol_error": null
+    },
+    {
+      "case": "repeated_fixed_audit",
+      "projected_schema_accepts": true,
+      "direct_error": "BrokerError: The fixed archive audit has already run",
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed"
+    },
+    {
+      "case": "valid_dependency_verdict",
+      "projected_schema_accepts": true,
+      "direct_error": null,
+      "protocol_error": null
+    },
+    {
+      "case": "whitespace_only_summary",
+      "projected_schema_accepts": true,
+      "direct_error": "BrokerError: Expected bounded nonempty text",
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed"
+    },
+    {
+      "case": "undisclosed_text_length",
+      "projected_schema_accepts": true,
+      "direct_error": "BrokerError: Expected bounded nonempty text",
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed"
+    },
+    {
+      "case": "missing_dispositions",
+      "projected_schema_accepts": true,
+      "direct_error": "BrokerError: Separate C1-C4, T and observer dispositions are required",
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed"
+    },
+    {
+      "case": "duplicate_dispositions",
+      "projected_schema_accepts": true,
+      "direct_error": "BrokerError: Duplicate/missing subject dispositions",
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed"
+    },
+    {
+      "case": "missing_audit_prerequisite",
+      "projected_schema_accepts": true,
+      "direct_error": "BrokerError: A substantive verdict requires the actual fixed auditor receipt",
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed"
+    },
+    {
+      "case": "request_vs_schema_byte_ceiling",
+      "projected_schema_accepts": true,
+      "direct_error": null,
+      "protocol_error": "ProtocolStop: Request byte limit/type"
+    }
+  ]
+}

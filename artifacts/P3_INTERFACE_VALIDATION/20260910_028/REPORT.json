@@ -1,0 +1,35 @@
+{
+  "kind": "P3_REVIEW_INTERFACE_028_ENGINEERING_v1",
+  "created_utc": "2026-09-10T03:00:39.240274+00:00",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-I",
+    "-B",
+    "tests/test_p3_review_interface_028.py"
+  ],
+  "exit_code": 0,
+  "test_methods": 28,
+  "all_passed": true,
+  "source_sha256": {
+    "scripts/p3_review_interface_028.py": "ef41a59491f67252674079b18fa21e46257bdaf5cb2cabf76d9ba376ce6e2d1a",
+    "tests/test_p3_review_interface_028.py": "a5d71b8558c808a506e76531cb6b330bf6f6c1e77f6dbbdf86a9205fd0347a6c",
+    "scripts/p3_review_broker.py": "6f2118cb32573c7774db269c09694913040d06adb5eca9e8ca1a0fafe6089536",
+    "scripts/p3_review_protocol.py": "9bc4315dc3d6af679890828db5a1ee5ef19f49e2c7214cc0dd384728a9cf754f",
+    "scripts/audit_learner_observer.py": "871ab1e62a592d9b49f93d5d5d783e262f8db1cb15bcc0b8ba6191f0ca0d4b1e",
+    "artifacts/P3_INTERFACE_CONTRACT_SOURCE/20260910_028/source/codex-rs/tools/src/json_schema.rs": "ccfc96787883f2c1c3d51a61c36db34ec2d371fc1e029bef4c42683d5069748d"
+  },
+  "test_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "test_stderr_sha256": "5c14242296e6199e45c7c2441d577b56b61fd2543afc80e140c7e958583ad4bc",
+  "actual_original_broker_used": true,
+  "actual_frozen_auditor_used": true,
+  "actual_historical_transitions_checked": 6912,
+  "native_processes_started": 0,
+  "model_turns_sent": 0,
+  "scientific_review_performed": false,
+  "verdict_content": "synthetic engineering fixture only; never a scientific verdict",
+  "source_projection": "Python projection of pinned Rust schema fields; not execution of native Rust serializer",
+  "valid_call_whole_packet_verifications": 2,
+  "correctable_error_whole_packet_verifications_before_feedback": 1,
+  "read_cache_lifetime": "one dispatch prevalidation only; cleared on success/error; only read_text target bytes retained",
+  "audit_completed_property": "read-only original audit-invocation-consumed flag; not independent audit success claim"
+}

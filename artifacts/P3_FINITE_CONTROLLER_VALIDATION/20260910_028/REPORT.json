@@ -1,0 +1,33 @@
+{
+  "kind": "P3_FINITE_CONTROLLER_OFFLINE_VALIDATION_028_v1",
+  "created_utc": "2026-09-10T03:03:05.717267+00:00",
+  "status": "PASS",
+  "tests_run": 34,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "files_sha256": {
+    "scripts/p3_finite_review_028.py": "be4e03c682e9050bd1d4ab61a0c24dd3ab1e97782e221c4c7813cab315763c19",
+    "configs/P3_FINITE_REVIEW_SCOPE_028.json": "69d8413411518a4a33998fc0a271049b125520d7854341cc5584fa9dea4056c6",
+    "tests/test_p3_finite_review_028.py": "4a5d342edda94515d318bbc45bc9c4af2915f308c7624fcbc1b6c85828c72dd9",
+    "scripts/p3_review_interface_028.py": "ef41a59491f67252674079b18fa21e46257bdaf5cb2cabf76d9ba376ce6e2d1a",
+    "scripts/p3_review_protocol_028.py": "d41ecb40a6d63179657e5e04df2491b4bf431a5b28229210b96e640fba49b224",
+    "scripts/p3_reviewer_session_028.py": "ddaac65b673ccf17095b7a8a4c5f1d7908a497fbef865dee5ed5bd77f9149bea",
+    "configs/P3_SYNTHETIC_PROMPT_028.txt": "c930a6accbe8d704cf3467319a39cf81b189e0c18425108baed0023d01873c1a"
+  },
+  "trace_sha256": "b3613a4dc15201132a5458a0d5d51d55d5a057c814c25e1597eddd754f1cc8b1",
+  "native_codex_process_started": false,
+  "model_called": false,
+  "credentials_accessed": false,
+  "git_commit_or_push_executed": false,
+  "historical_report_and_sessions_reconstructed_only_in_temporary_test_fixtures": true,
+  "canonical_laptop_sessions_not_available_or_reconstructed": true,
+  "historical019_to026_guard_mocked_for_test_fixtures": true,
+  "actual027_receipt_consumer_and_original_existing_validation_exercised": true,
+  "stage_execution_is_fixed_fixture_not_model": true,
+  "preflight_uses_actual_public_pinned_auditor_dependencies_with_synthetic_bootstrap_and_png": true,
+  "private722_file_packet_available_in_hosted_workspace": false,
+  "packet_preflight_executed_auditor": false,
+  "scientific_verdict_produced": false,
+  "scope": "Approval parsing, cumulative10/7 accounting, original027 history and separate-session linkage, exact synthetic recovery admission, no retry and preserve/reuse behavior, plus complete packet content/dependency preflight before any native reservation."
+}

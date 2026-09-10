@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "FINDINGS.md",
+      "bytes": 9166,
+      "sha256": "ec8d4fd15b17e7df46633cec9e25383f8564fa9b89d7d72e738153254d89f891"
+    },
+    {
+      "path": "PRE_FINAL_REPORT.json",
+      "bytes": 12823,
+      "sha256": "210011a0613dead8b5733f2af54a121209806caeb9bb28f474896803bdb422dd"
+    },
+    {
+      "path": "REPORT.json",
+      "bytes": 17122,
+      "sha256": "c2848209ed39cd9f98226b5fe56b61621c0741709d4db1094ce6d7f424e90c4e"
+    },
+    {
+      "path": "TRACE.txt",
+      "bytes": 4339,
+      "sha256": "7fde7a28d7fccb64f15ab748d8814f203eb2ce2e6ef3e543259252f7817db690"
+    },
+    {
+      "path": "reproduce_contract.py",
+      "bytes": 11893,
+      "sha256": "292fdb4e9b6f2e2f6172a8990351639ff17dee0819c1cf85b336a68f0557d6d1"
+    },
+    {
+      "path": "source/PROVENANCE.json",
+      "bytes": 7760,
+      "sha256": "676d084527da08a9f4e12ab848c1495a6b3c81e324f05b2ab12b4fc700f608e9"
+    },
+    {
+      "path": "source/codex-rs/tools/src/dynamic_tool.rs",
+      "bytes": 548,
+      "sha256": "2ddaa469e12273bd06ad0e27fdd89e48492ce929cf5dd706894b1f7ae38e74b8"
+    },
+    {
+      "path": "source/codex-rs/tools/src/dynamic_tool_tests.rs",
+      "bytes": 1957,
+      "sha256": "3d0e24b5b4314e76d704126c0f82bb31263001c8966bd3e7de90428c363265d4"
+    },
+    {
+      "path": "source/codex-rs/tools/src/json_schema.rs",
+      "bytes": 26262,
+      "sha256": "ccfc96787883f2c1c3d51a61c36db34ec2d371fc1e029bef4c42683d5069748d"
+    },
+    {
+      "path": "source/codex-rs/tools/src/json_schema_tests.rs",
+      "bytes": 62736,
+      "sha256": "5ec5460b6a7e1ed1ccc446360615bb0b5715d85ea6d2825744f380bef0dabe77"
+    },
+    {
+      "path": "source/codex-rs/tools/src/responses_api.rs",
+      "bytes": 5346,
+      "sha256": "7af0354e43c3fa7f052d86df5ae0c6ce276569243af6f6ea5fe00abcb15bd244"
+    },
+    {
+      "path": "source/codex-rs/tools/src/tool_output.rs",
+      "bytes": 9066,
+      "sha256": "20055cefc287a0137055857f49925daf173504288096ee5d9152beadbd861983"
+    },
+    {
+      "path": "FIXTURE_RESIDUALS.json",
+      "bytes": 1244,
+      "sha256": "6d4c7f371b8548963a429a978d25046ff16aa64333606b91bd77796184b8eb59"
+    }
+  ],
+  "temporary_fixture_directories_excluded": true
+}

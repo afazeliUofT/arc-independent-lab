@@ -1,0 +1,31 @@
+{
+  "kind": "P3_REVIEW_INTERFACE_028_ENGINEERING_v1",
+  "created_utc": "2026-09-10T02:58:03.244391+00:00",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-I",
+    "-B",
+    "tests/test_p3_review_interface_028.py"
+  ],
+  "exit_code": 0,
+  "test_methods": 26,
+  "all_passed": true,
+  "source_sha256": {
+    "scripts/p3_review_interface_028.py": "6a1fc35ecbf756480fd7e6948806cadef35cb20d4900dfdba071717df32a2c74",
+    "tests/test_p3_review_interface_028.py": "7325d6f6bf8f196022b1ac4fc0b5e1574ab419c6d414ae8bfb812fc7e0d3df7c",
+    "scripts/p3_review_broker.py": "6f2118cb32573c7774db269c09694913040d06adb5eca9e8ca1a0fafe6089536",
+    "scripts/p3_review_protocol.py": "9bc4315dc3d6af679890828db5a1ee5ef19f49e2c7214cc0dd384728a9cf754f",
+    "scripts/audit_learner_observer.py": "871ab1e62a592d9b49f93d5d5d783e262f8db1cb15bcc0b8ba6191f0ca0d4b1e",
+    "artifacts/P3_INTERFACE_CONTRACT_SOURCE/20260910_028/source/codex-rs/tools/src/json_schema.rs": "ccfc96787883f2c1c3d51a61c36db34ec2d371fc1e029bef4c42683d5069748d"
+  },
+  "test_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "test_stderr_sha256": "95fb2666950b659994461b5ab7ba97bd563b245be296b515a1019c6c58aecc12",
+  "actual_original_broker_used": true,
+  "actual_frozen_auditor_used": true,
+  "actual_historical_transitions_checked": 6912,
+  "native_processes_started": 0,
+  "model_turns_sent": 0,
+  "scientific_review_performed": false,
+  "verdict_content": "synthetic engineering fixture only; never a scientific verdict",
+  "source_projection": "Python projection of pinned Rust schema fields; not execution of native Rust serializer"
+}

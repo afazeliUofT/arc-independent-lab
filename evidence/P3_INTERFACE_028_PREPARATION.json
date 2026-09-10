@@ -1,0 +1,53 @@
+{
+  "created_utc": "2026-09-10T03:06:25.476121+00:00",
+  "scope": {
+    "path": "configs/P3_FINITE_REVIEW_SCOPE_028.json",
+    "sha256": "69d8413411518a4a33998fc0a271049b125520d7854341cc5584fa9dea4056c6"
+  },
+  "controller": {
+    "path": "scripts/p3_finite_review_028.py",
+    "sha256": "be4e03c682e9050bd1d4ab61a0c24dd3ab1e97782e221c4c7813cab315763c19"
+  },
+  "validation": [
+    {
+      "path": "artifacts/P3_INTERFACE_VALIDATION/20260910_028/REPORT.json",
+      "sha256": "ab3c5e022b27377f08b863bcec507289dce66aee8a702f19698d2f606243bd2d"
+    },
+    {
+      "path": "artifacts/P3_INTERFACE_TRANSPORT_VALIDATION/20260910_028/REPORT.json",
+      "sha256": "dcd3c5c66730bf7593ca0708b189c91d10fc67e9f64cfb10d3524bf5848fd62c"
+    },
+    {
+      "path": "artifacts/P3_FINITE_CONTROLLER_VALIDATION/20260910_028/REPORT.json",
+      "sha256": "81e4a50e5f1ab41a4817a3b11a78adf0c8558908b39780ce4e1efa3ef4744bbc"
+    }
+  ],
+  "test_methods_by_layer": {
+    "interface": 28,
+    "transport_session": 42,
+    "controller": 34
+  },
+  "input_observation": {
+    "path": "evidence/P3_FINITE_REVIEW_027_OBSERVATION_REVIEW.json",
+    "sha256": "9c800bb9c4ae8e4890cedf175895f5647e4d63e9254ce73ee829747e17d05d54"
+  },
+  "source_manifest": {
+    "path": "artifacts/P3_INTERFACE_CONTRACT_SOURCE/20260910_028/MANIFEST.json",
+    "sha256": "e791f83e1966c29dcd04683ae403e3229cae6ba9f0fb6845fc3dd601f9e0b16d"
+  },
+  "postmortem": {
+    "path": "reports/P3_INTERFACE_POSTMORTEM_028.md",
+    "sha256": "53cba01d4cd194684ff819b3d048365c4224fef9e4f244ae568cde8fdb1e751f"
+  },
+  "historical_source_pins_verified": 100,
+  "new_runtime_dependency_pins_verified": 6,
+  "all_frozen_scientific_manifests_and_members_unchanged": true,
+  "unsigned_approval_refused": true,
+  "native_starts_this_preparation": 0,
+  "model_turns_this_preparation": 0,
+  "independent_scientific_review": false,
+  "actual027_failed_arguments_or_exception_known": false,
+  "actual_laptop_packet_and_separate_sessions_available_here": false,
+  "engineering_consultants_have_shared_filesystem_not_independent_reviewers": true,
+  "final_exact_archive_installation_receipt": "Provided separately in outer ZIP after packaging; not claimed complete by this preparation record."
+}

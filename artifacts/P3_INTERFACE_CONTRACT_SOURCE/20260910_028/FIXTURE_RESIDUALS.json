@@ -1,0 +1,19 @@
+{
+  "kind": "OFFLINE_FIXTURE_RESIDUAL_OBSERVATION",
+  "residuals": [
+    {
+      "path": "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/broker028_audit/case-5z1odym2",
+      "files": 41,
+      "scope": "Disposable synthetic/historical arithmetic reproduction fixture; no private papers/auth/model data",
+      "creation_path": "Fixture.__init__ uses tempfile.TemporaryDirectory(prefix=case-) in this audit directory",
+      "persistence_cause": "Unestablished. Tests completed normally and Fixture.close calls TemporaryDirectory.cleanup. Root confirms no concurrent import/run. Preserved instead of deleting unexplained residuals."
+    },
+    {
+      "path": "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/broker028_audit/case-kt82zy10",
+      "files": 87,
+      "scope": "Disposable synthetic/historical arithmetic reproduction fixture; no private papers/auth/model data",
+      "creation_path": "Fixture.__init__ uses tempfile.TemporaryDirectory(prefix=case-) in this audit directory",
+      "persistence_cause": "Unestablished. Tests completed normally and Fixture.close calls TemporaryDirectory.cleanup. Root confirms no concurrent import/run. Preserved instead of deleting unexplained residuals."
+    }
+  ]
+}

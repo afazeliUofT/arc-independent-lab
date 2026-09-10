@@ -1,0 +1,422 @@
+{
+  "kind": "P3_BROKER_CONTRACT_OFFLINE_AUDIT_028_v1",
+  "science_review": false,
+  "model_called": false,
+  "native_codex_called": false,
+  "authentication_accessed": false,
+  "actual_027_failed_request_known": false,
+  "source_derived_projection_not_native_execution": true,
+  "broker_sha256": "6f2118cb32573c7774db269c09694913040d06adb5eca9e8ca1a0fafe6089536",
+  "protocol_sha256": "9bc4315dc3d6af679890828db5a1ee5ef19f49e2c7214cc0dd384728a9cf754f",
+  "projected_schemas": {
+    "read_text": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string"
+        },
+        "offset": {
+          "type": "integer"
+        },
+        "length": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "path",
+        "offset",
+        "length"
+      ],
+      "additionalProperties": false
+    },
+    "read_page_image": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "path"
+      ],
+      "additionalProperties": false
+    },
+    "hash_file": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "path"
+      ],
+      "additionalProperties": false
+    },
+    "run_observer_audit": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    },
+    "submit_verdict": {
+      "type": "object",
+      "properties": {
+        "verdict": {
+          "type": "string",
+          "enum": [
+            "GO",
+            "REVISE_ONCE",
+            "KILL",
+            "SUSPEND_FOR_DEPENDENCY"
+          ]
+        },
+        "applies_to": {
+          "type": "object",
+          "properties": {
+            "scope": {
+              "type": "string"
+            },
+            "original_manifest_sha256": {
+              "type": "string"
+            },
+            "supplement_manifest_sha256": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "scope",
+            "original_manifest_sha256",
+            "supplement_manifest_sha256"
+          ],
+          "additionalProperties": false
+        },
+        "summary": {
+          "type": "string"
+        },
+        "dispositions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "subject": {
+                "type": "string",
+                "enum": [
+                  "C1",
+                  "C2",
+                  "C3",
+                  "C4",
+                  "T",
+                  "observer"
+                ]
+              },
+              "disposition": {
+                "type": "string"
+              },
+              "reason": {
+                "type": "string"
+              },
+              "evidence": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "path": {
+                      "type": "string"
+                    },
+                    "sha256": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "path",
+                    "sha256"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "subject",
+              "disposition",
+              "reason",
+              "evidence"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "strongest_objections": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "missing_dependencies": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "required_corrections": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "verdict",
+        "applies_to",
+        "summary",
+        "dispositions",
+        "strongest_objections",
+        "missing_dependencies",
+        "required_corrections"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "observations": [
+    {
+      "case": "valid_bootstrap_read",
+      "tool": "read_text",
+      "original_schema_accepts": true,
+      "projected_schema_accepts": true,
+      "request_bytes": 205,
+      "direct_error": null,
+      "broker_permanently_stopped": false,
+      "protocol_error": null,
+      "protocol_stopped": false,
+      "receipts_retained": 1
+    },
+    {
+      "case": "undisclosed_upper_bound",
+      "tool": "read_text",
+      "original_schema_accepts": false,
+      "projected_schema_accepts": true,
+      "request_bytes": 206,
+      "direct_error": "BrokerError: Invalid integer bound",
+      "broker_permanently_stopped": true,
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed",
+      "protocol_stopped": true,
+      "receipts_retained": 0
+    },
+    {
+      "case": "undisclosed_lower_bound",
+      "tool": "read_text",
+      "original_schema_accepts": false,
+      "projected_schema_accepts": true,
+      "request_bytes": 201,
+      "direct_error": "BrokerError: Invalid integer bound",
+      "broker_permanently_stopped": true,
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed",
+      "protocol_stopped": true,
+      "receipts_retained": 0
+    },
+    {
+      "case": "integer_numeric_representation",
+      "tool": "read_text",
+      "original_schema_accepts": true,
+      "projected_schema_accepts": true,
+      "request_bytes": 206,
+      "direct_error": "BrokerError: Invalid integer bound",
+      "broker_permanently_stopped": true,
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed",
+      "protocol_stopped": true,
+      "receipts_retained": 0
+    },
+    {
+      "case": "missing_required_offset",
+      "tool": "read_text",
+      "original_schema_accepts": false,
+      "projected_schema_accepts": false,
+      "request_bytes": 191,
+      "direct_error": "BrokerError: Unexpected argument fields",
+      "broker_permanently_stopped": true,
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed",
+      "protocol_stopped": true,
+      "receipts_retained": 0
+    },
+    {
+      "case": "canonical_unknown_path",
+      "tool": "read_text",
+      "original_schema_accepts": true,
+      "projected_schema_accepts": true,
+      "request_bytes": 204,
+      "direct_error": "BrokerError: Unmanifested resource denied",
+      "broker_permanently_stopped": true,
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed",
+      "protocol_stopped": true,
+      "receipts_retained": 0
+    },
+    {
+      "case": "noncanonical_dot_path",
+      "tool": "read_text",
+      "original_schema_accepts": true,
+      "projected_schema_accepts": true,
+      "request_bytes": 206,
+      "direct_error": "BrokerError: Noncanonical resource path",
+      "broker_permanently_stopped": true,
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed",
+      "protocol_stopped": true,
+      "receipts_retained": 0
+    },
+    {
+      "case": "offset_past_end",
+      "tool": "read_text",
+      "original_schema_accepts": true,
+      "projected_schema_accepts": true,
+      "request_bytes": 209,
+      "direct_error": "BrokerError: Text offset past end",
+      "broker_permanently_stopped": true,
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed",
+      "protocol_stopped": true,
+      "receipts_retained": 0
+    },
+    {
+      "case": "wrong_resource_kind",
+      "tool": "read_text",
+      "original_schema_accepts": true,
+      "projected_schema_accepts": true,
+      "request_bytes": 202,
+      "direct_error": "BrokerError: Wrong resource kind",
+      "broker_permanently_stopped": true,
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed",
+      "protocol_stopped": true,
+      "receipts_retained": 0
+    },
+    {
+      "case": "valid_page_image",
+      "tool": "read_page_image",
+      "original_schema_accepts": true,
+      "projected_schema_accepts": true,
+      "request_bytes": 179,
+      "direct_error": null,
+      "broker_permanently_stopped": false,
+      "protocol_error": null,
+      "protocol_stopped": false,
+      "receipts_retained": 1
+    },
+    {
+      "case": "valid_full_file_hash",
+      "tool": "hash_file",
+      "original_schema_accepts": true,
+      "projected_schema_accepts": true,
+      "request_bytes": 173,
+      "direct_error": null,
+      "broker_permanently_stopped": false,
+      "protocol_error": null,
+      "protocol_stopped": false,
+      "receipts_retained": 1
+    },
+    {
+      "case": "valid_fixed_audit",
+      "tool": "run_observer_audit",
+      "original_schema_accepts": true,
+      "projected_schema_accepts": true,
+      "request_bytes": 157,
+      "direct_error": null,
+      "broker_permanently_stopped": false,
+      "protocol_error": null,
+      "protocol_stopped": false,
+      "receipts_retained": 1
+    },
+    {
+      "case": "repeated_fixed_audit",
+      "tool": "run_observer_audit",
+      "original_schema_accepts": true,
+      "projected_schema_accepts": true,
+      "request_bytes": 157,
+      "direct_error": "BrokerError: The fixed archive audit has already run",
+      "broker_permanently_stopped": true,
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed",
+      "protocol_stopped": true,
+      "receipts_retained": 0
+    },
+    {
+      "case": "valid_dependency_verdict",
+      "tool": "submit_verdict",
+      "original_schema_accepts": true,
+      "projected_schema_accepts": true,
+      "request_bytes": 1835,
+      "direct_error": null,
+      "broker_permanently_stopped": false,
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed",
+      "protocol_stopped": true,
+      "receipts_retained": 0
+    },
+    {
+      "case": "whitespace_only_summary",
+      "tool": "submit_verdict",
+      "original_schema_accepts": true,
+      "projected_schema_accepts": true,
+      "request_bytes": 1783,
+      "direct_error": "BrokerError: Expected bounded nonempty text",
+      "broker_permanently_stopped": true,
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed",
+      "protocol_stopped": true,
+      "receipts_retained": 0
+    },
+    {
+      "case": "undisclosed_text_length",
+      "tool": "submit_verdict",
+      "original_schema_accepts": false,
+      "projected_schema_accepts": true,
+      "request_bytes": 31783,
+      "direct_error": "BrokerError: Expected bounded nonempty text",
+      "broker_permanently_stopped": true,
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed",
+      "protocol_stopped": true,
+      "receipts_retained": 0
+    },
+    {
+      "case": "missing_dispositions",
+      "tool": "submit_verdict",
+      "original_schema_accepts": false,
+      "projected_schema_accepts": true,
+      "request_bytes": 626,
+      "direct_error": "BrokerError: Separate C1-C4, T and observer dispositions are required",
+      "broker_permanently_stopped": true,
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed",
+      "protocol_stopped": true,
+      "receipts_retained": 0
+    },
+    {
+      "case": "duplicate_dispositions",
+      "tool": "submit_verdict",
+      "original_schema_accepts": true,
+      "projected_schema_accepts": true,
+      "request_bytes": 1830,
+      "direct_error": "BrokerError: Duplicate/missing subject dispositions",
+      "broker_permanently_stopped": true,
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed",
+      "protocol_stopped": true,
+      "receipts_retained": 0
+    },
+    {
+      "case": "missing_audit_prerequisite",
+      "tool": "submit_verdict",
+      "original_schema_accepts": true,
+      "projected_schema_accepts": true,
+      "request_bytes": 1815,
+      "direct_error": "BrokerError: A substantive verdict requires the actual fixed auditor receipt",
+      "broker_permanently_stopped": true,
+      "protocol_error": "ProtocolStop: Broker or protocol validation failed",
+      "protocol_stopped": true,
+      "receipts_retained": 0
+    },
+    {
+      "case": "request_vs_schema_byte_ceiling",
+      "tool": "submit_verdict",
+      "original_schema_accepts": true,
+      "projected_schema_accepts": true,
+      "request_bytes": 601913,
+      "direct_error": null,
+      "broker_permanently_stopped": false,
+      "protocol_error": "ProtocolStop: Request byte limit/type",
+      "protocol_stopped": true,
+      "receipts_retained": 0
+    }
+  ],
+  "historical_auditor_execution": "Only unchanged fixed arithmetic auditor, with synthetic fixture wrapper; no new experiment."
+}
