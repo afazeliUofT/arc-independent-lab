@@ -1,0 +1,24 @@
+test_all_48_canonical_keys_match_source (__main__.WarningTests.test_all_48_canonical_keys_match_source) ... ok
+test_both_filesystem_special_path_source_variants (__main__.WarningTests.test_both_filesystem_special_path_source_variants) ... ok
+test_catalog_all_35_families_accounted_for (__main__.WarningTests.test_catalog_all_35_families_accounted_for) ... ok
+test_catalog_formatter_shapes_all_recognized_without_private_variables (__main__.WarningTests.test_catalog_formatter_shapes_all_recognized_without_private_variables) ... ok
+test_code_mode_both_behaviors_opaque_reason (__main__.WarningTests.test_code_mode_both_behaviors_opaque_reason) ... ok
+test_code_mode_unsupported_suffix_or_missing_error_stays_candidate (__main__.WarningTests.test_code_mode_unsupported_suffix_or_missing_error_stays_candidate) ... ok
+test_constant_tampering_and_unknown_provider_output_remain_unknown (__main__.WarningTests.test_constant_tampering_and_unknown_provider_output_remain_unknown) ... ok
+test_inputs_unchanged (__main__.WarningTests.test_inputs_unchanged) ... ok
+test_invalid_thread_type_unclassified (__main__.WarningTests.test_invalid_thread_type_unclassified) ... ok
+test_malformed_envelopes_never_echo_fields_or_values (__main__.WarningTests.test_malformed_envelopes_never_echo_fields_or_values) ... ok
+test_missing_null_mismatched_thread_classified_but_not_attributed (__main__.WarningTests.test_missing_null_mismatched_thread_classified_but_not_attributed) ... ok
+test_model_comparison_is_boolean_not_identifier (__main__.WarningTests.test_model_comparison_is_boolean_not_identifier) ... ok
+test_no_expected_thread_never_attributes_text (__main__.WarningTests.test_no_expected_thread_never_attributes_text) ... ok
+test_prefix_candidates_do_not_authenticate_source (__main__.WarningTests.test_prefix_candidates_do_not_authenticate_source) ... ok
+test_requirement_known_field_enum_and_unknown_redaction (__main__.WarningTests.test_requirement_known_field_enum_and_unknown_redaction) ... ok
+test_size_bounds_count_utf8_and_invalid_unicode (__main__.WarningTests.test_size_bounds_count_utf8_and_invalid_unicode) ... ok
+test_underdev_all_keys_full_template_and_sorted_unique (__main__.WarningTests.test_underdev_all_keys_full_template_and_sorted_unique) ... ok
+test_underdev_invalid_keys_or_order_never_exported (__main__.WarningTests.test_underdev_invalid_keys_or_order_never_exported) ... ok
+test_underdev_truncation_suffix_and_control_never_full_template (__main__.WarningTests.test_underdev_truncation_suffix_and_control_never_full_template) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.007s
+
+OK

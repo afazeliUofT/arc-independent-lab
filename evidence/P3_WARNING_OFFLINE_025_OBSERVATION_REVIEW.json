@@ -1,0 +1,62 @@
+{
+  "created_utc": "2026-09-09T22:33:55.438038+00:00",
+  "kind": "engineering_observation_not_scientific_verdict",
+  "input": {
+    "path": "artifacts/P3_WARNING_OFFLINE_OBSERVATIONS/20260909_026/REPORT.json",
+    "sha256": "54f94e610a5186555d2aae7b3361a5e711ebd3378f1b3f48fafdbd527ce7b600"
+  },
+  "publication": {
+    "path": "evidence/REMOTE_CHECKPOINT_025_VERIFICATION.json",
+    "sha256": "834fc2728b686ac3d7eb876d33484e74d954659d3a5aba38f93cb4815b7f9321"
+  },
+  "status": "OFFLINE_DIAGNOSTIC_COMPLETE_NO_VERDICT",
+  "report_and_separate024_session_verified_by_report": true,
+  "source_schema_pins_verified_by_report": true,
+  "new_native_starts": 0,
+  "new_model_turns": 0,
+  "new_network_calls": 0,
+  "config": {
+    "metadata_matches024": true,
+    "inspected_table": "top-level features only; not all possible profile/layer controls",
+    "canonical_development_keys": "all absent in inspected table",
+    "effective_runtime_reconstructed": false
+  },
+  "logs": {
+    "database": {
+      "actual_rejected_warning_identified": false,
+      "bytes_scanned": 49152,
+      "candidate_count_cap": 100,
+      "candidate_literal_counts": {},
+      "file_changed_during_scan": false,
+      "raw_hashed": false,
+      "raw_saved": false,
+      "scan_complete_within_byte_bound": true,
+      "status": "binary_literal_scan_completed"
+    },
+    "wal": {
+      "actual_rejected_warning_identified": false,
+      "bytes_scanned": 119512,
+      "candidate_count_cap": 100,
+      "candidate_literal_counts": {},
+      "file_changed_during_scan": false,
+      "raw_hashed": false,
+      "raw_saved": false,
+      "scan_complete_within_byte_bound": true,
+      "status": "binary_literal_scan_completed"
+    }
+  },
+  "cache": {
+    "actual024_internal_model_info_verified": false,
+    "content_hashed": false,
+    "current_file_metadata_is_not_historical_content_proof": true,
+    "error_type": "MetadataChanged",
+    "metadata_matches_024": false,
+    "raw_saved": false,
+    "runtime_fallback_metadata_indicator": "not_serialized_unknown",
+    "selected_model": "gpt-5.6-sol",
+    "status": "unavailable"
+  },
+  "actual024_warning_identified": false,
+  "scientific_verdict": false,
+  "next_action": "One explicitly human-launched synthetic-only diagnostic, within remaining approved capacity, records safe warning text-family classification before terminal stop. No warning admitted and no science stage."
+}

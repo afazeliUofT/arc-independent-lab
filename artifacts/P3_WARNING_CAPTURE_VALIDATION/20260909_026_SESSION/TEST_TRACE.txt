@@ -1,0 +1,15 @@
+test_already_available_frames_across_parent_reads_prevent_model_turn (test_p3_warning_session_026.WarningSessionTests.test_already_available_frames_across_parent_reads_prevent_model_turn) ... ok
+test_eight_deprecations_and_clean_canary_reach_unchanged_real_broker_refusal (test_p3_warning_session_026.WarningSessionTests.test_eight_deprecations_and_clean_canary_reach_unchanged_real_broker_refusal) ... ok
+test_malformed_warning_notification_envelope_has_safe_terminal_observation (test_p3_warning_session_026.WarningSessionTests.test_malformed_warning_notification_envelope_has_safe_terminal_observation) ... ok
+test_malformed_warning_parameters_have_safe_terminal_observation (test_p3_warning_session_026.WarningSessionTests.test_malformed_warning_parameters_have_safe_terminal_observation) ... ok
+test_science_mode_and_binding_are_refused_before_any_child_start (test_p3_warning_session_026.WarningSessionTests.test_science_mode_and_binding_are_refused_before_any_child_start) ... ok
+test_unknown_notification_name_is_fixed_category_and_stops_before_turn (test_p3_warning_session_026.WarningSessionTests.test_unknown_notification_name_is_fixed_category_and_stops_before_turn) ... ok
+test_warning_after_bound_turn_and_activity_still_stops_without_admission (test_p3_warning_session_026.WarningSessionTests.test_warning_after_bound_turn_and_activity_still_stops_without_admission) ... ok
+test_warning_before_thread_response_stops_without_model_turn_or_untrusted_binding (test_p3_warning_session_026.WarningSessionTests.test_warning_before_thread_response_stops_without_model_turn_or_untrusted_binding) ... ok
+test_warning_in_same_write_after_thread_response_prevents_queuing_model_turn (test_p3_warning_session_026.WarningSessionTests.test_warning_in_same_write_after_thread_response_prevents_queuing_model_turn) ... ok
+test_warning_while_turn_response_pending_stops_and_counts_sent_turn (test_p3_warning_session_026.WarningSessionTests.test_warning_while_turn_response_pending_stops_and_counts_sent_turn) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.529s
+
+OK

@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-09T21:55:18.346075+00:00",
+  "updated_utc": "2026-09-09T22:33:55.438038+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -119,22 +119,30 @@
     "rerun_needed": false
   },
   "next_operational_test": {
-    "name": "Offline warning-state diagnostic025",
-    "native_starts": 0,
-    "model_turns": 0,
-    "network_calls": 0,
+    "name": "Manual synthetic-only warning capture026",
+    "scope": {
+      "path": "configs/P3_WARNING_CAPTURE_SCOPE_026.json",
+      "sha256": "7b0ef5e1ada72a08241210c00263b646b28f332bbc4f2967bd8068882531e779"
+    },
+    "authorization_basis": {
+      "path": "evidence/P3_WARNING_CAPTURE_026_AUTHORIZATION_BASIS.json",
+      "sha256": "1f4624a822c7537eb012926102c73fe6f6841be3f09feae5a46e5dd949cc2589"
+    },
     "new_permission_required": false,
-    "current_approved_cumulative_ceiling": {
-      "native_starts": 6,
-      "explicit_model_turns": 3
-    },
-    "consumed": {
-      "native_starts": 5,
-      "sent_turns": 2
-    },
+    "explicit_manual_launch_required": true,
+    "prior_observed_native_starts": 5,
+    "prior_observed_sent_turns": 2,
+    "maximum_additional_native_starts": 1,
+    "maximum_additional_sent_turns": 1,
+    "cumulative_native_ceiling": 6,
+    "cumulative_sent_turn_ceiling": 3,
+    "synthetic_seconds_including_cleanup": 600,
     "automatic_retries": 0,
-    "status": "Preparing; human executes against retained laptop files",
-    "scope": "Read only existing approved noncredential config/cache and fixed024 run state; write filtered receipt inside lab. No control-surface change."
+    "science_allowed": false,
+    "status": "Prepared; offline verification and one-ZIP delivery pending; no actual026 execution observed",
+    "missing_session_does_not_release_reservation": true,
+    "backend_usage_or_charge": "unknown",
+    "unattended_model_use_authorized": false
   },
   "completed_native_signin": {
     "receipt": {
@@ -231,7 +239,7 @@
       "sha256": "acbc599a337845e585af8cec04fd72af44cdb7d10321c1ae4329fce6120613a4"
     },
     "native_controller_implemented": true,
-    "next_action": "Do not rerun024. Inspect the offline025 warning-state diagnostic before preparing any future reviewer operation.",
+    "next_action": "Only the explicitly launched026 synthetic diagnostic may use the remaining bounded capacity. Do not rerun024. No science stage or later native operation is authorized by026.",
     "unattended_model_use_authorized": false,
     "extra_spending_allowed": false
   },
@@ -314,5 +322,15 @@
     "backend_usage_or_charge": "unknown",
     "scientific_verdict": false,
     "repeat_original_command": false
+  },
+  "completed_offline_warning025": {
+    "assessment": {
+      "path": "evidence/P3_WARNING_OFFLINE_025_OBSERVATION_REVIEW.json",
+      "sha256": "143aa40a138f6dc164f445ce650bf0b03c881461f4ad04153e0a3b84959723ec"
+    },
+    "native_starts": 0,
+    "model_turns": 0,
+    "network_calls": 0,
+    "actual_warning_identified": false
   }
 }

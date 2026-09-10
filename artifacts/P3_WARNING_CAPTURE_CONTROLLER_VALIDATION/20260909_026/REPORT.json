@@ -1,0 +1,40 @@
+{
+  "kind": "P3_WARNING_CAPTURE_CONTROLLER_VALIDATION_026_v1",
+  "created_utc": "2026-09-09T22:35:36.058663+00:00",
+  "status": "PASSED",
+  "exit_code": 0,
+  "tests_run": 24,
+  "test_script": {
+    "path": "tests/test_p3_warning_capture_026.py",
+    "sha256": "a2908b8bc0d5b7b4b5befa0bca9c20f15a8602a80918b56a35f570fcbb4f0576"
+  },
+  "controller": {
+    "path": "scripts/p3_warning_capture_026.py",
+    "sha256": "e1fc314d017f51da42829ce2e9e2f2fe7d43ac290c636afe1434798ac47b223c"
+  },
+  "scope": {
+    "path": "configs/P3_WARNING_CAPTURE_SCOPE_026.json",
+    "sha256": "7b0ef5e1ada72a08241210c00263b646b28f332bbc4f2967bd8068882531e779"
+  },
+  "artifacts": [
+    {
+      "path": "artifacts/P3_WARNING_CAPTURE_CONTROLLER_VALIDATION/20260909_026/TEST_STDOUT.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "artifacts/P3_WARNING_CAPTURE_CONTROLLER_VALIDATION/20260909_026/TEST_STDERR.txt",
+      "sha256": "5aec93fc2bcd555e6eed8c769aab97f7675702ef2d9f867db8bb4c03d74cff19"
+    },
+    {
+      "path": "artifacts/P3_WARNING_CAPTURE_CONTROLLER_VALIDATION/20260909_026/PRE_FINAL_OBSERVATIONS.json",
+      "sha256": "289e619906e2854fe4b34b5248cae79f20bd9e97671baeb87abf2fd4575b7ff3"
+    }
+  ],
+  "native_process_execution_forbidden_by_test_mock": true,
+  "native_processes_started": 0,
+  "model_turns_sent": 0,
+  "credentials_accessed": false,
+  "scientific_review_completed": false,
+  "shared_workspace_engineering_consultation_only": true,
+  "scope_of_validation": "Real100 inherited pins plus new pins; real024 receipt and actual approval consumers; explicitly temporary historical SESSION fixtures with old prior-host guard mocked; synthetic controller outcomes without native processes; reservation/history/report consistency and reuse."
+}

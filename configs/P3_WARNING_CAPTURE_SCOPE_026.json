@@ -1,0 +1,21 @@
+{
+  "scope_id": "P3_WARNING_CAPTURE_SCOPE_026",
+  "report_directory": "delivery/P3_WARNING_CAPTURE_026",
+  "canonical_home": "/home/afazeli2006",
+  "canonical_project": "/home/afazeli2006/ARC_Independent_Lab",
+  "maximum_native_processes": 1,
+  "maximum_model_turns": 1,
+  "synthetic_seconds_including_cleanup": 600,
+  "prior_native_starts": 5,
+  "prior_sent_turns": 2,
+  "cumulative_native_ceiling": 6,
+  "cumulative_sent_turn_ceiling": 3,
+  "science_allowed": false,
+  "automatic_retry": false,
+  "generic_warning_admission": false,
+  "model": "gpt-5.6-sol",
+  "effort": "max",
+  "inherited_access_scope_sha256": "bdf0d9cb689793656c8616f72f2f1a6a45a6bc4a6cf5abed3e0e0e4dde8ee0db",
+  "authorization": "Existing024 host/model access plus standing authority for routine narrower corrections and explicit --run-attended-diagnostic. Old scope hash does not approve new code. No ceiling increase; no science; no automatic launch from publication.",
+  "limitations": "Current warning classification does not retrospectively identify024 warning. No startup completion barrier, full native tool attestation or continuous attendance claim. All generic warnings stop."
+}
