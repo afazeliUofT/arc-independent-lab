@@ -1,0 +1,135 @@
+{
+  "collection_is_not_execution_or_scientific_admission": true,
+  "consistency": "each present source stable through final metadata check; not an atomic run snapshot",
+  "credentials_or_cache_paths_read": false,
+  "fixed_allowlist_only": true,
+  "git_commands_executed": false,
+  "kind": "P3_REVIEW_032_EVIDENCE_COLLECTION_032_v1",
+  "native_or_model_operations_executed": false,
+  "recursive_discovery": false,
+  "source_files_modified": false,
+  "source_receipts_reconstructed": false,
+  "sources": [
+    {
+      "archive_path": "files/delivery/P3_FINITE_REVIEW_032/REPORT.json",
+      "byte_limit": 16777216,
+      "bytes": 1282543,
+      "sha256": "82bbdccc5f2a2a21d6ab5c6f7395d4083b9aefd1660dc08119593f8588a18a4d",
+      "source_mode": "0644",
+      "source_path": "delivery/P3_FINITE_REVIEW_032/REPORT.json",
+      "status": "PRESENT"
+    },
+    {
+      "archive_path": "files/delivery/P3_FINITE_REVIEW_032/REPORT.sha256",
+      "byte_limit": 65,
+      "bytes": 65,
+      "sha256": "2ef58fd6510c86d41ee3d5e3f7edb4ef4ff239428d3784b4e90c2056b1878d02",
+      "source_mode": "0644",
+      "source_path": "delivery/P3_FINITE_REVIEW_032/REPORT.sha256",
+      "status": "PRESENT"
+    },
+    {
+      "archive_path": "files/delivery/P3_FINITE_REVIEW_032/ATTEMPT.json",
+      "byte_limit": 2097152,
+      "bytes": 53569,
+      "sha256": "d7f75bf575148591277be361ebcf651d31de7326299246412f73a61b3df4a10d",
+      "source_mode": "0644",
+      "source_path": "delivery/P3_FINITE_REVIEW_032/ATTEMPT.json",
+      "status": "PRESENT"
+    },
+    {
+      "archive_path": "files/delivery/P3_FINITE_REVIEW_032/AUTHORIZATION.md",
+      "byte_limit": 2097152,
+      "bytes": 7394,
+      "sha256": "c6c813a292213743c5e0d5a3a1be1e2342ea11868b94b2ae34bd47800864f624",
+      "source_mode": "0644",
+      "source_path": "delivery/P3_FINITE_REVIEW_032/AUTHORIZATION.md",
+      "status": "PRESENT"
+    },
+    {
+      "archive_path": "files/delivery/P3_FINITE_REVIEW_032/synthetic_SESSION.json",
+      "byte_limit": 16777216,
+      "bytes": 129193,
+      "sha256": "4bbd9771ca681f835d80716cc13237cafe346ee63fd5e3c57dbd70be5867f258",
+      "source_mode": "0644",
+      "source_path": "delivery/P3_FINITE_REVIEW_032/synthetic_SESSION.json",
+      "status": "PRESENT"
+    },
+    {
+      "archive_path": "files/delivery/P3_FINITE_REVIEW_032/synthetic_STAGE.json",
+      "byte_limit": 16777216,
+      "bytes": 155609,
+      "sha256": "1f3fc485dfedf30a27b16305c2e2633edd88e244a32b5d08633ce5537079ff06",
+      "source_mode": "0644",
+      "source_path": "delivery/P3_FINITE_REVIEW_032/synthetic_STAGE.json",
+      "status": "PRESENT"
+    },
+    {
+      "archive_path": "files/delivery/P3_FINITE_REVIEW_032/science_SESSION.json",
+      "byte_limit": 16777216,
+      "bytes": 189188,
+      "sha256": "4e80e0ca72f4349cead77567e055065948a893c8e35b9582baa9a52e05e16636",
+      "source_mode": "0644",
+      "source_path": "delivery/P3_FINITE_REVIEW_032/science_SESSION.json",
+      "status": "PRESENT"
+    },
+    {
+      "archive_path": "files/delivery/P3_FINITE_REVIEW_032/science_STAGE.json",
+      "byte_limit": 16777216,
+      "bytes": 218868,
+      "sha256": "6921af7e333cba6d551c5149b2642996147b1e428d8b053f3b9e3b0b7ca4271a",
+      "source_mode": "0644",
+      "source_path": "delivery/P3_FINITE_REVIEW_032/science_STAGE.json",
+      "status": "PRESENT"
+    },
+    {
+      "archive_path": "files/delivery/P3_FINITE_REVIEW_032/science_output/REVIEW_VERDICT.json",
+      "byte_limit": 1048576,
+      "bytes": 33801,
+      "sha256": "52d533604e9623ae4e5744bd5c81a41b4efac7f41d9a1f7c46c0f76ad31a1f72",
+      "source_mode": "0400",
+      "source_path": "delivery/P3_FINITE_REVIEW_032/science_output/REVIEW_VERDICT.json",
+      "status": "PRESENT"
+    },
+    {
+      "archive_path": "files/delivery/P3_032_RETURN_WORKFLOW/WORKFLOW_REPORT.json",
+      "byte_limit": 1048576,
+      "bytes": 1901,
+      "sha256": "00ff5ec460b856c19d5f04bd923eef10450cf6e6c015e60dbf768d021c110d00",
+      "source_mode": "0600",
+      "source_path": "delivery/P3_032_RETURN_WORKFLOW/WORKFLOW_REPORT.json",
+      "status": "PRESENT"
+    },
+    {
+      "archive_path": "files/delivery/P3_032_RETURN_WORKFLOW/LAUNCH_RESERVED.json",
+      "byte_limit": 1048576,
+      "bytes": 340,
+      "sha256": "afdcf8ecd95f73f168624806d8324d883394f80434035877e41d495a4fe98f15",
+      "source_mode": "0600",
+      "source_path": "delivery/P3_032_RETURN_WORKFLOW/LAUNCH_RESERVED.json",
+      "status": "PRESENT"
+    },
+    {
+      "archive_path": "files/delivery/P3_032_RETURN_WORKFLOW/LAUNCH_OUTCOME.json",
+      "byte_limit": 1048576,
+      "bytes": 1901,
+      "sha256": "00ff5ec460b856c19d5f04bd923eef10450cf6e6c015e60dbf768d021c110d00",
+      "source_mode": "0600",
+      "source_path": "delivery/P3_032_RETURN_WORKFLOW/LAUNCH_OUTCOME.json",
+      "status": "PRESENT"
+    }
+  ],
+  "summary": {
+    "collection_status": "MAIN_REPORT_PRESENT_FOR_REVIEW",
+    "main_report": "PRESENT",
+    "missing_files_do_not_establish_no_execution": true,
+    "original032_file_count": 9,
+    "present_file_count": 12,
+    "verdict": "PRESENT",
+    "verdict_execution_admission": "NOT_EVALUATED_BY_COLLECTOR",
+    "workflow_launch_outcome": "PRESENT",
+    "workflow_launch_reservation": "PRESENT",
+    "workflow_report": "PRESENT"
+  },
+  "timestamp_omitted_for_idempotence": true
+}

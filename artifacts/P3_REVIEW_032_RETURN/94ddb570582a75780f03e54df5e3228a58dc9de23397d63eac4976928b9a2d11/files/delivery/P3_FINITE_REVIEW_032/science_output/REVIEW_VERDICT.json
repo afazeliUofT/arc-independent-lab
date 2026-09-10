@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "received_utc": "2026-09-10T18:40:21.283396+00:00",
+  "packet_manifest_sha256": "437700c8850b7194b052d159b1eaf6a22b366c4a464e63148bb9b6b3084bdd98",
+  "actual_evidence_sha256": {
+    "docs/P2_OPERATION_SPECIFICATIONS.md": "d37a52eeb569461503b262d2790a656048624ede4790aeb49254e5a9f133c26f",
+    "evidence/P3_C1_C4_PRIMARY_AUDIT.md": "2de34586a2e902d5fc2c9ce71393ed92418dedd0a6c458c0a8db047b3144a784",
+    "private_papers/95e5e12c4206f598103557d311b41931750254924655d5fd7ecd22113a5d5de3.pdf": "95e5e12c4206f598103557d311b41931750254924655d5fd7ecd22113a5d5de3",
+    "pdf_pages/95e5e12c4206f598103557d311b41931750254924655d5fd7ecd22113a5d5de3_p0008.png": "5f1c6da69d2817fdfabb3883f7bec58ad1d5581937189d94435aabbb2d646e9c",
+    "evidence/P3_C2_PRIMARY_AUDIT.md": "d56c20d58d390130da2ef7091c1db550352e5593e6ce2e532aca48d91c42e4fc",
+    "private_papers/71a6d1aee278e93c5fae8dd7d0c452c8b7b035af55d9dce2bc367d473bfc9645.pdf": "71a6d1aee278e93c5fae8dd7d0c452c8b7b035af55d9dce2bc367d473bfc9645",
+    "pdf_pages/71a6d1aee278e93c5fae8dd7d0c452c8b7b035af55d9dce2bc367d473bfc9645_p0009.png": "0eed0ad8391738b8354ae231e9d2e07b12d1d7ee525d2f7fc5be4f689712b0a1",
+    "pdf_pages/71a6d1aee278e93c5fae8dd7d0c452c8b7b035af55d9dce2bc367d473bfc9645_p0011.png": "41f1a18e4b46c74722af8285995b30d38e417b90aef32697b621b3167818c9e5",
+    "private_papers/acb0d65cad3a563a821a3b81c210f6aa0c83a7d730e2b4327bd373a06e5f00f3.pdf": "acb0d65cad3a563a821a3b81c210f6aa0c83a7d730e2b4327bd373a06e5f00f3",
+    "pdf_pages/acb0d65cad3a563a821a3b81c210f6aa0c83a7d730e2b4327bd373a06e5f00f3_p0005.png": "436000cf0a18dec65b107e25828f1c1b663b80bb5cd70fd959eb29f1731935c8",
+    "evidence/P3_C3_PRIMARY_AUDIT.md": "07116664720e544d8cc6d8dd979b3469d50ded587f1d2c1175ade5c8a87d3864",
+    "private_papers/86451bd6586237fc8216266d250d4bc53d47abd62f1e6eafb2b1eed960a45692.pdf": "86451bd6586237fc8216266d250d4bc53d47abd62f1e6eafb2b1eed960a45692",
+    "pdf_pages/86451bd6586237fc8216266d250d4bc53d47abd62f1e6eafb2b1eed960a45692_p0003.png": "5199f084d42de51bde426667105d96b1c98d2c80dda7e772a09abace88984b1c",
+    "private_papers/f78975e59bce5279fa5e200b4bd9dce81d606039c53ddd3d2fa4929e5605319d.pdf": "f78975e59bce5279fa5e200b4bd9dce81d606039c53ddd3d2fa4929e5605319d",
+    "pdf_pages/f78975e59bce5279fa5e200b4bd9dce81d606039c53ddd3d2fa4929e5605319d_p0005.png": "e2261b1c702ed1cb41401c57c0db2278ededeb1fb90efb101da0183e5664720c",
+    "private_papers/46f5eedab58093f2dd4e0470c34d8090ab440cb0d095b288a31ed031bcee6943.pdf": "46f5eedab58093f2dd4e0470c34d8090ab440cb0d095b288a31ed031bcee6943",
+    "evidence/P3_OBSERVER_PRIMARY_AUDIT_2026-09-07.md": "b3190a1075d56362f8e52c9044dc402b963c02f77127fe570191a4e0cd73ce90",
+    "evidence/P3_C4_WRAPPER_AUDIT_2026-09-07.md": "a9b7b273a85a7962e4b7d57e38b96c82454f6265c8090482710f542b8cb21d3f",
+    "evidence/P3_JOINT_AUDIT_BOUNDARY_2026-09-07.md": "3db85b6fa9f8050b4c77f75f09717b3902a5795044f7f8c14b6c78904627bf8c",
+    "private_papers/6afbe29e075cd9dea5591f2dffafeb83a72ae00c568c9e3a506c31d3f371dd0c.pdf": "6afbe29e075cd9dea5591f2dffafeb83a72ae00c568c9e3a506c31d3f371dd0c",
+    "private_papers/93126ade4f0879503bc807357ec8ce412eeeab52ca7f86719fe798f6f372f3ae.pdf": "93126ade4f0879503bc807357ec8ce412eeeab52ca7f86719fe798f6f372f3ae",
+    "pdf_pages/93126ade4f0879503bc807357ec8ce412eeeab52ca7f86719fe798f6f372f3ae_p0003.png": "4e2998238da9cb254bce3dadd5838c7a1154ba335c4232a84ea9de1ee3c605f6",
+    "pdf_pages/93126ade4f0879503bc807357ec8ce412eeeab52ca7f86719fe798f6f372f3ae_p0014.png": "ba39b75776e32b852d74365d30be0fbd8cfc6769ed3e57e534de786c7ef91b87",
+    "private_papers/2af08a6e888d5b68ae45399659cc2e27a8aa5d1ce6b25cb91ff7d8190c187e6a.pdf": "2af08a6e888d5b68ae45399659cc2e27a8aa5d1ce6b25cb91ff7d8190c187e6a",
+    "evidence/P3_THROUGHLINE_PRIOR_METHODS.md": "2cfe2b3cfb38494a394134f7e017cab59ac994d6e70469d427f8361061374913",
+    "evidence/P3_THROUGHLINE_PROPOSITION.md": "a4504d2730a8bbfdf4e07e6f04ed2c6073bc1140e6a3e28a401f348b3b40918a",
+    "private_papers/4d5eedc31e9988b9de3fcc546da31d210e5a735b6eccf46116461a2a7d3c42f9.pdf": "4d5eedc31e9988b9de3fcc546da31d210e5a735b6eccf46116461a2a7d3c42f9",
+    "pdf_pages/4d5eedc31e9988b9de3fcc546da31d210e5a735b6eccf46116461a2a7d3c42f9_p0022.png": "ac7e74f43f162800440964585743f197c8b55fed8b6da5d71bcde117a5aaa8b5",
+    "private_papers/e9c4e30a1a140b093f0bb57dc9fc986788e0033205f79ef87dcd4c0336c12d71.pdf": "e9c4e30a1a140b093f0bb57dc9fc986788e0033205f79ef87dcd4c0336c12d71",
+    "scripts/audit_learner_observer.py": "871ab1e62a592d9b49f93d5d5d783e262f8db1cb15bcc0b8ba6191f0ca0d4b1e",
+    "scripts/run_learner_observer.py": "81682d063317df6f1fd0f0edfd5e86164b86416aac0b83f61aaa11f8f4ba191d",
+    "configs/P2_LEARNER_OBSERVER.json": "87e452f0c05381aee1451bdbc05a60567fc8295089d27ef85bfbd7a5f8d281c1",
+    "artifacts/P2_LEARNER_OBSERVER/20260906_001/results.json": "9c6c95c115e9d350e26c43707092c65208020eac9b02b91d389d335fa3febd08",
+    "reports/P2_LEARNER_OBSERVER_001.md": "5503b185549fcce4daa841a9f4445f53d4f94dc3a43a73440bf877b2d38d1f11",
+    "evidence/P3_OBSERVER_IDENTIFIABILITY_2026-09-07.md": "cf6e0f2be6994a4ccb7021755dc7f6fa6e6ec867b187135b10be565a2e51ccd5",
+    "reports/P2_LEARNER_OBSERVER_METADATA_COMPLETION.md": "8a58646a3179d11f882676c2d76869cb0334eeadd57d53baf1dc6a05ced501ac",
+    "evidence/P3_REVIEW_EXECUTION_CLOSURE_2026-09-07.json": "28db528e70e361593545f94ca72b4bd2eaf4cc0ed0705edd5cfdcbb29c10a2a5",
+    "private_papers/77ca6a277eb55ac3c9c4329492a6d3c71e644ff503b33de51ae79ea031508313.pdf": "77ca6a277eb55ac3c9c4329492a6d3c71e644ff503b33de51ae79ea031508313",
+    "scanned_pages/77ca6a277eb55ac3c9c4329492a6d3c71e644ff503b33de51ae79ea031508313_p030.png": "1cdf2dddaeccece87841389735db0157bc283833a5c09ec022b2881a77bc0e74",
+    "private_papers/65983cd639bffadb3c0700d2c8314d01f2ffaf31e22bb482ac2255ebb5e5a9a5.pdf": "65983cd639bffadb3c0700d2c8314d01f2ffaf31e22bb482ac2255ebb5e5a9a5",
+    "private_papers/6ee0e363a851db324b6ca1dfb6e6c7937b7a6f7019ff75a8092de569ba62834f.pdf": "6ee0e363a851db324b6ca1dfb6e6c7937b7a6f7019ff75a8092de569ba62834f",
+    "pdf_pages/6ee0e363a851db324b6ca1dfb6e6c7937b7a6f7019ff75a8092de569ba62834f_p0023.png": "e345839d51f3872b7a066d433a4a8788d4070b6eb0b4b6e3f1e7163c6319ef30",
+    "pdf_pages/6ee0e363a851db324b6ca1dfb6e6c7937b7a6f7019ff75a8092de569ba62834f_p0024.png": "fd07633ff8eebd1b19c44bfe9208148ba960181f60f859c8799bc2ff115527b4"
+  },
+  "reviewer_verdict": {
+    "verdict": "GO",
+    "applies_to": {
+      "scope": "Independent read-only audit-step review of the frozen Phase 3 analytical novelty audit, applying to the union of the original and residual review manifests. GO means the bounded negative audit is defensibly completed; it does not clear a novel surviving mechanism, candidate efficacy, the initial human/animal/scaling framing, or completion of the research programme.",
+      "original_manifest_sha256": "8d475e93aa21db5d7210f337c036e2705e3a4b83b6d99d43d715161d63b7e374",
+      "supplement_manifest_sha256": "f7249d53060349fdfbaca2102672457e3e8966ef510d6853322b10da75762128"
+    },
+    "summary": "Both review manifests and every listed file were hash-verified against actual bytes. The fixed observer audit was run before judgment and returned a successful receipt (receipt SHA-256 81c4fa7c32b9a27a57dafb0e7675ef37024976e6e43668f4d48295f961a00d78): 6,912 transitions, 6,912 recovery encoder calls, 13,824 evaluator probes, protected inputs unchanged, and maximum arithmetic residual 1.3322676295501878e-15 against tolerance 1e-10. The scientific audit is a correctly qualified negative result. C1 is exactly an online instance of finite-automaton subset construction. C2 is exactly finite belief-state decision planning on its modeled, terminal-task-disclosed domain. C3 has an all-history cached-response refit equivalence and belongs to established representation-stitching families, without proof of literal prior executable identity. C4's selected-scope core and diagnostics reduce to seed-star/local discernibility and bounded hitting-set operations, but historical identity of the entire wrapper is unestablished. T's broad loop has integrated antecedents; the approved components neither specify nor satisfy the proposed whole-system guarantee, and T1-ref proves only a matched implementation identity. The observer's narrow positive accessibility result survives, but its computation is classical residualization under a supplied current-model API and training-history contract; autonomy, robustness, prevalence and efficacy are untested.",
+    "dispositions": [
+      {
+        "subject": "C1",
+        "disposition": "ADVERSE_TO_OPERATIONAL_NOVELTY; EXACT_REDUCTION_ON_THE_APPROVED_DOMAIN; EFFICACY_UNTESTED",
+        "reason": "For the supplied finite model family, encode each tagged pair (h,q) as an NFA state and each actual (action,observation) or declared reset as a symbol. The powerset transition exactly performs C1's prediction check, advance, removal, deduplication, relational reset and absorbing empty-state behavior; restricting the continuation language to a proposed action word gives the same possible output words. This is exact operational equivalence, not merely family resemblance. It is not a claim that Rabin and Scott published C1's reporting labels, lazy data structure or a byte-identical executable. Model-family construction, class adequacy, noise handling and hypothesis expansion remain external; a future operation that actually learned or repaired H0, or established a resource advantage, could escape this reduction, but C1 does neither. No effectiveness result was run.",
+        "evidence": [
+          {
+            "path": "docs/P2_OPERATION_SPECIFICATIONS.md",
+            "sha256": "d37a52eeb569461503b262d2790a656048624ede4790aeb49254e5a9f133c26f"
+          },
+          {
+            "path": "evidence/P3_C1_C4_PRIMARY_AUDIT.md",
+            "sha256": "2de34586a2e902d5fc2c9ce71393ed92418dedd0a6c458c0a8db047b3144a784"
+          },
+          {
+            "path": "private_papers/95e5e12c4206f598103557d311b41931750254924655d5fd7ecd22113a5d5de3.pdf",
+            "sha256": "95e5e12c4206f598103557d311b41931750254924655d5fd7ecd22113a5d5de3"
+          },
+          {
+            "path": "pdf_pages/95e5e12c4206f598103557d311b41931750254924655d5fd7ecd22113a5d5de3_p0008.png",
+            "sha256": "5f1c6da69d2817fdfabb3883f7bec58ad1d5581937189d94435aabbb2d646e9c"
+          }
+        ]
+      },
+      {
+        "subject": "C2",
+        "disposition": "ADVERSE_TO_OPERATIONAL_NOVELTY_WITH_DOMAIN_RESTRICTION; EXACT_MODELED-DOMAIN_REDUCTION; EFFICACY_UNTESTED",
+        "reason": "Writing F(p)=sum_g mu(g) min_d E_p[L_g] makes maximizing C2's value exactly equivalent to minimizing expected experiment cost plus posterior terminal Bayes loss. A finite POMDP/decision process with macro-kernel Q_e—or an augmented experiment/tree-node state—reproduces the posterior, branch-contingent actions, hard branchwise allowance, stopping and fixed tie order. The equality is restricted to modeled histories and to disclosure of g before the terminal decision (or an equivalent contingent policy); if one decision is required while g stays hidden, the approved sum-of-minima is not that problem. C2 itself emits an experiment or stop and a posterior, not the downstream terminal action. A zero-probability actual transcript requires C2's typed model-inconsistent guard and is not a literal historical POMDP implementation detail. Kaelbling et al. and Huang et al. establish the planning and decision-utility families, not byte-identical C2 software. The model, tree library, task losses and prior are supplied, and no efficacy or unrestricted-horizon claim is established.",
+        "evidence": [
+          {
+            "path": "docs/P2_OPERATION_SPECIFICATIONS.md",
+            "sha256": "d37a52eeb569461503b262d2790a656048624ede4790aeb49254e5a9f133c26f"
+          },
+          {
+            "path": "evidence/P3_C2_PRIMARY_AUDIT.md",
+            "sha256": "d56c20d58d390130da2ef7091c1db550352e5593e6ce2e532aca48d91c42e4fc"
+          },
+          {
+            "path": "private_papers/71a6d1aee278e93c5fae8dd7d0c452c8b7b035af55d9dce2bc367d473bfc9645.pdf",
+            "sha256": "71a6d1aee278e93c5fae8dd7d0c452c8b7b035af55d9dce2bc367d473bfc9645"
+          },
+          {
+            "path": "pdf_pages/71a6d1aee278e93c5fae8dd7d0c452c8b7b035af55d9dce2bc367d473bfc9645_p0009.png",
+            "sha256": "0eed0ad8391738b8354ae231e9d2e07b12d1d7ee525d2f7fc5be4f689712b0a1"
+          },
+          {
+            "path": "pdf_pages/71a6d1aee278e93c5fae8dd7d0c452c8b7b035af55d9dce2bc367d473bfc9645_p0011.png",
+            "sha256": "41f1a18e4b46c74722af8285995b30d38e417b90aef32697b621b3167818c9e5"
+          },
+          {
+            "path": "private_papers/acb0d65cad3a563a821a3b81c210f6aa0c83a7d730e2b4327bd373a06e5f00f3.pdf",
+            "sha256": "acb0d65cad3a563a821a3b81c210f6aa0c83a7d730e2b4327bd373a06e5f00f3"
+          },
+          {
+            "path": "pdf_pages/acb0d65cad3a563a821a3b81c210f6aa0c83a7d730e2b4327bd373a06e5f00f3_p0005.png",
+            "sha256": "436000cf0a18dec65b107e25828f1c1b663b80bb5cd70fd959eb29f1731935c8"
+          }
+        ]
+      },
+      {
+        "subject": "C3",
+        "disposition": "ADVERSE_TO_MECHANISM_NOVELTY; EXACT_ALL-HISTORY_BEHAVIORAL_REDUCTION_AND_PRIOR_FAMILY_MEMBERSHIP; LITERAL_IMPLEMENTATION_PRIORITY_UNCLAIMED; EFFICACY_UNTESTED",
+        "reason": "Let A=Z^T Z+lambda I, Y=RW and D=TW. C3 gives D=A^{-1}(Z^T Y+lambda W), the unique minimizer of ||ZD-Y||_F^2+lambda||D-W||_F^2, and therefore emits f_theta(x)D=f_theta(x)TW on every allowed history, refresh, query and reset. This is a stronger behavioral reduction than noting that both methods use regression. Its paired current/reference activations, linear stitch and fixed destination reader also lie in established representation matching/stitching and latent-translation families. The retained R (or Y), anchors, reader and schedule are answer-bearing historical state; C3 is not the observer's current-state-only access condition. Reversal evidence is preserved: the inspected papers do not establish a literal executable with C3's exact cache, identity-centered penalty, refresh schedule and reset contract, and a useful held-out generalization effect is possible. But no distinctive output, inference rule, measured resource advantage or efficacy relative to the matched cached-response refit is demonstrated.",
+        "evidence": [
+          {
+            "path": "docs/P2_OPERATION_SPECIFICATIONS.md",
+            "sha256": "d37a52eeb569461503b262d2790a656048624ede4790aeb49254e5a9f133c26f"
+          },
+          {
+            "path": "evidence/P3_C3_PRIMARY_AUDIT.md",
+            "sha256": "07116664720e544d8cc6d8dd979b3469d50ded587f1d2c1175ade5c8a87d3864"
+          },
+          {
+            "path": "private_papers/86451bd6586237fc8216266d250d4bc53d47abd62f1e6eafb2b1eed960a45692.pdf",
+            "sha256": "86451bd6586237fc8216266d250d4bc53d47abd62f1e6eafb2b1eed960a45692"
+          },
+          {
+            "path": "pdf_pages/86451bd6586237fc8216266d250d4bc53d47abd62f1e6eafb2b1eed960a45692_p0003.png",
+            "sha256": "5199f084d42de51bde426667105d96b1c98d2c80dda7e772a09abace88984b1c"
+          },
+          {
+            "path": "private_papers/f78975e59bce5279fa5e200b4bd9dce81d606039c53ddd3d2fa4929e5605319d.pdf",
+            "sha256": "f78975e59bce5279fa5e200b4bd9dce81d606039c53ddd3d2fa4929e5605319d"
+          },
+          {
+            "path": "pdf_pages/f78975e59bce5279fa5e200b4bd9dce81d606039c53ddd3d2fa4929e5605319d_p0005.png",
+            "sha256": "e2261b1c702ed1cb41401c57c0db2278ededeb1fb90efb101da0183e5664720c"
+          },
+          {
+            "path": "private_papers/46f5eedab58093f2dd4e0470c34d8090ab440cb0d095b288a31ed031bcee6943.pdf",
+            "sha256": "46f5eedab58093f2dd4e0470c34d8090ab440cb0d095b288a31ed031bcee6943"
+          },
+          {
+            "path": "evidence/P3_OBSERVER_PRIMARY_AUDIT_2026-09-07.md",
+            "sha256": "b3190a1075d56362f8e52c9044dc402b963c02f77127fe570191a4e0cd73ce90"
+          }
+        ]
+      },
+      {
+        "subject": "C4",
+        "disposition": "CORE_ADVERSE_TO_OPERATIONAL_NOVELTY; WHOLE_WRAPPER_HISTORICAL_PRIORITY_UNRESOLVED; JOINT_KNOWLEDGE_GUARANTEE_NOT_ESTABLISHED; EFFICACY_UNTESTED",
+        "reason": "For a fixed seed, each negative defines the atom-difference set D_n. Seed-compatible conjunctions of size at most k are exactly size-bounded hitting sets, and C4's coverage/length/identifier preference selects the same preferred local prime implicant/seed-star element when search is complete and untruncated. An empty D_n is a seed-relative signature collision and must be checked explicitly rather than omitted by a standard discernibility formula; all nonempty D_n with no bounded hitting set give the separate length-bound result. Encounter identities, supplied provenance routing, collisions away from the seed and complete-search status matter. These are local record certificates, not causal diagnoses of a missing world variable. Established-condition use has a knowledge-based-planning antecedent, while C4's exact conflict/provenance/reporting package is not shown as one literal historical implementation. The retained seed, P, N and atom definitions do suffice to reconstruct both tied A and B scopes in the counterexample, at combinatorial search/output cost; the alternative is omitted from the selected response, not erased from state. No approved joint factual veto makes C1 consensus control C4 release. Thus the core reduction is adverse, while whole-wrapper priority remains genuinely unestablished—not affirmative novelty and not a fabricated nonnovelty proof. No efficacy is shown.",
+        "evidence": [
+          {
+            "path": "docs/P2_OPERATION_SPECIFICATIONS.md",
+            "sha256": "d37a52eeb569461503b262d2790a656048624ede4790aeb49254e5a9f133c26f"
+          },
+          {
+            "path": "evidence/P3_C1_C4_PRIMARY_AUDIT.md",
+            "sha256": "2de34586a2e902d5fc2c9ce71393ed92418dedd0a6c458c0a8db047b3144a784"
+          },
+          {
+            "path": "evidence/P3_C4_WRAPPER_AUDIT_2026-09-07.md",
+            "sha256": "a9b7b273a85a7962e4b7d57e38b96c82454f6265c8090482710f542b8cb21d3f"
+          },
+          {
+            "path": "evidence/P3_JOINT_AUDIT_BOUNDARY_2026-09-07.md",
+            "sha256": "3db85b6fa9f8050b4c77f75f09717b3902a5795044f7f8c14b6c78904627bf8c"
+          },
+          {
+            "path": "private_papers/6afbe29e075cd9dea5591f2dffafeb83a72ae00c568c9e3a506c31d3f371dd0c.pdf",
+            "sha256": "6afbe29e075cd9dea5591f2dffafeb83a72ae00c568c9e3a506c31d3f371dd0c"
+          },
+          {
+            "path": "private_papers/93126ade4f0879503bc807357ec8ce412eeeab52ca7f86719fe798f6f372f3ae.pdf",
+            "sha256": "93126ade4f0879503bc807357ec8ce412eeeab52ca7f86719fe798f6f372f3ae"
+          },
+          {
+            "path": "pdf_pages/93126ade4f0879503bc807357ec8ce412eeeab52ca7f86719fe798f6f372f3ae_p0003.png",
+            "sha256": "4e2998238da9cb254bce3dadd5838c7a1154ba335c4232a84ea9de1ee3c605f6"
+          },
+          {
+            "path": "pdf_pages/93126ade4f0879503bc807357ec8ce412eeeab52ca7f86719fe798f6f372f3ae_p0014.png",
+            "sha256": "ba39b75776e32b852d74365d30be0fbd8cfc6769ed3e57e534de786c7ef91b87"
+          },
+          {
+            "path": "private_papers/2af08a6e888d5b68ae45399659cc2e27a8aa5d1ce6b25cb91ff7d8190c187e6a.pdf",
+            "sha256": "2af08a6e888d5b68ae45399659cc2e27a8aa5d1ce6b25cb91ff7d8190c187e6a"
+          }
+        ]
+      },
+      {
+        "subject": "T",
+        "disposition": "NOT_CLEARED_AS_A_NOVEL_WHOLE; BROAD_PRINCIPLE_HAS_INTEGRATED_ANTECEDENTS; APPROVED_COMBINATION_INCOMPLETE_AND_PROPOSED_GUARANTEE_REFUTED; WHOLE-COMBINATION_PRIORITY_UNRESOLVED",
+        "reason": "KWIK-Rmax is a genuine historical closed-loop antecedent in which known/unknown reports alter planning, real interaction supplies transitions/rewards, and learners update; Bayes-adaptive POMDPs integrate physical-state and model uncertainty, including retention across declared physical resets; PKS supplies a knowledge-conditioned execution antecedent. None is identical to C2's Bayes-value rule or C4's diagnostics. Component reductions therefore do not settle exact whole-combination priority. Independently, the approved components do not specify shared model identity, event semantics, belief/support coupling, response precedence, persistence or costs. The C4 tie history permits a factual release under selected A while equally compatible B would not license it; a C1 veto would be a new explicit coupling. T1-ref avoids that error but establishes only equality to a controller into which the same factual predicate and auxiliary C4 computation were deliberately installed; it is not historical priority evidence for C4 or the whole package. Thus T0's broad principle is anticipated, J1 fails, J2 cannot be decided for an unspecified controller, and no surviving complete mechanism or efficacy result is established.",
+        "evidence": [
+          {
+            "path": "docs/P2_OPERATION_SPECIFICATIONS.md",
+            "sha256": "d37a52eeb569461503b262d2790a656048624ede4790aeb49254e5a9f133c26f"
+          },
+          {
+            "path": "evidence/P3_THROUGHLINE_PRIOR_METHODS.md",
+            "sha256": "2cfe2b3cfb38494a394134f7e017cab59ac994d6e70469d427f8361061374913"
+          },
+          {
+            "path": "evidence/P3_THROUGHLINE_PROPOSITION.md",
+            "sha256": "a4504d2730a8bbfdf4e07e6f04ed2c6073bc1140e6a3e28a401f348b3b40918a"
+          },
+          {
+            "path": "evidence/P3_JOINT_AUDIT_BOUNDARY_2026-09-07.md",
+            "sha256": "3db85b6fa9f8050b4c77f75f09717b3902a5795044f7f8c14b6c78904627bf8c"
+          },
+          {
+            "path": "private_papers/4d5eedc31e9988b9de3fcc546da31d210e5a735b6eccf46116461a2a7d3c42f9.pdf",
+            "sha256": "4d5eedc31e9988b9de3fcc546da31d210e5a735b6eccf46116461a2a7d3c42f9"
+          },
+          {
+            "path": "pdf_pages/4d5eedc31e9988b9de3fcc546da31d210e5a735b6eccf46116461a2a7d3c42f9_p0022.png",
+            "sha256": "ac7e74f43f162800440964585743f197c8b55fed8b6da5d71bcde117a5aaa8b5"
+          },
+          {
+            "path": "private_papers/e9c4e30a1a140b093f0bb57dc9fc986788e0033205f79ef87dcd4c0336c12d71.pdf",
+            "sha256": "e9c4e30a1a140b093f0bb57dc9fc986788e0033205f79ef87dcd4c0336c12d71"
+          },
+          {
+            "path": "private_papers/2af08a6e888d5b68ae45399659cc2e27a8aa5d1ce6b25cb91ff7d8190c187e6a.pdf",
+            "sha256": "2af08a6e888d5b68ae45399659cc2e27a8aa5d1ce6b25cb91ff7d8190c187e6a"
+          }
+        ]
+      },
+      {
+        "subject": "observer",
+        "disposition": "NARROW_DIAGNOSTIC_VALIDATED; RECOVERY_COMPUTATION_NONNOVEL; AUTONOMY_ROBUSTNESS_GENERALITY_AND_EFFICACY_UNTESTED",
+        "reason": "The fixed audit's successful receipt independently recomputed the frozen arithmetic and archive checks; no trajectory bulk-read was needed to duplicate it. In the actual source, the strongest reader receives current theta plus unlabeled features a and b obtained by calling the supplied current fixed FeatureAPI for identified contexts A and B. Zero initialization and A-only then B-only rank-one updates imply theta=ak+bd, so residualizing a against b and regressing theta's coordinates returns k(a^T a). Current theta is the regression response vector; no old training label is used. This is exactly partial regression/Frisch-Waugh-Lovell algebra, with Lenth's query-specific estimability as the rank-deficient analogue. Lovell's printed strict row condition can be met by appending a known zero coordinate without adding information; the direct deterministic normal-equation proof does not need that statistical degrees-of-freedom condition. The positive interpretation survives the reduction: under the full permitted API, an old boundary answer is accessible when the ordinary readout is wrong, and the weaker erased-B-interface collision does not refute that result. Conversely, the callable old/subsequent features, known context identities, fixed map, zero baseline and schedule are essential supplied structure; no decoder discovery or invocation is autonomous. The unrestricted-domain condition U∩V⊆ker L is correct, but finite codebooks can restore identifiability; near-collinear state-error amplification reaches 1/|sin(phi)|, while the tested rotations preserve phi and exact collinearity only triggers the programmed tolerance abstention. Metadata completion was a post-run export and cannot be treated as runtime emission or prospective-gate evidence. Zheng Appendix F.1's displayed L delta inequality is refuted by scalar L=2 and W1=W2=delta>0, but that issue is separate from its empirical recovery procedure. No prevalence, modern-model, biological or efficacy conclusion follows.",
+        "evidence": [
+          {
+            "path": "scripts/audit_learner_observer.py",
+            "sha256": "871ab1e62a592d9b49f93d5d5d783e262f8db1cb15bcc0b8ba6191f0ca0d4b1e"
+          },
+          {
+            "path": "scripts/run_learner_observer.py",
+            "sha256": "81682d063317df6f1fd0f0edfd5e86164b86416aac0b83f61aaa11f8f4ba191d"
+          },
+          {
+            "path": "configs/P2_LEARNER_OBSERVER.json",
+            "sha256": "87e452f0c05381aee1451bdbc05a60567fc8295089d27ef85bfbd7a5f8d281c1"
+          },
+          {
+            "path": "artifacts/P2_LEARNER_OBSERVER/20260906_001/results.json",
+            "sha256": "9c6c95c115e9d350e26c43707092c65208020eac9b02b91d389d335fa3febd08"
+          },
+          {
+            "path": "reports/P2_LEARNER_OBSERVER_001.md",
+            "sha256": "5503b185549fcce4daa841a9f4445f53d4f94dc3a43a73440bf877b2d38d1f11"
+          },
+          {
+            "path": "evidence/P3_OBSERVER_PRIMARY_AUDIT_2026-09-07.md",
+            "sha256": "b3190a1075d56362f8e52c9044dc402b963c02f77127fe570191a4e0cd73ce90"
+          },
+          {
+            "path": "evidence/P3_OBSERVER_IDENTIFIABILITY_2026-09-07.md",
+            "sha256": "cf6e0f2be6994a4ccb7021755dc7f6fa6e6ec867b187135b10be565a2e51ccd5"
+          },
+          {
+            "path": "reports/P2_LEARNER_OBSERVER_METADATA_COMPLETION.md",
+            "sha256": "8a58646a3179d11f882676c2d76869cb0334eeadd57d53baf1dc6a05ced501ac"
+          },
+          {
+            "path": "evidence/P3_REVIEW_EXECUTION_CLOSURE_2026-09-07.json",
+            "sha256": "28db528e70e361593545f94ca72b4bd2eaf4cc0ed0705edd5cfdcbb29c10a2a5"
+          },
+          {
+            "path": "private_papers/77ca6a277eb55ac3c9c4329492a6d3c71e644ff503b33de51ae79ea031508313.pdf",
+            "sha256": "77ca6a277eb55ac3c9c4329492a6d3c71e644ff503b33de51ae79ea031508313"
+          },
+          {
+            "path": "scanned_pages/77ca6a277eb55ac3c9c4329492a6d3c71e644ff503b33de51ae79ea031508313_p030.png",
+            "sha256": "1cdf2dddaeccece87841389735db0157bc283833a5c09ec022b2881a77bc0e74"
+          },
+          {
+            "path": "private_papers/65983cd639bffadb3c0700d2c8314d01f2ffaf31e22bb482ac2255ebb5e5a9a5.pdf",
+            "sha256": "65983cd639bffadb3c0700d2c8314d01f2ffaf31e22bb482ac2255ebb5e5a9a5"
+          },
+          {
+            "path": "private_papers/6ee0e363a851db324b6ca1dfb6e6c7937b7a6f7019ff75a8092de569ba62834f.pdf",
+            "sha256": "6ee0e363a851db324b6ca1dfb6e6c7937b7a6f7019ff75a8092de569ba62834f"
+          },
+          {
+            "path": "pdf_pages/6ee0e363a851db324b6ca1dfb6e6c7937b7a6f7019ff75a8092de569ba62834f_p0023.png",
+            "sha256": "e345839d51f3872b7a066d433a4a8788d4070b6eb0b4b6e3f1e7163c6319ef30"
+          },
+          {
+            "path": "pdf_pages/6ee0e363a851db324b6ca1dfb6e6c7937b7a6f7019ff75a8092de569ba62834f_p0024.png",
+            "sha256": "fd07633ff8eebd1b19c44bfe9208148ba960181f60f859c8799bc2ff115527b4"
+          }
+        ]
+      }
+    ],
+    "strongest_objections": [
+      "Comparator smuggling could manufacture nonnovelty by copying the disputed candidate into a reference. I checked state, inputs, update, allocation, reset and cost against the primary methods. C1 and C2 have genuine exact mathematical compilations; C3 has an independent all-history output identity; C4's core predicates have direct antecedents. By contrast, C4's whole wrapper and T1-ref are not treated as historical-priority proofs, and exact whole-combination priority remains unresolved.",
+      "The reductions or observer could succeed only because hidden history, a broader model, or a changed domain was granted. I checked C2's terminal-task timing and zero-likelihood boundary, C3's cached historical targets, C4's encounter/provenance admission, and the observer's actual function signatures and current FeatureAPI. The observer uses no old label but does use callable A/B geometry and a supplied zero-initialized A-then-B contract; the stripped-interface impossibility and finite-codebook limitation are kept separate.",
+      "Algebraic equivalence could be overread as an effective mechanism or universal diagnosis. Explicit counterhistories show C3 cannot restore collapsed current features, C4's selected scope can release despite a tied alternative, and a unanimous supplied class can omit the true world. The fixed observer run tests only a deterministic two-dimensional contract, not autonomous discovery, near-collinear robustness or prevalence. No treatment data support candidate efficacy, human/animal claims, scaling claims or a modern-system prevalence estimate."
+    ],
+    "missing_dependencies": [
+      "No blocking primary-method dependency remains for this bounded verdict: the method-coverage index reports complete local access for all 29 stated roles, and the decision-relevant pages used here were inspected in original PDFs/page images. The broader bibliography is explicitly not closed.",
+      "Exact historical priority of the complete C4 wrapper remains unresolved, and exact priority/novelty of a complete C1-C2-C4 controller cannot be assessed until that controller's shared state, response precedence, event semantics, reset and resource property are specified. This is an evidentiary limit, not a novelty presumption.",
+      "Nonblocking source-version limits remain: Frisch-Waugh 1933 and the final Lovell JASA typesetting were not obtained; the observer comparison therefore relies on the hash-pinned Lovell Cowles working paper plus direct algebra. Final AAAI HAL and final CVPR Davari bytes were not inspected, so those non-equivalence comparisons remain limited to the pinned preprints. Optional Howard/Raiffa, Skowron-Rauszer/Reiter and delegated PKS/KWIK proofs were not used to claim earliest priority or re-prove guarantees.",
+      "Separate evidence would be required for candidate efficacy, class-adequacy discovery, autonomous observer invention/invocation, feature-error and near-collinearity robustness, modern-model prevalence, and the initial human/animal/scaling framing. None may be inferred from this audit."
+    ],
+    "required_corrections": [
+      "Any downstream synthesis must distinguish exact operational/behavioral reduction, family membership and literal published implementation. In particular, do not convert the C1-C3 reductions into claims that one historical executable had every current label, cache, schedule or exception convention.",
+      "State C2's equivalence only on modeled histories with the terminal task disclosed before its decision (or an equivalent contingent policy), preserve the branchwise hard allowance and zero-probability guard, and do not attribute a terminal action output to the approved selector.",
+      "Describe C3 as an established stitching-family instance with an exact cached-response behavioral reduction. Charge X/R or X/Y, W, fit work and persistence as historical information; do not identify it with the observer's current-state access condition or claim literal prior package identity.",
+      "Replace any C4 'erasure' language with 'omitted from the selected response' where the witnesses remain retained. Preserve encounter identities, explicit empty-clause alias checking, complete bounded search, reconstruction cost, the local-not-causal scope of diagnostics, and the unresolved historical status of the whole wrapper.",
+      "Do not use T1-ref as historical priority evidence for the C4 computation inserted into it. Before any whole-combination novelty claim, freeze a complete joint operation with shared model/belief identity, common event semantics, factual/action response precedence, reset/persistence and full resource accounting; retain the demonstrated C4 tie counterexample unless an explicit veto is added and separately audited.",
+      "Report the observer as current theta plus callable current A/B features under a supplied zero-initialized fixed-map A-then-B rank-one contract—not as weights alone, autonomous recovery or old-label-free structure in an absolute sense. Preserve the distinct retained-span allowance, rank/tolerance behavior, 1/|sin(phi)| conditioning limit and finite-codebook caveat.",
+      "Keep the metadata-completion files explicitly post-run and do not treat the fixed post-execution auditor as a prospective gate, an external execution proof or an information-flow security proof. Do not use Zheng Lemma F.1's exact L delta inequality without correction, and do not transfer that mathematical defect to the paper's empirical recovery result.",
+      "Do not infer efficacy, modern prevalence, biological generality, human/animal competence or a failure of scaling from this analytical audit. Any such claim requires a separately authorized, prospectively frozen measurement with unchanged thresholds and no invented treatment observations."
+    ]
+  },
+  "broker_role": "transport and integrity only; no scientific verdict generated"
+}

@@ -1,0 +1,53 @@
+{
+  "automatic_retry": false,
+  "controller_invoked": true,
+  "controller_outcome": {
+    "controller_reaped": true,
+    "controller_started": true,
+    "controller_status_lines": [
+      "STATUS: REVIEWER_OUTPUT_PRESERVED",
+      "REPORT: /home/afazeli2006/ARC_Independent_Lab/delivery/P3_FINITE_REVIEW_032/REPORT.json",
+      "REPORT_SHA256: 82bbdccc5f2a2a21d6ab5c6f7395d4083b9aefd1660dc08119593f8588a18a4d",
+      "REVIEW_VERDICT: /home/afazeli2006/ARC_Independent_Lab/delivery/P3_FINITE_REVIEW_032/science_output/REVIEW_VERDICT.json"
+    ],
+    "elapsed_seconds": 1058.41873,
+    "exit_code": 0,
+    "forced_controller_cleanup": false,
+    "interrupted": false,
+    "native_cleanup_inferred": false,
+    "outer_guard_reached": false,
+    "outer_guard_seconds": 4310,
+    "raw_stderr_saved_or_hashed": false,
+    "raw_streams_saved_or_hashed": false,
+    "stderr_exception_classes": [],
+    "stderr_frames": [],
+    "stream_bytes_observed": {
+      "stderr": 0,
+      "stdout": 321
+    },
+    "stream_capture_truncated": {
+      "stderr": false,
+      "stdout": false
+    }
+  },
+  "credential_contents_read": false,
+  "existing_paths": {
+    "delivery/P3_032_RETURN_WORKFLOW/LAUNCH_RESERVED.json": false,
+    "delivery/P3_FINITE_REVIEW_032": false
+  },
+  "finished_utc": "2026-09-10T18:40:22.064222+00:00",
+  "inspection_outcome": null,
+  "kind": "P3_032_RETURN_WORKFLOW_v1",
+  "model_allowance_added_by_wrapper": false,
+  "observed_at_return": {
+    "delivery/P3_FINITE_REVIEW_032/REPORT.json": true,
+    "delivery/P3_FINITE_REVIEW_032/science_output/REVIEW_VERDICT.json": true
+  },
+  "publication_performed_by_workflow": false,
+  "reason_code": null,
+  "scientific_admission_asserted": false,
+  "scope032_additional_starts_ceiling": 2,
+  "scope032_additional_turns_ceiling": 2,
+  "started_utc": "2026-09-10T18:22:43.637402+00:00",
+  "status": "CONTROLLER_RETURNED_EVIDENCE_COLLECTION_REQUIRED"
+}

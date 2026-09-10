@@ -1,0 +1,8 @@
+{
+  "automatic_retry": false,
+  "controller_relative_path": "scripts/p3_finite_review_032.py",
+  "controller_sha256": "b1e5a8b083ec2776696c086c2a6ece56385922222e5d9ecd9b356f45a31bb0b3",
+  "kind": "P3_032_WRAPPER_EXCLUSIVE_RESERVATION_v1",
+  "native_start_or_model_turn_proven": false,
+  "reserved_utc": "2026-09-10T18:22:43.643164+00:00"
+}
