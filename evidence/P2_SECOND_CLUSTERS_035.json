@@ -1,0 +1,381 @@
+{
+  "record": "P2_SECOND_CLUSTERING_ADOPTED_035",
+  "date_utc": "2026-09-10",
+  "published_input_commit": "53768f9fc6b867834e1ab03b86248b487a19b617",
+  "status": "PI_primary_partition_adopted",
+  "independent_scientific_review": false,
+  "generation_already_complete": true,
+  "novelty_used_for_selection": false,
+  "feasibility_used_for_selection": false,
+  "literature_search_conducted": false,
+  "nearest_method_flags_included": false,
+  "input_files": [
+    {
+      "path": "IDEAS_02_RAW.md",
+      "sha256": "9ea79c14951a0662c5db69d3c6fd245e79a5da1b2dec572a542619f08d2a4706",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/53768f9fc6b867834e1ab03b86248b487a19b617/IDEAS_02_RAW.md",
+      "accessed": "2026-09-10"
+    },
+    {
+      "path": "docs/P2_SECOND_PASS_BRIEF_033.md",
+      "sha256": "b1d0147fb7873368d1e6f2b34b617ba0896a19407a1a86ad02b4a467e15735ac",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/53768f9fc6b867834e1ab03b86248b487a19b617/docs/P2_SECOND_PASS_BRIEF_033.md",
+      "accessed": "2026-09-10"
+    },
+    {
+      "path": "DIAGNOSIS.md",
+      "sha256": "e3106d737f5b50a688d1d5147a015dc091d2986493848b68d33d61949dfa4cc3",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/53768f9fc6b867834e1ab03b86248b487a19b617/DIAGNOSIS.md",
+      "accessed": "2026-09-10"
+    },
+    {
+      "path": "docs/governing/02_RESEARCH_PROCESS.md",
+      "sha256": "7bf3c496962d0ede489ef10a237d3b70830fb439f3395235c3b8c18a23c4bc3d",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/53768f9fc6b867834e1ab03b86248b487a19b617/docs/governing/02_RESEARCH_PROCESS.md",
+      "accessed": "2026-09-10"
+    }
+  ],
+  "clusters": [
+    {
+      "id": "G1",
+      "name": "Represent an unresolved contrast, then extend descriptive state",
+      "count": 8,
+      "primary_members": [
+        "R2-B1-01",
+        "R2-B1-03",
+        "R2-B1-09",
+        "R2-B1-11",
+        "R2-B1-16",
+        "R2-B2-02",
+        "R2-B2-16",
+        "R2-B2-18"
+      ]
+    },
+    {
+      "id": "G2",
+      "name": "Build operational relations from procedures and substitutions",
+      "count": 8,
+      "primary_members": [
+        "R2-B1-02",
+        "R2-B1-04",
+        "R2-B1-05",
+        "R2-B1-10",
+        "R2-B1-12",
+        "R2-B1-23",
+        "R2-B2-15",
+        "R2-B3-11"
+      ]
+    },
+    {
+      "id": "G3",
+      "name": "Learn conditions under which evidence becomes observable",
+      "count": 9,
+      "primary_members": [
+        "R2-B1-06",
+        "R2-B1-07",
+        "R2-B1-08",
+        "R2-B2-05",
+        "R2-B2-06",
+        "R2-B2-13",
+        "R2-B2-17",
+        "R2-B3-04",
+        "R2-B3-14"
+      ]
+    },
+    {
+      "id": "G4",
+      "name": "Revise construction languages and maintain partial correspondences",
+      "count": 13,
+      "primary_members": [
+        "R2-B1-13",
+        "R2-B1-14",
+        "R2-B1-15",
+        "R2-B1-17",
+        "R2-B1-19",
+        "R2-B1-20",
+        "R2-B1-21",
+        "R2-B1-22",
+        "R2-B1-24",
+        "R2-B2-24",
+        "R2-B3-07",
+        "R2-B3-12",
+        "R2-B3-23"
+      ]
+    },
+    {
+      "id": "G5",
+      "name": "Produce contrasts before predicting their informational value",
+      "count": 11,
+      "primary_members": [
+        "R2-B1-18",
+        "R2-B2-01",
+        "R2-B2-04",
+        "R2-B2-07",
+        "R2-B2-08",
+        "R2-B2-09",
+        "R2-B2-12",
+        "R2-B2-19",
+        "R2-B2-20",
+        "R2-B2-21",
+        "R2-B2-22"
+      ]
+    },
+    {
+      "id": "G6",
+      "name": "Learn experimental habits and preserve access to future experiments",
+      "count": 5,
+      "primary_members": [
+        "R2-B2-03",
+        "R2-B2-10",
+        "R2-B2-11",
+        "R2-B2-14",
+        "R2-B2-23"
+      ]
+    },
+    {
+      "id": "G7",
+      "name": "Learn readers through observed changes to a memory carrier",
+      "count": 8,
+      "primary_members": [
+        "R2-B3-01",
+        "R2-B3-02",
+        "R2-B3-06",
+        "R2-B3-08",
+        "R2-B3-09",
+        "R2-B3-15",
+        "R2-B3-16",
+        "R2-B3-17"
+      ]
+    },
+    {
+      "id": "G8",
+      "name": "Preserve constraints that teach a future reader",
+      "count": 5,
+      "primary_members": [
+        "R2-B3-03",
+        "R2-B3-05",
+        "R2-B3-13",
+        "R2-B3-19",
+        "R2-B3-20"
+      ]
+    },
+    {
+      "id": "G9",
+      "name": "Calibrate use of a reader or reopen acquisition",
+      "count": 5,
+      "primary_members": [
+        "R2-B3-10",
+        "R2-B3-18",
+        "R2-B3-21",
+        "R2-B3-22",
+        "R2-B3-24"
+      ]
+    }
+  ],
+  "secondary_links": [
+    {
+      "raw_id": "R2-B1-02",
+      "primary": "G2",
+      "also": [
+        "G1"
+      ],
+      "reason": "An executable test can become the descriptive primitive that resolves a contrast."
+    },
+    {
+      "raw_id": "R2-B2-18",
+      "primary": "G1",
+      "also": [
+        "G5",
+        "G6"
+      ],
+      "reason": "A descriptive gap requests an experiment before a world hypothesis exists."
+    },
+    {
+      "raw_id": "R2-B2-03",
+      "primary": "G6",
+      "also": [
+        "G3"
+      ],
+      "reason": "Reopening experimental opportunities can restore access to evidence."
+    },
+    {
+      "raw_id": "R2-B3-07",
+      "primary": "G4",
+      "also": [
+        "G7"
+      ],
+      "reason": "A changing construction language can be specialized to learned reader repair."
+    },
+    {
+      "raw_id": "R2-B3-13",
+      "primary": "G8",
+      "also": [
+        "G7"
+      ],
+      "reason": "Trial future-reader behavior can inform which explicit teaching memory survives."
+    },
+    {
+      "raw_id": "R2-B3-14",
+      "primary": "G3",
+      "also": [
+        "G9"
+      ],
+      "reason": "An external contrast can calibrate a reader, with reacquisition counted separately."
+    },
+    {
+      "raw_id": "R2-B3-23",
+      "primary": "G4",
+      "also": [
+        "G1",
+        "G9"
+      ],
+      "reason": "Old questions retain unresolved translations when descriptive state changes."
+    }
+  ],
+  "proposed_directions": [
+    {
+      "id": "A",
+      "name": "Convert unresolved contrast to executable descriptive primitive",
+      "bottleneck": "B1",
+      "origins": [
+        "R2-B1-01",
+        "R2-B1-02",
+        "R2-B1-03",
+        "R2-B1-16",
+        "R2-B2-18"
+      ],
+      "learned_object": "Operational predicate or history-state component constructed from permitted encounters",
+      "must_expose": [
+        "Initial test grammar and tokenization",
+        "Learner-generated failure obligation without hidden-factor hints",
+        "Passive test versus invasive procedure semantics",
+        "Unresolved distinctions and limited empirical support"
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Learn reusable substitution roles from acquired action procedures",
+      "bottleneck": "B1",
+      "origins": [
+        "R2-B1-04",
+        "R2-B1-05",
+        "R2-B1-10",
+        "R2-B1-12",
+        "R2-B2-15"
+      ],
+      "learned_object": "Context-qualified equivalence and boundary relations among acquired procedure fragments",
+      "must_expose": [
+        "Enumeration of candidate boundaries and exchanges",
+        "Operational consequences actually compared",
+        "Participant identities supplied by interface versus roles learned",
+        "Limits of context coverage and failed compositions"
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Learn experiment-building habits from the revisions they enable",
+      "bottleneck": "B2",
+      "origins": [
+        "R2-B2-01",
+        "R2-B2-03",
+        "R2-B2-10",
+        "R2-B2-11",
+        "R2-B2-23"
+      ],
+      "learned_object": "Reusable procedure compositions, mutations and empirical access relations",
+      "must_expose": [
+        "Actual update that creates executable experiment structure",
+        "Delayed credit definition beyond raw count of new predicates",
+        "Generator prior and future-demand family",
+        "Executed observations distinguished from modeled outcomes"
+      ]
+    },
+    {
+      "id": "D",
+      "name": "Learn evidence restoration and distinguish measurement from intervention",
+      "bottleneck": "B2",
+      "origins": [
+        "R2-B1-06",
+        "R2-B1-07",
+        "R2-B1-08",
+        "R2-B2-05",
+        "R2-B2-06",
+        "R2-B2-13",
+        "R2-B2-17"
+      ],
+      "learned_object": "Empirical procedure relations governing which contrasts become observable",
+      "must_expose": [
+        "Actual action and measurement controls available",
+        "Effects of learner-produced conditions",
+        "Untested combinations and unresolved attribution",
+        "Difference between signal variability and decision-relevant knowledge"
+      ]
+    },
+    {
+      "id": "E",
+      "name": "Learn reader construction through observed carrier changes",
+      "bottleneck": "B3",
+      "origins": [
+        "R2-B3-01",
+        "R2-B3-03",
+        "R2-B3-06",
+        "R2-B3-07",
+        "R2-B3-09",
+        "R2-B3-13"
+      ],
+      "learned_object": "Reusable reading-program fragments or a learned search process",
+      "must_expose": [
+        "Reading language and artificial-change prior",
+        "All copies probes stored answers constraints histories and search weights",
+        "Target checks that cannot import withheld old answers",
+        "Retained-only decoding versus renewed acquisition",
+        "Carrier contribution after retained check material is held fixed"
+      ]
+    }
+  ],
+  "selection_rationale": "Diagnostic relevance and diversity of changes to acquired predicates, substitution relations, experiment procedures, evidence access and reader construction. This is not a novelty or feasibility ranking.",
+  "nonselected_disposition": "Preserved without retirement; no raw entry rejected by this consultation.",
+  "coverage_check": {
+    "raw_entry_count": 72,
+    "primary_membership_count": 72,
+    "unique_primary_members": 72,
+    "all_raw_ids_present": true,
+    "duplicates": [],
+    "missing": [],
+    "extra": [],
+    "interpretation": "Record-integrity check, not scientific validation."
+  },
+  "created_utc": "2026-09-10T21:09:44.972546+00:00",
+  "consultation_source": {
+    "path": "evidence/P2_SECOND_CLUSTERING_PROPOSED_035.json",
+    "sha256": "fb39693994205aeabd32c2a8c3f1df1b02c9c874e860de816f6f221122530a36"
+  },
+  "selected_for_development": [
+    {
+      "id": "N1",
+      "direction": "A",
+      "name": "Construct historical predicates from unresolved transitions"
+    },
+    {
+      "id": "N2",
+      "direction": "B",
+      "name": "Learn context-qualified substitution roles among acquired procedures"
+    },
+    {
+      "id": "N3",
+      "direction": "C",
+      "name": "Grow an experiment library through mutation and observed learning value"
+    },
+    {
+      "id": "N4",
+      "direction": "D",
+      "name": "Learn procedures that reopen observable contrasts"
+    },
+    {
+      "id": "N5",
+      "direction": "E",
+      "name": "Synthesize readers from lessons about carrier changes"
+    }
+  ],
+  "PI_selection_reason": "Different learned objects: predicates, substitution roles, experiment recipes, observation-opportunity relations and reading programs. Four acquisition moves retain priority over access. N2 included specifically to retain the funded recombination objective. No candidate selected for claimed novelty or laptop affordability."
+}

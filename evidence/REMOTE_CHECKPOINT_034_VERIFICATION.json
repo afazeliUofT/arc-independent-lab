@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-09-10T21:03:56.806657+00:00",
+  "source_url": "https://github.com/afazeliUofT/arc-independent-lab/commit/53768f9fc6b867834e1ab03b86248b487a19b617",
+  "access_date": "2026-09-10",
+  "commit": "53768f9fc6b867834e1ab03b86248b487a19b617",
+  "parent": "296cf94b9e692f4ddbee5c554fc87aaa5a298e60",
+  "tree": "a36a671578db308ac9308bc4ab17832b035c26fa",
+  "all_published_blob_bytes_and_modes_verified": true,
+  "published_blobs_checked": 1286,
+  "all_prepared034_files_match": true,
+  "raw_population": {
+    "path": "IDEAS_02_RAW.md",
+    "sha256": "9ea79c14951a0662c5db69d3c6fd245e79a5da1b2dec572a542619f08d2a4706"
+  },
+  "freeze": {
+    "path": "evidence/P2_SECOND_GENERATION_FREEZE_034.json",
+    "sha256": "56858ca7780ea67795ba5800bfc7992e35bb91e058e5f35ced5401410637bcc3"
+  },
+  "new_commit_or_push_here": false,
+  "scope": "Published identity and raw freeze reconciliation, not a scientific verdict."
+}

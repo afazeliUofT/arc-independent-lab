@@ -1,0 +1,84 @@
+{
+  "kind": "P2_SECOND_SUBMISSION_INTEGRITY_035_v1",
+  "created_utc": "2026-09-10T21:36:40.386051+00:00",
+  "role": "PI record-integrity check, not independent scientific review or empirical validation",
+  "formal_scientific_verdict": false,
+  "base_commit": "53768f9fc6b867834e1ab03b86248b487a19b617",
+  "deliverable": {
+    "path": "IDEAS_02.md",
+    "sha256": "ac1ba738489abb11730dda6393a6263b06fa303a5f9e0eb63e4b6478fe845962"
+  },
+  "specification": {
+    "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
+    "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69"
+  },
+  "raw_freeze": {
+    "path": "evidence/P2_SECOND_GENERATION_FREEZE_034.json",
+    "sha256": "56858ca7780ea67795ba5800bfc7992e35bb91e058e5f35ced5401410637bcc3"
+  },
+  "specification_freeze": {
+    "path": "evidence/P2_SECOND_SPECIFICATION_FREEZE_035.json",
+    "sha256": "5e27b8c451f18515888536a9b43878adc85ce0c3062809b192719375307a2608"
+  },
+  "clusters": {
+    "path": "evidence/P2_SECOND_CLUSTERS_035.json",
+    "sha256": "d5be30139534daca8a92143fb319f305f856940de048cd59dd81f529072646da"
+  },
+  "nearest_method_flags": {
+    "path": "evidence/P2_SECOND_NEAREST_METHOD_FLAGS_035.md",
+    "sha256": "06c9442476bec34239b26617ebc85183669f78c29dd739a89d8dd50b5939366c"
+  },
+  "embedded_verbatim": [
+    {
+      "path": "evidence/P2_SECOND_RAW_B1_034.md",
+      "sha256": "606decb94dc572520d4a0fc901dbba983f5b9b19b1e9af864a542d9d8952e58a"
+    },
+    {
+      "path": "evidence/P2_SECOND_RAW_B2_034.md",
+      "sha256": "74f95899c416bf05d73194280de73264106eb50fb563ae3ebc86d28ec187de74"
+    },
+    {
+      "path": "evidence/P2_SECOND_RAW_B3_034.md",
+      "sha256": "394309897b72850d7ccaa54b11f1d16497c7d4fbb161532305a7c7863e710f8c"
+    },
+    {
+      "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
+      "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69"
+    },
+    {
+      "path": "evidence/P2_SECOND_NEAREST_METHOD_FLAGS_035.md",
+      "sha256": "06c9442476bec34239b26617ebc85183669f78c29dd739a89d8dd50b5939366c"
+    }
+  ],
+  "all_raw_entries_preserved": true,
+  "raw_entries": 72,
+  "primary_clusters": 9,
+  "specified_candidates": 5,
+  "primary_membership_exactly_once_and_complete": true,
+  "documented_order": "Raw generation saved and published034; clustering and specifications saved035 before nearest-method flags; primary-method novelty audit not yet started.",
+  "order_scope": "Recorded artifact sequence, not external attestation of private reasoning",
+  "baseline_files_checked": 1286,
+  "baseline_files_unchanged_except": [
+    "reports/DIGEST_2026-09-10.md",
+    "state/BUDGET.json",
+    "state/LEDGER.jsonl",
+    "state/PROJECT_STATE.json",
+    "state/tool_errors.jsonl"
+  ],
+  "unchanged_baseline_files_verified": 1281,
+  "original_ledger_error_log_and_digest_exact_prefixes": true,
+  "original_diagnosis": {
+    "path": "DIAGNOSIS.md",
+    "sha256": "e3106d737f5b50a688d1d5147a015dc091d2986493848b68d33d61949dfa4cc3"
+  },
+  "original_ideas": {
+    "path": "IDEAS.md",
+    "sha256": "73cab9f6ab1f5eda80c7c2adc6d2ed556c63d5652fd65434e4cc4b24383dc3b8"
+  },
+  "phase_boundary": {
+    "path": "evidence/P2_SECOND_PHASE_BOUNDARY_035.json",
+    "sha256": "ac9805cf2a0412e5cc0b49734d211c3320e762b328786938f083ad1d773432d1"
+  },
+  "candidate_executions": 0,
+  "new_native_review": false
+}

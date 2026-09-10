@@ -1,0 +1,24 @@
+{
+  "kind": "P2_SECOND_SPECIFICATION_FREEZE_035_v1",
+  "created_utc": "2026-09-10T21:23:38.891176+00:00",
+  "specification": {
+    "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
+    "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69"
+  },
+  "candidate_ids": [
+    "N1",
+    "N2",
+    "N3",
+    "N4",
+    "N5"
+  ],
+  "clustering": {
+    "path": "evidence/P2_SECOND_CLUSTERS_035.json",
+    "sha256": "d5be30139534daca8a92143fb319f305f856940de048cd59dd81f529072646da"
+  },
+  "nearest_method_flags_started": false,
+  "primary_method_novelty_screen_started": false,
+  "candidate_execution_started": false,
+  "formal_verdict": null,
+  "scope": "PI record of completed specified operations before nearest-method flags; no empirical validation or external attestation."
+}

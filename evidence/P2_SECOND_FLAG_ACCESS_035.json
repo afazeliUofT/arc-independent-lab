@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-09-10T21:27:27.101813+00:00",
+  "scope": "Post-specification nearest-method metadata lookup only; no novelty audit",
+  "specification_frozen_before_lookup": true,
+  "used_primary_or_author_sources_only": true,
+  "nonprimary_search_results_not_used": true,
+  "new_primary_methods_read": false,
+  "garbled_pdf_not_treated_as_read": "https://sferics.idsia.ch/pub/juergen/curioussingapore.pdf",
+  "existing_methods_records_reused": [
+    "evidence/DRESCHER_SUPPLIED_METHODS_2026-09-06.md",
+    "evidence/P3_THROUGHLINE_PRIOR_METHODS.md"
+  ],
+  "unread_incidental_recent_lead": {
+    "url": "https://arxiv.org/abs/2604.04535",
+    "title": "Learning from Equivalence Queries, Revisited",
+    "access_date": "2026-09-10",
+    "version": "preprint",
+    "status": "Search-result lead only; full methods not read; no finding adopted."
+  }
+}

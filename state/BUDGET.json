@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-10T19:39:05.136642+00:00",
+  "updated_utc": "2026-09-10T21:36:40.386051+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -119,23 +119,16 @@
     "rerun_needed": false
   },
   "next_operational_test": {
-    "status": "Existing030 approval verified. ActualWSLconsumption unknown; collectattempt evidence before any newinvocation. No additional031 allowance.",
-    "approved_scope": {
-      "path": "configs/P3_FINITE_REVIEW_SCOPE_030.json",
-      "sha256": "5abc5794f3adadeebc0e3df3e1ffd5bc4416806d2d1212f0a6b73db96d177060"
+    "status": "None planned; actual032 complete and archived. Do not repeat prior invocation or receipt collection.",
+    "completed_operation": {
+      "path": "artifacts/P3_RUN_032_VERIFICATION/20260910_033/VERIFICATION.json",
+      "sha256": "cacee0aac0fc33f6361f6e2bfe30c64e8a985b1fc56e874c568acfbbc015bc80"
     },
-    "actual_approval": {
-      "path": "state/escalations/2026-09-10_FINITE_REVIEW_030_APPROVED.md",
-      "sha256": "58e0dc94a91bc05109b68edfed9285154047d3f511102326c2f25475914cbbe1"
-    },
-    "approved_cumulative_native_ceiling": 12,
-    "approved_cumulative_sent_turn_ceiling": 9,
-    "verified_historical_native_starts": 10,
-    "verified_historical_sent_turns": 7,
-    "remaining030capacity": "unknown until actual local receipts; missing receipts do not release a reservation",
-    "unattended_model_use_authorized": false,
-    "repeat_existing_attempt_authorized": false,
-    "new031_native_or_model_allowance": 0
+    "cumulative_native_starts": 14,
+    "cumulative_sent_turns": 11,
+    "remaining_native_scope": 0,
+    "new_native_allowance": 0,
+    "unattended_model_use_authorized": false
   },
   "completed_native_signin": {
     "receipt": {
@@ -230,7 +223,7 @@
       "sha256": "acbc599a337845e585af8cec04fd72af44cdb7d10321c1ae4329fce6120613a4"
     },
     "native_controller_implemented": true,
-    "next_action": "Returnactual030evidence throughGitHub. Noapprovalrepetition, noattachmentrequest, norepeatofexistingattempt.",
+    "next_action": "No execution planned. Preserve completed032 source and receipt; second candidate primary-method audit is PI document work.",
     "unattended_model_use_authorized": false,
     "extra_spending_allowed": false
   },
@@ -494,5 +487,28 @@
     "repeat_authorized": false,
     "backend_usage_or_charge": "unknown"
   },
-  "current_pi_work": "Attended Phase2 second-pass raw generation completed; convergence next. One shared-workspace engineering consultation prepared publication-only034. No new native starts, native sent turns or candidate treatments. Hosted usage unknown; unattended model use disabled."
+  "current_pi_work": "Attended Phase2 second-pass convergence and five operation specifications complete. Two shared-workspace consultations covered semantic clarity and publication engineering; neither is independent review. No new native starts/sent turns, candidate treatment or paid spending. Hosted allowance unavailable; unattended model use disabled. Next read-only primary-method audit follows verified publication035 under standing user authorization.",
+  "research_phase_boundaries_standing_override": {
+    "path": "evidence/P2_SECOND_PHASE_BOUNDARY_035.json",
+    "sha256": "ac9805cf2a0412e5cc0b49734d211c3320e762b328786938f083ad1d773432d1"
+  },
+  "superseded_next_operational_test_031": {
+    "status": "Existing030 approval verified. ActualWSLconsumption unknown; collectattempt evidence before any newinvocation. No additional031 allowance.",
+    "approved_scope": {
+      "path": "configs/P3_FINITE_REVIEW_SCOPE_030.json",
+      "sha256": "5abc5794f3adadeebc0e3df3e1ffd5bc4416806d2d1212f0a6b73db96d177060"
+    },
+    "actual_approval": {
+      "path": "state/escalations/2026-09-10_FINITE_REVIEW_030_APPROVED.md",
+      "sha256": "58e0dc94a91bc05109b68edfed9285154047d3f511102326c2f25475914cbbe1"
+    },
+    "approved_cumulative_native_ceiling": 12,
+    "approved_cumulative_sent_turn_ceiling": 9,
+    "verified_historical_native_starts": 10,
+    "verified_historical_sent_turns": 7,
+    "remaining030capacity": "unknown until actual local receipts; missing receipts do not release a reservation",
+    "unattended_model_use_authorized": false,
+    "repeat_existing_attempt_authorized": false,
+    "new031_native_or_model_allowance": 0
+  }
 }

@@ -1,0 +1,31 @@
+{
+  "kind": "P2_CHECKPOINT_035",
+  "base_commit": "53768f9fc6b867834e1ab03b86248b487a19b617",
+  "created_utc": "2026-09-10T21:36:40.386051+00:00",
+  "advancing_step": "Complete second-pass candidate specifications after preserved raw generation",
+  "deliverable": {
+    "path": "IDEAS_02.md",
+    "sha256": "ac1ba738489abb11730dda6393a6263b06fa303a5f9e0eb63e4b6478fe845962"
+  },
+  "specification": {
+    "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
+    "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69"
+  },
+  "integrity": {
+    "path": "evidence/P2_SECOND_SUBMISSION_INTEGRITY_035.json",
+    "sha256": "739a917d372e32b85857311dc139f93c81d85fe51c792a3d97bf2d97161ccf1b"
+  },
+  "objective_status": {
+    "path": "reports/OBJECTIVE_STATUS_REVIEW_035.md",
+    "sha256": "eb2aaa1d03ae41e9c222d94c0e5e17487f02068881b89602aff5e9bd5ecefab3"
+  },
+  "phase_boundary": {
+    "path": "evidence/P2_SECOND_PHASE_BOUNDARY_035.json",
+    "sha256": "ac9805cf2a0412e5cc0b49734d211c3320e762b328786938f083ad1d773432d1"
+  },
+  "publication_only": true,
+  "new_native_or_reviewer_execution": false,
+  "current_phase": "P2 complete locally; publication pending",
+  "next_phase": "P3 second primary-method audit",
+  "candidate_novelty_or_efficacy_clearance": false
+}

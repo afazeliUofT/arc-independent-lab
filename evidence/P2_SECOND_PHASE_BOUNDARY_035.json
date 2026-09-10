@@ -1,0 +1,35 @@
+{
+  "kind": "P2_SECOND_PHASE_BOUNDARY_035_v1",
+  "created_utc": "2026-09-10T21:36:40.386051+00:00",
+  "completed_deliverable": {
+    "path": "IDEAS_02.md",
+    "sha256": "ac1ba738489abb11730dda6393a6263b06fa303a5f9e0eb63e4b6478fe845962"
+  },
+  "specified_operations": {
+    "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
+    "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69"
+  },
+  "current_phase": "P2 completed locally; checkpoint035 publication pending",
+  "next_phase": "P3 second primary-method novelty audit after publication verification",
+  "authority": "Standing direct user instruction in this conversation; PI applies it to this concrete deliverable and routine read-only audit.",
+  "user_instruction_verbatim": "I approve everything you suggest, so dont ask me.",
+  "additional_user_instruction_verbatim": "From now on try to reduce my approval requests and choose the best path",
+  "no_new_answer_fabricated": true,
+  "existing_escalation_file_unchanged_and_empty": true,
+  "authorized_next_work": [
+    "Read and compare primary methods against the five frozen operations",
+    "Record exact operation/state/input/cost correspondence and residual differences",
+    "Screen novelty only after the completed generation and specification",
+    "Revisit old ideas: why set aside, whether evidence supports that history, and what has changed in 2026"
+  ],
+  "not_established": [
+    "Candidate novelty",
+    "Candidate efficacy",
+    "A final selected programme",
+    "Independent review of these second-pass specifications"
+  ],
+  "new_native_starts_authorized_or_requested_here": 0,
+  "new_native_sent_turns_authorized_or_requested_here": 0,
+  "no_spending_or_unattended_model_use": true,
+  "formal_result_verdict": false
+}
