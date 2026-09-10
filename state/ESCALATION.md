@@ -1,29 +1,33 @@
-# One bounded correction to the existing Sol Max review
+# Finite review correction027: retain direct broker access
 
-Prepared 2026-09-09. This request is unsigned. The funder has already approved the model, effort and existing access; this requests only the smallest cumulative allowance increase needed after the preserved failed turn.
+Prepared 2026-09-10. This request is unsigned. Sol Max and existing host restrictions remain unchanged.
 
-## What happened and what changes
+## Observed failure and concrete correction
 
-The original022 synthetic turn request was sent and accepted, then the local controller stopped on a startup deprecationNotice before any broker read/refusal or scientific review. It counts as one explicit model turn even without output. The exact original report is archived at artifacts/P3_FINITE_REVIEW_DEPRECATION_OBSERVATIONS/20260909_REBUILD024/REPORT.json, SHA-256 ce5af6d5d8ae3e6a332ce5289af60a8b4633ef101892aba8d92b2c383e13372c. The actual notice strings were discarded; the correction recognizes only the exact finite source-derived notices from the unchanged restrictive profile.
+The026 report is the requested diagnostic. Its pins match published checkpoint1380057c0e136446fb9ec8cc35ffa883c2e5aa78. It records a thread-bound Code Mode unavailable/fail-closed warning, then the local controller stopping before broker access or science. The original is artifacts/P3_WARNING_CAPTURE_OBSERVATIONS/20260910_027/REPORT.json, SHA-256 ccbfa9a5d6e356fa62a11499ad68dd3740159b96bffb106880b2295fdd871043. Its embedded observation matches the declared separate SESSION hash; the actual laptop file must still be verified at launch and never reconstructed.
 
-Four native starts and one explicit model turn have been consumed. The old cumulative ceiling was five starts and two turns. One fresh synthetic refusal check followed, only on success, by one separately fresh scientific reviewer needs up to two further starts and two turns. Approving this request raises the cumulative ceilings to six starts and three explicit turns: one more of each than the old ceiling. All earlier attempts remain counted and preserved. No automatic retry is authorized.
+The pinned source explicitly supports direct-only functions under CodeModeOnly. The unavailable executor does not disable these separate functions, and the warning does not itself abort a turn. See artifacts/P3_DIRECT_BROKER_SOURCE/20260910_027/FINDINGS.md and its source manifest for URL/access-date citations. The upstream direct-only test was read, not executed here. Actual Sol use of the broker remains unverified.
 
-The scope is configs/P3_FINITE_REVIEW_SCOPE_024.json, SHA-256 bdf0d9cb689793656c8616f72f2f1a6a45a6bc4a6cf5abed3e0e0e4dde8ee0db. Sol Max, the native executable, host and account restrictions, broker, fresh contexts, frozen scientific evidence, process deadlines and no-additional-spending rule continue. Hosted subscription allowance remains unknown; unattended model use remains unauthorized. Scientific results and reviewer independence are not established by this engineering correction.
+New027 acknowledges at most one exact source-derived disabled-host/fail-closed notice, bound to the active thread after the sole turn request is sent and the unchanged restrictive controls and Sol Max selection are verified. Other reasons, extra text, malformed/unbound notices and duplicates stop. Code Mode remains disabled. This changes local notice handling; it does not install a host, change model metadata, grant a tool, or attest the native tool inventory. The opaque internal026 reason was not retained: exact disabled-host wording is a source-derived expectation, not recovered verbatim text.
+
+Six native starts and three sent turns have exhausted the approved6/3 ceiling. This request reserves at most two more starts and two more turns, raising cumulative ceilings to8/5. A sent turn counts even without output; backend usage/charge is unknown. First, a fresh synthetic direct broker read and real out-of-bounds refusal must succeed, with cleanup and unchanged protected inputs. Only then may a separately fresh scientific reviewer read the installed frozen paper packet. Existing stage limits remain10minutes synthetic and60minutes scientific, including cleanup. No automatic retry, spending or unattended continuation is authorized. Verified terminal receipts are reused; partial/changed attempts are preserved and refused.
+
+The exact scope is configs/P3_FINITE_REVIEW_SCOPE_027.json, SHA-256 a69877f8bbeddfd4b638943d850e73a8eb2e978d9d1ce08600484d6c5a0df7a9. The ZIP contains implementation, source audit, offline validation and original026 report. No027 native/model operation has been performed by the PI. Scientific inputs, verifiers and prior attempts remain unchanged.
+
+## Why this needs an answer
+
+03_AUTONOMY_SPEC.md section6 item10 requires escalation at a budget ceiling; item16 covers a change to the control surface. This combines both in one concrete request. The old024 answer cannot authorize the new ceiling or exact notice policy. Already approved model and host access are not being requested again.
 
 ## How the funder answers
 
-The answer belongs in state/ESCALATION.md as one actual section beginning with the literal heading `## ANSWER`. Its only nonblank contents must be `APPROVE_P3_FINITE_REVIEW_024_CORRECTION` and `scope_sha256: bdf0d9cb689793656c8616f72f2f1a6a45a6bc4a6cf5abed3e0e0e4dde8ee0db` on separate lines. No extra prose belongs after that section.
+Record one actual section in state/ESCALATION.md beginning with the literal heading `## ANSWER`. Its only nonblank contents must be `APPROVE_P3_FINITE_REVIEW_027_CORRECTION` and `scope_sha256: a69877f8bbeddfd4b638943d850e73a8eb2e978d9d1ce08600484d6c5a0df7a9` on separate lines. No extra answer prose follows.
 
-For convenience, explicitly running the delivered publication wrapper with `--approve-correction` records exactly that answer and updates its checkpoint inventory hash, then commits and pushes the selected checkpoint. The flag is the funder's affirmative authorization of this exact request. The PI has not applied it. A separate manual GitHub edit or another chat confirmation is unnecessary. Without the flag the wrapper only inspects. Publication never starts a model.
+For convenience, explicitly running the delivered publication wrapper with `--approve-correction` is the funder's authorization of this exact request. It records that answer, updates its checkpoint inventory, commits and pushes. The PI has not applied the flag to the working repository. No separate GitHub edit or chat confirmation is needed. Without the flag, the wrapper only inspects. Publication cannot start a model.
 
-After successful publication, the separate command is `python3 -I -B "$HOME/ARC_Independent_Lab/scripts/p3_finite_review_024.py" --run-attended-review`. The existing private paper packet is reused. A completed receipt is reused; a partial or changed run is preserved and stops.
+After successful publication, separately run scripts/p3_finite_review_027.py with `--run-attended-review`. Attach REPORT.json, plus science_output/REVIEW_VERDICT.json only if present, from delivery/P3_FINITE_REVIEW_027. A stopped synthetic stage creates no science directory/verdict. Preserve earlier results; do not reconstruct missing files or rerun old checkpoints.
 
-If the increase is declined, the reviewer remains stopped and the independent scientific verdict remains pending. The PI will not silently bypass the synthetic admission, combine contexts, reset counters, or use the old approval for this new ceiling.
-
-## Rebuild provenance
-
-The previous024 download was not recoverable from the current workspace and had never reached GitHub. This newly verified build replaces its file hashes. The reattached022 report is byte-identical to the original. The old024 links and shell checksum must not be used. This is an engineering recovery, not new scientific evidence.
+If declined, native review remains stopped without a scientific verdict. The PI preserves the evidence and continues only authorized work. Another failed direct broker attempt calls for reassessment; it does not authorize enabling the execution host or resetting counters.
 
 ## ANSWER
-APPROVE_P3_FINITE_REVIEW_024_CORRECTION
-scope_sha256: bdf0d9cb689793656c8616f72f2f1a6a45a6bc4a6cf5abed3e0e0e4dde8ee0db
+APPROVE_P3_FINITE_REVIEW_027_CORRECTION
+scope_sha256: a69877f8bbeddfd4b638943d850e73a8eb2e978d9d1ce08600484d6c5a0df7a9

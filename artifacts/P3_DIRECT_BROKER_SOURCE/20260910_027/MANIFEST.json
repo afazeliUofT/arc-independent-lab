@@ -1,0 +1,187 @@
+{
+  "schema": "arc.code-mode-source-audit.v1",
+  "source_commit": "78c290807ce710180111df227df3b7a4fe845452",
+  "git_blob_hashes_verified": true,
+  "files": [
+    {
+      "path": "source/codex-rs/code-mode/src/lib.rs",
+      "upstream_path": "codex-rs/code-mode/src/lib.rs",
+      "git_blob_sha": "8bed201d3314e6ba72b078ed02dffddf04ab51a1",
+      "sha256": "672628d0254daded50e508875039d7dcdb95d4d850209ae3ac3f95161b0e470d",
+      "bytes": 298,
+      "source_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/code-mode/src/lib.rs",
+      "access_date": "2026-09-10"
+    },
+    {
+      "path": "source/codex-rs/app-server/src/code_mode_host.rs",
+      "upstream_path": "codex-rs/app-server/src/code_mode_host.rs",
+      "git_blob_sha": "97b250a59a8037aa808599011ee24eb27fb22d9f",
+      "sha256": "39a0b682da90b7b567ef4dcbb4ba8b310401ce17a23345cb79084592b4daaf5d",
+      "bytes": 2604,
+      "source_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server/src/code_mode_host.rs",
+      "access_date": "2026-09-10"
+    },
+    {
+      "path": "source/codex-rs/code-mode/src/remote_session.rs",
+      "upstream_path": "codex-rs/code-mode/src/remote_session.rs",
+      "git_blob_sha": "fb38e2899e441474f615f6cbbafd15e30c6ed9a8",
+      "sha256": "30f866ccc860e3f0185da4a1e4e040b0042e06a6fc31041e4227721cbb29e3ce",
+      "bytes": 19244,
+      "source_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/code-mode/src/remote_session.rs",
+      "access_date": "2026-09-10"
+    },
+    {
+      "path": "source/codex-rs/code-mode-runtime/src/runtime/mod.rs",
+      "upstream_path": "codex-rs/code-mode-runtime/src/runtime/mod.rs",
+      "git_blob_sha": "09e9f4aeed304cc1b135b177ffac8e0174fe9e18",
+      "sha256": "0c2cbbdf2dd94ad3bda1508dca676e385de578b32259c4b2d68c0799e6d77fef",
+      "bytes": 16106,
+      "source_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/code-mode-runtime/src/runtime/mod.rs",
+      "access_date": "2026-09-10"
+    },
+    {
+      "path": "source/codex-rs/code-mode-runtime/src/runtime/globals.rs",
+      "upstream_path": "codex-rs/code-mode-runtime/src/runtime/globals.rs",
+      "git_blob_sha": "66601deb496ad62441c52e9ee491bb2359ec8f46",
+      "sha256": "e62df37ddd8d36f3f799d3a2713b225661e3706dcaf2fe97b3cf183427903c07",
+      "bytes": 6595,
+      "source_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/code-mode-runtime/src/runtime/globals.rs",
+      "access_date": "2026-09-10"
+    },
+    {
+      "path": "source/codex-rs/code-mode-runtime/src/runtime/module_loader.rs",
+      "upstream_path": "codex-rs/code-mode-runtime/src/runtime/module_loader.rs",
+      "git_blob_sha": "00185edb580d9351fde6a7617d88fffe846b2308",
+      "sha256": "6e58d68d43d8aefca0daf5ebbd3876cc9f3837f02a50a676089366fcbff62528",
+      "bytes": 8124,
+      "source_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/code-mode-runtime/src/runtime/module_loader.rs",
+      "access_date": "2026-09-10"
+    },
+    {
+      "path": "source/codex-rs/core/src/tools/code_mode/delegate.rs",
+      "upstream_path": "codex-rs/core/src/tools/code_mode/delegate.rs",
+      "git_blob_sha": "0319d13d366f23e4238162b7c17041f2edc9f82c",
+      "sha256": "37b003daef2b909e124c171d676db9ba081a91c66805d5513852b268c3684a4e",
+      "bytes": 13883,
+      "source_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/tools/code_mode/delegate.rs",
+      "access_date": "2026-09-10"
+    },
+    {
+      "path": "source/codex-rs/code-mode-host/src/main.rs",
+      "upstream_path": "codex-rs/code-mode-host/src/main.rs",
+      "git_blob_sha": "81ffb3ae78d743b95c22b7f8da04bae04d3da768",
+      "sha256": "dcb976733c91cfd39f9c29c264c9ba81c1677f8a2a0f6cb7d2541ec3a85f9e89",
+      "bytes": 4790,
+      "source_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/code-mode-host/src/main.rs",
+      "access_date": "2026-09-10"
+    },
+    {
+      "path": "source/codex-rs/code-mode-host/src/lib.rs",
+      "upstream_path": "codex-rs/code-mode-host/src/lib.rs",
+      "git_blob_sha": "6a4557cdddb0e4ad33432d7133fa86a8fc39b42c",
+      "sha256": "377dedb6ba011ca7ce1a9f08106abf0722a1816a873707d719042e5131ada9db",
+      "bytes": 23882,
+      "source_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/code-mode-host/src/lib.rs",
+      "access_date": "2026-09-10"
+    },
+    {
+      "path": "source/codex-rs/code-mode/Cargo.toml",
+      "upstream_path": "codex-rs/code-mode/Cargo.toml",
+      "git_blob_sha": "b6c0edf251f2d9a569d7e37739664b4478757cc1",
+      "sha256": "2646402e31d512209a03e1568ae81b5b5d85405f7f762d8aa169b3f0ac14959b",
+      "bytes": 1017,
+      "source_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/code-mode/Cargo.toml",
+      "access_date": "2026-09-10"
+    },
+    {
+      "path": "source/codex-rs/core/src/thread_manager.rs",
+      "upstream_path": "codex-rs/core/src/thread_manager.rs",
+      "git_blob_sha": "333e59d2d0b0a32f3346e6d00ae9a7e4bb5b39cf",
+      "sha256": "8413832bd97d1e216f4ba0444d3cbb9cde3cb922cb149c40cdf653c832266336",
+      "bytes": 89990,
+      "source_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/thread_manager.rs",
+      "access_date": "2026-09-10"
+    },
+    {
+      "path": "source/codex-rs/install-context/src/lib.rs",
+      "upstream_path": "codex-rs/install-context/src/lib.rs",
+      "git_blob_sha": "a88e2e28020921e53020a904d03d5b75d60c5f25",
+      "sha256": "c69b32ccf726bfdd8f18acdad99e4c5a4cdc844049c4750775d4178ec0f41ddf",
+      "bytes": 31661,
+      "source_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/install-context/src/lib.rs",
+      "access_date": "2026-09-10"
+    },
+    {
+      "path": "source/codex-rs/features/src/feature_configs.rs",
+      "upstream_path": "codex-rs/features/src/feature_configs.rs",
+      "git_blob_sha": "7fa2ab6f09a704c62b6718420712d33634557403",
+      "sha256": "6e60306024c738e9d17a20b0ea0d2c5f91f66dccfd62bc708ebd9141e507b476",
+      "bytes": 18845,
+      "source_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/features/src/feature_configs.rs",
+      "access_date": "2026-09-10"
+    },
+    {
+      "path": "source/codex-rs/core/src/tools/spec_plan.rs",
+      "upstream_path": "codex-rs/core/src/tools/spec_plan.rs",
+      "git_blob_sha": "15d7d4c2cdb341a82bc6a9ebb104c8892b218e4c",
+      "sha256": "52f549a2ac0836aece71f159850a634e71d1fbe5cb3bb58b98cca9b5744d6f9d",
+      "bytes": 56770,
+      "source_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/tools/spec_plan.rs",
+      "access_date": "2026-09-10"
+    },
+    {
+      "path": "source/codex-rs/core/src/tools/router.rs",
+      "upstream_path": "codex-rs/core/src/tools/router.rs",
+      "git_blob_sha": "f7d65f51858d53fa5df448465a98356ef5cdb847",
+      "sha256": "6f5b3e6fcc2473c85275e69d934faf3cb95b90e9c773a055944116d517986a90",
+      "bytes": 13189,
+      "source_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/tools/router.rs",
+      "access_date": "2026-09-10"
+    },
+    {
+      "path": "source/codex-rs/code-mode/src/remote_session/connection.rs",
+      "upstream_path": "codex-rs/code-mode/src/remote_session/connection.rs",
+      "git_blob_sha": "248b3b0171e0853f802b15d7a875e1960474ad80",
+      "sha256": "abda69cebf2e871ba21744aed1a6959d154a4ff3e4bcfa8f6acfd04bce9512d3",
+      "bytes": 20044,
+      "source_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/code-mode/src/remote_session/connection.rs",
+      "access_date": "2026-09-10"
+    },
+    {
+      "path": "source/codex-rs/code-mode-runtime/src/runtime/callbacks.rs",
+      "upstream_path": "codex-rs/code-mode-runtime/src/runtime/callbacks.rs",
+      "git_blob_sha": "fcd61fd63c78a3b6b96ec9ad1cf7d7ca3d528f82",
+      "sha256": "79d2bf693103a238dfc5f7aee4f6b216955e9f01a4da4a90aebc32884a0f428c",
+      "bytes": 10737,
+      "source_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/code-mode-runtime/src/runtime/callbacks.rs",
+      "access_date": "2026-09-10"
+    },
+    {
+      "path": "source/codex-rs/core/src/tools/spec_plan_tests.rs",
+      "upstream_path": "codex-rs/core/src/tools/spec_plan_tests.rs",
+      "git_blob_sha": "76cda520ad4ab5fa1f43336ee48e119962a11c65",
+      "sha256": "e3184eec67ee091e794c96dbae8c967dcb4e2bf926f041aead574bb279aade0e",
+      "bytes": 116198,
+      "source_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/tools/spec_plan_tests.rs",
+      "access_date": "2026-09-10"
+    },
+    {
+      "path": "source/codex-rs/core/src/tools/registry.rs",
+      "upstream_path": "codex-rs/core/src/tools/registry.rs",
+      "git_blob_sha": "15c2cf27e5a32da9a178aa6d659dfa994c61e94b",
+      "sha256": "72c1360168efa5a21cbf14aefadedb538ee2f23ec92ca6cab2f749bbf5d41ed7",
+      "bytes": 30160,
+      "source_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/tools/registry.rs",
+      "access_date": "2026-09-10"
+    },
+    {
+      "path": "source/codex-rs/core/src/tools/handlers/dynamic.rs",
+      "upstream_path": "codex-rs/core/src/tools/handlers/dynamic.rs",
+      "git_blob_sha": "f2b7860d06385301ebefa9bdd70eb0a43a8639ad",
+      "sha256": "5e315b42993b4637e5543bcfcc858b82336437f7fb3a367ff5dc911273fa97b4",
+      "bytes": 7964,
+      "source_url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/tools/handlers/dynamic.rs",
+      "access_date": "2026-09-10"
+    }
+  ]
+}

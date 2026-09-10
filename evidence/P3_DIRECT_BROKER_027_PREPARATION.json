@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-09-10T00:57:26.136270+00:00",
+  "scope": {
+    "path": "configs/P3_FINITE_REVIEW_SCOPE_027.json",
+    "sha256": "a69877f8bbeddfd4b638943d850e73a8eb2e978d9d1ce08600484d6c5a0df7a9"
+  },
+  "controller": {
+    "path": "scripts/p3_finite_review_027.py",
+    "sha256": "bfb8ef28f4176e51c2466892fc8f3b559486337534e706bb566f434c1564884a"
+  },
+  "notice": {
+    "path": "scripts/p3_disabled_codemode_notice.py",
+    "sha256": "f1ebf9a2485a6c89acac9f8e184c99e82a0816b756379d6b8670695d160e8771"
+  },
+  "session": {
+    "path": "scripts/p3_reviewer_session_027.py",
+    "sha256": "cb87ebdf3b95d798b2ed0024c5e762ab57a941bf74e6b309333633b118ec49aa"
+  },
+  "source_manifest": {
+    "path": "artifacts/P3_DIRECT_BROKER_SOURCE/20260910_027/MANIFEST.json",
+    "sha256": "a79a0d2119f701ec1a0e3707b46611fb84c8e2f240bbf7c45dee676ff9b07e12"
+  },
+  "validation": [
+    {
+      "path": "artifacts/P3_DISABLED_CODEMODE_NOTICE_VALIDATION/20260910_027/REPORT.json",
+      "sha256": "7bb1d5a566b5e5106329935fc8e1b71982caef5e073da23fd1bf0d41009694ef"
+    },
+    {
+      "path": "artifacts/P3_DIRECT_BROKER_CONTROLLER_VALIDATION/20260910_027/REPORT.json",
+      "sha256": "83ee4d79a2ff9f5b9ea8349f6077b06deccc97ff8fd2749157f8ea7ee186b067"
+    }
+  ],
+  "old024_source_pins_verified": 100,
+  "new_source_pins_verified": 24,
+  "unsigned_approval_refused": true,
+  "prior_scientific_manifests_and_all_members_unchanged": true,
+  "exact_upstream_routing_test_read_not_executed": true,
+  "new_native_starts": 0,
+  "new_model_turns": 0,
+  "independent_scientific_verdict": false,
+  "shared_workspace_agents_role": "engineering consultation only",
+  "final_archive_installation_verification": "Recorded separately in outer ZIP release receipt after packaging; no claim of completed packaging here."
+}

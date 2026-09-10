@@ -1,0 +1,49 @@
+{
+  "created_utc": "2026-09-10T00:43:52.139545+00:00",
+  "kind": "engineering_observation_not_scientific_verdict",
+  "input": {
+    "path": "artifacts/P3_WARNING_CAPTURE_OBSERVATIONS/20260910_027/REPORT.json",
+    "sha256": "ccbfa9a5d6e356fa62a11499ad68dd3740159b96bffb106880b2295fdd871043",
+    "bytes": 178040
+  },
+  "publication": {
+    "path": "evidence/REMOTE_CHECKPOINT_026_VERIFICATION.json",
+    "sha256": "f02cdb60f6bbc6e697ae60a861cedea18ee3519ddf860857493646c605de5214"
+  },
+  "source_and_approval_pins_verified_locally": true,
+  "embedded_session_matches_reported_separate_session_hash": true,
+  "separate_laptop_session_read_here": false,
+  "reported_host_checks_pass": true,
+  "report_status": "STOPPED_DIAGNOSTIC_NO_SCIENCE",
+  "warning_diagnostics": [
+    {
+      "schema": "arc.warning-diagnostic.v1",
+      "action": "stop",
+      "warning_admitted": false,
+      "source_commit": "78c290807ce710180111df227df3b7a4fe845452",
+      "envelope": "valid_bound",
+      "thread_binding": "exact",
+      "text_attribution_to_active_thread": true,
+      "message_utf8_size_bucket": "up_to_256",
+      "family": "tools.code_mode_unavailable",
+      "recognition": "full_template_with_finite_behavior_enum",
+      "producer_identity_established": false,
+      "details": {
+        "behavior": "fail_closed",
+        "reason": "opaque_source_error_not_retained"
+      },
+      "notification_envelope_valid": true,
+      "current_observation_identifies_historical024_warning": false
+    }
+  ],
+  "exact_warning_reason_recovered": false,
+  "scientific_stage_started": false,
+  "verdict_present": false,
+  "actual024_warning_identified": false,
+  "native_starts_total": 6,
+  "sent_turns_total": 3,
+  "approved_ceiling_exhausted": true,
+  "backend_usage_or_charge": "unknown",
+  "unattended_model_use_authorized": false,
+  "inference_limit": "This warning reports an unavailable Code Mode executor. It does not establish failure of separately configured direct broker tools. That dispatch distinction requires pinned-source audit and an actual synthetic broker test."
+}

@@ -1,0 +1,26 @@
+{
+  "authentication_accessed": false,
+  "classifier_test_count": 12,
+  "code_sha256": {
+    "scripts/p3_disabled_codemode_notice.py": "f1ebf9a2485a6c89acac9f8e184c99e82a0816b756379d6b8670695d160e8771",
+    "scripts/p3_reviewer_session_027.py": "cb87ebdf3b95d798b2ed0024c5e762ab57a941bf74e6b309333633b118ec49aa",
+    "tests/test_p3_disabled_codemode_notice.py": "e4c8526f38c11ceb2e706dc2cccc5c9b9306e01f427a0e4e0f83a2980e390a14",
+    "tests/test_p3_reviewer_session_027.py": "3f1021608c96858f4c183be8d037b066346c5cf3025b52c4abfdbc997f9ed30a"
+  },
+  "created_at": "2026-09-10T00:50:48.974870+00:00",
+  "errors": 0,
+  "failures": 0,
+  "fake_science_output_is_only_synthetic_fixture_and_removed_with_temporary_directory": true,
+  "independent_scientific_review": false,
+  "kind": "P3_DISABLED_CODEMODE_NOTICE_ENGINEERING_VALIDATION_027_v1",
+  "model_turns": 0,
+  "native_boundary_or_tool_registry_established": false,
+  "native_codex_operations": 0,
+  "network_used": false,
+  "observation_count": 25,
+  "passed": true,
+  "science_packet_read": false,
+  "session_observations_sha256": "078d2362e5b6fb71026b64f45ad87b73ed0dbc0ec92f5c275074e51e1537f673",
+  "tests_run": 29,
+  "transport_test_count": 17
+}
