@@ -1,30 +1,19 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-10T04:35:25.085456+00:00",
+  "updated_utc": "2026-09-10T15:26:46.314132+00:00",
   "current_gate": "P3",
   "gate_status": "blocked",
   "gate_entered_utc": "2026-09-06T20:14:12.138443+00:00",
   "last_verified_gate": "P2",
-  "last_verified_commit": "b2f47e9442cbc5bd06490dd0d9fb0475a860aae9",
-  "active_task": "P3.22.lifecycle_cache030",
+  "last_verified_commit": "4ed9c95b4200daf2dcc455d1f14c9a93757054a6",
+  "active_task": "P3.23.durable_return031",
   "blocked_on": {
-    "kind": "exact_human_budget_and_control_amendment",
-    "reasons": [
-      10,
-      16
-    ],
-    "blocks": "native execution only; offline preparation complete",
-    "human_answer_requested_now": true,
-    "request": {
-      "path": "state/ESCALATION.md",
-      "sha256": "a8b8fd9e1e608aa3c715e454beb4f9929f9a68c3bcf147b2d0731b22d91ae2bd"
-    },
-    "scope": {
-      "path": "configs/P3_FINITE_REVIEW_SCOPE_030.json",
-      "sha256": "5abc5794f3adadeebc0e3df3e1ffd5bc4416806d2d1212f0a6b73db96d177060"
-    }
+    "kind": "actual_execution_evidence_not_yet_published",
+    "human_approval_required": false,
+    "blocks": "independent scientific dispositions",
+    "return_channel": "GitHub only; no attachments"
   },
-  "next_action": "Human selects the exact030 approval/publication variant if accepted, then separately launches the finite attended operation. Verify target kernel prerequisite and all returned actual receipts; admit no scientific result without complete independent evidence. Never rerun028, fabricate missing SESSION files, or infer approval from chat.",
+  "next_action": "Human runs the single031 return workflow. It collects existing030 evidence or, only if noattempt paths/reservation exist, invokes the already approved unchanged030 controller once. Publish exactallowedresults and latestpointer; PI then fetchesGitHub and verifiesactualreceipts before anyscientificadmission.",
   "open_questions": [
     "Does the proposed source-derived lifecycle and sealed cache design pass the target synthetic kernel prerequisite and the actual finite reviewer operation? Offline108 tests pass; future completion and independent verdict remain unverified.",
     "Formal separate dispositions for C1/C2/C3/C4, joint proposition and observer diagnostic remain pending enforced review.",
@@ -71,8 +60,8 @@
     "P3"
   ],
   "remote": "https://github.com/afazeliUofT/arc-independent-lab",
-  "durability_status": "Published029 tree verified; exact030 preparation awaits human GitHub publication. A single preserved ZIP carries all changes and the tested publication path.",
-  "commit_status": "No assistant commit or push. New030 proposal is unsigned; native and model counts remain10/7. Human approval flag and separate launch required.",
+  "durability_status": "All1153published030filesverified. New031workflow mustpublish actualexecutionevidence totrackedarchive; no attachment handoff.",
+  "commit_status": "Published030approvalverified; new031 source/state/evidencereturn awaits humancommit/push. Noassistantcommit/push.",
   "recovery_dependency": null,
   "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation.",
   "latest_recovery_evidence": [
@@ -124,8 +113,8 @@
   ],
   "handoff_backup_status": "Publication-only forensic029 ZIP prepared; final exact installation verification accompanies release.",
   "latest_publication_verification": {
-    "path": "evidence/REMOTE_CHECKPOINT_029_VERIFICATION.json",
-    "sha256": "a1c0862f16cde9e26ae5865dd9646c4c4226fd25d76941182de2cedf9c298d3d"
+    "path": "evidence/REMOTE_CHECKPOINT_030_VERIFICATION.json",
+    "sha256": "21f87838721fffa29504c41a29e4d373d61061f4f3143e29c974c2766c8220ec"
   },
   "last_human_message_verbatim": "Attached are generated files",
   "phase1_approval": {
@@ -178,7 +167,7 @@
     "remote_execution": "Linux shell on Narval",
     "canonical_laptop_project": "WSL ~/ARC_Independent_Lab"
   },
-  "last_human_message_summary": "User returned the two029 Markdown documents. Both are exact delivered bytes; full029 GitHub tree verified. Proceed with prepared offline redesign and one concrete combined request.",
+  "last_human_message_summary": "User cannot locate report/verdict, approves suggested work, requests no more approvalquestions and no attachments. Allneededresults must bepushedtoGitHub forPIretrieval.",
   "latest_capability_verification": {
     "path": "evidence/GATE0_CAPABILITY_INPUT_VERIFICATION_2026-09-07.json",
     "sha256": "6da38b2b47f6da6c5060f28bee745a4c85ab31538fac30566a776c208c51b559"
@@ -227,8 +216,8 @@
     "sha256": "374af08fd069efcc42a513560ae5849353e02f3c48ffc5046c0c9eb40ed5b455"
   },
   "latest_operational_findings": {
-    "path": "reports/P3_REVIEWER_REDESIGN_030.md",
-    "sha256": "eb0aa02f3761b6bf94f807f6b48d2438882796cb9740a8fd447871823c802369"
+    "path": "reports/P3_CHECKPOINT_031_STATUS.md",
+    "sha256": "bf2b3d2ad6b83a725ed41caa338ec6c0d0eea2c958be9c64487eac5e84f83711"
   },
   "hosted_output_integrity_note": "Earlier report/binary anomalies retained. Current validation also found a supposedly new directory already populated; cause unestablished, preserved and not overwritten. Operative validation succeeded in fresh UUID-suffixed directory with explicit return and hash. Final ZIP application/readback remains mandatory.",
   "review_input_core": {
@@ -244,8 +233,8 @@
     "status": "Published028 and actualreport verified; full sourceforensics completed; native attempts stopped; no extra human probe justified."
   },
   "last_completed_preparation_task": {
-    "id": "P3.22.lifecycle_cache030",
-    "status": "Complete implementation;108 offline tests passed with no skips. Target synthetic kernel prerequisite remains unverified until execution."
+    "id": "P3.23.durable_return031",
+    "status": "Complete;57 offline tests pass, no skips. Exact release install validation is included beside singleZIP payload."
   },
   "full_method_coverage": {
     "path": "evidence/P3_REVIEW_METHOD_COVERAGE_2026-09-07.json",
@@ -263,7 +252,7 @@
     "path": "reports/P3_OBJECTIVE_AND_NEXT_DECISION_2026-09-07.md",
     "sha256": "a876bfaf1ef9782df543be91bb63629e389b67ba34aa2b0507593cd66fe0d818"
   },
-  "handoff_preference": "One preserved ZIP; exact WSL destination/report folder commands; publication retries cannot launch a model.",
+  "handoff_preference": "One ZIP, one human-run workflow; openWSLdestination; exactnoncredentialevidence returns throughGitHub; publicationretry cannotrerunmodel.",
   "latest_startup_observation": {
     "path": "evidence/GATE0_CLIENT_PREFLIGHT_OBSERVATION_012_REVIEW.json",
     "sha256": "8cf8d7f29445ef75413bf0d768c14d36ae3160e2014633352acae427fff372cc",
@@ -271,8 +260,8 @@
     "complete_reviewer_boundary_verified": false
   },
   "latest_objective_review": {
-    "path": "reports/P3_REVIEWER_REDESIGN_030.md",
-    "sha256": "eb0aa02f3761b6bf94f807f6b48d2438882796cb9740a8fd447871823c802369"
+    "path": "reports/P3_CHECKPOINT_031_STATUS.md",
+    "sha256": "bf2b3d2ad6b83a725ed41caa338ec6c0d0eea2c958be9c64487eac5e84f83711"
   },
   "objective_continuity": {
     "read_each_substantive_turn": "docs/OBJECTIVE_CONTINUITY_2026-09-07.md",
@@ -381,7 +370,7 @@
       "path": "artifacts/P3_REDESIGN_VALIDATION/20260910_030_001/REPORT.json",
       "sha256": "f4599a5710ba975875e7e51e3dc5ad5aaa37b39b3ce6d215d405761e3df047f7"
     },
-    "new_approval_required": true,
+    "new_approval_required": false,
     "native_execution_performed": false
   },
   "latest_finite_review_observation": {
@@ -481,8 +470,16 @@
       "path": "evidence/P3_REDESIGN_030_PREPARATION.json",
       "sha256": "600951b7cefe751510e30d153a077b6779f5cb6b74cae985db293dd1ea2e1cd3"
     },
-    "authorization_pending": true,
+    "authorization_pending": false,
     "requires_separate_manual_launch": true,
-    "status": "Complete unsigned correction proposed; prior approval remains exhausted."
+    "status": "Exact030approvalpublished; actualWSLexecution/consumptionunverified untilGitHubevidence returns.",
+    "actual_approval_archive": {
+      "path": "state/escalations/2026-09-10_FINITE_REVIEW_030_APPROVED.md",
+      "sha256": "58e0dc94a91bc05109b68edfed9285154047d3f511102326c2f25475914cbbe1"
+    }
+  },
+  "latest_return_workflow_preparation": {
+    "path": "evidence/P3_RETURN_WORKFLOW_031_PREPARATION.json",
+    "sha256": "b4a3f4e7e57021777ff3ddedd95da13f18bcb5911cd9335c0b1a457928976e71"
   }
 }

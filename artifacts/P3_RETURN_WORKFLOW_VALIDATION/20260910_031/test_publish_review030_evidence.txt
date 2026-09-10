@@ -1,0 +1,24 @@
+test_ancestor_symlink_refused_without_read (test_publish_review030_evidence.EvidenceCollectionTests.test_ancestor_symlink_refused_without_read) ... ok
+test_archive_symlink_refused_without_outside_write (test_publish_review030_evidence.EvidenceCollectionTests.test_archive_symlink_refused_without_outside_write) ... ok
+test_existing_archive_changed_file_is_preserved_and_refused (test_publish_review030_evidence.EvidenceCollectionTests.test_existing_archive_changed_file_is_preserved_and_refused) ... ok
+test_fifo_refused_before_open (test_publish_review030_evidence.EvidenceCollectionTests.test_fifo_refused_before_open) ... ok
+test_final_file_symlink_refused_without_read (test_publish_review030_evidence.EvidenceCollectionTests.test_final_file_symlink_refused_without_read) ... ok
+test_fixed_workflow_files_allow_missing030_to_be_explained (test_publish_review030_evidence.EvidenceCollectionTests.test_fixed_workflow_files_allow_missing030_to_be_explained) ... ok
+test_genuinely_missing_report_creates_index_and_manifest (test_publish_review030_evidence.EvidenceCollectionTests.test_genuinely_missing_report_creates_index_and_manifest) ... ok
+test_group_writable_source_refused (test_publish_review030_evidence.EvidenceCollectionTests.test_group_writable_source_refused) ... ok
+test_hardlinked_alias_refused (test_publish_review030_evidence.EvidenceCollectionTests.test_hardlinked_alias_refused) ... ok
+test_later_real_report_makes_new_archive_keeps_old (test_publish_review030_evidence.EvidenceCollectionTests.test_later_real_report_makes_new_archive_keeps_old) ... ok
+test_only_named_files_read_and_no_recursive_discovery (test_publish_review030_evidence.EvidenceCollectionTests.test_only_named_files_read_and_no_recursive_discovery) ... ok
+test_partial_kernel_report_has_no_fabricated_main_report (test_publish_review030_evidence.EvidenceCollectionTests.test_partial_kernel_report_has_no_fabricated_main_report) ... ok
+test_project_root_symlink_refused (test_publish_review030_evidence.EvidenceCollectionTests.test_project_root_symlink_refused) ... ok
+test_relative_or_parent_step_root_refused (test_publish_review030_evidence.EvidenceCollectionTests.test_relative_or_parent_step_root_refused) ... ok
+test_repeat_is_identical_and_does_not_write_sources (test_publish_review030_evidence.EvidenceCollectionTests.test_repeat_is_identical_and_does_not_write_sources) ... ok
+test_size_limit_refused_without_copy (test_publish_review030_evidence.EvidenceCollectionTests.test_size_limit_refused_without_copy) ... ok
+test_source_mutation_during_read_discards_bytes (test_publish_review030_evidence.EvidenceCollectionTests.test_source_mutation_during_read_discards_bytes) ... ok
+test_source_replacement_before_final_check_discards_bytes (test_publish_review030_evidence.EvidenceCollectionTests.test_source_replacement_before_final_check_discards_bytes) ... ok
+test_verdict_preserved_even_when_run_failed_without_admission (test_publish_review030_evidence.EvidenceCollectionTests.test_verdict_preserved_even_when_run_failed_without_admission) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.026s
+
+OK

@@ -1,0 +1,64 @@
+{
+  "digest_basis": "exact INDEX.json bytes",
+  "evidence_digest": "9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f",
+  "files": [
+    {
+      "bytes": 5562,
+      "path": "INDEX.json",
+      "sha256": "9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f"
+    },
+    {
+      "bytes": 1803,
+      "path": "files/delivery/P3_030_RETURN_WORKFLOW/WORKFLOW_REPORT.json",
+      "sha256": "3d5c056f09ff121a5f32cfcee755ade044353cfc3f961eddab9287349fa574b4"
+    },
+    {
+      "bytes": 51071,
+      "path": "files/delivery/P3_FINITE_REVIEW_030/ATTEMPT.json",
+      "sha256": "cefb5a068fe51d0bc07459ada4df0bb9a7a41aa2c8d4655bcd73bae78eaf1974"
+    },
+    {
+      "bytes": 8232,
+      "path": "files/delivery/P3_FINITE_REVIEW_030/AUTHORIZATION.md",
+      "sha256": "58e0dc94a91bc05109b68edfed9285154047d3f511102326c2f25475914cbbe1"
+    },
+    {
+      "bytes": 160917,
+      "path": "files/delivery/P3_FINITE_REVIEW_030/science_SESSION.json",
+      "sha256": "1059b733db491fc9e5aee64113784cb95620bab487f76346f91ec243000f0da9"
+    },
+    {
+      "bytes": 189188,
+      "path": "files/delivery/P3_FINITE_REVIEW_030/science_STAGE.json",
+      "sha256": "0911d75d736e9286d6b7600588051fa471c4f610ed24236253539155bc3490b7"
+    },
+    {
+      "bytes": 128629,
+      "path": "files/delivery/P3_FINITE_REVIEW_030/synthetic_SESSION.json",
+      "sha256": "2df312ff31a243ce548d2a0065665166097e0e335fbe6967f146f117e91709c6"
+    },
+    {
+      "bytes": 154844,
+      "path": "files/delivery/P3_FINITE_REVIEW_030/synthetic_STAGE.json",
+      "sha256": "31e607a40347176376604d97479997aee1a461e612ba60573aa33266574d6efc"
+    },
+    {
+      "bytes": 24036,
+      "path": "files/delivery/P3_FINITE_REVIEW_030_KERNEL_PREFLIGHT/ATTEMPT.json",
+      "sha256": "58b04b19d1233219d49136186c376456da6170b7575adb6d51ce352e57cca2aa"
+    },
+    {
+      "bytes": 25772,
+      "path": "files/delivery/P3_FINITE_REVIEW_030_KERNEL_PREFLIGHT/REPORT.json",
+      "sha256": "94fae5b5c1a7c73066060a5423ea8cd2a566a6d8221b41ff3a9fe13004c64a00"
+    },
+    {
+      "bytes": 65,
+      "path": "files/delivery/P3_FINITE_REVIEW_030_KERNEL_PREFLIGHT/REPORT.sha256",
+      "sha256": "9e268be5459926774f3555afc910e7ba6750f64eb621481b94bab3b3fce64713"
+    }
+  ],
+  "index_sha256": "9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f",
+  "kind": "P3_REVIEW_030_EVIDENCE_COLLECTION_031_v1_MANIFEST",
+  "manifest_excluded_from_its_own_inventory": true
+}

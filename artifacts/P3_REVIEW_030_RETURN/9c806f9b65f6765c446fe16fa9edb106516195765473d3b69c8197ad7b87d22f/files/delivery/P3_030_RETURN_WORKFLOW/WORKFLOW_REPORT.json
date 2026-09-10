@@ -1,0 +1,52 @@
+{
+  "automatic_retry": false,
+  "controller_invoked": false,
+  "controller_outcome": null,
+  "credential_contents_read": false,
+  "existing_paths": {
+    "delivery/P3_030_RETURN_WORKFLOW/LAUNCH_RESERVED.json": false,
+    "delivery/P3_FINITE_REVIEW_030": true,
+    "delivery/P3_FINITE_REVIEW_030_KERNEL_PREFLIGHT": true
+  },
+  "finished_utc": "2026-09-10T17:41:16.968623+00:00",
+  "inspection_outcome": {
+    "controller_reaped": true,
+    "controller_started": true,
+    "controller_status_lines": [
+      "STOP: Protected history, approval, dependency or receipt check failed; existing work preserved."
+    ],
+    "elapsed_seconds": 0.077608,
+    "exit_code": 1,
+    "forced_controller_cleanup": false,
+    "interrupted": false,
+    "invocation_kind": "PINNED030_READ_ONLY_INSPECTION_NO_MANUAL_LAUNCH_FLAG",
+    "native_cleanup_inferred": false,
+    "native_start_or_model_turn_requested": false,
+    "outer_guard_reached": false,
+    "outer_guard_seconds": 60,
+    "raw_stderr_saved_or_hashed": false,
+    "raw_streams_saved_or_hashed": false,
+    "stderr_exception_classes": [],
+    "stderr_frames": [],
+    "stream_bytes_observed": {
+      "stderr": 0,
+      "stdout": 96
+    },
+    "stream_capture_truncated": {
+      "stderr": false,
+      "stdout": false
+    }
+  },
+  "kind": "P3_030_RETURN_WORKFLOW_v1",
+  "model_allowance_added": false,
+  "observed_at_return": {
+    "delivery/P3_FINITE_REVIEW_030/REPORT.json": false,
+    "delivery/P3_FINITE_REVIEW_030/science_output/REVIEW_VERDICT.json": false,
+    "delivery/P3_FINITE_REVIEW_030_KERNEL_PREFLIGHT/REPORT.json": true
+  },
+  "publication_performed_by_workflow": false,
+  "reason_code": null,
+  "scientific_admission_asserted": false,
+  "started_utc": "2026-09-10T17:41:16.884956+00:00",
+  "status": "COLLECT_ONLY_EXISTING_ATTEMPT_OR_MARKER"
+}

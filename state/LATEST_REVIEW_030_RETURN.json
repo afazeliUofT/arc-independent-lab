@@ -1,0 +1,8 @@
+{
+  "archive": "artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f",
+  "evidence_digest": "9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f",
+  "index": "artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/INDEX.json",
+  "kind": "P3_REVIEW_030_LATEST_RETURN_v1",
+  "scientific_admission_claimed_by_publisher": false,
+  "workflow_status": "COLLECT_ONLY_EXISTING_ATTEMPT_OR_MARKER"
+}

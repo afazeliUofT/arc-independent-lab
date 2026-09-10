@@ -1,0 +1,53 @@
+{
+  "kind": "P3_RETURN_WORKFLOW_OFFLINE_VALIDATION_031_v1",
+  "created_utc": "2026-09-10T15:25:52.376255+00:00",
+  "suites": [
+    {
+      "suite": "test_publish_review030_evidence",
+      "tests_run": 19,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": true,
+      "trace": "artifacts/P3_RETURN_WORKFLOW_VALIDATION/20260910_031/test_publish_review030_evidence.txt",
+      "trace_sha256": "c6f6510c52421a3eecfa84814b16700f3448b733893b4cd3d80a87c9283bfdb8"
+    },
+    {
+      "suite": "test_review030_workflow",
+      "tests_run": 19,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": true,
+      "trace": "artifacts/P3_RETURN_WORKFLOW_VALIDATION/20260910_031/test_review030_workflow.txt",
+      "trace_sha256": "a9584581be8fd99783a76db09613c7b5930024dc0b3bd162b7969966b64e3db0"
+    },
+    {
+      "suite": "test_publish_checkpoint031",
+      "tests_run": 19,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": true,
+      "trace": "artifacts/P3_RETURN_WORKFLOW_VALIDATION/20260910_031/test_publish_checkpoint031.txt",
+      "trace_sha256": "8cf3b19a637cfda58665d2bd4a396971ec59117157fbd78146e31f9cf8cb6954"
+    }
+  ],
+  "tests_run": 57,
+  "passed": true,
+  "sources": {
+    "scripts/publish_checkpoint031.py": "592b52068cb0ad01b7ed67c33b2900b2eed9384b8b668dd5206b141f1f9e1ba3",
+    "scripts/review030_workflow.py": "e462ad7611374516ba697ce57e9dd235c94c8846a76a8dc501471f206f7dc473",
+    "scripts/publish_review030_evidence.py": "e5691f7045d76553732c42263e4f02b8981ba26525facb903f33f60c2cd4999b",
+    "scripts/validate_review_return031.py": "3671b750b85a92b912c8812806b8794274285bebdb32af0b4451a44877071ae2",
+    "tests/test_publish_review030_evidence.py": "2104796059ef56b6ab3e0af2aa9ad4f9e7d94b07ad1fda1c6d8e9ec970ef7caf",
+    "tests/test_review030_workflow.py": "adbe60534661092bfed9740270a9e71d360a92cffc3c9afb0c70f755b688d886",
+    "tests/test_publish_checkpoint031.py": "006706ca71992b2311f91c519c99f1e5589a4355617e858483da45d6985e7af1"
+  },
+  "git_commits_or_pushes_performed": false,
+  "git_commits_and_pushes_in_tests_mocked": true,
+  "native_clients_started": 0,
+  "model_turns_sent": 0,
+  "independent_scientific_review": false,
+  "actual_wsl_execution_or_github_push_verified_by_these_tests": false
+}
