@@ -1,0 +1,49 @@
+{
+  "actual_target_completion_or_boundary_certified": false,
+  "commits_or_pushes_performed": false,
+  "created_utc": "2026-09-10T18:10:21.311516+00:00",
+  "credential_contents_read": false,
+  "errors": 0,
+  "failures": 0,
+  "full_historical_canonical019_to028_chain_reexecuted_here": false,
+  "historical030_exact_returned_receipts_validated_in_fixture": true,
+  "kind": "P3_CORRECTION_032_OFFLINE_ENGINEERING_VALIDATION_v1",
+  "limitations": [
+    "Python fixture transports do not certify future native client behavior.",
+    "Historical030 final packet bytes remain unmeasured; new postchecks do not retroactively certify them.",
+    "Successful fixtures are engineering evidence, never independent scientific review.",
+    "Physical failure writing report or Git failure can still block publication; preserved attempt reservations prevent duplicate execution."
+  ],
+  "modules": [
+    "test_p3_review_interface_032",
+    "test_p3_receipt_collection_032",
+    "test_p3_session_pipeline_032",
+    "test_p3_finite_review_032",
+    "test_publish_checkpoint032",
+    "test_publish_review032_evidence",
+    "test_review032_workflow"
+  ],
+  "native_codex_or_model_used": false,
+  "scientific_verdict_produced": false,
+  "skips": 0,
+  "source_bytes_unchanged_during_tests": true,
+  "source_files": {
+    "configs/P3_FINITE_REVIEW_SCOPE_032.json": "5d7d307d3be0ccd4a6825895795578a4c94fc801377d4f115368bafb07cb20ac",
+    "scripts/p3_finite_review_032.py": "b1e5a8b083ec2776696c086c2a6ece56385922222e5d9ecd9b356f45a31bb0b3",
+    "scripts/p3_packet_observer_032.py": "1c28b532d90c7a40b57c37e4ea33fc2639fe5375572a28e0a0732ce236cc2326",
+    "scripts/p3_receipt_collection_032.py": "52b88345b8d707891fc33d37cd7040ca356178f400cc1396db9282951937b552",
+    "scripts/p3_review_interface_032.py": "565f408c25c7b6235b6b56e1493cc48b6a29aa06893d49b54afa61e8d72aef55",
+    "scripts/p3_review_protocol_032.py": "c51576b8fe48c396d804f92d01cd3f9bc9acf348a944506338c175f1813284f8",
+    "scripts/p3_reviewer_session_032.py": "bd287ae1b6361f01b83bf1b39c266c0c1d2ea27d34f34497ca7d26cf6917387b",
+    "scripts/publish_checkpoint032.py": "ec39324b3fde2450b3f4367937698cef1f44716f1d9ddf7ba2da17cb2f60e8ae",
+    "tests/test_p3_finite_review_032.py": "87c66401041b092d9ff5ccd184c1309101de1e696d73bdcda8d413e67c1c8a22",
+    "tests/test_p3_receipt_collection_032.py": "04f510d906545a4429f6a866d479ca2b9ac9ea66a24b45322e5ee092b4e1e87b",
+    "tests/test_p3_review_interface_032.py": "9f12b65e56d297cb432ac87c240ad04823b033f3df4ebef7485f548ee2561ced",
+    "tests/test_p3_session_pipeline_032.py": "b394ef8b7236fc490cfc7b18a891d78a0fbc74b8d51c3e195ea829fa045a9482",
+    "tests/test_publish_checkpoint032.py": "ff47896b133b86178db6f021ef7b9659042cd89ffae5f56fb741327190516fdf"
+  },
+  "status": "PASSED",
+  "submitted_verdict_fixture_only": true,
+  "synthetic_pipeline_receipts_sha256": "35f3cda68cd13a819061a52abe1325e4f680e393c7c47b9d3156edcf1b2015ef",
+  "tests_run": 128
+}

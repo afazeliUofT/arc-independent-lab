@@ -1,0 +1,61 @@
+{
+  "kind": "P3_FINITE_CORRECTION032_PREPARATION_v1",
+  "created_utc": "2026-09-10T18:13:05.882005+00:00",
+  "scope": {
+    "path": "configs/P3_FINITE_REVIEW_SCOPE_032.json",
+    "sha256": "5d7d307d3be0ccd4a6825895795578a4c94fc801377d4f115368bafb07cb20ac"
+  },
+  "controller": {
+    "path": "scripts/p3_finite_review_032.py",
+    "sha256": "b1e5a8b083ec2776696c086c2a6ece56385922222e5d9ecd9b356f45a31bb0b3"
+  },
+  "validation": {
+    "path": "artifacts/P3_CORRECTION_VALIDATION/20260910_032/REPORT.json",
+    "sha256": "f263b3a59abd77b45d97b5583e64ae990a2c9a2c346bd9bbe207a0cf3e6d56ef"
+  },
+  "observed_return": {
+    "path": "evidence/P3_RUN_030_RETURN_032_REVIEW.json",
+    "sha256": "01ab46a7421b18aac2aec7cd32adc7cdd6ea7c5ee766a03d1399b6715b703605"
+  },
+  "source_pins": {
+    "configs/P3_FINITE_REVIEW_SCOPE_032.json": "5d7d307d3be0ccd4a6825895795578a4c94fc801377d4f115368bafb07cb20ac",
+    "scripts/p3_finite_review_032.py": "b1e5a8b083ec2776696c086c2a6ece56385922222e5d9ecd9b356f45a31bb0b3",
+    "scripts/p3_packet_observer_032.py": "1c28b532d90c7a40b57c37e4ea33fc2639fe5375572a28e0a0732ce236cc2326",
+    "scripts/p3_receipt_collection_032.py": "52b88345b8d707891fc33d37cd7040ca356178f400cc1396db9282951937b552",
+    "scripts/p3_review_interface_032.py": "565f408c25c7b6235b6b56e1493cc48b6a29aa06893d49b54afa61e8d72aef55",
+    "scripts/p3_review_protocol_032.py": "c51576b8fe48c396d804f92d01cd3f9bc9acf348a944506338c175f1813284f8",
+    "scripts/p3_reviewer_session_032.py": "bd287ae1b6361f01b83bf1b39c266c0c1d2ea27d34f34497ca7d26cf6917387b",
+    "scripts/publish_checkpoint032.py": "ec39324b3fde2450b3f4367937698cef1f44716f1d9ddf7ba2da17cb2f60e8ae",
+    "tests/test_p3_finite_review_032.py": "87c66401041b092d9ff5ccd184c1309101de1e696d73bdcda8d413e67c1c8a22",
+    "tests/test_p3_receipt_collection_032.py": "04f510d906545a4429f6a866d479ca2b9ac9ea66a24b45322e5ee092b4e1e87b",
+    "tests/test_p3_review_interface_032.py": "9f12b65e56d297cb432ac87c240ad04823b033f3df4ebef7485f548ee2561ced",
+    "tests/test_p3_session_pipeline_032.py": "b394ef8b7236fc490cfc7b18a891d78a0fbc74b8d51c3e195ea829fa045a9482",
+    "tests/test_publish_checkpoint032.py": "ff47896b133b86178db6f021ef7b9659042cd89ffae5f56fb741327190516fdf"
+  },
+  "previous_protected_files_checked": 112,
+  "previous_protected_files_unchanged": true,
+  "standing_user_instruction": "I approve everything you suggest, so dont ask me.",
+  "new_conversational_approval_requested": false,
+  "unsigned_request_in_scratch": true,
+  "human_command_records_scope_specific_answer_before_execution": true,
+  "actual_observed_native_starts": 12,
+  "actual_observed_explicit_sent_turns": 9,
+  "additional_maximum_starts": 2,
+  "additional_maximum_sent_turns": 2,
+  "new_cumulative_ceilings": {
+    "native_starts": 14,
+    "explicit_sent_turns": 11
+  },
+  "new_native_or_model_operation_performed_here": false,
+  "kernel030_actual_pass_reused_no_repeat_probe": true,
+  "whole_target_historical_chain_not_reexecuted_here": true,
+  "actual030_missing_report_reconstructed": false,
+  "invalid_resource_paths_remain_unreadable": true,
+  "all_path_refusal_categories_count_toward_same_eight_error_budget": true,
+  "integrity_failure_stays_terminal": true,
+  "independent_packet_postcheck_both_stages": true,
+  "new_native_target_success_claimed": false,
+  "shared_agents_independent_scientific_reviewers": false,
+  "scientific_dispositions_or_efficacy_claimed": false,
+  "nonblocking_diagnostic_limit": "Saved per-call refusal categories distinguish path reasons; optional aggregate refusal receipt remains in memory only."
+}

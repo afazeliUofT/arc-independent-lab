@@ -1,0 +1,26 @@
+{
+  "credential_contents_accessed": false,
+  "earlier_local_test_error": {
+    "cause": "Incorrect inherited helper name tool_specs; actual original API dynamic_tool_specs",
+    "errors": 1,
+    "fixed": true,
+    "tests_run": 22
+  },
+  "errors": 0,
+  "failures": 0,
+  "historical_code_modified": false,
+  "kind": "P3_RESOURCE_INTERFACE_032_OFFLINE_VALIDATION_v1",
+  "model_turns_sent": 0,
+  "native_clients_started": 0,
+  "passed": true,
+  "skipped": 0,
+  "source_hashes": {
+    "reports/P3_RESOURCE_REQUEST_POLICY_032.md": "7bbc657fffee3503a819b850168ab525307e016accbec0328e06d8207f6eb047",
+    "scripts/p3_review_broker.py": "6f2118cb32573c7774db269c09694913040d06adb5eca9e8ca1a0fafe6089536",
+    "scripts/p3_review_interface_028.py": "ef41a59491f67252674079b18fa21e46257bdaf5cb2cabf76d9ba376ce6e2d1a",
+    "scripts/p3_review_interface_032.py": "565f408c25c7b6235b6b56e1493cc48b6a29aa06893d49b54afa61e8d72aef55",
+    "tests/test_p3_review_interface_032.py": "9f12b65e56d297cb432ac87c240ad04823b033f3df4ebef7485f548ee2561ced"
+  },
+  "tests_run": 22,
+  "trace_sha256": "d5915ba56166cf5641af99e1643721c9b46f9d833f45aa11755823868af4c958"
+}

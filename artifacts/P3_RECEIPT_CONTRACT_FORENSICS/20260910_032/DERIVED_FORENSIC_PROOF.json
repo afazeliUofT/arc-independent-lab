@@ -1,0 +1,138 @@
+{
+  "kind": "P3_030_MISSING_REPORT_DERIVED_FORENSIC_PROOF_032_v1",
+  "created_utc": "2026-09-10T17:49:48.559267+00:00",
+  "derived_engineering_analysis_not_native_execution_receipt": true,
+  "original_main_report_created_or_reconstructed": false,
+  "original_verdict_created_or_reconstructed": false,
+  "native_clients_started_by_this_forensic_work": 0,
+  "model_turns_sent_by_this_forensic_work": 0,
+  "git_commits_or_pushes_performed": false,
+  "original_sources_unchanged": true,
+  "original_returned_receipts_unchanged": true,
+  "fixed_sources": {
+    "scripts/p3_finite_review_030.py": {
+      "sha256": "1f8a61e9fb98dc15d0478a067950f46aa512d0ae3e900d649f6bb5eb71a3948a",
+      "bytes": 53009
+    },
+    "scripts/p3_reviewer_session_030.py": {
+      "sha256": "3aa2881e5bad8d9b9fa61aa64eeb54cb784f5bd16ca04fee152caf5c0de0145b",
+      "bytes": 52905
+    },
+    "tests/test_p3_finite_review_030.py": {
+      "sha256": "b5a6c29470d10cb9b55d2aa4feebe45da5b0de8e30f3c94396fa0c6b793e60ce",
+      "bytes": 44475
+    },
+    "tests/test_p3_lifecycle_030.py": {
+      "sha256": "217b5501136ffb73e8acd9f645e7c781b36fa0ef21b85eb2c764cf940fba1253",
+      "bytes": 27449
+    },
+    "tests/test_review030_workflow.py": {
+      "sha256": "adbe60534661092bfed9740270a9e71d360a92cffc3c9afb0c70f755b688d886",
+      "bytes": 12641
+    },
+    "tests/test_publish_review030_evidence.py": {
+      "sha256": "2104796059ef56b6ab3e0af2aa9ad4f9e7d94b07ad1fda1c6d8e9ec970ef7caf",
+      "bytes": 11051
+    }
+  },
+  "exact_original_receipts": {
+    "synthetic_SESSION.json": {
+      "sha256": "2df312ff31a243ce548d2a0065665166097e0e335fbe6967f146f117e91709c6",
+      "bytes": 128629
+    },
+    "synthetic_STAGE.json": {
+      "sha256": "31e607a40347176376604d97479997aee1a461e612ba60573aa33266574d6efc",
+      "bytes": 154844
+    },
+    "science_SESSION.json": {
+      "sha256": "1059b733db491fc9e5aee64113784cb95620bab487f76346f91ec243000f0da9",
+      "bytes": 160917
+    },
+    "science_STAGE.json": {
+      "sha256": "0911d75d736e9286d6b7600588051fa471c4f610ed24236253539155bc3490b7",
+      "bytes": 189188
+    }
+  },
+  "exact_copies_match_originals": true,
+  "unchanged_frozen_bundle_checks_passed": true,
+  "unchanged_separate_stage_linkage_checks": {
+    "synthetic": true,
+    "science": true
+  },
+  "unchanged_collector_reproductions": [
+    {
+      "exact_copy_set": "both",
+      "exception_class": "Stop",
+      "reason": "SESSION kind or actual execution counters differ"
+    },
+    {
+      "exact_copy_set": "synthetic_only",
+      "exception_class": "Stop",
+      "reason": "SESSION kind or actual execution counters differ"
+    },
+    {
+      "exact_copy_set": "science_only",
+      "exception_class": "Stop",
+      "reason": "SESSION kind or actual execution counters differ"
+    }
+  ],
+  "emitter_kind": "P3_FINITE_REVIEWER_SESSION_030_OFFLINE_PROPOSAL_v1",
+  "consumer_expected_kind": "P3_FINITE_REVIEWER_SESSION_030_v1",
+  "source_location": {
+    "emitter_report_assignment": 479,
+    "guarded_execute_try_end": 786,
+    "unguarded_collection": 815,
+    "final_report_write_not_reached": 822
+  },
+  "derived_accounting_from_original_true_execution_flags": {
+    "prior_native_starts": 10,
+    "prior_sent_turns": 7,
+    "observed_native_starts_this_attempt": 2,
+    "observed_sent_turns_this_attempt": 2,
+    "cumulative_observed_native_starts": 12,
+    "cumulative_observed_sent_turns": 9,
+    "reserved_native_starts_this_attempt": 2,
+    "reserved_turns_this_attempt": 2,
+    "cumulative_native_ceiling": 12,
+    "cumulative_sent_turn_ceiling": 9,
+    "maximum_cumulative_reservation_native_starts": 12,
+    "maximum_cumulative_reservation_turns": 9,
+    "missing_session_counts_are_only_minimum_observations": false,
+    "sent_turn_counts_without_output": true,
+    "backend_usage_or_charge": "unknown",
+    "unobserved_reserved_capacity_is_not_automatically_released": true,
+    "no_counter_reset": true
+  },
+  "actual_original_execution_summary": {
+    "synthetic": {
+      "kind": "P3_FINITE_REVIEWER_SESSION_030_OFFLINE_PROPOSAL_v1",
+      "mode": "synthetic",
+      "status": "SYNTHETIC_REFUSAL_OBSERVED",
+      "client_started": true,
+      "model_turn_request_sent": true,
+      "native_process_reaped": true,
+      "verdict_submitted": false,
+      "elapsed_seconds": 15.571611,
+      "server_requests_dispatched": 2,
+      "failed_broker_calls": 2,
+      "primary_failure": null
+    },
+    "science": {
+      "kind": "P3_FINITE_REVIEWER_SESSION_030_OFFLINE_PROPOSAL_v1",
+      "mode": "science",
+      "status": "STOPPED_WITHOUT_VERDICT",
+      "client_started": true,
+      "model_turn_request_sent": true,
+      "native_process_reaped": true,
+      "verdict_submitted": false,
+      "elapsed_seconds": 649.667418,
+      "server_requests_dispatched": 90,
+      "failed_broker_calls": 1,
+      "primary_failure": {
+        "layer": "session",
+        "reason": "Broker protocol or evidence validation refused"
+      }
+    }
+  },
+  "scope_of_causal_claim": "The original emitter-consumer mismatch deterministically makes the unchanged final collector throw on exact returned receipts before main report creation. This is a separate post-session reporting failure and does not explain the scientific session stop or establish a scientific verdict."
+}

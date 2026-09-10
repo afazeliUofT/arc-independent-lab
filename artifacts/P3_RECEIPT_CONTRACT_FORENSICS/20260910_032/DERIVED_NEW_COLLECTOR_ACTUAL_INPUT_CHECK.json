@@ -1,0 +1,40 @@
+{
+  "kind": "P3_SOURCE_BOUND_RECEIPT_COLLECTION_032_v1",
+  "source_binding_verified": true,
+  "complete": true,
+  "eligible_for_controller_admission_checks": true,
+  "execution_admission_evaluated": false,
+  "errors": [],
+  "files": [
+    {
+      "path": "synthetic_SESSION.json",
+      "status": "PRESENT",
+      "sha256": "2df312ff31a243ce548d2a0065665166097e0e335fbe6967f146f117e91709c6",
+      "bytes": 128629
+    },
+    {
+      "path": "synthetic_STAGE.json",
+      "status": "PRESENT",
+      "sha256": "31e607a40347176376604d97479997aee1a461e612ba60573aa33266574d6efc",
+      "bytes": 154844
+    },
+    {
+      "path": "science_SESSION.json",
+      "status": "PRESENT",
+      "sha256": "1059b733db491fc9e5aee64113784cb95620bab487f76346f91ec243000f0da9",
+      "bytes": 160917
+    },
+    {
+      "path": "science_STAGE.json",
+      "status": "PRESENT",
+      "sha256": "0911d75d736e9286d6b7600588051fa471c4f610ed24236253539155bc3490b7",
+      "bytes": 189188
+    }
+  ],
+  "derived_engineering_analysis_not_native_execution_receipt": true,
+  "original030_main_report_reconstructed": false,
+  "original030_verdict_reconstructed": false,
+  "collection_source_sha256": "52b88345b8d707891fc33d37cd7040ca356178f400cc1396db9282951937b552",
+  "observed_native_starts": 2,
+  "observed_sent_turns": 2
+}

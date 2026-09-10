@@ -1,0 +1,522 @@
+{
+  "case_count": 16,
+  "cases": [
+    {
+      "broker_failed_latch": false,
+      "case": "valid_known_image",
+      "dispatch_actual_raw_reads": [
+        "pages/page0001.png",
+        "BROKER_MANIFEST.json",
+        "pages/page0001.png",
+        "notes/evidence.txt",
+        "pages/page0001.png",
+        "BROKER_MANIFEST.json",
+        "pages/page0001.png",
+        "notes/evidence.txt",
+        "BROKER_MANIFEST.json",
+        "pages/page0001.png",
+        "notes/evidence.txt"
+      ],
+      "expected_class": "success",
+      "failure": null,
+      "independent_preopened_verifier_error": null,
+      "independent_preopened_verifier_receipt": {
+        "files_rehashed": 2,
+        "manifest_sha256": "f8d4aa92e82d2b5b175c82ccd03c0f0adf6d8fb002433fb75b21d622aa0ec9f6"
+      },
+      "observed_class": "success",
+      "original_packet_after_rehash_attempted": true,
+      "packet_after": {
+        "files_rehashed": 2,
+        "manifest_sha256": "f8d4aa92e82d2b5b175c82ccd03c0f0adf6d8fb002433fb75b21d622aa0ec9f6"
+      },
+      "postcheck_exception_categories": [],
+      "recoverable_errors": 0,
+      "synthetic_argument": "pages/page0001.png",
+      "synthetic_bytes_unchanged": true,
+      "verdict_exists": false
+    },
+    {
+      "broker_failed_latch": true,
+      "case": "canonical_unknown_page",
+      "dispatch_actual_raw_reads": [],
+      "expected_class": "boundary.resource_path",
+      "failure": {
+        "code": "boundary.resource_path",
+        "layer": "dispatch",
+        "raw_input_path_or_exception_saved": false,
+        "tool": "read_page_image"
+      },
+      "independent_preopened_verifier_error": null,
+      "independent_preopened_verifier_receipt": {
+        "files_rehashed": 2,
+        "manifest_sha256": "f8d4aa92e82d2b5b175c82ccd03c0f0adf6d8fb002433fb75b21d622aa0ec9f6"
+      },
+      "observed_class": "boundary.resource_path",
+      "original_packet_after_rehash_attempted": false,
+      "packet_after": null,
+      "postcheck_exception_categories": [
+        "packet_after_check_failed"
+      ],
+      "recoverable_errors": 0,
+      "synthetic_argument": "pages/page0002.png",
+      "synthetic_bytes_unchanged": true,
+      "verdict_exists": false
+    },
+    {
+      "broker_failed_latch": true,
+      "case": "canonical_typographical_alias",
+      "dispatch_actual_raw_reads": [],
+      "expected_class": "boundary.resource_path",
+      "failure": {
+        "code": "boundary.resource_path",
+        "layer": "dispatch",
+        "raw_input_path_or_exception_saved": false,
+        "tool": "read_page_image"
+      },
+      "independent_preopened_verifier_error": null,
+      "independent_preopened_verifier_receipt": {
+        "files_rehashed": 2,
+        "manifest_sha256": "f8d4aa92e82d2b5b175c82ccd03c0f0adf6d8fb002433fb75b21d622aa0ec9f6"
+      },
+      "observed_class": "boundary.resource_path",
+      "original_packet_after_rehash_attempted": false,
+      "packet_after": null,
+      "postcheck_exception_categories": [
+        "packet_after_check_failed"
+      ],
+      "recoverable_errors": 0,
+      "synthetic_argument": "pages/page001.png",
+      "synthetic_bytes_unchanged": true,
+      "verdict_exists": false
+    },
+    {
+      "broker_failed_latch": true,
+      "case": "traversal",
+      "dispatch_actual_raw_reads": [],
+      "expected_class": "boundary.resource_path",
+      "failure": {
+        "code": "boundary.resource_path",
+        "layer": "dispatch",
+        "raw_input_path_or_exception_saved": false,
+        "tool": "read_page_image"
+      },
+      "independent_preopened_verifier_error": null,
+      "independent_preopened_verifier_receipt": {
+        "files_rehashed": 2,
+        "manifest_sha256": "f8d4aa92e82d2b5b175c82ccd03c0f0adf6d8fb002433fb75b21d622aa0ec9f6"
+      },
+      "observed_class": "boundary.resource_path",
+      "original_packet_after_rehash_attempted": false,
+      "packet_after": null,
+      "postcheck_exception_categories": [
+        "packet_after_check_failed"
+      ],
+      "recoverable_errors": 0,
+      "synthetic_argument": "../private.png",
+      "synthetic_bytes_unchanged": true,
+      "verdict_exists": false
+    },
+    {
+      "broker_failed_latch": true,
+      "case": "absolute",
+      "dispatch_actual_raw_reads": [],
+      "expected_class": "boundary.resource_path",
+      "failure": {
+        "code": "boundary.resource_path",
+        "layer": "dispatch",
+        "raw_input_path_or_exception_saved": false,
+        "tool": "read_page_image"
+      },
+      "independent_preopened_verifier_error": null,
+      "independent_preopened_verifier_receipt": {
+        "files_rehashed": 2,
+        "manifest_sha256": "f8d4aa92e82d2b5b175c82ccd03c0f0adf6d8fb002433fb75b21d622aa0ec9f6"
+      },
+      "observed_class": "boundary.resource_path",
+      "original_packet_after_rehash_attempted": false,
+      "packet_after": null,
+      "postcheck_exception_categories": [
+        "packet_after_check_failed"
+      ],
+      "recoverable_errors": 0,
+      "synthetic_argument": "/tmp/private.png",
+      "synthetic_bytes_unchanged": true,
+      "verdict_exists": false
+    },
+    {
+      "broker_failed_latch": true,
+      "case": "empty_string",
+      "dispatch_actual_raw_reads": [],
+      "expected_class": "boundary.resource_path",
+      "failure": {
+        "code": "boundary.resource_path",
+        "layer": "dispatch",
+        "raw_input_path_or_exception_saved": false,
+        "tool": "read_page_image"
+      },
+      "independent_preopened_verifier_error": null,
+      "independent_preopened_verifier_receipt": {
+        "files_rehashed": 2,
+        "manifest_sha256": "f8d4aa92e82d2b5b175c82ccd03c0f0adf6d8fb002433fb75b21d622aa0ec9f6"
+      },
+      "observed_class": "boundary.resource_path",
+      "original_packet_after_rehash_attempted": false,
+      "packet_after": null,
+      "postcheck_exception_categories": [
+        "packet_after_check_failed"
+      ],
+      "recoverable_errors": 0,
+      "synthetic_argument": "",
+      "synthetic_bytes_unchanged": true,
+      "verdict_exists": false
+    },
+    {
+      "broker_failed_latch": true,
+      "case": "overlength_string",
+      "dispatch_actual_raw_reads": [],
+      "expected_class": "boundary.resource_path",
+      "failure": {
+        "code": "boundary.resource_path",
+        "layer": "dispatch",
+        "raw_input_path_or_exception_saved": false,
+        "tool": "read_page_image"
+      },
+      "independent_preopened_verifier_error": null,
+      "independent_preopened_verifier_receipt": {
+        "files_rehashed": 2,
+        "manifest_sha256": "f8d4aa92e82d2b5b175c82ccd03c0f0adf6d8fb002433fb75b21d622aa0ec9f6"
+      },
+      "observed_class": "boundary.resource_path",
+      "original_packet_after_rehash_attempted": false,
+      "packet_after": null,
+      "postcheck_exception_categories": [
+        "packet_after_check_failed"
+      ],
+      "recoverable_errors": 0,
+      "synthetic_argument": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "synthetic_bytes_unchanged": true,
+      "verdict_exists": false
+    },
+    {
+      "broker_failed_latch": true,
+      "case": "backslash",
+      "dispatch_actual_raw_reads": [],
+      "expected_class": "boundary.resource_path",
+      "failure": {
+        "code": "boundary.resource_path",
+        "layer": "dispatch",
+        "raw_input_path_or_exception_saved": false,
+        "tool": "read_page_image"
+      },
+      "independent_preopened_verifier_error": null,
+      "independent_preopened_verifier_receipt": {
+        "files_rehashed": 2,
+        "manifest_sha256": "f8d4aa92e82d2b5b175c82ccd03c0f0adf6d8fb002433fb75b21d622aa0ec9f6"
+      },
+      "observed_class": "boundary.resource_path",
+      "original_packet_after_rehash_attempted": false,
+      "packet_after": null,
+      "postcheck_exception_categories": [
+        "packet_after_check_failed"
+      ],
+      "recoverable_errors": 0,
+      "synthetic_argument": "pages\\page0001.png",
+      "synthetic_bytes_unchanged": true,
+      "verdict_exists": false
+    },
+    {
+      "broker_failed_latch": true,
+      "case": "control_character",
+      "dispatch_actual_raw_reads": [],
+      "expected_class": "boundary.resource_path",
+      "failure": {
+        "code": "boundary.resource_path",
+        "layer": "dispatch",
+        "raw_input_path_or_exception_saved": false,
+        "tool": "read_page_image"
+      },
+      "independent_preopened_verifier_error": null,
+      "independent_preopened_verifier_receipt": {
+        "files_rehashed": 2,
+        "manifest_sha256": "f8d4aa92e82d2b5b175c82ccd03c0f0adf6d8fb002433fb75b21d622aa0ec9f6"
+      },
+      "observed_class": "boundary.resource_path",
+      "original_packet_after_rehash_attempted": false,
+      "packet_after": null,
+      "postcheck_exception_categories": [
+        "packet_after_check_failed"
+      ],
+      "recoverable_errors": 0,
+      "synthetic_argument": "pages/page\n0001.png",
+      "synthetic_bytes_unchanged": true,
+      "verdict_exists": false
+    },
+    {
+      "broker_failed_latch": true,
+      "case": "double_slash",
+      "dispatch_actual_raw_reads": [],
+      "expected_class": "boundary.resource_path",
+      "failure": {
+        "code": "boundary.resource_path",
+        "layer": "dispatch",
+        "raw_input_path_or_exception_saved": false,
+        "tool": "read_page_image"
+      },
+      "independent_preopened_verifier_error": null,
+      "independent_preopened_verifier_receipt": {
+        "files_rehashed": 2,
+        "manifest_sha256": "f8d4aa92e82d2b5b175c82ccd03c0f0adf6d8fb002433fb75b21d622aa0ec9f6"
+      },
+      "observed_class": "boundary.resource_path",
+      "original_packet_after_rehash_attempted": false,
+      "packet_after": null,
+      "postcheck_exception_categories": [
+        "packet_after_check_failed"
+      ],
+      "recoverable_errors": 0,
+      "synthetic_argument": "pages//page0001.png",
+      "synthetic_bytes_unchanged": true,
+      "verdict_exists": false
+    },
+    {
+      "broker_failed_latch": false,
+      "case": "non_string",
+      "dispatch_actual_raw_reads": [
+        "BROKER_MANIFEST.json",
+        "pages/page0001.png",
+        "notes/evidence.txt",
+        "BROKER_MANIFEST.json",
+        "pages/page0001.png",
+        "notes/evidence.txt"
+      ],
+      "expected_class": "input.resource_path_type",
+      "failure": null,
+      "independent_preopened_verifier_error": null,
+      "independent_preopened_verifier_receipt": {
+        "files_rehashed": 2,
+        "manifest_sha256": "f8d4aa92e82d2b5b175c82ccd03c0f0adf6d8fb002433fb75b21d622aa0ec9f6"
+      },
+      "observed_class": "input.resource_path_type",
+      "original_packet_after_rehash_attempted": true,
+      "packet_after": {
+        "files_rehashed": 2,
+        "manifest_sha256": "f8d4aa92e82d2b5b175c82ccd03c0f0adf6d8fb002433fb75b21d622aa0ec9f6"
+      },
+      "postcheck_exception_categories": [],
+      "recoverable_errors": 1,
+      "synthetic_argument": 3,
+      "synthetic_bytes_unchanged": true,
+      "verdict_exists": false
+    },
+    {
+      "broker_failed_latch": false,
+      "case": "known_wrong_kind",
+      "dispatch_actual_raw_reads": [
+        "notes/evidence.txt",
+        "BROKER_MANIFEST.json",
+        "pages/page0001.png",
+        "notes/evidence.txt",
+        "BROKER_MANIFEST.json",
+        "pages/page0001.png",
+        "notes/evidence.txt"
+      ],
+      "expected_class": "input.resource_kind",
+      "failure": null,
+      "independent_preopened_verifier_error": null,
+      "independent_preopened_verifier_receipt": {
+        "files_rehashed": 2,
+        "manifest_sha256": "f8d4aa92e82d2b5b175c82ccd03c0f0adf6d8fb002433fb75b21d622aa0ec9f6"
+      },
+      "observed_class": "input.resource_kind",
+      "original_packet_after_rehash_attempted": true,
+      "packet_after": {
+        "files_rehashed": 2,
+        "manifest_sha256": "f8d4aa92e82d2b5b175c82ccd03c0f0adf6d8fb002433fb75b21d622aa0ec9f6"
+      },
+      "postcheck_exception_categories": [],
+      "recoverable_errors": 1,
+      "synthetic_argument": "notes/evidence.txt",
+      "synthetic_bytes_unchanged": true,
+      "verdict_exists": false
+    },
+    {
+      "broker_failed_latch": true,
+      "case": "known_missing_file",
+      "dispatch_actual_raw_reads": [
+        "pages/page0001.png"
+      ],
+      "expected_class": "integrity.resource",
+      "failure": {
+        "code": "integrity.resource",
+        "layer": "dispatch",
+        "raw_input_path_or_exception_saved": false,
+        "tool": "read_page_image"
+      },
+      "independent_preopened_verifier_error": "integrity.resource",
+      "independent_preopened_verifier_receipt": null,
+      "observed_class": "integrity.resource",
+      "original_packet_after_rehash_attempted": false,
+      "packet_after": null,
+      "postcheck_exception_categories": [
+        "packet_after_check_failed"
+      ],
+      "recoverable_errors": 0,
+      "synthetic_argument": "pages/page0001.png",
+      "synthetic_bytes_unchanged": false,
+      "verdict_exists": false
+    },
+    {
+      "broker_failed_latch": true,
+      "case": "mutation_during_known_request",
+      "dispatch_actual_raw_reads": [
+        "pages/page0001.png",
+        "BROKER_MANIFEST.json",
+        "pages/page0001.png",
+        "notes/evidence.txt"
+      ],
+      "expected_class": "integrity.resource",
+      "failure": {
+        "code": "integrity.resource",
+        "layer": "dispatch",
+        "raw_input_path_or_exception_saved": false,
+        "tool": "read_page_image"
+      },
+      "independent_preopened_verifier_error": "integrity.resource",
+      "independent_preopened_verifier_receipt": null,
+      "observed_class": "integrity.resource",
+      "original_packet_after_rehash_attempted": false,
+      "packet_after": null,
+      "postcheck_exception_categories": [
+        "packet_after_check_failed"
+      ],
+      "recoverable_errors": 0,
+      "synthetic_argument": "pages/page0001.png",
+      "synthetic_bytes_unchanged": false,
+      "verdict_exists": false
+    },
+    {
+      "broker_failed_latch": true,
+      "case": "unknown_request_can_mask_concurrent_mutation",
+      "dispatch_actual_raw_reads": [],
+      "expected_class": "boundary.resource_path",
+      "failure": {
+        "code": "boundary.resource_path",
+        "layer": "dispatch",
+        "raw_input_path_or_exception_saved": false,
+        "tool": "read_page_image"
+      },
+      "independent_preopened_verifier_error": "integrity.resource",
+      "independent_preopened_verifier_receipt": null,
+      "observed_class": "boundary.resource_path",
+      "original_packet_after_rehash_attempted": false,
+      "packet_after": null,
+      "postcheck_exception_categories": [
+        "packet_after_check_failed"
+      ],
+      "recoverable_errors": 0,
+      "synthetic_argument": "pages/page0002.png",
+      "synthetic_bytes_unchanged": false,
+      "verdict_exists": false
+    },
+    {
+      "broker_failed_latch": true,
+      "case": "manifested_malformed_png",
+      "dispatch_actual_raw_reads": [
+        "pages/page0001.png",
+        "BROKER_MANIFEST.json",
+        "pages/page0001.png",
+        "notes/evidence.txt",
+        "pages/page0001.png"
+      ],
+      "expected_class": "integrity.packet_format",
+      "failure": {
+        "code": "integrity.packet_format",
+        "layer": "dispatch",
+        "raw_input_path_or_exception_saved": false,
+        "tool": "read_page_image"
+      },
+      "independent_preopened_verifier_error": null,
+      "independent_preopened_verifier_receipt": {
+        "files_rehashed": 2,
+        "manifest_sha256": "9396292d053f0d5b8d6c8c8762e128909e0a4bb9339d15f43e362e4aa637596f"
+      },
+      "observed_class": "integrity.packet_format",
+      "original_packet_after_rehash_attempted": false,
+      "packet_after": null,
+      "postcheck_exception_categories": [
+        "packet_after_check_failed"
+      ],
+      "recoverable_errors": 0,
+      "synthetic_argument": "pages/page0001.png",
+      "synthetic_bytes_unchanged": true,
+      "verdict_exists": false
+    }
+  ],
+  "credentials_accessed": false,
+  "engineering_only_not_independent_scientific_review": true,
+  "historical_files_modified": false,
+  "historical_observation": {
+    "broker_boundary_failure": {
+      "code": "boundary.resource_path",
+      "layer": "dispatch",
+      "raw_input_path_or_exception_saved": false,
+      "tool": "read_page_image"
+    },
+    "context_compactions_completed": 1,
+    "current_private_packet_not_present_here_or_read": true,
+    "elapsed_seconds": 649.667418,
+    "failed_broker_calls": 1,
+    "failed_raw_path_recoverable_from_receipt": false,
+    "host_checks_pass": true,
+    "native_event_failure": null,
+    "native_process_reaped": true,
+    "packet_after": null,
+    "packet_before": {
+      "files_rehashed": 722,
+      "manifest_sha256": "437700c8850b7194b052d159b1eaf6a22b366c4a464e63148bb9b6b3084bdd98"
+    },
+    "postcheck_exception_categories": [
+      "packet_after_check_failed"
+    ],
+    "receipt_tool_counts": {
+      "hash_file": 51,
+      "read_page_image": 3,
+      "read_text": 35,
+      "run_observer_audit": 1
+    },
+    "recoverable_input_errors": 0,
+    "session_relative_path": "returned/artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_FINITE_REVIEW_030/science_SESSION.json",
+    "session_sha256": "1059b733db491fc9e5aee64113784cb95620bab487f76346f91ec243000f0da9",
+    "stage_sha256": "0911d75d736e9286d6b7600588051fa471c4f610ed24236253539155bc3490b7",
+    "status": "STOPPED_WITHOUT_VERDICT",
+    "successful_calls": 90
+  },
+  "kind": "P3_BROKER_STOP_FORENSICS_032_SYNTHETIC_v1",
+  "model_turns_sent": 0,
+  "native_clients_started": 0,
+  "passed": true,
+  "reproduction_sha256": "4d20bd529d8096f8f4af70a418a6610d0a658cc0ce64ef71ed276cef6767aabc",
+  "sources": [
+    {
+      "path": "scripts/p3_review_broker.py",
+      "sha256": "6f2118cb32573c7774db269c09694913040d06adb5eca9e8ca1a0fafe6089536"
+    },
+    {
+      "path": "scripts/p3_review_interface_028.py",
+      "sha256": "ef41a59491f67252674079b18fa21e46257bdaf5cb2cabf76d9ba376ce6e2d1a"
+    },
+    {
+      "path": "scripts/p3_review_protocol_028.py",
+      "sha256": "d41ecb40a6d63179657e5e04df2491b4bf431a5b28229210b96e640fba49b224"
+    },
+    {
+      "path": "scripts/p3_finite_review_030.py",
+      "sha256": "1f8a61e9fb98dc15d0478a067950f46aa512d0ae3e900d649f6bb5eb71a3948a"
+    },
+    {
+      "path": "scripts/p3_stage_evidence_030.py",
+      "sha256": "669c4169df508f9aac143b0bef3702bc478b18659300d8f80404a6db51e04378"
+    }
+  ]
+}

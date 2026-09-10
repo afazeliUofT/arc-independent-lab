@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-10T15:23:15.726761+00:00",
+  "updated_utc": "2026-09-10T18:13:05.882005+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -409,8 +409,8 @@
       "path": "artifacts/P3_REDESIGN_VALIDATION/20260910_030_001/REPORT.json",
       "sha256": "f4599a5710ba975875e7e51e3dc5ad5aaa37b39b3ce6d215d405761e3df047f7"
     },
-    "native_starts_consumed": null,
-    "explicit_sent_turns_consumed": null,
+    "native_starts_consumed": 2,
+    "explicit_sent_turns_consumed": 2,
     "authorization_pending": false,
     "backend_usage_or_charge": "unknown",
     "scientific_verdict": false,
@@ -418,7 +418,47 @@
       "path": "state/escalations/2026-09-10_FINITE_REVIEW_030_APPROVED.md",
       "sha256": "58e0dc94a91bc05109b68edfed9285154047d3f511102326c2f25475914cbbe1"
     },
-    "actual_wsl_native_starts_consumed": null,
-    "actual_wsl_explicit_sent_turns_consumed": null
+    "actual_wsl_native_starts_consumed": 2,
+    "actual_wsl_explicit_sent_turns_consumed": 2,
+    "result_verified_from_github": true,
+    "observed_return": {
+      "path": "evidence/P3_RUN_030_RETURN_032_REVIEW.json",
+      "sha256": "01ab46a7421b18aac2aec7cd32adc7cdd6ea7c5ee766a03d1399b6715b703605"
+    },
+    "main_report_missing": true
+  },
+  "completed_finite_review030": {
+    "review": {
+      "path": "evidence/P3_RUN_030_RETURN_032_REVIEW.json",
+      "sha256": "01ab46a7421b18aac2aec7cd32adc7cdd6ea7c5ee766a03d1399b6715b703605"
+    },
+    "native_starts": 2,
+    "explicit_sent_turns": 2,
+    "cumulative_native_starts": 12,
+    "cumulative_sent_turns": 9,
+    "approved030_ceiling_exhausted": true,
+    "main_report_absent_not_zero_usage": true,
+    "verdict_submitted": false,
+    "no_retry": true
+  },
+  "prepared_finite_review032": {
+    "scope": {
+      "path": "configs/P3_FINITE_REVIEW_SCOPE_032.json",
+      "sha256": "5d7d307d3be0ccd4a6825895795578a4c94fc801377d4f115368bafb07cb20ac"
+    },
+    "validation": {
+      "path": "artifacts/P3_CORRECTION_VALIDATION/20260910_032/REPORT.json",
+      "sha256": "f263b3a59abd77b45d97b5583e64ae990a2c9a2c346bd9bbe207a0cf3e6d56ef"
+    },
+    "standing_user_authorization_applies": true,
+    "scope_specific_human_execution_record_pending": true,
+    "additional_start_maximum": 2,
+    "additional_sent_turn_maximum": 2,
+    "cumulative_ceiling_starts": 14,
+    "cumulative_ceiling_sent_turns": 11,
+    "starts_or_turns_consumed_here": 0,
+    "backend_usage_or_charge": "unknown",
+    "no_automatic_retry": true,
+    "hosted_allowance_unavailable_unattended_disabled": true
   }
 }

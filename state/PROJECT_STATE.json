@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-10T15:26:46.314132+00:00",
+  "updated_utc": "2026-09-10T18:13:05.882005+00:00",
   "current_gate": "P3",
   "gate_status": "blocked",
   "gate_entered_utc": "2026-09-06T20:14:12.138443+00:00",
   "last_verified_gate": "P2",
-  "last_verified_commit": "4ed9c95b4200daf2dcc455d1f14c9a93757054a6",
-  "active_task": "P3.23.durable_return031",
+  "last_verified_commit": "39eae612ddb72a97979f001cd7f2385df8420bd1",
+  "active_task": "P3.24.finite_correction032",
   "blocked_on": {
-    "kind": "actual_execution_evidence_not_yet_published",
+    "kind": "independent_scientific_review_pending",
     "human_approval_required": false,
-    "blocks": "independent scientific dispositions",
+    "execution_required": "Human runs one ZIP command; exact preparation and actual results return through GitHub.",
     "return_channel": "GitHub only; no attachments"
   },
-  "next_action": "Human runs the single031 return workflow. It collects existing030 evidence or, only if noattempt paths/reservation exist, invokes the already approved unchanged030 controller once. Publish exactallowedresults and latestpointer; PI then fetchesGitHub and verifiesactualreceipts before anyscientificadmission.",
+  "next_action": "Human executes the one032 ZIP command. Publish exact code/scope before one conditional finite operation, then publish actual receipts and latest return pointer. PI verifies GitHub and evaluates an unchanged reviewer verdict if submitted; never infer completion from publication.",
   "open_questions": [
-    "Does the proposed source-derived lifecycle and sealed cache design pass the target synthetic kernel prerequisite and the actual finite reviewer operation? Offline108 tests pass; future completion and independent verdict remain unverified.",
+    "Will the actual032 corrected session/broker/independent postcheck/report pipeline complete on the target? Offline128tests pass; nofutureverdictisassumed.",
     "Formal separate dispositions for C1/C2/C3/C4, joint proposition and observer diagnostic remain pending enforced review.",
     "Whole-wrapper historical identity is unestablished; no novel complete joint algorithm or resource advantage specified.",
     "Observer supplied-contract discovery/invocation and broader practical prevalence remain open; exact recovery does not imply numerical robustness.",
@@ -60,8 +60,8 @@
     "P3"
   ],
   "remote": "https://github.com/afazeliUofT/arc-independent-lab",
-  "durability_status": "All1153published030filesverified. New031workflow mustpublish actualexecutionevidence totrackedarchive; no attachment handoff.",
-  "commit_status": "Published030approvalverified; new031 source/state/evidencereturn awaits humancommit/push. Noassistantcommit/push.",
+  "durability_status": "Published031 base and actual030 evidence verified. New032 source/state/validation awaits human setup push before execution; result push follows the operation.",
+  "commit_status": "No assistant commit or push; both publications are performed by the explicit human command.",
   "recovery_dependency": null,
   "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation.",
   "latest_recovery_evidence": [
@@ -79,8 +79,8 @@
     }
   ],
   "private_error_log_handling": "Probe raw error output stays within laptop Git metadata, outside normal commits. Request only safe terminal report; never ask for credentials or publish raw transport logs.",
-  "foreground_execution_note": "Actual cumulative10native starts/7sentturns; allowanceexhausted. No furthernativeoperationrequested.",
-  "scientific_status": "Diagnosis and novelty-free ideas approved. PI novelty/residual audits written. Actual028 reviewer used scientific evidence and auditor, then stopped without verdict; independent dispositions, finalmechanism selection and PROGRAMME remainunfinished.",
+  "foreground_execution_note": "Actual cumulative12native starts/9explicit sentturns. Standing instruction applies to one finite032 correction capped14/11; no automated retry or unattended model use.",
+  "scientific_status": "Diagnosis and novelty-free ideas approved. Multidisciplinary study complete within recorded scope, not exhaustive. PI novelty/residual audits written; independent dispositions, final mechanism selection and PROGRAMME remain unfinished. No mechanism efficacy result.",
   "latest_scientific_evidence": [
     {
       "path": "reports/P3_RESIDUAL_AUDIT_2026-09-07.md",
@@ -111,12 +111,12 @@
       "sha256": "3db85b6fa9f8050b4c77f75f09717b3902a5795044f7f8c14b6c78904627bf8c"
     }
   ],
-  "handoff_backup_status": "Publication-only forensic029 ZIP prepared; final exact installation verification accompanies release.",
+  "handoff_backup_status": "Single032 ZIP includes exact source, scope, tests, findings and publication workflow; preserved separately after final release verification.",
   "latest_publication_verification": {
-    "path": "evidence/REMOTE_CHECKPOINT_030_VERIFICATION.json",
-    "sha256": "21f87838721fffa29504c41a29e4d373d61061f4f3143e29c974c2766c8220ec"
+    "path": "evidence/REMOTE_CHECKPOINT_031_VERIFICATION.json",
+    "sha256": "71078909e98a7480259481f8d01d620e8a3f3fde4a100e098ee33c1ba54a5453"
   },
-  "last_human_message_verbatim": "Attached are generated files",
+  "last_human_message_verbatim": "GitHub is updated. It took only a few seconds",
   "phase1_approval": {
     "verified_utc": "2026-09-06T18:51:56.227927+00:00",
     "source_url": "https://github.com/afazeliUofT/arc-independent-lab/blob/376455150af7b257809a56021431413b2e0c6293/state/ESCALATION.md",
@@ -157,7 +157,7 @@
     "path": "evidence/P3_RESIDUAL_REVIEW_MANIFEST.json",
     "sha256": "f7249d53060349fdfbaca2102672457e3e8966ef510d6853322b10da75762128"
   },
-  "factual_dependency_note": "Actual028synthetic recovery/read/refusalpassed. Science88successfulbrokeroperations. Nativeitemtype discarded; latercachemetadataaggregatefalse. Complete scientificpacket reverified unchanged. Noadmittedverdict.",
+  "factual_dependency_note": "Actual030 synthetic and sealed-cache kernel checks passed. Science completed90successfulbroker calls and1compaction, then path denial; hostchecks passed, finalpacketcheck unavailable, verdict absent. Missing mainREPORT explained by reproduced emitter/collector kind mismatch.",
   "latest_inventory_receipt": {
     "path": "evidence/GATE0_INVENTORY_RUN_RECEIPTS_2026-09-07.json",
     "sha256": "4dd4a78189b9e3633c526e5a9c208aa11a09941920f1c0f3f4da92070e1df055"
@@ -167,7 +167,7 @@
     "remote_execution": "Linux shell on Narval",
     "canonical_laptop_project": "WSL ~/ARC_Independent_Lab"
   },
-  "last_human_message_summary": "User cannot locate report/verdict, approves suggested work, requests no more approvalquestions and no attachments. Allneededresults must bepushedtoGitHub forPIretrieval.",
+  "last_human_message_summary": "Published031 return verified; collect-only speed is expected. User standing instruction authorizes proposed corrections without another approval question and requires GitHub evidence instead of attachments.",
   "latest_capability_verification": {
     "path": "evidence/GATE0_CAPABILITY_INPUT_VERIFICATION_2026-09-07.json",
     "sha256": "6da38b2b47f6da6c5060f28bee745a4c85ab31538fac30566a776c208c51b559"
@@ -186,9 +186,9 @@
   },
   "reviewer_readiness": {
     "actual_command_enforcement": "observed for fixed v2 canary; completed",
-    "full_tool_boundary": "Actual028synthetic argumentfeedback/read/refusal observed; 88sciencebroker successes include text/hash/image/auditor. Fullscientificverdictnotadmitted because sessionnativeitemstop andcachepostcheckfailed.",
+    "full_tool_boundary": "Actual030 science90successfulbroker calls thenpathrefusal, onecompaction; noverdict. New032 preserves closed manifested access with8correctablepatherrors andseparatepacketpostcheck.",
     "fresh_review_context": "Actual027 separately freshscienceprocessobserved aftersyntheticpass.",
-    "formal_verdict": "Absent. No030 native or model execution. The028 run stopped after88 successful broker calls.",
+    "formal_verdict": "Absent in actual030; separate original receipts verify12/9cumulative use. New032 finite operation awaits human command.",
     "shared_workspace_consultants": "engineering consultants only, not independent scientific reviewers",
     "primary_method_coverage": "listed Phase3 comparator dependencies complete; broader Phase1 bibliography/priority not certified",
     "verifier_execution_dependencies": "complete; unchanged original checker reexecuted on declared original-inventory view, post-run metadata checked separately",
@@ -216,8 +216,8 @@
     "sha256": "374af08fd069efcc42a513560ae5849353e02f3c48ffc5046c0c9eb40ed5b455"
   },
   "latest_operational_findings": {
-    "path": "reports/P3_CHECKPOINT_031_STATUS.md",
-    "sha256": "bf2b3d2ad6b83a725ed41caa338ec6c0d0eea2c958be9c64487eac5e84f83711"
+    "path": "reports/P3_RUN_030_RETURN_032_REVIEW.md",
+    "sha256": "948ab5849bdd8221b545e5c3a7021752a4b9167b46de47d9c05e6cb8a1ab4716"
   },
   "hosted_output_integrity_note": "Earlier report/binary anomalies retained. Current validation also found a supposedly new directory already populated; cause unestablished, preserved and not overwritten. Operative validation succeeded in fresh UUID-suffixed directory with explicit return and hash. Final ZIP application/readback remains mandatory.",
   "review_input_core": {
@@ -229,12 +229,12 @@
     "sha256": "771c627268de321d6a0b56b3ec74bba0f8738e5809da9f5daf83ef8adec033ff"
   },
   "last_completed_operational_task": {
-    "id": "P3.21.forensic029",
-    "status": "Published028 and actualreport verified; full sourceforensics completed; native attempts stopped; no extra human probe justified."
+    "id": "P3.23.durable_return031",
+    "status": "Complete: actual030 separate receipts verified from GitHub. No new reviewer was launched by031."
   },
   "last_completed_preparation_task": {
-    "id": "P3.23.durable_return031",
-    "status": "Complete;57 offline tests pass, no skips. Exact release install validation is included beside singleZIP payload."
+    "id": "P3.24.finite_correction032",
+    "status": "128 final offline tests passed with no skips; exact release installation is checked separately before delivery."
   },
   "full_method_coverage": {
     "path": "evidence/P3_REVIEW_METHOD_COVERAGE_2026-09-07.json",
@@ -260,8 +260,8 @@
     "complete_reviewer_boundary_verified": false
   },
   "latest_objective_review": {
-    "path": "reports/P3_CHECKPOINT_031_STATUS.md",
-    "sha256": "bf2b3d2ad6b83a725ed41caa338ec6c0d0eea2c958be9c64487eac5e84f83711"
+    "path": "reports/P3_RUN_030_RETURN_032_REVIEW.md",
+    "sha256": "948ab5849bdd8221b545e5c3a7021752a4b9167b46de47d9c05e6cb8a1ab4716"
   },
   "objective_continuity": {
     "read_each_substantive_turn": "docs/OBJECTIVE_CONTINUITY_2026-09-07.md",
@@ -481,5 +481,70 @@
   "latest_return_workflow_preparation": {
     "path": "evidence/P3_RETURN_WORKFLOW_031_PREPARATION.json",
     "sha256": "b4a3f4e7e57021777ff3ddedd95da13f18bcb5911cd9335c0b1a457928976e71"
+  },
+  "latest_correction_preparation": {
+    "path": "evidence/P3_CORRECTION_032_PREPARATION.json",
+    "sha256": "03d34ebb45f9806bf41d5b032ae873942be74d3a6556f76bdba6115cf9aebae8"
+  },
+  "prepared_finite_review032": {
+    "kind": "P3_FINITE_CORRECTION032_PREPARATION_v1",
+    "created_utc": "2026-09-10T18:13:05.882005+00:00",
+    "scope": {
+      "path": "configs/P3_FINITE_REVIEW_SCOPE_032.json",
+      "sha256": "5d7d307d3be0ccd4a6825895795578a4c94fc801377d4f115368bafb07cb20ac"
+    },
+    "controller": {
+      "path": "scripts/p3_finite_review_032.py",
+      "sha256": "b1e5a8b083ec2776696c086c2a6ece56385922222e5d9ecd9b356f45a31bb0b3"
+    },
+    "validation": {
+      "path": "artifacts/P3_CORRECTION_VALIDATION/20260910_032/REPORT.json",
+      "sha256": "f263b3a59abd77b45d97b5583e64ae990a2c9a2c346bd9bbe207a0cf3e6d56ef"
+    },
+    "observed_return": {
+      "path": "evidence/P3_RUN_030_RETURN_032_REVIEW.json",
+      "sha256": "01ab46a7421b18aac2aec7cd32adc7cdd6ea7c5ee766a03d1399b6715b703605"
+    },
+    "source_pins": {
+      "configs/P3_FINITE_REVIEW_SCOPE_032.json": "5d7d307d3be0ccd4a6825895795578a4c94fc801377d4f115368bafb07cb20ac",
+      "scripts/p3_finite_review_032.py": "b1e5a8b083ec2776696c086c2a6ece56385922222e5d9ecd9b356f45a31bb0b3",
+      "scripts/p3_packet_observer_032.py": "1c28b532d90c7a40b57c37e4ea33fc2639fe5375572a28e0a0732ce236cc2326",
+      "scripts/p3_receipt_collection_032.py": "52b88345b8d707891fc33d37cd7040ca356178f400cc1396db9282951937b552",
+      "scripts/p3_review_interface_032.py": "565f408c25c7b6235b6b56e1493cc48b6a29aa06893d49b54afa61e8d72aef55",
+      "scripts/p3_review_protocol_032.py": "c51576b8fe48c396d804f92d01cd3f9bc9acf348a944506338c175f1813284f8",
+      "scripts/p3_reviewer_session_032.py": "bd287ae1b6361f01b83bf1b39c266c0c1d2ea27d34f34497ca7d26cf6917387b",
+      "scripts/publish_checkpoint032.py": "ec39324b3fde2450b3f4367937698cef1f44716f1d9ddf7ba2da17cb2f60e8ae",
+      "tests/test_p3_finite_review_032.py": "87c66401041b092d9ff5ccd184c1309101de1e696d73bdcda8d413e67c1c8a22",
+      "tests/test_p3_receipt_collection_032.py": "04f510d906545a4429f6a866d479ca2b9ac9ea66a24b45322e5ee092b4e1e87b",
+      "tests/test_p3_review_interface_032.py": "9f12b65e56d297cb432ac87c240ad04823b033f3df4ebef7485f548ee2561ced",
+      "tests/test_p3_session_pipeline_032.py": "b394ef8b7236fc490cfc7b18a891d78a0fbc74b8d51c3e195ea829fa045a9482",
+      "tests/test_publish_checkpoint032.py": "ff47896b133b86178db6f021ef7b9659042cd89ffae5f56fb741327190516fdf"
+    },
+    "previous_protected_files_checked": 112,
+    "previous_protected_files_unchanged": true,
+    "standing_user_instruction": "I approve everything you suggest, so dont ask me.",
+    "new_conversational_approval_requested": false,
+    "unsigned_request_in_scratch": true,
+    "human_command_records_scope_specific_answer_before_execution": true,
+    "actual_observed_native_starts": 12,
+    "actual_observed_explicit_sent_turns": 9,
+    "additional_maximum_starts": 2,
+    "additional_maximum_sent_turns": 2,
+    "new_cumulative_ceilings": {
+      "native_starts": 14,
+      "explicit_sent_turns": 11
+    },
+    "new_native_or_model_operation_performed_here": false,
+    "kernel030_actual_pass_reused_no_repeat_probe": true,
+    "whole_target_historical_chain_not_reexecuted_here": true,
+    "actual030_missing_report_reconstructed": false,
+    "invalid_resource_paths_remain_unreadable": true,
+    "all_path_refusal_categories_count_toward_same_eight_error_budget": true,
+    "integrity_failure_stays_terminal": true,
+    "independent_packet_postcheck_both_stages": true,
+    "new_native_target_success_claimed": false,
+    "shared_agents_independent_scientific_reviewers": false,
+    "scientific_dispositions_or_efficacy_claimed": false,
+    "nonblocking_diagnostic_limit": "Saved per-call refusal categories distinguish path reasons; optional aggregate refusal receipt remains in memory only."
   }
 }

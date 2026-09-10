@@ -1,0 +1,96 @@
+{
+  "kind": "P3_RECEIPT_CONTRACT_FORENSICS_ARCHIVE_032_v1",
+  "accessed_utc_date": "2026-09-10",
+  "original_scratch_context": "delivery/rebuild032/engineering_report",
+  "files": [
+    {
+      "path": "DERIVED_FORENSIC_PROOF.json",
+      "sha256": "06568763624e41466fd45e534d3dcd57013f5fc18e1e20e4fee090f6515a0f28",
+      "bytes": 5257,
+      "role": "derived_forensic_observation_or_instrumentation",
+      "copied_without_byte_changes": true
+    },
+    {
+      "path": "DERIVED_NEW_COLLECTOR_ACTUAL_INPUT_CHECK.json",
+      "sha256": "38d57949559d73e548d0745bfc7acbbd9fd6320fb73a948a446ee435159026b5",
+      "bytes": 1298,
+      "role": "derived_forensic_observation_or_instrumentation",
+      "copied_without_byte_changes": true
+    },
+    {
+      "path": "EXACT_RETURNED_RECEIPT_COPIES/science_SESSION.json",
+      "sha256": "1059b733db491fc9e5aee64113784cb95620bab487f76346f91ec243000f0da9",
+      "bytes": 160917,
+      "role": "exact_original_receipt_copy",
+      "copied_without_byte_changes": true
+    },
+    {
+      "path": "EXACT_RETURNED_RECEIPT_COPIES/science_STAGE.json",
+      "sha256": "0911d75d736e9286d6b7600588051fa471c4f610ed24236253539155bc3490b7",
+      "bytes": 189188,
+      "role": "exact_original_receipt_copy",
+      "copied_without_byte_changes": true
+    },
+    {
+      "path": "EXACT_RETURNED_RECEIPT_COPIES/synthetic_SESSION.json",
+      "sha256": "2df312ff31a243ce548d2a0065665166097e0e335fbe6967f146f117e91709c6",
+      "bytes": 128629,
+      "role": "exact_original_receipt_copy",
+      "copied_without_byte_changes": true
+    },
+    {
+      "path": "EXACT_RETURNED_RECEIPT_COPIES/synthetic_STAGE.json",
+      "sha256": "31e607a40347176376604d97479997aee1a461e612ba60573aa33266574d6efc",
+      "bytes": 154844,
+      "role": "exact_original_receipt_copy",
+      "copied_without_byte_changes": true
+    },
+    {
+      "path": "FINDINGS.md",
+      "sha256": "3d300a4915bc9c0dfa969d52b26e6fa7f0d4ea6412e7fbd0d46bb91a3a412bf2",
+      "bytes": 7074,
+      "role": "derived_forensic_observation_or_instrumentation",
+      "copied_without_byte_changes": true
+    },
+    {
+      "path": "SCIENCE_ONLY_COPY/science_SESSION.json",
+      "sha256": "1059b733db491fc9e5aee64113784cb95620bab487f76346f91ec243000f0da9",
+      "bytes": 160917,
+      "role": "exact_original_receipt_copy",
+      "copied_without_byte_changes": true
+    },
+    {
+      "path": "SHA256SUMS",
+      "sha256": "43854205b360505e8f5d42fc7daedf7956c43ccf6dbbb452110348093a4421f7",
+      "bytes": 483,
+      "role": "derived_forensic_observation_or_instrumentation",
+      "copied_without_byte_changes": true
+    },
+    {
+      "path": "SYNTHETIC_ONLY_COPY/synthetic_SESSION.json",
+      "sha256": "2df312ff31a243ce548d2a0065665166097e0e335fbe6967f146f117e91709c6",
+      "bytes": 128629,
+      "role": "exact_original_receipt_copy",
+      "copied_without_byte_changes": true
+    },
+    {
+      "path": "UNCHANGED_CONSUMER_TRACE.txt",
+      "sha256": "f60909663573dcdb28b4e44d5857c6bd79dab57dd34bd3f0ee48341db08557bf",
+      "bytes": 2204,
+      "role": "derived_forensic_observation_or_instrumentation",
+      "copied_without_byte_changes": true
+    },
+    {
+      "path": "reproduce_collect_sessions_failure.py",
+      "sha256": "6a0e9c78e537993fd9717a25030f406cf6bbe295ad8e3e2ddd6f988f9b45c68c",
+      "bytes": 9535,
+      "role": "derived_forensic_observation_or_instrumentation",
+      "copied_without_byte_changes": true
+    }
+  ],
+  "engineering_only_not_independent_scientific_review": true,
+  "historical_main_report_or_verdict_reconstructed": false,
+  "script_archived_exactly_as_executed": true,
+  "script_original_relative_workspace_context_preserved_in_manifest": true,
+  "no_model_or_native_client_invoked_for_this_archive": true
+}

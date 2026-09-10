@@ -1,0 +1,358 @@
+{
+  "kind": "P3_RUN_030_RETURN_REVIEW_DERIVED_032_v1",
+  "created_utc": "2026-09-10T18:08:58.408726+00:00",
+  "accessed_utc_date": "2026-09-10",
+  "classification": "derived engineering and programme status review, not a native execution receipt or independent scientific verdict",
+  "publication": {
+    "verified_head": "39eae612ddb72a97979f001cd7f2385df8420bd1",
+    "url": "https://github.com/afazeliUofT/arc-independent-lab/commit/39eae612ddb72a97979f001cd7f2385df8420bd1",
+    "tracked_files_verified_by_root": 1185,
+    "return_archive": "artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f",
+    "return_index_sha256": "9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f",
+    "original_present_files": 10,
+    "main030_report_status": "MISSING",
+    "scientific_verdict_status": "MISSING"
+  },
+  "workflow031": {
+    "status": "COLLECT_ONLY_EXISTING_ATTEMPT_OR_MARKER",
+    "controller_invoked_for_review": false,
+    "read_only_controller_inspection_performed": true,
+    "inspection_elapsed_seconds": 0.077608,
+    "inspection_exit_code": 1,
+    "native_start_or_model_turn_requested": false,
+    "existing_attempt_reused_for_collection": true,
+    "few_seconds_did_not_represent_new_review": true
+  },
+  "actual030": {
+    "kernel_synthetic_mount_observed_passed": true,
+    "kernel_checks": {
+      "absent_cache_creation_refused": true,
+      "absent_cache_stays_absent": true,
+      "exact_snapshot_bytes": true,
+      "snapshot_truncate_refused": true,
+      "snapshot_write_refused": true,
+      "synthetic_auth_not_mounted": true
+    },
+    "synthetic_elapsed_seconds": 15.571611,
+    "synthetic_status": "SYNTHETIC_REFUSAL_OBSERVED",
+    "science_elapsed_seconds": 649.667418,
+    "science_status": "STOPPED_WITHOUT_VERDICT",
+    "science_successful_broker_calls": 90,
+    "science_successful_calls_by_tool": {
+      "read_text": 35,
+      "hash_file": 51,
+      "run_observer_audit": 1,
+      "read_page_image": 3
+    },
+    "science_failed_broker_calls": 1,
+    "science_boundary_failure": {
+      "layer": "dispatch",
+      "code": "boundary.resource_path",
+      "tool": "read_page_image",
+      "raw_input_path_or_exception_saved": false
+    },
+    "science_context_compactions_completed": 1,
+    "science_native_event_failure": null,
+    "science_noncredential_host_checks_pass": true,
+    "science_initial_packet": {
+      "manifest_sha256": "437700c8850b7194b052d159b1eaf6a22b366c4a464e63148bb9b6b3084bdd98",
+      "files_rehashed": 722
+    },
+    "science_final_packet": null,
+    "science_final_packet_rehash_blocked_by_failed_request_latch": true,
+    "final_packet_corruption_inferred": false,
+    "final_packet_equality_inferred": false,
+    "historical_denied_path_or_subcategory_known": false,
+    "both_native_processes_reaped": true,
+    "both_verdict_submitted_flags_false": true
+  },
+  "actual_accounting": {
+    "prior_observed_native_starts": 10,
+    "prior_observed_sent_turns": 7,
+    "additional_observed_native_starts": 2,
+    "additional_observed_sent_turns": 2,
+    "cumulative_observed_native_starts": 12,
+    "cumulative_observed_sent_turns": 9,
+    "existing030_approved_ceilings_exhausted": true,
+    "unobserved_backend_inference_and_subscription_charge": "unknown",
+    "absence_of_main_report_does_not_release_allowance": true
+  },
+  "reproduced_failures": [
+    {
+      "name": "path denial also prevents final packet measurement",
+      "proof": {
+        "path": "artifacts/P3_PATH_REFUSAL_FORENSICS/20260910_032/REPORT.json",
+        "sha256": "97a65c11a6718e4558c51e03f03fef4a408072ac63754c396829eb204ef78bc5",
+        "bytes": 19411
+      },
+      "synthetic_cases": 16,
+      "all_passed": true,
+      "exact_actual_denied_path_reconstructed": false
+    },
+    {
+      "name": "emitter/consumer kind mismatch prevents main report creation",
+      "proof": {
+        "path": "artifacts/P3_RECEIPT_CONTRACT_FORENSICS/20260910_032/DERIVED_FORENSIC_PROOF.json",
+        "sha256": "06568763624e41466fd45e534d3dcd57013f5fc18e1e20e4fee090f6515a0f28",
+        "bytes": 5257
+      },
+      "exact_receipt_copy_reproductions": 3,
+      "all_failed_with_expected_original_error": true,
+      "actual_emitter_kind": "P3_FINITE_REVIEWER_SESSION_030_OFFLINE_PROPOSAL_v1",
+      "original_collector_expected_kind": "P3_FINITE_REVIEWER_SESSION_030_v1",
+      "collector_outside_execute_guard": true,
+      "original_main_report_reconstructed": false
+    }
+  ],
+  "test_coverage_correction": {
+    "earlier030_passing_tests": 108,
+    "gap": "controller fixtures manufactured kind from the consumer constant; real emitter output was not passed to final collector",
+    "earlier031_passing_tests": 57,
+    "scope": "publication and collection, including partial missing reports, not original030 emitter/consumer semantic compatibility",
+    "new_real_emitter_contract_tests_cover_030_and_032_without_native_process": true,
+    "new_collector_suite_tests_passed_at_preparation": 17,
+    "combined_final032_validation": {
+      "path": "artifacts/P3_CORRECTION_VALIDATION/20260910_032/REPORT.json",
+      "sha256": "f263b3a59abd77b45d97b5583e64ae990a2c9a2c346bd9bbe207a0cf3e6d56ef",
+      "tests_run": 128,
+      "failures": 0,
+      "errors": 0,
+      "skips": 0,
+      "native_codex_or_model_used": false,
+      "actual_target_completion_certified": false
+    }
+  },
+  "bounded032_preparation": {
+    "status": "offline implementation and integration preparation; no target032 execution observed",
+    "additional_native_start_ceiling": 2,
+    "additional_explicit_sent_turn_ceiling": 2,
+    "proposed_cumulative_native_start_ceiling": 14,
+    "proposed_cumulative_sent_turn_ceiling": 11,
+    "model": "gpt-5.6-sol",
+    "reasoning_effort": "max",
+    "fresh_synthetic_then_conditional_fresh_science": true,
+    "reuse_exact_verified_original030_kernel_prerequisite_only": true,
+    "final_packet_observation_separate_from_dispatch_stop": true,
+    "source_bound_shared_receipt_kind": true,
+    "final_report_persists_receipt_collection_failures": true,
+    "publication_automatically_collects_existing_or_new_output": true,
+    "automatic_native_retry_authorized": false,
+    "unattended_model_use_authorized": false,
+    "future_verdict_guaranteed": false,
+    "all_path_refusal_categories_correctable_only_after_successful_whole_packet_verification": true,
+    "traversal_and_malformed_paths_refused_without_opening_but_may_receive_fixed_bounded_feedback": true,
+    "shared_total_input_correction_ceiling": 8,
+    "ninth_input_error_terminal": true,
+    "integrity_unknown_operation_and_other_terminal_dispatch_failures_remain_terminal": true,
+    "refused_path_never_opened_or_normalized": true
+  },
+  "programme_status": {
+    "objective": "acquire knowledge through interaction, retain it across discontinuities, and recombine it in unfamiliar settings",
+    "diagnosis_approved": true,
+    "novelty_free_ideas_approved": true,
+    "multidisciplinary_study": "complete within recorded scope, not an exhaustive systematic review",
+    "phase3_pi_audits_written": true,
+    "independent_novelty_dispositions_complete": false,
+    "candidate_mechanisms_finalized": false,
+    "programme_finalized": false,
+    "mechanism_efficacy_established": false
+  },
+  "original_file_references": [
+    {
+      "source_path": "delivery/P3_FINITE_REVIEW_030/REPORT.json",
+      "status": "MISSING"
+    },
+    {
+      "source_path": "delivery/P3_FINITE_REVIEW_030/REPORT.sha256",
+      "status": "MISSING"
+    },
+    {
+      "source_path": "delivery/P3_FINITE_REVIEW_030/ATTEMPT.json",
+      "status": "PRESENT",
+      "path": "artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_FINITE_REVIEW_030/ATTEMPT.json",
+      "sha256": "cefb5a068fe51d0bc07459ada4df0bb9a7a41aa2c8d4655bcd73bae78eaf1974",
+      "bytes": 51071,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/39eae612ddb72a97979f001cd7f2385df8420bd1/artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_FINITE_REVIEW_030/ATTEMPT.json",
+      "accessed_utc_date": "2026-09-10"
+    },
+    {
+      "source_path": "delivery/P3_FINITE_REVIEW_030/AUTHORIZATION.md",
+      "status": "PRESENT",
+      "path": "artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_FINITE_REVIEW_030/AUTHORIZATION.md",
+      "sha256": "58e0dc94a91bc05109b68edfed9285154047d3f511102326c2f25475914cbbe1",
+      "bytes": 8232,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/39eae612ddb72a97979f001cd7f2385df8420bd1/artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_FINITE_REVIEW_030/AUTHORIZATION.md",
+      "accessed_utc_date": "2026-09-10"
+    },
+    {
+      "source_path": "delivery/P3_FINITE_REVIEW_030/synthetic_SESSION.json",
+      "status": "PRESENT",
+      "path": "artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_FINITE_REVIEW_030/synthetic_SESSION.json",
+      "sha256": "2df312ff31a243ce548d2a0065665166097e0e335fbe6967f146f117e91709c6",
+      "bytes": 128629,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/39eae612ddb72a97979f001cd7f2385df8420bd1/artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_FINITE_REVIEW_030/synthetic_SESSION.json",
+      "accessed_utc_date": "2026-09-10"
+    },
+    {
+      "source_path": "delivery/P3_FINITE_REVIEW_030/synthetic_STAGE.json",
+      "status": "PRESENT",
+      "path": "artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_FINITE_REVIEW_030/synthetic_STAGE.json",
+      "sha256": "31e607a40347176376604d97479997aee1a461e612ba60573aa33266574d6efc",
+      "bytes": 154844,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/39eae612ddb72a97979f001cd7f2385df8420bd1/artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_FINITE_REVIEW_030/synthetic_STAGE.json",
+      "accessed_utc_date": "2026-09-10"
+    },
+    {
+      "source_path": "delivery/P3_FINITE_REVIEW_030/science_SESSION.json",
+      "status": "PRESENT",
+      "path": "artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_FINITE_REVIEW_030/science_SESSION.json",
+      "sha256": "1059b733db491fc9e5aee64113784cb95620bab487f76346f91ec243000f0da9",
+      "bytes": 160917,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/39eae612ddb72a97979f001cd7f2385df8420bd1/artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_FINITE_REVIEW_030/science_SESSION.json",
+      "accessed_utc_date": "2026-09-10"
+    },
+    {
+      "source_path": "delivery/P3_FINITE_REVIEW_030/science_STAGE.json",
+      "status": "PRESENT",
+      "path": "artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_FINITE_REVIEW_030/science_STAGE.json",
+      "sha256": "0911d75d736e9286d6b7600588051fa471c4f610ed24236253539155bc3490b7",
+      "bytes": 189188,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/39eae612ddb72a97979f001cd7f2385df8420bd1/artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_FINITE_REVIEW_030/science_STAGE.json",
+      "accessed_utc_date": "2026-09-10"
+    },
+    {
+      "source_path": "delivery/P3_FINITE_REVIEW_030/science_output/REVIEW_VERDICT.json",
+      "status": "MISSING"
+    },
+    {
+      "source_path": "delivery/P3_FINITE_REVIEW_030_KERNEL_PREFLIGHT/ATTEMPT.json",
+      "status": "PRESENT",
+      "path": "artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_FINITE_REVIEW_030_KERNEL_PREFLIGHT/ATTEMPT.json",
+      "sha256": "58b04b19d1233219d49136186c376456da6170b7575adb6d51ce352e57cca2aa",
+      "bytes": 24036,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/39eae612ddb72a97979f001cd7f2385df8420bd1/artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_FINITE_REVIEW_030_KERNEL_PREFLIGHT/ATTEMPT.json",
+      "accessed_utc_date": "2026-09-10"
+    },
+    {
+      "source_path": "delivery/P3_FINITE_REVIEW_030_KERNEL_PREFLIGHT/REPORT.json",
+      "status": "PRESENT",
+      "path": "artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_FINITE_REVIEW_030_KERNEL_PREFLIGHT/REPORT.json",
+      "sha256": "94fae5b5c1a7c73066060a5423ea8cd2a566a6d8221b41ff3a9fe13004c64a00",
+      "bytes": 25772,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/39eae612ddb72a97979f001cd7f2385df8420bd1/artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_FINITE_REVIEW_030_KERNEL_PREFLIGHT/REPORT.json",
+      "accessed_utc_date": "2026-09-10"
+    },
+    {
+      "source_path": "delivery/P3_FINITE_REVIEW_030_KERNEL_PREFLIGHT/REPORT.sha256",
+      "status": "PRESENT",
+      "path": "artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_FINITE_REVIEW_030_KERNEL_PREFLIGHT/REPORT.sha256",
+      "sha256": "9e268be5459926774f3555afc910e7ba6750f64eb621481b94bab3b3fce64713",
+      "bytes": 65,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/39eae612ddb72a97979f001cd7f2385df8420bd1/artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_FINITE_REVIEW_030_KERNEL_PREFLIGHT/REPORT.sha256",
+      "accessed_utc_date": "2026-09-10"
+    },
+    {
+      "source_path": "delivery/P3_030_RETURN_WORKFLOW/WORKFLOW_REPORT.json",
+      "status": "PRESENT",
+      "path": "artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_030_RETURN_WORKFLOW/WORKFLOW_REPORT.json",
+      "sha256": "3d5c056f09ff121a5f32cfcee755ade044353cfc3f961eddab9287349fa574b4",
+      "bytes": 1803,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/39eae612ddb72a97979f001cd7f2385df8420bd1/artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_030_RETURN_WORKFLOW/WORKFLOW_REPORT.json",
+      "accessed_utc_date": "2026-09-10"
+    },
+    {
+      "source_path": "delivery/P3_030_RETURN_WORKFLOW/LAUNCH_RESERVED.json",
+      "status": "MISSING"
+    },
+    {
+      "source_path": "delivery/P3_030_RETURN_WORKFLOW/LAUNCH_OUTCOME.json",
+      "status": "MISSING"
+    }
+  ],
+  "published_source_references": [
+    {
+      "path": "scripts/p3_finite_review_030.py",
+      "sha256": "1f8a61e9fb98dc15d0478a067950f46aa512d0ae3e900d649f6bb5eb71a3948a",
+      "bytes": 53009,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/39eae612ddb72a97979f001cd7f2385df8420bd1/scripts/p3_finite_review_030.py",
+      "accessed_utc_date": "2026-09-10"
+    },
+    {
+      "path": "scripts/p3_reviewer_session_030.py",
+      "sha256": "3aa2881e5bad8d9b9fa61aa64eeb54cb784f5bd16ca04fee152caf5c0de0145b",
+      "bytes": 52905,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/39eae612ddb72a97979f001cd7f2385df8420bd1/scripts/p3_reviewer_session_030.py",
+      "accessed_utc_date": "2026-09-10"
+    },
+    {
+      "path": "scripts/p3_review_broker.py",
+      "sha256": "6f2118cb32573c7774db269c09694913040d06adb5eca9e8ca1a0fafe6089536",
+      "bytes": 25718,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/39eae612ddb72a97979f001cd7f2385df8420bd1/scripts/p3_review_broker.py",
+      "accessed_utc_date": "2026-09-10"
+    },
+    {
+      "path": "scripts/p3_review_interface_028.py",
+      "sha256": "ef41a59491f67252674079b18fa21e46257bdaf5cb2cabf76d9ba376ce6e2d1a",
+      "bytes": 22894,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/39eae612ddb72a97979f001cd7f2385df8420bd1/scripts/p3_review_interface_028.py",
+      "accessed_utc_date": "2026-09-10"
+    },
+    {
+      "path": "scripts/p3_review_protocol_028.py",
+      "sha256": "d41ecb40a6d63179657e5e04df2491b4bf431a5b28229210b96e640fba49b224",
+      "bytes": 7405,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/39eae612ddb72a97979f001cd7f2385df8420bd1/scripts/p3_review_protocol_028.py",
+      "accessed_utc_date": "2026-09-10"
+    },
+    {
+      "path": "scripts/p3_stage_evidence_030.py",
+      "sha256": "669c4169df508f9aac143b0bef3702bc478b18659300d8f80404a6db51e04378",
+      "bytes": 9556,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/39eae612ddb72a97979f001cd7f2385df8420bd1/scripts/p3_stage_evidence_030.py",
+      "accessed_utc_date": "2026-09-10"
+    },
+    {
+      "path": "scripts/review030_workflow.py",
+      "sha256": "e462ad7611374516ba697ce57e9dd235c94c8846a76a8dc501471f206f7dc473",
+      "bytes": 18589,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/39eae612ddb72a97979f001cd7f2385df8420bd1/scripts/review030_workflow.py",
+      "accessed_utc_date": "2026-09-10"
+    },
+    {
+      "path": "tests/test_p3_finite_review_030.py",
+      "sha256": "b5a6c29470d10cb9b55d2aa4feebe45da5b0de8e30f3c94396fa0c6b793e60ce",
+      "bytes": 44475,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/39eae612ddb72a97979f001cd7f2385df8420bd1/tests/test_p3_finite_review_030.py",
+      "accessed_utc_date": "2026-09-10"
+    },
+    {
+      "path": "tests/test_review030_workflow.py",
+      "sha256": "adbe60534661092bfed9740270a9e71d360a92cffc3c9afb0c70f755b688d886",
+      "bytes": 12641,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/39eae612ddb72a97979f001cd7f2385df8420bd1/tests/test_review030_workflow.py",
+      "accessed_utc_date": "2026-09-10"
+    },
+    {
+      "path": "tests/test_publish_review030_evidence.py",
+      "sha256": "2104796059ef56b6ab3e0af2aa9ad4f9e7d94b07ad1fda1c6d8e9ec970ef7caf",
+      "bytes": 11051,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/39eae612ddb72a97979f001cd7f2385df8420bd1/tests/test_publish_review030_evidence.py",
+      "accessed_utc_date": "2026-09-10"
+    }
+  ],
+  "forensic_archive_manifest": {
+    "path": "artifacts/P3_RECEIPT_CONTRACT_FORENSICS/20260910_032/ARCHIVE_MANIFEST.json",
+    "sha256": "aa0905363fe0c7bd7728c21ddbe80d02b159f7d8bba96f38210fccfb2d8ebf3b",
+    "bytes": 3739
+  },
+  "safety_of_this_review": {
+    "native_clients_started": 0,
+    "model_turns_sent": 0,
+    "git_commits_or_pushes_performed": false,
+    "credential_contents_accessed": false,
+    "historical_receipts_rewritten": false,
+    "historical_main_report_or_verdict_fabricated": false,
+    "shared_engineering_agents_are_not_independent_scientific_reviewers": true
+  }
+}

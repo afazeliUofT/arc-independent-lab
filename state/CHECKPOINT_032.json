@@ -1,0 +1,15 @@
+{
+  "kind": "P3_CHECKPOINT_032_STATE_RECORD_v1",
+  "base_commit": "39eae612ddb72a97979f001cd7f2385df8420bd1",
+  "updated_utc": "2026-09-10T18:13:05.882005+00:00",
+  "preparation": {
+    "path": "evidence/P3_CORRECTION_032_PREPARATION.json",
+    "sha256": "03d34ebb45f9806bf41d5b032ae873942be74d3a6556f76bdba6115cf9aebae8"
+  },
+  "validation": {
+    "path": "artifacts/P3_CORRECTION_VALIDATION/20260910_032/REPORT.json",
+    "sha256": "f263b3a59abd77b45d97b5583e64ae990a2c9a2c346bd9bbe207a0cf3e6d56ef"
+  },
+  "final_release_manifest": "PACKAGE_MANIFEST.json inside the single ZIP",
+  "human_publication_and_execution_pending": true
+}

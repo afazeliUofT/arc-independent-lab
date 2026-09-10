@@ -1,0 +1,29 @@
+both
+Traceback (most recent call last):
+  File "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/rebuild032/engineering_report/reproduce_collect_sessions_failure.py", line 80, in main
+    controller.collect_sessions(folder)
+  File "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/rebuild031/repository/scripts/p3_finite_review_030.py", line 520, in collect_sessions
+    require(observation.get('kind') == SESSION_KIND and observation.get('mode') == mode and
+  File "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/rebuild031/repository/scripts/p3_finite_review_024.py", line 168, in require
+    raise Stop(reason)
+p3_finite_review_024.Stop: SESSION kind or actual execution counters differ
+
+synthetic_only
+Traceback (most recent call last):
+  File "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/rebuild032/engineering_report/reproduce_collect_sessions_failure.py", line 80, in main
+    controller.collect_sessions(folder)
+  File "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/rebuild031/repository/scripts/p3_finite_review_030.py", line 520, in collect_sessions
+    require(observation.get('kind') == SESSION_KIND and observation.get('mode') == mode and
+  File "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/rebuild031/repository/scripts/p3_finite_review_024.py", line 168, in require
+    raise Stop(reason)
+p3_finite_review_024.Stop: SESSION kind or actual execution counters differ
+
+science_only
+Traceback (most recent call last):
+  File "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/rebuild032/engineering_report/reproduce_collect_sessions_failure.py", line 80, in main
+    controller.collect_sessions(folder)
+  File "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/rebuild031/repository/scripts/p3_finite_review_030.py", line 520, in collect_sessions
+    require(observation.get('kind') == SESSION_KIND and observation.get('mode') == mode and
+  File "/workspace/scratch/d2a3782c2235/ARC_Independent_Lab/delivery/rebuild031/repository/scripts/p3_finite_review_024.py", line 168, in require
+    raise Stop(reason)
+p3_finite_review_024.Stop: SESSION kind or actual execution counters differ
