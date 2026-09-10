@@ -1,0 +1,37 @@
+# Reviewer integration: completed preparation and remaining execution check
+
+Date: 2026-09-10. This is engineering preparation, not an independent scientific verdict.
+
+The two returned Markdown documents match checkpoint 029 byte for byte. The entire published tree at commit `b2f47e9442cbc5bd06490dd0d9fb0475a860aae9` matches the delivered checkpoint. The verification is recorded in `evidence/REMOTE_CHECKPOINT_029_VERIFICATION.json`. [Published checkpoint](https://github.com/afazeliUofT/arc-independent-lab/commit/b2f47e9442cbc5bd06490dd0d9fb0475a860aae9), accessed 2026-09-10. The user completed the publication correctly. Those Markdown files preserve analysis; they were not expected to contain a new execution or verdict.
+
+## What changed in the proposed implementation
+
+The earlier fixes treated each terminal symptom too narrowly. Run 028 established a working broker, then exposed an incomplete native lifecycle contract and an unstable host-cache provenance assumption. Its exact rejected event and cache writer remain unknown. No later code makes that failed run admissible.
+
+The new event policy is derived from the pinned source definitions and emission paths. It handles canonical context compaction, text plans and passive safety-buffering metadata bound to the current thread, turn and selected model. It does not act on a faster-model suggestion. Disabled planning-tool notifications, native effects, model rerouting, unknown input sources and unknown categories remain terminal. Item identities and broker witnesses remain in the parent across compaction; ordinary input correction cannot reset budgets. The new diagnostics retain known categorical event types without retaining raw text, arguments or unknown labels. [Pinned item definitions](https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server-protocol/src/protocol/v2/item.rs), [pinned app-server event handling](https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server/src/bespoke_event_handling.rs), accessed 2026-09-10. See `reports/P3_LIFECYCLE_DESIGN_030.md` for the emission-path audit and limits.
+
+The two specifically named noncredential caches are captured as exact bytes in sealed memory files. The native process receives private read-only copies at the original lookup paths. Credentials are never copied by the parent; the existing exact credential-refresh bind and authentic configuration/model-policy checks remain unchanged. Concurrent changes to the host source caches are recorded individually, while integrity of the sealed reviewer inputs is checked separately. This is a proposed change to the input boundary, not a claim that a historical cache change was harmless. [Linux file sealing](https://man7.org/linux/man-pages/man2/F_GET_SEALS.2const.html), [pinned bubblewrap data-bind implementation](https://github.com/containers/bubblewrap/blob/8e51677abd7e3338e4952370bf7d902e37d8cbb6/bubblewrap.c), accessed 2026-09-10. See `reports/P3_CACHE_DESIGN_030.md`.
+
+The stage collector writes the session observation before postchecks. It then records each host and packet check independently, preserving an earlier session failure alongside later integrity or cleanup failures. A verdict submitted before later failure is preserved unchanged and remains inadmissible. Missing or unwritten receipts are never reconstructed as execution evidence.
+
+## Why these checks address the earlier engineering failure
+
+The strongest objection is that a generated client responder can agree with a mistaken controller assumption. The response is source-derived lifecycle cases plus actual kernel tests where available, rather than another perfect-input example. The lifecycle fixtures exercise compaction followed by real broker operations, rejected effects, reused identities, correction-budget exhaustion and verdict submission before its final native acknowledgement.
+
+A second objection is that a read-only mount still exposes mutable host bytes. The new tests perform actual same-inode writes and replacements against synthetic source caches after sealing, verify unchanged descriptor contents in a separate Python child, and check kernel refusal of mutation. These tests concern the input backing; they do not claim that a future native child's entire mount namespace has been observed.
+
+A third objection is that a summary status can conceal another failed control. Tests inject simultaneous session, packet, host and receipt-write failures, including coherently rewritten prerequisite receipts. A claimed success cannot replace the underlying checks. Final exact-source results are recorded in `evidence/P3_REDESIGN_030_PREPARATION.json` and its referenced validation artifact. These fixtures are engineering evidence only; synthetic dependency-verdict objects are not scientific reviews.
+
+## The remaining machine-specific prerequisite
+
+Actual memory sealing worked in this hosted environment. A successful bubblewrap namespace test was not established here. The proposed single execution command therefore first runs a bounded synthetic mount check on the laptop, using no real cache contents, credentials, native client or model. It must demonstrate the exact bytes, read-only behavior, continued absence of the other cache and complete process cleanup before any Codex allowance is reserved. It preserves bounded diagnostic output from that fixed synthetic child; raw Codex diagnostics remain excluded.
+
+This check is part of the proposed execution, not another separate human diagnostic handoff. Failure or partial state is preserved and stops the invocation. Existing completed reviewer receipts are verified and reused. Publication retries cannot launch the reviewer. No automatic retry, new login, paid API, model fallback or unattended continuation is introduced.
+
+## Execution authority and research status
+
+The exhausted allowance and actual run 028 evidence remain recorded in `state/BUDGET.json` and `artifacts/P3_REVIEW_SESSION_STOP_OBSERVATIONS/20260910_029/REPORT.json`, SHA-256 `b96152d5f07f502a41b7e218417d20d6775b9751c7440f94de1015dc39cd336a`. The concrete proposed increment and all new bounds are in `configs/P3_FINITE_REVIEW_SCOPE_030.json`; the exact request is `state/ESCALATION.md`. Approval is required under `03_AUTONOMY_SPEC.md` §6, items 10 and 16. Preparing or publishing unsigned files does not grant it. The human publication flag can record the exact answer and publish it in one action; model launch remains separate.
+
+Explicit parent turn counts do not measure all backend inference: compaction may involve internal inference, and provider token consumption remains unknown. The named native usage snapshot is not a hosted ChatGPT allowance reading. Full future-client compatibility and a substantive reviewer verdict are not promised.
+
+The research objective remains understanding failures to acquire knowledge through interaction, retain it through discontinuities and recombine it in unfamiliar situations. Diagnosis and novelty-free ideas are approved. The multidisciplinary study is complete within its recorded scope, not exhaustive. PI novelty and residual audits are written; independent dispositions, final mechanism selection and `PROGRAMME.md` remain unfinished. No scientific conclusion or efficacy claim changed in this checkpoint. If independent review confirms the current reductions eliminate the candidates, return explicitly to novelty-free invention about acquiring useful descriptions, predicates and models.

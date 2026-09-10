@@ -1,21 +1,32 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-10T03:45:47.324412+00:00",
+  "updated_utc": "2026-09-10T04:35:25.085456+00:00",
   "current_gate": "P3",
   "gate_status": "blocked",
   "gate_entered_utc": "2026-09-06T20:14:12.138443+00:00",
   "last_verified_gate": "P2",
-  "last_verified_commit": "309b2330819b55fc5573e57163d4ae6e09c5d21d",
-  "active_task": "P3.21.forensic029",
+  "last_verified_commit": "b2f47e9442cbc5bd06490dd0d9fb0475a860aae9",
+  "active_task": "P3.22.lifecycle_cache030",
   "blocked_on": {
-    "kind": "native_execution_budget_exhausted_and_unresolved_lifecycle_cache_controls",
-    "blocks": "new native/model operations only",
-    "new_permission_required_before_native_execution": true,
-    "human_answer_requested_now": false
+    "kind": "exact_human_budget_and_control_amendment",
+    "reasons": [
+      10,
+      16
+    ],
+    "blocks": "native execution only; offline preparation complete",
+    "human_answer_requested_now": true,
+    "request": {
+      "path": "state/ESCALATION.md",
+      "sha256": "a8b8fd9e1e608aa3c715e454beb4f9929f9a68c3bcf147b2d0731b22d91ae2bd"
+    },
+    "scope": {
+      "path": "configs/P3_FINITE_REVIEW_SCOPE_030.json",
+      "sha256": "5abc5794f3adadeebc0e3df3e1ffd5bc4416806d2d1212f0a6b73db96d177060"
+    }
   },
-  "next_action": "Verify human publication of forensic029 when available. Continue authorized offline preparation of complete supported-event lifecycle and stable noncredential cache-input design, retaining exact refusal categories and separate host comparisons. Do not ask for more passive probes or retry028. No new native request until implementation, offline validation and concrete combined approval scope are ready.",
+  "next_action": "Human selects the exact030 approval/publication variant if accepted, then separately launches the finite attended operation. Verify target kernel prerequisite and all returned actual receipts; admit no scientific result without complete independent evidence. Never rerun028, fabricate missing SESSION files, or infer approval from chat.",
   "open_questions": [
-    "Which complete supported native lifecycle and stable noncredential cache design can support a long independent review under existing restrictions? Actual028brokerpathworks, but exactstoppeditem andcachewriter remainunknown.",
+    "Does the proposed source-derived lifecycle and sealed cache design pass the target synthetic kernel prerequisite and the actual finite reviewer operation? Offline108 tests pass; future completion and independent verdict remain unverified.",
     "Formal separate dispositions for C1/C2/C3/C4, joint proposition and observer diagnostic remain pending enforced review.",
     "Whole-wrapper historical identity is unestablished; no novel complete joint algorithm or resource advantage specified.",
     "Observer supplied-contract discovery/invocation and broader practical prevalence remain open; exact recovery does not imply numerical robustness.",
@@ -60,8 +71,8 @@
     "P3"
   ],
   "remote": "https://github.com/afazeliUofT/arc-independent-lab",
-  "durability_status": "Published028 exact1085files verified. Actual028report and forensic029 state await human documentcheckpoint publication.",
-  "commit_status": "No assistantcommit/push; no currenthumanapproval requested or model launched.",
+  "durability_status": "Published029 tree verified; exact030 preparation awaits human GitHub publication. A single preserved ZIP carries all changes and the tested publication path.",
+  "commit_status": "No assistant commit or push. New030 proposal is unsigned; native and model counts remain10/7. Human approval flag and separate launch required.",
   "recovery_dependency": null,
   "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation.",
   "latest_recovery_evidence": [
@@ -113,10 +124,10 @@
   ],
   "handoff_backup_status": "Publication-only forensic029 ZIP prepared; final exact installation verification accompanies release.",
   "latest_publication_verification": {
-    "path": "evidence/REMOTE_CHECKPOINT_028_VERIFICATION.json",
-    "sha256": "19c980ec688fd34c9ec5ba86871a4af7a28b22624a8547b72a17d8070bbe2ef3"
+    "path": "evidence/REMOTE_CHECKPOINT_029_VERIFICATION.json",
+    "sha256": "a1c0862f16cde9e26ae5865dd9646c4c4226fd25d76941182de2cedf9c298d3d"
   },
-  "last_human_message_verbatim": "Here is the new report",
+  "last_human_message_verbatim": "Attached are generated files",
   "phase1_approval": {
     "verified_utc": "2026-09-06T18:51:56.227927+00:00",
     "source_url": "https://github.com/afazeliUofT/arc-independent-lab/blob/376455150af7b257809a56021431413b2e0c6293/state/ESCALATION.md",
@@ -167,7 +178,7 @@
     "remote_execution": "Linux shell on Narval",
     "canonical_laptop_project": "WSL ~/ARC_Independent_Lab"
   },
-  "last_human_message_summary": "Attached actual028 REPORT received and verified; independent scientific verdict absent.",
+  "last_human_message_summary": "User returned the two029 Markdown documents. Both are exact delivered bytes; full029 GitHub tree verified. Proceed with prepared offline redesign and one concrete combined request.",
   "latest_capability_verification": {
     "path": "evidence/GATE0_CAPABILITY_INPUT_VERIFICATION_2026-09-07.json",
     "sha256": "6da38b2b47f6da6c5060f28bee745a4c85ab31538fac30566a776c208c51b559"
@@ -188,7 +199,7 @@
     "actual_command_enforcement": "observed for fixed v2 canary; completed",
     "full_tool_boundary": "Actual028synthetic argumentfeedback/read/refusal observed; 88sciencebroker successes include text/hash/image/auditor. Fullscientificverdictnotadmitted because sessionnativeitemstop andcachepostcheckfailed.",
     "fresh_review_context": "Actual027 separately freshscienceprocessobserved aftersyntheticpass.",
-    "formal_verdict": "Absent. Science88successfulbrokeroperations but unadvertisednativeevent andcachepostcheckfailed.",
+    "formal_verdict": "Absent. No030 native or model execution. The028 run stopped after88 successful broker calls.",
     "shared_workspace_consultants": "engineering consultants only, not independent scientific reviewers",
     "primary_method_coverage": "listed Phase3 comparator dependencies complete; broader Phase1 bibliography/priority not certified",
     "verifier_execution_dependencies": "complete; unchanged original checker reexecuted on declared original-inventory view, post-run metadata checked separately",
@@ -216,8 +227,8 @@
     "sha256": "374af08fd069efcc42a513560ae5849353e02f3c48ffc5046c0c9eb40ed5b455"
   },
   "latest_operational_findings": {
-    "path": "reports/P3_RUN_028_REVIEW_AND_ROUTE_DECISION.md",
-    "sha256": "21555d9a0187a848207bbc91a08c776dddf3761ba7b051b6d9a2d6f60ef34113"
+    "path": "reports/P3_REVIEWER_REDESIGN_030.md",
+    "sha256": "eb0aa02f3761b6bf94f807f6b48d2438882796cb9740a8fd447871823c802369"
   },
   "hosted_output_integrity_note": "Earlier report/binary anomalies retained. Current validation also found a supposedly new directory already populated; cause unestablished, preserved and not overwritten. Operative validation succeeded in fresh UUID-suffixed directory with explicit return and hash. Final ZIP application/readback remains mandatory.",
   "review_input_core": {
@@ -233,8 +244,8 @@
     "status": "Published028 and actualreport verified; full sourceforensics completed; native attempts stopped; no extra human probe justified."
   },
   "last_completed_preparation_task": {
-    "id": "P3.20.interface028",
-    "status": "Complete five-tool interface, transport and finite controller tests pass; exact release installation verified separately in outer ZIP."
+    "id": "P3.22.lifecycle_cache030",
+    "status": "Complete implementation;108 offline tests passed with no skips. Target synthetic kernel prerequisite remains unverified until execution."
   },
   "full_method_coverage": {
     "path": "evidence/P3_REVIEW_METHOD_COVERAGE_2026-09-07.json",
@@ -260,8 +271,8 @@
     "complete_reviewer_boundary_verified": false
   },
   "latest_objective_review": {
-    "path": "reports/P3_CHECKPOINT_024_STATUS.md",
-    "sha256": "da2f0592213b1287e29b3427b587b91ec7b01d0b0a64eda61bc0b0654dd71c34"
+    "path": "reports/P3_REVIEWER_REDESIGN_030.md",
+    "sha256": "eb0aa02f3761b6bf94f807f6b48d2438882796cb9740a8fd447871823c802369"
   },
   "objective_continuity": {
     "read_each_substantive_turn": "docs/OBJECTIVE_CONTINUITY_2026-09-07.md",
@@ -355,30 +366,23 @@
   },
   "latest_finite_review_preparation": {
     "scope": {
-      "path": "configs/P3_FINITE_REVIEW_SCOPE_024.json",
-      "sha256": "bdf0d9cb689793656c8616f72f2f1a6a45a6bc4a6cf5abed3e0e0e4dde8ee0db"
+      "path": "configs/P3_FINITE_REVIEW_SCOPE_030.json",
+      "sha256": "5abc5794f3adadeebc0e3df3e1ffd5bc4416806d2d1212f0a6b73db96d177060"
     },
     "controller": {
-      "path": "scripts/p3_finite_review_024.py",
-      "sha256": "810c57eeebedac2867b5330969a50816611f196b32cb50419d0952c5a4580f21"
+      "path": "scripts/p3_finite_review_030.py",
+      "sha256": "1f8a61e9fb98dc15d0478a067950f46aa512d0ae3e900d649f6bb5eb71a3948a"
     },
-    "session_validation": {
-      "path": "artifacts/P3_DEPRECATION_VALIDATION/20260909_REBUILD024/REPORT.json",
-      "sha256": "a56eaabf323484f8857450cc10fe16803c46583680c167167013cecc2ae0a7e7"
+    "preparation": {
+      "path": "evidence/P3_REDESIGN_030_PREPARATION.json",
+      "sha256": "600951b7cefe751510e30d153a077b6779f5cb6b74cae985db293dd1ea2e1cd3"
     },
-    "controller_validation": {
-      "path": "artifacts/P3_DEPRECATION_VALIDATION/20260909_REBUILD024_CONTROLLER/REPORT.json",
-      "sha256": "b9fc7171e4eb1975991f6373db6a9f2fde561c8c93b3f23bea21407b4b132352"
+    "validation": {
+      "path": "artifacts/P3_REDESIGN_VALIDATION/20260910_030_001/REPORT.json",
+      "sha256": "f4599a5710ba975875e7e51e3dc5ad5aaa37b39b3ce6d215d405761e3df047f7"
     },
-    "handoff_validation": {
-      "path": "artifacts/P3_HANDOFF_VALIDATION/20260909_REBUILD024/REPORT.json",
-      "sha256": "f234ae7b7841524ac690cf9e6c0eaba4984cb0acff61eddc82f1e99e55246b4d"
-    },
-    "root_integration": {
-      "path": "artifacts/P3_DEPRECATION_VALIDATION/20260909_REBUILD024_ROOT/REPORT.json",
-      "sha256": "fe2793edbb7dfc0ac254e67883c8589e8badb267dc3347c74836c4d03b29cfe4"
-    },
-    "new_approval_required": true
+    "new_approval_required": true,
+    "native_execution_performed": false
   },
   "latest_finite_review_observation": {
     "path": "evidence/P3_FINITE_REVIEW_028_OBSERVATION_REVIEW.json",
@@ -467,5 +471,18 @@
   "latest_cache_forensics": {
     "path": "artifacts/P3_CACHE_FORENSICS/20260910_029/REPORT.json",
     "sha256": "bd5f078aa2d1a0f0993e7386dc7e43cce0a9fc9dfc0449378341cc207c36f106"
+  },
+  "prepared_finite_review030": {
+    "scope": {
+      "path": "configs/P3_FINITE_REVIEW_SCOPE_030.json",
+      "sha256": "5abc5794f3adadeebc0e3df3e1ffd5bc4416806d2d1212f0a6b73db96d177060"
+    },
+    "preparation": {
+      "path": "evidence/P3_REDESIGN_030_PREPARATION.json",
+      "sha256": "600951b7cefe751510e30d153a077b6779f5cb6b74cae985db293dd1ea2e1cd3"
+    },
+    "authorization_pending": true,
+    "requires_separate_manual_launch": true,
+    "status": "Complete unsigned correction proposed; prior approval remains exhausted."
   }
 }

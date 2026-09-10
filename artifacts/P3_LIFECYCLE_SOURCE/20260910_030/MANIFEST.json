@@ -1,0 +1,47 @@
+{
+  "source_commit": "78c290807ce710180111df227df3b7a4fe845452",
+  "accessed": "2026-09-10",
+  "git_blobs_verified": true,
+  "files": [
+    {
+      "git_blob_sha": "54453136561c0357b61c59ec3a78681ca2c0a475",
+      "path": "codex-rs/core/src/stream_events_utils.rs",
+      "sha256": "7919187dae414aded83bc48adaa189c057f6f7ccd71d51e55f57216dce5b5a34",
+      "bytes": 19340,
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/stream_events_utils.rs",
+      "accessed": "2026-09-10"
+    },
+    {
+      "git_blob_sha": "3222bb38bbe3f82c77a375ad242a724b70f0915a",
+      "path": "codex-rs/app-server-protocol/src/protocol/v2/turn.rs",
+      "sha256": "cec88af173ad2be290fc55eebedb585ee19ffe3e486ff68613096c620b9673f2",
+      "bytes": 20207,
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server-protocol/src/protocol/v2/turn.rs",
+      "accessed": "2026-09-10"
+    },
+    {
+      "git_blob_sha": "34956562230fb906b153362d48bc9622d9f2af5c",
+      "path": "codex-rs/core/src/tools/handlers/plan.rs",
+      "sha256": "f1e0acbe71dc6160ade7f4751f00c98f2d5e999d6c0954d015bf7709c382ce50",
+      "bytes": 3334,
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/core/src/tools/handlers/plan.rs",
+      "accessed": "2026-09-10"
+    },
+    {
+      "git_blob_sha": "f59451e3ac69879b7ab5dcbf397011f8824d154d",
+      "path": "codex-rs/app-server-protocol/src/protocol/v2/model.rs",
+      "sha256": "3991f4a8f595767ac0de5d39a4edd7c2eea68ecaedfb007a4554e5fb1497d4e8",
+      "bytes": 6376,
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/app-server-protocol/src/protocol/v2/model.rs",
+      "accessed": "2026-09-10"
+    },
+    {
+      "git_blob_sha": "58b55091bb1e96170ee4eb48c056f36205e2f5b6",
+      "path": "codex-rs/codex-api/src/sse/responses.rs",
+      "sha256": "ae02867e1296ee7cb11cf3f511547654b40f82d533759d5cbb095672c75d98d6",
+      "bytes": 71849,
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/codex-api/src/sse/responses.rs",
+      "accessed": "2026-09-10"
+    }
+  ]
+}

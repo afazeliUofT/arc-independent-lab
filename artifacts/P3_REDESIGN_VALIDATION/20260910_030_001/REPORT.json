@@ -1,0 +1,70 @@
+{
+  "kind": "P3_OFFLINE_REDESIGN_VALIDATION_030_v1",
+  "created_utc": "2026-09-10T04:32:13.388514+00:00",
+  "suites": [
+    {
+      "suite": "test_p3_cache_inputs_030",
+      "tests_run": 25,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "successful": true,
+      "trace": "artifacts/P3_REDESIGN_VALIDATION/20260910_030_001/test_p3_cache_inputs_030.txt",
+      "trace_sha256": "5ae85f00575f328010e933cf6841dde613ab3c028e25bcd32262e12f08c62936"
+    },
+    {
+      "suite": "test_p3_lifecycle_030",
+      "tests_run": 26,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "successful": true,
+      "trace": "artifacts/P3_REDESIGN_VALIDATION/20260910_030_001/test_p3_lifecycle_030.txt",
+      "trace_sha256": "6b6210ad7efc3bbe820885bda32f53fc67a8359304d7f37fc0402a87866ef212",
+      "observations": "artifacts/P3_REDESIGN_VALIDATION/20260910_030_001/test_p3_lifecycle_030_OBSERVATIONS.json",
+      "observations_sha256": "70955d0e24f3039552702368e170c438a9bf4e6b55ac169e3bf76acb2fe6713a"
+    },
+    {
+      "suite": "test_p3_stage_evidence_030",
+      "tests_run": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "successful": true,
+      "trace": "artifacts/P3_REDESIGN_VALIDATION/20260910_030_001/test_p3_stage_evidence_030.txt",
+      "trace_sha256": "dac622af2e523ced16e8931be00f600271c6c5b1f2360ef61cd116843391618d"
+    },
+    {
+      "suite": "test_p3_finite_review_030",
+      "tests_run": 45,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "successful": true,
+      "trace": "artifacts/P3_REDESIGN_VALIDATION/20260910_030_001/test_p3_finite_review_030.txt",
+      "trace_sha256": "3e184bf8e972d75c4d4b51e279e6141e3e10d6765cfa3e2650986e389728d5e1"
+    }
+  ],
+  "tests_run": 108,
+  "passed": true,
+  "sources": {
+    "configs/P3_FINITE_REVIEW_SCOPE_030.json": "5abc5794f3adadeebc0e3df3e1ffd5bc4416806d2d1212f0a6b73db96d177060",
+    "scripts/p3_cache_inputs_030.py": "aa29e239efcd23cfdefe4c1488a200924c494fa21d28e5ecb750adb388fdc711",
+    "scripts/p3_event_policy_030.py": "ad8c1fa0bb3bb1c755f90b5d1c4c68f3368d4fa6af6552ea21f57f215de7dd2c",
+    "scripts/p3_finite_review_030.py": "1f8a61e9fb98dc15d0478a067950f46aa512d0ae3e900d649f6bb5eb71a3948a",
+    "scripts/p3_reviewer_session_030.py": "3aa2881e5bad8d9b9fa61aa64eeb54cb784f5bd16ca04fee152caf5c0de0145b",
+    "scripts/p3_stage_evidence_030.py": "669c4169df508f9aac143b0bef3702bc478b18659300d8f80404a6db51e04378",
+    "scripts/validate_p3_redesign_030.py": "6c756a2204b70fe112722ddaef76d69a63fae09c724700ccd5575b7f5ccab671",
+    "tests/test_p3_cache_inputs_030.py": "60d20490ca54cfd7be5474caa10712c8c1d1e37ce74ff50919deff7ebb029de9",
+    "tests/test_p3_finite_review_030.py": "b5a6c29470d10cb9b55d2aa4feebe45da5b0de8e30f3c94396fa0c6b793e60ce",
+    "tests/test_p3_lifecycle_030.py": "217b5501136ffb73e8acd9f645e7c781b36fa0ef21b85eb2c764cf940fba1253",
+    "tests/test_p3_stage_evidence_030.py": "c8cf4ba43ab59347eeeafdf9e0b89753268476f138e8ca1e663512edbd705300"
+  },
+  "new_native_clients_started": 0,
+  "model_turns_sent": 0,
+  "credential_contents_accessed": false,
+  "independent_scientific_verdict": false,
+  "actual_bubblewrap_mount_verified_here": false,
+  "kernel_mount_preflight_required_on_target_before_native_reservation": true,
+  "fixture_dependency_verdicts_are_not_scientific_reviews": true
+}

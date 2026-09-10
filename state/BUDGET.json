@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-10T03:45:47.324412+00:00",
+  "updated_utc": "2026-09-10T04:35:25.085456+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -119,10 +119,20 @@
     "rerun_needed": false
   },
   "next_operational_test": {
-    "status": "NONE AUTHORIZED: cumulative10/7 ceiling exhausted; forensic route assessment only",
+    "status": "Prepared030 proposal awaiting exact human approval; current10/7 exhausted.",
     "maximum_additional_native_starts_authorized": 0,
     "maximum_additional_sent_turns_authorized": 0,
-    "unattended_model_use_authorized": false
+    "unattended_model_use_authorized": false,
+    "proposed_scope": {
+      "path": "configs/P3_FINITE_REVIEW_SCOPE_030.json",
+      "sha256": "5abc5794f3adadeebc0e3df3e1ffd5bc4416806d2d1212f0a6b73db96d177060"
+    },
+    "proposed_additional_native_starts": 2,
+    "proposed_additional_explicit_sent_turns": 2,
+    "proposed_cumulative_native_ceiling": 12,
+    "proposed_cumulative_sent_turn_ceiling": 9,
+    "proposed_synthetic_kernel_prerequisite_seconds": 10,
+    "proposed_synthetic_kernel_prerequisite_before_native_reservation": true
   },
   "completed_native_signin": {
     "receipt": {
@@ -217,7 +227,7 @@
       "sha256": "acbc599a337845e585af8cec04fd72af44cdb7d10321c1ae4329fce6120613a4"
     },
     "native_controller_implemented": true,
-    "next_action": "Stopnativeattempts. Complete extended-session lifecycle andstablecacheinputdesignoffline; no newhumanprobe ornativeallowance requestin029.",
+    "next_action": "Prepared030 implementation and108 tests complete. Exact budget/control approval and separate human launch remain required.",
     "unattended_model_use_authorized": false,
     "extra_spending_allowed": false
   },
@@ -382,5 +392,24 @@
     "cumulative_sent_turns": 7,
     "approved_ceiling_exhausted": true,
     "new_native_or_model_operation": false
+  },
+  "prepared_finite_review030": {
+    "scope": {
+      "path": "configs/P3_FINITE_REVIEW_SCOPE_030.json",
+      "sha256": "5abc5794f3adadeebc0e3df3e1ffd5bc4416806d2d1212f0a6b73db96d177060"
+    },
+    "preparation": {
+      "path": "evidence/P3_REDESIGN_030_PREPARATION.json",
+      "sha256": "600951b7cefe751510e30d153a077b6779f5cb6b74cae985db293dd1ea2e1cd3"
+    },
+    "validation": {
+      "path": "artifacts/P3_REDESIGN_VALIDATION/20260910_030_001/REPORT.json",
+      "sha256": "f4599a5710ba975875e7e51e3dc5ad5aaa37b39b3ce6d215d405761e3df047f7"
+    },
+    "native_starts_consumed": 0,
+    "explicit_sent_turns_consumed": 0,
+    "authorization_pending": true,
+    "backend_usage_or_charge": "unknown",
+    "scientific_verdict": false
   }
 }
