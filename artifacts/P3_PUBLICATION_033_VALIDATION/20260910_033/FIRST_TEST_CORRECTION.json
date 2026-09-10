@@ -1,0 +1,8 @@
+{
+  "kind": "P3_033_TEST_DEVELOPMENT_OBSERVATION_v1",
+  "initial_result": "31 tests; 30 passed; 1 fixture expectation failed",
+  "cause": "Reused032 test expected PUBLISHED_<commit>.json;033 deliberately uses a single PUBLISHED.json completed receipt",
+  "correction": "Updated fixture expected receipt path; publisher behavior unchanged",
+  "native_or_model_execution": false,
+  "git_commits_or_pushes": false
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "REMOTE_CHECKPOINT_032_VERIFICATION_033_v1",
+  "verified_utc": "2026-09-10T19:03:42.166806+00:00",
+  "access_date": "2026-09-10",
+  "head": "523dc10a4b437181222c32c28b25d0ce736e7278",
+  "tree": "4027ef099edf28be6e8954d1401f14c6585dab05",
+  "setup_commit": "3c338a6abcd38f52bbbc25ead0be3155bbff5c9e",
+  "published_base_files_reconstructed_and_git_blob_mode_verified": 1249,
+  "url": "https://github.com/afazeliUofT/arc-independent-lab/commit/523dc10a4b437181222c32c28b25d0ce736e7278",
+  "index": {
+    "path": "artifacts/P3_REVIEW_032_RETURN/94ddb570582a75780f03e54df5e3228a58dc9de23397d63eac4976928b9a2d11/INDEX.json",
+    "sha256": "94ddb570582a75780f03e54df5e3228a58dc9de23397d63eac4976928b9a2d11"
+  },
+  "manifest": {
+    "path": "artifacts/P3_REVIEW_032_RETURN/94ddb570582a75780f03e54df5e3228a58dc9de23397d63eac4976928b9a2d11/MANIFEST.json",
+    "sha256": "a30fd27417fa65f8d44409748dd06ff8a46b7de6642373fc9e0ec0aac493b5d4"
+  },
+  "report": {
+    "path": "artifacts/P3_REVIEW_032_RETURN/94ddb570582a75780f03e54df5e3228a58dc9de23397d63eac4976928b9a2d11/files/delivery/P3_FINITE_REVIEW_032/REPORT.json",
+    "sha256": "82bbdccc5f2a2a21d6ab5c6f7395d4083b9aefd1660dc08119593f8588a18a4d"
+  },
+  "verdict": {
+    "path": "artifacts/P3_REVIEW_032_RETURN/94ddb570582a75780f03e54df5e3228a58dc9de23397d63eac4976928b9a2d11/files/delivery/P3_FINITE_REVIEW_032/science_output/REVIEW_VERDICT.json",
+    "sha256": "52d533604e9623ae4e5744bd5c81a41b4efac7f41d9a1f7c46c0f76ad31a1f72"
+  },
+  "approval": {
+    "path": "state/escalations/2026-09-10_FINITE_REVIEW_032_APPROVED.md",
+    "sha256": "c6c813a292213743c5e0d5a3a1be1e2342ea11868b94b2ae34bd47800864f624"
+  },
+  "derived_checks": {
+    "path": "artifacts/P3_RUN_032_VERIFICATION/20260910_033/VERIFICATION.json",
+    "sha256": "cacee0aac0fc33f6361f6e2bfe30c64e8a985b1fc56e874c568acfbbc015bc80"
+  },
+  "new_commit_or_push_created_by_pi": false
+}

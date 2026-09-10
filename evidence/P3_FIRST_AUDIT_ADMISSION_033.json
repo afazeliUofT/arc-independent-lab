@@ -1,0 +1,47 @@
+{
+  "kind": "P3_FIRST_AUDIT_VERDICT_ADMISSION_033_v1",
+  "created_utc": "2026-09-10T19:03:42.166806+00:00",
+  "independent_verdict": {
+    "path": "artifacts/P3_REVIEW_032_RETURN/94ddb570582a75780f03e54df5e3228a58dc9de23397d63eac4976928b9a2d11/files/delivery/P3_FINITE_REVIEW_032/science_output/REVIEW_VERDICT.json",
+    "sha256": "52d533604e9623ae4e5744bd5c81a41b4efac7f41d9a1f7c46c0f76ad31a1f72"
+  },
+  "source_execution": {
+    "path": "artifacts/P3_REVIEW_032_RETURN/94ddb570582a75780f03e54df5e3228a58dc9de23397d63eac4976928b9a2d11/files/delivery/P3_FINITE_REVIEW_032/REPORT.json",
+    "sha256": "82bbdccc5f2a2a21d6ab5c6f7395d4083b9aefd1660dc08119593f8588a18a4d"
+  },
+  "execution_consistency": {
+    "path": "artifacts/P3_RUN_032_VERIFICATION/20260910_033/VERIFICATION.json",
+    "sha256": "cacee0aac0fc33f6361f6e2bfe30c64e8a985b1fc56e874c568acfbbc015bc80"
+  },
+  "verdict_vocabulary": "GO",
+  "scope": "Completion of the bounded negative analytical audit for the original and residual manifests only.",
+  "phase3_programme_approved": false,
+  "novel_candidate_cleared": false,
+  "efficacy_established": false,
+  "pi_authored_new_scientific_verdict": false,
+  "reviewer_dispositions_preserved": {
+    "C1": "ADVERSE_TO_OPERATIONAL_NOVELTY; EXACT_REDUCTION_ON_THE_APPROVED_DOMAIN; EFFICACY_UNTESTED",
+    "C2": "ADVERSE_TO_OPERATIONAL_NOVELTY_WITH_DOMAIN_RESTRICTION; EXACT_MODELED-DOMAIN_REDUCTION; EFFICACY_UNTESTED",
+    "C3": "ADVERSE_TO_MECHANISM_NOVELTY; EXACT_ALL-HISTORY_BEHAVIORAL_REDUCTION_AND_PRIOR_FAMILY_MEMBERSHIP; LITERAL_IMPLEMENTATION_PRIORITY_UNCLAIMED; EFFICACY_UNTESTED",
+    "C4": "CORE_ADVERSE_TO_OPERATIONAL_NOVELTY; WHOLE_WRAPPER_HISTORICAL_PRIORITY_UNRESOLVED; JOINT_KNOWLEDGE_GUARANTEE_NOT_ESTABLISHED; EFFICACY_UNTESTED",
+    "T": "NOT_CLEARED_AS_A_NOVEL_WHOLE; BROAD_PRINCIPLE_HAS_INTEGRATED_ANTECEDENTS; APPROVED_COMBINATION_INCOMPLETE_AND_PROPOSED_GUARANTEE_REFUTED; WHOLE-COMBINATION_PRIORITY_UNRESOLVED",
+    "observer": "NARROW_DIAGNOSTIC_VALIDATED; RECOVERY_COMPUTATION_NONNOVEL; AUTONOMY_ROBUSTNESS_GENERALITY_AND_EFFICACY_UNTESTED"
+  },
+  "downstream_corrections": {
+    "path": "reports/P3_DISPOSITION_SYNTHESIS_033.md",
+    "sha256": "9c72a32182ba308942a5fe9b1aa5a1c951f75984f8ebfdfed70cd8bb2fd8440c"
+  },
+  "original_auditor_receipt_durable_in_published032_archive": false,
+  "original_auditor_execution_evidenced_by": "Successful pinned run_observer_audit broker call and substantive-verdict guard; original auxiliary receipt bytes pending existing-file publication.",
+  "next_route": "Return from first Phase3 audit to Phase2 second-pass generation, with novelty screening off.",
+  "route_basis": "Governing process permits return after adverse audit; user instructs PI to choose best path without repeated approval requests.",
+  "unchanged_approved_diagnosis": {
+    "path": "DIAGNOSIS.md",
+    "sha256": "e3106d737f5b50a688d1d5147a015dc091d2986493848b68d33d61949dfa4cc3"
+  },
+  "unchanged_approved_ideas": {
+    "path": "IDEAS.md",
+    "sha256": "73cab9f6ab1f5eda80c7c2adc6d2ed556c63d5652fd65434e4cc4b24383dc3b8"
+  },
+  "no_new_model_scope_or_treatment": true
+}

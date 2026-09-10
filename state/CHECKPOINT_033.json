@@ -1,0 +1,15 @@
+{
+  "kind": "P3_AUDIT_CLOSE_AND_P2_ROUTE_CHECKPOINT_033_v1",
+  "base_commit": "523dc10a4b437181222c32c28b25d0ce736e7278",
+  "created_utc": "2026-09-10T19:03:42.166806+00:00",
+  "verdict_admission": {
+    "path": "evidence/P3_FIRST_AUDIT_ADMISSION_033.json",
+    "sha256": "a520a8b7ca680ee402a2ac88733998953ec2dafcb30fb2d693db3f56fd4b877a"
+  },
+  "route": {
+    "path": "evidence/P3_TO_P2_ROUTE_033.json",
+    "sha256": "38c1018c1e56d6ce5da9ae646b624a940971bae2aea028c8113006c0e5ffe244"
+  },
+  "no_new_native_or_model_operation": true,
+  "publication_only_handoff": true
+}

@@ -1,0 +1,14 @@
+{
+  "all_passed": true,
+  "exit_code": 0,
+  "git_commits_and_pushes": "in_memory_mock_only",
+  "initial_fixture_correction": "FIRST_TEST_CORRECTION.json",
+  "kind": "P3_CHECKPOINT_033_PUBLICATION_VALIDATION_v1",
+  "native_or_model_execution": false,
+  "source_sha256": {
+    "scripts/publish_checkpoint033.py": "2f226876dc3a17a5d4904e3e0435c9501d7f1669f7130d6b674d4f33e154015a",
+    "tests/test_publish_checkpoint033.py": "bc025dc00bd8aa8d9757a0592ab1357cc5654f0d1560a9606c1d82610e84d0c9"
+  },
+  "tests": 31,
+  "trace_sha256": "c316326809e0d48cb7289b2a7f744d71ac1f1a2415a5c259f79dcd59fbd4a1ec"
+}

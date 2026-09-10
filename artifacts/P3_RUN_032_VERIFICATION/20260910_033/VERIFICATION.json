@@ -1,0 +1,225 @@
+{
+  "kind": "P3_RUN_032_DERIVED_ENGINEERING_VERIFICATION_033_v1",
+  "created_utc": "2026-09-10T19:00:42.463987+00:00",
+  "all_requested_published_receipt_checks_passed": true,
+  "source_archive": "artifacts/P3_REVIEW_032_RETURN/94ddb570582a75780f03e54df5e3228a58dc9de23397d63eac4976928b9a2d11",
+  "archive_inventory": {
+    "INDEX.json": {
+      "sha256": "94ddb570582a75780f03e54df5e3228a58dc9de23397d63eac4976928b9a2d11",
+      "bytes": 5295
+    },
+    "files/delivery/P3_032_RETURN_WORKFLOW/LAUNCH_OUTCOME.json": {
+      "sha256": "00ff5ec460b856c19d5f04bd923eef10450cf6e6c015e60dbf768d021c110d00",
+      "bytes": 1901
+    },
+    "files/delivery/P3_032_RETURN_WORKFLOW/LAUNCH_RESERVED.json": {
+      "sha256": "afdcf8ecd95f73f168624806d8324d883394f80434035877e41d495a4fe98f15",
+      "bytes": 340
+    },
+    "files/delivery/P3_032_RETURN_WORKFLOW/WORKFLOW_REPORT.json": {
+      "sha256": "00ff5ec460b856c19d5f04bd923eef10450cf6e6c015e60dbf768d021c110d00",
+      "bytes": 1901
+    },
+    "files/delivery/P3_FINITE_REVIEW_032/ATTEMPT.json": {
+      "sha256": "d7f75bf575148591277be361ebcf651d31de7326299246412f73a61b3df4a10d",
+      "bytes": 53569
+    },
+    "files/delivery/P3_FINITE_REVIEW_032/AUTHORIZATION.md": {
+      "sha256": "c6c813a292213743c5e0d5a3a1be1e2342ea11868b94b2ae34bd47800864f624",
+      "bytes": 7394
+    },
+    "files/delivery/P3_FINITE_REVIEW_032/REPORT.json": {
+      "sha256": "82bbdccc5f2a2a21d6ab5c6f7395d4083b9aefd1660dc08119593f8588a18a4d",
+      "bytes": 1282543
+    },
+    "files/delivery/P3_FINITE_REVIEW_032/REPORT.sha256": {
+      "sha256": "2ef58fd6510c86d41ee3d5e3f7edb4ef4ff239428d3784b4e90c2056b1878d02",
+      "bytes": 65
+    },
+    "files/delivery/P3_FINITE_REVIEW_032/science_SESSION.json": {
+      "sha256": "4e80e0ca72f4349cead77567e055065948a893c8e35b9582baa9a52e05e16636",
+      "bytes": 189188
+    },
+    "files/delivery/P3_FINITE_REVIEW_032/science_STAGE.json": {
+      "sha256": "6921af7e333cba6d551c5149b2642996147b1e428d8b053f3b9e3b0b7ca4271a",
+      "bytes": 218868
+    },
+    "files/delivery/P3_FINITE_REVIEW_032/science_output/REVIEW_VERDICT.json": {
+      "sha256": "52d533604e9623ae4e5744bd5c81a41b4efac7f41d9a1f7c46c0f76ad31a1f72",
+      "bytes": 33801
+    },
+    "files/delivery/P3_FINITE_REVIEW_032/synthetic_SESSION.json": {
+      "sha256": "4bbd9771ca681f835d80716cc13237cafe346ee63fd5e3c57dbd70be5867f258",
+      "bytes": 129193
+    },
+    "files/delivery/P3_FINITE_REVIEW_032/synthetic_STAGE.json": {
+      "sha256": "1f3fc485dfedf30a27b16305c2e2633edd88e244a32b5d08633ce5537079ff06",
+      "bytes": 155609
+    }
+  },
+  "manifest_sha256": "a30fd27417fa65f8d44409748dd06ff8a46b7de6642373fc9e0ec0aac493b5d4",
+  "verification_source_sha256": "c743e30b6aa35a0cf06da37af58c7823c9b73268a67602f7dfa3b6f8fc4dfabc",
+  "original_controller_sha256": "b1e5a8b083ec2776696c086c2a6ece56385922222e5d9ecd9b356f45a31bb0b3",
+  "unchanged_original_controller_load_bundle_passed": true,
+  "unchanged_original_controller_existing_mirror_check_passed": true,
+  "original_preserved_exact_scope_approval_passed": true,
+  "synthetic_admitted_by_original_predicate": true,
+  "science_admitted_by_original_predicate": true,
+  "original030_kernel_prerequisite_rechecked_without_execution": true,
+  "source_bound_receipt_collection_complete": true,
+  "receipt_errors": [],
+  "attempt_accounting_recomputed": {
+    "prior_native_starts": 12,
+    "prior_sent_turns": 9,
+    "observed_native_starts_this_attempt": 2,
+    "observed_sent_turns_this_attempt": 2,
+    "cumulative_observed_native_starts": 14,
+    "cumulative_observed_sent_turns": 11,
+    "reserved_native_starts_this_attempt": 2,
+    "reserved_turns_this_attempt": 2,
+    "cumulative_native_ceiling": 14,
+    "cumulative_sent_turn_ceiling": 11,
+    "maximum_cumulative_reservation_native_starts": 14,
+    "maximum_cumulative_reservation_turns": 11,
+    "missing_session_counts_are_only_minimum_observations": false,
+    "sent_turn_counts_without_output": true,
+    "backend_usage_or_charge": "unknown",
+    "unobserved_reserved_capacity_is_not_automatically_released": true,
+    "no_counter_reset": true
+  },
+  "report_status": "REVIEWER_OUTPUT_PRESERVED",
+  "reviewer_output": {
+    "path": "science_output/REVIEW_VERDICT.json",
+    "sha256": "52d533604e9623ae4e5744bd5c81a41b4efac7f41d9a1f7c46c0f76ad31a1f72",
+    "bytes": 33801,
+    "parent_edited": false,
+    "execution_admitted": true
+  },
+  "synthetic_elapsed_seconds": 9.536824,
+  "science_elapsed_seconds": 1045.47454,
+  "whole_controller_elapsed_seconds": 1058.41873,
+  "science_calls_total": 164,
+  "science_calls_successful": 161,
+  "science_correctable_refusals": [
+    {
+      "method": "item/tool/call",
+      "tool": "read_text",
+      "successful": false,
+      "error_code": "resource_not_manifested",
+      "request_bytes": 356,
+      "request_sha256": "ed23447b645c47a8b71ded931c900bcb08b924fea750711e0286d8284afd34ae",
+      "response_bytes": 902,
+      "response_sha256": "140cfab0608cb4af67a3f8acd9759b5724123ccd89c98b318a0707d394fb207f"
+    },
+    {
+      "method": "item/tool/call",
+      "tool": "read_text",
+      "successful": false,
+      "error_code": "resource_not_manifested",
+      "request_bytes": 304,
+      "request_sha256": "5b0a085745d87f48d2bb84047274da2b913af69422fb77d5141b4455e5d7b856",
+      "response_bytes": 903,
+      "response_sha256": "9aa0786dbfe57162173d38c275513d22e5e3cd701c48a2c24e283c097120b75e"
+    },
+    {
+      "method": "item/tool/call",
+      "tool": "read_text",
+      "successful": false,
+      "error_code": "resource_not_manifested",
+      "request_bytes": 325,
+      "request_sha256": "96923bf3f8cf30997f8d09be1da00ccbf71764a427a519794b18aab2c7155f39",
+      "response_bytes": 903,
+      "response_sha256": "9a3269b2b61b9a6c3cf1babe073bc8708ee695da1fa65d2012e1631248cda050"
+    }
+  ],
+  "science_completed_compactions": 1,
+  "science_final_packet_receipt": {
+    "manifest_sha256": "437700c8850b7194b052d159b1eaf6a22b366c4a464e63148bb9b6b3084bdd98",
+    "files_rehashed": 722
+  },
+  "science_host_noncredential_checks_passed": true,
+  "review_manifests_public_union_entries_rehashed": 48,
+  "verdict_public_evidence_rehashed": {
+    "docs/P2_OPERATION_SPECIFICATIONS.md": "d37a52eeb569461503b262d2790a656048624ede4790aeb49254e5a9f133c26f",
+    "evidence/P3_C1_C4_PRIMARY_AUDIT.md": "2de34586a2e902d5fc2c9ce71393ed92418dedd0a6c458c0a8db047b3144a784",
+    "evidence/P3_C2_PRIMARY_AUDIT.md": "d56c20d58d390130da2ef7091c1db550352e5593e6ce2e532aca48d91c42e4fc",
+    "evidence/P3_C3_PRIMARY_AUDIT.md": "07116664720e544d8cc6d8dd979b3469d50ded587f1d2c1175ade5c8a87d3864",
+    "evidence/P3_OBSERVER_PRIMARY_AUDIT_2026-09-07.md": "b3190a1075d56362f8e52c9044dc402b963c02f77127fe570191a4e0cd73ce90",
+    "evidence/P3_C4_WRAPPER_AUDIT_2026-09-07.md": "a9b7b273a85a7962e4b7d57e38b96c82454f6265c8090482710f542b8cb21d3f",
+    "evidence/P3_JOINT_AUDIT_BOUNDARY_2026-09-07.md": "3db85b6fa9f8050b4c77f75f09717b3902a5795044f7f8c14b6c78904627bf8c",
+    "evidence/P3_THROUGHLINE_PRIOR_METHODS.md": "2cfe2b3cfb38494a394134f7e017cab59ac994d6e70469d427f8361061374913",
+    "evidence/P3_THROUGHLINE_PROPOSITION.md": "a4504d2730a8bbfdf4e07e6f04ed2c6073bc1140e6a3e28a401f348b3b40918a",
+    "scripts/audit_learner_observer.py": "871ab1e62a592d9b49f93d5d5d783e262f8db1cb15bcc0b8ba6191f0ca0d4b1e",
+    "scripts/run_learner_observer.py": "81682d063317df6f1fd0f0edfd5e86164b86416aac0b83f61aaa11f8f4ba191d",
+    "configs/P2_LEARNER_OBSERVER.json": "87e452f0c05381aee1451bdbc05a60567fc8295089d27ef85bfbd7a5f8d281c1",
+    "artifacts/P2_LEARNER_OBSERVER/20260906_001/results.json": "9c6c95c115e9d350e26c43707092c65208020eac9b02b91d389d335fa3febd08",
+    "reports/P2_LEARNER_OBSERVER_001.md": "5503b185549fcce4daa841a9f4445f53d4f94dc3a43a73440bf877b2d38d1f11",
+    "evidence/P3_OBSERVER_IDENTIFIABILITY_2026-09-07.md": "cf6e0f2be6994a4ccb7021755dc7f6fa6e6ec867b187135b10be565a2e51ccd5",
+    "reports/P2_LEARNER_OBSERVER_METADATA_COMPLETION.md": "8a58646a3179d11f882676c2d76869cb0334eeadd57d53baf1dc6a05ced501ac",
+    "evidence/P3_REVIEW_EXECUTION_CLOSURE_2026-09-07.json": "28db528e70e361593545f94ca72b4bd2eaf4cc0ed0705edd5cfdcbb29c10a2a5"
+  },
+  "verdict_private_evidence_not_retrieved_in_this_check": {
+    "private_papers/95e5e12c4206f598103557d311b41931750254924655d5fd7ecd22113a5d5de3.pdf": "95e5e12c4206f598103557d311b41931750254924655d5fd7ecd22113a5d5de3",
+    "pdf_pages/95e5e12c4206f598103557d311b41931750254924655d5fd7ecd22113a5d5de3_p0008.png": "5f1c6da69d2817fdfabb3883f7bec58ad1d5581937189d94435aabbb2d646e9c",
+    "private_papers/71a6d1aee278e93c5fae8dd7d0c452c8b7b035af55d9dce2bc367d473bfc9645.pdf": "71a6d1aee278e93c5fae8dd7d0c452c8b7b035af55d9dce2bc367d473bfc9645",
+    "pdf_pages/71a6d1aee278e93c5fae8dd7d0c452c8b7b035af55d9dce2bc367d473bfc9645_p0009.png": "0eed0ad8391738b8354ae231e9d2e07b12d1d7ee525d2f7fc5be4f689712b0a1",
+    "pdf_pages/71a6d1aee278e93c5fae8dd7d0c452c8b7b035af55d9dce2bc367d473bfc9645_p0011.png": "41f1a18e4b46c74722af8285995b30d38e417b90aef32697b621b3167818c9e5",
+    "private_papers/acb0d65cad3a563a821a3b81c210f6aa0c83a7d730e2b4327bd373a06e5f00f3.pdf": "acb0d65cad3a563a821a3b81c210f6aa0c83a7d730e2b4327bd373a06e5f00f3",
+    "pdf_pages/acb0d65cad3a563a821a3b81c210f6aa0c83a7d730e2b4327bd373a06e5f00f3_p0005.png": "436000cf0a18dec65b107e25828f1c1b663b80bb5cd70fd959eb29f1731935c8",
+    "private_papers/86451bd6586237fc8216266d250d4bc53d47abd62f1e6eafb2b1eed960a45692.pdf": "86451bd6586237fc8216266d250d4bc53d47abd62f1e6eafb2b1eed960a45692",
+    "pdf_pages/86451bd6586237fc8216266d250d4bc53d47abd62f1e6eafb2b1eed960a45692_p0003.png": "5199f084d42de51bde426667105d96b1c98d2c80dda7e772a09abace88984b1c",
+    "private_papers/f78975e59bce5279fa5e200b4bd9dce81d606039c53ddd3d2fa4929e5605319d.pdf": "f78975e59bce5279fa5e200b4bd9dce81d606039c53ddd3d2fa4929e5605319d",
+    "pdf_pages/f78975e59bce5279fa5e200b4bd9dce81d606039c53ddd3d2fa4929e5605319d_p0005.png": "e2261b1c702ed1cb41401c57c0db2278ededeb1fb90efb101da0183e5664720c",
+    "private_papers/46f5eedab58093f2dd4e0470c34d8090ab440cb0d095b288a31ed031bcee6943.pdf": "46f5eedab58093f2dd4e0470c34d8090ab440cb0d095b288a31ed031bcee6943",
+    "private_papers/6afbe29e075cd9dea5591f2dffafeb83a72ae00c568c9e3a506c31d3f371dd0c.pdf": "6afbe29e075cd9dea5591f2dffafeb83a72ae00c568c9e3a506c31d3f371dd0c",
+    "private_papers/93126ade4f0879503bc807357ec8ce412eeeab52ca7f86719fe798f6f372f3ae.pdf": "93126ade4f0879503bc807357ec8ce412eeeab52ca7f86719fe798f6f372f3ae",
+    "pdf_pages/93126ade4f0879503bc807357ec8ce412eeeab52ca7f86719fe798f6f372f3ae_p0003.png": "4e2998238da9cb254bce3dadd5838c7a1154ba335c4232a84ea9de1ee3c605f6",
+    "pdf_pages/93126ade4f0879503bc807357ec8ce412eeeab52ca7f86719fe798f6f372f3ae_p0014.png": "ba39b75776e32b852d74365d30be0fbd8cfc6769ed3e57e534de786c7ef91b87",
+    "private_papers/2af08a6e888d5b68ae45399659cc2e27a8aa5d1ce6b25cb91ff7d8190c187e6a.pdf": "2af08a6e888d5b68ae45399659cc2e27a8aa5d1ce6b25cb91ff7d8190c187e6a",
+    "private_papers/4d5eedc31e9988b9de3fcc546da31d210e5a735b6eccf46116461a2a7d3c42f9.pdf": "4d5eedc31e9988b9de3fcc546da31d210e5a735b6eccf46116461a2a7d3c42f9",
+    "pdf_pages/4d5eedc31e9988b9de3fcc546da31d210e5a735b6eccf46116461a2a7d3c42f9_p0022.png": "ac7e74f43f162800440964585743f197c8b55fed8b6da5d71bcde117a5aaa8b5",
+    "private_papers/e9c4e30a1a140b093f0bb57dc9fc986788e0033205f79ef87dcd4c0336c12d71.pdf": "e9c4e30a1a140b093f0bb57dc9fc986788e0033205f79ef87dcd4c0336c12d71",
+    "private_papers/77ca6a277eb55ac3c9c4329492a6d3c71e644ff503b33de51ae79ea031508313.pdf": "77ca6a277eb55ac3c9c4329492a6d3c71e644ff503b33de51ae79ea031508313",
+    "scanned_pages/77ca6a277eb55ac3c9c4329492a6d3c71e644ff503b33de51ae79ea031508313_p030.png": "1cdf2dddaeccece87841389735db0157bc283833a5c09ec022b2881a77bc0e74",
+    "private_papers/65983cd639bffadb3c0700d2c8314d01f2ffaf31e22bb482ac2255ebb5e5a9a5.pdf": "65983cd639bffadb3c0700d2c8314d01f2ffaf31e22bb482ac2255ebb5e5a9a5",
+    "private_papers/6ee0e363a851db324b6ca1dfb6e6c7937b7a6f7019ff75a8092de569ba62834f.pdf": "6ee0e363a851db324b6ca1dfb6e6c7937b7a6f7019ff75a8092de569ba62834f",
+    "pdf_pages/6ee0e363a851db324b6ca1dfb6e6c7937b7a6f7019ff75a8092de569ba62834f_p0023.png": "e345839d51f3872b7a066d433a4a8788d4070b6eb0b4b6e3f1e7163c6319ef30",
+    "pdf_pages/6ee0e363a851db324b6ca1dfb6e6c7937b7a6f7019ff75a8092de569ba62834f_p0024.png": "fd07633ff8eebd1b19c44bfe9208148ba960181f60f859c8799bc2ff115527b4"
+  },
+  "observer_audit": {
+    "successful_actual_broker_call_receipt": {
+      "method": "item/tool/call",
+      "tool": "run_observer_audit",
+      "successful": true,
+      "error_code": null,
+      "request_bytes": 245,
+      "request_sha256": "662273b8e1499407f1f63e3eefac4f86b234a2145d4280039ba81c88e150c408",
+      "response_bytes": 3424,
+      "response_sha256": "254c202b0d881d9796d91f7bbb7b1e689b316a84aeda8f7e60037129cb055480"
+    },
+    "substantive_verdict_required_successful_actual_fixed_audit": true,
+    "reported_actual_receipt_sha256": "81c4fa7c32b9a27a57dafb0e7675ef37024976e6e43668f4d48295f961a00d78",
+    "actual_receipt_bytes_present_in_published_return": false,
+    "actual_receipt_sha256_independently_rehashed_here": false,
+    "actual_receipt_archive_capture": "pending durability only; do not rerun or reconstruct",
+    "historical_original_receipt_sha256": "8b6797ed549b8f7eb35a626a270c6a4e046b1b53b0b8e9b5f40cdf7841816062",
+    "fixed_public_dependency_bytes_rehashed": 36,
+    "auditor_reexecuted_by_this_check": false
+  },
+  "original_return_source_bytes_unchanged": true,
+  "mirror_disposable_exact_bytes_only": true,
+  "new_native_or_model_processes": 0,
+  "new_model_turns": 0,
+  "new_kernel_probes": 0,
+  "subprocess_attempts": 0,
+  "credential_files_accessed": false,
+  "commits_or_pushes_executed": false,
+  "independent_scientific_review_supplied_by_this_check": false,
+  "limitations": [
+    "This checks published receipts and source predicates, not independent external attestation of historical execution.",
+    "Private paper/PDF-image bytes are outside this public return; their runtime checks are evidenced by the pinned broker and packet receipts, not rehashed here.",
+    "The original auditor receipt is not in the fixed return allowlist. Successful run_observer_audit and substantive-verdict guard evidence execution/comparison; they are not retrieval of those original receipt bytes.",
+    "Source-bound admission does not establish scientific correctness, mechanism novelty, efficacy, hosted ChatGPT allowance, or continuous human attendance.",
+    "Fresh process, reported control checks and runtime boundary evidence are bounded to this approved operation; this shared-filesystem verification is not a second independent reviewer."
+  ]
+}

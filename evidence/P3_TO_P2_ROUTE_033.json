@@ -1,0 +1,21 @@
+{
+  "kind": "P3_TO_P2_SECOND_PASS_ROUTE_033_v1",
+  "created_utc": "2026-09-10T19:03:42.166806+00:00",
+  "from": "P3.first_candidate_audit",
+  "to": "P2.second_ideation_pass",
+  "reason": "No current candidate is cleared as a distinctive new mechanism; supplied model families, predicates, geometry and acquisition contracts leave description formation unresolved. The broad diagnosis and unused ideas are not refuted.",
+  "scientific_evidence": {
+    "path": "evidence/P3_FIRST_AUDIT_ADMISSION_033.json",
+    "sha256": "a520a8b7ca680ee402a2ac88733998953ec2dafcb30fb2d693db3f56fd4b877a"
+  },
+  "next_task": {
+    "path": "docs/P2_SECOND_PASS_BRIEF_033.md",
+    "sha256": "b1d0147fb7873368d1e6f2b34b617ba0896a19407a1a86ad02b4a467e15735ac"
+  },
+  "generation_started": false,
+  "novelty_screening_enabled_for_next_generation": false,
+  "feasibility_screening_enabled_for_next_generation": false,
+  "standing_user_authorization_used": true,
+  "additional_approval_question_required": false,
+  "native_review032_complete_and_not_to_be_repeated": true
+}

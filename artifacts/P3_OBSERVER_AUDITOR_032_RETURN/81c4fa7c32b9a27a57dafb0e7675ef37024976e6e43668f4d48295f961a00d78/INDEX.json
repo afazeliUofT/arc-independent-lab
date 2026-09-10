@@ -1,0 +1,14 @@
+{
+  "expected_receipt_sha256": "81c4fa7c32b9a27a57dafb0e7675ef37024976e6e43668f4d48295f961a00d78",
+  "kind": "P3_OBSERVER_AUDITOR_032_RETURN_v1",
+  "new_probe_or_model_execution": false,
+  "original_source_parent": "delivery/P3_FINITE_REVIEW_032/science_output",
+  "original_source_pattern": "observer-audit-*/evidence/REEXECUTION_RECEIPT.json",
+  "purpose": "Publish existing032 auditor receipt referenced by the published verdict",
+  "raw_path_or_error_saved": false,
+  "receipt_limit_bytes": 1048576,
+  "receipt_published": true,
+  "source_directory_name_saved": false,
+  "source_discovery": "direct_children_only_at_most_256_entries",
+  "status": "EXACT_RECEIPT_COLLECTED"
+}

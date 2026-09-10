@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-10T18:13:05.882005+00:00",
+  "updated_utc": "2026-09-10T19:03:42.166806+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -451,7 +451,7 @@
       "sha256": "f263b3a59abd77b45d97b5583e64ae990a2c9a2c346bd9bbe207a0cf3e6d56ef"
     },
     "standing_user_authorization_applies": true,
-    "scope_specific_human_execution_record_pending": true,
+    "scope_specific_human_execution_record_pending": false,
     "additional_start_maximum": 2,
     "additional_sent_turn_maximum": 2,
     "cumulative_ceiling_starts": 14,
@@ -459,6 +459,40 @@
     "starts_or_turns_consumed_here": 0,
     "backend_usage_or_charge": "unknown",
     "no_automatic_retry": true,
-    "hosted_allowance_unavailable_unattended_disabled": true
-  }
+    "hosted_allowance_unavailable_unattended_disabled": true,
+    "actual_approval": {
+      "path": "state/escalations/2026-09-10_FINITE_REVIEW_032_APPROVED.md",
+      "sha256": "c6c813a292213743c5e0d5a3a1be1e2342ea11868b94b2ae34bd47800864f624"
+    },
+    "actual_target_native_starts": 2,
+    "actual_target_explicit_sent_turns": 2,
+    "actual_report": {
+      "path": "artifacts/P3_REVIEW_032_RETURN/94ddb570582a75780f03e54df5e3228a58dc9de23397d63eac4976928b9a2d11/files/delivery/P3_FINITE_REVIEW_032/REPORT.json",
+      "sha256": "82bbdccc5f2a2a21d6ab5c6f7395d4083b9aefd1660dc08119593f8588a18a4d"
+    },
+    "operation_complete": true
+  },
+  "completed_finite_review032": {
+    "report": {
+      "path": "artifacts/P3_REVIEW_032_RETURN/94ddb570582a75780f03e54df5e3228a58dc9de23397d63eac4976928b9a2d11/files/delivery/P3_FINITE_REVIEW_032/REPORT.json",
+      "sha256": "82bbdccc5f2a2a21d6ab5c6f7395d4083b9aefd1660dc08119593f8588a18a4d"
+    },
+    "verdict": {
+      "path": "artifacts/P3_REVIEW_032_RETURN/94ddb570582a75780f03e54df5e3228a58dc9de23397d63eac4976928b9a2d11/files/delivery/P3_FINITE_REVIEW_032/science_output/REVIEW_VERDICT.json",
+      "sha256": "52d533604e9623ae4e5744bd5c81a41b4efac7f41d9a1f7c46c0f76ad31a1f72"
+    },
+    "verified_execution": {
+      "path": "artifacts/P3_RUN_032_VERIFICATION/20260910_033/VERIFICATION.json",
+      "sha256": "cacee0aac0fc33f6361f6e2bfe30c64e8a985b1fc56e874c568acfbbc015bc80"
+    },
+    "native_starts_this_attempt": 2,
+    "sent_turns_this_attempt": 2,
+    "cumulative_native_starts": 14,
+    "cumulative_sent_turns": 11,
+    "scope_ceiling_exhausted": true,
+    "new_native_allowance": 0,
+    "repeat_authorized": false,
+    "backend_usage_or_charge": "unknown"
+  },
+  "current_pi_work": "Attended Phase2 second-pass invention; no numeric hosted allowance inferred. Native review032 is complete; no further native run requested."
 }
