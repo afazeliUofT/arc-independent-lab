@@ -1,20 +1,21 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-10T03:06:25.476121+00:00",
+  "updated_utc": "2026-09-10T03:45:47.324412+00:00",
   "current_gate": "P3",
   "gate_status": "blocked",
   "gate_entered_utc": "2026-09-06T20:14:12.138443+00:00",
   "last_verified_gate": "P2",
-  "last_verified_commit": "3f83ebf3c3dd8d7025ecbbaf4461c03452938e8e",
-  "active_task": "P3.20.interface028",
+  "last_verified_commit": "309b2330819b55fc5573e57163d4ae6e09c5d21d",
+  "active_task": "P3.21.forensic029",
   "blocked_on": {
-    "kind": "exact_finite_budget_and_interface_policy_approval",
-    "new_permission_required": true,
-    "reason": "Actual8starts/5turns exhausted. Complete028 interface correction is prepared and locally tested.03_AUTONOMY_SPEC section6 items10and16 require one exact amendment."
+    "kind": "native_execution_budget_exhausted_and_unresolved_lifecycle_cache_controls",
+    "blocks": "new native/model operations only",
+    "new_permission_required_before_native_execution": true,
+    "human_answer_requested_now": false
   },
-  "next_action": "Deliver one verified ZIP028. Human --approve-correction records exactANSWER and publishes; separately invoke p3_finite_review_028.py --run-attended-review. Read returnedREPORT; inspect any actual verdict without editing it. If unexpected stop, use retained cause to reassess route before any new native request. Do not rerun027 or reset counts.",
+  "next_action": "Verify human publication of forensic029 when available. Continue authorized offline preparation of complete supported-event lifecycle and stable noncredential cache-input design, retaining exact refusal categories and separate host comparisons. Do not ask for more passive probes or retry028. No new native request until implementation, offline validation and concrete combined approval scope are ready.",
   "open_questions": [
-    "Actual Sol Max native read and real refusal were observed in027. Independent scientific review and complete five-tool native usage remain unfinished; a source-diagnosed interface correction is being finalized.",
+    "Which complete supported native lifecycle and stable noncredential cache design can support a long independent review under existing restrictions? Actual028brokerpathworks, but exactstoppeditem andcachewriter remainunknown.",
     "Formal separate dispositions for C1/C2/C3/C4, joint proposition and observer diagnostic remain pending enforced review.",
     "Whole-wrapper historical identity is unestablished; no novel complete joint algorithm or resource advantage specified.",
     "Observer supplied-contract discovery/invocation and broader practical prevalence remain open; exact recovery does not imply numerical robustness.",
@@ -59,8 +60,8 @@
     "P3"
   ],
   "remote": "https://github.com/afazeliUofT/arc-independent-lab",
-  "durability_status": "Published027 exact1039files verified at3f83ebf3c3dd8d7025ecbbaf4461c03452938e8e; prepared028 awaits human publication.",
-  "commit_status": "No assistant commit or push. Working028 request unsigned; test-fixture approvals are not human authorization.",
+  "durability_status": "Published028 exact1085files verified. Actual028report and forensic029 state await human documentcheckpoint publication.",
+  "commit_status": "No assistantcommit/push; no currenthumanapproval requested or model launched.",
   "recovery_dependency": null,
   "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation.",
   "latest_recovery_evidence": [
@@ -78,8 +79,8 @@
     }
   ],
   "private_error_log_handling": "Probe raw error output stays within laptop Git metadata, outside normal commits. Request only safe terminal report; never ask for credentials or publish raw transport logs.",
-  "foreground_execution_note": "Actual027 now8native starts/5sentturns cumulative; syntheticpassobserved andscienceprocessstarted,butzerosciencebrokerreceipts/noverdict.",
-  "scientific_status": "Residual novelty audit complete as PI analysis with explicit C4 reconstruction and joint-priority corrections. Observer readout reduces to residualization; query identifiability/conditioning delimited. Independent review and measured PROGRAMME remain outstanding.",
+  "foreground_execution_note": "Actual cumulative10native starts/7sentturns; allowanceexhausted. No furthernativeoperationrequested.",
+  "scientific_status": "Diagnosis and novelty-free ideas approved. PI novelty/residual audits written. Actual028 reviewer used scientific evidence and auditor, then stopped without verdict; independent dispositions, finalmechanism selection and PROGRAMME remainunfinished.",
   "latest_scientific_evidence": [
     {
       "path": "reports/P3_RESIDUAL_AUDIT_2026-09-07.md",
@@ -110,12 +111,12 @@
       "sha256": "3db85b6fa9f8050b4c77f75f09717b3902a5795044f7f8c14b6c78904627bf8c"
     }
   ],
-  "handoff_backup_status": "SingleZIP028 must be verified, installation-tested and saved before linking. Exact final installation receipt lives inside outer ZIP.",
+  "handoff_backup_status": "Publication-only forensic029 ZIP prepared; final exact installation verification accompanies release.",
   "latest_publication_verification": {
-    "path": "evidence/REMOTE_CHECKPOINT_027_VERIFICATION.json",
-    "sha256": "e396ed683832372215b228feb34f2b517fbfda1fed2c10eefaf7cc82611b5ca5"
+    "path": "evidence/REMOTE_CHECKPOINT_028_VERIFICATION.json",
+    "sha256": "19c980ec688fd34c9ec5ba86871a4af7a28b22624a8547b72a17d8070bbe2ef3"
   },
-  "last_human_message_verbatim": "Attached is the new report file. What is the issue that after many probes, still there are issues? Think deep to resolve the issue, if any exists, because I dont want to repeat this process forever",
+  "last_human_message_verbatim": "Here is the new report",
   "phase1_approval": {
     "verified_utc": "2026-09-06T18:51:56.227927+00:00",
     "source_url": "https://github.com/afazeliUofT/arc-independent-lab/blob/376455150af7b257809a56021431413b2e0c6293/state/ESCALATION.md",
@@ -147,10 +148,7 @@
     "answer_sha256": "23f17f6526f3cf068ccb95175b11fe6f37e0654dfb2bad207a942d635f40f579"
   },
   "collaboration_preference": "Minimize approval requests; decide routine matters autonomously and batch necessary human actions.",
-  "pending_factual_reports": [
-    "delivery/P3_FINITE_REVIEW_028/REPORT.json after approval/publication/separate launch",
-    "delivery/P3_FINITE_REVIEW_028/science_output/REVIEW_VERDICT.json only if actually submitted"
-  ],
+  "pending_factual_reports": [],
   "audit_review_manifest": {
     "path": "evidence/P3_AUDIT_REVIEW_MANIFEST.json",
     "sha256": "8d475e93aa21db5d7210f337c036e2705e3a4b83b6d99d43d715161d63b7e374"
@@ -159,7 +157,7 @@
     "path": "evidence/P3_RESIDUAL_REVIEW_MANIFEST.json",
     "sha256": "f7249d53060349fdfbaca2102672457e3e8966ef510d6853322b10da75762128"
   },
-  "factual_dependency_note": "Actual027 Sol Max synthetic read/refusal passed; fresh science started and failed at first broker request. Exact failed request and underlying broker reason were discarded. Systemic model-facing schema/recovery/diagnostic defect reproduced locally.",
+  "factual_dependency_note": "Actual028synthetic recovery/read/refusalpassed. Science88successfulbrokeroperations. Nativeitemtype discarded; latercachemetadataaggregatefalse. Complete scientificpacket reverified unchanged. Noadmittedverdict.",
   "latest_inventory_receipt": {
     "path": "evidence/GATE0_INVENTORY_RUN_RECEIPTS_2026-09-07.json",
     "sha256": "4dd4a78189b9e3633c526e5a9c208aa11a09941920f1c0f3f4da92070e1df055"
@@ -169,7 +167,7 @@
     "remote_execution": "Linux shell on Narval",
     "canonical_laptop_project": "WSL ~/ARC_Independent_Lab"
   },
-  "last_human_message_summary": "Actual027 report received; funder requests systemic diagnosis and an end to repeated probes.",
+  "last_human_message_summary": "Attached actual028 REPORT received and verified; independent scientific verdict absent.",
   "latest_capability_verification": {
     "path": "evidence/GATE0_CAPABILITY_INPUT_VERIFICATION_2026-09-07.json",
     "sha256": "6da38b2b47f6da6c5060f28bee745a4c85ab31538fac30566a776c208c51b559"
@@ -188,9 +186,9 @@
   },
   "reviewer_readiness": {
     "actual_command_enforcement": "observed for fixed v2 canary; completed",
-    "full_tool_boundary": "Actual027 fresh native read/refusal observed, with reported protected-host checks. New028 input recovery and full scientific tools not yet observed natively; fixed tool/mount restrictions remain.",
+    "full_tool_boundary": "Actual028synthetic argumentfeedback/read/refusal observed; 88sciencebroker successes include text/hash/image/auditor. Fullscientificverdictnotadmitted because sessionnativeitemstop andcachepostcheckfailed.",
     "fresh_review_context": "Actual027 separately freshscienceprocessobserved aftersyntheticpass.",
-    "formal_verdict": "Absent; scientificfirstbrokerrequestfailed.",
+    "formal_verdict": "Absent. Science88successfulbrokeroperations but unadvertisednativeevent andcachepostcheckfailed.",
     "shared_workspace_consultants": "engineering consultants only, not independent scientific reviewers",
     "primary_method_coverage": "listed Phase3 comparator dependencies complete; broader Phase1 bibliography/priority not certified",
     "verifier_execution_dependencies": "complete; unchanged original checker reexecuted on declared original-inventory view, post-run metadata checked separately",
@@ -218,8 +216,8 @@
     "sha256": "374af08fd069efcc42a513560ae5849353e02f3c48ffc5046c0c9eb40ed5b455"
   },
   "latest_operational_findings": {
-    "path": "reports/P3_INTERFACE_POSTMORTEM_028.md",
-    "sha256": "53cba01d4cd194684ff819b3d048365c4224fef9e4f244ae568cde8fdb1e751f"
+    "path": "reports/P3_RUN_028_REVIEW_AND_ROUTE_DECISION.md",
+    "sha256": "21555d9a0187a848207bbc91a08c776dddf3761ba7b051b6d9a2d6f60ef34113"
   },
   "hosted_output_integrity_note": "Earlier report/binary anomalies retained. Current validation also found a supposedly new directory already populated; cause unestablished, preserved and not overwritten. Operative validation succeeded in fresh UUID-suffixed directory with explicit return and hash. Final ZIP application/readback remains mandatory.",
   "review_input_core": {
@@ -231,14 +229,8 @@
     "sha256": "771c627268de321d6a0b56b3ec74bba0f8738e5809da9f5daf83ef8adec033ff"
   },
   "last_completed_operational_task": {
-    "id": "P3.9.attempt2",
-    "result": {
-      "path": "evidence/GATE0_POSTLOGIN_REPAIR_017_OBSERVATION_REVIEW.json",
-      "sha256": "9ace019b17493d9b4a2b9cda945acf49131fd32ac010ad9b7ce932b1159cff03"
-    },
-    "scope": "Accepted successful bounded authenticated metadata; no model or scientific review.",
-    "rerun_original_needed": false,
-    "rerun_corrected_needed": false
+    "id": "P3.21.forensic029",
+    "status": "Published028 and actualreport verified; full sourceforensics completed; native attempts stopped; no extra human probe justified."
   },
   "last_completed_preparation_task": {
     "id": "P3.20.interface028",
@@ -389,8 +381,8 @@
     "new_approval_required": true
   },
   "latest_finite_review_observation": {
-    "path": "evidence/P3_FINITE_REVIEW_027_OBSERVATION_REVIEW.json",
-    "sha256": "9c800bb9c4ae8e4890cedf175895f5647e4d63e9254ce73ee829747e17d05d54"
+    "path": "evidence/P3_FINITE_REVIEW_028_OBSERVATION_REVIEW.json",
+    "sha256": "0dc9ebba0a53ec0580af8112b04e1cbcabfc33bd20f5c806d529b9799cc8f595"
   },
   "latest_correction_validation": {
     "path": "artifacts/P3_CONFIG_ORIGIN_VALIDATION/20260909_001/INTEGRATED_REPORT.json",
@@ -460,7 +452,20 @@
       "path": "evidence/P3_INTERFACE_028_PREPARATION.json",
       "sha256": "d663d6a953f8f7e7698b2623c7d7773c02f95156d87c0591602d463052e1050f"
     },
-    "authorization_pending": true,
-    "requires_separate_manual_launch": true
+    "authorization_pending": false,
+    "requires_separate_manual_launch": true,
+    "status": "actualrun completed withoutverdict; consumedapproved10/7; do notrerun",
+    "actual_approval_archive": {
+      "path": "state/escalations/2026-09-10_FINITE_REVIEW_028_APPROVED.md",
+      "sha256": "fd51efe16cd1a1ea2401935237ac674f18b4c963dfaf0322c13c9de428a16b35"
+    }
+  },
+  "latest_event_forensics": {
+    "path": "artifacts/P3_EVENT_FORENSICS/20260910_029/MANIFEST.json",
+    "sha256": "0a268e54200ed70ba05ab32b81e84b9fde1b89184eca5131c16c5f86d83024cb"
+  },
+  "latest_cache_forensics": {
+    "path": "artifacts/P3_CACHE_FORENSICS/20260910_029/REPORT.json",
+    "sha256": "bd5f078aa2d1a0f0993e7386dc7e43cce0a9fc9dfc0449378341cc207c36f106"
   }
 }

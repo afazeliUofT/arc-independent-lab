@@ -1,0 +1,128 @@
+{
+  "kind": "P3_028_EVENT_FORENSIC_MANIFEST_v1",
+  "date_utc": "2026-09-10",
+  "engineering_only": true,
+  "native_or_model_operations": 0,
+  "members": [
+    {
+      "path": "FINDINGS.md",
+      "bytes": 10491,
+      "sha256": "923542b182199c7054fdcc859ea97becde13a94b996fa4d489f0641230a6f49d"
+    },
+    {
+      "path": "REPRODUCTION.json",
+      "bytes": 5706,
+      "sha256": "d72ed1656f52768896093bda556e5feff19b72a94b659425d02b4f2c66a11158"
+    },
+    {
+      "path": "reproduce_event_guard.py",
+      "bytes": 3385,
+      "sha256": "40def5b7f78b2852b89db2c809fdc2f019f6f3e20f27a1318b0f95633df20741"
+    },
+    {
+      "path": "source/PROVENANCE.json",
+      "bytes": 7955,
+      "sha256": "114ed60bb90df827f8afd63222f88d303e66e81c870b9108b4d22cb808f030e2"
+    },
+    {
+      "path": "source/codex-rs/app-server/src/bespoke_event_handling.rs",
+      "bytes": 163660,
+      "sha256": "787f086b232c147b60254886ce985f78b3fee61ffdb4b834b05eeb99a9129c26"
+    },
+    {
+      "path": "source/codex-rs/app-server/src/lib.rs",
+      "bytes": 56946,
+      "sha256": "14c246a1c7d449faf2c84bd435efc9cc8624c8829cd76711f14e055629e09976"
+    },
+    {
+      "path": "source/codex-rs/app-server/src/outgoing_message.rs",
+      "bytes": 52058,
+      "sha256": "df283be051d56d4615472c137b2d827ccbb9e392675d3c10fbe46990e15bdd9c"
+    },
+    {
+      "path": "source/codex-rs/app-server/tests/suite/v2/compaction.rs",
+      "bytes": 17191,
+      "sha256": "57d19c6c173df2309cad5c1df07c13019e4264b1d4b0b49614470e215d68cfc3"
+    },
+    {
+      "path": "source/codex-rs/app-server-protocol/src/protocol/common.rs",
+      "bytes": 168683,
+      "sha256": "f67267aa0645d50ee997334036f26ef8d7b3ed42f7c79afa33e6ebb507c0c45d"
+    },
+    {
+      "path": "source/codex-rs/app-server-protocol/src/protocol/v2/item.rs",
+      "bytes": 63928,
+      "sha256": "859e186ea566b8a4ed0c60752ee4f5ddc679e4c1ee2061b3002179f5d6f41c4d"
+    },
+    {
+      "path": "source/codex-rs/app-server-transport/src/outgoing_message.rs",
+      "bytes": 1618,
+      "sha256": "bf66cbcd78a92152312d09270cd6cedfa52b935d825e47ac4f8f1ee584dccad3"
+    },
+    {
+      "path": "source/codex-rs/app-server-transport/src/transport/mod.rs",
+      "bytes": 21005,
+      "sha256": "62a3acdb675a7d36625d40665e25ada29052900eac6265a6616ac526355eb503"
+    },
+    {
+      "path": "source/codex-rs/app-server-transport/src/transport/stdio.rs",
+      "bytes": 4021,
+      "sha256": "ffb372ec8a369b307ad3c0fb3d7af19982098360df12ed4158fe5180beb0a91b"
+    },
+    {
+      "path": "source/codex-rs/core/src/compact.rs",
+      "bytes": 28885,
+      "sha256": "d05a353f7bc073f204ca3677cf5a05c879d29066a5ea9f41f6ab78bc5ac828e7"
+    },
+    {
+      "path": "source/codex-rs/core/src/compact_remote.rs",
+      "bytes": 20454,
+      "sha256": "f17fbd966defc9273dd3fab8cd3556364b564a007ce583cfde064ff6be5f9cb0"
+    },
+    {
+      "path": "source/codex-rs/core/src/compact_remote_v2.rs",
+      "bytes": 44565,
+      "sha256": "00e20a8a4c6ab8230d9aa9268ac0af4f4e210d326df1dda1e0b072c167cd135a"
+    },
+    {
+      "path": "source/codex-rs/core/src/session/mod.rs",
+      "bytes": 176467,
+      "sha256": "5a49a2d6012494151d39989a8e346a40b54459d8b2113c18d61fe0ababb1e774"
+    },
+    {
+      "path": "source/codex-rs/core/src/session/session.rs",
+      "bytes": 75188,
+      "sha256": "904e6f3d9457273283742d4a0bd50101fd76c74ce826d8cadddbb4ff5c6df6a1"
+    },
+    {
+      "path": "source/codex-rs/rollout-trace/src/thread.rs",
+      "bytes": 19684,
+      "sha256": "29e6afa233da57139af71698692a2cee67ce109dccf1347ee3a426a39b1d0c45"
+    },
+    {
+      "path": "source/codex-rs/state/logs_migrations/0002_logs_feedback_log_body.sql",
+      "bytes": 1108,
+      "sha256": "1cdeb6c3cddcf2f4b81995fb4f227f8578c0624568d27407c2fa2bddb7f7ba77"
+    },
+    {
+      "path": "source/codex-rs/state/src/log_db.rs",
+      "bytes": 29077,
+      "sha256": "585ecd3e214df8b6015957ac1235dfaacd5d58674d0c7451a00fc65ad68564a1"
+    },
+    {
+      "path": "source/codex-rs/state/src/runtime/logs.rs",
+      "bytes": 69099,
+      "sha256": "4f8ed090e90390f4739f6b8abb44e0341acdb0b0b3bef2bbb3af0f147a048a1c"
+    },
+    {
+      "path": "source/codex-rs/state/src/sqlite.rs",
+      "bytes": 9350,
+      "sha256": "f5c8a7705c1b064a398d04a1be08d2bf2550a47ee030583ccad06713d5e992e8"
+    },
+    {
+      "path": "REPORT.json",
+      "bytes": 1368,
+      "sha256": "21df11fa365cf58faeec1a8ba7cf7520be2adf3edf937b3dc189003a0bd00485"
+    }
+  ]
+}

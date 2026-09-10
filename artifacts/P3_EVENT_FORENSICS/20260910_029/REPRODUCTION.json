@@ -1,0 +1,233 @@
+{
+  "kind": "P3_028_EVENT_GUARD_OFFLINE_FORENSIC_v1",
+  "scientific_review": false,
+  "native_process_started": false,
+  "credentials_read": false,
+  "unknown_native_content_read": false,
+  "session_sha256": "ddaac65b673ccf17095b7a8a4c5f1d7908a497fbef865dee5ed5bd77f9149bea",
+  "source_variants": 19,
+  "variants": [
+    {
+      "source_variant": "userMessage",
+      "required_fields": [
+        "content",
+        "id",
+        "type"
+      ],
+      "fixture_complete_schema_claim": false,
+      "status": "accepted"
+    },
+    {
+      "source_variant": "hookPrompt",
+      "required_fields": [
+        "fragments",
+        "id",
+        "type"
+      ],
+      "fixture_complete_schema_claim": false,
+      "status": "stopped",
+      "reason": "Unadvertised native item effect"
+    },
+    {
+      "source_variant": "agentMessage",
+      "required_fields": [
+        "id",
+        "text",
+        "type"
+      ],
+      "fixture_complete_schema_claim": false,
+      "status": "accepted"
+    },
+    {
+      "source_variant": "functionCallOutput",
+      "required_fields": [
+        "id",
+        "name",
+        "output",
+        "type"
+      ],
+      "fixture_complete_schema_claim": false,
+      "status": "accepted"
+    },
+    {
+      "source_variant": "plan",
+      "required_fields": [
+        "id",
+        "text",
+        "type"
+      ],
+      "fixture_complete_schema_claim": false,
+      "status": "stopped",
+      "reason": "Unadvertised native item effect"
+    },
+    {
+      "source_variant": "reasoning",
+      "required_fields": [
+        "id",
+        "type"
+      ],
+      "fixture_complete_schema_claim": false,
+      "status": "accepted"
+    },
+    {
+      "source_variant": "commandExecution",
+      "required_fields": [
+        "command",
+        "commandActions",
+        "cwd",
+        "id",
+        "status",
+        "type"
+      ],
+      "fixture_complete_schema_claim": false,
+      "status": "stopped",
+      "reason": "Unadvertised native item effect"
+    },
+    {
+      "source_variant": "fileChange",
+      "required_fields": [
+        "changes",
+        "id",
+        "status",
+        "type"
+      ],
+      "fixture_complete_schema_claim": false,
+      "status": "stopped",
+      "reason": "Unadvertised native item effect"
+    },
+    {
+      "source_variant": "mcpToolCall",
+      "required_fields": [
+        "arguments",
+        "id",
+        "server",
+        "status",
+        "tool",
+        "type"
+      ],
+      "fixture_complete_schema_claim": false,
+      "status": "stopped",
+      "reason": "Unadvertised native item effect"
+    },
+    {
+      "source_variant": "dynamicToolCall",
+      "required_fields": [
+        "arguments",
+        "id",
+        "status",
+        "tool",
+        "type"
+      ],
+      "fixture_complete_schema_claim": false,
+      "status": "accepted"
+    },
+    {
+      "source_variant": "collabAgentToolCall",
+      "required_fields": [
+        "agentsStates",
+        "id",
+        "receiverThreadIds",
+        "senderThreadId",
+        "status",
+        "tool",
+        "type"
+      ],
+      "fixture_complete_schema_claim": false,
+      "status": "stopped",
+      "reason": "Unadvertised native item effect"
+    },
+    {
+      "source_variant": "subAgentActivity",
+      "required_fields": [
+        "agentPath",
+        "agentThreadId",
+        "id",
+        "kind",
+        "type"
+      ],
+      "fixture_complete_schema_claim": false,
+      "status": "stopped",
+      "reason": "Unadvertised native item effect"
+    },
+    {
+      "source_variant": "webSearch",
+      "required_fields": [
+        "id",
+        "query",
+        "type"
+      ],
+      "fixture_complete_schema_claim": false,
+      "status": "stopped",
+      "reason": "Unadvertised native item effect"
+    },
+    {
+      "source_variant": "imageView",
+      "required_fields": [
+        "id",
+        "path",
+        "type"
+      ],
+      "fixture_complete_schema_claim": false,
+      "status": "stopped",
+      "reason": "Unadvertised native item effect"
+    },
+    {
+      "source_variant": "sleep",
+      "required_fields": [
+        "durationMs",
+        "id",
+        "type"
+      ],
+      "fixture_complete_schema_claim": false,
+      "status": "stopped",
+      "reason": "Unadvertised native item effect"
+    },
+    {
+      "source_variant": "imageGeneration",
+      "required_fields": [
+        "id",
+        "result",
+        "status",
+        "type"
+      ],
+      "fixture_complete_schema_claim": false,
+      "status": "stopped",
+      "reason": "Unadvertised native item effect"
+    },
+    {
+      "source_variant": "enteredReviewMode",
+      "required_fields": [
+        "id",
+        "review",
+        "type"
+      ],
+      "fixture_complete_schema_claim": false,
+      "status": "stopped",
+      "reason": "Unadvertised native item effect"
+    },
+    {
+      "source_variant": "exitedReviewMode",
+      "required_fields": [
+        "id",
+        "review",
+        "type"
+      ],
+      "fixture_complete_schema_claim": false,
+      "status": "stopped",
+      "reason": "Unadvertised native item effect"
+    },
+    {
+      "source_variant": "contextCompaction",
+      "required_fields": [
+        "id",
+        "type"
+      ],
+      "fixture_complete_schema_claim": true,
+      "status": "stopped",
+      "reason": "Unadvertised native item effect"
+    }
+  ],
+  "context_compaction_full_minimal_source_schema_fixture_stops": true,
+  "actual_028_item_type_identified": false,
+  "note": "All 19 discriminants checked. ContextCompaction fixture includes every required field and is source-schema complete. Other denied fixtures intentionally exercise discriminant guard before their payload validation; they are not claimed complete ThreadItem instances."
+}

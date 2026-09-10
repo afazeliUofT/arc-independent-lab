@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-10T03:06:25.476121+00:00",
+  "updated_utc": "2026-09-10T03:45:47.324412+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -119,31 +119,10 @@
     "rerun_needed": false
   },
   "next_operational_test": {
-    "name": "Finite interface-corrected review028",
-    "scope": {
-      "path": "configs/P3_FINITE_REVIEW_SCOPE_028.json",
-      "sha256": "69d8413411518a4a33998fc0a271049b125520d7854341cc5584fa9dea4056c6"
-    },
-    "preparation": {
-      "path": "evidence/P3_INTERFACE_028_PREPARATION.json",
-      "sha256": "d663d6a953f8f7e7698b2623c7d7773c02f95156d87c0591602d463052e1050f"
-    },
-    "status": "prepared_pending_exact_human_approval_publication_and_separate_launch",
+    "status": "NONE AUTHORIZED: cumulative10/7 ceiling exhausted; forensic route assessment only",
     "maximum_additional_native_starts_authorized": 0,
     "maximum_additional_sent_turns_authorized": 0,
-    "proposed_maximum_additional_native_starts": 2,
-    "proposed_maximum_additional_sent_turns": 2,
-    "prior_observed_native_starts": 8,
-    "prior_observed_sent_turns": 5,
-    "current_cumulative_native_ceiling": 8,
-    "current_cumulative_sent_turn_ceiling": 5,
-    "proposed_cumulative_native_ceiling": 10,
-    "proposed_cumulative_sent_turn_ceiling": 7,
-    "synthetic_seconds_including_cleanup": 600,
-    "scientific_seconds_including_cleanup": 3600,
-    "automatic_retries": 0,
-    "unattended_model_use_authorized": false,
-    "backend_usage_or_charge": "unknown"
+    "unattended_model_use_authorized": false
   },
   "completed_native_signin": {
     "receipt": {
@@ -169,11 +148,11 @@
   "authoritative_usage_reading_scope": "Hosted ChatGPT conversation allowance; unavailable to this runtime.",
   "native_codex_usage_observation": {
     "receipt": {
-      "path": "artifacts/P3_SCIENTIFIC_BROKER_STOP_OBSERVATIONS/20260910_028/REPORT.json",
-      "sha256": "6460fffe52e02b5388d871c328d3d7d72885d7222b086d664786b4a822084769"
+      "path": "artifacts/P3_REVIEW_SESSION_STOP_OBSERVATIONS/20260910_029/REPORT.json",
+      "sha256": "b96152d5f07f502a41b7e218417d20d6775b9751c7440f94de1015dc39cd336a"
     },
-    "observed_utc": "2026-09-10T02:36:43.752735+00:00",
-    "scope": "Named native Codex bucket snapshot only; does not establish hosted allowance or model-specific entitlement.",
+    "observed_utc": "2026-09-10T03:15:54.108811+00:00",
+    "scope": "Namednative Codexbucket snapshotonly; nohosted/model-specificallowance inference.",
     "snapshot": {
       "response_shape_recognized": true,
       "codex_bucket_observed": true,
@@ -182,7 +161,7 @@
           "primary": {
             "present": true,
             "shape_recognized": true,
-            "usedPercent": 19,
+            "usedPercent": 21,
             "windowDurationMins": 10080,
             "resetsAt": 1789490427
           },
@@ -195,7 +174,7 @@
           "primary": {
             "present": true,
             "shape_recognized": true,
-            "usedPercent": 19,
+            "usedPercent": 21,
             "windowDurationMins": 10080,
             "resetsAt": 1789490427
           },
@@ -238,7 +217,7 @@
       "sha256": "acbc599a337845e585af8cec04fd72af44cdb7d10321c1ae4329fce6120613a4"
     },
     "native_controller_implemented": true,
-    "next_action": "Do not rerun027. Prepared028 is locally validated and requires one exact numerical/control amendment, publication and a separate launch. Repeated publication cannot launch a model. Inspect unexpected stops before any further native request.",
+    "next_action": "Stopnativeattempts. Complete extended-session lifecycle andstablecacheinputdesignoffline; no newhumanprobe ornativeallowance requestin029.",
     "unattended_model_use_authorized": false,
     "extra_spending_allowed": false
   },
@@ -366,5 +345,42 @@
     "backend_usage_or_charge": "unknown",
     "new_native_or_model_run": false,
     "repeat_original_command": false
+  },
+  "completed_finite_review028": {
+    "created_utc": "2026-09-10T03:40:30.337542+00:00",
+    "input": {
+      "path": "artifacts/P3_REVIEW_SESSION_STOP_OBSERVATIONS/20260910_029/REPORT.json",
+      "sha256": "b96152d5f07f502a41b7e218417d20d6775b9751c7440f94de1015dc39cd336a"
+    },
+    "published_commit": "309b2330819b55fc5573e57163d4ae6e09c5d21d",
+    "published_files_verified": 1085,
+    "actual_approval_verified": {
+      "path": "state/ESCALATION.md",
+      "sha256": "fd51efe16cd1a1ea2401935237ac674f18b4c963dfaf0322c13c9de428a16b35"
+    },
+    "all_controller_and_scope_pins_verified": true,
+    "embedded_session_bytes_match_declared_hashes": true,
+    "separate_laptop_session_files_read_here": false,
+    "synthetic_read_recovery_and_real_refusal_admitted": true,
+    "scientific_successful_tool_calls": {
+      "read_text": 34,
+      "hash_file": 49,
+      "run_observer_audit": 1,
+      "read_page_image": 4
+    },
+    "science_successful_calls_total": 88,
+    "science_failed_broker_calls": 0,
+    "primary_session_stop": "Unadvertised native item effect",
+    "exact_failed_native_item_type_recorded_in_report": false,
+    "later_controller_stop": "Scientific stage changed protected host inputs",
+    "only_false_host_predicate": "cache_metadata_unchanged",
+    "changed_cache_path_and_field_not_recorded": true,
+    "scientific_packet_before_and_after_equal": true,
+    "packet_files_rehashed": 722,
+    "reviewer_verdict": false,
+    "cumulative_native_starts": 10,
+    "cumulative_sent_turns": 7,
+    "approved_ceiling_exhausted": true,
+    "new_native_or_model_operation": false
   }
 }

@@ -1,0 +1,127 @@
+{
+  "kind": "P3_029_PASSIVE_CACHE_FORENSIC_v1",
+  "date": "2026-09-10",
+  "engineering_consultation_only": true,
+  "native_or_model_started": false,
+  "credential_files_read": false,
+  "report_sha256": "b96152d5f07f502a41b7e218417d20d6775b9751c7440f94de1015dc39cd336a",
+  "input_source_sha256": {
+    "scripts/p3_finite_review_024.py": "810c57eeebedac2867b5330969a50816611f196b32cb50419d0952c5a4580f21",
+    "scripts/p3_finite_review_028.py": "be4e03c682e9050bd1d4ab61a0c24dd3ab1e97782e221c4c7813cab315763c19",
+    "scripts/gate0_postlogin_metadata.py": "b7fc9db3af9004c89a8fd87961f3e83ae94bad707e05c355a7a30b6646502197",
+    "scripts/gate0_client_mount_plan.py": "4500a10227a5209a525e5ab7534a1bd2e55e3574c91381c584e5a99c7095a107",
+    "artifacts/GATE0_TOOL_BOUNDARY_SOURCE/20260907_001/codex-rs/models-manager/src/cache.rs": "97d64ab915c9736f409ceef9c0e71f018c7bfeb4c14060d4bda0453ba835a152",
+    "artifacts/GATE0_TOOL_BOUNDARY_SOURCE/20260907_001/codex-rs/models-manager/src/manager.rs": "00a120284c6b1c6549fa39ae938a72cb6cfd40f683878fabdcc22f9216799f9c"
+  },
+  "stages": [
+    {
+      "stage": "synthetic",
+      "cache_before": [
+        {
+          "path": "/home/afazeli2006/.codex/cloud-config-bundle-cache.json",
+          "present": false
+        },
+        {
+          "path": "/home/afazeli2006/.codex/models_cache.json",
+          "present": true,
+          "metadata": {
+            "device": 2096,
+            "inode": 686455,
+            "bytes": 179710,
+            "mode": 420,
+            "mtime_ns": 1789009937930214443,
+            "ctime_ns": 1789009937930214443
+          }
+        }
+      ],
+      "cache_metadata_unchanged": true,
+      "elapsed_seconds_not_usage": 13.957813,
+      "session_status": "SYNTHETIC_REFUSAL_OBSERVED",
+      "session_reason": null
+    },
+    {
+      "stage": "science",
+      "cache_before": [
+        {
+          "path": "/home/afazeli2006/.codex/cloud-config-bundle-cache.json",
+          "present": false
+        },
+        {
+          "path": "/home/afazeli2006/.codex/models_cache.json",
+          "present": true,
+          "metadata": {
+            "device": 2096,
+            "inode": 686455,
+            "bytes": 179710,
+            "mode": 420,
+            "mtime_ns": 1789009937930214443,
+            "ctime_ns": 1789009937930214443
+          }
+        }
+      ],
+      "cache_metadata_unchanged": false,
+      "elapsed_seconds_not_usage": 434.412354,
+      "session_status": "STOPPED_WITHOUT_VERDICT",
+      "session_reason": "Unadvertised native item effect"
+    }
+  ],
+  "report_status": "STOPPED_WITHOUT_COMPLETED_REVIEW",
+  "report_reason": "Scientific stage changed protected host inputs",
+  "cache_after_metadata_recorded": false,
+  "known_comparison_fields": [
+    "device",
+    "inode",
+    "bytes",
+    "mode",
+    "mtime_ns",
+    "ctime_ns"
+  ],
+  "atime_compared": false,
+  "which_cache_changed": "unestablished",
+  "writer_identity": "unestablished",
+  "exact_change": "unestablished",
+  "cache_contents_changed": "unestablished",
+  "native_ro_mount_plan": "models_cache.json exact read-only file bind; cloud cache absent and no broad host Codex-home bind",
+  "fresh_kernel_mount_attestation_recorded": false,
+  "read_only_bind_is_global_immutable_snapshot": false,
+  "pinned_model_cache_save_implementation": "tokio::fs::write(cache_path,json), not atomic rename",
+  "default_cache_ttl_seconds": 300,
+  "ttl_is_evidence_of_actual_cause": false,
+  "retrospective_metadata_probe_could_recover_exact_post_run_state": false,
+  "passive_followup_proposal": {
+    "requires_no_native_or_model_start": true,
+    "fixed_paths": [
+      "/home/afazeli2006/.codex/cloud-config-bundle-cache.json",
+      "/home/afazeli2006/.codex/models_cache.json"
+    ],
+    "operation": "No-follow component validation and lstat metadata only; compare current facts to reported before facts; report observed-now timestamp and per-field differences; no content read/hash; no broad listing or process introspection. Current state cannot substitute for missing end-of-stage evidence."
+  },
+  "future_engineering_changes_not_activated": [
+    "Preserve session stop and postcheck failures as separate reasons; do not replace first retained cause with later aggregate error.",
+    "Record per-path before/after metadata and differences when host checks run.",
+    "Do not waive aggregate failure as harmless refresh; exact protected-input scope remains unmet.",
+    "If a future operation is approved, separately review a stable exact-byte input snapshot or equivalent bounded provenance strategy; read-only bind alone does not prevent concurrent host mutation."
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/models-manager/src/cache.rs",
+      "access_date": "2026-09-10",
+      "basis": "Previously acquired pinned source read locally in full."
+    },
+    {
+      "url": "https://github.com/openai/codex/blob/78c290807ce710180111df227df3b7a4fe845452/codex-rs/models-manager/src/manager.rs",
+      "access_date": "2026-09-10",
+      "basis": "Previously acquired pinned source read locally."
+    },
+    {
+      "url": "https://man7.org/linux/man-pages/man2/mount.2.html",
+      "access_date": "2026-09-10",
+      "basis": "Opened primary Linux man-pages documentation; read-only flag can apply to one mount without affecting other mounts."
+    },
+    {
+      "url": "https://docs.rs/tokio/latest/tokio/fs/fn.write.html",
+      "access_date": "2026-09-10",
+      "basis": "Opened Tokio crate documentation; write replaces file contents using std::fs::write."
+    }
+  ]
+}

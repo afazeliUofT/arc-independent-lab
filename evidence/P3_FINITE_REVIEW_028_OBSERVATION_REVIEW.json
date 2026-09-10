@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-09-10T03:40:30.337542+00:00",
+  "input": {
+    "path": "artifacts/P3_REVIEW_SESSION_STOP_OBSERVATIONS/20260910_029/REPORT.json",
+    "sha256": "b96152d5f07f502a41b7e218417d20d6775b9751c7440f94de1015dc39cd336a"
+  },
+  "published_commit": "309b2330819b55fc5573e57163d4ae6e09c5d21d",
+  "published_files_verified": 1085,
+  "actual_approval_verified": {
+    "path": "state/ESCALATION.md",
+    "sha256": "fd51efe16cd1a1ea2401935237ac674f18b4c963dfaf0322c13c9de428a16b35"
+  },
+  "all_controller_and_scope_pins_verified": true,
+  "embedded_session_bytes_match_declared_hashes": true,
+  "separate_laptop_session_files_read_here": false,
+  "synthetic_read_recovery_and_real_refusal_admitted": true,
+  "scientific_successful_tool_calls": {
+    "read_text": 34,
+    "hash_file": 49,
+    "run_observer_audit": 1,
+    "read_page_image": 4
+  },
+  "science_successful_calls_total": 88,
+  "science_failed_broker_calls": 0,
+  "primary_session_stop": "Unadvertised native item effect",
+  "exact_failed_native_item_type_recorded_in_report": false,
+  "later_controller_stop": "Scientific stage changed protected host inputs",
+  "only_false_host_predicate": "cache_metadata_unchanged",
+  "changed_cache_path_and_field_not_recorded": true,
+  "scientific_packet_before_and_after_equal": true,
+  "packet_files_rehashed": 722,
+  "reviewer_verdict": false,
+  "cumulative_native_starts": 10,
+  "cumulative_sent_turns": 7,
+  "approved_ceiling_exhausted": true,
+  "new_native_or_model_operation": false
+}
