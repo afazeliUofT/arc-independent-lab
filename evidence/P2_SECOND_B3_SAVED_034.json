@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-09-10T19:34:55.607763+00:00",
+  "batch": "B3",
+  "path": "evidence/P2_SECOND_RAW_B3_034.md",
+  "sha256": "394309897b72850d7ccaa54b11f1d16497c7d4fbb161532305a7c7863e710f8c",
+  "entries": [
+    "R2-B3-01",
+    "R2-B3-02",
+    "R2-B3-03",
+    "R2-B3-04",
+    "R2-B3-05",
+    "R2-B3-06",
+    "R2-B3-07",
+    "R2-B3-08",
+    "R2-B3-09",
+    "R2-B3-10",
+    "R2-B3-11",
+    "R2-B3-12",
+    "R2-B3-13",
+    "R2-B3-14",
+    "R2-B3-15",
+    "R2-B3-16",
+    "R2-B3-17",
+    "R2-B3-18",
+    "R2-B3-19",
+    "R2-B3-20",
+    "R2-B3-21",
+    "R2-B3-22",
+    "R2-B3-23",
+    "R2-B3-24"
+  ],
+  "entry_count": 24,
+  "predecessor_receipt": {
+    "path": "evidence/P2_SECOND_B2_SAVED_034.json",
+    "sha256": "d658203d5bb33d146b6d5b31cbeddb4f7cefa0fa515daab8d63085443d0b50f6"
+  },
+  "novelty_screening": "OFF",
+  "feasibility_screening": "OFF",
+  "clustering_started": false,
+  "scope": "Local saved-byte and sequence record, not independent attestation."
+}

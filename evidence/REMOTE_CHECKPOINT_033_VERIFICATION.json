@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-09-10T19:29:00.088549+00:00",
+  "remote": "https://github.com/afazeliUofT/arc-independent-lab",
+  "access_date": "2026-09-10",
+  "commit": "296cf94b9e692f4ddbee5c554fc87aaa5a298e60",
+  "parent": "523dc10a4b437181222c32c28b25d0ce736e7278",
+  "tree": "696afedbb71a77a11c53bf545c5194f37db1e450",
+  "all_published_blob_bytes_and_modes_verified": true,
+  "published_blobs_checked": 1268,
+  "prepared033_included": true,
+  "original_auditor_receipt": {
+    "path": "artifacts/P3_OBSERVER_AUDITOR_032_RETURN/81c4fa7c32b9a27a57dafb0e7675ef37024976e6e43668f4d48295f961a00d78/REEXECUTION_RECEIPT.json",
+    "sha256": "81c4fa7c32b9a27a57dafb0e7675ef37024976e6e43668f4d48295f961a00d78",
+    "fields_except_timestamp_equal_historical_receipt": true,
+    "historical_path": "evidence/P2_LEARNER_OBSERVER_CONSISTENCY.json",
+    "new_execution": false
+  },
+  "new_commit_created_here": false,
+  "push_performed_here": false,
+  "scope": "Published byte identities and receipt consistency; not a new scientific verdict."
+}

@@ -1,0 +1,30 @@
+{
+  "actual_commits": 0,
+  "actual_model_or_reviewer_execution": false,
+  "actual_pushes": 0,
+  "base_commit": "296cf94b9e692f4ddbee5c554fc87aaa5a298e60",
+  "command": "python3 -I tests/test_publish_checkpoint034.py",
+  "concrete_behaviors": [
+    "Declared old/new transitions tied to pinned base",
+    "Entire payload checked before installation",
+    "Unknown or unrelated working/index changes preserved and refused",
+    "Exact CRLF bytes staged without conversion",
+    "Failed push retains pending and retry does not recommit",
+    "Completed retry does not commit or push",
+    "Extra child paths or wrong parent prevent push",
+    "Symlink/hardlink and oversized input refused",
+    "No reviewer/model imports or receipt collection function"
+  ],
+  "created_utc": "2026-09-10",
+  "files": {
+    "scripts/publish_checkpoint034.py": "c5c9af66d07b4b8d266a1243ec899be7f893e1d934e0edac16b96f87b066a3ec",
+    "tests/test_publish_checkpoint034.py": "3c49f0ab19d857afa1890605619f081fad45841b7dee9c402c127f43a7ec4e33"
+  },
+  "final_complete_payload_install_readback": "Deferred until PI freezes all checkpoint files; recorded in the delivered ZIP RELEASE_VERIFICATION.json",
+  "fixture": "In-memory Git object/index/HEAD with commit and push mocked",
+  "kind": "CHECKPOINT_034_PUBLICATION_VALIDATION_v1",
+  "scope": "Offline publication helper validation only; not a scientific or independent reviewer gate",
+  "status": "PASSED",
+  "tests_passed": 22,
+  "tests_run": 22
+}

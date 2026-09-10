@@ -1,0 +1,21 @@
+{
+  "kind": "P2_CHECKPOINT_034",
+  "base_commit": "296cf94b9e692f4ddbee5c554fc87aaa5a298e60",
+  "created_utc": "2026-09-10T19:39:05.136642+00:00",
+  "advancing_step": "Complete and preserve second-pass raw generation before convergence",
+  "raw_generation_freeze": {
+    "path": "evidence/P2_SECOND_GENERATION_FREEZE_034.json",
+    "sha256": "56858ca7780ea67795ba5800bfc7992e35bb91e058e5f35ced5401410637bcc3"
+  },
+  "integrity": {
+    "path": "evidence/P2_SECOND_POPULATION_INTEGRITY_034.json",
+    "sha256": "a67cfcae8a206de00ae0d032e9e7f7afddaf8aeb2639ae85d66335d3f02d868b"
+  },
+  "objective_status": {
+    "path": "reports/OBJECTIVE_STATUS_REVIEW_034.md",
+    "sha256": "bc152fce4e13dca8dd4b0e88f477d671c189c01cfb1a55d8fddfa8862f4780ee"
+  },
+  "publication_only": true,
+  "new_native_or_reviewer_execution": false,
+  "science_phase_unchanged": "P2"
+}

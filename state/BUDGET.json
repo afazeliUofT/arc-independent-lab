@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-10T19:03:42.166806+00:00",
+  "updated_utc": "2026-09-10T19:39:05.136642+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -494,5 +494,5 @@
     "repeat_authorized": false,
     "backend_usage_or_charge": "unknown"
   },
-  "current_pi_work": "Attended Phase2 second-pass invention; no numeric hosted allowance inferred. Native review032 is complete; no further native run requested."
+  "current_pi_work": "Attended Phase2 second-pass raw generation completed; convergence next. One shared-workspace engineering consultation prepared publication-only034. No new native starts, native sent turns or candidate treatments. Hosted usage unknown; unattended model use disabled."
 }

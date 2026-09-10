@@ -1,0 +1,23 @@
+{
+  "kind": "P2_SECOND_POPULATION_INTEGRITY_034_v1",
+  "created_utc": "2026-09-10T19:39:05.136642+00:00",
+  "formal_scientific_verdict": null,
+  "role": "PI byte/count bookkeeping, not independent review",
+  "raw_document": {
+    "path": "IDEAS_02_RAW.md",
+    "sha256": "9ea79c14951a0662c5db69d3c6fd245e79a5da1b2dec572a542619f08d2a4706"
+  },
+  "freeze": {
+    "path": "evidence/P2_SECOND_GENERATION_FREEZE_034.json",
+    "sha256": "56858ca7780ea67795ba5800bfc7992e35bb91e058e5f35ced5401410637bcc3"
+  },
+  "all_three_raw_batches_embedded_verbatim": true,
+  "raw_ids_unique_and_complete": true,
+  "entry_count": 72,
+  "saved_receipt_order_consistent": true,
+  "all_baseline_files_except_four_declared_state_digest_paths_unchanged": true,
+  "original_ledger_is_exact_prefix": true,
+  "original_diagnosis_sha256": "e3106d737f5b50a688d1d5147a015dc091d2986493848b68d33d61949dfa4cc3",
+  "original_ideas_sha256": "73cab9f6ab1f5eda80c7c2adc6d2ed556c63d5652fd65434e4cc4b24383dc3b8",
+  "no_convergence_or_novelty_screen_performed": true
+}
