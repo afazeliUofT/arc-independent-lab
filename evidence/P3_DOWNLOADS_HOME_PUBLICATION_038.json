@@ -1,0 +1,66 @@
+{
+  "kind": "P3_HOME038_PUBLICATION_VERIFICATION_v1",
+  "repository": "afazeliUofT/arc-independent-lab",
+  "base_commit": "3ec4ed07a9ee66750228cea606ea37332aef84e9",
+  "content_commit": "3baa33a2117884519b4dfc08d22149d518fb2962",
+  "files": [
+    {
+      "path": "scripts/downloads_bootstrap038.py",
+      "sha256": "322d833fa757777e517a2bf1ede2b2741c66aa4a1c6e90e5b8637552bcdeb897",
+      "github_blob_sha": "c919625ebde898747fb1d972979850f12cc92243"
+    },
+    {
+      "path": "scripts/launch038_home.py",
+      "sha256": "a89f3b1ec37463801f59c6d7767164697fee0a046190500161fd99e334716cbe",
+      "github_blob_sha": "4d7d9501f09736b47a66591112f53e9464cbcb7f"
+    },
+    {
+      "path": "tests/test_downloads_bootstrap038.py",
+      "sha256": "4f188130de490b7d7fea6482792f93720e23dd7622eac4b696b00758831f961d",
+      "github_blob_sha": "f6fcf8254850f83debc5b83e88dc39411b526693"
+    },
+    {
+      "path": "tests/test_launch038_home.py",
+      "sha256": "cc8cc9b61f1b3d669602cad92d68aeb2e1bc050c127044ec83b60bbf39619bd1",
+      "github_blob_sha": "16f02f5f58b8df536f54d1deeda1720eb8fd54c1"
+    },
+    {
+      "path": "docs/USER_HANDOFF_PREFERENCES_2026-09-11.md",
+      "sha256": "de04d0f73a57aef52330b3b5dba7c790c3bbd2def8a4e589b50d6dd239cfd944",
+      "github_blob_sha": "fd6374343f8d21d43769a027226c0c8dcb9dce69"
+    },
+    {
+      "path": "docs/P3_DOWNLOADS_HOME_HANDOFF_038.md",
+      "sha256": "946dc573a793a4b2d88052308e267596f5542ae4fc71bf5da271971968da0fbf",
+      "github_blob_sha": "2b2168b3dc56d175e043205f414d6f2bd29d1fc2"
+    },
+    {
+      "path": "evidence/P3_DOWNLOADS_HOME_HANDOFF_VALIDATION_038.json",
+      "sha256": "2a9b686d2bdeedc34c02fcfcb3233dcf1682f58a4797eff2972f132e2c67b125",
+      "github_blob_sha": "b87a6a7073ef53037acd14244a34ae2471ffa71f"
+    },
+    {
+      "path": "state/PROJECT_STATE.json",
+      "sha256": "b6d242125a057de46cdd471aee04b4eec92fc29f077cb55ca3b146016376f8a1",
+      "github_blob_sha": "f45934b8e1bb03eab2158d8bfd174333e9451443"
+    },
+    {
+      "path": "state/LEDGER.jsonl",
+      "sha256": "cdd9925d643abe211b00e8bfa683234feeddff75caa6246e2ad25150175b58f7",
+      "github_blob_sha": "ca1b46b9d930efff63b63424a1c195e429cb7793"
+    },
+    {
+      "path": "state/tool_errors.jsonl",
+      "sha256": "80dbe5fd88832080a76799d39bc7af3fa8af6aa6c7ba36c959f34163d17646b1",
+      "github_blob_sha": "7aedfb530c5d6721422453238a2d839233ac64c1"
+    },
+    {
+      "path": "README.md",
+      "sha256": "af3fc08870e5bdd6eb848c9754de8dff1c367580a726792d893632d04c005401",
+      "github_blob_sha": "dd80b0dee78ea78f27f4563b68d0c9be1273cba8"
+    }
+  ],
+  "only_declared_paths_changed": true,
+  "other_baseline_blob_ids_and_modes_unchanged": true,
+  "head_observed": "3baa33a2117884519b4dfc08d22149d518fb2962"
+}

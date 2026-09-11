@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-11T17:53:57.919518+00:00",
+  "updated_utc": "2026-09-11T17:58:14.400348+00:00",
   "current_gate": "P3",
   "gate_status": "in_progress",
   "gate_entered_utc": "2026-09-10T23:29:11.766050+00:00",
   "last_verified_gate": "P3.first_candidate_audit",
-  "last_verified_commit": "aa39617b964b1b9ce96555128d59394c5de05361",
+  "last_verified_commit": "3baa33a2117884519b4dfc08d22149d518fb2962",
   "active_task": "P3.second_pass.primary_methods038_integrated_source_packet_prepared",
   "blocked_on": null,
   "next_action": "Use ARC_Independent_Lab_038_HOME.zip and its exact WSL-home command to copy/extract/run source staging and push the integrity receipt. PI reads GitHub. Subsequent independent R1–R7 review still requires successor controller/broker/verifier and finite scope under standing authority; do not rerun032.",
@@ -143,7 +143,7 @@
       "sha256": "1995e36a9f8e5f9f201d9b63ba8a7c39400f3e8e0046009a1c59973c2023188e"
     }
   ],
-  "handoff_backup_status": "Replacement038_HOME ZIP built and checksum/contents validated; automatic Downloads-to-WSL-home command supplied. Actual laptop execution pending.",
+  "handoff_backup_status": "ARC_Independent_Lab_038_HOME.zip saved and verified; exact WSL-home command rehearsed with substituted Windows/step calls. Original helper Git-return tests pass; actual user execution remains pending.",
   "latest_publication_verification": {
     "path": "evidence/REMOTE_CHECKPOINT_038_VERIFICATION.json",
     "sha256": "147875e04a518ebad9a831cd83399cb082e13d3ea45ad082a5739201c249afd5"
@@ -835,5 +835,9 @@
   "handoff_preference_source": {
     "path": "docs/USER_HANDOFF_PREFERENCES_2026-09-11.md",
     "sha256": "de04d0f73a57aef52330b3b5dba7c790c3bbd2def8a4e589b50d6dd239cfd944"
+  },
+  "latest_handoff_publication_verification": {
+    "path": "evidence/P3_DOWNLOADS_HOME_PUBLICATION_038.json",
+    "sha256": "337671fa1aa0cd36c2f2f3bfe3d2502f37697c6feaf63cfe3fe1f31b0ca9172f"
   }
 }
