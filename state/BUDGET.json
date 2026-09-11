@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-10T21:36:40.386051+00:00",
+  "updated_utc": "2026-09-10T23:56:05.395948+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -487,7 +487,7 @@
     "repeat_authorized": false,
     "backend_usage_or_charge": "unknown"
   },
-  "current_pi_work": "Attended Phase2 second-pass convergence and five operation specifications complete. Two shared-workspace consultations covered semantic clarity and publication engineering; neither is independent review. No new native starts/sent turns, candidate treatment or paid spending. Hosted allowance unavailable; unattended model use disabled. Next read-only primary-method audit follows verified publication035 under standing user authorization.",
+  "current_pi_work": "Attended second primary-method audit036 completed with explicit source dependencies. Hosted shared-tools research consultants and nested arithmetic/source checks occurred; none is an independent reviewer. No new native starts/sent turns, candidate treatment, GPU/HPC run or paid spending. Hosted allowance unobservable; unattended use disabled.",
   "research_phase_boundaries_standing_override": {
     "path": "evidence/P2_SECOND_PHASE_BOUNDARY_035.json",
     "sha256": "ac9805cf2a0412e5cc0b49734d211c3320e762b328786938f083ad1d773432d1"
@@ -510,5 +510,31 @@
     "unattended_model_use_authorized": false,
     "repeat_existing_attempt_authorized": false,
     "new031_native_or_model_allowance": 0
+  },
+  "checkpoint036_accounting": {
+    "scope": "Source reading, PI synthesis and publication engineering",
+    "hosted_consultants": [
+      "audit036_n1",
+      "audit036_n2",
+      "audit036_n3",
+      "audit036_n5",
+      "publication036"
+    ],
+    "nested_consultations": "Actual spawned arithmetic/source/engineering consultations belong to attended hosted work; full transcript-level call count and subscription charge are not authoritatively observable here.",
+    "native_starts": 0,
+    "native_sent_turns": 0,
+    "candidate_runs": 0,
+    "gpu_or_hpc_jobs": 0,
+    "new_native_allowance": 0,
+    "authoritative_hosted_allowance": null,
+    "unattended_model_use": false,
+    "audit": {
+      "path": "evidence/P3_SECOND_AUDIT_MANIFEST_036.json",
+      "sha256": "4f318e88c667709364e40f800a06d5d57b22306ce8ae06340ea489721eac62d0"
+    },
+    "publication_validation": {
+      "path": "artifacts/CHECKPOINT_036_PUBLICATION_VALIDATION/20260910_036/VALIDATION.json",
+      "sha256": "11fb72cdd0a3f12e3ed30ffeb2393579edad9dcc2f9f1fda1ffd128e94434e0c"
+    }
   }
 }

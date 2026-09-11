@@ -1,0 +1,20 @@
+{
+  "kind": "CHECKPOINT036_BASELINE_INTEGRITY_v1",
+  "created_utc": "2026-09-10T23:56:05.395948+00:00",
+  "base_commit": "17bd0df7a4d60f6ddfcffefc73049b1471a5ffd1",
+  "baseline_blob_count": 1306,
+  "changed_baseline_paths": [
+    "reports/DIGEST_2026-09-10.md",
+    "state/BUDGET.json",
+    "state/LEDGER.jsonl",
+    "state/PROJECT_STATE.json",
+    "state/tool_errors.jsonl"
+  ],
+  "unchanged_baseline_blobs": 1301,
+  "append_only_prefixes_verified": true,
+  "all_frozen_scientific_inputs_unchanged": true,
+  "earlier_approvals_and_verdicts_unchanged": true,
+  "candidate_source_or_runs_added": false,
+  "actual_commits_or_pushes": false,
+  "scope": "New audit documents and publication-only helper/tests; final payload readback outside Git metadata recorded in delivery receipt."
+}

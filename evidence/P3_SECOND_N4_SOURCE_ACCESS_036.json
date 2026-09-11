@@ -1,0 +1,131 @@
+{
+  "kind": "PRIMARY_METHOD_ACCESS_v1",
+  "access_date": "2026-09-10",
+  "sources": [
+    {
+      "title": "Optimal trade-off between exploration and exploitation",
+      "year": 2008,
+      "status": "published",
+      "url": "https://roboti.us/lab/papers/SimpkinsACC08.pdf",
+      "read_scope": "Entire main paper, decisive methods II-IV and conclusion. No numerical efficacy adopted.",
+      "download_hash": null
+    },
+    {
+      "title": "See2Act: Learning to See While Learning to Act",
+      "version": "v1 2026-06-22",
+      "status": "preprint",
+      "url": "https://arxiv.org/pdf/2606.23625",
+      "sha256": "45ddb2ceb3b06585ae6c02ba5e9e21c60af7ee40f524dfb39c970d70810b8850",
+      "read_scope": "Complete Methods3.1-3.4, AppendixA Algorithms1-2 and AppendixB training; algorithm page12 rendered and checked."
+    },
+    {
+      "title": "Revisiting Active Perception",
+      "year": 2016,
+      "status": "inspected preprint",
+      "url": "https://arxiv.org/pdf/1603.02729",
+      "sha256": "7415f9d07500eb5e1e43bea3c8d9cfef6493517e99daabaa5b494f3e6fb4e540",
+      "read_scope": "Relevant sections3-4 and conclusion on computational and historical constraints; upstream references not all audited."
+    },
+    {
+      "title": "Map learning with uninterpreted sensors and effectors",
+      "year": 1997,
+      "status": "published; metadata only here",
+      "url": "https://doi.org/10.1016/S0004-3702(96)00051-3",
+      "read_scope": "Title/authors/DOI verified through Crossref; methods unread, no abstract-based argument.",
+      "metadata": {
+        "metadata_url": "https://api.crossref.org/works?query.title=Map+learning+with+uninterpreted+sensors+and+effectors&rows=1",
+        "result": {
+          "title": [
+            "Map learning with uninterpreted sensors and effectors"
+          ],
+          "DOI": "10.1016/s0004-3702(96)00051-3",
+          "author": [
+            {
+              "given": "David",
+              "family": "Pierce",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Benjamin J.",
+              "family": "Kuipers",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                1997,
+                5
+              ]
+            ]
+          },
+          "URL": "https://doi.org/10.1016/s0004-3702(96)00051-3",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0004370296000513?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0004370296000513?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "fetch_receipt": {
+    "accessed_utc": "2026-09-10T23:35:26.969244+00:00",
+    "results": [
+      {
+        "name": "see2act.pdf",
+        "url": "https://arxiv.org/pdf/2606.23625",
+        "status": "fetched",
+        "bytes": 4494801,
+        "sha256": "45ddb2ceb3b06585ae6c02ba5e9e21c60af7ee40f524dfb39c970d70810b8850"
+      },
+      {
+        "name": "pierce1997.pdf",
+        "url": "https://web.eecs.umich.edu/~kuipers/papers/Pierce-ai-97.pdf",
+        "status": "failed",
+        "error": "<HTTPError 502: 'Bad Gateway'>"
+      },
+      {
+        "name": "kuipers.html",
+        "url": "https://web.eecs.umich.edu/~kuipers/",
+        "status": "failed",
+        "error": "<HTTPError 502: 'Bad Gateway'>"
+      },
+      {
+        "name": "revisiting.pdf",
+        "url": "https://arxiv.org/pdf/1603.02729",
+        "status": "fetched",
+        "bytes": 730114,
+        "sha256": "7415f9d07500eb5e1e43bea3c8d9cfef6493517e99daabaa5b494f3e6fb4e540"
+      }
+    ]
+  },
+  "primary_paper_bytes_in_public_payload": false,
+  "error_log": {
+    "path": "evidence/P3_SECOND_N4_TOOL_ERRORS_036.jsonl",
+    "sha256": "8e70195d3b44c81d887f8fc59c4943f705546ed6590256e6f0b15fa1c5169ade"
+  }
+}

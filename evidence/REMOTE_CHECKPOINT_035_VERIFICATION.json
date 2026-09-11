@@ -1,0 +1,20 @@
+{
+  "kind": "REMOTE_CHECKPOINT_035_VERIFICATION_v1",
+  "verified_utc": "2026-09-10T23:29:11.766050+00:00",
+  "access_date": "2026-09-10",
+  "source_url": "https://github.com/afazeliUofT/arc-independent-lab/commit/17bd0df7a4d60f6ddfcffefc73049b1471a5ffd1",
+  "commit": "17bd0df7a4d60f6ddfcffefc73049b1471a5ffd1",
+  "parent": "53768f9fc6b867834e1ab03b86248b487a19b617",
+  "tree": "d021fbc91515f873f0842a872a786e2e48a09caf",
+  "all_blobs_and_modes_matched": 1306,
+  "deliverable": {
+    "path": "IDEAS_02.md",
+    "sha256": "ac1ba738489abb11730dda6393a6263b06fa303a5f9e0eb63e4b6478fe845962"
+  },
+  "specification": {
+    "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
+    "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69"
+  },
+  "no_substitute_commit_created": true,
+  "formal_scientific_verdict": false
+}

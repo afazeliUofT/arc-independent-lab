@@ -1,0 +1,29 @@
+{
+  "kind": "N4_ANALYTIC_WITNESS_v1",
+  "date": "2026-09-10",
+  "evidence_class": "PI mathematical construction from the frozen specification; not an executed trial or independent verdict",
+  "specification_sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69",
+  "claim_tested": "Whether N4's positive endpoint pattern entails restoration of the original response function",
+  "primitive_action_order": ["c", "q", "r", "u"],
+  "state": "mode in {0,1,2}, plus last primitive command; RESET restores mode0 and a special initial last-command marker",
+  "reset_observation": "B",
+  "transition": {
+    "c": "set mode1; output C",
+    "u": "set mode2; output U",
+    "q": "preserve mode; output 0 in mode0, Z in mode1, 2 in mode2",
+    "r": "preserve mode; output 1 in mode0, Z in mode1, 3 in mode2"
+  },
+  "chosen_tuple": {"p": "", "c": "c", "q": "q", "r": "r", "u": "u"},
+  "valid_length_condition": "L >= 3; all primitives and empty preparation/restorer choices are permitted; q precedes r",
+  "effective_control_condition": "Trial(c) ends at C, different from RESET's B",
+  "six_trial_words_in_specification_order": ["q", "r", "cq", "cr", "cuq", "cur"],
+  "six_endpoints_in_specification_order": ["0", "1", "Z", "Z", "2", "3"],
+  "mathematical_consequences": [
+    "The complete repeatable cells satisfy a != b, cq == cr, uq != ur.",
+    "N4 therefore records RESTORED_OBSERVABLE_CONTRAST once the cells and tuple are acquired under sufficient declared bounds.",
+    "The post-u probe responses differ from their original values; u constructs mode2 rather than restoring mode0.",
+    "This refutes the stronger implication that the literal positive pattern restores the original response function. It does not refute N4's deliberately weaker frozen specification."
+  ],
+  "reachability_scope": "Each required word is finite and in the supplied grammar. Seeded primitives make the tuple available. No finite-budget claim about when its FIFO scheduler completes the tuple is made.",
+  "unsupported_conclusions": ["No knowledge at all is acquired", "All restorers are useless", "All future tasks receive zero benefit", "N4 is an exact instance of a named historical implementation", "Candidate efficacy or novelty was experimentally tested"]
+}

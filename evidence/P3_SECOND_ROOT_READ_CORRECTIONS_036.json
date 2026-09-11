@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-10",
+  "records": [
+    {
+      "date": "2026-09-10",
+      "operation": "exec_command",
+      "command": "cat 00_START_HERE.md in repository root",
+      "exit_code": 1,
+      "error_text_verbatim": "cat: 00_START_HERE.md: No such file or directory",
+      "effect": "Read chain stopped before following reads. Correct docs/governing path read next; no files changed."
+    },
+    {
+      "date": "2026-09-10",
+      "operation": "exec_command",
+      "command": "cat ../BASE_INVENTORY.json | head -15",
+      "error_text_verbatim": "cat: write error: Broken pipe",
+      "effect": "Expected short-read pipe closed; later command in shell returned zero. Inventory unchanged and subsequently read with JSON parser."
+    }
+  ]
+}

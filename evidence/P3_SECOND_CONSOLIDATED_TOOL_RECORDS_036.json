@@ -1,0 +1,985 @@
+{
+  "date": "2026-09-10",
+  "records": [
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://www.cs.rochester.edu/u/mccallum/papers/",
+        "error_text_verbatim": "URL https://www.cs.rochester.edu/u/mccallum/papers/ is not safe to open (non-retryable error)",
+        "displayed_heading": "Internal Error ()",
+        "effect": "McCallum author-directory retrieval failed; alternate primary routes sought."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://people.cs.umass.edu/~mccallum/papers/thesis.ps.gz",
+        "error_text_verbatim": "URL https://people.cs.umass.edu/~mccallum/papers/thesis.ps.gz is not safe to open (non-retryable error)",
+        "displayed_heading": "Internal Error ()",
+        "effect": "Guessed historical dissertation file retrieval failed; no source content inferred."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=2811",
+        "error_text_verbatim": "URL https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=2811 is not safe to open (non-retryable error)",
+        "displayed_heading": "Internal Error ()",
+        "effect": "Guessed institutional record retrieval failed; alternate primary routes sought."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://aaai.org/papers/0076-learning-visual-routines-with-reinforcement-learning/",
+        "error_text_verbatim": "URL https://aaai.org/papers/0076-learning-visual-routines-with-reinforcement-learning/ is not safe to open (non-retryable error)",
+        "displayed_heading": "Internal Error ()",
+        "effect": "Guessed paper landing page failed; no absence inference."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://www.cs.umass.edu/~mccallum/papers.html",
+        "error_text_verbatim": "URL https://www.cs.umass.edu/~mccallum/papers.html is not safe to open (non-retryable error)",
+        "displayed_heading": "Internal Error ()",
+        "effect": "Old author-page path failed; working author homepage found."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://cdn.aaai.org/AAAI/1995/AAAI95-173.pdf",
+        "error_text_verbatim": "URL https://cdn.aaai.org/AAAI/1995/AAAI95-173.pdf is not safe to open (non-retryable error)",
+        "displayed_heading": "Internal Error ()",
+        "effect": "Guessed proceedings file failed; no source content inferred."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "urllib.request.urlopen",
+        "url": "https://people.cs.umass.edu/~mccallum/mccallum-sab96.ps",
+        "error_text_verbatim": "<HTTPError 404: 'Not Found'>"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "urllib.request.urlopen",
+        "url": "https://people.cs.umass.edu/~mccallum/mccallum-nips96.ps",
+        "error_text_verbatim": "<HTTPError 404: 'Not Found'>"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "urllib.request.urlopen",
+        "url": "https://www.cs.rochester.edu/~mccallum/phd-thesis",
+        "error_text_verbatim": "<HTTPError 404: 'Not Found'>"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "urllib.request.urlopen",
+        "url": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2022.832430/full",
+        "error_text_verbatim": "<HTTPError 404: 'Not found'>"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "urllib.request.urlopen",
+        "url": "https://www.cs.rochester.edu/research/ai/robotics/papers.html",
+        "error_text_verbatim": "<HTTPError 404: 'Not Found'>"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "urllib.request.urlopen",
+        "url": "https://users.encs.concordia.ca/~chvatal/1979greedy.pdf",
+        "error_text_verbatim": "<HTTPError 404: 'Not Found'>"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "urllib.request.urlopen",
+        "url": "https://people.stfx.ca/",
+        "error_text_verbatim": "<HTTPError 500: 'Internal Server Error'>"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.click",
+        "url": "https://people.cs.umass.edu/~mccallum/pubs.html",
+        "error_text_verbatim": "Unable to resolve click call: click({\"ref_id\":\"turn388view2\",\"id\":292}) due to invalid arguments",
+        "requested_ref": "turn388view2",
+        "link_id": 292,
+        "capture_note": "Displayed call-level error; first group additionally displayed a rewritten internal reference turn2view2. Later urllib extraction resolved the outgoing targets."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.click",
+        "url": "https://people.cs.umass.edu/~mccallum/pubs.html",
+        "error_text_verbatim": "Unable to resolve click call: click({\"ref_id\":\"turn388view2\",\"id\":293}) due to invalid arguments",
+        "requested_ref": "turn388view2",
+        "link_id": 293,
+        "capture_note": "Displayed call-level error; first group additionally displayed a rewritten internal reference turn2view2. Later urllib extraction resolved the outgoing targets."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.click",
+        "url": "https://people.cs.umass.edu/~mccallum/pubs.html",
+        "error_text_verbatim": "Unable to resolve click call: click({\"ref_id\":\"turn388view2\",\"id\":291}) due to invalid arguments",
+        "requested_ref": "turn388view2",
+        "link_id": 291,
+        "capture_note": "Displayed call-level error; first group additionally displayed a rewritten internal reference turn2view2. Later urllib extraction resolved the outgoing targets."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.click",
+        "url": "https://people.cs.umass.edu/~mccallum/pubs.html",
+        "error_text_verbatim": "Unable to resolve click call: click({\"ref_id\":\"https://people.cs.umass.edu/~mccallum/pubs.html\",\"id\":292}) due to invalid arguments",
+        "requested_ref": "https://people.cs.umass.edu/~mccallum/pubs.html",
+        "link_id": 292,
+        "capture_note": "Displayed call-level error; first group additionally displayed a rewritten internal reference turn2view2. Later urllib extraction resolved the outgoing targets."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.click",
+        "url": "https://people.cs.umass.edu/~mccallum/pubs.html",
+        "error_text_verbatim": "Unable to resolve click call: click({\"ref_id\":\"https://people.cs.umass.edu/~mccallum/pubs.html\",\"id\":293}) due to invalid arguments",
+        "requested_ref": "https://people.cs.umass.edu/~mccallum/pubs.html",
+        "link_id": 293,
+        "capture_note": "Displayed call-level error; first group additionally displayed a rewritten internal reference turn2view2. Later urllib extraction resolved the outgoing targets."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.click",
+        "url": "https://people.cs.umass.edu/~mccallum/pubs.html",
+        "error_text_verbatim": "Unable to resolve click call: click({\"ref_id\":\"https://people.cs.umass.edu/~mccallum/pubs.html\",\"id\":291}) due to invalid arguments",
+        "requested_ref": "https://people.cs.umass.edu/~mccallum/pubs.html",
+        "link_id": 291,
+        "capture_note": "Displayed call-level error; first group additionally displayed a rewritten internal reference turn2view2. Later urllib extraction resolved the outgoing targets."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9124795/",
+        "error_text_verbatim": "Checking your browser before accessing pmc.ncbi.nlm.nih.gov ...",
+        "effect": "Challenge content rather than article; publisher article and ordinary alternate PMC URL later accessible."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "http://www.cs.rochester.edu/~mccallum/phd-thesis",
+        "error_text_verbatim": "URL https://www.cs.rochester.edu/~mccallum/phd-thesis is not safe to open (non-retryable error)"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://www.cs.rochester.edu/~mccallum/phd-thesis",
+        "error_text_verbatim": "URL https://www.cs.rochester.edu/~mccallum/phd-thesis is not safe to open (non-retryable error)"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://people.cs.umass.edu/~mccallum/mccallum-sab96.ps",
+        "error_text_verbatim": "Failed to fetch https://people.cs.umass.edu/~mccallum/mccallum-sab96.ps: (404) Not Found"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2022.832430/full",
+        "error_text_verbatim": "URL https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2022.832430/full is not safe to open (non-retryable error)",
+        "effect": "Guessed source path failed; no source content inferred."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://aaai.org/library/aaai-library/aaai96-library/",
+        "error_text_verbatim": "URL https://aaai.org/library/aaai-library/aaai96-library/ is not safe to open (non-retryable error)",
+        "effect": "Guessed source path failed; no source content inferred."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://aaai.org/library/aaai-library/aaai95-library/",
+        "error_text_verbatim": "URL https://aaai.org/library/aaai-library/aaai95-library/ is not safe to open (non-retryable error)",
+        "effect": "Guessed source path failed; no source content inferred."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://users.encs.concordia.ca/~chvatal/publications.html",
+        "error_text_verbatim": "URL https://users.encs.concordia.ca/~chvatal/publications.html is not safe to open (non-retryable error)",
+        "effect": "Guessed source path failed; no source content inferred."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://urresearch.rochester.edu/search.action?query=Reinforcement%20Learning%20with%20Selective%20Perception%20and%20Hidden%20State",
+        "error_text_verbatim": "URL https://urresearch.rochester.edu/search.action?query=Reinforcement+Learning+with+Selective+Perception+and+Hidden+State is not safe to open (non-retryable error)"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://urresearch.rochester.edu/searchRepositoryItems.action?query=McCallum",
+        "error_text_verbatim": "Internal Error ()",
+        "capture_limitation": "Displayed error heading only; no detailed error line was supplied. Ordinary urllib access later succeeded."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://www.cs.dartmouth.edu/~ac/Teach/CS105-Winter05/Handouts/chvatal-greedy.pdf",
+        "error_text_verbatim": "Internal Error ()",
+        "capture_limitation": "First attempt displayed heading only."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://www.cs.dartmouth.edu/~ac/Teach/CS105-Winter05/Handouts/chvatal-greedy.pdf",
+        "error_text_verbatim": "URL https://www.cs.dartmouth.edu/~ac/Teach/CS105-Winter05/Handouts/chvatal-greedy.pdf is not safe to open (non-retryable error)",
+        "attempt": 2
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "gs -dSAFER -dBATCH -dNOPAUSE -sDEVICE=pdfwrite",
+        "url": "local:mccallum_tr611.ps",
+        "error_text_verbatim": "GPL Ghostscript 10.02.1: **** Could not open temporary file /tmp/gs_XXXXXX\n**** Unable to open the initial device, quitting.",
+        "exit_code": 1,
+        "effect": "Rerun with TMPDIR inside authorized n1_research succeeded; no escalation."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://pubsonline.informs.org/doi/pdf/10.1287/moor.4.3.233",
+        "error_text_verbatim": "Redirected to URL: https://pubsonline.informs.org/doi/abs/10.1287/moor.4.3.233?journalCode=moor",
+        "kind": "method_access_incomplete",
+        "effect": "Successful metadata response was not full primary method text; not used to infer algorithm."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://pubsonline.informs.org/doi/epdf/10.1287/moor.4.3.233",
+        "error_text_verbatim": "Redirected to URL: https://pubsonline.informs.org/doi/abs/10.1287/moor.4.3.233?journalCode=moor",
+        "kind": "method_access_incomplete",
+        "reported_by": "greedy_check consultant",
+        "effect": "Only abstract/metadata read."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://www.jstor.org/stable/3689577",
+        "error_text_verbatim": "Google Tag Manager",
+        "capture_limitation": "Consultant reports only a Google Tag Manager link was returned; this is retained displayed link text, not reconstructed missing page content.",
+        "kind": "method_access_incomplete",
+        "reported_by": "greedy_check consultant"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://www.cs.columbia.edu/~cs4205/files/Johnson-1974.pdf",
+        "error_text_verbatim": "Internal Error ()",
+        "capture_limitation": "Displayed heading only, as reported by consultant.",
+        "reported_by": "greedy_check consultant"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://www.cs.dartmouth.edu/~ac/Teach/CS105-Winter05/Handouts/chvatal-greedy.pdf",
+        "error_text_verbatim": "Internal Error ()",
+        "capture_limitation": "Separate consultant attempt; displayed heading only.",
+        "reported_by": "greedy_check consultant"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://www.cs.cornell.edu/courses/cs6820/2021fa/handouts/Johnson74.pdf",
+        "error_text_verbatim": "URL https://www.cs.cornell.edu/courses/cs6820/2021fa/handouts/Johnson74.pdf is not safe to open (non-retryable error)",
+        "reported_by": "greedy_check consultant"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://www.cs.cmu.edu/~avrim/Approx/lecture2.pdf",
+        "error_text_verbatim": "URL https://www.cs.cmu.edu/~avrim/Approx/lecture2.pdf is not safe to open (non-retryable error)",
+        "reported_by": "greedy_check consultant"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N2_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "at": "2026-09-10",
+        "operation": "initial repository rg",
+        "exit_code": 2,
+        "error": "rg: 02_RESEARCH_PROCESS*: No such file or directory (os error 2); rg: 04*: No such file or directory (os error 2)",
+        "resolution": "Located governing files under docs/governing with rg --files; no source gap.",
+        "scope": "N2 audit"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N2_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "at": "2026-09-10",
+        "operation": "rg --files for Angluin-named files and AGENTS.md within authorized repository",
+        "exit_code": 1,
+        "error": "No matches; rg exit 1 is a negative search result, not a tool crash.",
+        "resolution": "Prior coverage entry read; institutional Angluin PDF opened anew successfully.",
+        "scope": "N2 audit"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N2_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "at": "2026-09-10",
+        "operation": "web.open https://arxiv.org/abs/2605.15294",
+        "error": "Internal Error ()",
+        "reported_by": "N2 recent-continuation research consultant",
+        "resolution": "Versioned full HTML https://arxiv.org/html/2605.15294v1 succeeded; methods read.",
+        "scope": "N2 audit"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N2_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "at": "2026-09-10",
+        "operation": "web.open https://zenodo.org/records/19816690",
+        "error": "Internal Error ()",
+        "reported_by": "N2 recent-continuation research consultant",
+        "resolution": "Artifact not inspected; manuscript methods support bounded continuation claim, no reproduction/adoption claim.",
+        "scope": "N2 audit"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N2_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "at": "2026-09-10",
+        "operation": "web.find Clark-Eyraud-Habrard2010 full PDF for Algorithm 2",
+        "error": "No matching text found for Algorithm 2",
+        "resolution": "Negative source search, not a method-access failure; Algorithm 1 is the complete audited learner.",
+        "scope": "N2 audit"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N2_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "at": "2026-09-10",
+        "operation": "web.search site.jmlr.org Clark Eyraud Habrard 2010 Using Contextual Representations Efficiently Learn Context Free Languages pdf",
+        "error": "Returned irrelevant results; not treated as source absence.",
+        "resolution": "Exact-title follow-up and direct JMLR article/PDF access succeeded.",
+        "scope": "N2 audit"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N3_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "task": "N3 primary-method audit036",
+        "tool": "web.open",
+        "target": "https://sferics.idsia.ch/pub/juergen/curioussingapore.pdf",
+        "error": "Garbled PDF text extraction",
+        "recovery": "Downloaded original PDF; /usr/bin/pdftoppm rendering plus Tesseract OCR; decisive pages visually read.",
+        "resolved_for_bounded_audit": true
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N3_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "task": "N3 primary-method audit036",
+        "tool": "web.open",
+        "target": "https://www.pyoudeyer.com/IEEE-TAMD-2007.pdf",
+        "error": "Internal Error",
+        "recovery": "Speculative alternate URL abandoned; https://www.pyoudeyer.com/ims.pdf succeeded.",
+        "resolved_for_bounded_audit": true
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N3_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "task": "N3 primary-method audit036",
+        "tool": "web.open",
+        "target": "https://people.csail.mit.edu/asolar/papers/EllisETAL21Dreamcoder.pdf",
+        "error": "Internal Error",
+        "recovery": "Speculative alternate URL abandoned; arXiv v1 and Cornell author draft used with explicit version limits.",
+        "resolved_for_bounded_audit": true
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N3_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "task": "N3 primary-method audit036",
+        "tool": "exec.pdftoppm",
+        "target": "runtime wrapper",
+        "error": "exit127: libpoppler.so.160 missing",
+        "recovery": "Used existing /usr/bin/pdftoppm; successful rendering.",
+        "resolved_for_bounded_audit": true
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N3_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "task": "N3 primary-method audit036",
+        "tool": "exec.pdftoppm",
+        "target": "curioussingapore.pdf",
+        "error": "Nonfatal: Bad bounding box in Type3 glyph (twice)",
+        "recovery": "Six pages rendered successfully; viewed decisive pages; no formula inferred solely from garbled extraction.",
+        "resolved_for_bounded_audit": true
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N3_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "task": "N3 primary-method audit036",
+        "tool": "web.open",
+        "target": "https://dl.acm.org/doi/10.1145/3453483.3454080",
+        "error": "403 Forbidden",
+        "recovery": "No bypass; accessible preprint/draft sources kept distinct from publication.",
+        "resolved_for_bounded_audit": true
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N3_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "task": "N3 primary-method audit036",
+        "tool": "web.open",
+        "target": "https://proceedings.mlr.press/v164/forestier22a.html",
+        "error": "URL not safe to open; non-retryable error",
+        "recovery": "Unverified guessed path abandoned; no method claim based on it.",
+        "resolved_for_bounded_audit": true
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N3_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "task": "N3 primary-method audit036",
+        "tool": "web.open",
+        "target": "https://arxiv.org/pdf/2605.05856",
+        "error": "DisabledError",
+        "recovery": "Normal public urllib download succeeded without authentication; methods and appendix read.",
+        "resolved_for_bounded_audit": true
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N3_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "task": "N3 primary-method audit036",
+        "tool": "web.open",
+        "target": "https://web.mit.edu/ellisk/www/dreamcodersupplement.pdf",
+        "error": "URL not safe to open; non-retryable error",
+        "recovery": "Normal public request then returned404; later found Cornell author draft through parallel consultant.",
+        "resolved_for_bounded_audit": true
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N3_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "task": "N3 primary-method audit036",
+        "tool": "exec.urllib",
+        "target": "https://web.mit.edu/ellisk/www/dreamcodersupplement.pdf",
+        "error": "HTTP404 Not Found",
+        "recovery": "Read publicly accessible https://www.cs.cornell.edu/~ellisk/documents/dreamcoder_with_supplement.pdf; no user paper request necessary for this source.",
+        "resolved_for_bounded_audit": true
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N3_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "task": "N3 primary-method audit036",
+        "tool": "exec.rg",
+        "target": "evidence/P3_SECOND_N5_PRIMARY_AUDIT_036.md",
+        "error": "exit2: file not yet created",
+        "recovery": "Asked N5 consultant directly for the actual source URL/path; no conclusions from missing in-progress artifact.",
+        "resolved_for_bounded_audit": true
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N4_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://www.cs.utexas.edu/~kuipers/papers/Pierce-ai-97.html",
+        "displayed_error": "Internal Error",
+        "detail_scope": "Displayed heading retained; no HTTP status inferred.",
+        "effect": "No method content accepted from failed call; source reading or dependency status recorded separately."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N4_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://adrenaline.ucsd.edu/kirsh/articles/cogsci/Kirsh_Maglio.pdf",
+        "displayed_error": "Internal Error",
+        "detail_scope": "Displayed heading retained; no HTTP status inferred.",
+        "effect": "No method content accepted from failed call; source reading or dependency status recorded separately."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N4_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://arxiv.org/html/1603.02729",
+        "displayed_error": "Internal Error",
+        "detail_scope": "Displayed heading retained; no HTTP status inferred.",
+        "effect": "No method content accepted from failed call; source reading or dependency status recorded separately."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N4_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://www.cs.utexas.edu/~kuipers/papers/",
+        "displayed_error": "Internal Error",
+        "detail_scope": "Displayed heading retained; no HTTP status inferred.",
+        "effect": "No method content accepted from failed call; source reading or dependency status recorded separately."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N4_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://web.eecs.umich.edu/~kuipers/papers/Pierce-ai-97.pdf",
+        "displayed_error": "Internal Error",
+        "detail_scope": "Displayed heading retained; no HTTP status inferred.",
+        "effect": "No method content accepted from failed call; source reading or dependency status recorded separately."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N4_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://arxiv.org/html/2606.23625v1",
+        "displayed_error": "Internal Error",
+        "detail_scope": "Displayed heading retained; no HTTP status inferred.",
+        "effect": "No method content accepted from failed call; source reading or dependency status recorded separately."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N4_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://arxiv.org/pdf/2606.23625",
+        "displayed_error": "Internal Error",
+        "detail_scope": "Displayed heading retained; no HTTP status inferred.",
+        "effect": "No method content accepted from failed call; source reading or dependency status recorded separately."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N4_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://web.eecs.umich.edu/~kuipers/papers/Pierce-ai-97.html",
+        "displayed_error": "Internal Error",
+        "detail_scope": "Displayed heading retained; no HTTP status inferred.",
+        "effect": "No method content accepted from failed call; source reading or dependency status recorded separately."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N4_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://arxiv.org/abs/2606.23625",
+        "error_text_verbatim": "Failed to fetch https://arxiv.org/abs/2606.23625: DisabledError",
+        "effect": "Public full PDF subsequently retrieved by ordinary unauthenticated download."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N4_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "web.open",
+        "url": "https://doi.org/10.1016/S0004-3702(96)00051-3",
+        "error_text_verbatim": "URL https://doi.org/10.1016/S0004-3702%2896%2900051-3 is not safe to open (non-retryable error)",
+        "effect": "Metadata verified separately through Crossref; full methods remain unread."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N4_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "ordinary_public_urllib_download",
+        "url": "https://web.eecs.umich.edu/~kuipers/papers/Pierce-ai-97.pdf",
+        "error_text_verbatim": "<HTTPError 502: 'Bad Gateway'>",
+        "effect": "No full source obtained; batched request retained."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N4_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "ordinary_public_urllib_download",
+        "url": "https://web.eecs.umich.edu/~kuipers/",
+        "error_text_verbatim": "<HTTPError 502: 'Bad Gateway'>",
+        "effect": "No full source obtained; batched request retained."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N5_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "tool": "web.open",
+        "url": "https://arxiv.org/html/2006.08381v6",
+        "result": "Failed to fetch https://arxiv.org/html/2006.08381v6: DisabledError",
+        "classification": "wrong_version_route",
+        "resolution": "Version record showed only v1; full v1 PDF and author supplement read. No v6 existence claimed."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N5_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "tool": "web.open",
+        "url": "https://doi.org/10.1145/3453483.3454080",
+        "result": "Failed to fetch https://doi.org/10.1145/3453483.3454080: (403) Forbidden",
+        "classification": "publisher_access_failure",
+        "resolution": "Author publication list verifies PLDI2021 metadata; full prepublication methods read; final-publication identity unasserted."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N5_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "tool": "web.click",
+        "url": "https://dl.acm.org/doi/10.1145/3453483.3454080",
+        "result": "Failed to fetch https://dl.acm.org/doi/10.1145/3453483.3454080: (403) Forbidden",
+        "classification": "publisher_access_failure",
+        "resolution": "Full source methods available in arXiv and author supplement."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N5_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "tool": "web.open",
+        "url": "https://www.cs.cornell.edu/~ellisk/documents/dreamcoder_pldi.pdf",
+        "result": "URL https://www.cs.cornell.edu/~ellisk/documents/dreamcoder_pldi.pdf is not safe to open (non-retryable error)",
+        "classification": "guessed_author_path_failure",
+        "resolution": "Successful author-hosted dreamcoder_with_supplement.pdf is explicitly marked draft."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N5_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "tool": "urllib.request.urlopen",
+        "url": "https://www.cs.cornell.edu/~ellisk/documents/dreamcoder_pldi.pdf",
+        "result": "HTTPError HTTP Error 404: Not Found",
+        "classification": "guessed_author_path_failure",
+        "resolution": "No publication PDF at guessed path; did not infer paper absence."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N5_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "tool": "web.open",
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3453483.3454080",
+        "result": "Internal Error",
+        "classification": "publisher_pdf_access_failure",
+        "resolution": "Did not depend on final-publication details."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N5_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "tool": "web.open",
+        "url": "https://arxiv.org/pdf/2106.04571",
+        "result": "Retrieved TIMEDIAL: Temporal Commonsense Reasoning in Dialog, not DreamCoder",
+        "classification": "incorrect_bibliographic_lead",
+        "resolution": "Discarded from audit; no method or publication inference drawn."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N5_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "tool": "web.search_query",
+        "query": "DreamCoder PLDI / exact DOI and publication-title variants",
+        "result": "Several targeted searches returned Empty search results",
+        "classification": "bounded_search_gap",
+        "resolution": "Followed author publication list and read full available methods; empty results are not evidence of novelty or absence."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N5_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "tool": "web.open",
+        "url": "https://doi.org/10.1109/TEVC.2023.3280250",
+        "result": "URL https://doi.org/10.1109/TEVC.2023.3280250 is not safe to open (non-retryable error)",
+        "classification": "publisher_route_failure",
+        "resolution": "Read full arXiv v2 accepted manuscript; do not claim the publisher version was read."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N5_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "tool": "web.open",
+        "url": "https://arxiv.org/pdf/2302.14040",
+        "result": "Failed to fetch https://arxiv.org/pdf/2302.14040: DisabledError",
+        "classification": "pdf_route_failure",
+        "resolution": "Full v3 HTML methods read and v3 PDF retrieved with ordinary urllib."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_N5_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "date": "2026-09-10",
+        "tool": "web.open",
+        "url": "https://allenzren.github.io/nfn/",
+        "result": "Internal Error",
+        "classification": "guessed_project_route_failure",
+        "resolution": "Discarded guessed route; used the identified primary arXiv full text."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "publication036/ENGINEERING_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "classification": "read_only_search_no_matches",
+        "command": "rg --files -g AGENTS.md /workspace/scratch/d2a3782c2235/ARC_Independent_Lab",
+        "effect": "No AGENTS.md found; no files changed. Independent read of publication035 file paths succeeded.",
+        "exit_code": 1,
+        "recorded_at": "2026-09-10T23:34:49.791944+00:00",
+        "resolved": true,
+        "scope": "checkpoint036_publication_preparation",
+        "tool": "exec_command"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "publication036/ENGINEERING_TOOL_ERRORS_036.jsonl",
+      "record": {
+        "classification": "expected_diff_status_differences_found",
+        "command": "git diff --no-index scripts/publish_checkpoint035.py scripts/publish_checkpoint036.py",
+        "effect": "Read-only comparison confirmed minimal base/checkpoint/phase/commit-message adaptation. Existing checkpoint035 source unchanged.",
+        "exit_code": 1,
+        "recorded_at": "2026-09-10T23:36:26.042168+00:00",
+        "resolved": true,
+        "scope": "checkpoint036_publication_preparation",
+        "tool": "exec_command"
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_ROOT_READ_CORRECTIONS_036.json",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "exec_command",
+        "command": "cat 00_START_HERE.md in repository root",
+        "exit_code": 1,
+        "error_text_verbatim": "cat: 00_START_HERE.md: No such file or directory",
+        "effect": "Read chain stopped before following reads. Correct docs/governing path read next; no files changed."
+      }
+    },
+    {
+      "checkpoint": "036",
+      "source_log": "evidence/P3_SECOND_ROOT_READ_CORRECTIONS_036.json",
+      "record": {
+        "date": "2026-09-10",
+        "operation": "exec_command",
+        "command": "cat ../BASE_INVENTORY.json | head -15",
+        "error_text_verbatim": "cat: write error: Broken pipe",
+        "effect": "Expected short-read pipe closed; later command in shell returned zero. Inventory unchanged and subsequently read with JSON parser."
+      }
+    }
+  ]
+}

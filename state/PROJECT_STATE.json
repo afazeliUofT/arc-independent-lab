@@ -1,20 +1,22 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-10T21:36:40.386051+00:00",
-  "current_gate": "P2",
-  "gate_status": "completed_pending_publication",
-  "gate_entered_utc": "2026-09-10T19:05:39.281028+00:00",
+  "updated_utc": "2026-09-10T23:56:05.395948+00:00",
+  "current_gate": "P3",
+  "gate_status": "in_progress",
+  "gate_entered_utc": "2026-09-10T23:29:11.766050+00:00",
   "last_verified_gate": "P3.first_candidate_audit",
-  "last_verified_commit": "53768f9fc6b867834e1ab03b86248b487a19b617",
-  "active_task": "P2.second_pass.publish035",
+  "last_verified_commit": "17bd0df7a4d60f6ddfcffefc73049b1471a5ffd1",
+  "active_task": "P3.second_pass.audit036_publication_and_scoped_dependencies",
   "blocked_on": null,
-  "next_action": "Verify publication035 from GitHub and IDEAS_02.md SHA256 ac1ba738489abb11730dda6393a6263b06fa303a5f9e0eb63e4b6478fe845962. Then begin P3 second-pass primary-method novelty audit under standing direct user authorization: exact operation/state/input/cost matching for N1-N5, historical abandonment reasons with evidence and 2026 continuations. Preserve frozen raw generation, completed specifications and first-audit records. Do not regenerate the raw population, repeat receipt collection, request routine approval, or launch a new native reviewer/probe/job. Candidate novelty, efficacy and final programme remain open.",
+  "next_action": "Verify publication036, close Pierce-Kuipers methods and conditional Chvatal attribution if obtained, then prepare a focused independent assessment of the frozen second candidates. No candidate implementation, new native reviewer execution or new allowance in036.",
   "open_questions": [
-    "Do the five specified acquisition/access operations add anything beyond prior methods once supplied inputs, retained state, costs and domain restrictions are matched?",
-    "Whole C4 wrapper historical priority remains unresolved; an exact joint controller is unspecified. Neither is affirmative novelty.",
-    "Observer decoder discovery/invocation, robustness and modern-model prevalence remain untested; supplied-contract accessibility does not establish them.",
-    "Narval effective allocation, quotas, largest-case profiles and large-artifact durability remain unmeasured for any future candidate treatment.",
-    "Hosted ChatGPT allowance unavailable; unattended model use disabled."
+    "Do the specified N1-N3 description/credit operations target useful acquisition beyond their proxy signals?",
+    "Do fixed finite N2 roles support the intended transfer claim, and can N4 procedural endpoint facts be connected to later useful knowledge?",
+    "Does a prior whole procedure match N5 historical-response reading under matched source/target inputs?",
+    "Second-candidate whole-method priority and integrated knowledge guarantee remain unestablished; no joint N1-N5 controller is frozen.",
+    "Pierce-Kuipers1997 methods unread; Chvatal1979 original greedy attribution conditional.",
+    "Narval effective allocation and large-artifact durability remain unmeasured for any future treatment.",
+    "Hosted allowance unobservable; unattended use disabled. Completed032 native scope exhausted."
   ],
   "mechanisms": {
     "C1": {
@@ -80,7 +82,7 @@
     "P2.second_pass_after_reviewed_negative_audit"
   ],
   "remote": "https://github.com/afazeliUofT/arc-independent-lab",
-  "durability_status": "Published034 verified at 53768f9fc6b867834e1ab03b86248b487a19b617. Completed035 deliverable/state/ledger await human publication using ONE ZIP.",
+  "durability_status": "Published035 verified. New036 audit/state awaiting human publication; do not represent036 as already on GitHub.",
   "commit_status": "User executes prepared publication; PI has not committed or pushed.",
   "recovery_dependency": null,
   "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation.",
@@ -100,43 +102,43 @@
   ],
   "private_error_log_handling": "Probe raw error output stays within laptop Git metadata, outside normal commits. Request only safe terminal report; never ask for credentials or publish raw transport logs.",
   "foreground_execution_note": "Actual cumulative14native starts/11sentturns exhaust032scope. Operation complete; no additional reviewer run requested. Attended PI invention may continue; hosted allowance unavailable and unattended use disabled.",
-  "scientific_status": "Second Phase2 deliverable complete with all72 rough entries, nine clusters and five specified operations; nearest-method flags follow specification. Second primary-method audit unstarted. First independent audit remains negative; no candidate cleared as novel/effective. Multidisciplinary study complete within recorded scope, not exhaustive. Final selection and PROGRAMME unfinished.",
+  "scientific_status": "Bounded second PI primary-method audit and through-line assessment prepared with explicit source dependencies. Mathematical counterhistories expose proxy/transfer limitations; no second independent disposition, affirmative novelty or efficacy finding. Bounded multidisciplinary diagnosis approved; final mechanism selection and PROGRAMME unfinished.",
   "latest_scientific_evidence": [
     {
-      "path": "reports/P3_RESIDUAL_AUDIT_2026-09-07.md",
-      "sha256": "356999d5d27ac765e8470037470df22d911f7920dad0f4ab22ef8d26848ede19"
+      "path": "evidence/P3_SECOND_N1_PRIMARY_AUDIT_036.md",
+      "sha256": "0cef34db2488ec13fb37a9700582cce136538a9569d7c6f7fe96bcb36e602ebc"
     },
     {
-      "path": "evidence/P3_RESIDUAL_REVIEW_MANIFEST.json",
-      "sha256": "f7249d53060349fdfbaca2102672457e3e8966ef510d6853322b10da75762128"
+      "path": "evidence/P3_SECOND_N2_PRIMARY_AUDIT_036.md",
+      "sha256": "d435d1439a804c0528039bf10554c8cc8fa1a35128314121f2ee04b1bf773de4"
     },
     {
-      "path": "evidence/P3_RESIDUAL_PACKET_INTEGRITY.json",
-      "sha256": "5e9bfd63e1a4f7f80bebf397e8c250fc1966f69e4742d6dd9dc44d467f2aaab9"
+      "path": "evidence/P3_SECOND_N3_PRIMARY_AUDIT_036.md",
+      "sha256": "ff22c14dff9507fcaa080a17f7ee5ba81c121d61aa75b219945f60acb8d3a668"
     },
     {
-      "path": "evidence/P3_OBSERVER_PRIMARY_AUDIT_2026-09-07.md",
-      "sha256": "b3190a1075d56362f8e52c9044dc402b963c02f77127fe570191a4e0cd73ce90"
+      "path": "evidence/P3_SECOND_N4_PRIMARY_AUDIT_036.md",
+      "sha256": "eec0112c9c3384f0843e27031b1f286c680fffc47af3847d96e5172ee85954c2"
     },
     {
-      "path": "evidence/P3_OBSERVER_IDENTIFIABILITY_2026-09-07.md",
-      "sha256": "cf6e0f2be6994a4ccb7021755dc7f6fa6e6ec867b187135b10be565a2e51ccd5"
+      "path": "evidence/P3_SECOND_N5_PRIMARY_AUDIT_036.md",
+      "sha256": "baf68997bb9e975e17f41a21f6a04cb8050b208d347a72ba83411504eb16263b"
     },
     {
-      "path": "evidence/P3_C4_WRAPPER_AUDIT_2026-09-07.md",
-      "sha256": "a9b7b273a85a7962e4b7d57e38b96c82454f6265c8090482710f542b8cb21d3f"
+      "path": "evidence/P3_SECOND_AUDIT_MANIFEST_036.json",
+      "sha256": "4f318e88c667709364e40f800a06d5d57b22306ce8ae06340ea489721eac62d0"
     },
     {
-      "path": "evidence/P3_JOINT_AUDIT_BOUNDARY_2026-09-07.md",
-      "sha256": "3db85b6fa9f8050b4c77f75f09717b3902a5795044f7f8c14b6c78904627bf8c"
+      "path": "reports/P3_SECOND_NOVELTY_AUDIT_036.md",
+      "sha256": "142b9b3080ec71b3046ae962e5c55992574ae6dac792d90c0b436778822c8e2b"
     }
   ],
-  "handoff_backup_status": "ONE publication-only P2_CHECKPOINT_035_ALL_FILES.zip; no receipt discovery, reviewer or model launch. User commits/pushes; PI reads GitHub.",
+  "handoff_backup_status": "ONE P3_CHECKPOINT_036_ALL_FILES.zip, publication-only; outer ZIP saved for delivery. No receipt discovery, reviewer or candidate launch. User commits/pushes; PI reads GitHub.",
   "latest_publication_verification": {
-    "path": "evidence/REMOTE_CHECKPOINT_034_VERIFICATION.json",
-    "sha256": "d60dc9e30f29311809ea9e57f6d127a6efd7efd3aa6b269cdfcdbad96ad0d576"
+    "path": "evidence/REMOTE_CHECKPOINT_035_VERIFICATION.json",
+    "sha256": "069d2d04d49f4136acd24ef1c37cb0b2f81ebb78fc704af9f8615b502161bef3"
   },
-  "last_human_message_verbatim": "GitHub is updated",
+  "last_human_message_verbatim": "GitHub is updated now",
   "phase1_approval": {
     "verified_utc": "2026-09-06T18:51:56.227927+00:00",
     "source_url": "https://github.com/afazeliUofT/arc-independent-lab/blob/376455150af7b257809a56021431413b2e0c6293/state/ESCALATION.md",
@@ -148,7 +150,7 @@
     "approved_diagnosis_sha256": "e3106d737f5b50a688d1d5147a015dc091d2986493848b68d33d61949dfa4cc3",
     "approval_file_sha256": "b8f96679114d2824c1d680b77c2f671589ffe7827069ce50ce489d2ba4f4b578",
     "archived_answer": "state/escalations/2026-09-06_PHASE1_APPROVED.md",
-    "human_answer_verbatim": "\nI approve DIAGNOSIS.md at commit\n069bd7dc3db1cec6e9fc6ff67046547488f05353\nas the basis for Phase 2. Begin ideation with novelty\nscreening switched off.\n\nTwo items carried into Phase 2 as required work, neither\nblocking its start.\n\n1. BIOLOGY, ONE MORE FOCUSED PASS, BEFORE GENERATION.\nSection 4 has now twice produced interpretive hygiene \u2014\npreservation is relational, discontinuities are selective,\npriors count, expression differs from knowledge. All correct,\nall useful, and none of it is what that section is for.\nRun one more pass against the generative question in\n01_THE_PROBLEM.md section 4: what computational constraint\ndoes a biological system respect that our systems violate\nwithout noticing? Not what structure resembles a component.\nDo this at the start of Phase 2 so its output is available\nas generation material. If a third pass also comes back\nempty, say so plainly and proceed \u2014 a documented negative\nis acceptable, quiet omission is not.\n\n2. THE OBSERVER WITHOUT PRIVILEGED GEOMETRY.\nIn section 3.1 the observer is supplied the feature geometry\nit uses to recover the old estimate, which you flag yourself.\nThat leaves the third-ranked bottleneck showing that\ninformation survives, not that it is recoverable by the\nagent. Run the same construction with recovery restricted to\nwhat the learner itself could compute. It is cheap and either\nanswer is decisive: if recovery holds, surviving information\nis usable information and that bottleneck strengthens\nconsiderably; if it does not, the dissociation is a curiosity\nand should be ranked accordingly. Run it alongside Phase 2\nideation rather than before it.\n\nOn the revision itself: demoting your own reproduction from\nfirst to third, and promoting a bottleneck your own\nexperiment does not support, is the right call and I want it\non the record that you made it.\n",
+    "human_answer_verbatim": "\nI approve DIAGNOSIS.md at commit\n069bd7dc3db1cec6e9fc6ff67046547488f05353\nas the basis for Phase 2. Begin ideation with novelty\nscreening switched off.\n\nTwo items carried into Phase 2 as required work, neither\nblocking its start.\n\n1. BIOLOGY, ONE MORE FOCUSED PASS, BEFORE GENERATION.\nSection 4 has now twice produced interpretive hygiene —\npreservation is relational, discontinuities are selective,\npriors count, expression differs from knowledge. All correct,\nall useful, and none of it is what that section is for.\nRun one more pass against the generative question in\n01_THE_PROBLEM.md section 4: what computational constraint\ndoes a biological system respect that our systems violate\nwithout noticing? Not what structure resembles a component.\nDo this at the start of Phase 2 so its output is available\nas generation material. If a third pass also comes back\nempty, say so plainly and proceed — a documented negative\nis acceptable, quiet omission is not.\n\n2. THE OBSERVER WITHOUT PRIVILEGED GEOMETRY.\nIn section 3.1 the observer is supplied the feature geometry\nit uses to recover the old estimate, which you flag yourself.\nThat leaves the third-ranked bottleneck showing that\ninformation survives, not that it is recoverable by the\nagent. Run the same construction with recovery restricted to\nwhat the learner itself could compute. It is cheap and either\nanswer is decisive: if recovery holds, surviving information\nis usable information and that bottleneck strengthens\nconsiderably; if it does not, the dissociation is a curiosity\nand should be ranked accordingly. Run it alongside Phase 2\nideation rather than before it.\n\nOn the revision itself: demoting your own reproduction from\nfirst to third, and promoting a bottleneck your own\nexperiment does not support, is the right call and I want it\non the record that you made it.\n",
     "local_overlays_preserved_during_adoption": true,
     "formal_result_verdict": false,
     "required_work": [
@@ -177,7 +179,7 @@
     "path": "evidence/P3_RESIDUAL_REVIEW_MANIFEST.json",
     "sha256": "f7249d53060349fdfbaca2102672457e3e8966ef510d6853322b10da75762128"
   },
-  "factual_dependency_note": "No blocking primary-method dependency for the admitted first audit. Original auxiliary receipt now archived and verified. Optional historical/source-version gaps remain explicit; no missing-paper request currently blocks Phase2 generation/convergence.",
+  "factual_dependency_note": "First audit method dependencies remain closed within its admitted scope. Second audit: Pierce-Kuipers1997 methods needed before affirmative N4 whole priority; Chvatal1979 conditional on named greedy-step attribution. Other deductions remain usable with their stated scope.",
   "latest_inventory_receipt": {
     "path": "evidence/GATE0_INVENTORY_RUN_RECEIPTS_2026-09-07.json",
     "sha256": "4dd4a78189b9e3633c526e5a9c208aa11a09941920f1c0f3f4da92070e1df055"
@@ -187,7 +189,7 @@
     "remote_execution": "Linux shell on Narval",
     "canonical_laptop_project": "WSL ~/ARC_Independent_Lab"
   },
-  "last_human_message_summary": "Published034 raw-generation checkpoint verified against all Git blobs.",
+  "last_human_message_summary": "035publicationverifiedafterredelivery",
   "latest_capability_verification": {
     "path": "evidence/GATE0_CAPABILITY_INPUT_VERIFICATION_2026-09-07.json",
     "sha256": "6da38b2b47f6da6c5060f28bee745a4c85ab31538fac30566a776c208c51b559"
@@ -622,7 +624,7 @@
     "approval_question_required": false
   },
   "second_pass": {
-    "status": "deliverable_complete_pending_publication",
+    "status": "pi_primary_method_audit_prepared_with_dependencies",
     "freeze": {
       "path": "evidence/P2_SECOND_GENERATION_FREEZE_034.json",
       "sha256": "56858ca7780ea67795ba5800bfc7992e35bb91e058e5f35ced5401410637bcc3"
@@ -666,18 +668,24 @@
       "path": "IDEAS_02.md",
       "sha256": "ac1ba738489abb11730dda6393a6263b06fa303a5f9e0eb63e4b6478fe845962"
     },
-    "primary_method_novelty_audit_started": false,
+    "primary_method_novelty_audit_started": true,
     "candidate_experiments_started": false,
     "next_audit_standing_authorization": {
       "path": "evidence/P2_SECOND_PHASE_BOUNDARY_035.json",
       "sha256": "ac9805cf2a0412e5cc0b49734d211c3320e762b328786938f083ad1d773432d1"
-    }
+    },
+    "bounded_pi_audit_completed": true,
+    "primary_method_audit": {
+      "path": "evidence/P3_SECOND_AUDIT_MANIFEST_036.json",
+      "sha256": "4f318e88c667709364e40f800a06d5d57b22306ce8ae06340ea489721eac62d0"
+    },
+    "independent_second_audit_complete": false
   },
   "latest_objective_status": {
-    "path": "reports/OBJECTIVE_STATUS_REVIEW_035.md",
-    "sha256": "eb2aaa1d03ae41e9c222d94c0e5e17487f02068881b89602aff5e9bd5ecefab3"
+    "path": "reports/OBJECTIVE_STATUS_REVIEW_036.md",
+    "sha256": "dc2ecc4579c12fe9b976909319353c47f99aa971a5088edc3890f7b7a9e9ea20"
   },
-  "current_publication_checkpoint": "035",
+  "current_publication_checkpoint": "036",
   "auxiliary_auditor_receipt_durability": {
     "status": "verified_published_on_main",
     "commit": "296cf94b9e692f4ddbee5c554fc87aaa5a298e60",
@@ -695,49 +703,87 @@
   },
   "second_candidates": {
     "N1": {
-      "status": "specified_unaudited_untested",
-      "novelty": "unassessed",
+      "status": "pi_audited_pending_independent_assessment",
+      "novelty": "not_cleared_whole_priority_unresolved",
       "efficacy": "untested",
       "specification": {
         "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
         "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69"
-      }
+      },
+      "pi_finding": "Exact generated-column online greedy pair-coverage normalization; named whole-method priority unresolved; positive gain does not certify predictive improvement.",
+      "audit": {
+        "path": "evidence/P3_SECOND_N1_PRIMARY_AUDIT_036.md",
+        "sha256": "0cef34db2488ec13fb37a9700582cce136538a9569d7c6f7fe96bcb36e602ebc"
+      },
+      "formal_disposition": null
     },
     "N2": {
-      "status": "specified_unaudited_untested",
-      "novelty": "unassessed",
+      "status": "pi_audited_pending_independent_assessment",
+      "novelty": "not_cleared_whole_priority_unresolved",
       "efficacy": "untested",
       "specification": {
         "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
         "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69"
-      }
+      },
+      "pi_finding": "Old finite-context signature component; full fixed-panel algorithm differs from inspected named methods; outside counterexample need not refine role.",
+      "audit": {
+        "path": "evidence/P3_SECOND_N2_PRIMARY_AUDIT_036.md",
+        "sha256": "d435d1439a804c0528039bf10554c8cc8fa1a35128314121f2ee04b1bf773de4"
+      },
+      "formal_disposition": null
     },
     "N3": {
-      "status": "specified_unaudited_untested",
-      "novelty": "unassessed",
+      "status": "pi_audited_pending_independent_assessment",
+      "novelty": "not_cleared_whole_priority_unresolved",
       "efficacy": "untested",
       "specification": {
         "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
         "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69"
-      }
+      },
+      "pi_finding": "Old progress-driven exploration/library components; exact gated coupling priority unresolved, credit attribution and multi-block policies need attention.",
+      "audit": {
+        "path": "evidence/P3_SECOND_N3_PRIMARY_AUDIT_036.md",
+        "sha256": "ff22c14dff9507fcaa080a17f7ee5ba81c121d61aa75b219945f60acb8d3a668"
+      },
+      "formal_disposition": null
     },
     "N4": {
-      "status": "specified_unaudited_untested",
-      "novelty": "unassessed",
+      "status": "pi_audited_pending_independent_assessment",
+      "novelty": "not_cleared_whole_priority_unresolved",
       "efficacy": "untested",
       "specification": {
         "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
         "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69"
-      }
+      },
+      "pi_finding": "Ground contrast predicate/cache; whole historical method unresolved, required Pierce-Kuipers source gap; weak downstream knowledge bridge.",
+      "audit": {
+        "path": "evidence/P3_SECOND_N4_PRIMARY_AUDIT_036.md",
+        "sha256": "eec0112c9c3384f0843e27031b1f286c680fffc47af3847d96e5172ee85954c2"
+      },
+      "formal_disposition": null
     },
     "N5": {
-      "status": "specified_unaudited_untested",
-      "novelty": "unassessed",
+      "status": "pi_audited_pending_independent_assessment",
+      "novelty": "not_cleared_whole_priority_unresolved",
       "efficacy": "untested",
       "specification": {
         "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
         "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69"
-      }
+      },
+      "pi_finding": "Exact PI-constructed supervised-expression normalization and existing weights/query-function antecedents; full historical-response wrapper priority and useful target transfer unresolved.",
+      "audit": {
+        "path": "evidence/P3_SECOND_N5_PRIMARY_AUDIT_036.md",
+        "sha256": "baf68997bb9e975e17f41a21f6a04cb8050b208d347a72ba83411504eb16263b"
+      },
+      "formal_disposition": null
     }
+  },
+  "latest_second_audit": {
+    "path": "evidence/P3_SECOND_AUDIT_MANIFEST_036.json",
+    "sha256": "4f318e88c667709364e40f800a06d5d57b22306ce8ae06340ea489721eac62d0"
+  },
+  "paper_requests": {
+    "path": "reports/PAPER_REQUEST_036.md",
+    "sha256": "7bbdd3eab8b2175caec892c2a9444acb06bea6c968918677f1b69cc24200ec60"
   }
 }

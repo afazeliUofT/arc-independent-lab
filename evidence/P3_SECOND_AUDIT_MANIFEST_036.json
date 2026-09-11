@@ -1,0 +1,112 @@
+{
+  "kind": "P3_SECOND_PI_AUDIT_MANIFEST_v1",
+  "created_utc": "2026-09-10T23:56:05.395948+00:00",
+  "base_commit": "17bd0df7a4d60f6ddfcffefc73049b1471a5ffd1",
+  "frozen_inputs": [
+    {
+      "path": "DIAGNOSIS.md",
+      "sha256": "e3106d737f5b50a688d1d5147a015dc091d2986493848b68d33d61949dfa4cc3"
+    },
+    {
+      "path": "IDEAS.md",
+      "sha256": "73cab9f6ab1f5eda80c7c2adc6d2ed556c63d5652fd65434e4cc4b24383dc3b8"
+    },
+    {
+      "path": "IDEAS_02_RAW.md",
+      "sha256": "9ea79c14951a0662c5db69d3c6fd245e79a5da1b2dec572a542619f08d2a4706"
+    },
+    {
+      "path": "IDEAS_02.md",
+      "sha256": "ac1ba738489abb11730dda6393a6263b06fa303a5f9e0eb63e4b6478fe845962"
+    },
+    {
+      "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
+      "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69"
+    },
+    {
+      "path": "evidence/P2_SECOND_SPECIFICATION_FREEZE_035.json",
+      "sha256": "5e27b8c451f18515888536a9b43878adc85ce0c3062809b192719375307a2608"
+    },
+    {
+      "path": "evidence/P2_SECOND_SUBMISSION_INTEGRITY_035.json",
+      "sha256": "739a917d372e32b85857311dc139f93c81d85fe51c792a3d97bf2d97161ccf1b"
+    },
+    {
+      "path": "evidence/P2_SECOND_PHASE_BOUNDARY_035.json",
+      "sha256": "ac9805cf2a0412e5cc0b49734d211c3320e762b328786938f083ad1d773432d1"
+    }
+  ],
+  "audit_files": [
+    {
+      "path": "evidence/P3_SECOND_N1_PRIMARY_AUDIT_036.md",
+      "sha256": "0cef34db2488ec13fb37a9700582cce136538a9569d7c6f7fe96bcb36e602ebc"
+    },
+    {
+      "path": "evidence/P3_SECOND_N2_PRIMARY_AUDIT_036.md",
+      "sha256": "d435d1439a804c0528039bf10554c8cc8fa1a35128314121f2ee04b1bf773de4"
+    },
+    {
+      "path": "evidence/P3_SECOND_N3_PRIMARY_AUDIT_036.md",
+      "sha256": "ff22c14dff9507fcaa080a17f7ee5ba81c121d61aa75b219945f60acb8d3a668"
+    },
+    {
+      "path": "evidence/P3_SECOND_N4_PRIMARY_AUDIT_036.md",
+      "sha256": "eec0112c9c3384f0843e27031b1f286c680fffc47af3847d96e5172ee85954c2"
+    },
+    {
+      "path": "evidence/P3_SECOND_N5_PRIMARY_AUDIT_036.md",
+      "sha256": "baf68997bb9e975e17f41a21f6a04cb8050b208d347a72ba83411504eb16263b"
+    }
+  ],
+  "analytical_witness": {
+    "path": "evidence/P3_SECOND_N4_ANALYTIC_WITNESS_036.json",
+    "sha256": "308491223878ba9bf42e4349c6b3735e3ab0d39636c598683658ac82f4aab5e2"
+  },
+  "synthesis": {
+    "path": "reports/P3_SECOND_NOVELTY_AUDIT_036.md",
+    "sha256": "142b9b3080ec71b3046ae962e5c55992574ae6dac792d90c0b436778822c8e2b"
+  },
+  "source_access": {
+    "path": "evidence/P3_SECOND_N4_SOURCE_ACCESS_036.json",
+    "sha256": "bc926ce97b9820e04b2ad4dd0bd25fbf7082fb75443542e2412b28b162457451"
+  },
+  "source_access_scope": "N1,N2,N3,N5 registers and private-download fingerprints are embedded in their audits; N4 also has separate access JSON.",
+  "paper_requests": {
+    "path": "reports/PAPER_REQUEST_036.md",
+    "sha256": "7bbdd3eab8b2175caec892c2a9444acb06bea6c968918677f1b69cc24200ec60"
+  },
+  "objective_status": {
+    "path": "reports/OBJECTIVE_STATUS_REVIEW_036.md",
+    "sha256": "dc2ecc4579c12fe9b976909319353c47f99aa971a5088edc3890f7b7a9e9ea20"
+  },
+  "wording_corrections": {
+    "path": "evidence/P3_SECOND_AUDIT_WORDING_CORRECTIONS_036.json",
+    "sha256": "9ba24189ab4476c106df46c18970b244186b4f8fd43a4b32cbff3617de886b87"
+  },
+  "tool_records": {
+    "path": "evidence/P3_SECOND_CONSOLIDATED_TOOL_RECORDS_036.json",
+    "sha256": "03503cba78b7c76f41cf3f3b154230e58b03997762f9a8041612e1783585f359"
+  },
+  "evidence_class": "PI primary-method comparisons and mathematical constructions, not executed candidate results",
+  "independent_review": false,
+  "formal_disposition": null,
+  "candidate_runs": 0,
+  "native_reviewer_starts": 0,
+  "native_sent_turns": 0,
+  "new_native_allowance": 0,
+  "hosted_research_consultations_occurred": true,
+  "shared_consultants_independent_reviewers": false,
+  "efficacy_or_positive_novelty_established": false,
+  "whole_named_method_reduction_established_for_all_candidates": false,
+  "remaining_dependencies": [
+    {
+      "source": "Pierce and Kuipers1997",
+      "status": "methods unread; required before affirmative N4 whole priority"
+    },
+    {
+      "source": "Chvatal1979",
+      "status": "methods unread; conditional on named original greedy-step attribution"
+    }
+  ],
+  "next_scientific_action": "Close scoped primary dependencies and prepare focused independent assessment of exact mappings, counterhistories, information budgets and residual claims. No native execution under exhausted032 scope."
+}

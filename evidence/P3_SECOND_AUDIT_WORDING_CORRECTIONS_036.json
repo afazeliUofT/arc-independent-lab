@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-10",
+  "corrections": [
+    {
+      "path": "evidence/P3_SECOND_N1_PRIMARY_AUDIT_036.md",
+      "before_sha256": "dc4af597436ce640a52d5817ecee2eb167e16d1b0b55c0ee9a57e3f965dd0665",
+      "after_sha256": "0cef34db2488ec13fb37a9700582cce136538a9569d7c6f7fe96bcb36e602ebc",
+      "change": "Clarify no native/candidate-model execution; hosted consultation did occur. No scientific claim changed."
+    },
+    {
+      "path": "evidence/P3_SECOND_N2_PRIMARY_AUDIT_036.md",
+      "before_sha256": "d27637f138cc9a670ccd634a1b3a9f46eb937e309f19c12e62364d7dacd70e69",
+      "after_sha256": "d435d1439a804c0528039bf10554c8cc8fa1a35128314121f2ee04b1bf773de4",
+      "change": "Clarify no native/candidate-model execution; hosted consultation did occur. No scientific claim changed."
+    },
+    {
+      "path": "evidence/P3_SECOND_N3_PRIMARY_AUDIT_036.md",
+      "before_sha256": "e3d57147302cfee224ff195fca03469ba33016e1c312767f25982867d4d6ac4a",
+      "after_sha256": "ff22c14dff9507fcaa080a17f7ee5ba81c121d61aa75b219945f60acb8d3a668",
+      "change": "Clarify no native/candidate-model execution; hosted consultation did occur. No scientific claim changed."
+    },
+    {
+      "path": "evidence/P3_SECOND_N5_PRIMARY_AUDIT_036.md",
+      "before_sha256": "f095c8ba2270ef3282fd4cd61ca3ee66e2dda943364ee5d9316f011d02cbf898",
+      "after_sha256": "baf68997bb9e975e17f41a21f6a04cb8050b208d347a72ba83411504eb16263b",
+      "change": "Clarify no native/candidate-model execution; hosted consultation did occur. No scientific claim changed."
+    }
+  ]
+}
