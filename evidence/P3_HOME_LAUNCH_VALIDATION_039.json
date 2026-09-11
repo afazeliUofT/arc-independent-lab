@@ -1,0 +1,119 @@
+{
+  "command": "python3 -m unittest discover -s tests -p 'test_launch039_home.py' -v",
+  "confirmed_contract": {
+    "additional_siblings_required_at_initial_import": [],
+    "copied_archive_path": "delivery/P3_CHECKPOINT_039/<outer-zip-sha256>/PACKAGE.zip",
+    "entry_arguments": [
+      "python",
+      "-B",
+      "-u",
+      "<bundle>/scripts/review039_workflow.py",
+      "--lab",
+      "<home>/ARC_Independent_Lab",
+      "--bundle",
+      "<bundle>"
+    ],
+    "extracted_bundle_path": "delivery/P3_CHECKPOINT_039/<outer-zip-sha256>/bundle",
+    "initial_python_sibling_closure": [
+      "scripts/review039_workflow.py",
+      "scripts/stage_source_packet038.py",
+      "scripts/review032_workflow.py",
+      "scripts/publish_review039_evidence.py"
+    ],
+    "max_archive_bytes": 67108864,
+    "max_expanded_bytes": 134217728,
+    "max_member_bytes": 33554432,
+    "max_members": 512,
+    "old032_default_collector_or_workflow_invoked": false,
+    "private_packet_path": "delivery/P3_FOCUSED_REVIEW_PACKET_039"
+  },
+  "covered": [
+    "hash verification before embedded code execution",
+    "realistic private PDF/text/PNG package extraction",
+    "duplicate download filename with exact release hash",
+    "redirected Unicode Windows Downloads through argument lists",
+    "WSL Downloads fallback when Windows interop unavailable",
+    "missing/wrong/symlink/oversized download diagnostics without embedded code execution",
+    "literal single Python here-document shell syntax",
+    "all archive size/member limits",
+    "unsafe/duplicate/path-collision/nonregular members refused",
+    "full SHA256SUMS coverage",
+    "unchanged repeat and matching partial extraction",
+    "changed or unrelated existing destination contents preserved",
+    "ignored and untracked destination checks",
+    "wrong origin and multiple push URLs refused",
+    "required four-file initial import closure",
+    "workflow failure propagation",
+    "actual launcher+workflow failed-commit recovery with one fake-controller invocation and exact Git return"
+  ],
+  "date": "2026-09-11",
+  "external_network_used": false,
+  "files": [
+    {
+      "path": "scripts/launch039_home.py",
+      "sha256": "f733e4f83077684ae82c2412f0017a177bbbe141f01fcf89d5bdfa0b3fddb5a5"
+    },
+    {
+      "path": "scripts/downloads_bootstrap039.py",
+      "sha256": "8fa509347f539c01cbb31f5f4a0a707a2ac207bf21caa5cfbc62975cdf9f06f2"
+    },
+    {
+      "path": "tests/test_launch039_home.py",
+      "sha256": "6ed569c6920a0babf8344dc804b1791e6902fd4229c64f94ad093b623ef94d77"
+    },
+    {
+      "path": "scripts/review039_workflow.py",
+      "sha256": "24eaa10f55c2f9fd17692ccad68fec6e62ee5f65237491487406bab49a35f4f0"
+    },
+    {
+      "path": "scripts/publish_review039_evidence.py",
+      "sha256": "2bd6ec9b9b75ddb83d93e7e819ef0a3afee63e1fab2bf18393610c34f2dd020d"
+    },
+    {
+      "path": "scripts/stage_source_packet038.py",
+      "sha256": "7f84bc94511f1e94ccb62d5593276cf663b011d8a03eccbfebaf123914af23a2"
+    },
+    {
+      "path": "scripts/review032_workflow.py",
+      "sha256": "3a94da5fd53ee7546df155b727607b5c12d4e0dc160c4560bf6a561ded66a6fc"
+    }
+  ],
+  "git": "real temporary repositories and a local bare remote, canonical external URL replaced only in transport",
+  "interop": "mocked PowerShell/wslpath responses; Unicode/space/redirected Downloads paths tested",
+  "issues_identified_and_resolved_by_root": [
+    {
+      "issue": "initial launcher rejected all staged files, blocking workflow recovery after failed commit",
+      "resolution": "launcher delegates tracked/index validation to exact pinned workflow; integration fixture proves safe staged-archive retry without another controller invocation"
+    },
+    {
+      "issue": "bootstrap50MiB and launcher64MiB cap mismatch",
+      "resolution": "both outer archive caps64MiB"
+    },
+    {
+      "issue": "archive required only workflow script despite immediate sibling imports",
+      "resolution": "all four initial runtime scripts now required before extraction"
+    }
+  ],
+  "kind": "P3_HOME_LAUNCH_OFFLINE_VALIDATION_039_v1",
+  "model_turns_sent": 0,
+  "native_reviewer_started": false,
+  "review_role": "PI engineering consultant; not an independent scientific reviewer",
+  "tests_failed": 0,
+  "tests_passed": 30,
+  "workflow": "actual039 wrapper and publisher used in failed-commit recovery integration; controller replaced by deterministic local fixture",
+  "zip_fixture_contents": [
+    "scripts/review039_workflow.py",
+    "scripts/publish_review039_evidence.py",
+    "scripts/stage_source_packet038.py",
+    "scripts/review032_workflow.py",
+    "packet/private_papers/chvatal.pdf",
+    "packet/reading/CHV79/full_text.txt",
+    "packet/reading/PK97/pages/page_001.png",
+    "packet/FOCUSED_SCOPE.json",
+    "public/docs/source.md",
+    "RELEASE.json",
+    "README_039.md",
+    "launch039_home.py",
+    "SHA256SUMS"
+  ]
+}

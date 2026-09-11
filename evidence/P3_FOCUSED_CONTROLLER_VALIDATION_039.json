@@ -1,0 +1,104 @@
+{
+  "kind": "P3_FOCUSED_CONTROLLER_OFFLINE_VALIDATION_039_v1",
+  "date": "2026-09-11",
+  "actual_command": [
+    "python3",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_p3_focused_review_039.py",
+    "-v"
+  ],
+  "exit_code": 0,
+  "tests_run": 9,
+  "all_passed": true,
+  "native_clients_started": 0,
+  "model_turns_sent": 0,
+  "scientific_review_executed": false,
+  "controller_inputs": {
+    "scripts/p3_focused_review_039.py": "e3ee20f21672b6a02cd3ebb54cdb44ed671c188ad3ce1f86aa5b9927b440ab3b",
+    "scripts/p3_reviewer_session_039.py": "6ecd0c92ba7cb308d26d26157d6e9172d9e3669a0a8c140c2ce03c9c0e81e4bb",
+    "configs/P3_FOCUSED_REVIEW_SCOPE_039.json": "fa94aee5482afa11f1a638ccf4759f630839cb38afaa25812746a81f428e7fd2",
+    "configs/P3_FOCUSED_REVIEW_PROMPT_039.txt": "bf3c004a2def777d804f7d35edc605474913247232765ebbdcf2526e89e13a19",
+    "tests/test_p3_focused_review_039.py": "3214cc35590546ecc6e3c0501155b1164abf8742dd4c88b30b8cde1adcfccc0b"
+  },
+  "source_closure": {
+    "scripts/gate0_client_preflight.py": "a4d0c4be8d6ade00f82285381dfa68e0310146fca300752bac3fac74d6bd3038",
+    "scripts/gate0_account_metadata.py": "13f4e87a7da463b6915f49df4f97b2cea271a7e8de9f16b21281db50842dac76",
+    "scripts/gate0_postlogin_protocol.py": "222ed3eb698b947b0d7286991101308485f44554c823abb7723c9882d213877a",
+    "scripts/gate0_config_controls.py": "9dc478ba6c68e32be69079e154dde1f3debd4d8dbd998f7648577b5df2c4bf8d",
+    "scripts/p3_reviewer_profile_022.py": "3c1d66ace2c3441d3c1ce1da98f2ec9bd253d3fe470b03d5ff54ec7ee7eeaa4d",
+    "scripts/p3_reviewer_admission_022.py": "329bccdfba14c93bb345841e6764b00f911b1ab8e3067636879a8a58194a783e",
+    "scripts/p3_config_warning.py": "60461b6493a37c917c86578b640de42fb780cd50246932058356594136048463",
+    "scripts/p3_deprecation_notice.py": "bace2c079803f87c36e79784b7be7b84d715fb2d9443d96f6a19fe4c5f60188b",
+    "scripts/p3_warning_diagnostic.py": "542b5b85e2b30f4a3ab71671259f9c3d8d47bb2fc9df0eb5b8ba618b69cb6d4c",
+    "scripts/p3_disabled_codemode_notice.py": "f1ebf9a2485a6c89acac9f8e184c99e82a0816b756379d6b8670695d160e8771",
+    "scripts/p3_event_policy_030.py": "ad8c1fa0bb3bb1c755f90b5d1c4c68f3368d4fa6af6552ea21f57f215de7dd2c",
+    "scripts/p3_cache_inputs_030.py": "aa29e239efcd23cfdefe4c1488a200924c494fa21d28e5ecb750adb388fdc711",
+    "scripts/gate0_postlogin_metadata.py": "b7fc9db3af9004c89a8fd87961f3e83ae94bad707e05c355a7a30b6646502197",
+    "scripts/gate0_client_mount_plan.py": "4500a10227a5209a525e5ab7534a1bd2e55e3574c91381c584e5a99c7095a107",
+    "scripts/p3_packet_observer_032.py": "1c28b532d90c7a40b57c37e4ea33fc2639fe5375572a28e0a0732ce236cc2326",
+    "scripts/p3_stage_evidence_030.py": "669c4169df508f9aac143b0bef3702bc478b18659300d8f80404a6db51e04378",
+    "scripts/p3_receipt_collection_032.py": "52b88345b8d707891fc33d37cd7040ca356178f400cc1396db9282951937b552",
+    "scripts/p3_review_broker.py": "6f2118cb32573c7774db269c09694913040d06adb5eca9e8ca1a0fafe6089536",
+    "scripts/p3_focused_review_broker_039.py": "b0d0b985e6e709d716d63d0bf6f1bf12d7c00b96340f435a1c7087c0bcdaf036",
+    "scripts/p3_focused_review_protocol_039.py": "dc4e64e9e235c9b95a66e7b4d37f832a69f74b744de773464fd4e800e65bf1d1",
+    "scripts/p3_reviewer_session_039.py": "6ecd0c92ba7cb308d26d26157d6e9172d9e3669a0a8c140c2ce03c9c0e81e4bb",
+    "scripts/p3_reviewer_session_032.py": "bd287ae1b6361f01b83bf1b39c266c0c1d2ea27d34f34497ca7d26cf6917387b",
+    "configs/P3_FINITE_REVIEW_SCOPE_032.json": "5d7d307d3be0ccd4a6825895795578a4c94fc801377d4f115368bafb07cb20ac",
+    "configs/GATE0_POSTLOGIN_SCOPE_016.json": "fbd7ca325593c9c8de5573417faf1381dbf669b80218f85e4a31ae519beacc61",
+    "configs/P3_SYNTHETIC_PROMPT_028.txt": "c930a6accbe8d704cf3467319a39cf81b189e0c18425108baed0023d01873c1a",
+    "configs/P3_FOCUSED_REVIEW_PROMPT_039.txt": "bf3c004a2def777d804f7d35edc605474913247232765ebbdcf2526e89e13a19",
+    "artifacts/GATE0_CODEX_INTERFACE/20260907_001/config-schema.json": "ed663d6d4c6c8b36917596882414c93858f6cf9ca5449ea8c616fc76d1aac114",
+    "artifacts/GATE0_ACCOUNT_METADATA_OBSERVATIONS/20260907_001/REPORT.json": "ba597b20b890d183edb10b76707d71798bd293013cc4fc03de9d77cd0de1d0f9",
+    "artifacts/GATE0_POSTLOGIN_REPAIR_OBSERVATIONS/20260908_001/REPORT.json": "ab6b731d21a3e161e43e33b6db011db93037030e56d8bd40bfbd50cd2070b9c6",
+    "artifacts/GATE0_POSTLOGIN_OBSERVATIONS/20260908_001/REPORT.json": "4aa0757da0d56a4db65ca7a33cf15d7454129c21fab7283457261d3a8ebcbba7"
+  },
+  "historical_evidence": {
+    "review032": {
+      "path": "artifacts/P3_REVIEW_032_RETURN/94ddb570582a75780f03e54df5e3228a58dc9de23397d63eac4976928b9a2d11/files/delivery/P3_FINITE_REVIEW_032/REPORT.json",
+      "sha256": "82bbdccc5f2a2a21d6ab5c6f7395d4083b9aefd1660dc08119593f8588a18a4d",
+      "actual_path": "delivery/P3_FINITE_REVIEW_032/REPORT.json"
+    },
+    "synthetic032": {
+      "path": "artifacts/P3_REVIEW_032_RETURN/94ddb570582a75780f03e54df5e3228a58dc9de23397d63eac4976928b9a2d11/files/delivery/P3_FINITE_REVIEW_032/synthetic_SESSION.json",
+      "sha256": "4bbd9771ca681f835d80716cc13237cafe346ee63fd5e3c57dbd70be5867f258",
+      "actual_path": "delivery/P3_FINITE_REVIEW_032/synthetic_SESSION.json"
+    },
+    "science032": {
+      "path": "artifacts/P3_REVIEW_032_RETURN/94ddb570582a75780f03e54df5e3228a58dc9de23397d63eac4976928b9a2d11/files/delivery/P3_FINITE_REVIEW_032/science_SESSION.json",
+      "sha256": "4e80e0ca72f4349cead77567e055065948a893c8e35b9582baa9a52e05e16636",
+      "actual_path": "delivery/P3_FINITE_REVIEW_032/science_SESSION.json"
+    },
+    "kernel030": {
+      "path": "artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_FINITE_REVIEW_030_KERNEL_PREFLIGHT/REPORT.json",
+      "sha256": "94fae5b5c1a7c73066060a5423ea8cd2a566a6d8221b41ff3a9fe13004c64a00",
+      "actual_path": "delivery/P3_FINITE_REVIEW_030_KERNEL_PREFLIGHT/REPORT.json"
+    }
+  },
+  "native_transport_change_set": [
+    "broker module import032 to039",
+    "protocol module import032 to039",
+    "emitted session kind032 to039"
+  ],
+  "native_transport_other_bytes_unchanged": true,
+  "verified_behaviors": [
+    "Real successor protocol, broker and inherited session witness admit the bounded canary argument correction, successful read and actual original-path traversal refusal in the required order.",
+    "Synthetic admission failure prevents science.",
+    "Simulated native-stage receipts pass the actual immutable-emitter receipt collector and preserve counts16starts/13turns.",
+    "A sent science turn remains counted on a simulated stop with no verdict.",
+    "Complete reports are revalidated and reused; partial directories block retries.",
+    "Missing session counters remain lower bounds; reserved capacity is not released.",
+    "Changed scope hashes block inspection before native work.",
+    "Protected reads compare stable metadata and allow access-time changes."
+  ],
+  "limitations": [
+    "Native/model access and current quota admission have not run in this environment.",
+    "Synthetic fixtures are engineering tests, not independent scientific review.",
+    "Historical mount/transport evidence is reverified at actual laptop execution; no fresh kernel attestation is claimed.",
+    "A full input-delivery receipt cannot establish comprehension or guarantee completion inside the finite window."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "P3_SOURCE_PACKET_038_RETURN_VERIFIED_039_v1",
+  "verified_utc": "2026-09-11T18:37:28.300739+00:00",
+  "commit": "2b28eca52856ebbc18608e8d78f9e24efe269f74",
+  "parent": "f423f53f40a4c985f0347bcf5b0ef36b04fcec32",
+  "receipt": {
+    "path": "artifacts/P3_SOURCE_PACKET_038/927ac29fa1106c533588fb6b999736b5cb6f9d8d4389c61e049c03f9afa9628e/RECEIPT.json",
+    "sha256": "145faa6c824bdc6e983cea976497df5c193856756455671182df2e14c399030f"
+  },
+  "only_two_declared_receipt_files_added": true,
+  "received_receipt_exactly_matches_expected_canonical_bytes": true,
+  "verified_file_entries": 42,
+  "public_inputs_plus_manifest": 40,
+  "private_pdf_entries": 2,
+  "private_content_publicly_committed": false,
+  "actual_source_staging_reported_complete": true,
+  "independent_review_executed": false,
+  "scope": "Repository receipt, source hashes and staging-helper consistency verified. Not remote read access to the laptop or independent semantic source review."
+}

@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-11T17:58:14.400348+00:00",
+  "updated_utc": "2026-09-11T18:50:22.760427+00:00",
   "current_gate": "P3",
   "gate_status": "in_progress",
   "gate_entered_utc": "2026-09-10T23:29:11.766050+00:00",
   "last_verified_gate": "P3.first_candidate_audit",
-  "last_verified_commit": "3baa33a2117884519b4dfc08d22149d518fb2962",
-  "active_task": "P3.second_pass.primary_methods038_integrated_source_packet_prepared",
+  "last_verified_commit": "2b28eca52856ebbc18608e8d78f9e24efe269f74",
+  "active_task": "P3.focused_review039.awaiting_attended_execution",
   "blocked_on": null,
-  "next_action": "Use ARC_Independent_Lab_038_HOME.zip and its exact WSL-home command to copy/extract/run source staging and push the integrity receipt. PI reads GitHub. Subsequent independent R1–R7 review still requires successor controller/broker/verifier and finite scope under standing authority; do not rerun032.",
+  "next_action": "Download the single039 ZIP and invoke its WSL-home command. It runs one fresh synthetic canary then one fresh focused R1-R7 review and returns original verdict or stop evidence to GitHub. Verify returned evidence before choosing the next scientific step.",
   "open_questions": [
     "Does a finite burst of predicate-gated credit yield useful future knowledge under a matched comparison?",
     "Is the positive count-fitting confound reachable under the exact N1-N3 scheduler?",
@@ -84,8 +84,8 @@
     "P2.second_pass_after_reviewed_negative_audit"
   ],
   "remote": "https://github.com/afazeliUofT/arc-independent-lab",
-  "durability_status": "Checkpoint038 original content published and all16 changed files read back exactly; all39 review inputs also match published Git blob objects. Private continuation ZIP saved and validated.",
-  "commit_status": "038 content publication verified; this separate receipt/state commit records the observation.",
+  "durability_status": "038 returned source receipt verified on canonical GitHub.039 public release and private all-in-one ZIP publication are being finalized.",
+  "commit_status": "039 implementation and offline validation prepared; content publication pending.",
   "recovery_dependency": null,
   "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation.",
   "latest_recovery_evidence": [
@@ -104,7 +104,7 @@
   ],
   "private_error_log_handling": "Probe raw error output stays within laptop Git metadata, outside normal commits. Request only safe terminal report; never ask for credentials or publish raw transport logs.",
   "foreground_execution_note": "No native execution in038. Completed032 remains exhausted at cumulative14 starts/11 sent turns. The private source helper launches no model. Hosted allowance unavailable; unattended model use remains disabled.",
-  "scientific_status": "Source-grounded N1 equal-cost greedy-step comparison and PK97 acquisition/N4 comparison complete as PI analysis. Second independent assessment and candidate efficacy remain unestablished.",
+  "scientific_status": "PI second-audit arguments and supplied full methods are prepared for a fresh independent focused assessment. No second verdict or candidate efficacy evidence exists yet.",
   "latest_scientific_evidence": [
     {
       "path": "evidence/P3_SECOND_N1_PRIMARY_AUDIT_036.md",
@@ -143,12 +143,12 @@
       "sha256": "1995e36a9f8e5f9f201d9b63ba8a7c39400f3e8e0046009a1c59973c2023188e"
     }
   ],
-  "handoff_backup_status": "ARC_Independent_Lab_038_HOME.zip saved and verified; exact WSL-home command rehearsed with substituted Windows/step calls. Original helper Git-return tests pass; actual user execution remains pending.",
+  "handoff_backup_status": "038 source-staging return verified; preparing next single039 ZIP with WSL-home execution and GitHub result return.",
   "latest_publication_verification": {
     "path": "evidence/REMOTE_CHECKPOINT_038_VERIFICATION.json",
     "sha256": "147875e04a518ebad9a831cd83399cb082e13d3ea45ad082a5739201c249afd5"
   },
-  "last_human_message_verbatim": "Note: You should always give me one .zip package that includes everything. Then, give me a command to paste in WSL home directory that reads that file from Downloads folder, copies and extracts it in the correct directory and runs, and pushes any required results to github for your review. You can read from github and my previous chats where the files exist and what the structure of the aimed folder ARC_Independent_Lab  is. If you cannot figure out, give me a command to send you whatever you need to do this automation",
+  "last_human_message_verbatim": "GitHub is updated",
   "phase1_approval": {
     "verified_utc": "2026-09-06T18:51:56.227927+00:00",
     "source_url": "https://github.com/afazeliUofT/arc-independent-lab/blob/376455150af7b257809a56021431413b2e0c6293/state/ESCALATION.md",
@@ -237,7 +237,8 @@
     "profile_validation": {
       "path": "artifacts/P3_REVIEWER_PROFILE_VALIDATION/20260908_001/REPORT.json",
       "sha256": "acbc599a337845e585af8cec04fd72af44cdb7d10321c1ae4329fce6120613a4"
-    }
+    },
+    "focused_second_assessment": "039 implementation and offline boundaries ready; actual fresh native admission and second scientific verdict are pending."
   },
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
@@ -634,7 +635,7 @@
     "approval_question_required": false
   },
   "second_pass": {
-    "status": "full_method_supplements_complete_source_packet_prepared",
+    "status": "focused_independent_review039_ready_pending_actual_execution",
     "freeze": {
       "path": "evidence/P2_SECOND_GENERATION_FREEZE_034.json",
       "sha256": "56858ca7780ea67795ba5800bfc7992e35bb91e058e5f35ced5401410637bcc3"
@@ -711,7 +712,7 @@
     "path": "reports/OBJECTIVE_STATUS_REVIEW_038.md",
     "sha256": "da16c74907f3835a233182f63a3c0e8b5a987435d2653f339f627d0de0358adb"
   },
-  "current_publication_checkpoint": "038_published_verified",
+  "current_publication_checkpoint": "039_prepared_publication_pending",
   "auxiliary_auditor_receipt_durability": {
     "status": "verified_published_on_main",
     "commit": "296cf94b9e692f4ddbee5c554fc87aaa5a298e60",
@@ -839,5 +840,30 @@
   "latest_handoff_publication_verification": {
     "path": "evidence/P3_DOWNLOADS_HOME_PUBLICATION_038.json",
     "sha256": "337671fa1aa0cd36c2f2f3bfe3d2502f37697c6feaf63cfe3fe1f31b0ca9172f"
+  },
+  "latest_source_packet_return": {
+    "path": "evidence/P3_SOURCE_PACKET_RETURN_VERIFICATION_039.json",
+    "sha256": "ff537a463c4f052cd92323ad8077a7c459a6dc0a05afb9c7aa5002a136857035"
+  },
+  "latest_focused_review_preparation": {
+    "scope": {
+      "path": "configs/P3_FOCUSED_REVIEW_SCOPE_039.json",
+      "sha256": "fa94aee5482afa11f1a638ccf4759f630839cb38afaa25812746a81f428e7fd2"
+    },
+    "release_manifest": {
+      "path": "evidence/P3_FOCUSED_REVIEW_MANIFEST_039.json",
+      "sha256": "c43d8773caee24ee1ad0b3dbc50bbb847dc02add09d87aed08575db77db64772"
+    },
+    "readiness": {
+      "path": "reports/CHECKPOINT_039_REVIEW_READINESS.md",
+      "sha256": "75b97b820f5e916c2439da10657a52a731f1bdcfc7a9bf5de35a255ace47cb51"
+    },
+    "adversarial_preparation": {
+      "path": "evidence/P3_ADVERSARIAL_PREPARATION_039.md",
+      "sha256": "670c3d01f74dd1b14456786e01b7b9689b6c37dbd2d05d3c85503c3f4083cef8"
+    },
+    "actual_execution_pending": true,
+    "standing_authorization_applies": true,
+    "new_approval_answer_fabricated": false
   }
 }

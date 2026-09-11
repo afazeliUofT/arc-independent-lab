@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-11T16:56:57.690696+00:00",
+  "updated_utc": "2026-09-11T18:50:22.760427+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -119,16 +119,27 @@
     "rerun_needed": false
   },
   "next_operational_test": {
-    "status": "None planned; actual032 complete and archived. Do not repeat prior invocation or receipt collection.",
-    "completed_operation": {
-      "path": "artifacts/P3_RUN_032_VERIFICATION/20260910_033/VERIFICATION.json",
-      "sha256": "cacee0aac0fc33f6361f6e2bfe30c64e8a985b1fc56e874c568acfbbc015bc80"
+    "status": "039 finite attended focused review ready for user invocation; no032 rerun.",
+    "scope": {
+      "path": "configs/P3_FOCUSED_REVIEW_SCOPE_039.json",
+      "sha256": "fa94aee5482afa11f1a638ccf4759f630839cb38afaa25812746a81f428e7fd2"
     },
-    "cumulative_native_starts": 14,
-    "cumulative_sent_turns": 11,
-    "remaining_native_scope": 0,
-    "new_native_allowance": 0,
-    "unattended_model_use_authorized": false
+    "standing_authorization": {
+      "path": "state/authorizations/P3_FOCUSED_REVIEW_039_STANDING_AUTHORIZATION.md",
+      "sha256": "4e76c7ed8352bb1eae1455f5bd673fd63bbb0428eb7dc9c60e20f32f82ee6bcb"
+    },
+    "verified_historical_native_starts": 14,
+    "verified_historical_sent_turns": 11,
+    "additional_native_start_ceiling": 2,
+    "additional_sent_turn_ceiling": 2,
+    "cumulative_native_start_ceiling": 16,
+    "cumulative_sent_turn_ceiling": 13,
+    "actual039_native_starts_observed_here": 0,
+    "actual039_sent_turns_observed_here": 0,
+    "scope_specific_execution_record_pending": true,
+    "repeat_existing_attempt_authorized": false,
+    "unattended_model_use_authorized": false,
+    "backend_usage_or_charge": "unknown"
   },
   "completed_native_signin": {
     "receipt": {
@@ -223,7 +234,7 @@
       "sha256": "acbc599a337845e585af8cec04fd72af44cdb7d10321c1ae4329fce6120613a4"
     },
     "native_controller_implemented": true,
-    "next_action": "No execution planned. Preserve completed032 source and receipt; second candidate primary-method audit is PI document work.",
+    "next_action": "Use versioned039 controller and scope for the second focused analytical assessment; preserve all032 code and receipts.",
     "unattended_model_use_authorized": false,
     "extra_spending_allowed": false
   },
@@ -487,7 +498,7 @@
     "repeat_authorized": false,
     "backend_usage_or_charge": "unknown"
   },
-  "current_pi_work": "Attended038 complete primary-method reading, operation-level analysis, objective review and source-staging delivery engineering. No independent reviewer, native execution, candidate treatment, GPU/HPC job or paid API call.",
+  "current_pi_work": "Attended039 successor review engineering and verification. Hosted consultants share PI context. No native client/model turn, candidate treatment, GPU/HPC job or paid API executed here.",
   "research_phase_boundaries_standing_override": {
     "path": "evidence/P2_SECOND_PHASE_BOUNDARY_035.json",
     "sha256": "ac9805cf2a0412e5cc0b49734d211c3320e762b328786938f083ad1d773432d1"
@@ -576,6 +587,48 @@
     "source_inventory": {
       "path": "evidence/P3_PRIMARY_SOURCE_INVENTORY_038.json",
       "sha256": "a3bc77df926369c6c97e8dddb29211d4e0cbca6ae30912d7413f230fb2a6e577"
+    }
+  },
+  "checkpoint039_accounting": {
+    "hosted_consultants": [
+      "focused_broker039 (including bounded nested adversarial check)",
+      "focused_controller039",
+      "review_handoff039 (including home-command integration)"
+    ],
+    "consultants_are_independent_reviewers": false,
+    "native_starts": 0,
+    "native_sent_turns": 0,
+    "candidate_runs": 0,
+    "gpu_or_hpc_jobs": 0,
+    "unattended_model_use": false,
+    "authoritative_hosted_allowance": null,
+    "backend_usage_or_charge": "unknown",
+    "scope": {
+      "path": "configs/P3_FOCUSED_REVIEW_SCOPE_039.json",
+      "sha256": "fa94aee5482afa11f1a638ccf4759f630839cb38afaa25812746a81f428e7fd2"
+    },
+    "future_execution": {
+      "status": "039 finite attended focused review ready for user invocation; no032 rerun.",
+      "scope": {
+        "path": "configs/P3_FOCUSED_REVIEW_SCOPE_039.json",
+        "sha256": "fa94aee5482afa11f1a638ccf4759f630839cb38afaa25812746a81f428e7fd2"
+      },
+      "standing_authorization": {
+        "path": "state/authorizations/P3_FOCUSED_REVIEW_039_STANDING_AUTHORIZATION.md",
+        "sha256": "4e76c7ed8352bb1eae1455f5bd673fd63bbb0428eb7dc9c60e20f32f82ee6bcb"
+      },
+      "verified_historical_native_starts": 14,
+      "verified_historical_sent_turns": 11,
+      "additional_native_start_ceiling": 2,
+      "additional_sent_turn_ceiling": 2,
+      "cumulative_native_start_ceiling": 16,
+      "cumulative_sent_turn_ceiling": 13,
+      "actual039_native_starts_observed_here": 0,
+      "actual039_sent_turns_observed_here": 0,
+      "scope_specific_execution_record_pending": true,
+      "repeat_existing_attempt_authorized": false,
+      "unattended_model_use_authorized": false,
+      "backend_usage_or_charge": "unknown"
     }
   }
 }

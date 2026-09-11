@@ -1,0 +1,58 @@
+{
+  "kind": "P3_FOCUSED_BROKER_REAL_PACKET_VALIDATION_039_v1",
+  "packet_manifest_sha256": "1546dd761c3f3c1fa7b44f2d9df0ff2358e96ca37b2c1d3d3230aa6735927142",
+  "initial_delivery_complete": false,
+  "initial_required_public_texts": 40,
+  "final_delivery_complete": true,
+  "delivery_event_count": 54,
+  "source_deliveries": [
+    {
+      "source_id": "CHV79",
+      "pdf_sha256": "70e60317cc1e7815118aac54b00d3aadf5558f7bc219ca2d3b6e3396c2611086",
+      "full_text_delivered": true,
+      "page_texts_delivered": [],
+      "page_images_delivered": [
+        2,
+        3,
+        4
+      ],
+      "required_page_images": [
+        2,
+        3,
+        4
+      ],
+      "required_source_delivery_complete": true
+    },
+    {
+      "source_id": "PK97",
+      "pdf_sha256": "873998cb1f647756e12f061f5c9152c2bae9fa3b37b0efa45432aa4b7e9df570",
+      "full_text_delivered": true,
+      "page_texts_delivered": [],
+      "page_images_delivered": [
+        1,
+        28,
+        39,
+        40,
+        45,
+        46,
+        47,
+        48
+      ],
+      "required_page_images": [
+        1,
+        28,
+        39,
+        40,
+        45,
+        46,
+        47,
+        48
+      ],
+      "required_source_delivery_complete": true
+    }
+  ],
+  "native_model_started": false,
+  "independent_review_performed": false,
+  "scientific_verdict_written": false,
+  "meaning": "Local deterministic engineering exercise returned manifested text and selected page images through broker calls; it provides no independent reading or scientific conclusion."
+}

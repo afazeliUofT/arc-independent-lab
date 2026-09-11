@@ -1,0 +1,56 @@
+{
+  "command": "python3 -m unittest discover -s tests -p '*review039*.py' -v",
+  "covered": [
+    "successful run and idempotent collection",
+    "failed push recovery without another controller call or commit",
+    "failed commit recovery from exact staged archive",
+    "concurrent workflow exclusion",
+    "partial controller failure and missing report",
+    "prior durable reservation with unknown actual usage",
+    "unrelated dirty work and unpublished commit preservation",
+    "unignored private destination",
+    "wrong packet hash returns categorical stop evidence",
+    "fixed publication allowlist",
+    "symlink and malformed JSON refusal",
+    "long exact private-source passage refusal with original verdict preserved"
+  ],
+  "date": "2026-09-11",
+  "fake_controller_only": true,
+  "files": [
+    {
+      "path": "scripts/review039_workflow.py",
+      "sha256": "24eaa10f55c2f9fd17692ccad68fec6e62ee5f65237491487406bab49a35f4f0"
+    },
+    {
+      "path": "scripts/publish_review039_evidence.py",
+      "sha256": "2bd6ec9b9b75ddb83d93e7e819ef0a3afee63e1fab2bf18393610c34f2dd020d"
+    },
+    {
+      "path": "tests/test_review039_workflow.py",
+      "sha256": "d1a357f09adb8bb29e60efbfc8127f35fa93492f9da4702d2389a657b3dc2625"
+    },
+    {
+      "path": "tests/test_publish_review039_evidence.py",
+      "sha256": "f7c29355a76b2f416c40ad6d51c1fea348f2e0dd5b91a205d23b2d9c9df2f280"
+    },
+    {
+      "path": "docs/P3_REVIEW_RETURN_WORKFLOW_039.md",
+      "sha256": "c56d9ddaf9c197e0bc70d95b98c1e9f14ce82b065e0934c61da59f63f72f8572"
+    }
+  ],
+  "git_network_transport": "temporary local bare repository, no external network",
+  "initial_test_corrections": [
+    {
+      "reason": "test asserted absence of delivery/ substring anywhere, including intended archived provenance path; corrected to check tracked root paths",
+      "test": "test_one_invocation_and_idempotent_receipt_only_retry"
+    },
+    {
+      "reason": "Git check-ignore exit1 for no matches is now translated to categorical private-runtime-not-ignored refusal",
+      "test": "test_unignored_private_destination_stops_before_any_packet_copy"
+    }
+  ],
+  "kind": "P3_WORKFLOW_OFFLINE_VALIDATION_039_v1",
+  "native_or_model_process_started": false,
+  "tests_failed": 0,
+  "tests_passed": 14
+}

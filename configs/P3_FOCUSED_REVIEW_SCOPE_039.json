@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "scope_id": "P3_FOCUSED_REVIEW_SCOPE_039",
+  "date": "2026-09-11",
+  "purpose": "One finite attended fresh analytical assessment of R1-R7 and two supplied primary methods, with a separate fresh synthetic canary first; no candidate efficacy experiment.",
+  "report_directory": "delivery/P3_FOCUSED_REVIEW_039",
+  "canonical_home": "/home/afazeli2006",
+  "canonical_project": "/home/afazeli2006/ARC_Independent_Lab",
+  "runtime_sha256": "9739cbc928b9c573be83256acd46668f5dd4f119d2d09e05246895ca2aaf0c9a",
+  "bwrap_sha256": "52231e1caf55bcbc667b269f49c63599a6f7db4767ae6a039580d0ff853db712",
+  "synthetic_seconds_including_cleanup": 600,
+  "scientific_seconds_including_cleanup": 3600,
+  "maximum_synthetic_broker_calls": 16,
+  "maximum_scientific_broker_calls": 512,
+  "model_policy": {
+    "requested_identity": "gpt-5.6-sol",
+    "provider": "openai using existing ChatGPT account",
+    "effort": "max, explicitly advertised for gpt-5.6-sol in the admitted native catalog; no effort fallback",
+    "automatic_model_or_provider_fallback": false,
+    "if_identity_is_absent": "Stop before model invocation and retain filtered catalog. Do not select a different model.",
+    "role_scope": "This explicit exception applies only to the bounded independent reviewer. PI research remains GPT-6 Astra at highest available effort.",
+    "original_requested_identity": "gpt-6-astra",
+    "change_requires_explicit_approval": true,
+    "effort_choice_reason": "Official documentation distinguishes Max single-agent reasoning from Ultra automatic delegation. The reviewer remains one process/context with collaboration disabled.",
+    "requested_effort": "max"
+  },
+  "native_baseline_scope": {
+    "path": "configs/P3_FINITE_REVIEW_SCOPE_032.json",
+    "sha256": "5d7d307d3be0ccd4a6825895795578a4c94fc801377d4f115368bafb07cb20ac"
+  },
+  "prior_native_scope": {
+    "path": "configs/GATE0_POSTLOGIN_SCOPE_016.json",
+    "sha256": "fbd7ca325593c9c8de5573417faf1381dbf669b80218f85e4a31ae519beacc61"
+  },
+  "authorization": {
+    "path": "state/authorizations/P3_FOCUSED_REVIEW_039_STANDING_AUTHORIZATION.md",
+    "sha256": "4e76c7ed8352bb1eae1455f5bd673fd63bbb0428eb7dc9c60e20f32f82ee6bcb"
+  },
+  "private_packet_directory": "delivery/P3_FOCUSED_REVIEW_PACKET_039",
+  "private_packet_manifest_sha256": "1546dd761c3f3c1fa7b44f2d9df0ff2358e96ca37b2c1d3d3230aa6735927142",
+  "scientific_manifest": {
+    "path": "evidence/P3_FOCUSED_REVIEW_MANIFEST_038.json",
+    "sha256": "927ac29fa1106c533588fb6b999736b5cb6f9d8d4389c61e049c03f9afa9628e"
+  },
+  "prior_attempt_accounting": {
+    "native_starts_observed": 14,
+    "explicit_model_turns_observed": 11,
+    "additional_native_processes_maximum": 2,
+    "additional_explicit_model_turns_maximum": 2,
+    "cumulative_native_starts_maximum": 16,
+    "cumulative_explicit_model_turns_maximum": 13,
+    "no_automatic_retry": true,
+    "count_sent_turn_even_without_reviewer_output": true
+  },
+  "source_pins": {
+    "scripts/gate0_client_preflight.py": "a4d0c4be8d6ade00f82285381dfa68e0310146fca300752bac3fac74d6bd3038",
+    "scripts/gate0_account_metadata.py": "13f4e87a7da463b6915f49df4f97b2cea271a7e8de9f16b21281db50842dac76",
+    "scripts/gate0_postlogin_protocol.py": "222ed3eb698b947b0d7286991101308485f44554c823abb7723c9882d213877a",
+    "scripts/gate0_config_controls.py": "9dc478ba6c68e32be69079e154dde1f3debd4d8dbd998f7648577b5df2c4bf8d",
+    "scripts/p3_reviewer_profile_022.py": "3c1d66ace2c3441d3c1ce1da98f2ec9bd253d3fe470b03d5ff54ec7ee7eeaa4d",
+    "scripts/p3_reviewer_admission_022.py": "329bccdfba14c93bb345841e6764b00f911b1ab8e3067636879a8a58194a783e",
+    "scripts/p3_config_warning.py": "60461b6493a37c917c86578b640de42fb780cd50246932058356594136048463",
+    "scripts/p3_deprecation_notice.py": "bace2c079803f87c36e79784b7be7b84d715fb2d9443d96f6a19fe4c5f60188b",
+    "scripts/p3_warning_diagnostic.py": "542b5b85e2b30f4a3ab71671259f9c3d8d47bb2fc9df0eb5b8ba618b69cb6d4c",
+    "scripts/p3_disabled_codemode_notice.py": "f1ebf9a2485a6c89acac9f8e184c99e82a0816b756379d6b8670695d160e8771",
+    "scripts/p3_event_policy_030.py": "ad8c1fa0bb3bb1c755f90b5d1c4c68f3368d4fa6af6552ea21f57f215de7dd2c",
+    "scripts/p3_cache_inputs_030.py": "aa29e239efcd23cfdefe4c1488a200924c494fa21d28e5ecb750adb388fdc711",
+    "scripts/gate0_postlogin_metadata.py": "b7fc9db3af9004c89a8fd87961f3e83ae94bad707e05c355a7a30b6646502197",
+    "scripts/gate0_client_mount_plan.py": "4500a10227a5209a525e5ab7534a1bd2e55e3574c91381c584e5a99c7095a107",
+    "scripts/p3_packet_observer_032.py": "1c28b532d90c7a40b57c37e4ea33fc2639fe5375572a28e0a0732ce236cc2326",
+    "scripts/p3_stage_evidence_030.py": "669c4169df508f9aac143b0bef3702bc478b18659300d8f80404a6db51e04378",
+    "scripts/p3_receipt_collection_032.py": "52b88345b8d707891fc33d37cd7040ca356178f400cc1396db9282951937b552",
+    "scripts/p3_review_broker.py": "6f2118cb32573c7774db269c09694913040d06adb5eca9e8ca1a0fafe6089536",
+    "scripts/p3_focused_review_broker_039.py": "b0d0b985e6e709d716d63d0bf6f1bf12d7c00b96340f435a1c7087c0bcdaf036",
+    "scripts/p3_focused_review_protocol_039.py": "dc4e64e9e235c9b95a66e7b4d37f832a69f74b744de773464fd4e800e65bf1d1",
+    "scripts/p3_reviewer_session_039.py": "6ecd0c92ba7cb308d26d26157d6e9172d9e3669a0a8c140c2ce03c9c0e81e4bb",
+    "scripts/p3_reviewer_session_032.py": "bd287ae1b6361f01b83bf1b39c266c0c1d2ea27d34f34497ca7d26cf6917387b",
+    "configs/P3_FINITE_REVIEW_SCOPE_032.json": "5d7d307d3be0ccd4a6825895795578a4c94fc801377d4f115368bafb07cb20ac",
+    "configs/GATE0_POSTLOGIN_SCOPE_016.json": "fbd7ca325593c9c8de5573417faf1381dbf669b80218f85e4a31ae519beacc61",
+    "configs/P3_SYNTHETIC_PROMPT_028.txt": "c930a6accbe8d704cf3467319a39cf81b189e0c18425108baed0023d01873c1a",
+    "configs/P3_FOCUSED_REVIEW_PROMPT_039.txt": "bf3c004a2def777d804f7d35edc605474913247232765ebbdcf2526e89e13a19",
+    "artifacts/GATE0_CODEX_INTERFACE/20260907_001/config-schema.json": "ed663d6d4c6c8b36917596882414c93858f6cf9ca5449ea8c616fc76d1aac114",
+    "artifacts/GATE0_ACCOUNT_METADATA_OBSERVATIONS/20260907_001/REPORT.json": "ba597b20b890d183edb10b76707d71798bd293013cc4fc03de9d77cd0de1d0f9",
+    "artifacts/GATE0_POSTLOGIN_REPAIR_OBSERVATIONS/20260908_001/REPORT.json": "ab6b731d21a3e161e43e33b6db011db93037030e56d8bd40bfbd50cd2070b9c6",
+    "artifacts/GATE0_POSTLOGIN_OBSERVATIONS/20260908_001/REPORT.json": "4aa0757da0d56a4db65ca7a33cf15d7454129c21fab7283457261d3a8ebcbba7"
+  },
+  "historical_evidence": {
+    "review032": {
+      "path": "artifacts/P3_REVIEW_032_RETURN/94ddb570582a75780f03e54df5e3228a58dc9de23397d63eac4976928b9a2d11/files/delivery/P3_FINITE_REVIEW_032/REPORT.json",
+      "sha256": "82bbdccc5f2a2a21d6ab5c6f7395d4083b9aefd1660dc08119593f8588a18a4d",
+      "actual_path": "delivery/P3_FINITE_REVIEW_032/REPORT.json"
+    },
+    "synthetic032": {
+      "path": "artifacts/P3_REVIEW_032_RETURN/94ddb570582a75780f03e54df5e3228a58dc9de23397d63eac4976928b9a2d11/files/delivery/P3_FINITE_REVIEW_032/synthetic_SESSION.json",
+      "sha256": "4bbd9771ca681f835d80716cc13237cafe346ee63fd5e3c57dbd70be5867f258",
+      "actual_path": "delivery/P3_FINITE_REVIEW_032/synthetic_SESSION.json"
+    },
+    "science032": {
+      "path": "artifacts/P3_REVIEW_032_RETURN/94ddb570582a75780f03e54df5e3228a58dc9de23397d63eac4976928b9a2d11/files/delivery/P3_FINITE_REVIEW_032/science_SESSION.json",
+      "sha256": "4e80e0ca72f4349cead77567e055065948a893c8e35b9582baa9a52e05e16636",
+      "actual_path": "delivery/P3_FINITE_REVIEW_032/science_SESSION.json"
+    },
+    "kernel030": {
+      "path": "artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_FINITE_REVIEW_030_KERNEL_PREFLIGHT/REPORT.json",
+      "sha256": "94fae5b5c1a7c73066060a5423ea8cd2a566a6d8221b41ff3a9fe13004c64a00",
+      "actual_path": "delivery/P3_FINITE_REVIEW_030_KERNEL_PREFLIGHT/REPORT.json"
+    }
+  },
+  "limitations": [
+    "The existing032 transport is reused with only broker/protocol imports and the emitted session kind changed; all runtime boundaries, model/effort admission, lifecycle rules and notices remain source pinned.",
+    "Current native quota, Pro account/null requirements and exact Sol Max availability are re-observed on the laptop before each sole turn. Hosted ChatGPT allowance and backend internal inference counts remain unknown.",
+    "Actual native context compaction can occur under the unchanged030 lifecycle policy and can alter retained context. Required source delivery is measured; comprehension and scientific correctness are not thereby established.",
+    "At most600 seconds synthetic and3600 seconds science, including cleanup, with at most16 and512 broker calls respectively. A capacity stop is a legitimate incomplete outcome, never authority to skip sources or silently retry.",
+    "The existing actual030 sealed-cache mount prerequisite is reused from exact original receipts; no additional probe and no fresh kernel attestation.",
+    "Private PDFs, reading text/images and native raw runtime data stay in ignored local delivery. Only original review outputs and filtered integrity/resource receipts may be published.",
+    "User invokes the one-time attended command; continuous human attendance is not measured. No paid API, new spend, configuration repair, credential handling by the Python parent, permission escalation or model fallback."
+  ]
+}
