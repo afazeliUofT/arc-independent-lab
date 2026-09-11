@@ -1,8 +1,10 @@
 # ARC Independent Lab
 
-## Current checkpoint — 037
+## Current checkpoint — 038
 
-The original objective and current state are summarized in `reports/OBJECTIVE_STATUS_REVIEW_037.md`. Checkpoint036 is verified on GitHub. The second candidate set has a PI novelty audit and a prepared focused analytical review packet; it has no independent second verdict or efficacy result. The new N1–N3 finite-credit deduction is in `evidence/P3_SECOND_SEMANTICS_REVIEW_037.md`. Start the next step with `docs/P3_FOCUSED_REVIEW_BRIEF_037.md` and its pinned manifest. Earlier operational status sections below are historical. No native reviewer rerun is prescribed here.
+Both requested primary papers have been received and read completely. Start with `reports/OBJECTIVE_STATUS_REVIEW_038.md`: N1's fixed-version selection has an equal-cost greedy set-cover reduction; Pierce–Kuipers supplies a substantial acquired-representation/control antecedent without implementing N4's exact contract. The second candidates still have no independent second verdict or efficacy result.
+
+The active assessment brief is `docs/P3_FOCUSED_REVIEW_BRIEF_038.md`, pinned by `evidence/P3_FOCUSED_REVIEW_MANIFEST_038.json`. The private038 ZIP stages the supplied papers on WSL and returns a receipt through GitHub; it launches no reviewer. `docs/P3_SOURCE_PACKET_EXECUTION_038.md` gives the command and explains the required successor controller. No further papers are currently requested for the bounded scope. Earlier status sections below are historical.
 
 Autonomous research programme funded by Ali Fazeli. Current phase: **Phase 3 — novelty audit and programme design**. Ali approved `DIAGNOSIS.md` and `IDEAS.md`. Read `reports/P3_RESIDUAL_AUDIT_2026-09-07.md` with the preserved first audit, `NOVELTY_AUDIT.md`. The supplement corrects the distinction between reconstructible information and the actual answer path, completes the observer/C4 residual mappings, and limits whole-system priority claims. Independent review and measured design remain outstanding; no Phase 3 treatment has run.
 

@@ -1,0 +1,39 @@
+{
+  "kind": "P3_SOURCE_PACKET_PREPARATION_VALIDATION_038_v1",
+  "created_utc": "2026-09-11T16:56:57.690696+00:00",
+  "scope": "Local integrity and engineering tests only; no actual WSL or independent reviewer execution.",
+  "manifest": {
+    "path": "evidence/P3_FOCUSED_REVIEW_MANIFEST_038.json",
+    "sha256": "927ac29fa1106c533588fb6b999736b5cb6f9d8d4389c61e049c03f9afa9628e"
+  },
+  "public_input_count_verified": 39,
+  "private_pdf_count_verified": 2,
+  "earlier037_public_input_hashes_unchanged": true,
+  "unit_integration_test_command": "python3 -m unittest discover -s tests -p test_stage_source_packet038.py -v",
+  "test_source": {
+    "path": "tests/test_stage_source_packet038.py",
+    "sha256": "2261a60efe203995d7962b3fe8ad5e0cbf1acd4493d2af860bc51129180c3653"
+  },
+  "helper": {
+    "path": "scripts/stage_source_packet038.py",
+    "sha256": "7f84bc94511f1e94ccb62d5593276cf663b011d8a03eccbfebaf123914af23a2"
+  },
+  "test_exit_code": 0,
+  "tests_passed": 9,
+  "test_network": "Fetch/push/ls-remote transport substituted with temporary local bare Git repositories.",
+  "tests_cover": [
+    "Pinned source version despite newer checkout",
+    "Receipt-only commit and idempotence",
+    "Failed push retry without new commit",
+    "Wrong PDF rejection",
+    "Unignored destination refusal",
+    "Tracked private destination refusal",
+    "Symlink refusal",
+    "Changed packet preservation",
+    "Unrelated tracked/staged work and unpublished commit preservation"
+  ],
+  "actual_wsl_staging": false,
+  "independent_review": false,
+  "candidate_runs": 0,
+  "frozen_source_inputs_changed": false
+}

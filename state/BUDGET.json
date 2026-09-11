@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-11T06:31:46.905814+00:00",
+  "updated_utc": "2026-09-11T16:56:57.690696+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -487,7 +487,7 @@
     "repeat_authorized": false,
     "backend_usage_or_charge": "unknown"
   },
-  "current_pi_work": "Attended checkpoint037 source recheck, analytical semantics consultation, focused review preparation and publication. Shared-tools consultants are not independent reviewers. No new native execution, treatment, GPU/HPC job or paid API call; hosted allowance unobservable.",
+  "current_pi_work": "Attended038 complete primary-method reading, operation-level analysis, objective review and source-staging delivery engineering. No independent reviewer, native execution, candidate treatment, GPU/HPC job or paid API call.",
   "research_phase_boundaries_standing_override": {
     "path": "evidence/P2_SECOND_PHASE_BOUNDARY_035.json",
     "sha256": "ac9805cf2a0412e5cc0b49734d211c3320e762b328786938f083ad1d773432d1"
@@ -552,6 +552,30 @@
     "review_manifest": {
       "path": "evidence/P3_FOCUSED_REVIEW_MANIFEST_037.json",
       "sha256": "933071c568f440f7fc57cdc2e606faba8233ec5eddb417ed56b7a6feea9b3d36"
+    }
+  },
+  "checkpoint038_accounting": {
+    "hosted_consultants": [
+      "chvatal_methods038",
+      "pierce_methods038 (including bounded consistency follow-up)",
+      "continuation_execution038"
+    ],
+    "consultants_are_independent_reviewers": false,
+    "native_starts": 0,
+    "native_sent_turns": 0,
+    "candidate_runs": 0,
+    "gpu_or_hpc_jobs": 0,
+    "new_native_allowance": 0,
+    "unattended_model_use": false,
+    "authoritative_hosted_allowance": null,
+    "backend_usage_or_charge": "unknown",
+    "review_manifest": {
+      "path": "evidence/P3_FOCUSED_REVIEW_MANIFEST_038.json",
+      "sha256": "927ac29fa1106c533588fb6b999736b5cb6f9d8d4389c61e049c03f9afa9628e"
+    },
+    "source_inventory": {
+      "path": "evidence/P3_PRIMARY_SOURCE_INVENTORY_038.json",
+      "sha256": "a3bc77df926369c6c97e8dddb29211d4e0cbca6ae30912d7413f230fb2a6e577"
     }
   }
 }

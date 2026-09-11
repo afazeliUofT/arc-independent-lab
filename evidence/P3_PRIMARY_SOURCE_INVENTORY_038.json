@@ -1,0 +1,99 @@
+{
+  "kind": "P3_PRIMARY_SOURCE_INVENTORY_038_v1",
+  "created_utc": "2026-09-11T16:56:57.690696+00:00",
+  "repository_base": "be9bcf12d0a147a06e30f05877189313fdbf9c2a",
+  "papers": [
+    {
+      "id": "CHV79",
+      "authors": [
+        "Vasek Chvatal"
+      ],
+      "title": "A Greedy Heuristic for the Set-Covering Problem",
+      "journal": "Mathematics of Operations Research",
+      "year": 1979,
+      "volume": 4,
+      "issue": 3,
+      "printed_pages": "233–235",
+      "doi_url": "https://doi.org/10.1287/moor.4.3.233",
+      "alternate_url": "https://www.jstor.org/stable/3689577",
+      "pdf_pages": 4,
+      "page_convention": "One-based PDF; first page is distributor cover; substantive PDF2–4 are printed233–235.",
+      "uploaded_file": "Chvatal-GreedyHeuristicSetCovering-1979.pdf",
+      "sha256": "70e60317cc1e7815118aac54b00d3aadf5558f7bc219ca2d3b6e3396c2611086",
+      "supplement": {
+        "path": "evidence/P3_CHVATAL_METHODS_038.md",
+        "sha256": "870708747d553d12b706e309d34538b7406a863ce325b8280a6f774f063d5e4f"
+      },
+      "resolved_dependency": "Primary method access for the equal-cost N1 selection-step comparison.",
+      "not_resolved": [
+        "Earliest unweighted historical priority",
+        "Whole changing/capped N1 procedure priority",
+        "Predictive or useful-knowledge benefit"
+      ],
+      "access_date": "2026-09-11",
+      "publication_type": "published_journal_article",
+      "preprint": false,
+      "access_route": "Full original PDF supplied privately by funder",
+      "full_text_read": true,
+      "mathematical_and_figure_pages_visually_checked": true,
+      "reading_class": "PI_consultation_not_independent_review",
+      "packet_path": "private_papers/70e60317cc1e7815118aac54b00d3aadf5558f7bc219ca2d3b6e3396c2611086.pdf",
+      "original_pdf_publicly_committed": false
+    },
+    {
+      "id": "PK97",
+      "authors": [
+        "David Pierce",
+        "Benjamin J. Kuipers"
+      ],
+      "title": "Map learning with uninterpreted sensors and effectors",
+      "journal": "Artificial Intelligence",
+      "year": 1997,
+      "volume": 92,
+      "printed_pages": "169–227",
+      "doi_url": "https://doi.org/10.1016/S0004-3702%2896%2900051-3",
+      "pdf_pages": 59,
+      "page_convention": "One-based PDF; printed page = PDF page +168.",
+      "uploaded_file": "Map_learning.pdf",
+      "sha256": "873998cb1f647756e12f061f5c9152c2bae9fa3b37b0efa45432aa4b7e9df570",
+      "supplement": {
+        "path": "evidence/P3_PIERCE_KUIPERS_METHODS_038.md",
+        "sha256": "1995e36a9f8e5f9f201d9b63ba8a7c39400f3e8e0046009a1c59973c2023188e"
+      },
+      "resolved_dependency": "Primary method access for acquisition/control antecedent and operation-level N4 comparison.",
+      "not_resolved": [
+        "Whole-N4 novelty",
+        "Discontinuity/recombination efficacy",
+        "Cause of field-wide abandonment"
+      ],
+      "access_date": "2026-09-11",
+      "publication_type": "published_journal_article",
+      "preprint": false,
+      "access_route": "Full original PDF supplied privately by funder",
+      "full_text_read": true,
+      "mathematical_and_figure_pages_visually_checked": true,
+      "reading_class": "PI_consultation_not_independent_review",
+      "packet_path": "private_papers/873998cb1f647756e12f061f5c9152c2bae9fa3b37b0efa45432aa4b7e9df570.pdf",
+      "original_pdf_publicly_committed": false
+    }
+  ],
+  "supersedes_current_access_status_in": [
+    "reports/PAPER_REQUEST_036.md",
+    "evidence/P3_SOURCE_GAP_RECHECK_037.md"
+  ],
+  "earlier_documents_preserved": true,
+  "all_full_method_requests_in_batch036_received_and_read": true,
+  "current_additional_paper_requests": [],
+  "conditional_future_sources": [
+    {
+      "source": "Pierce1995 dissertation",
+      "only_if": "Faithful historical implementation is selected and depends on omitted implementation detail."
+    },
+    {
+      "source": "Johnson1974 and Lovasz1975 cited by Chvatal",
+      "only_if": "Earliest unweighted-priority attribution becomes decision-relevant."
+    }
+  ],
+  "not_a_global_literature_coverage_certificate": true,
+  "reviewer_must_access_actual_primary_methods": true
+}
