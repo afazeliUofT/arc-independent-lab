@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-11T16:56:57.690696+00:00",
+  "updated_utc": "2026-09-11T17:01:09.882211+00:00",
   "current_gate": "P3",
   "gate_status": "in_progress",
   "gate_entered_utc": "2026-09-10T23:29:11.766050+00:00",
   "last_verified_gate": "P3.first_candidate_audit",
-  "last_verified_commit": "be9bcf12d0a147a06e30f05877189313fdbf9c2a",
+  "last_verified_commit": "aa39617b964b1b9ce96555128d59394c5de05361",
   "active_task": "P3.second_pass.primary_methods038_integrated_source_packet_prepared",
   "blocked_on": null,
   "next_action": "Run the038 private source-staging helper on canonical WSL to return the integrity receipt through GitHub. Prepare a successor independently enforced R1–R7 review controller/broker/verifier and finite scope under standing authorization. No032 rerun, no in-place candidate repair, no candidate treatment.",
@@ -84,8 +84,8 @@
     "P2.second_pass_after_reviewed_negative_audit"
   ],
   "remote": "https://github.com/afazeliUofT/arc-independent-lab",
-  "durability_status": "Original038 materials prepared for connected GitHub publication and readback verification.",
-  "commit_status": "038 content publication pending at time of this record; publication receipt will supersede this field.",
+  "durability_status": "Checkpoint038 original content published and all16 changed files read back exactly; all39 review inputs also match published Git blob objects. Private continuation ZIP saved and validated.",
+  "commit_status": "038 content publication verified; this separate receipt/state commit records the observation.",
   "recovery_dependency": null,
   "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation.",
   "latest_recovery_evidence": [
@@ -143,10 +143,10 @@
       "sha256": "1995e36a9f8e5f9f201d9b63ba8a7c39400f3e8e0046009a1c59973c2023188e"
     }
   ],
-  "handoff_backup_status": "One038 continuation ZIP being assembled: private papers plus pinned public input release and source-staging helper; actual WSL receipt remains pending.",
+  "handoff_backup_status": "One ARC_Independent_Lab_038.zip saved and validated. Source-staging helper publishes only an integrity receipt; actual WSL receipt is pending.",
   "latest_publication_verification": {
-    "path": "evidence/REMOTE_CHECKPOINT_037_VERIFICATION.json",
-    "sha256": "75b2fd351aae6c1060ebecd936a137c18c0adcc4c6c2ecb7c97f57137dbfe75f"
+    "path": "evidence/REMOTE_CHECKPOINT_038_VERIFICATION.json",
+    "sha256": "147875e04a518ebad9a831cd83399cb082e13d3ea45ad082a5739201c249afd5"
   },
   "last_human_message_verbatim": "Here are the requested papers. Once more carefully review my objectives and the status of the github to be updated with the progress. Then proceed with next step. Tell me if you need any further papers. I will happily provide",
   "phase1_approval": {
@@ -711,7 +711,7 @@
     "path": "reports/OBJECTIVE_STATUS_REVIEW_038.md",
     "sha256": "da16c74907f3835a233182f63a3c0e8b5a987435d2653f339f627d0de0358adb"
   },
-  "current_publication_checkpoint": "038_prepared",
+  "current_publication_checkpoint": "038_published_verified",
   "auxiliary_auditor_receipt_durability": {
     "status": "verified_published_on_main",
     "commit": "296cf94b9e692f4ddbee5c554fc87aaa5a298e60",
@@ -827,5 +827,9 @@
     },
     "outstanding_for_current_bounded_scope": []
   },
-  "original_initial_prompt_now_visible": true
+  "original_initial_prompt_now_visible": true,
+  "latest_continuation_zip": {
+    "path": "evidence/P3_CONTINUATION_ZIP_VALIDATION_038.json",
+    "sha256": "d892ece359b7bd2319acbd9650c54b6db734417a1e374e56f53481151d053c26"
+  }
 }

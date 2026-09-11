@@ -1,0 +1,20 @@
+{
+  "kind": "P3_CONTINUATION_ZIP_038_VALIDATION_v1",
+  "zip_filename": "ARC_Independent_Lab_038.zip",
+  "zip_sha256": "7664a96db43d56ce8fd208b83e7795d7843a70013b4060a71a19e26801dd7431",
+  "zip_bytes": 4320374,
+  "zip_members": 46,
+  "zip_crc_and_exact_member_bytes_verified": true,
+  "public_manifest": {
+    "path": "evidence/P3_FOCUSED_REVIEW_MANIFEST_038.json",
+    "sha256": "927ac29fa1106c533588fb6b999736b5cb6f9d8d4389c61e049c03f9afa9628e"
+  },
+  "public_input_count": 39,
+  "source_pdf_count": 2,
+  "content_commit": "aa39617b964b1b9ce96555128d59394c5de05361",
+  "released_helper_matches_published_source": true,
+  "release_parser_accepts_exact_release_metadata": true,
+  "native_or_model_execution": false,
+  "actual_wsl_staging": false,
+  "paper_content_in_publication_payload": false
+}

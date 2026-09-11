@@ -1,0 +1,158 @@
+{
+  "kind": "REMOTE_CHECKPOINT_038_VERIFICATION_v1",
+  "verified_utc": "2026-09-11T17:01:09.882211+00:00",
+  "repository": "afazeliUofT/arc-independent-lab",
+  "base_commit": "be9bcf12d0a147a06e30f05877189313fdbf9c2a",
+  "verified_content_commit": "aa39617b964b1b9ce96555128d59394c5de05361",
+  "readback_files": [
+    {
+      "exact_readback_match": true,
+      "github_blob_sha": "3048ecc86d3c74b324e89b639860d9e966a66767",
+      "path": "evidence/P3_CHVATAL_METHODS_038.md",
+      "sha256": "870708747d553d12b706e309d34538b7406a863ce325b8280a6f774f063d5e4f"
+    },
+    {
+      "exact_readback_match": true,
+      "github_blob_sha": "bbba4df32954a0058c3d8e0bde022d5686e36ae4",
+      "path": "evidence/P3_PIERCE_KUIPERS_METHODS_038.md",
+      "sha256": "1995e36a9f8e5f9f201d9b63ba8a7c39400f3e8e0046009a1c59973c2023188e"
+    },
+    {
+      "exact_readback_match": true,
+      "github_blob_sha": "5a0dbda482caf83424ef8b64c67f5424412b9525",
+      "path": "evidence/P3_PRIMARY_SOURCE_INVENTORY_038.json",
+      "sha256": "a3bc77df926369c6c97e8dddb29211d4e0cbca6ae30912d7413f230fb2a6e577"
+    },
+    {
+      "exact_readback_match": true,
+      "github_blob_sha": "0712eebb3d1ba17520b983e1e36571d8d2f2136c",
+      "path": "docs/P3_FOCUSED_REVIEW_BRIEF_038.md",
+      "sha256": "341cd4a62691279ca5897e08ac6cde073cc831965687204833f3f9e8a9d3e50b"
+    },
+    {
+      "exact_readback_match": true,
+      "github_blob_sha": "4ad046df6031953a85e6cf85bb8ec788c22d87d1",
+      "path": "docs/P3_SOURCE_PACKET_EXECUTION_038.md",
+      "sha256": "252a18a4b9bc0d336694e6b4c0d2a73c5a379b447ec30a85a9b86515bf96e373"
+    },
+    {
+      "exact_readback_match": true,
+      "github_blob_sha": "a9c0de3ac18d1e9fe3771e4bac685a45a5f0e756",
+      "path": "reports/OBJECTIVE_STATUS_REVIEW_038.md",
+      "sha256": "da16c74907f3835a233182f63a3c0e8b5a987435d2653f339f627d0de0358adb"
+    },
+    {
+      "exact_readback_match": true,
+      "github_blob_sha": "330c9759556171bd9c6f487f3d549e84c85bc3d0",
+      "path": "scripts/stage_source_packet038.py",
+      "sha256": "7f84bc94511f1e94ccb62d5593276cf663b011d8a03eccbfebaf123914af23a2"
+    },
+    {
+      "exact_readback_match": true,
+      "github_blob_sha": "62deda9d8ceb210b8194c7b09910fe1e01499a46",
+      "path": "tests/test_stage_source_packet038.py",
+      "sha256": "2261a60efe203995d7962b3fe8ad5e0cbf1acd4493d2af860bc51129180c3653"
+    },
+    {
+      "exact_readback_match": true,
+      "github_blob_sha": "8154fa478c865d67c57a58b1272f791a2a3848ab",
+      "path": "evidence/P3_FOCUSED_REVIEW_MANIFEST_038.json",
+      "sha256": "927ac29fa1106c533588fb6b999736b5cb6f9d8d4389c61e049c03f9afa9628e"
+    },
+    {
+      "exact_readback_match": true,
+      "github_blob_sha": "66be5200e8fdd70b723ac33b0daeb40b8768c82a",
+      "path": "evidence/P3_SOURCE_PACKET_VALIDATION_038.json",
+      "sha256": "006d3d86b004bd4ce0c4bc9f312f49a9423146df82f8061c7f453a8adeef5299"
+    },
+    {
+      "exact_readback_match": true,
+      "github_blob_sha": "ff5a6f9412ab0e083b2f73b6ef292a4eaaf1d05e",
+      "path": "state/PROJECT_STATE.json",
+      "sha256": "ab55f84bf597b31102c134f1813283e601d3ad3bae6a5082ea14de9caa2b3817"
+    },
+    {
+      "exact_readback_match": true,
+      "github_blob_sha": "8985db946e7c25df15936c5dc24d333d191abcd0",
+      "path": "state/BUDGET.json",
+      "sha256": "bc5443b11d67f869010e3feb7c648c78b63179f95c9306c04d9da4fd129c9d67"
+    },
+    {
+      "exact_readback_match": true,
+      "github_blob_sha": "2a98c4fa6f26677e7a1a7eb9263e8a5dd71af546",
+      "path": "state/LEDGER.jsonl",
+      "sha256": "643ed048247ed259a3220159fe266b4b2bd3b70f83aa057e9d0be87c319d6abe"
+    },
+    {
+      "exact_readback_match": true,
+      "github_blob_sha": "f7c334cd5c36e6d3f458b89e68c78256c83b26a3",
+      "path": "state/tool_errors.jsonl",
+      "sha256": "b044615748150bba4dcf02d630ea812df7be2c083dbdd1cfea32a43ebbbe31c9"
+    },
+    {
+      "exact_readback_match": true,
+      "github_blob_sha": "a16306dff8c1a69cec9994dc33292d945b9be8bf",
+      "path": "README.md",
+      "sha256": "d3c4d264315ec40d4260bfce6b188a9a40880cee704a9a6aa304968ca84ad400"
+    },
+    {
+      "exact_readback_match": true,
+      "github_blob_sha": "dd0e7665b60cd7024433f860983a1426418fa70d",
+      "path": "reports/DIGEST_2026-09-11.md",
+      "sha256": "a541af85f4cd7cc36806515dfad93b664eda78e1cc15931bbfe8130702fecdd7"
+    }
+  ],
+  "tree_comparison": {
+    "base_entries": 1817,
+    "base_tree": "7cfdccdf931f78f7e363e566c353b4d1f24f49d5",
+    "changed_paths": [
+      "README.md",
+      "docs/P3_FOCUSED_REVIEW_BRIEF_038.md",
+      "docs/P3_SOURCE_PACKET_EXECUTION_038.md",
+      "evidence/P3_CHVATAL_METHODS_038.md",
+      "evidence/P3_FOCUSED_REVIEW_MANIFEST_038.json",
+      "evidence/P3_PIERCE_KUIPERS_METHODS_038.md",
+      "evidence/P3_PRIMARY_SOURCE_INVENTORY_038.json",
+      "evidence/P3_SOURCE_PACKET_VALIDATION_038.json",
+      "reports/DIGEST_2026-09-11.md",
+      "reports/OBJECTIVE_STATUS_REVIEW_038.md",
+      "scripts/stage_source_packet038.py",
+      "state/BUDGET.json",
+      "state/LEDGER.jsonl",
+      "state/PROJECT_STATE.json",
+      "state/tool_errors.jsonl",
+      "tests/test_stage_source_packet038.py"
+    ],
+    "exactly_declared_changes": true,
+    "published_entries": 1827,
+    "published_tree": "1755627fee96f4ce417d85d8bb014caf6daa947f",
+    "truncated": false,
+    "unmodified_baseline_blobs_and_modes_preserved": true
+  },
+  "all39_public_manifest_inputs_match_published_git_blob_objects": true,
+  "zip_validation": {
+    "kind": "P3_CONTINUATION_ZIP_038_VALIDATION_v1",
+    "zip_filename": "ARC_Independent_Lab_038.zip",
+    "zip_sha256": "7664a96db43d56ce8fd208b83e7795d7843a70013b4060a71a19e26801dd7431",
+    "zip_bytes": 4320374,
+    "zip_members": 46,
+    "zip_crc_and_exact_member_bytes_verified": true,
+    "public_manifest": {
+      "path": "evidence/P3_FOCUSED_REVIEW_MANIFEST_038.json",
+      "sha256": "927ac29fa1106c533588fb6b999736b5cb6f9d8d4389c61e049c03f9afa9628e"
+    },
+    "public_input_count": 39,
+    "source_pdf_count": 2,
+    "content_commit": "aa39617b964b1b9ce96555128d59394c5de05361",
+    "released_helper_matches_published_source": true,
+    "release_parser_accepts_exact_release_metadata": true,
+    "native_or_model_execution": false,
+    "actual_wsl_staging": false,
+    "paper_content_in_publication_payload": false
+  },
+  "download_file_save_succeeded": true,
+  "actual_wsl_staging_complete": false,
+  "independent_second_review_complete": false,
+  "scientific_verdict_created": false,
+  "private_pdf_content_published_to_github": false
+}
