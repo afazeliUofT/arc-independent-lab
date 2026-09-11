@@ -1,0 +1,91 @@
+{
+  "kind": "P3_DOWNLOADS_HOME_HANDOFF_038_VALIDATION_v1",
+  "created_utc": "2026-09-11T17:53:57.919518+00:00",
+  "base_commit": "3ec4ed07a9ee66750228cea606ea37332aef84e9",
+  "scope": "Packaging correction only; original038 science/source manifest and helper preserved.",
+  "archive_filename": "ARC_Independent_Lab_038_HOME.zip",
+  "archive_sha256": "95b9721fede402dad132290868a080c93c398370bd4ed52eb2e7d540121fe23f",
+  "archive_bytes": 4340534,
+  "archive_members": 54,
+  "complete_member_checksums_and_crc_pass": true,
+  "actual_release_accepted_by_launcher_archive_parser": true,
+  "original038_public_input_count_preserved": 39,
+  "original038_private_pdf_count_preserved": 2,
+  "original_source_manifest": {
+    "path": "evidence/P3_FOCUSED_REVIEW_MANIFEST_038.json",
+    "sha256": "927ac29fa1106c533588fb6b999736b5cb6f9d8d4389c61e049c03f9afa9628e"
+  },
+  "original_helper": {
+    "path": "scripts/stage_source_packet038.py",
+    "sha256": "7f84bc94511f1e94ccb62d5593276cf663b011d8a03eccbfebaf123914af23a2"
+  },
+  "new_sources": [
+    {
+      "path": "scripts/downloads_bootstrap038.py",
+      "sha256": "322d833fa757777e517a2bf1ede2b2741c66aa4a1c6e90e5b8637552bcdeb897"
+    },
+    {
+      "path": "scripts/launch038_home.py",
+      "sha256": "a89f3b1ec37463801f59c6d7767164697fee0a046190500161fd99e334716cbe"
+    },
+    {
+      "path": "tests/test_downloads_bootstrap038.py",
+      "sha256": "4f188130de490b7d7fea6482792f93720e23dd7622eac4b696b00758831f961d"
+    },
+    {
+      "path": "tests/test_launch038_home.py",
+      "sha256": "cc8cc9b61f1b3d669602cad92d68aeb2e1bc050c127044ec83b60bbf39619bd1"
+    },
+    {
+      "path": "docs/USER_HANDOFF_PREFERENCES_2026-09-11.md",
+      "sha256": "de04d0f73a57aef52330b3b5dba7c790c3bbd2def8a4e589b50d6dd239cfd944"
+    },
+    {
+      "path": "docs/P3_DOWNLOADS_HOME_HANDOFF_038.md",
+      "sha256": "946dc573a793a4b2d88052308e267596f5542ae4fc71bf5da271971968da0fbf"
+    }
+  ],
+  "local_test_suites": [
+    {
+      "source": {
+        "path": "tests/test_downloads_bootstrap038.py",
+        "sha256": "4f188130de490b7d7fea6482792f93720e23dd7622eac4b696b00758831f961d"
+      },
+      "passed": 4,
+      "scope": "Windows discovery/translation substituted; real downloaded archive selection and checksum-before-code behavior."
+    },
+    {
+      "source": {
+        "path": "tests/test_launch038_home.py",
+        "sha256": "cc8cc9b61f1b3d669602cad92d68aeb2e1bc050c127044ec83b60bbf39619bd1"
+      },
+      "passed": 21,
+      "scope": "Actual local Git/filesystem/archive checks; step invocation substituted; no external network."
+    },
+    {
+      "source": {
+        "path": "tests/test_stage_source_packet038.py",
+        "sha256": "2261a60efe203995d7962b3fe8ad5e0cbf1acd4493d2af860bc51129180c3653"
+      },
+      "passed": 9,
+      "scope": "Original helper tests rerun; local bare Git transport substituted; receipt-only publication and failed-push retry."
+    }
+  ],
+  "actual_user_windows_interop_executed": false,
+  "actual_user_wsl_step_executed": false,
+  "native_starts": 0,
+  "candidate_runs": 0,
+  "independent_scientific_verdict": false,
+  "new_scientific_checkpoint_created": false,
+  "native_model_turns": 0,
+  "attended_hosted_engineering_consultation": "Root plus downloads_handoff_review and its bounded code consultation; no claim of independent scientific review or observable hosted usage.",
+  "final_released_command_and_archive_fixture": {
+    "passed": true,
+    "repetitions": 2,
+    "all54_members_and_copied_archive_equal": true,
+    "actual_local_git_and_filesystem": true,
+    "windows_interop_and_source_helper_substituted": true,
+    "external_network_calls": 0,
+    "tracked_checkout_unchanged": true
+  }
+}

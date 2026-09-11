@@ -2,6 +2,8 @@
 
 ## Current checkpoint — 038
 
+**Handoff correction:** use `ARC_Independent_Lab_038_HOME.zip` with the one-paste WSL-home command. It locates Windows Downloads, copies/extracts under the existing `delivery/` directory, runs source staging, and pushes the receipt. Manual extraction/navigation is no longer required. See `docs/P3_DOWNLOADS_HOME_HANDOFF_038.md` and the standing instruction `docs/USER_HANDOFF_PREFERENCES_2026-09-11.md`.
+
 Both requested primary papers have been received and read completely. Start with `reports/OBJECTIVE_STATUS_REVIEW_038.md`: N1's fixed-version selection has an equal-cost greedy set-cover reduction; Pierce–Kuipers supplies a substantial acquired-representation/control antecedent without implementing N4's exact contract. The second candidates still have no independent second verdict or efficacy result.
 
 The active assessment brief is `docs/P3_FOCUSED_REVIEW_BRIEF_038.md`, pinned by `evidence/P3_FOCUSED_REVIEW_MANIFEST_038.json`. The private038 ZIP stages the supplied papers on WSL and returns a receipt through GitHub; it launches no reviewer. `docs/P3_SOURCE_PACKET_EXECUTION_038.md` gives the command and explains the required successor controller. No further papers are currently requested for the bounded scope. Earlier status sections below are historical.

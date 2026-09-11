@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-11T17:01:09.882211+00:00",
+  "updated_utc": "2026-09-11T17:53:57.919518+00:00",
   "current_gate": "P3",
   "gate_status": "in_progress",
   "gate_entered_utc": "2026-09-10T23:29:11.766050+00:00",
@@ -8,7 +8,7 @@
   "last_verified_commit": "aa39617b964b1b9ce96555128d59394c5de05361",
   "active_task": "P3.second_pass.primary_methods038_integrated_source_packet_prepared",
   "blocked_on": null,
-  "next_action": "Run the038 private source-staging helper on canonical WSL to return the integrity receipt through GitHub. Prepare a successor independently enforced R1–R7 review controller/broker/verifier and finite scope under standing authorization. No032 rerun, no in-place candidate repair, no candidate treatment.",
+  "next_action": "Use ARC_Independent_Lab_038_HOME.zip and its exact WSL-home command to copy/extract/run source staging and push the integrity receipt. PI reads GitHub. Subsequent independent R1–R7 review still requires successor controller/broker/verifier and finite scope under standing authority; do not rerun032.",
   "open_questions": [
     "Does a finite burst of predicate-gated credit yield useful future knowledge under a matched comparison?",
     "Is the positive count-fitting confound reachable under the exact N1-N3 scheduler?",
@@ -143,12 +143,12 @@
       "sha256": "1995e36a9f8e5f9f201d9b63ba8a7c39400f3e8e0046009a1c59973c2023188e"
     }
   ],
-  "handoff_backup_status": "One ARC_Independent_Lab_038.zip saved and validated. Source-staging helper publishes only an integrity receipt; actual WSL receipt is pending.",
+  "handoff_backup_status": "Replacement038_HOME ZIP built and checksum/contents validated; automatic Downloads-to-WSL-home command supplied. Actual laptop execution pending.",
   "latest_publication_verification": {
     "path": "evidence/REMOTE_CHECKPOINT_038_VERIFICATION.json",
     "sha256": "147875e04a518ebad9a831cd83399cb082e13d3ea45ad082a5739201c249afd5"
   },
-  "last_human_message_verbatim": "Here are the requested papers. Once more carefully review my objectives and the status of the github to be updated with the progress. Then proceed with next step. Tell me if you need any further papers. I will happily provide",
+  "last_human_message_verbatim": "Note: You should always give me one .zip package that includes everything. Then, give me a command to paste in WSL home directory that reads that file from Downloads folder, copies and extracts it in the correct directory and runs, and pushes any required results to github for your review. You can read from github and my previous chats where the files exist and what the structure of the aimed folder ARC_Independent_Lab  is. If you cannot figure out, give me a command to send you whatever you need to do this automation",
   "phase1_approval": {
     "verified_utc": "2026-09-06T18:51:56.227927+00:00",
     "source_url": "https://github.com/afazeliUofT/arc-independent-lab/blob/376455150af7b257809a56021431413b2e0c6293/state/ESCALATION.md",
@@ -199,7 +199,7 @@
     "remote_execution": "Linux shell on Narval",
     "canonical_laptop_project": "WSL ~/ARC_Independent_Lab"
   },
-  "last_human_message_summary": "Supplied both requested papers; requested updated objective/status review, continuation, and any further paper needs.",
+  "last_human_message_summary": "Standing one-ZIP, WSL-home Downloads discovery/extraction/execution and GitHub-results workflow; asked to correct current handoff.",
   "latest_capability_verification": {
     "path": "evidence/GATE0_CAPABILITY_INPUT_VERIFICATION_2026-09-07.json",
     "sha256": "6da38b2b47f6da6c5060f28bee745a4c85ab31538fac30566a776c208c51b559"
@@ -284,7 +284,7 @@
     "path": "reports/P3_OBJECTIVE_AND_NEXT_DECISION_2026-09-07.md",
     "sha256": "a876bfaf1ef9782df543be91bb63629e389b67ba34aa2b0507593cd66fe0d818"
   },
-  "handoff_preference": "For original project work, publish directly through authorized connected GitHub when available and verify readback. Use the existing one-ZIP human workflow only when execution on the laptop or an unavailable publication capability requires it; return all expected reports via GitHub.",
+  "handoff_preference": "Always deliver ONE complete ZIP and ONE command pasted from WSL home. Automatically locate Windows Downloads archive, verify, copy/extract into canonical project delivery directory, run step, and push all expected reports/results to afazeliUofT/arc-independent-lab for PI review. No manual extraction/navigation or result attachments. Reuse existing results on publication retry; do not repeat completed finite work.",
   "latest_startup_observation": {
     "path": "evidence/GATE0_CLIENT_PREFLIGHT_OBSERVATION_012_REVIEW.json",
     "sha256": "8cf8d7f29445ef75413bf0d768c14d36ae3160e2014633352acae427fff372cc",
@@ -829,7 +829,11 @@
   },
   "original_initial_prompt_now_visible": true,
   "latest_continuation_zip": {
-    "path": "evidence/P3_CONTINUATION_ZIP_VALIDATION_038.json",
-    "sha256": "d892ece359b7bd2319acbd9650c54b6db734417a1e374e56f53481151d053c26"
+    "path": "evidence/P3_DOWNLOADS_HOME_HANDOFF_VALIDATION_038.json",
+    "sha256": "2a9b686d2bdeedc34c02fcfcb3233dcf1682f58a4797eff2972f132e2c67b125"
+  },
+  "handoff_preference_source": {
+    "path": "docs/USER_HANDOFF_PREFERENCES_2026-09-11.md",
+    "sha256": "de04d0f73a57aef52330b3b5dba7c790c3bbd2def8a4e589b50d6dd239cfd944"
   }
 }
