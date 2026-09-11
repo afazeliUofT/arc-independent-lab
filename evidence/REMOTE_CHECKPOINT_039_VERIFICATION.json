@@ -1,0 +1,197 @@
+{
+  "kind": "P3_CHECKPOINT_039_PUBLICATION_VERIFICATION_v1",
+  "created_utc": "2026-09-11T18:55:34.667905+00:00",
+  "baseline_commit": "2b28eca52856ebbc18608e8d78f9e24efe269f74",
+  "content_commit": "eebd0a5d8ac8868d7a4fbf72835ffe25f2803143",
+  "content_tree": "636de0c2a3b685fd899435b336bb821fbc8df589",
+  "readback": [
+    {
+      "blob_sha": "621d5cd3e32ed879579506868b112e194881474e",
+      "exact_content": true,
+      "path": "configs/P3_FOCUSED_REVIEW_PROMPT_039.txt"
+    },
+    {
+      "blob_sha": "b9ce42f80d8e846d9d8db6b62a1ae082e6c91878",
+      "exact_content": true,
+      "path": "configs/P3_FOCUSED_REVIEW_SCOPE_039.json"
+    },
+    {
+      "blob_sha": "9c7f71d668ddb828ac0811fd82cb110ee667faa4",
+      "exact_content": true,
+      "path": "docs/P3_REVIEW_RETURN_WORKFLOW_039.md"
+    },
+    {
+      "blob_sha": "ddd80c32c9f0f2add9f892bf673973cd0203180a",
+      "exact_content": true,
+      "path": "evidence/P3_ADVERSARIAL_PREPARATION_039.md"
+    },
+    {
+      "blob_sha": "628f3b3fc6e22f4bf3bf25083d0b3bd3725053c3",
+      "exact_content": true,
+      "path": "evidence/P3_FOCUSED_BROKER_IMPLEMENTATION_039.md"
+    },
+    {
+      "blob_sha": "e439fabb0e144c19938ba27e5b61e93461c26760",
+      "exact_content": true,
+      "path": "evidence/P3_FOCUSED_BROKER_REAL_PACKET_VALIDATION_039.json"
+    },
+    {
+      "blob_sha": "9a7afa867a6708174e7abbade1bf1cbd5f7a1572",
+      "exact_content": true,
+      "path": "evidence/P3_FOCUSED_CONTROLLER_VALIDATION_039.json"
+    },
+    {
+      "blob_sha": "47c22057a220ef80b1e39257399e65c84917572b",
+      "exact_content": true,
+      "path": "evidence/P3_FOCUSED_REVIEW_MANIFEST_039.json"
+    },
+    {
+      "blob_sha": "0ff3323b50112f6024eae5c13c652bd74dd5ea70",
+      "exact_content": true,
+      "path": "evidence/P3_HOME_LAUNCH_VALIDATION_039.json"
+    },
+    {
+      "blob_sha": "79705b23cb8d66413b009564f6799d0c91b3f9aa",
+      "exact_content": true,
+      "path": "evidence/P3_PACKAGE_PREPARATION_VALIDATION_039.json"
+    },
+    {
+      "blob_sha": "655fdc500dac5ac6ea4579fd8a5fb76e34245e9a",
+      "exact_content": true,
+      "path": "evidence/P3_SOURCE_PACKET_RETURN_VERIFICATION_039.json"
+    },
+    {
+      "blob_sha": "da5eb8a132f7c8066409d16ca2447e82f5a75b97",
+      "exact_content": true,
+      "path": "evidence/P3_WORKFLOW_VALIDATION_039.json"
+    },
+    {
+      "blob_sha": "5f07629b8bf2e6d95c46c5989c7298b344572480",
+      "exact_content": true,
+      "path": "reports/CHECKPOINT_039_REVIEW_READINESS.md"
+    },
+    {
+      "blob_sha": "d478eaf3836f42a8fb686ce0c9b7537bfa930cf6",
+      "exact_content": true,
+      "path": "reports/DIGEST_2026-09-11.md"
+    },
+    {
+      "blob_sha": "5d6e4de171536dd091b16cc99ef8e9a0e20dd030",
+      "exact_content": true,
+      "path": "scripts/downloads_bootstrap039.py"
+    },
+    {
+      "blob_sha": "61db8ffb04d8a4b298eea9c1650173a71d54187b",
+      "exact_content": true,
+      "path": "scripts/launch039_home.py"
+    },
+    {
+      "blob_sha": "a1d112ff77842d50d058e783ee2bc36a5191364b",
+      "exact_content": true,
+      "path": "scripts/p3_focused_review_039.py"
+    },
+    {
+      "blob_sha": "50f0315bfe6269545b70a4762d0d283e8f245258",
+      "exact_content": true,
+      "path": "scripts/p3_focused_review_broker_039.py"
+    },
+    {
+      "blob_sha": "6c2c563802065642178b902062808f613878a1b6",
+      "exact_content": true,
+      "path": "scripts/p3_focused_review_protocol_039.py"
+    },
+    {
+      "blob_sha": "53e9fe9aac3a1ac83bef823b7e0e030cd925f0a8",
+      "exact_content": true,
+      "path": "scripts/p3_reviewer_session_039.py"
+    },
+    {
+      "blob_sha": "48d272357f496b7fa876fa59d4f576e87009232e",
+      "exact_content": true,
+      "path": "scripts/publish_review039_evidence.py"
+    },
+    {
+      "blob_sha": "453fc25918937a14d833b29c2130c66dff584a66",
+      "exact_content": true,
+      "path": "scripts/review039_workflow.py"
+    },
+    {
+      "blob_sha": "b0a259d9ffd3ee37fe5af4197d0debb1efb350da",
+      "exact_content": true,
+      "path": "state/BUDGET.json"
+    },
+    {
+      "blob_sha": "773640ec23211e64689b4681fa8397755b72dd59",
+      "exact_content": true,
+      "path": "state/LEDGER.jsonl"
+    },
+    {
+      "blob_sha": "2dd2646c0f04378d1e227917fbaf0c276c8ac33b",
+      "exact_content": true,
+      "path": "state/PROJECT_STATE.json"
+    },
+    {
+      "blob_sha": "e30c55cc8e7d8f183b3b60a9d2e9421bf0b2acd9",
+      "exact_content": true,
+      "path": "state/authorizations/P3_FOCUSED_REVIEW_039_STANDING_AUTHORIZATION.md"
+    },
+    {
+      "blob_sha": "744ddb9eb4fd56b29d15a4c65379b2a21eae1f04",
+      "exact_content": true,
+      "path": "state/tool_errors.jsonl"
+    },
+    {
+      "blob_sha": "656f7a09346b82b4c471a518c8c7cd45d46ff6bf",
+      "exact_content": true,
+      "path": "tests/test_launch039_home.py"
+    },
+    {
+      "blob_sha": "adc35a2f5334677e7ef2089173fd565e95fc2a77",
+      "exact_content": true,
+      "path": "tests/test_p3_focused_review_039.py"
+    },
+    {
+      "blob_sha": "b52fcb4bf4c013bf95ef417c02184bb4ca3c735e",
+      "exact_content": true,
+      "path": "tests/test_p3_focused_review_broker_039.py"
+    },
+    {
+      "blob_sha": "a24a948e803aae5b189ed44f11a6bdaf6448d909",
+      "exact_content": true,
+      "path": "tests/test_publish_review039_evidence.py"
+    },
+    {
+      "blob_sha": "a8ac575797abcf4b9d20203309fd259ef8973fdd",
+      "exact_content": true,
+      "path": "tests/test_review039_workflow.py"
+    }
+  ],
+  "all_32_changed_file_contents_read_back_exactly": true,
+  "undeclared_baseline_blobs_and_modes_preserved": 1361,
+  "all_83_manifest_inputs_verified_against_content_tree_and_bytes": true,
+  "package": {
+    "zip_sha256": "f7c77423e2fa017d931386ec4cab861e5d7b7198c7dbe6ccdb978f412d570be7",
+    "zip_bytes": 25826976,
+    "members": 310,
+    "expanded_bytes": 31168171,
+    "release": {
+      "kind": "P3_FOCUSED_REVIEW_039_RELEASE_v1",
+      "repository": "afazeliUofT/arc-independent-lab",
+      "content_commit": "eebd0a5d8ac8868d7a4fbf72835ffe25f2803143",
+      "manifest_path": "evidence/P3_FOCUSED_REVIEW_MANIFEST_039.json",
+      "manifest_sha256": "c43d8773caee24ee1ad0b3dbc50bbb847dc02add09d87aed08575db77db64772"
+    },
+    "public_snapshot_files": 104,
+    "public_input_count": 83,
+    "private_packet_files": 172,
+    "complete_member_inventory_crc_and_bytes_verified": true,
+    "actual_launcher_archive_validator_passed": true,
+    "scope_and_all_source_pins_verified": true,
+    "native_or_model_executed": false
+  },
+  "private_package_saved": true,
+  "actual_windows_download_discovery_or_wsl_review_run": false,
+  "second_independent_verdict_present": false,
+  "next_action": "User executes delivered WSL-home command; verify all returned039 original evidence before scientific disposition.",
+  "receipt_outside_zip_reason": "Records final content-commit and ZIP digest without self-referential checksum; exact public snapshot remains in ZIP."
+}
