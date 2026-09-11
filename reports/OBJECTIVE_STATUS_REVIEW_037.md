@@ -43,3 +43,7 @@ Use the focused assessment to decide whether a dated successor comparison has a 
 ## Publication
 
 This checkpoint is prepared for the connected GitHub publication route under the user's standing instruction to place reports and required outputs in the repository and proceed without repeated approval requests. Publication will be checked by reading the committed bytes back; a separate publication receipt will record the observed commit. No laptop action, model rerun or report attachment is required to publish these original project materials.
+
+## Publication addendum
+
+2026-09-11T06:34:36.652633+00:00: checkpoint037 was committed directly to `main` as `1049064dd014189f7f2916dd914cd3ffd82a1453` and every written file was fetched back and matched. Other baseline files and modes were unchanged. This supersedes the prepared-publication status above. Receipt: `evidence/REMOTE_CHECKPOINT_037_VERIFICATION.json` (SHA-256 `75b2fd351aae6c1060ebecd936a137c18c0adcc4c6c2ecb7c97f57137dbfe75f`). This separate addendum/state commit records the completed publication; no human publication command is needed.

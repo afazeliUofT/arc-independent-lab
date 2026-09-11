@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-11T06:31:46.905814+00:00",
+  "updated_utc": "2026-09-11T06:34:36.652633+00:00",
   "current_gate": "P3",
   "gate_status": "in_progress",
   "gate_entered_utc": "2026-09-10T23:29:11.766050+00:00",
   "last_verified_gate": "P3.first_candidate_audit",
-  "last_verified_commit": "91bbec3e2900f18d2c2baef325d575a26e362165",
+  "last_verified_commit": "1049064dd014189f7f2916dd914cd3ffd82a1453",
   "active_task": "P3.second_pass.focused_assessment037_prepared",
   "blocked_on": null,
   "next_action": "Prepare a new concrete independently enforced read-only review session for evidence/P3_FOCUSED_REVIEW_MANIFEST_037.json. Establish current scoped resource admission; do not rerun032. Review mathematical/specification claims now; require actual primary method versions before historical claims, with Pierce-Kuipers and conditional Chvatal still unresolved. Do not alter frozen candidates or begin treatment.",
@@ -85,8 +85,8 @@
     "P2.second_pass_after_reviewed_negative_audit"
   ],
   "remote": "https://github.com/afazeliUofT/arc-independent-lab",
-  "durability_status": "036 publication verified at91bbec3e;037 prepared for direct GitHub publication and readback.",
-  "commit_status": "Connected GitHub publication prepared under standing user authorization; completion is recorded separately after observed readback.",
+  "durability_status": "Checkpoint037 published on main and every written file read back successfully; publication receipt identifies the verified content commit.",
+  "commit_status": "Connected GitHub publication completed and verified; this subsequent record commit preserves that observation.",
   "recovery_dependency": null,
   "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation.",
   "latest_recovery_evidence": [
@@ -138,8 +138,8 @@
   ],
   "handoff_backup_status": "ONE P3_CHECKPOINT_036_ALL_FILES.zip, publication-only; outer ZIP saved for delivery. No receipt discovery, reviewer or candidate launch. User commits/pushes; PI reads GitHub.",
   "latest_publication_verification": {
-    "path": "evidence/REMOTE_CHECKPOINT_036_VERIFICATION.json",
-    "sha256": "ed536b28afefe5b5dc522542d29d0f6e14aac1a64f10ecf2c0e3dd65347f4f45"
+    "path": "evidence/REMOTE_CHECKPOINT_037_VERIFICATION.json",
+    "sha256": "75b2fd351aae6c1060ebecd936a137c18c0adcc4c6c2ecb7c97f57137dbfe75f"
   },
   "last_human_message_verbatim": "Do you know what my initial question was and where we have reached? If yes, review my github repo carefully as it is updated and proceed to the next step",
   "phase1_approval": {
@@ -277,7 +277,7 @@
     "path": "reports/P3_OBJECTIVE_AND_NEXT_DECISION_2026-09-07.md",
     "sha256": "a876bfaf1ef9782df543be91bb63629e389b67ba34aa2b0507593cd66fe0d818"
   },
-  "handoff_preference": "One ZIP, one human-run workflow; openWSLdestination; exactnoncredentialevidence returns throughGitHub; publicationretry cannotrerunmodel.",
+  "handoff_preference": "For original project work, publish directly through authorized connected GitHub when available and verify readback. Use the existing one-ZIP human workflow only when execution on the laptop or an unavailable publication capability requires it; return all expected reports via GitHub.",
   "latest_startup_observation": {
     "path": "evidence/GATE0_CLIENT_PREFLIGHT_OBSERVATION_012_REVIEW.json",
     "sha256": "8cf8d7f29445ef75413bf0d768c14d36ae3160e2014633352acae427fff372cc",
@@ -698,7 +698,7 @@
   },
   "latest_objective_status": {
     "path": "reports/OBJECTIVE_STATUS_REVIEW_037.md",
-    "sha256": "5d17704fbeba764859a7b32ffda93043baa7a297078ff4b1371d011932ad2b5b"
+    "sha256": "16ee229eb436914845c82d93f4402c3f403ee31b41bdd35f598ae1ed33641483"
   },
   "current_publication_checkpoint": "037",
   "auxiliary_auditor_receipt_durability": {

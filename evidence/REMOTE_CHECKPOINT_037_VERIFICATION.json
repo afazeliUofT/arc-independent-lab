@@ -1,0 +1,92 @@
+{
+  "kind": "REMOTE_CHECKPOINT037_PUBLICATION_READBACK_v1",
+  "verified_utc": "2026-09-11T06:34:36.652633+00:00",
+  "commit": "1049064dd014189f7f2916dd914cd3ffd82a1453",
+  "other_baseline_files_unchanged": true,
+  "previous_blob_count": 1334,
+  "current_blob_count": 1343,
+  "repository": "afazeliUofT/arc-independent-lab",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "c5dfc0436477f489cb60b7d5582e14ed1cb415c0002e9e472fa74665365994f5",
+      "git_blob_sha": "ef7c600ff15fb598450a8a83e15cc5132ec07f33",
+      "readback_equal": true
+    },
+    {
+      "path": "state/PROJECT_STATE.json",
+      "sha256": "8c51f3dfd7a786af3d80e1b1be4975377d8089fd33b9bf52e5ba2f9adc91bfac",
+      "git_blob_sha": "24474be149d5ce76b00bde2e419fa53de5964195",
+      "readback_equal": true
+    },
+    {
+      "path": "state/BUDGET.json",
+      "sha256": "54467fbeffc06ceb02189520edd4e1830777d8bdd4caf496872f625d7341aa57",
+      "git_blob_sha": "208cbb376fc2f7534d870d2232e27980d11fa050",
+      "readback_equal": true
+    },
+    {
+      "path": "state/LEDGER.jsonl",
+      "sha256": "3bb9501685b7e75fc28ea65fd7580ee0221ac1faa73b68c3e4ce3845e60f75a3",
+      "git_blob_sha": "d8d43477ec56c1e73c5474541d0c9f2c732bfd99",
+      "readback_equal": true
+    },
+    {
+      "path": "evidence/REMOTE_CHECKPOINT_036_VERIFICATION.json",
+      "sha256": "ed536b28afefe5b5dc522542d29d0f6e14aac1a64f10ecf2c0e3dd65347f4f45",
+      "git_blob_sha": "b7c4ffce561a899d45157e1dcd4590f7f41581e3",
+      "readback_equal": true
+    },
+    {
+      "path": "evidence/P3_SECOND_SEMANTICS_REVIEW_037.md",
+      "sha256": "8bf5054017c6adb6332ab9978b84554f234db80da74d28d6c16fff8dc48eb1c5",
+      "git_blob_sha": "f939210e74f61ef9b9e2ac98b650d4159efdc8b2",
+      "readback_equal": true
+    },
+    {
+      "path": "evidence/P3_SOURCE_GAP_RECHECK_037.md",
+      "sha256": "3d75b83c88bbe6863eb3795b7733ea19d3f2fa4bb41878f44ffb160eeb379a99",
+      "git_blob_sha": "18687bc37f1d87c06a68b9ba84d525d3845c86ae",
+      "readback_equal": true
+    },
+    {
+      "path": "evidence/P3_FOCUSED_REVIEW_MANIFEST_037.json",
+      "sha256": "933071c568f440f7fc57cdc2e606faba8233ec5eddb417ed56b7a6feea9b3d36",
+      "git_blob_sha": "7837ec5fb8547db94084faa3166829ab6ad83ae2",
+      "readback_equal": true
+    },
+    {
+      "path": "evidence/P3_FOCUSED_REVIEW_VALIDATION_037.json",
+      "sha256": "be602c55b29e4d7274491146d0ab3436db38f94e8debda27fc350cf83ab26da6",
+      "git_blob_sha": "6f0ef6bded3cfbabd495a7991cec86070923f0f6",
+      "readback_equal": true
+    },
+    {
+      "path": "docs/P3_FOCUSED_REVIEW_BRIEF_037.md",
+      "sha256": "925e53139cae21103b9601832492f2a14cc15e9f95cd9bcadc6458f9dd46c810",
+      "git_blob_sha": "0ac1ab24f96520401ba9f6eb4ee3c2901b8eb3ba",
+      "readback_equal": true
+    },
+    {
+      "path": "scripts/check_review_packet037.py",
+      "sha256": "c8f2c2f9682089572cffb067278f61f61187d55ee7564e4b601880005339bc6a",
+      "git_blob_sha": "7ba518d74630f827ac744b4538a7291892e397c3",
+      "readback_equal": true
+    },
+    {
+      "path": "reports/OBJECTIVE_STATUS_REVIEW_037.md",
+      "sha256": "5d17704fbeba764859a7b32ffda93043baa7a297078ff4b1371d011932ad2b5b",
+      "git_blob_sha": "6d323edf2523a1247e1eaa9a916fa1f7a88e1d0a",
+      "readback_equal": true
+    },
+    {
+      "path": "reports/DIGEST_2026-09-11.md",
+      "sha256": "c903f774f805a3ba3c5a292821a2b02d0c6ab1713f95efe6de9426240cb3bf7e",
+      "git_blob_sha": "7c28934b4aab9fc7e7cd747f941eb86f8f64a779",
+      "readback_equal": true
+    }
+  ],
+  "scope": "All13 written UTF-8 files read back at the committed revision and compared to exact prepared strings; complete Git tree confirms all other baseline blob IDs and modes unchanged. This receipt refers to that content commit, before this separate publication-record commit.",
+  "independent_scientific_review": false,
+  "new_native_execution": false
+}
