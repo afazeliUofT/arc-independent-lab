@@ -1,0 +1,173 @@
+{
+  "kind": "REMOTE_CHECKPOINT036_VERIFICATION_v1",
+  "checked_utc": "2026-09-11T06:26:17.483091+00:00",
+  "repo": "afazeliUofT/arc-independent-lab",
+  "published_commit": "91bbec3e2900f18d2c2baef325d575a26e362165",
+  "prior_commit": "17bd0df7a4d60f6ddfcffefc73049b1471a5ffd1",
+  "baseline_blobs": 1306,
+  "current_blobs": 1334,
+  "baseline_changed_paths": [
+    "reports/DIGEST_2026-09-10.md",
+    "state/BUDGET.json",
+    "state/LEDGER.jsonl",
+    "state/PROJECT_STATE.json",
+    "state/tool_errors.jsonl"
+  ],
+  "added_paths": [
+    "artifacts/CHECKPOINT_036_PUBLICATION_VALIDATION/20260910_036/README.md",
+    "artifacts/CHECKPOINT_036_PUBLICATION_VALIDATION/20260910_036/SHA256SUMS",
+    "artifacts/CHECKPOINT_036_PUBLICATION_VALIDATION/20260910_036/VALIDATION.json",
+    "evidence/P3_SECOND_AUDIT_MANIFEST_036.json",
+    "evidence/P3_SECOND_AUDIT_WORDING_CORRECTIONS_036.json",
+    "evidence/P3_SECOND_BASELINE_INTEGRITY_036.json",
+    "evidence/P3_SECOND_CONSOLIDATED_TOOL_RECORDS_036.json",
+    "evidence/P3_SECOND_N1_PRIMARY_AUDIT_036.md",
+    "evidence/P3_SECOND_N1_TOOL_ERRORS_036.jsonl",
+    "evidence/P3_SECOND_N2_PRIMARY_AUDIT_036.md",
+    "evidence/P3_SECOND_N2_TOOL_ERRORS_036.jsonl",
+    "evidence/P3_SECOND_N3_PRIMARY_AUDIT_036.md",
+    "evidence/P3_SECOND_N3_TOOL_ERRORS_036.jsonl",
+    "evidence/P3_SECOND_N4_ANALYTIC_WITNESS_036.json",
+    "evidence/P3_SECOND_N4_PRIMARY_AUDIT_036.md",
+    "evidence/P3_SECOND_N4_SOURCE_ACCESS_036.json",
+    "evidence/P3_SECOND_N4_TOOL_ERRORS_036.jsonl",
+    "evidence/P3_SECOND_N5_PRIMARY_AUDIT_036.md",
+    "evidence/P3_SECOND_N5_TOOL_ERRORS_036.jsonl",
+    "evidence/P3_SECOND_ROOT_READ_CORRECTIONS_036.json",
+    "evidence/REMOTE_CHECKPOINT_035_VERIFICATION.json",
+    "evidence/publication035_delivery/HUMAN_CLARIFICATION.json",
+    "evidence/publication035_delivery/REMOTE_OBSERVATION.json",
+    "reports/OBJECTIVE_STATUS_REVIEW_036.md",
+    "reports/P3_SECOND_NOVELTY_AUDIT_036.md",
+    "reports/PAPER_REQUEST_036.md",
+    "scripts/publish_checkpoint036.py",
+    "tests/test_publish_checkpoint036.py"
+  ],
+  "deleted_paths": [],
+  "change_inventory_matches_checkpoint036_baseline_record": true,
+  "unchanged_baseline_blobs": 1301,
+  "manifest_pin_checks": [
+    {
+      "path": "DIAGNOSIS.md",
+      "expected_sha256": "e3106d737f5b50a688d1d5147a015dc091d2986493848b68d33d61949dfa4cc3",
+      "observed_sha256": "e3106d737f5b50a688d1d5147a015dc091d2986493848b68d33d61949dfa4cc3",
+      "matches": true
+    },
+    {
+      "path": "IDEAS.md",
+      "expected_sha256": "73cab9f6ab1f5eda80c7c2adc6d2ed556c63d5652fd65434e4cc4b24383dc3b8",
+      "observed_sha256": "73cab9f6ab1f5eda80c7c2adc6d2ed556c63d5652fd65434e4cc4b24383dc3b8",
+      "matches": true
+    },
+    {
+      "path": "IDEAS_02_RAW.md",
+      "expected_sha256": "9ea79c14951a0662c5db69d3c6fd245e79a5da1b2dec572a542619f08d2a4706",
+      "observed_sha256": "9ea79c14951a0662c5db69d3c6fd245e79a5da1b2dec572a542619f08d2a4706",
+      "matches": true
+    },
+    {
+      "path": "IDEAS_02.md",
+      "expected_sha256": "ac1ba738489abb11730dda6393a6263b06fa303a5f9e0eb63e4b6478fe845962",
+      "observed_sha256": "ac1ba738489abb11730dda6393a6263b06fa303a5f9e0eb63e4b6478fe845962",
+      "matches": true
+    },
+    {
+      "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
+      "expected_sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69",
+      "observed_sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69",
+      "matches": true
+    },
+    {
+      "path": "evidence/P2_SECOND_SPECIFICATION_FREEZE_035.json",
+      "expected_sha256": "5e27b8c451f18515888536a9b43878adc85ce0c3062809b192719375307a2608",
+      "observed_sha256": "5e27b8c451f18515888536a9b43878adc85ce0c3062809b192719375307a2608",
+      "matches": true
+    },
+    {
+      "path": "evidence/P2_SECOND_SUBMISSION_INTEGRITY_035.json",
+      "expected_sha256": "739a917d372e32b85857311dc139f93c81d85fe51c792a3d97bf2d97161ccf1b",
+      "observed_sha256": "739a917d372e32b85857311dc139f93c81d85fe51c792a3d97bf2d97161ccf1b",
+      "matches": true
+    },
+    {
+      "path": "evidence/P2_SECOND_PHASE_BOUNDARY_035.json",
+      "expected_sha256": "ac9805cf2a0412e5cc0b49734d211c3320e762b328786938f083ad1d773432d1",
+      "observed_sha256": "ac9805cf2a0412e5cc0b49734d211c3320e762b328786938f083ad1d773432d1",
+      "matches": true
+    },
+    {
+      "path": "evidence/P3_SECOND_N1_PRIMARY_AUDIT_036.md",
+      "expected_sha256": "0cef34db2488ec13fb37a9700582cce136538a9569d7c6f7fe96bcb36e602ebc",
+      "observed_sha256": "0cef34db2488ec13fb37a9700582cce136538a9569d7c6f7fe96bcb36e602ebc",
+      "matches": true
+    },
+    {
+      "path": "evidence/P3_SECOND_N2_PRIMARY_AUDIT_036.md",
+      "expected_sha256": "d435d1439a804c0528039bf10554c8cc8fa1a35128314121f2ee04b1bf773de4",
+      "observed_sha256": "d435d1439a804c0528039bf10554c8cc8fa1a35128314121f2ee04b1bf773de4",
+      "matches": true
+    },
+    {
+      "path": "evidence/P3_SECOND_N3_PRIMARY_AUDIT_036.md",
+      "expected_sha256": "ff22c14dff9507fcaa080a17f7ee5ba81c121d61aa75b219945f60acb8d3a668",
+      "observed_sha256": "ff22c14dff9507fcaa080a17f7ee5ba81c121d61aa75b219945f60acb8d3a668",
+      "matches": true
+    },
+    {
+      "path": "evidence/P3_SECOND_N4_PRIMARY_AUDIT_036.md",
+      "expected_sha256": "eec0112c9c3384f0843e27031b1f286c680fffc47af3847d96e5172ee85954c2",
+      "observed_sha256": "eec0112c9c3384f0843e27031b1f286c680fffc47af3847d96e5172ee85954c2",
+      "matches": true
+    },
+    {
+      "path": "evidence/P3_SECOND_N5_PRIMARY_AUDIT_036.md",
+      "expected_sha256": "baf68997bb9e975e17f41a21f6a04cb8050b208d347a72ba83411504eb16263b",
+      "observed_sha256": "baf68997bb9e975e17f41a21f6a04cb8050b208d347a72ba83411504eb16263b",
+      "matches": true
+    },
+    {
+      "path": "evidence/P3_SECOND_N4_ANALYTIC_WITNESS_036.json",
+      "expected_sha256": "308491223878ba9bf42e4349c6b3735e3ab0d39636c598683658ac82f4aab5e2",
+      "observed_sha256": "308491223878ba9bf42e4349c6b3735e3ab0d39636c598683658ac82f4aab5e2",
+      "matches": true
+    },
+    {
+      "path": "reports/P3_SECOND_NOVELTY_AUDIT_036.md",
+      "expected_sha256": "142b9b3080ec71b3046ae962e5c55992574ae6dac792d90c0b436778822c8e2b",
+      "observed_sha256": "142b9b3080ec71b3046ae962e5c55992574ae6dac792d90c0b436778822c8e2b",
+      "matches": true
+    },
+    {
+      "path": "evidence/P3_SECOND_N4_SOURCE_ACCESS_036.json",
+      "expected_sha256": "bc926ce97b9820e04b2ad4dd0bd25fbf7082fb75443542e2412b28b162457451",
+      "observed_sha256": "bc926ce97b9820e04b2ad4dd0bd25fbf7082fb75443542e2412b28b162457451",
+      "matches": true
+    },
+    {
+      "path": "reports/PAPER_REQUEST_036.md",
+      "expected_sha256": "7bbdd3eab8b2175caec892c2a9444acb06bea6c968918677f1b69cc24200ec60",
+      "observed_sha256": "7bbdd3eab8b2175caec892c2a9444acb06bea6c968918677f1b69cc24200ec60",
+      "matches": true
+    },
+    {
+      "path": "reports/OBJECTIVE_STATUS_REVIEW_036.md",
+      "expected_sha256": "dc2ecc4579c12fe9b976909319353c47f99aa971a5088edc3890f7b7a9e9ea20",
+      "observed_sha256": "dc2ecc4579c12fe9b976909319353c47f99aa971a5088edc3890f7b7a9e9ea20",
+      "matches": true
+    },
+    {
+      "path": "evidence/P3_SECOND_AUDIT_WORDING_CORRECTIONS_036.json",
+      "expected_sha256": "9ba24189ab4476c106df46c18970b244186b4f8fd43a4b32cbff3617de886b87",
+      "observed_sha256": "9ba24189ab4476c106df46c18970b244186b4f8fd43a4b32cbff3617de886b87",
+      "matches": true
+    },
+    {
+      "path": "evidence/P3_SECOND_CONSOLIDATED_TOOL_RECORDS_036.json",
+      "expected_sha256": "03503cba78b7c76f41cf3f3b154230e58b03997762f9a8041612e1783585f359",
+      "observed_sha256": "03503cba78b7c76f41cf3f3b154230e58b03997762f9a8041612e1783585f359",
+      "matches": true
+    }
+  ],
+  "all_pinned_scientific_inputs_match": true,
+  "verification_scope": "Recursive GitHub tree comparison of every baseline blob and mode, plus independent SHA-256 check of each second-audit manifest pin fetched at the published commit. Other changed files were not individually SHA-256 checked; this is not an independent scientific verdict."
+}

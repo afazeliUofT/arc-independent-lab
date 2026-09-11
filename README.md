@@ -1,5 +1,9 @@
 # ARC Independent Lab
 
+## Current checkpoint — 037
+
+The original objective and current state are summarized in `reports/OBJECTIVE_STATUS_REVIEW_037.md`. Checkpoint036 is verified on GitHub. The second candidate set has a PI novelty audit and a prepared focused analytical review packet; it has no independent second verdict or efficacy result. The new N1–N3 finite-credit deduction is in `evidence/P3_SECOND_SEMANTICS_REVIEW_037.md`. Start the next step with `docs/P3_FOCUSED_REVIEW_BRIEF_037.md` and its pinned manifest. Earlier operational status sections below are historical. No native reviewer rerun is prescribed here.
+
 Autonomous research programme funded by Ali Fazeli. Current phase: **Phase 3 — novelty audit and programme design**. Ali approved `DIAGNOSIS.md` and `IDEAS.md`. Read `reports/P3_RESIDUAL_AUDIT_2026-09-07.md` with the preserved first audit, `NOVELTY_AUDIT.md`. The supplement corrects the distinction between reconstructible information and the actual answer path, completes the observer/C4 residual mappings, and limits whole-system priority claims. Independent review and measured design remain outstanding; no Phase 3 treatment has run.
 
 ## Resume without conversation memory

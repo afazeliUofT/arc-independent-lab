@@ -1,0 +1,28 @@
+{
+  "kind": "REVIEW037_PACKET_VALIDATION_v1",
+  "checked_utc": "2026-09-11T06:30:03.082520+00:00",
+  "actual_inputs": {
+    "kind": "FOCUSED_REVIEW037_INPUT_INTEGRITY_v1",
+    "manifest_sha256": "933071c568f440f7fc57cdc2e606faba8233ec5eddb417ed56b7a6feea9b3d36",
+    "input_count": 30,
+    "input_integrity": "PASS",
+    "errors": [],
+    "scientific_verdict": null,
+    "independent_reviewer_execution": false
+  },
+  "copied_packet_accepted": true,
+  "intentional_changed_specification_rejected": {
+    "kind": "FOCUSED_REVIEW037_INPUT_INTEGRITY_v1",
+    "manifest_sha256": "a263a9215997e44410aa9c2fc95a4888702d96cfb3103cd8cf8854034d158c77",
+    "input_count": 30,
+    "input_integrity": "FAIL",
+    "errors": [
+      "Hash mismatch: docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md"
+    ],
+    "scientific_verdict": null,
+    "independent_reviewer_execution": false
+  },
+  "scope": "File identity check and a corrupted-input negative control only; no candidate implementation, efficacy execution or independent reviewer.",
+  "checker_sha256": "c8f2c2f9682089572cffb067278f61f61187d55ee7564e4b601880005339bc6a",
+  "wording_correction": "R4 now distinguishes analytical reachability from actual execution. Checker source unchanged; corrupted-specification negative control remains the same."
+}
