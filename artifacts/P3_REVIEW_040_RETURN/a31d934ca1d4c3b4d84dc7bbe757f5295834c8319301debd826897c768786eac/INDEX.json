@@ -1,0 +1,157 @@
+{
+  "collection_is_not_execution_or_scientific_admission": true,
+  "consistency": "each present source stable through final metadata check; not an atomic run snapshot",
+  "credentials_or_cache_paths_read": false,
+  "fixed_allowlist_only": true,
+  "git_commands_executed": false,
+  "kind": "P3_REVIEW_040_EVIDENCE_COLLECTION_040_v1",
+  "native_or_model_operations_executed": false,
+  "recursive_discovery": false,
+  "source_files_modified": false,
+  "source_receipts_reconstructed": false,
+  "sources": [
+    {
+      "archive_path": "files/delivery/P3_FOCUSED_REVIEW_040/REPORT.json",
+      "byte_limit": 16777216,
+      "bytes": 1217401,
+      "sha256": "877c4eeda0b31154d42885f8afbe7e01a56a5a452bdcef56a279b46cb2a7c372",
+      "source_mode": "0644",
+      "source_path": "delivery/P3_FOCUSED_REVIEW_040/REPORT.json",
+      "status": "PRESENT"
+    },
+    {
+      "archive_path": "files/delivery/P3_FOCUSED_REVIEW_040/REPORT.sha256",
+      "byte_limit": 65,
+      "bytes": 65,
+      "sha256": "8bd136f19cb1ba0cb7b37679538ef9ec362a9b10e2c854bb1c2975a92bfbdb6a",
+      "source_mode": "0644",
+      "source_path": "delivery/P3_FOCUSED_REVIEW_040/REPORT.sha256",
+      "status": "PRESENT"
+    },
+    {
+      "archive_path": "files/delivery/P3_FOCUSED_REVIEW_040/ATTEMPT.json",
+      "byte_limit": 2097152,
+      "bytes": 4429,
+      "sha256": "a3f091ba1a56ff472e773305c67ea4776ac1074d8c828aeba7f2301d42d3bba4",
+      "source_mode": "0644",
+      "source_path": "delivery/P3_FOCUSED_REVIEW_040/ATTEMPT.json",
+      "status": "PRESENT"
+    },
+    {
+      "archive_path": "files/delivery/P3_FOCUSED_REVIEW_040/AUTHORIZATION.md",
+      "byte_limit": 2097152,
+      "bytes": 4607,
+      "sha256": "428729a20cc52abdf81b8d273326e6361c417f2806814e7af4818c0b5823416b",
+      "source_mode": "0644",
+      "source_path": "delivery/P3_FOCUSED_REVIEW_040/AUTHORIZATION.md",
+      "status": "PRESENT"
+    },
+    {
+      "archive_path": "files/delivery/P3_FOCUSED_REVIEW_040/synthetic_SESSION.json",
+      "byte_limit": 16777216,
+      "bytes": 129193,
+      "sha256": "29935ce2c5fd7595b1ab9410b1e5014794a5f6371bae4b6f1a528b508a6db71b",
+      "source_mode": "0644",
+      "source_path": "delivery/P3_FOCUSED_REVIEW_040/synthetic_SESSION.json",
+      "status": "PRESENT"
+    },
+    {
+      "archive_path": "files/delivery/P3_FOCUSED_REVIEW_040/synthetic_STAGE.json",
+      "byte_limit": 16777216,
+      "bytes": 156010,
+      "sha256": "0d65dd3a08690aa32dd75b6545744c65118462e13c71105661ae86ec0a10a18c",
+      "source_mode": "0644",
+      "source_path": "delivery/P3_FOCUSED_REVIEW_040/synthetic_STAGE.json",
+      "status": "PRESENT"
+    },
+    {
+      "archive_path": "files/delivery/P3_FOCUSED_REVIEW_040/science_SESSION.json",
+      "byte_limit": 16777216,
+      "bytes": 165161,
+      "sha256": "c2e6a30dc2b2e6fb7d9ba2929a4968c30ce9b182c5ff9f7114f469a65cfd7f04",
+      "source_mode": "0644",
+      "source_path": "delivery/P3_FOCUSED_REVIEW_040/science_SESSION.json",
+      "status": "PRESENT"
+    },
+    {
+      "archive_path": "files/delivery/P3_FOCUSED_REVIEW_040/science_STAGE.json",
+      "byte_limit": 16777216,
+      "bytes": 221981,
+      "sha256": "b93f57740499d147ab82ce0279c3bc69244b01528930081efe340b801ce6efee",
+      "source_mode": "0644",
+      "source_path": "delivery/P3_FOCUSED_REVIEW_040/science_STAGE.json",
+      "status": "PRESENT"
+    },
+    {
+      "archive_path": "files/delivery/P3_FOCUSED_REVIEW_040/science_output/REVIEW_VERDICT.json",
+      "byte_limit": 1048576,
+      "bytes": 60092,
+      "private_source_bulk_copy_guard": {
+        "detected": false,
+        "normalized_contiguous_word_threshold": 200,
+        "shorter_quotations_and_semantic_copying_not_certified": true,
+        "source_text_saved_or_published": false,
+        "sources": [
+          {
+            "long_exact_overlap_detected": false,
+            "sha256": "79dddaae8f017277e72c540af29072a5e4fd4b7d6a6bde94c8b56472f756ce83",
+            "source_id": "CHV79",
+            "status": "CHECKED"
+          },
+          {
+            "long_exact_overlap_detected": false,
+            "sha256": "1d6a43840931a727c0bbf047bdd938cd8b8815f6a65c121ff7cbb60f4739faf6",
+            "source_id": "PK97",
+            "status": "CHECKED"
+          }
+        ],
+        "status": "CHECKED_NO_LONG_EXACT_OVERLAP"
+      },
+      "sha256": "a31b9d8ec2103f09d81b963fd7f9ff51c4287490a0f0bf2f74f5dfbc1407d673",
+      "source_mode": "0400",
+      "source_path": "delivery/P3_FOCUSED_REVIEW_040/science_output/REVIEW_VERDICT.json",
+      "status": "PRESENT"
+    },
+    {
+      "archive_path": "files/delivery/P3_040_RETURN_WORKFLOW/WORKFLOW_REPORT.json",
+      "byte_limit": 1048576,
+      "bytes": 1391,
+      "sha256": "83d82b22a3d1c7a1aa881e3cc2fd601606d3e42fb2478eee5d445399a4cdc054",
+      "source_mode": "0600",
+      "source_path": "delivery/P3_040_RETURN_WORKFLOW/WORKFLOW_REPORT.json",
+      "status": "PRESENT"
+    },
+    {
+      "archive_path": "files/delivery/P3_040_RETURN_WORKFLOW/LAUNCH_RESERVED.json",
+      "byte_limit": 1048576,
+      "bytes": 398,
+      "sha256": "188053caf123901d723e1555883d31658cab5a9ebe6cb56d7b34c0ccbfb67a10",
+      "source_mode": "0600",
+      "source_path": "delivery/P3_040_RETURN_WORKFLOW/LAUNCH_RESERVED.json",
+      "status": "PRESENT"
+    },
+    {
+      "archive_path": "files/delivery/P3_040_RETURN_WORKFLOW/LAUNCH_OUTCOME.json",
+      "byte_limit": 1048576,
+      "bytes": 1391,
+      "sha256": "83d82b22a3d1c7a1aa881e3cc2fd601606d3e42fb2478eee5d445399a4cdc054",
+      "source_mode": "0600",
+      "source_path": "delivery/P3_040_RETURN_WORKFLOW/LAUNCH_OUTCOME.json",
+      "status": "PRESENT"
+    }
+  ],
+  "summary": {
+    "actual_usage": "READ_SESSION_AND_CONTROLLER_RECEIPTS; NEVER_INFER_ZERO_FROM_MISSING_FILES",
+    "collection_status": "MAIN_REPORT_PRESENT_FOR_REVIEW",
+    "main_report": "PRESENT",
+    "missing_files_do_not_establish_no_execution": true,
+    "original040_file_count": 9,
+    "present_file_count": 12,
+    "verdict": "PRESENT",
+    "verdict_execution_admission": "NOT_EVALUATED_BY_COLLECTOR",
+    "workflow_launch_outcome": "PRESENT",
+    "workflow_launch_reservation": "PRESENT",
+    "workflow_report": "PRESENT"
+  },
+  "timestamp_omitted_for_idempotence": true
+}

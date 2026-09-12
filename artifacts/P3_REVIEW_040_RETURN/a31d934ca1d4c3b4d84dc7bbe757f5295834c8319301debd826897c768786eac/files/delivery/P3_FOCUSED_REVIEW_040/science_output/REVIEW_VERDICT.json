@@ -1,0 +1,1353 @@
+{
+  "schema_version": 1,
+  "kind": "P3_FOCUSED_REVIEW_VERDICT_039_v1",
+  "received_utc": "2026-09-12T02:48:32.138885+00:00",
+  "packet_manifest_sha256": "1546dd761c3f3c1fa7b44f2d9df0ff2358e96ca37b2c1d3d3230aa6735927142",
+  "actual_evidence_sha256": {
+    "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69",
+    "evidence/P3_SECOND_N1_PRIMARY_AUDIT_036.md": "0cef34db2488ec13fb37a9700582cce136538a9569d7c6f7fe96bcb36e602ebc",
+    "evidence/P3_CHVATAL_METHODS_038.md": "870708747d553d12b706e309d34538b7406a863ce325b8280a6f774f063d5e4f",
+    "private_papers/70e60317cc1e7815118aac54b00d3aadf5558f7bc219ca2d3b6e3396c2611086.pdf": "70e60317cc1e7815118aac54b00d3aadf5558f7bc219ca2d3b6e3396c2611086",
+    "reading/CHV79/full_text.txt": "79dddaae8f017277e72c540af29072a5e4fd4b7d6a6bde94c8b56472f756ce83",
+    "reading/CHV79/page_002.png": "e8c088d5943bae525e1d56c696d8d506aebd5681828986d32379b630e8955c06",
+    "reading/CHV79/page_003.png": "451199e43c5d0cb095b82f89bc92523534a17c00a51f49762a24d7f27f636f47",
+    "reading/CHV79/page_004.png": "b82be68b204e821856d58331f372a3328a941d6bbfb164d7854d2097c2b0919c",
+    "evidence/P3_SECOND_N2_PRIMARY_AUDIT_036.md": "d435d1439a804c0528039bf10554c8cc8fa1a35128314121f2ee04b1bf773de4",
+    "evidence/P3_SECOND_SEMANTICS_REVIEW_037.md": "8bf5054017c6adb6332ab9978b84554f234db80da74d28d6c16fff8dc48eb1c5",
+    "evidence/P3_SECOND_N3_PRIMARY_AUDIT_036.md": "ff22c14dff9507fcaa080a17f7ee5ba81c121d61aa75b219945f60acb8d3a668",
+    "evidence/P3_SECOND_N4_ANALYTIC_WITNESS_036.json": "308491223878ba9bf42e4349c6b3735e3ab0d39636c598683658ac82f4aab5e2",
+    "evidence/P3_PIERCE_KUIPERS_METHODS_038.md": "1995e36a9f8e5f9f201d9b63ba8a7c39400f3e8e0046009a1c59973c2023188e",
+    "private_papers/873998cb1f647756e12f061f5c9152c2bae9fa3b37b0efa45432aa4b7e9df570.pdf": "873998cb1f647756e12f061f5c9152c2bae9fa3b37b0efa45432aa4b7e9df570",
+    "reading/PK97/full_text.txt": "1d6a43840931a727c0bbf047bdd938cd8b8815f6a65c121ff7cbb60f4739faf6",
+    "reading/PK97/page_028.png": "3152f5daab733b395222b21b6ddef9965a5abd0290684ed5f0063ecb5adc57f5",
+    "reading/PK97/page_039.png": "4baee48474170602ca8e3c9123796fcb30cbef2933bf89198950fc113887dbb4",
+    "reading/PK97/page_040.png": "bbb63b7607edfab83ec014d902e71c38db91632ff76fa569ba5e3d1b1563adae",
+    "reading/PK97/page_046.png": "d2863e3ce75af1b310ef7769fc438c19fc8baf89acc7f20b383160c8a88e4231",
+    "reading/PK97/page_047.png": "3865d5840e8ae4fc7bca8e9c533c657ffbbb66ebfa830648b47f9f0b42e738a5",
+    "reading/PK97/page_048.png": "f9e9094a377ffc65bc4ce63e4a6fe0a451792bd48e6ac07ac9a49629c4ca0b82",
+    "evidence/P3_SECOND_N5_PRIMARY_AUDIT_036.md": "baf68997bb9e975e17f41a21f6a04cb8050b208d347a72ba83411504eb16263b",
+    "reading/PK97/page_001.png": "8a1c9ab5491f09fffa94a9445b3d02e507408ddd1b03357d9cd407967ccdaef3",
+    "reading/PK97/page_045.png": "2e0afc190d0b3c47c2b0f8832fb79e5f7d43430ad14813a67cfceab9f580e533"
+  },
+  "source_delivery_receipt": {
+    "kind": "P3_FOCUSED_SOURCE_DELIVERY_039_v1",
+    "scientific_manifest_sha256": "927ac29fa1106c533588fb6b999736b5cb6f9d8d4389c61e049c03f9afa9628e",
+    "packet_manifest_sha256": "1546dd761c3f3c1fa7b44f2d9df0ff2358e96ca37b2c1d3d3230aa6735927142",
+    "descriptor_sha256": "1cea28986d16aa16320cfa1f4d764d02c5cd573f5fd5c04d6aaff41050a76ab9",
+    "missing_required_texts": [],
+    "papers": [
+      {
+        "source_id": "CHV79",
+        "pdf_sha256": "70e60317cc1e7815118aac54b00d3aadf5558f7bc219ca2d3b6e3396c2611086",
+        "full_text_delivered": true,
+        "page_texts_delivered": [],
+        "page_images_delivered": [
+          2,
+          3,
+          4
+        ],
+        "required_page_images": [
+          2,
+          3,
+          4
+        ],
+        "required_source_delivery_complete": true
+      },
+      {
+        "source_id": "PK97",
+        "pdf_sha256": "873998cb1f647756e12f061f5c9152c2bae9fa3b37b0efa45432aa4b7e9df570",
+        "full_text_delivered": true,
+        "page_texts_delivered": [],
+        "page_images_delivered": [
+          1,
+          28,
+          39,
+          40,
+          45,
+          46,
+          47,
+          48
+        ],
+        "required_page_images": [
+          1,
+          28,
+          39,
+          40,
+          45,
+          46,
+          47,
+          48
+        ],
+        "required_source_delivery_complete": true
+      }
+    ],
+    "all_required_delivery_complete": true,
+    "text_ranges_delivered": {
+      "DIAGNOSIS.md": [
+        [
+          0,
+          81715
+        ]
+      ],
+      "FOCUSED_SCOPE.json": [
+        [
+          0,
+          27214
+        ]
+      ],
+      "IDEAS_02.md": [
+        [
+          0,
+          92787
+        ]
+      ],
+      "IDEAS_02_RAW.md": [
+        [
+          0,
+          36779
+        ]
+      ],
+      "docs/OBJECTIVE_CONTINUITY_2026-09-07.md": [
+        [
+          0,
+          3380
+        ]
+      ],
+      "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md": [
+        [
+          0,
+          40809
+        ]
+      ],
+      "docs/P3_FOCUSED_REVIEW_BRIEF_037.md": [
+        [
+          0,
+          9317
+        ]
+      ],
+      "docs/P3_FOCUSED_REVIEW_BRIEF_038.md": [
+        [
+          0,
+          8714
+        ]
+      ],
+      "docs/P3_SOURCE_PACKET_EXECUTION_038.md": [
+        [
+          0,
+          7181
+        ]
+      ],
+      "docs/USER_AMENDMENTS_2026-09-06.md": [
+        [
+          0,
+          3641
+        ]
+      ],
+      "docs/governing/00_START_HERE.md": [
+        [
+          0,
+          10172
+        ]
+      ],
+      "docs/governing/01_THE_PROBLEM.md": [
+        [
+          0,
+          8638
+        ]
+      ],
+      "docs/governing/02_RESEARCH_PROCESS.md": [
+        [
+          0,
+          15826
+        ]
+      ],
+      "docs/governing/03_AUTONOMY_SPEC.md": [
+        [
+          0,
+          22288
+        ]
+      ],
+      "docs/governing/04_RESOURCES_AND_SETUP.md": [
+        [
+          0,
+          9318
+        ]
+      ],
+      "docs/governing/05_OPERATIONAL_LESSONS.md": [
+        [
+          0,
+          10715
+        ]
+      ],
+      "evidence/P2_SECOND_PHASE_BOUNDARY_035.json": [
+        [
+          0,
+          1773
+        ]
+      ],
+      "evidence/P2_SECOND_SPECIFICATION_FREEZE_035.json": [
+        [
+          0,
+          800
+        ]
+      ],
+      "evidence/P2_SECOND_SUBMISSION_INTEGRITY_035.json": [
+        [
+          0,
+          3337
+        ]
+      ],
+      "evidence/P3_CHVATAL_METHODS_038.md": [
+        [
+          0,
+          13110
+        ]
+      ],
+      "evidence/P3_FIRST_AUDIT_ADMISSION_033.json": [
+        [
+          0,
+          3109
+        ]
+      ],
+      "evidence/P3_FOCUSED_REVIEW_MANIFEST_037.json": [
+        [
+          0,
+          6059
+        ]
+      ],
+      "evidence/P3_FOCUSED_REVIEW_MANIFEST_038.json": [
+        [
+          0,
+          8368
+        ]
+      ],
+      "evidence/P3_PIERCE_KUIPERS_METHODS_038.md": [
+        [
+          0,
+          17070
+        ]
+      ],
+      "evidence/P3_PRIMARY_SOURCE_INVENTORY_038.json": [
+        [
+          0,
+          4161
+        ]
+      ],
+      "evidence/P3_SECOND_AUDIT_MANIFEST_036.json": [
+        [
+          0,
+          4498
+        ]
+      ],
+      "evidence/P3_SECOND_N1_PRIMARY_AUDIT_036.md": [
+        [
+          0,
+          34839
+        ]
+      ],
+      "evidence/P3_SECOND_N2_PRIMARY_AUDIT_036.md": [
+        [
+          0,
+          26867
+        ]
+      ],
+      "evidence/P3_SECOND_N3_PRIMARY_AUDIT_036.md": [
+        [
+          0,
+          26913
+        ]
+      ],
+      "evidence/P3_SECOND_N4_ANALYTIC_WITNESS_036.json": [
+        [
+          0,
+          2263
+        ]
+      ],
+      "evidence/P3_SECOND_N4_PRIMARY_AUDIT_036.md": [
+        [
+          0,
+          13883
+        ]
+      ],
+      "evidence/P3_SECOND_N5_PRIMARY_AUDIT_036.md": [
+        [
+          0,
+          32521
+        ]
+      ],
+      "evidence/P3_SECOND_SEMANTICS_REVIEW_037.md": [
+        [
+          0,
+          8435
+        ]
+      ],
+      "evidence/P3_SOURCE_GAP_RECHECK_037.md": [
+        [
+          0,
+          4360
+        ]
+      ],
+      "reading/CHV79/full_text.txt": [
+        [
+          0,
+          7411
+        ]
+      ],
+      "reading/PK97/full_text.txt": [
+        [
+          0,
+          175258
+        ]
+      ],
+      "reports/OBJECTIVE_STATUS_REVIEW_036.md": [
+        [
+          0,
+          9080
+        ]
+      ],
+      "reports/OBJECTIVE_STATUS_REVIEW_038.md": [
+        [
+          0,
+          9687
+        ]
+      ],
+      "reports/P3_SECOND_NOVELTY_AUDIT_036.md": [
+        [
+          0,
+          20371
+        ]
+      ],
+      "reports/PAPER_REQUEST_036.md": [
+        [
+          0,
+          2300
+        ]
+      ],
+      "scripts/check_review_packet037.py": [
+        [
+          0,
+          2097
+        ]
+      ],
+      "scripts/stage_source_packet038.py": [
+        [
+          0,
+          17541
+        ]
+      ],
+      "tests/test_stage_source_packet038.py": [
+        [
+          0,
+          9983
+        ]
+      ]
+    },
+    "delivery_events": [
+      {
+        "tool": "read_text",
+        "path": "docs/governing/00_START_HERE.md",
+        "sha256": "d598a44576b222d7465fb691671420e85ec10f738a8424f2f2f223c77af4336a",
+        "offset": 0,
+        "next_offset": 10172
+      },
+      {
+        "tool": "read_text",
+        "path": "docs/governing/01_THE_PROBLEM.md",
+        "sha256": "e89ddd629cfc839be31d0127acb59354b5e38d23e77859a8d8c7bbea87e00d3e",
+        "offset": 0,
+        "next_offset": 8638
+      },
+      {
+        "tool": "read_text",
+        "path": "docs/governing/02_RESEARCH_PROCESS.md",
+        "sha256": "7bf3c496962d0ede489ef10a237d3b70830fb439f3395235c3b8c18a23c4bc3d",
+        "offset": 0,
+        "next_offset": 15826
+      },
+      {
+        "tool": "read_text",
+        "path": "docs/governing/03_AUTONOMY_SPEC.md",
+        "sha256": "b4beb0712e44fa7621da14bc2e9c55fb66dbd7866a93cc335b36f9f532b2a912",
+        "offset": 0,
+        "next_offset": 22288
+      },
+      {
+        "tool": "read_text",
+        "path": "docs/governing/04_RESOURCES_AND_SETUP.md",
+        "sha256": "00e2e878fbfc1a11d56ada0ed512bd53443250326a0275ad082f842013c25cd5",
+        "offset": 0,
+        "next_offset": 9318
+      },
+      {
+        "tool": "read_text",
+        "path": "docs/governing/05_OPERATIONAL_LESSONS.md",
+        "sha256": "bcc4d50bb8b4b9d32c3a8859e9b1cd645fea82cb93184792191649efc30fc000",
+        "offset": 0,
+        "next_offset": 10715
+      },
+      {
+        "tool": "read_text",
+        "path": "docs/USER_AMENDMENTS_2026-09-06.md",
+        "sha256": "dc61574fa31f4e132f181b100e49df59cbb1272e82ec01cd08bb8c25ac4e1e15",
+        "offset": 0,
+        "next_offset": 3641
+      },
+      {
+        "tool": "read_text",
+        "path": "docs/OBJECTIVE_CONTINUITY_2026-09-07.md",
+        "sha256": "7c7b8fe74bba7c97105ffe7faf0d5195fe173b40d72328db50d8034e4f1558b5",
+        "offset": 0,
+        "next_offset": 3380
+      },
+      {
+        "tool": "read_text",
+        "path": "DIAGNOSIS.md",
+        "sha256": "e3106d737f5b50a688d1d5147a015dc091d2986493848b68d33d61949dfa4cc3",
+        "offset": 0,
+        "next_offset": 81715
+      },
+      {
+        "tool": "read_text",
+        "path": "DIAGNOSIS.md",
+        "sha256": "e3106d737f5b50a688d1d5147a015dc091d2986493848b68d33d61949dfa4cc3",
+        "offset": 0,
+        "next_offset": 18000
+      },
+      {
+        "tool": "read_text",
+        "path": "DIAGNOSIS.md",
+        "sha256": "e3106d737f5b50a688d1d5147a015dc091d2986493848b68d33d61949dfa4cc3",
+        "offset": 18000,
+        "next_offset": 36000
+      },
+      {
+        "tool": "read_text",
+        "path": "DIAGNOSIS.md",
+        "sha256": "e3106d737f5b50a688d1d5147a015dc091d2986493848b68d33d61949dfa4cc3",
+        "offset": 36000,
+        "next_offset": 54000
+      },
+      {
+        "tool": "read_text",
+        "path": "DIAGNOSIS.md",
+        "sha256": "e3106d737f5b50a688d1d5147a015dc091d2986493848b68d33d61949dfa4cc3",
+        "offset": 54000,
+        "next_offset": 72000
+      },
+      {
+        "tool": "read_text",
+        "path": "DIAGNOSIS.md",
+        "sha256": "e3106d737f5b50a688d1d5147a015dc091d2986493848b68d33d61949dfa4cc3",
+        "offset": 72000,
+        "next_offset": 81715
+      },
+      {
+        "tool": "read_text",
+        "path": "docs/P3_FOCUSED_REVIEW_BRIEF_038.md",
+        "sha256": "341cd4a62691279ca5897e08ac6cde073cc831965687204833f3f9e8a9d3e50b",
+        "offset": 0,
+        "next_offset": 8714
+      },
+      {
+        "tool": "read_text",
+        "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
+        "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69",
+        "offset": 0,
+        "next_offset": 40809
+      },
+      {
+        "tool": "read_text",
+        "path": "FOCUSED_SCOPE.json",
+        "sha256": "1cea28986d16aa16320cfa1f4d764d02c5cd573f5fd5c04d6aaff41050a76ab9",
+        "offset": 0,
+        "next_offset": 27214
+      },
+      {
+        "tool": "read_text",
+        "path": "IDEAS_02_RAW.md",
+        "sha256": "9ea79c14951a0662c5db69d3c6fd245e79a5da1b2dec572a542619f08d2a4706",
+        "offset": 0,
+        "next_offset": 18000
+      },
+      {
+        "tool": "read_text",
+        "path": "IDEAS_02_RAW.md",
+        "sha256": "9ea79c14951a0662c5db69d3c6fd245e79a5da1b2dec572a542619f08d2a4706",
+        "offset": 18000,
+        "next_offset": 36000
+      },
+      {
+        "tool": "read_text",
+        "path": "IDEAS_02_RAW.md",
+        "sha256": "9ea79c14951a0662c5db69d3c6fd245e79a5da1b2dec572a542619f08d2a4706",
+        "offset": 36000,
+        "next_offset": 36779
+      },
+      {
+        "tool": "read_text",
+        "path": "IDEAS_02.md",
+        "sha256": "ac1ba738489abb11730dda6393a6263b06fa303a5f9e0eb63e4b6478fe845962",
+        "offset": 0,
+        "next_offset": 18000
+      },
+      {
+        "tool": "read_text",
+        "path": "IDEAS_02.md",
+        "sha256": "ac1ba738489abb11730dda6393a6263b06fa303a5f9e0eb63e4b6478fe845962",
+        "offset": 18000,
+        "next_offset": 36000
+      },
+      {
+        "tool": "read_text",
+        "path": "IDEAS_02.md",
+        "sha256": "ac1ba738489abb11730dda6393a6263b06fa303a5f9e0eb63e4b6478fe845962",
+        "offset": 36000,
+        "next_offset": 54000
+      },
+      {
+        "tool": "read_text",
+        "path": "IDEAS_02.md",
+        "sha256": "ac1ba738489abb11730dda6393a6263b06fa303a5f9e0eb63e4b6478fe845962",
+        "offset": 54000,
+        "next_offset": 72000
+      },
+      {
+        "tool": "read_text",
+        "path": "IDEAS_02.md",
+        "sha256": "ac1ba738489abb11730dda6393a6263b06fa303a5f9e0eb63e4b6478fe845962",
+        "offset": 72000,
+        "next_offset": 90000
+      },
+      {
+        "tool": "read_text",
+        "path": "IDEAS_02.md",
+        "sha256": "ac1ba738489abb11730dda6393a6263b06fa303a5f9e0eb63e4b6478fe845962",
+        "offset": 90000,
+        "next_offset": 92787
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P2_SECOND_SPECIFICATION_FREEZE_035.json",
+        "sha256": "5e27b8c451f18515888536a9b43878adc85ce0c3062809b192719375307a2608",
+        "offset": 0,
+        "next_offset": 800
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P2_SECOND_SUBMISSION_INTEGRITY_035.json",
+        "sha256": "739a917d372e32b85857311dc139f93c81d85fe51c792a3d97bf2d97161ccf1b",
+        "offset": 0,
+        "next_offset": 3337
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P2_SECOND_PHASE_BOUNDARY_035.json",
+        "sha256": "ac9805cf2a0412e5cc0b49734d211c3320e762b328786938f083ad1d773432d1",
+        "offset": 0,
+        "next_offset": 1773
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_FIRST_AUDIT_ADMISSION_033.json",
+        "sha256": "a520a8b7ca680ee402a2ac88733998953ec2dafcb30fb2d693db3f56fd4b877a",
+        "offset": 0,
+        "next_offset": 3109
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_SECOND_AUDIT_MANIFEST_036.json",
+        "sha256": "4f318e88c667709364e40f800a06d5d57b22306ce8ae06340ea489721eac62d0",
+        "offset": 0,
+        "next_offset": 4498
+      },
+      {
+        "tool": "read_text",
+        "path": "reports/P3_SECOND_NOVELTY_AUDIT_036.md",
+        "sha256": "142b9b3080ec71b3046ae962e5c55992574ae6dac792d90c0b436778822c8e2b",
+        "offset": 0,
+        "next_offset": 18000
+      },
+      {
+        "tool": "read_text",
+        "path": "reports/P3_SECOND_NOVELTY_AUDIT_036.md",
+        "sha256": "142b9b3080ec71b3046ae962e5c55992574ae6dac792d90c0b436778822c8e2b",
+        "offset": 18000,
+        "next_offset": 20371
+      },
+      {
+        "tool": "read_text",
+        "path": "reports/OBJECTIVE_STATUS_REVIEW_036.md",
+        "sha256": "dc2ecc4579c12fe9b976909319353c47f99aa971a5088edc3890f7b7a9e9ea20",
+        "offset": 0,
+        "next_offset": 9080
+      },
+      {
+        "tool": "read_text",
+        "path": "reports/PAPER_REQUEST_036.md",
+        "sha256": "7bbdd3eab8b2175caec892c2a9444acb06bea6c968918677f1b69cc24200ec60",
+        "offset": 0,
+        "next_offset": 2300
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_SECOND_N1_PRIMARY_AUDIT_036.md",
+        "sha256": "0cef34db2488ec13fb37a9700582cce136538a9569d7c6f7fe96bcb36e602ebc",
+        "offset": 0,
+        "next_offset": 34839
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_SECOND_N2_PRIMARY_AUDIT_036.md",
+        "sha256": "d435d1439a804c0528039bf10554c8cc8fa1a35128314121f2ee04b1bf773de4",
+        "offset": 0,
+        "next_offset": 26867
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_SECOND_N3_PRIMARY_AUDIT_036.md",
+        "sha256": "ff22c14dff9507fcaa080a17f7ee5ba81c121d61aa75b219945f60acb8d3a668",
+        "offset": 0,
+        "next_offset": 26913
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_SECOND_N4_PRIMARY_AUDIT_036.md",
+        "sha256": "eec0112c9c3384f0843e27031b1f286c680fffc47af3847d96e5172ee85954c2",
+        "offset": 0,
+        "next_offset": 13883
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_SECOND_N5_PRIMARY_AUDIT_036.md",
+        "sha256": "baf68997bb9e975e17f41a21f6a04cb8050b208d347a72ba83411504eb16263b",
+        "offset": 0,
+        "next_offset": 32521
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_SECOND_N4_ANALYTIC_WITNESS_036.json",
+        "sha256": "308491223878ba9bf42e4349c6b3735e3ab0d39636c598683658ac82f4aab5e2",
+        "offset": 0,
+        "next_offset": 2263
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_SOURCE_GAP_RECHECK_037.md",
+        "sha256": "3d75b83c88bbe6863eb3795b7733ea19d3f2fa4bb41878f44ffb160eeb379a99",
+        "offset": 0,
+        "next_offset": 4360
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_SECOND_SEMANTICS_REVIEW_037.md",
+        "sha256": "8bf5054017c6adb6332ab9978b84554f234db80da74d28d6c16fff8dc48eb1c5",
+        "offset": 0,
+        "next_offset": 8435
+      },
+      {
+        "tool": "read_text",
+        "path": "docs/P3_FOCUSED_REVIEW_BRIEF_037.md",
+        "sha256": "925e53139cae21103b9601832492f2a14cc15e9f95cd9bcadc6458f9dd46c810",
+        "offset": 0,
+        "next_offset": 9317
+      },
+      {
+        "tool": "read_text",
+        "path": "scripts/check_review_packet037.py",
+        "sha256": "c8f2c2f9682089572cffb067278f61f61187d55ee7564e4b601880005339bc6a",
+        "offset": 0,
+        "next_offset": 2097
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_FOCUSED_REVIEW_MANIFEST_037.json",
+        "sha256": "933071c568f440f7fc57cdc2e606faba8233ec5eddb417ed56b7a6feea9b3d36",
+        "offset": 0,
+        "next_offset": 6059
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_CHVATAL_METHODS_038.md",
+        "sha256": "870708747d553d12b706e309d34538b7406a863ce325b8280a6f774f063d5e4f",
+        "offset": 0,
+        "next_offset": 13110
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_PIERCE_KUIPERS_METHODS_038.md",
+        "sha256": "1995e36a9f8e5f9f201d9b63ba8a7c39400f3e8e0046009a1c59973c2023188e",
+        "offset": 0,
+        "next_offset": 17070
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_PRIMARY_SOURCE_INVENTORY_038.json",
+        "sha256": "a3bc77df926369c6c97e8dddb29211d4e0cbca6ae30912d7413f230fb2a6e577",
+        "offset": 0,
+        "next_offset": 4161
+      },
+      {
+        "tool": "read_text",
+        "path": "docs/P3_SOURCE_PACKET_EXECUTION_038.md",
+        "sha256": "252a18a4b9bc0d336694e6b4c0d2a73c5a379b447ec30a85a9b86515bf96e373",
+        "offset": 0,
+        "next_offset": 7181
+      },
+      {
+        "tool": "read_text",
+        "path": "reports/OBJECTIVE_STATUS_REVIEW_038.md",
+        "sha256": "da16c74907f3835a233182f63a3c0e8b5a987435d2653f339f627d0de0358adb",
+        "offset": 0,
+        "next_offset": 9687
+      },
+      {
+        "tool": "read_text",
+        "path": "scripts/stage_source_packet038.py",
+        "sha256": "7f84bc94511f1e94ccb62d5593276cf663b011d8a03eccbfebaf123914af23a2",
+        "offset": 0,
+        "next_offset": 17541
+      },
+      {
+        "tool": "read_text",
+        "path": "tests/test_stage_source_packet038.py",
+        "sha256": "2261a60efe203995d7962b3fe8ad5e0cbf1acd4493d2af860bc51129180c3653",
+        "offset": 0,
+        "next_offset": 9983
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_FOCUSED_REVIEW_MANIFEST_038.json",
+        "sha256": "927ac29fa1106c533588fb6b999736b5cb6f9d8d4389c61e049c03f9afa9628e",
+        "offset": 0,
+        "next_offset": 8368
+      },
+      {
+        "tool": "read_text",
+        "path": "reading/CHV79/full_text.txt",
+        "sha256": "79dddaae8f017277e72c540af29072a5e4fd4b7d6a6bde94c8b56472f756ce83",
+        "offset": 0,
+        "next_offset": 7411
+      },
+      {
+        "tool": "read_page_image",
+        "path": "reading/CHV79/page_002.png",
+        "sha256": "e8c088d5943bae525e1d56c696d8d506aebd5681828986d32379b630e8955c06"
+      },
+      {
+        "tool": "read_page_image",
+        "path": "reading/CHV79/page_003.png",
+        "sha256": "451199e43c5d0cb095b82f89bc92523534a17c00a51f49762a24d7f27f636f47"
+      },
+      {
+        "tool": "read_page_image",
+        "path": "reading/CHV79/page_004.png",
+        "sha256": "b82be68b204e821856d58331f372a3328a941d6bbfb164d7854d2097c2b0919c"
+      },
+      {
+        "tool": "read_text",
+        "path": "reading/PK97/full_text.txt",
+        "sha256": "1d6a43840931a727c0bbf047bdd938cd8b8815f6a65c121ff7cbb60f4739faf6",
+        "offset": 0,
+        "next_offset": 18000
+      },
+      {
+        "tool": "read_text",
+        "path": "reading/PK97/full_text.txt",
+        "sha256": "1d6a43840931a727c0bbf047bdd938cd8b8815f6a65c121ff7cbb60f4739faf6",
+        "offset": 18000,
+        "next_offset": 36000
+      },
+      {
+        "tool": "read_text",
+        "path": "reading/PK97/full_text.txt",
+        "sha256": "1d6a43840931a727c0bbf047bdd938cd8b8815f6a65c121ff7cbb60f4739faf6",
+        "offset": 36000,
+        "next_offset": 54000
+      },
+      {
+        "tool": "read_text",
+        "path": "reading/PK97/full_text.txt",
+        "sha256": "1d6a43840931a727c0bbf047bdd938cd8b8815f6a65c121ff7cbb60f4739faf6",
+        "offset": 54000,
+        "next_offset": 72000
+      },
+      {
+        "tool": "read_text",
+        "path": "reading/PK97/full_text.txt",
+        "sha256": "1d6a43840931a727c0bbf047bdd938cd8b8815f6a65c121ff7cbb60f4739faf6",
+        "offset": 72000,
+        "next_offset": 90000
+      },
+      {
+        "tool": "read_text",
+        "path": "reading/PK97/full_text.txt",
+        "sha256": "1d6a43840931a727c0bbf047bdd938cd8b8815f6a65c121ff7cbb60f4739faf6",
+        "offset": 90000,
+        "next_offset": 108000
+      },
+      {
+        "tool": "read_text",
+        "path": "reading/PK97/full_text.txt",
+        "sha256": "1d6a43840931a727c0bbf047bdd938cd8b8815f6a65c121ff7cbb60f4739faf6",
+        "offset": 108000,
+        "next_offset": 126000
+      },
+      {
+        "tool": "read_text",
+        "path": "reading/PK97/full_text.txt",
+        "sha256": "1d6a43840931a727c0bbf047bdd938cd8b8815f6a65c121ff7cbb60f4739faf6",
+        "offset": 126000,
+        "next_offset": 144000
+      },
+      {
+        "tool": "read_text",
+        "path": "reading/PK97/full_text.txt",
+        "sha256": "1d6a43840931a727c0bbf047bdd938cd8b8815f6a65c121ff7cbb60f4739faf6",
+        "offset": 144000,
+        "next_offset": 162000
+      },
+      {
+        "tool": "read_text",
+        "path": "reading/PK97/full_text.txt",
+        "sha256": "1d6a43840931a727c0bbf047bdd938cd8b8815f6a65c121ff7cbb60f4739faf6",
+        "offset": 162000,
+        "next_offset": 175258
+      },
+      {
+        "tool": "read_page_image",
+        "path": "reading/PK97/page_001.png",
+        "sha256": "8a1c9ab5491f09fffa94a9445b3d02e507408ddd1b03357d9cd407967ccdaef3"
+      },
+      {
+        "tool": "read_text",
+        "path": "docs/P3_FOCUSED_REVIEW_BRIEF_038.md",
+        "sha256": "341cd4a62691279ca5897e08ac6cde073cc831965687204833f3f9e8a9d3e50b",
+        "offset": 0,
+        "next_offset": 8714
+      },
+      {
+        "tool": "read_text",
+        "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
+        "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69",
+        "offset": 0,
+        "next_offset": 40809
+      },
+      {
+        "tool": "read_page_image",
+        "path": "reading/PK97/page_001.png",
+        "sha256": "8a1c9ab5491f09fffa94a9445b3d02e507408ddd1b03357d9cd407967ccdaef3"
+      },
+      {
+        "tool": "read_page_image",
+        "path": "reading/PK97/page_028.png",
+        "sha256": "3152f5daab733b395222b21b6ddef9965a5abd0290684ed5f0063ecb5adc57f5"
+      },
+      {
+        "tool": "read_page_image",
+        "path": "reading/PK97/page_039.png",
+        "sha256": "4baee48474170602ca8e3c9123796fcb30cbef2933bf89198950fc113887dbb4"
+      },
+      {
+        "tool": "read_page_image",
+        "path": "reading/PK97/page_040.png",
+        "sha256": "bbb63b7607edfab83ec014d902e71c38db91632ff76fa569ba5e3d1b1563adae"
+      },
+      {
+        "tool": "read_page_image",
+        "path": "reading/PK97/page_045.png",
+        "sha256": "2e0afc190d0b3c47c2b0f8832fb79e5f7d43430ad14813a67cfceab9f580e533"
+      },
+      {
+        "tool": "read_page_image",
+        "path": "reading/PK97/page_046.png",
+        "sha256": "d2863e3ce75af1b310ef7769fc438c19fc8baf89acc7f20b383160c8a88e4231"
+      },
+      {
+        "tool": "read_page_image",
+        "path": "reading/PK97/page_047.png",
+        "sha256": "3865d5840e8ae4fc7bca8e9c533c657ffbbb66ebfa830648b47f9f0b42e738a5"
+      },
+      {
+        "tool": "read_page_image",
+        "path": "reading/PK97/page_048.png",
+        "sha256": "f9e9094a377ffc65bc4ce63e4a6fe0a451792bd48e6ac07ac9a49629c4ca0b82"
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_SECOND_N1_PRIMARY_AUDIT_036.md",
+        "sha256": "0cef34db2488ec13fb37a9700582cce136538a9569d7c6f7fe96bcb36e602ebc",
+        "offset": 0,
+        "next_offset": 14000
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_SECOND_N1_PRIMARY_AUDIT_036.md",
+        "sha256": "0cef34db2488ec13fb37a9700582cce136538a9569d7c6f7fe96bcb36e602ebc",
+        "offset": 14000,
+        "next_offset": 30000
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_SECOND_N2_PRIMARY_AUDIT_036.md",
+        "sha256": "d435d1439a804c0528039bf10554c8cc8fa1a35128314121f2ee04b1bf773de4",
+        "offset": 12000,
+        "next_offset": 26000
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_SECOND_N3_PRIMARY_AUDIT_036.md",
+        "sha256": "ff22c14dff9507fcaa080a17f7ee5ba81c121d61aa75b219945f60acb8d3a668",
+        "offset": 10000,
+        "next_offset": 26913
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_SECOND_SEMANTICS_REVIEW_037.md",
+        "sha256": "8bf5054017c6adb6332ab9978b84554f234db80da74d28d6c16fff8dc48eb1c5",
+        "offset": 0,
+        "next_offset": 8435
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_SECOND_N4_ANALYTIC_WITNESS_036.json",
+        "sha256": "308491223878ba9bf42e4349c6b3735e3ab0d39636c598683658ac82f4aab5e2",
+        "offset": 0,
+        "next_offset": 2263
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_SECOND_N4_PRIMARY_AUDIT_036.md",
+        "sha256": "eec0112c9c3384f0843e27031b1f286c680fffc47af3847d96e5172ee85954c2",
+        "offset": 6000,
+        "next_offset": 13883
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_PIERCE_KUIPERS_METHODS_038.md",
+        "sha256": "1995e36a9f8e5f9f201d9b63ba8a7c39400f3e8e0046009a1c59973c2023188e",
+        "offset": 0,
+        "next_offset": 17070
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_SECOND_N5_PRIMARY_AUDIT_036.md",
+        "sha256": "baf68997bb9e975e17f41a21f6a04cb8050b208d347a72ba83411504eb16263b",
+        "offset": 12000,
+        "next_offset": 30000
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_SECOND_N5_PRIMARY_AUDIT_036.md",
+        "sha256": "baf68997bb9e975e17f41a21f6a04cb8050b208d347a72ba83411504eb16263b",
+        "offset": 6000,
+        "next_offset": 12500
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_CHVATAL_METHODS_038.md",
+        "sha256": "870708747d553d12b706e309d34538b7406a863ce325b8280a6f774f063d5e4f",
+        "offset": 0,
+        "next_offset": 13110
+      },
+      {
+        "tool": "read_text",
+        "path": "reports/OBJECTIVE_STATUS_REVIEW_038.md",
+        "sha256": "da16c74907f3835a233182f63a3c0e8b5a987435d2653f339f627d0de0358adb",
+        "offset": 0,
+        "next_offset": 9687
+      },
+      {
+        "tool": "read_text",
+        "path": "FOCUSED_SCOPE.json",
+        "sha256": "1cea28986d16aa16320cfa1f4d764d02c5cd573f5fd5c04d6aaff41050a76ab9",
+        "offset": 16000,
+        "next_offset": 27214
+      },
+      {
+        "tool": "read_text",
+        "path": "evidence/P3_FOCUSED_REVIEW_MANIFEST_038.json",
+        "sha256": "927ac29fa1106c533588fb6b999736b5cb6f9d8d4389c61e049c03f9afa9628e",
+        "offset": 0,
+        "next_offset": 8368
+      },
+      {
+        "tool": "read_text",
+        "path": "docs/P3_FOCUSED_REVIEW_BRIEF_037.md",
+        "sha256": "925e53139cae21103b9601832492f2a14cc15e9f95cd9bcadc6458f9dd46c810",
+        "offset": 7000,
+        "next_offset": 9317
+      },
+      {
+        "tool": "read_text",
+        "path": "docs/governing/02_RESEARCH_PROCESS.md",
+        "sha256": "7bf3c496962d0ede489ef10a237d3b70830fb439f3395235c3b8c18a23c4bc3d",
+        "offset": 11000,
+        "next_offset": 15826
+      },
+      {
+        "tool": "read_text",
+        "path": "docs/P3_SOURCE_PACKET_EXECUTION_038.md",
+        "sha256": "252a18a4b9bc0d336694e6b4c0d2a73c5a379b447ec30a85a9b86515bf96e373",
+        "offset": 4200,
+        "next_offset": 7181
+      },
+      {
+        "tool": "read_text",
+        "path": "FOCUSED_SCOPE.json",
+        "sha256": "1cea28986d16aa16320cfa1f4d764d02c5cd573f5fd5c04d6aaff41050a76ab9",
+        "offset": 0,
+        "next_offset": 6500
+      }
+    ],
+    "meaning": "Measured complete-file hashes and tool-returned content coverage; not proof of comprehension or scientific correctness."
+  },
+  "reviewer_verdict": {
+    "applies_to": {
+      "scientific_manifest_sha256": "927ac29fa1106c533588fb6b999736b5cb6f9d8d4389c61e049c03f9afa9628e",
+      "scope_id": "P3_FOCUSED_ANALYTICAL_REVIEW_039"
+    },
+    "claim_assessments": [
+      {
+        "claim_id": "R1",
+        "proposition": "With the active transition table, legal-predicate inventory and retained prefix frozen, N1's next positive-gain update is equal-unit-cost Chvatal greedy coverage of the coverable residual cross-outcome pairs; positive pair gain can leave predictions unchanged, and a harmonic bound applies only to a completed fixed feasible cover.",
+        "premises": [
+          "For same-(observation,action), different-outcome row pairs E, predicate p covers exactly C_p={pairs on which p differs}.",
+          "Selected Phi covers U_Phi, so current conflicts are E minus U_Phi and gain(p)=|C_p minus U_Phi|.",
+          "Candidate grammar, encountered constants, table version, selected prefix, complete-pass semantics and ties are held fixed.",
+          "Chvatal selects maximum remaining-cardinality/cost from fixed sets with positive costs.",
+          "The four episodes have (initial,b outcome,a outcome) equal to (0,0,0),(0,0,1),(1,0,0),(1,0,1), with W=1 and sufficient bounds."
+        ],
+        "analysis": "Give each legal unselected predicate's residual separation set cost one. Chvatal's ratio then becomes N1's maximum integer gain; N1's size/serialization preference merely selects among tied maximizers. Residual pairs outside the union of legal candidates are uncoverable and remain N1 conflicts rather than elements of a feasible cover. In the four-episode history a lag-one partition has gain after episode 3, but after episode 4 each partition cell contains one 0 and one 1. Its add-one distribution is (1/2,1/2), the same as the unsplit two-zero/two-one table, so lower pair conflict is not predictive improvement. Chvatal's H(d) theorem can bound the number of predicates only for a completed static cover from empty, or additional predicates for a completed frozen residual continuation. It does not bound an irreversible changing prefix, K-truncation, uncoverable conflicts, prediction, causality, interactions, runtime, memory, transfer or the whole N1-N3 learner.",
+        "assessment": "SUPPORTED_WITH_SCOPE",
+        "evidence": [
+          {
+            "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
+            "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69"
+          },
+          {
+            "path": "evidence/P3_SECOND_N1_PRIMARY_AUDIT_036.md",
+            "sha256": "0cef34db2488ec13fb37a9700582cce136538a9569d7c6f7fe96bcb36e602ebc"
+          },
+          {
+            "path": "evidence/P3_CHVATAL_METHODS_038.md",
+            "sha256": "870708747d553d12b706e309d34538b7406a863ce325b8280a6f774f063d5e4f"
+          },
+          {
+            "path": "private_papers/70e60317cc1e7815118aac54b00d3aadf5558f7bc219ca2d3b6e3396c2611086.pdf",
+            "sha256": "70e60317cc1e7815118aac54b00d3aadf5558f7bc219ca2d3b6e3396c2611086"
+          },
+          {
+            "path": "reading/CHV79/full_text.txt",
+            "sha256": "79dddaae8f017277e72c540af29072a5e4fd4b7d6a6bde94c8b56472f756ce83"
+          },
+          {
+            "path": "reading/CHV79/page_002.png",
+            "sha256": "e8c088d5943bae525e1d56c696d8d506aebd5681828986d32379b630e8955c06"
+          },
+          {
+            "path": "reading/CHV79/page_003.png",
+            "sha256": "451199e43c5d0cb095b82f89bc92523534a17c00a51f49762a24d7f27f636f47"
+          },
+          {
+            "path": "reading/CHV79/page_004.png",
+            "sha256": "b82be68b204e821856d58331f372a3328a941d6bbfb164d7854d2097c2b0919c"
+          }
+        ]
+      },
+      {
+        "claim_id": "R2",
+        "proposition": "N2 defines role equality only on its complete fixed first-J panel, while current direct effects and VARIABLE evidence take query precedence; therefore failure in an out-of-panel context can leave role membership unchanged without violating the defeasible TRANSFER_CONJECTURE contract.",
+        "premises": [
+          "The panel is the first J acquired contexts and does not automatically absorb a later counterexample after it is full.",
+          "Only identical complete repeatable panel signatures define a role.",
+          "Direct actual effects and VARIABLE statuses precede role-based inference.",
+          "For A={a<b}, J=1, m=2 and L=3, let h(ab)=1 and every other word have endpoint 0."
+        ],
+        "analysis": "The scheduler reaches a,b,a,b,aa,aa with endpoint 0. The single panel context is (empty,empty), so a and b both have signature (0). Querying replacement of a by b in aa returns TRANSFER_CONJECTURE(0) for the untested ab, though ab is 1 in this world; a constant-zero world has the identical acquired prefix and makes it correct. After repeated actual ab trials, direct unequal effects override the conjecture, but h(a)=h(b)=0 still leaves the panel role intact. This establishes a bounded extrapolation rule, not a universal substitution promise. Named-method equivalences requiring other original methods are excluded from this two-paper comparison.",
+        "assessment": "SUPPORTED_WITH_SCOPE",
+        "evidence": [
+          {
+            "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
+            "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69"
+          },
+          {
+            "path": "evidence/P3_SECOND_N2_PRIMARY_AUDIT_036.md",
+            "sha256": "d435d1439a804c0528039bf10554c8cc8fa1a35128314121f2ee04b1bf773de4"
+          }
+        ]
+      },
+      {
+        "claim_id": "R3",
+        "proposition": "In one fixed block after completed warm-up, no more than K-|Phi_after_warmup| post-warm-up experiments can receive available numeric nonzero fresh utility.",
+        "premises": [
+          "N1 appends predicates, removes none within the block, and caps |Phi| at K.",
+          "N3 sets numeric utility to zero if the trial selected no new predicate.",
+          "Trials are serialized, so first selections in different credited trials are distinct.",
+          "UNAVAILABLE and incomplete are not numeric zero."
+        ],
+        "analysis": "Map each available numeric nonzero utility event to one predicate first selected during that trial. This is an injection into the at most K-k0 remaining additions, proving the bound even if one trial adds several predicates. The bound can be strict because a predicate-bearing trial can score exact zero, become UNAVAILABLE or remain incomplete; validation or incomplete-trial updates can consume predicate capacity without credit. The trial that reaches K may still receive credit, while one starting at K cannot add a predicate. Counts, F, coverage, old scores, macros and exploration can continue, so this finite credit burst is not total learner failure and could suffice in a bounded world.",
+        "assessment": "SUPPORTED_WITH_SCOPE",
+        "evidence": [
+          {
+            "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
+            "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69"
+          },
+          {
+            "path": "evidence/P3_SECOND_SEMANTICS_REVIEW_037.md",
+            "sha256": "8bf5054017c6adb6332ab9978b84554f234db80da74d28d6c16fff8dc48eb1c5"
+          },
+          {
+            "path": "evidence/P3_SECOND_N3_PRIMARY_AUDIT_036.md",
+            "sha256": "ff22c14dff9507fcaa080a17f7ee5ba81c121d61aa75b219945f60acb8d3a668"
+          }
+        ]
+      },
+      {
+        "claim_id": "R4",
+        "proposition": "The exact scheduler realizes the stipulated constant-world zero-credit count-learning history; the positive count-fitting example establishes a conditional local attribution defect but not a reachable full-loop counterexample.",
+        "premises": [
+          "A={a}, O={0,1}; RESET and every action return 0; L>=2, V=1, q>=2, with sufficient resources.",
+          "Warm-up Trial(a) supplies one zero count and no conflict.",
+          "At t=1, mutation selects the unexecuted word aa.",
+          "The predicate gate is trial-wide, not limited to validation keys whose partition changed."
+        ],
+        "analysis": "Before aa, add-one p_before(0)=2/3. Its two actions raise the zero count to three, so p_after(0)=4/5. The one zero validation outcome yields binary Brier improvement 2/9-2/25=32/225, but no all-zero history creates a conflict or predicate, so utility is deliberately zero and aa merely enters F. Conditionally, a predicate selected elsewhere can open the gate while an unaffected validation key improves only because its counts move from one to three; the same positive score is then credited. That proves non-identification by the formula. No supplied derivation realizes those joint conditions from empty state under every RESET, scheduler, tie and validation update, so a reachable whole-loop positive counterexample remains unasserted. The gate's deliberate focus on representation rather than all useful count updates is a valid defense.",
+        "assessment": "SUPPORTED_WITH_SCOPE",
+        "evidence": [
+          {
+            "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
+            "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69"
+          },
+          {
+            "path": "evidence/P3_SECOND_N3_PRIMARY_AUDIT_036.md",
+            "sha256": "ff22c14dff9507fcaa080a17f7ee5ba81c121d61aa75b219945f60acb8d3a668"
+          },
+          {
+            "path": "evidence/P3_SECOND_SEMANTICS_REVIEW_037.md",
+            "sha256": "8bf5054017c6adb6332ab9978b84554f234db80da74d28d6c16fff8dc48eb1c5"
+          }
+        ]
+      },
+      {
+        "claim_id": "R5",
+        "proposition": "Within one block, each literal word has at most one completed post-warm-up opportunity for numeric utility, children inherit the maximum parent mean only as proposal priority, and material cross-block carryover/recalibration choices are unspecified.",
+        "premises": [
+          "Proposal and coverage selection both exclude a flattened literal word after one complete trial.",
+          "Numeric credit requires completed experiment and numeric complete validation.",
+          "A child proposal takes the maximum parent mean, with zero for uncredited parents.",
+          "The shared block rules do not fully specify N3's new-block utility and scheduler treatment."
+        ],
+        "analysis": "A complete trial excludes the word from both scheduling routes, so it cannot be recalibrated in-block; a completed word with interrupted or UNAVAILABLE validation is likewise not rescheduled. An incomplete trace can remain eligible but has no numeric observation until completion. Warm-up zero is initialization, not a measured post-warm-up score. Descendants can therefore be prioritized by a maximum of sparse one-observation parent means before their own single test. This is a weakness, but a finite useful burst remains a live defense. The frozen text does not decide whether old utility sums/counts are current, archived, deleted or recalibrated after a block change, nor whether warm-up, counters, completed-word/coverage history, F, M, queues/cursors and retained predicate syntax restart or survive. This review does not choose them.",
+        "assessment": "SUPPORTED_WITH_SCOPE",
+        "evidence": [
+          {
+            "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
+            "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69"
+          },
+          {
+            "path": "evidence/P3_SECOND_SEMANTICS_REVIEW_037.md",
+            "sha256": "8bf5054017c6adb6332ab9978b84554f234db80da74d28d6c16fff8dc48eb1c5"
+          }
+        ]
+      },
+      {
+        "claim_id": "R6",
+        "proposition": "N4's six-endpoint positive relation says that one probe contrast vanished and some contrast later exists; it entails neither the original response nor future usefulness. PK97 is a broad acquisition/reuse antecedent, but it does not implement N4's literal word library, FIFO crossed trials, six-cell rule or physical RESET.",
+        "premises": [
+          "N4 accepts (a,b,cq,cr,uq,ur) exactly when a!=b, cq=cr and uq!=ur, without requiring uq=a or ur=b.",
+          "The finite witness gives endpoints (0,1,Z,Z,2,3).",
+          "PK97 implements learned sensor organization, an effect-grounded control basis, generated features, contextual action models, feedback behaviors and a discrete interface under substantial priors.",
+          "PK97 retains the sensorimotor model while erasing and relearning controls in the T room, then retains models and behaviors in the empty room; composite actions are future work."
+        ],
+        "analysis": "The witness meets N4's literal predicate but u enters a new mode whose probe responses 2,3 are not 0,1. Thus a positive catalogue record cannot certify recovery of the original response, latent cause or useful knowledge; a new contrast might nevertheless help, so N4's weaker literal promise is not refuted. PK97 strongly precedes any broad claim to acquisition of useful sensor/action/control representations. Its continuous random exploration, geometry/PCA/regression and feedback policies, however, are structurally unlike fixed categorical words, same-state paid resets, FIFO six-word completion and endpoint classification. The primary pages confirm only one implemented context heuristic, relearning rather than recovery after erasure, future composite actions, a user-guided final tour, and only the first three hierarchy levels demonstrated. The paper documents sampling, model-language, convergence and combinatorial restrictions; it does not establish field-wide abandonment or a compute-only cure. Nonidentity with this one source is not global novelty.",
+        "assessment": "SUPPORTED_WITH_SCOPE",
+        "evidence": [
+          {
+            "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
+            "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69"
+          },
+          {
+            "path": "evidence/P3_SECOND_N4_ANALYTIC_WITNESS_036.json",
+            "sha256": "308491223878ba9bf42e4349c6b3735e3ab0d39636c598683658ac82f4aab5e2"
+          },
+          {
+            "path": "evidence/P3_PIERCE_KUIPERS_METHODS_038.md",
+            "sha256": "1995e36a9f8e5f9f201d9b63ba8a7c39400f3e8e0046009a1c59973c2023188e"
+          },
+          {
+            "path": "private_papers/873998cb1f647756e12f061f5c9152c2bae9fa3b37b0efa45432aa4b7e9df570.pdf",
+            "sha256": "873998cb1f647756e12f061f5c9152c2bae9fa3b37b0efa45432aa4b7e9df570"
+          },
+          {
+            "path": "reading/PK97/full_text.txt",
+            "sha256": "1d6a43840931a727c0bbf047bdd938cd8b8815f6a65c121ff7cbb60f4739faf6"
+          },
+          {
+            "path": "reading/PK97/page_028.png",
+            "sha256": "3152f5daab733b395222b21b6ddef9965a5abd0290684ed5f0063ecb5adc57f5"
+          },
+          {
+            "path": "reading/PK97/page_039.png",
+            "sha256": "4baee48474170602ca8e3c9123796fcb30cbef2933bf89198950fc113887dbb4"
+          },
+          {
+            "path": "reading/PK97/page_040.png",
+            "sha256": "bbb63b7607edfab83ec014d902e71c38db91632ff76fa569ba5e3d1b1563adae"
+          },
+          {
+            "path": "reading/PK97/page_046.png",
+            "sha256": "d2863e3ce75af1b310ef7769fc438c19fc8baf89acc7f20b383160c8a88e4231"
+          },
+          {
+            "path": "reading/PK97/page_047.png",
+            "sha256": "3865d5840e8ae4fc7bca8e9c533c657ffbbb66ebfa830648b47f9f0b42e738a5"
+          },
+          {
+            "path": "reading/PK97/page_048.png",
+            "sha256": "f9e9094a377ffc65bc4ce63e4a6fe0a451792bd48e6ac07ac9a49629c4ca0b82"
+          }
+        ]
+      },
+      {
+        "claim_id": "R7",
+        "proposition": "Flattening each N5 lesson to supervised input z=(post-state,query) and label y=Base(pre-state,query), then matching its grammar, objective, ties, wrapper, freeze and costs, yields an exactly trace-equivalent supervised expression learner; source labels and the selected program remain historical information channels.",
+        "premises": [
+          "N5 labels each actual source prefix/query with the learner's own pre-update Base response.",
+          "It exhaustively chooses from a fixed rational grammar by MSE plus lambda times expanded size and deterministic ties.",
+          "Episode partition and query selection are fixed, and checking data do not change the chosen program.",
+          "The program freezes before target state/query exposure."
+        ],
+        "analysis": "Induction over actual source prefixes gives the same supervised rows and odd/even assignment to the matched learner. Identical candidates, arithmetic, scores and ties then give the same program, checking errors, interruptions and target outputs on all permitted inputs. This is exact family normalization, not proof that a named historical package first supplied the whole wrapper. Different historical labels can select different constant readers for identical later inputs, so source history survives in weights/program syntax even without target-label leakage. Conversely, identical target (s,x) requiring different old answers is undecodable by any deterministic reader. Source targets can also be wrong old Base responses. Thus target freeze is meaningful but does not establish archive-free recovery, truth, transfer, usefulness or global priority.",
+        "assessment": "SUPPORTED_WITH_SCOPE",
+        "evidence": [
+          {
+            "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
+            "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69"
+          },
+          {
+            "path": "evidence/P3_SECOND_N5_PRIMARY_AUDIT_036.md",
+            "sha256": "baf68997bb9e975e17f41a21f6a04cb8050b208d347a72ba83411504eb16263b"
+          }
+        ]
+      }
+    ],
+    "missing_dependencies": [],
+    "recommendation": {
+      "route": "SPECIFY_SUCCESSOR_COMPARISON",
+      "reason": "N1-N3 is the only frozen candidate with an explicit closed interaction-to-description-to-allocation loop whose main weaknesses remain empirically discriminable. The finite burst defense prevents an analytical kill, while the pair-gain and count-attribution counterhistories make an unqualified efficacy run uninterpretable. Specify, but do not run, one single-block comparison before deciding whether to retain this line. N2, N4 and N5 have respectively a fixed-panel extrapolation weakness, a weak future-use bridge and an exact supervised-synthesis normalization, making them lower-priority first comparisons.",
+      "future_decision": "After freezing acquisition, a common predeclared downstream chooser should select a primitive continuation toward a specified target observation from a held-out history generated by a composition absent from the acquisition table. The programme decision is whether an encounter-acquired distinction improves that decision enough to justify a separately specified retention/recombination stage, or whether to return to generation.",
+      "acquired_knowledge": "Require an N1 predicate acquired from a logged conflict, not supplied in finished form, that separates the held-out histories and changes the common chooser's forecast/action, with provenance to the N3 experiment or macro that obtained the distinguishing evidence. Pair-count reduction, added counts, storing a word in F or local validation improvement alone are not acquired useful knowledge.",
+      "matched_information_and_interactions": "Compare frozen N1-N3 against the same N1, word/mutation grammar, coverage cadence and initial macros with learned utility and post-warm-up macro promotion disabled, plus primitive-word coverage; prespecify an ungated paired-Brier arm if gate-versus-count progress is a decision target. Match token interface, primitive actions, reset access, starting block, W/S/K/L/V/q, environment-call allowance including validation and RESET, compute, retained bytes, ties and stopping. Give no arm future-task labels. Freeze before the held-out demand, use the same downstream reader/chooser and equal evaluation interactions, and separately account for count-only versus predicate-dependent contributions.",
+      "disconfirmation": "Disconfirm the proposed advantage if a feedback-null, coverage or ungated control is equal or better under the predeclared budgets; if the learned predicate is not used by the held-out chooser; if any gain remains when count fitting is yoked or predicate contribution is removed; if the predicate only separates its training pair; or if fresh credit exhausts before the required distinction is obtained. Criteria and any numerical threshold must be fixed before results.",
+      "unresolved_semantics": "No cross-block choice is needed for this strictly single-block comparison. Before any later retention or recombination claim, prospectively fix the discontinuity and block transition; warm-up/trial-counter restart; completed-word and coverage history; utility retention, archival, deletion or recalibration; and survival of F, M, queues/cursors and predicate syntax. Also freeze the downstream chooser and held-out relation protocol. These excluded future semantics are not resolved here."
+    },
+    "required_corrections": [],
+    "source_comparisons": [
+      {
+        "source_id": "CHV79",
+        "claim_id": "R1",
+        "proposition": "Chvatal's printed greedy rule exactly matches N1's next frozen positive-gain selection under equal unit candidate costs, but not N1's whole changing capped learner.",
+        "analysis": "The article selects a set maximizing remaining cardinality divided by fixed positive cost, removes its covered elements and repeats. Unit cost gives maximum N1 residual pair coverage; N1's syntax/serialization rule only resolves the paper's open ties. The H(d) theorem is for a completed fixed feasible cover and the article credits prior equal-cost results. Generated history syntax, retained online prefixes, changing data/tokens, count readout, limits, interrupts, archives and uncoverable conflicts are N1 additions. The source therefore supports the step reduction, not whole-method identity, prediction quality, efficacy, cost or global priority.",
+        "assessment": "SUPPORTED_WITH_SCOPE",
+        "evidence": [
+          {
+            "path": "private_papers/70e60317cc1e7815118aac54b00d3aadf5558f7bc219ca2d3b6e3396c2611086.pdf",
+            "sha256": "70e60317cc1e7815118aac54b00d3aadf5558f7bc219ca2d3b6e3396c2611086"
+          },
+          {
+            "path": "reading/CHV79/full_text.txt",
+            "sha256": "79dddaae8f017277e72c540af29072a5e4fd4b7d6a6bde94c8b56472f756ce83"
+          },
+          {
+            "path": "reading/CHV79/page_002.png",
+            "sha256": "e8c088d5943bae525e1d56c696d8d506aebd5681828986d32379b630e8955c06"
+          },
+          {
+            "path": "reading/CHV79/page_003.png",
+            "sha256": "451199e43c5d0cb095b82f89bc92523534a17c00a51f49762a24d7f27f636f47"
+          },
+          {
+            "path": "reading/CHV79/page_004.png",
+            "sha256": "b82be68b204e821856d58331f372a3328a941d6bbfb164d7854d2097c2b0919c"
+          },
+          {
+            "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
+            "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69"
+          }
+        ]
+      },
+      {
+        "source_id": "PK97",
+        "claim_id": "R6",
+        "proposition": "PK97 implements broad acquisition of sensor/action/control representations and bounded reuse/relearning, but not N4's literal word, FIFO crossed-trial, six-endpoint and same-state physical-reset procedure.",
+        "analysis": "PK97 learns sensor geometry, a control basis, generated features, contextual models, feedback behaviors and a discrete interface from continuous uninterpreted vectors under strong priors. Page 28 limits the implemented context heuristic. Pages 39-40 retain the sensorimotor model while erasing and relearning controls, then retain both for an empty room. Pages 45-46 make confidence improvements and composite actions future work; page 47's tour is user-guided; page 48 demonstrates only the first three levels and proposes later mapping. These are substantive antecedents but neither recovery of deleted controls nor N4's exact finite reset/crossed-word catalogue. One nonidentity comparison cannot establish global novelty or field history.",
+        "assessment": "SUPPORTED_WITH_SCOPE",
+        "evidence": [
+          {
+            "path": "private_papers/873998cb1f647756e12f061f5c9152c2bae9fa3b37b0efa45432aa4b7e9df570.pdf",
+            "sha256": "873998cb1f647756e12f061f5c9152c2bae9fa3b37b0efa45432aa4b7e9df570"
+          },
+          {
+            "path": "reading/PK97/full_text.txt",
+            "sha256": "1d6a43840931a727c0bbf047bdd938cd8b8815f6a65c121ff7cbb60f4739faf6"
+          },
+          {
+            "path": "reading/PK97/page_001.png",
+            "sha256": "8a1c9ab5491f09fffa94a9445b3d02e507408ddd1b03357d9cd407967ccdaef3"
+          },
+          {
+            "path": "reading/PK97/page_028.png",
+            "sha256": "3152f5daab733b395222b21b6ddef9965a5abd0290684ed5f0063ecb5adc57f5"
+          },
+          {
+            "path": "reading/PK97/page_039.png",
+            "sha256": "4baee48474170602ca8e3c9123796fcb30cbef2933bf89198950fc113887dbb4"
+          },
+          {
+            "path": "reading/PK97/page_040.png",
+            "sha256": "bbb63b7607edfab83ec014d902e71c38db91632ff76fa569ba5e3d1b1563adae"
+          },
+          {
+            "path": "reading/PK97/page_045.png",
+            "sha256": "2e0afc190d0b3c47c2b0f8832fb79e5f7d43430ad14813a67cfceab9f580e533"
+          },
+          {
+            "path": "reading/PK97/page_046.png",
+            "sha256": "d2863e3ce75af1b310ef7769fc438c19fc8baf89acc7f20b383160c8a88e4231"
+          },
+          {
+            "path": "reading/PK97/page_047.png",
+            "sha256": "3865d5840e8ae4fc7bca8e9c533c657ffbbb66ebfa830648b47f9f0b42e738a5"
+          },
+          {
+            "path": "reading/PK97/page_048.png",
+            "sha256": "f9e9094a377ffc65bc4ce63e4a6fe0a451792bd48e6ac07ac9a49629c4ca0b82"
+          },
+          {
+            "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
+            "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69"
+          }
+        ]
+      }
+    ],
+    "strongest_objections": [
+      "The Chvatal match is a frozen static step, not the whole online learner, and its theorem does not certify prediction or usefulness.",
+      "A finite representation-credit burst can suffice; the cap and one-sample facts do not prove learner failure.",
+      "The positive count confound is conditional, not a supplied reachable full-loop history.",
+      "N2 explicitly labels its extension a defeasible conjecture and lets direct evidence override it.",
+      "A new N4 contrast could still be useful even though it is not restoration of the original response.",
+      "N5 may generalize when target state preserves a decodable distinction; exact normalization does not refute every transfer benefit.",
+      "PK97 is broad prior acquisition/reuse, not the funded open-ended retention/recombination result or an exact N4 method.",
+      "No integrated N1-N5 controller or multi-block semantics is frozen, so no end-to-end conclusion follows."
+    ],
+    "summary": "All required texts and paper images were delivered. The seven bounded propositions and both direct source comparisons are supported with their stated limits. The central adverse findings are that N1 has a classical equal-cost greedy-cover core without predictive guarantees, N3 has finite sparse and noncausal-looking credit, N4's relation is weaker than restoration and N5 normalizes exactly to supervised expression synthesis; N2 remains a defeasible finite-panel rule. The finite-burst and possible-generalization defenses prevent a whole-candidate analytical kill. GO accepts only this assessment. It is not efficacy, tuning permission, global novelty clearance, PROGRAMME approval or a joint guarantee. The justified next step is specification, not execution, of a matched single-block N1-N3 comparison tied to a held-out future decision.",
+    "verdict": "GO"
+  },
+  "broker_role": "transport, schema and integrity only; no scientific verdict generated",
+  "excluded_inferences": [
+    "candidate efficacy",
+    "global novelty clearance",
+    "PROGRAMME approval",
+    "integrated N1-N5 guarantee"
+  ]
+}

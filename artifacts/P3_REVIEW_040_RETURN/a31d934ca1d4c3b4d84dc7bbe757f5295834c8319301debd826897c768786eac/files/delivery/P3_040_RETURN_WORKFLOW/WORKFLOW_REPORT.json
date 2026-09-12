@@ -1,0 +1,41 @@
+{
+  "actual_usage": "UNKNOWN_UNTIL_CONTROLLER_AND_NATIVE_RECEIPTS_ARE_REVIEWED",
+  "automatic_retry": false,
+  "content_commit": "2e11c1d8f5d8fa80aefc1bd8b1f1ff1feb52604e",
+  "controller_invoked": true,
+  "controller_outcome": {
+    "controller_reaped": true,
+    "controller_started": true,
+    "controller_status_lines": [],
+    "elapsed_seconds": 1296.541968,
+    "exit_code": 0,
+    "forced_controller_cleanup": false,
+    "interrupted": false,
+    "native_cleanup_inferred": false,
+    "outer_guard_reached": false,
+    "outer_guard_seconds": 4310,
+    "raw_stderr_saved_or_hashed": false,
+    "raw_streams_saved_or_hashed": false,
+    "stderr_exception_classes": [],
+    "stderr_frames": [],
+    "stream_bytes_observed": {
+      "stderr": 0,
+      "stdout": 846
+    },
+    "stream_capture_truncated": {
+      "stderr": false,
+      "stdout": false
+    }
+  },
+  "finished_utc": "2026-09-12T02:48:33.038051+00:00",
+  "fresh_scope040_start_ceiling": 2,
+  "fresh_scope040_turn_ceiling": 2,
+  "kind": "P3_040_RETURN_WORKFLOW_v1",
+  "manifest_sha256": "270244a9cc98193098d60ad021dedf4dbd91a44e4357e5b338aa5d1b3c30805e",
+  "missing_files_do_not_establish_no_execution": true,
+  "scientific_admission_asserted": false,
+  "scope032_reused": false,
+  "scope039_reused": false,
+  "started_utc": "2026-09-12T02:25:59.651539+00:00",
+  "status": "CONTROLLER_RETURNED_EVIDENCE_COLLECTION_REQUIRED"
+}

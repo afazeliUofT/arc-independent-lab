@@ -1,0 +1,3603 @@
+{
+  "kind": "P3_FINITE_REVIEWER_SESSION_040_v1",
+  "mode": "synthetic",
+  "requests_sent": [
+    "initialize",
+    "config/read",
+    "configRequirements/read",
+    "account/read",
+    "account/rateLimits/read",
+    "model/list",
+    "thread/start",
+    "turn/start"
+  ],
+  "requests_queued": [
+    "initialize",
+    "config/read",
+    "configRequirements/read",
+    "account/read",
+    "account/rateLimits/read",
+    "model/list",
+    "thread/start",
+    "turn/start"
+  ],
+  "responses": [
+    {
+      "method": "initialize",
+      "success": true
+    },
+    {
+      "method": "config/read",
+      "success": true
+    },
+    {
+      "method": "configRequirements/read",
+      "success": true
+    },
+    {
+      "method": "account/read",
+      "success": true
+    },
+    {
+      "method": "account/rateLimits/read",
+      "success": true
+    },
+    {
+      "method": "model/list",
+      "success": true
+    },
+    {
+      "method": "thread/start",
+      "success": true
+    },
+    {
+      "method": "turn/start",
+      "success": true
+    }
+  ],
+  "client_started": true,
+  "thread_request_sent": true,
+  "model_turn_request_sent": true,
+  "model_turn_request_queued": true,
+  "synthetic_allowed_read_observed": true,
+  "synthetic_argument_error_observed": true,
+  "observed_refusal": true,
+  "verdict_submitted": false,
+  "server_requests_dispatched": 3,
+  "early_frames_buffered": 1,
+  "automatic_retry_requested": false,
+  "broker_boundary_failure": null,
+  "native_event_failure": null,
+  "primary_failure": null,
+  "additional_failures": [],
+  "cache_input_descriptors_verified": true,
+  "recoverable_input_errors": 2,
+  "failed_broker_calls": 2,
+  "recoverable_input_error_receipts": [
+    {
+      "method": "item/tool/call",
+      "tool": "read_text",
+      "successful": false,
+      "error_code": "integer_bounds",
+      "request_bytes": 281,
+      "request_sha256": "a090bc21871e5494b361085899072c327567fab1a84b64f21f571de109b9b4c3",
+      "response_bytes": 352,
+      "response_sha256": "2b9f1d9008067dcf7616be021edfa82c60078a87bb7335391300176651a7ef2a"
+    },
+    {
+      "method": "item/tool/call",
+      "tool": "read_text",
+      "successful": false,
+      "error_code": "resource_path_traversal",
+      "request_bytes": 283,
+      "request_sha256": "f27f89d665d16fd4f6efde23445dcfb160cce8d2f0ef9807a0240eae4c0f871b",
+      "response_bytes": 366,
+      "response_sha256": "df3f9e18ed39476bb41beae943da11ef039876eadfe89a5c9df718d3acdfb341"
+    }
+  ],
+  "raw_config_auth_or_diagnostics_saved": false,
+  "native_tool_inventory_attested": false,
+  "full_boundary_proven_by_notifications": false,
+  "hosted_chatgpt_allowance_verified": false,
+  "unattended_model_use_authorized": false,
+  "catalog_pagination": {
+    "maximum_pages": 8,
+    "maximum_entries": 800,
+    "pages_received": 1,
+    "pages_validated": 1,
+    "total_entries_validated": 7,
+    "complete": true,
+    "cursor_values_saved_or_hashed": false
+  },
+  "warning_diagnostics": [],
+  "disabled_codemode_notices": [
+    {
+      "policy_version": "P3_DISABLED_CODEMODE_NOTICE_027_v1",
+      "category": "exact_disabled_codemode_host",
+      "decision": "admitted_exact_disabled_host_notice",
+      "admitted": true,
+      "exact_parameter_shape": true,
+      "exact_thread_binding": true,
+      "related_controls_verified_disabled": true,
+      "exact_sol_max_selected": true,
+      "native_tool_inventory_attested": false,
+      "producer_identity_established": false,
+      "direct_broker_route_proven": false,
+      "raw_content_saved_or_hashed": false
+    }
+  ],
+  "disabled_codemode_notice_policy": {
+    "version": "P3_DISABLED_CODEMODE_NOTICE_027_v1",
+    "maximum_admitted_notices": 1,
+    "changes_configuration_or_tool_authority": false,
+    "direct_broker_route_proven_by_notice": false,
+    "raw_content_saved_or_hashed": false
+  },
+  "startup_completion_barrier_claimed": false,
+  "limits": {
+    "wall_seconds_including_cleanup": 600,
+    "cleanup_seconds": 4,
+    "parent_request_seconds": 30,
+    "max_broker_calls": 16,
+    "stdout_bytes": 67108864,
+    "stderr_bytes": 67108864,
+    "frame_bytes": 25165824,
+    "outbound_queue_bytes": 33554432,
+    "runtime_tree_bytes": 268435456,
+    "early_frame_count": 64,
+    "early_frame_bytes": 1048576,
+    "catalog_maximum_pages": 8,
+    "catalog_maximum_entries": 800,
+    "child_cpu_seconds": 120,
+    "child_file_bytes": 33554432,
+    "limits_are_not_subscription_allowance_estimates": true
+  },
+  "last_incoming_frame": {
+    "parse_succeeded": true,
+    "has_method": true,
+    "has_id": true
+  },
+  "initialization": {
+    "codex_home_equals_original_environment": true
+  },
+  "last_notification_observation": {
+    "method": "item/started",
+    "notification_envelope_valid": true,
+    "params_is_object": true,
+    "thread_bound": true,
+    "turn_bound": true,
+    "initialized": true,
+    "startup_window_open": false,
+    "model_turn_queued": true,
+    "model_turn_sent": true,
+    "raw_values_or_unknown_names_saved": false
+  },
+  "config_control_observation": {
+    "observation": "P3_REVIEWER_EFFECTIVE_CONFIG_021_v1",
+    "controls": {
+      "sqlite_home": true,
+      "log_dir": true,
+      "history.persistence": true,
+      "web_search": true,
+      "agents.enabled": true,
+      "memories.generate_memories": true,
+      "memories.use_memories": true,
+      "orchestrator.skills.enabled": true,
+      "tools.update_plan.enabled": true,
+      "tools.experimental_request_user_input.enabled": true,
+      "analytics.enabled": true,
+      "approval_policy": true,
+      "features.plugins": true,
+      "features.remote_plugin": true,
+      "features.plugin_hooks": true,
+      "features.apps": true,
+      "features.connectors": true,
+      "features.enable_mcp_apps": true,
+      "features.hooks": true,
+      "features.codex_hooks": true,
+      "features.memories": true,
+      "features.memory_tool": true,
+      "features.external_agent_memory_import": true,
+      "features.goals": true,
+      "features.remote_control": true,
+      "features.multi_agent": true,
+      "features.multi_agent_v2": true,
+      "features.collab": true,
+      "features.enable_fanout": true,
+      "features.send_async_message": true,
+      "features.code_mode": true,
+      "features.code_mode_only": true,
+      "features.code_mode_prewarm": true,
+      "features.js_repl": true,
+      "features.shell_tool": true,
+      "features.unified_exec": true,
+      "features.experimental_use_unified_exec_tool": true,
+      "features.apply_patch_freeform": true,
+      "features.view_image": true,
+      "features.web_search": true,
+      "features.web_search_cached": true,
+      "features.web_search_request": true,
+      "features.browser_use": true,
+      "features.computer_use": true,
+      "features.tool_search": true,
+      "features.token_budget": true,
+      "features.skill_search": true,
+      "features.shell_snapshot": true,
+      "features.background_paginated_rollout_migration": true,
+      "features.auth_elicitation": true,
+      "features.unbounded_connection_retries": true,
+      "features.code_mode_host": true,
+      "features.image_generation": true,
+      "features.deferred_executor": true,
+      "features.current_time_reminder": true,
+      "orchestrator.mcp.enabled": true
+    },
+    "control_observations": {
+      "sqlite_home": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "string",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "sqlite_home": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "string",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "log_dir": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "string",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "log_dir": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "string",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "history.persistence": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "string",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "history.persistence": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "string",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "web_search": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "string",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "web_search": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "string",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "agents.enabled": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "agents.enabled": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "memories.generate_memories": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "memories.generate_memories": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "memories.use_memories": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "memories.use_memories": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "orchestrator.skills.enabled": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "orchestrator.skills.enabled": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "tools.update_plan.enabled": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "tools.update_plan.enabled": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "absent",
+        "projected_value_shape": "null",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "tools.experimental_request_user_input.enabled": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "tools.experimental_request_user_input.enabled": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "absent",
+        "projected_value_shape": "null",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "analytics.enabled": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "analytics.enabled": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "approval_policy": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "string",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "approval_policy": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "string",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.plugins": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.plugins": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.remote_plugin": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.remote_plugin": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.plugin_hooks": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.plugin_hooks": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.apps": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.apps": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.connectors": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.connectors": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.enable_mcp_apps": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.enable_mcp_apps": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.hooks": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.hooks": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.codex_hooks": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.codex_hooks": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.memories": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.memories": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.memory_tool": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.memory_tool": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.external_agent_memory_import": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.external_agent_memory_import": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.goals": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.goals": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.remote_control": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.remote_control": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.multi_agent": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.multi_agent": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.multi_agent_v2": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.multi_agent_v2.enabled": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.collab": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.collab": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.enable_fanout": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.enable_fanout": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.send_async_message": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.send_async_message": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.code_mode": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "object",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.code_mode.enabled": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          },
+          "features.code_mode.direct_only_tool_namespaces.0": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "object",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.code_mode_only": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.code_mode_only": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.code_mode_prewarm": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.code_mode_prewarm": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.js_repl": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.js_repl": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.shell_tool": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.shell_tool": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.unified_exec": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.unified_exec": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.experimental_use_unified_exec_tool": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.experimental_use_unified_exec_tool": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.apply_patch_freeform": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.apply_patch_freeform": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.view_image": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.view_image": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.web_search": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.web_search": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.web_search_cached": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.web_search_cached": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.web_search_request": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.web_search_request": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.browser_use": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.browser_use": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.computer_use": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.computer_use": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.tool_search": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.tool_search": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.token_budget": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.token_budget": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.skill_search": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.skill_search": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.shell_snapshot": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.shell_snapshot": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.background_paginated_rollout_migration": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.background_paginated_rollout_migration": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.auth_elicitation": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.auth_elicitation": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.unbounded_connection_retries": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.unbounded_connection_retries": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.code_mode_host": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.code_mode_host": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.image_generation": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.image_generation": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.deferred_executor": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.deferred_executor": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.current_time_reminder": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.current_time_reminder": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "orchestrator.mcp.enabled": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "orchestrator.mcp.enabled": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      }
+    },
+    "instruction_observations": {
+      "instructions": {
+        "projected_null_or_absent": true,
+        "enabled_custom_source_absent": true,
+        "custom_origin_absent": true,
+        "verified_absent": true
+      },
+      "developer_instructions": {
+        "projected_null_or_absent": true,
+        "enabled_custom_source_absent": true,
+        "custom_origin_absent": true,
+        "verified_absent": true
+      },
+      "model_instructions_file": {
+        "projected_null_or_absent": true,
+        "enabled_custom_source_absent": true,
+        "custom_origin_absent": true,
+        "verified_absent": true
+      },
+      "compact_prompt": {
+        "projected_null_or_absent": true,
+        "enabled_custom_source_absent": true,
+        "custom_origin_absent": true,
+        "verified_absent": true
+      },
+      "experimental_compact_prompt_file": {
+        "projected_null_or_absent": true,
+        "enabled_custom_source_absent": true,
+        "custom_origin_absent": true,
+        "verified_absent": true
+      },
+      "experimental_realtime_start_instructions": {
+        "projected_null_or_absent": true,
+        "enabled_custom_source_absent": true,
+        "custom_origin_absent": true,
+        "verified_absent": true
+      },
+      "experimental_realtime_ws_backend_prompt": {
+        "projected_null_or_absent": true,
+        "enabled_custom_source_absent": true,
+        "custom_origin_absent": true,
+        "verified_absent": true
+      }
+    },
+    "profile_valid": true,
+    "response_shape_valid": true,
+    "source_layers_shape_valid": true,
+    "unique_session_layer": true,
+    "session_layer_enabled": true,
+    "session_layer_name_exact": true,
+    "all_requested_controls_verified": true,
+    "source_sensitive_tables_verified": true,
+    "nondefault_instruction_overrides_absent": true,
+    "full_instruction_context_verified": false,
+    "runtime_tool_registry_verified": false,
+    "raw_native_values_saved_or_hashed": false,
+    "projected_structured_multi_agent_v2_is_deliberate_dependency_stop": true,
+    "first_failure": null,
+    "projected_tool_controls": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": true,
+      "runtime_tool_exposure_verified": false
+    }
+  },
+  "effective_config": {
+    "observation": "P3_REVIEWER_EFFECTIVE_CONFIG_021_v1",
+    "controls": {
+      "sqlite_home": true,
+      "log_dir": true,
+      "history.persistence": true,
+      "web_search": true,
+      "agents.enabled": true,
+      "memories.generate_memories": true,
+      "memories.use_memories": true,
+      "orchestrator.skills.enabled": true,
+      "tools.update_plan.enabled": true,
+      "tools.experimental_request_user_input.enabled": true,
+      "analytics.enabled": true,
+      "approval_policy": true,
+      "features.plugins": true,
+      "features.remote_plugin": true,
+      "features.plugin_hooks": true,
+      "features.apps": true,
+      "features.connectors": true,
+      "features.enable_mcp_apps": true,
+      "features.hooks": true,
+      "features.codex_hooks": true,
+      "features.memories": true,
+      "features.memory_tool": true,
+      "features.external_agent_memory_import": true,
+      "features.goals": true,
+      "features.remote_control": true,
+      "features.multi_agent": true,
+      "features.multi_agent_v2": true,
+      "features.collab": true,
+      "features.enable_fanout": true,
+      "features.send_async_message": true,
+      "features.code_mode": true,
+      "features.code_mode_only": true,
+      "features.code_mode_prewarm": true,
+      "features.js_repl": true,
+      "features.shell_tool": true,
+      "features.unified_exec": true,
+      "features.experimental_use_unified_exec_tool": true,
+      "features.apply_patch_freeform": true,
+      "features.view_image": true,
+      "features.web_search": true,
+      "features.web_search_cached": true,
+      "features.web_search_request": true,
+      "features.browser_use": true,
+      "features.computer_use": true,
+      "features.tool_search": true,
+      "features.token_budget": true,
+      "features.skill_search": true,
+      "features.shell_snapshot": true,
+      "features.background_paginated_rollout_migration": true,
+      "features.auth_elicitation": true,
+      "features.unbounded_connection_retries": true,
+      "features.code_mode_host": true,
+      "features.image_generation": true,
+      "features.deferred_executor": true,
+      "features.current_time_reminder": true,
+      "orchestrator.mcp.enabled": true
+    },
+    "control_observations": {
+      "sqlite_home": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "string",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "sqlite_home": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "string",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "log_dir": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "string",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "log_dir": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "string",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "history.persistence": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "string",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "history.persistence": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "string",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "web_search": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "string",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "web_search": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "string",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "agents.enabled": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "agents.enabled": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "memories.generate_memories": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "memories.generate_memories": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "memories.use_memories": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "memories.use_memories": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "orchestrator.skills.enabled": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "orchestrator.skills.enabled": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "tools.update_plan.enabled": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "tools.update_plan.enabled": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "absent",
+        "projected_value_shape": "null",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "tools.experimental_request_user_input.enabled": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "tools.experimental_request_user_input.enabled": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "absent",
+        "projected_value_shape": "null",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "analytics.enabled": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "analytics.enabled": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "approval_policy": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "string",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "approval_policy": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "string",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.plugins": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.plugins": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.remote_plugin": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.remote_plugin": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.plugin_hooks": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.plugin_hooks": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.apps": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.apps": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.connectors": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.connectors": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.enable_mcp_apps": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.enable_mcp_apps": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.hooks": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.hooks": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.codex_hooks": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.codex_hooks": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.memories": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.memories": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.memory_tool": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.memory_tool": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.external_agent_memory_import": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.external_agent_memory_import": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.goals": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.goals": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.remote_control": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.remote_control": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.multi_agent": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.multi_agent": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.multi_agent_v2": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.multi_agent_v2.enabled": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.collab": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.collab": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.enable_fanout": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.enable_fanout": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.send_async_message": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.send_async_message": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.code_mode": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "object",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.code_mode.enabled": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          },
+          "features.code_mode.direct_only_tool_namespaces.0": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "object",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.code_mode_only": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.code_mode_only": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.code_mode_prewarm": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.code_mode_prewarm": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.js_repl": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.js_repl": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.shell_tool": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.shell_tool": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.unified_exec": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.unified_exec": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.experimental_use_unified_exec_tool": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.experimental_use_unified_exec_tool": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.apply_patch_freeform": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.apply_patch_freeform": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.view_image": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.view_image": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.web_search": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.web_search": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.web_search_cached": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.web_search_cached": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.web_search_request": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.web_search_request": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.browser_use": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.browser_use": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.computer_use": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.computer_use": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.tool_search": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.tool_search": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.token_budget": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.token_budget": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.skill_search": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.skill_search": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.shell_snapshot": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.shell_snapshot": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.background_paginated_rollout_migration": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.background_paginated_rollout_migration": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.auth_elicitation": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.auth_elicitation": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.unbounded_connection_retries": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.unbounded_connection_retries": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.code_mode_host": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.code_mode_host": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.image_generation": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.image_generation": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.deferred_executor": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.deferred_executor": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "features.current_time_reminder": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "features.current_time_reminder": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      },
+      "orchestrator.mcp.enabled": {
+        "winning_value_kind": "leaf",
+        "winning_value_shape": "boolean",
+        "winning_value_matches": true,
+        "higher_enabled_layers_do_not_shadow": true,
+        "origins": {
+          "orchestrator.mcp.enabled": {
+            "present": true,
+            "metadata_shape_valid": true,
+            "source_type": "sessionFlags",
+            "exact_session_source": true,
+            "version_shape_valid": true,
+            "version_matches_session_layer": true,
+            "verified_session_origin": true
+          }
+        },
+        "all_scalar_origins_verified": true,
+        "projected_value_kind": "leaf",
+        "projected_value_shape": "boolean",
+        "projected_value_matches": true,
+        "structured_projection_requires_separate_admission": false,
+        "verified": true
+      }
+    },
+    "instruction_observations": {
+      "instructions": {
+        "projected_null_or_absent": true,
+        "enabled_custom_source_absent": true,
+        "custom_origin_absent": true,
+        "verified_absent": true
+      },
+      "developer_instructions": {
+        "projected_null_or_absent": true,
+        "enabled_custom_source_absent": true,
+        "custom_origin_absent": true,
+        "verified_absent": true
+      },
+      "model_instructions_file": {
+        "projected_null_or_absent": true,
+        "enabled_custom_source_absent": true,
+        "custom_origin_absent": true,
+        "verified_absent": true
+      },
+      "compact_prompt": {
+        "projected_null_or_absent": true,
+        "enabled_custom_source_absent": true,
+        "custom_origin_absent": true,
+        "verified_absent": true
+      },
+      "experimental_compact_prompt_file": {
+        "projected_null_or_absent": true,
+        "enabled_custom_source_absent": true,
+        "custom_origin_absent": true,
+        "verified_absent": true
+      },
+      "experimental_realtime_start_instructions": {
+        "projected_null_or_absent": true,
+        "enabled_custom_source_absent": true,
+        "custom_origin_absent": true,
+        "verified_absent": true
+      },
+      "experimental_realtime_ws_backend_prompt": {
+        "projected_null_or_absent": true,
+        "enabled_custom_source_absent": true,
+        "custom_origin_absent": true,
+        "verified_absent": true
+      }
+    },
+    "profile_valid": true,
+    "response_shape_valid": true,
+    "source_layers_shape_valid": true,
+    "unique_session_layer": true,
+    "session_layer_enabled": true,
+    "session_layer_name_exact": true,
+    "all_requested_controls_verified": true,
+    "source_sensitive_tables_verified": true,
+    "nondefault_instruction_overrides_absent": true,
+    "full_instruction_context_verified": false,
+    "runtime_tool_registry_verified": false,
+    "raw_native_values_saved_or_hashed": false,
+    "projected_structured_multi_agent_v2_is_deliberate_dependency_stop": true,
+    "first_failure": null,
+    "projected_tool_controls": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": true,
+      "runtime_tool_exposure_verified": false
+    }
+  },
+  "account_configuration": {
+    "configured_backend_field_present": true,
+    "configured_backend": "file",
+    "configured_backend_recognized": true,
+    "source_default_when_absent": "file",
+    "default_is_source_inference_not_runtime_attestation": true,
+    "projected_tool_controls": {
+      "observation": "CODEX_0151_PROJECTED_TOOL_CONTROLS_v1",
+      "controls": {
+        "tools.update_plan.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        },
+        "tools.experimental_request_user_input.enabled": {
+          "response_shape_valid": true,
+          "origin_present": true,
+          "origin_source_type": "sessionFlags",
+          "origin_is_session_flags": true,
+          "origin_version_valid": true,
+          "unique_session_layer": true,
+          "origin_version_matches_layer": true,
+          "winning_layer_enabled": true,
+          "winning_value_is_false_boolean": true,
+          "higher_enabled_layers_do_not_shadow": true,
+          "projected_value_does_not_contradict": true,
+          "verified_false_control": true
+        }
+      },
+      "all_two_controls_verified_false": true,
+      "runtime_tool_exposure_verified": false
+    },
+    "host_keyring_availability_measured": false,
+    "managed_requirements_verified": false
+  },
+  "requirements": {
+    "requirements_field_present": true,
+    "requirements_present": false,
+    "requirements_type_recognized": true,
+    "requirements_verified": false,
+    "cloud_policy_provenance_verified": false,
+    "scope": "single_configRequirements_read_response_no_policy_origin_attestation",
+    "null_requirements_admitted_for_observed_pro_route": true
+  },
+  "contained_account": {
+    "response_shape_recognized": true,
+    "account_field_present": true,
+    "account_present": true,
+    "account_kind": "chatgpt",
+    "requires_openai_auth": true,
+    "reported_plan_type": "pro",
+    "reported_plan_type_recognized": true,
+    "scope": "cached_account_read_in_this_network_enabled_session",
+    "live_authentication_verified": false,
+    "host_login_status_verified": false,
+    "model_entitlement_verified": false,
+    "authoritative_allowance_observed": false,
+    "scientific_review_authorized_by_this_report": false
+  },
+  "rate_limits": {
+    "response_shape_recognized": true,
+    "codex_bucket_observed": true,
+    "codex_snapshots": {
+      "explicit_codex_map_entry": {
+        "primary": {
+          "present": true,
+          "shape_recognized": true,
+          "usedPercent": 44,
+          "windowDurationMins": 10080,
+          "resetsAt": 1789490427
+        },
+        "secondary": {
+          "present": false,
+          "shape_recognized": true
+        }
+      },
+      "explicit_codex_legacy_entry": {
+        "primary": {
+          "present": true,
+          "shape_recognized": true,
+          "usedPercent": 44,
+          "windowDurationMins": 10080,
+          "resetsAt": 1789490427
+        },
+        "secondary": {
+          "present": false,
+          "shape_recognized": true
+        }
+      }
+    },
+    "unrecognized_bucket_count": 2,
+    "legacy_bucket_identity_recognized": true,
+    "scope": "Codex_rate_limit_metadata_returned_by_account_rateLimits_read",
+    "hosted_chatgpt_allowance_verified": false,
+    "requested_model_entitlement_verified": false,
+    "reset_credits_used": false,
+    "unattended_model_use_authorized": false
+  },
+  "quota_admission": {
+    "codex_reported_windows_below_full": true,
+    "hosted_chatgpt_allowance_verified": false,
+    "remaining_tokens_estimated": false
+  },
+  "live_rate_limits_response_received": true,
+  "model_catalog": {
+    "response_shape_recognized": true,
+    "page_entry_count": 7,
+    "entries": [
+      {
+        "model": "gpt-reserve",
+        "id": "gpt-reserve",
+        "is_default": false,
+        "hidden": true,
+        "supported_efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "unrecognized_effort_count": 0,
+        "default_effort": "medium",
+        "default_effort_recognized": true,
+        "default_effort_in_supported_list": true
+      },
+      {
+        "model": "gpt-5.6-sol",
+        "id": "gpt-5.6-sol",
+        "is_default": true,
+        "hidden": false,
+        "supported_efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "unrecognized_effort_count": 0,
+        "default_effort": "low",
+        "default_effort_recognized": true,
+        "default_effort_in_supported_list": true
+      },
+      {
+        "model": "gpt-5.6-terra",
+        "id": "gpt-5.6-terra",
+        "is_default": false,
+        "hidden": false,
+        "supported_efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "unrecognized_effort_count": 0,
+        "default_effort": "medium",
+        "default_effort_recognized": true,
+        "default_effort_in_supported_list": true
+      },
+      {
+        "model": "gpt-5.6-luna",
+        "id": "gpt-5.6-luna",
+        "is_default": false,
+        "hidden": false,
+        "supported_efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "unrecognized_effort_count": 0,
+        "default_effort": "medium",
+        "default_effort_recognized": true,
+        "default_effort_in_supported_list": true
+      },
+      {
+        "model": "gpt-5.5",
+        "id": "gpt-5.5",
+        "is_default": false,
+        "hidden": false,
+        "supported_efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "unrecognized_effort_count": 0,
+        "default_effort": "medium",
+        "default_effort_recognized": true,
+        "default_effort_in_supported_list": true
+      },
+      {
+        "model": "gpt-5.3-codex-spark",
+        "id": "gpt-5.3-codex-spark",
+        "is_default": false,
+        "hidden": false,
+        "supported_efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "unrecognized_effort_count": 0,
+        "default_effort": "high",
+        "default_effort_recognized": true,
+        "default_effort_in_supported_list": true
+      },
+      {
+        "model": "codex-auto-review",
+        "id": "codex-auto-review",
+        "is_default": false,
+        "hidden": true,
+        "supported_efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "unrecognized_effort_count": 0,
+        "default_effort": "medium",
+        "default_effort_recognized": true,
+        "default_effort_in_supported_list": true
+      }
+    ],
+    "additional_page_available": false,
+    "page_complete_for_returned_catalog": true,
+    "include_hidden_requested": true,
+    "discarded_unknown_response_field_count": 0,
+    "discarded_unknown_entry_field_count": 0,
+    "discarded_unknown_effort_field_count": 0,
+    "exact_requested_model_present_on_page": true,
+    "exact_requested_id_present_on_page": true,
+    "effort_names_are_local_output_allowlist": true,
+    "model_selection_performed": false,
+    "scope": "bounded_returned_model_catalog_pages_may_use_cached_metadata",
+    "model_entitlement_verified": false,
+    "model_tool_registry_verified": false,
+    "scientific_reviewer_boundary_verified": false,
+    "total_entry_count": 7,
+    "pages_validated": 1,
+    "pagination_complete": true
+  },
+  "selected_binding": {
+    "model": "gpt-5.6-sol",
+    "id": "gpt-5.6-sol",
+    "effort": "max"
+  },
+  "thread_admission": {
+    "thread_id": "01a0936f-b04e-73e0-9ad3-3f464bb7cc45",
+    "session_id": "01a0936f-b04e-73e0-9ad3-3f464bb7cc45",
+    "returned_controls_match": true,
+    "native_instruction_files_absent": true,
+    "thread_response_history_field_is_not_freshness_proof": true,
+    "full_fresh_context_verified": false,
+    "full_tool_registry_verified": false
+  },
+  "reported_model_provider": "openai",
+  "turn_binding": {
+    "thread_id": "01a0936f-b04e-73e0-9ad3-3f464bb7cc45",
+    "turn_id": "01a0936f-b076-7150-959a-c883b93cf2b2"
+  },
+  "last_server_request_observation": {
+    "method": "item/tool/call",
+    "request_envelope_fields_exact": true,
+    "params_is_object": true,
+    "tool": "read_text",
+    "thread_bound": true,
+    "turn_bound": true,
+    "raw_values_or_unknown_names_saved": false
+  },
+  "status": "SYNTHETIC_REFUSAL_OBSERVED",
+  "config_warnings": [
+    {
+      "category": "missing_system_bwrap_bundled_fallback_advisory",
+      "decision": "admitted_prethread_advisory",
+      "admitted": true,
+      "raw_content_saved_or_hashed": false,
+      "shape": {
+        "parameters_object": true,
+        "summary_string": true,
+        "details_present": true,
+        "details_nonnull": false,
+        "path_present": false,
+        "path_nonnull": false,
+        "range_present": false,
+        "range_nonnull": false,
+        "unknown_fields_present": false
+      }
+    }
+  ],
+  "config_warning_policy": {
+    "version": "P3_CONFIG_WARNING_020_v1",
+    "maximum_admitted_advisories": 1,
+    "raw_content_saved_or_hashed": false
+  },
+  "deprecation_notices": [
+    {
+      "category": "disabled_legacy_alias_codex_hooks",
+      "decision": "admitted_disabled_alias_startup_notice",
+      "admitted": true,
+      "related_controls_verified_disabled": true,
+      "raw_content_saved_or_hashed": false,
+      "shape": {
+        "parameters_object": true,
+        "exact_parameter_keys": true,
+        "summary_string": true,
+        "details_string": true
+      }
+    },
+    {
+      "category": "disabled_legacy_alias_collab",
+      "decision": "admitted_disabled_alias_startup_notice",
+      "admitted": true,
+      "related_controls_verified_disabled": true,
+      "raw_content_saved_or_hashed": false,
+      "shape": {
+        "parameters_object": true,
+        "exact_parameter_keys": true,
+        "summary_string": true,
+        "details_string": true
+      }
+    },
+    {
+      "category": "disabled_legacy_alias_connectors",
+      "decision": "admitted_disabled_alias_startup_notice",
+      "admitted": true,
+      "related_controls_verified_disabled": true,
+      "raw_content_saved_or_hashed": false,
+      "shape": {
+        "parameters_object": true,
+        "exact_parameter_keys": true,
+        "summary_string": true,
+        "details_string": true
+      }
+    },
+    {
+      "category": "disabled_legacy_alias_experimental_use_unified_exec_tool",
+      "decision": "admitted_disabled_alias_startup_notice",
+      "admitted": true,
+      "related_controls_verified_disabled": true,
+      "raw_content_saved_or_hashed": false,
+      "shape": {
+        "parameters_object": true,
+        "exact_parameter_keys": true,
+        "summary_string": true,
+        "details_string": true
+      }
+    },
+    {
+      "category": "disabled_legacy_web_alias_web_search_cached",
+      "decision": "admitted_disabled_alias_startup_notice",
+      "admitted": true,
+      "related_controls_verified_disabled": true,
+      "raw_content_saved_or_hashed": false,
+      "shape": {
+        "parameters_object": true,
+        "exact_parameter_keys": true,
+        "summary_string": true,
+        "details_string": true
+      }
+    },
+    {
+      "category": "disabled_legacy_web_alias_web_search_request",
+      "decision": "admitted_disabled_alias_startup_notice",
+      "admitted": true,
+      "related_controls_verified_disabled": true,
+      "raw_content_saved_or_hashed": false,
+      "shape": {
+        "parameters_object": true,
+        "exact_parameter_keys": true,
+        "summary_string": true,
+        "details_string": true
+      }
+    },
+    {
+      "category": "disabled_legacy_alias_memory_tool",
+      "decision": "admitted_disabled_alias_startup_notice",
+      "admitted": true,
+      "related_controls_verified_disabled": true,
+      "raw_content_saved_or_hashed": false,
+      "shape": {
+        "parameters_object": true,
+        "exact_parameter_keys": true,
+        "summary_string": true,
+        "details_string": true
+      }
+    },
+    {
+      "category": "disabled_legacy_web_alias_web_search",
+      "decision": "admitted_disabled_alias_startup_notice",
+      "admitted": true,
+      "related_controls_verified_disabled": true,
+      "raw_content_saved_or_hashed": false,
+      "shape": {
+        "parameters_object": true,
+        "exact_parameter_keys": true,
+        "summary_string": true,
+        "details_string": true
+      }
+    }
+  ],
+  "deprecation_notice_policy": {
+    "version": "P3_DEPRECATION_NOTICE_024_REBUILT_v1",
+    "maximum_distinct_admitted_notices": 8,
+    "profile_admitted": true,
+    "startup_window_open": false,
+    "startup_window_closed_by": "activity_notification",
+    "raw_content_saved_or_hashed": false
+  },
+  "notifications": {
+    "configWarning": 1,
+    "remoteControl/status/changed": 1,
+    "thread/started": 1,
+    "deprecationNotice": 8,
+    "warning": 1,
+    "thread/status/changed": 1,
+    "turn/started": 1,
+    "item/started": 7,
+    "item/completed": 6,
+    "thread/tokenUsage/updated": 2,
+    "account/rateLimits/updated": 2
+  },
+  "last_native_event_observation": {
+    "method": "item/started",
+    "phase": "started",
+    "item_type": "dynamicToolCall",
+    "item_is_object": true,
+    "item_identifier_valid": true,
+    "thread_bound": true,
+    "turn_bound": true,
+    "thread_matches": true,
+    "turn_matches": true,
+    "turn_started_observed": true,
+    "turn_completed_observed": false,
+    "outcome": "accepted",
+    "raw_values_or_unknown_names_saved": false
+  },
+  "native_item_lifecycle": {
+    "version": "P3_EVENT_POLICY_030_OFFLINE_PROPOSAL_v1",
+    "item_ceiling": 4096,
+    "item_starts_by_known_type": {
+      "userMessage": 1,
+      "reasoning": 3,
+      "dynamicToolCall": 3
+    },
+    "items_completed": 6,
+    "items_still_active": 1,
+    "context_compactions_started": 0,
+    "context_compactions_completed": 0,
+    "dynamic_callbacks_observed": 3,
+    "safety_buffering_metadata": {
+      "notifications_admitted": 0,
+      "last_recommendation_present": null,
+      "recommendation_ever_present": false,
+      "alternative_model_selected": false,
+      "raw_metadata_saved_or_hashed": false
+    },
+    "metadata_size_bounded_by_protocol_frame": true,
+    "resets_context_independent_controls": false,
+    "raw_ids_text_arguments_or_digests_saved": false
+  },
+  "last_notification_type": "item/started",
+  "broker_receipts": [
+    {
+      "method": "item/tool/call",
+      "tool": "read_text",
+      "successful": false,
+      "error_code": "integer_bounds",
+      "request_bytes": 281,
+      "request_sha256": "a090bc21871e5494b361085899072c327567fab1a84b64f21f571de109b9b4c3",
+      "response_bytes": 352,
+      "response_sha256": "2b9f1d9008067dcf7616be021edfa82c60078a87bb7335391300176651a7ef2a"
+    },
+    {
+      "method": "item/tool/call",
+      "tool": "read_text",
+      "successful": true,
+      "error_code": null,
+      "request_bytes": 279,
+      "request_sha256": "54b1d59b1e398626d0a934dae032a17bbe8c3f517b3b7db312b4739eca8b7326",
+      "response_bytes": 334,
+      "response_sha256": "1a8d097fd650a01d3b5deced9439157cec3d4f43c1fd2722c7f103e211d17209"
+    },
+    {
+      "method": "item/tool/call",
+      "tool": "read_text",
+      "successful": false,
+      "error_code": "resource_path_traversal",
+      "request_bytes": 283,
+      "request_sha256": "f27f89d665d16fd4f6efde23445dcfb160cce8d2f0ef9807a0240eae4c0f871b",
+      "response_bytes": 366,
+      "response_sha256": "df3f9e18ed39476bb41beae943da11ef039876eadfe89a5c9df718d3acdfb341"
+    }
+  ],
+  "native_process_reaped": true,
+  "client_exit_code": -15,
+  "streams": {
+    "stdout": {
+      "bytes_observed": 41640,
+      "raw_saved": false,
+      "hashed": false
+    },
+    "stderr": {
+      "bytes_observed": 103,
+      "raw_saved": false,
+      "hashed": false
+    }
+  },
+  "elapsed_seconds": 8.774318
+}

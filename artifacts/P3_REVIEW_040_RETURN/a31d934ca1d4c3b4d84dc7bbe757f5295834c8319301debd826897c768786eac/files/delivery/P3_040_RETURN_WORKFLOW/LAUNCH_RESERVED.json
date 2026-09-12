@@ -1,0 +1,9 @@
+{
+  "automatic_retry": false,
+  "content_commit": "2e11c1d8f5d8fa80aefc1bd8b1f1ff1feb52604e",
+  "controller_path": "scripts/p3_focused_review_040.py",
+  "kind": "P3_040_DURABLE_WRAPPER_RESERVATION_v1",
+  "manifest_sha256": "270244a9cc98193098d60ad021dedf4dbd91a44e4357e5b338aa5d1b3c30805e",
+  "reservation_is_not_proof_of_native_start": true,
+  "reserved_utc": "2026-09-12T02:26:02.319927+00:00"
+}
