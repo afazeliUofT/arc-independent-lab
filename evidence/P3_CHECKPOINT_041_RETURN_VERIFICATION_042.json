@@ -1,0 +1,55 @@
+{
+  "kind": "P3_CHECKPOINT_041_RETURN_VERIFICATION_042_v1",
+  "access_date": "2026-09-12",
+  "return_commit": "4976bc78c74908dc66da27d24b56c47aa4d6d5a6",
+  "receipt": {
+    "path": "artifacts/CHECKPOINT_041_RETURN/0c1c75ffed30571c7a14e9811ccb5db59cd0ec443a460b3d71674911b3a9f602/RECEIPT.json",
+    "sha256": "40c17c9fb76f566196271de98ca96209d67e0b7c2f790fd4de6a772b3ad1ef89",
+    "bytes": 1482,
+    "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/4976bc78c74908dc66da27d24b56c47aa4d6d5a6/artifacts/CHECKPOINT_041_RETURN/0c1c75ffed30571c7a14e9811ccb5db59cd0ec443a460b3d71674911b3a9f602/RECEIPT.json"
+  },
+  "receipt_exactly_matches_published041_workflow_and_frozen_release": true,
+  "canonical_verifier_result_sha256": "b98f63b402d3f9fef69ccf116110b53128e445d681217d29803565594573a034",
+  "same_verifier_result_as_hosted_final041_zip": true,
+  "release_manifest": {
+    "path": "evidence/P3_CHECKPOINT_041_MANIFEST.json",
+    "sha256": "0c1c75ffed30571c7a14e9811ccb5db59cd0ec443a460b3d71674911b3a9f602"
+  },
+  "workflow": {
+    "path": "scripts/checkpoint041_workflow.py",
+    "sha256": "5fbfac575fbc0a1698d8eeabfd5d787450115eaadf7e3a435a8a31cca4647c2e"
+  },
+  "git_change_assessment": {
+    "head": "4976bc78c74908dc66da27d24b56c47aa4d6d5a6",
+    "parent": "499a02002c7e8c4ec2ea899117bb79111cda1a63",
+    "changed": [
+      {
+        "mode": "100644",
+        "path": "artifacts/CHECKPOINT_041_RETURN/0c1c75ffed30571c7a14e9811ccb5db59cd0ec443a460b3d71674911b3a9f602/RECEIPT.json",
+        "sha": "be2ec5defd60059a8d0117f7c0b2b6c6c43852a8",
+        "size": 1482,
+        "type": "blob",
+        "url": "https://api.github.com/repos/afazeliUofT/arc-independent-lab/git/blobs/be2ec5defd60059a8d0117f7c0b2b6c6c43852a8"
+      }
+    ],
+    "deleted": [],
+    "other_blobs_and_modes_preserved": 1464
+  },
+  "public_files_verified": 143,
+  "private_packet_files_verified": 172,
+  "actual041_usage": {
+    "native_starts": 0,
+    "sent_turns": 0,
+    "candidate_runs": 0,
+    "new_native_allowance": 0
+  },
+  "cumulative_native_usage_unchanged": {
+    "starts": 18,
+    "sent_turns": 14
+  },
+  "new_scientific_verdict": false,
+  "future_experiment_admission": false,
+  "private_content_published": false,
+  "current_host_privately_reinspected": false,
+  "native_or_candidate_execution_by_this_check": false
+}

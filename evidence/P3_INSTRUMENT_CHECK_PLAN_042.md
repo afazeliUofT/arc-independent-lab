@@ -1,0 +1,9 @@
+# Planned instrument-only checks before execution
+
+2026-09-12. These are deterministic checks of a specified transducer and the algebraic feasibility deductions in `P3_COMPARISON_FEASIBILITY_042.md`. They do not instantiate N1, N3, any acquisition scheduler, a fitted predictor, a treatment or a scientific reviewer. A successful check will be called a structural check, never a GO verdict or experiment admission.
+
+The checker will enumerate the prospectively fixed opaque-label instance and preparation panel and verify: interface bijections; paid-reset initial state; the final-setter/mask target state; the unique goal-producing primitive; the exact typed history windows; a legal order-one count-key sufficiency witness in a short word; a legal order-two witness in a short word; target-state isolation by two representability-witness predicates; and an inherently aliased pair outside the target histories. These witness predicates are only algebraic controls and will not be supplied to a learner.
+
+It will calculate the direct coverage interaction-count identities from reset, word and validation lengths, and confirm the add-one unseen-key uniformity identity using exact rational arithmetic. Those outputs are derivations and instrument conformance checks, not learning curves, candidate scores, measured compute profiles or estimates of generalization. No candidate target success rate will be produced or inspected.
+
+Failure of a structural assertion stops the check. Any correction before publication must be versioned and recorded; no treatment has begun and the original035/041 source specifications remain unchanged. The final checkpoint manifest pins the checker, design configuration and all supporting source identities before the user runs it. The WSL workflow will return its full public-safe structural report and a hash-bound receipt to GitHub.

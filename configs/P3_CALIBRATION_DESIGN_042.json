@@ -1,0 +1,266 @@
+{
+  "kind": "P3_CALIBRATION_DESIGN_042_v1",
+  "status": "PROSPECTIVE_CALIBRATION_CONTRACT_NOT_EXECUTION_ADMISSION",
+  "mechanisms_implemented_or_run": false,
+  "world": {
+    "action_roles": [
+      "SET_0",
+      "SET_1",
+      "MASK",
+      "PROBE_0",
+      "PROBE_1"
+    ],
+    "observation_roles": [
+      "CUE_0",
+      "CUE_1",
+      "NEUTRAL",
+      "MATCH",
+      "MISMATCH"
+    ],
+    "hidden_register_values": [
+      0,
+      1
+    ],
+    "reset_observation_role": "NEUTRAL",
+    "initial_register_values": [
+      0,
+      1
+    ],
+    "interface": "one categorical observation field; five opaque primitive actions; paid RESET; no acquisition goal/reward/role labels"
+  },
+  "parameters": {
+    "W": 2,
+    "S": 3,
+    "K": 4,
+    "L": 5,
+    "V": 2,
+    "q": 4,
+    "B_env_acquisition": 285
+  },
+  "panel": {
+    "permutation_order": "lexicographic permutations of [0,1,2,3,4]; tuple maps roles to opaque indices",
+    "action_permutation_ranks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119
+    ],
+    "observation_permutation_rank_multiplier": 37,
+    "observation_permutation_rank_offset": 11,
+    "observation_permutation_modulus": 120,
+    "initial_register_values": [
+      0,
+      1
+    ],
+    "preparation_rule": {
+      "prefix": "SET_(1-b)",
+      "mask_repetitions": 5,
+      "last_action_by_endpoint_role": {
+        "CUE_0": "SET_0",
+        "CUE_1": "SET_1",
+        "NEUTRAL": "MASK",
+        "MATCH": "PROBE_(1-b)",
+        "MISMATCH": "PROBE_b"
+      }
+    },
+    "target_setter_values": [
+      0,
+      1
+    ],
+    "preparation_endpoint_roles": [
+      "CUE_0",
+      "CUE_1",
+      "NEUTRAL",
+      "MATCH",
+      "MISMATCH"
+    ],
+    "target_goal_roles": [
+      "MATCH",
+      "MISMATCH"
+    ],
+    "after_preparation": [
+      "SET_b",
+      "MASK"
+    ],
+    "weights": "equal per world, then equal per (b,endpoint,goal); fixed finite panel only; no IID or population CI claim"
+  },
+  "arms": [
+    "FULL",
+    "MACRO_OFF",
+    "FEEDBACK_NULL",
+    "COVERAGE"
+  ],
+  "diagnostic_readers": [
+    "ORDER0",
+    "ORDER1",
+    "ORDER2"
+  ],
+  "chooser": {
+    "rule": "maximum frozen add-one predicted probability of disclosed goal; lowest opaque action index breaks ties",
+    "training_from_target_history": false,
+    "target_goal_revealed_after_acquisition_freeze": true
+  },
+  "calibration_decision_policy": {
+    "minimum_numeric_fraction_each_and_joint": {
+      "numerator": 95,
+      "denominator": 100
+    },
+    "minimum_full_success_lower_bound": {
+      "numerator": 75,
+      "denominator": 100
+    },
+    "minimum_allocation_advantage_lower_bound": {
+      "numerator": 10,
+      "denominator": 100
+    },
+    "minimum_n1_advantage_over_order0_lower_bound": {
+      "numerator": 10,
+      "denominator": 100
+    },
+    "minimum_n1_advantage_over_each_order1_order2_lower_bound": {
+      "numerator": 5,
+      "denominator": 100
+    },
+    "no_formal_verdict_from_structural_checker": true,
+    "unavailable": "preserve and bound; never silently drop or impute a measured numeric outcome",
+    "full_count_policy_and_provenance": "see docs/P3_COMPARISON_DESIGN_042.md; thresholds are prospective research continuation policies, not empirical facts"
+  },
+  "operational_completion": {
+    "validation_assimilation": "after block scoring/finalization only, assimilate all completed validation transitions chronologically; preserve incomplete status; never fit target observations",
+    "boolean_syntax_size": "equality test is a Boolean leaf; exact executable encoding/cost implementation remains a pre-treatment dependency"
+  },
+  "resource_admission": {
+    "B_comp": null,
+    "B_mem": null,
+    "measured_runtime_projection": null,
+    "target_execution_admitted": false,
+    "profile_rule": "prespecified synthetic small/typical/largest work classes, three repetitions; use largest validated observation with factor2 reserve and25percent audit allowance; no target candidate score inspected",
+    "grid_committed": false
+  },
+  "allowed_042_execution": {
+    "kind": "finite instrument-only structural check",
+    "N1_or_N3_instantiated": false,
+    "scheduler_executed": false,
+    "predictor_fit": false,
+    "target_candidate_scores_generated": false,
+    "native_clients_or_model_turns": 0,
+    "candidate_runs": 0,
+    "private_papers_published": false
+  }
+}

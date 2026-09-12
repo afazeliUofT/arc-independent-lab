@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-12T02:01:54.817523+00:00",
+  "updated_utc": "2026-09-12T07:03:51.445962+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -485,7 +485,7 @@
     "repeat_authorized": false,
     "backend_usage_or_charge": "unknown"
   },
-  "current_pi_work": "Attended direct GitHub039 verdict/usage/boundary evaluation and L1 exact interface correction. No native or model reviewer launched here; no candidate, paid API or HPC treatment.",
+  "current_pi_work": "Attended direct GitHub041 reconciliation, feasibility reasoning, prospective042 calibration design and static/handoff conformance only.",
   "research_phase_boundaries_standing_override": {
     "path": "evidence/P2_SECOND_PHASE_BOUNDARY_035.json",
     "sha256": "ac9805cf2a0412e5cc0b49734d211c3320e762b328786938f083ad1d773432d1"
@@ -777,5 +777,40 @@
       "starts": 0,
       "sent_turns": 0
     }
+  },
+  "checkpoint042_accounting": {
+    "hosted_consultants": [
+      "feasibility042",
+      "design042",
+      "handoff042",
+      "certificate042"
+    ],
+    "consultants_are_independent_reviewers": false,
+    "native_starts": 0,
+    "native_sent_turns": 0,
+    "candidate_runs": 0,
+    "gpu_or_hpc_jobs": 0,
+    "new_native_allowance": 0,
+    "cumulative_native_starts": 18,
+    "cumulative_native_sent_turns": 14,
+    "authoritative_hosted_allowance": null,
+    "backend_usage_or_charge": "unknown",
+    "unattended_model_use": false,
+    "extra_spending": false,
+    "future_experiment_admission": false,
+    "B_env_prospective_calibration": 285,
+    "B_comp": null,
+    "B_mem": null,
+    "required_next_dependency": "Exact accounting/reference implementation and outcome-blind complete-work profiling; no candidate performance profiling in042."
+  },
+  "completed_offline_verification041": {
+    "returned_commit": "4976bc78c74908dc66da27d24b56c47aa4d6d5a6",
+    "verification": {
+      "path": "evidence/P3_CHECKPOINT_041_RETURN_VERIFICATION_042.json",
+      "sha256": "280ed52d176c5831f2e108986c7dcc69e04bd43d4ae550828ea62f79f7cfd50e"
+    },
+    "actual_native_starts": 0,
+    "actual_sent_turns": 0,
+    "new_native_allowance": 0
   }
 }

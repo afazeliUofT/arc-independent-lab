@@ -1,0 +1,135 @@
+{
+  "actual_private_packet_files": 172,
+  "actual_public_snapshot_files": 161,
+  "checks": {
+    "actual_design_checker_returned_integrity_verified": true,
+    "actual_workflow_loaded_every_public_file_from_release_git_objects": true,
+    "all_frozen_snapshot_bytes_unchanged_after_verification": true,
+    "all_public_private_and_source_code_bytes_preserved_in_fixture": true,
+    "child_process_trap_allowed_only_git_and_observed_no_other_process": true,
+    "complete_archive_inventory_and_crc_read": true,
+    "copied_archive_and_every_extracted_byte_match": true,
+    "every_original_public_input_and_private_member_hash": true,
+    "local_bare_remote_matches_verified_receipt_commit": true,
+    "only_report_and_receipt_paths_added_to_git": true,
+    "private_delivery_untracked_and_ignored": true,
+    "second_complete_invocation_reuses_same_commit_and_receipt": true
+  },
+  "draft_archive": {
+    "bytes": 26237563,
+    "members": 339,
+    "metadata_status": "Prepublication draft content_commit placeholder; final release checksum must be verified separately",
+    "path": "ARC_Independent_Lab_042.zip",
+    "sha256": "3202512d354610aaf95f265f5c7195f18ca4975f40fa581fc2fb1434a09b3379"
+  },
+  "execution_boundary": {
+    "candidate_or_experiment_started": false,
+    "future_experiment_admission": false,
+    "new_model_turns_sent": 0,
+    "new_native_starts": 0,
+    "review_controller_started": false,
+    "scientific_verdict_created": false
+  },
+  "fixture_receipt": {
+    "bytes": 1824,
+    "content": {
+      "accepted041_receipt_sha256": "40c17c9fb76f566196271de98ca96209d67e0b7c2f790fd4de6a772b3ad1ef89",
+      "accepted_return_commit": "9cb5df240144365843d51bcfb87249a7f1a1eeed",
+      "candidate_or_experiment_started": false,
+      "checker_path": "scripts/check_design042.py",
+      "checker_sha256": "fa8e585e563d68848ee5547f554ebd511d6cae719c53274aaac98838f22582a0",
+      "content_commit": "b89b4fe8c449d9ea33ecd3f05e4f3e5c01725a78",
+      "cumulative_model_turns_sent": 14,
+      "cumulative_native_starts": 18,
+      "failure_class": null,
+      "full_checker_result_published": true,
+      "future_experiment_admission": false,
+      "historical039_rerun": false,
+      "historical040_rerun": false,
+      "integrity_verified": true,
+      "kind": "P3_CHECKPOINT_042_STATIC_DESIGN_RECEIPT_v1",
+      "model_turns_sent": 0,
+      "native_starts": 0,
+      "new_native_allowance": 0,
+      "original040_report_sha256": "877c4eeda0b31154d42885f8afbe7e01a56a5a452bdcef56a279b46cb2a7c372",
+      "original040_verdict_sha256": "a31b9d8ec2103f09d81b963fd7f9ff51c4287490a0f0bf2f74f5dfbc1407d673",
+      "private_content_published": false,
+      "private_packet_files_verified": 172,
+      "public_snapshot_files_verified": 161,
+      "release_manifest_path": "evidence/P3_CHECKPOINT_042_MANIFEST.json",
+      "release_manifest_sha256": "0fd2693ebed86b1fd66c4220e164ce53570eb9f5688db644b8bfab3965a31135",
+      "report_path": "artifacts/CHECKPOINT_042_RETURN/0fd2693ebed86b1fd66c4220e164ce53570eb9f5688db644b8bfab3965a31135/REPORT.json",
+      "report_sha256": "79704515c920415f0ef7c90c70c45a49e44228157e759b26d32f570729ede0ea",
+      "repository": "afazeliUofT/arc-independent-lab",
+      "reviewer_or_review_controller_started": false,
+      "scientific_verdict_created": false,
+      "static_design_check_only": true,
+      "timestamp_omitted_for_idempotence": true,
+      "treatment_or_profile_executed": false,
+      "verification_status": "VERIFIED"
+    },
+    "not_a_laptop_execution_receipt": true,
+    "path_within_fixture": "artifacts/CHECKPOINT_042_RETURN/0fd2693ebed86b1fd66c4220e164ce53570eb9f5688db644b8bfab3965a31135/RECEIPT.json",
+    "sha256": "1e88739729012e5a3932073a413b5bcf9ada1135d91dd3569bc1bc3b748559e3"
+  },
+  "fixture_substitutions": [
+    "Only outer package_release.json content_commit and accepted_return_commit replaced with actual fixture Git IDs; SHA256SUMS updated for that metadata",
+    "Only loaded test workflow RETURN_COMMIT constant replaced with same actual fixture ancestor; production source bytes unchanged",
+    "Only canonical origin fetch/push/ls-remote transport routed to local bare remote; public Git object reads use actual Git objects containing exact public package files",
+    "Launcher subprocess adapter imports exact extracted workflow in process to inject those test-only bounds; actual design checker remains unchanged"
+  ],
+  "integration_helper_sha256": "c646a2a170e042c248b3f27207299b0f6f556307943ed7127dda147112414f56",
+  "kind": "P3_COMPLETE_PACKAGE_VALIDATION_042_v1",
+  "limitations": [
+    "Fixture commit and transport metadata are deliberately synthetic; this does not certify actual laptop GitHub authentication",
+    "Final publication adds this validation document and any publication/state bookkeeping; final root must recheck the final ZIP and manifest",
+    "Subprocess API observation is not a general operating-system security proof"
+  ],
+  "scope": "Actual complete draft042 input closure through extracted launcher, static042 design checker and local bare Git publication; not WSL/GitHub authentication or scientific re-review",
+  "source_bound_design_checker_result_canonical_sha256": "79704515c920415f0ef7c90c70c45a49e44228157e759b26d32f570729ede0ea",
+  "tested_manifest": {
+    "path": "evidence/P3_CHECKPOINT_042_MANIFEST.json",
+    "sha256": "0fd2693ebed86b1fd66c4220e164ce53570eb9f5688db644b8bfab3965a31135"
+  },
+  "source_bound_design_checker_result_reference": {
+    "path": "evidence/P3_INSTRUMENT_CHECK_VALIDATION_042.json",
+    "sha256": "2130db0dc993d246070c21fcdbcdac63edb17a8452cc2d99de0a999e4141533a"
+  },
+  "source_bound_design_checker_summary": {
+    "kind": "P3_CALIBRATION_DESIGN_CHECK_042_v1",
+    "integrity_verified": true,
+    "status": "STRUCTURAL_CHECKS_PASSED_NOT_SCIENTIFIC_VERDICT",
+    "structural_counts": {
+      "cue_isolated_neutral_cases": 960,
+      "distinct_target_windows": 2400,
+      "inherently_ambiguous_probe_pairs": 480,
+      "opaque_instances": 240,
+      "order1_support_cells": 960,
+      "order2_support_cells": 4800,
+      "planned_decisions": 4800,
+      "two_step_isolation_cases": 12000,
+      "unique_goal_action_witnesses": 4800
+    },
+    "boundaries": {
+      "N1_or_N3_instantiated": false,
+      "acquisition_scheduler_executed": false,
+      "candidate_or_experiment_started": false,
+      "future_experiment_admission": false,
+      "independent_scientific_verdict_created": false,
+      "instrument_only": true,
+      "model_turns_sent": 0,
+      "native_starts": 0,
+      "predictor_fit": false,
+      "private_paper_content_read_or_published": false,
+      "target_candidate_scores_generated": false,
+      "treatment_or_profile_executed": false
+    },
+    "checker": {
+      "bytes": 26014,
+      "path": "scripts/check_design042.py",
+      "sha256": "fa8e585e563d68848ee5547f554ebd511d6cae719c53274aaac98838f22582a0",
+      "trust_anchor": "External checkpoint release manifest pins these executable bytes."
+    }
+  },
+  "expanded_panel_sha256": "d647e95f93ccc138630da2ac36173441930783604f42aded68e89d31157d8b42"
+}

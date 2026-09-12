@@ -1,0 +1,22 @@
+# Checkpoint042: return the static design check and its receipt
+
+Save the single `ARC_Independent_Lab_042.zip` package in Windows Downloads and paste the accompanying command at WSL home. It discovers the Windows Downloads setting, including redirected and Unicode folders, and checks the published whole-ZIP SHA-256 before executing the launcher. It uses the existing `~/ARC_Independent_Lab` checkout; the observed account path is `/home/afazeli2006/ARC_Independent_Lab`. The canonical origin must be `afazeliUofT/arc-independent-lab` and the active branch must be `main`.
+
+The package is copied and extracted under ignored `delivery/P3_CHECKPOINT_042/<ZIP-SHA256>/bundle`. Every member must match its inventory hash and have an ordinary file shape. Identical prior extraction files are reused; changed files are preserved and cause a stop. The supplied papers remain private inside this ignored package.
+
+The workflow fetches GitHub, verifies that the published release descends from the accepted041 receipt commit `4976bc78c74908dc66da27d24b56c47aa4d6d5a6`, and reads its exact Git objects. It compares these objects with the packaged public snapshot and verifies every private packet hash. The pinned `scripts/check_design042.py` reads the frozen package through `verify(root: Path, packet: Path) -> dict`; its required result kind is `P3_CALIBRATION_DESIGN_CHECK_042_v1`, with `integrity_verified: true` for a completed check. The checker performs static design and instrument checks and writes no files. The parent workflow checks snapshot integrity again after the call.
+
+The exact public output allowlist contains two files:
+
+- `artifacts/CHECKPOINT_042_RETURN/<release-manifest-SHA256>/REPORT.json`: the full public-safe result returned by the trusted checker, including its structural counts and instrument proofs. It is not reduced to a hash.
+- `artifacts/CHECKPOINT_042_RETURN/<release-manifest-SHA256>/RECEIPT.json`: the release and checker hashes, report path and hash, accepted041 receipt hash, snapshot inventory counts, and execution boundaries.
+
+Both files use canonical JSON: sorted keys, two-space indentation, ASCII escaping, no nonfinite numbers, and one final newline. A well-formed checker result with `integrity_verified: false` is preserved in full and the command exits with a failure status. A checker exception produces a small categorical failure report and matching receipt, excluding exception text. Untrusted, changed or corrupt package inputs stop before publication. Report contents are public-safe by the frozen checker contract; the wrapper publishes no paper text, images, credentials, environment dump or arbitrary exception content.
+
+Repository synchronization uses fast-forward only. The workflow stages exact object bytes and commits both output files together; Git hooks are disabled for these fixed publication operations. Interrupted file creation or staging, failed commits and failed pushes can be retried with the same command. Only the matching two-file result is recovered. Changed outputs, unrelated edits or unpublished commits, and diverged branches are preserved and cause a stop. The workflow verifies the remote branch after a successful push and prints both GitHub links.
+
+This step starts no reviewer, native model, candidate, treatment, timing profile, experiment or HPC job. It does not rerun039 or040. New native starts and sent model turns are both zero; the cumulative recorded totals remain 18 starts and 14 sent turns. A successful design check does not establish efficacy, novelty, retention across discontinuities or future experiment admission. It checks the specified instrument and reader boundaries so those details can be examined directly from GitHub before any scientific execution.
+
+`evidence/P3_HANDOFF_VALIDATION_042.json` records focused hosted checks of the changed two-file publication path, exact partial-output recovery, failed commit/push recovery, full result preservation, failure sanitization and the actual extracted launcher entry point. Those fixtures use a clearly synthetic checker through the production API. The final complete-package seam check must additionally use the real checker and source packet. Hosted fixtures do not establish that Windows interoperability or GitHub authentication has succeeded on the laptop; the returned report and receipt will provide that execution result.
+
+The standing one-ZIP and WSL-home delivery preference remains in `docs/USER_HANDOFF_PREFERENCES_2026-09-11.md`. No additional paper is needed to run this static check.

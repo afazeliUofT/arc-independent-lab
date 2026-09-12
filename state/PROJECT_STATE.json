@@ -1,23 +1,22 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-12T03:48:28.061576+00:00",
+  "updated_utc": "2026-09-12T07:05:49.014204+00:00",
   "current_gate": "P3",
   "gate_status": "in_progress",
   "gate_entered_utc": "2026-09-10T23:29:11.766050+00:00",
   "last_verified_gate": "P3.second_candidate_focused_analytical_assessment",
-  "last_verified_commit": "5e0b18696df3188189b8e7ec5a89d3d92a2d78f5",
-  "active_task": "P3.N1_N3.successor_comparison_specification041",
+  "last_verified_commit": "4976bc78c74908dc66da27d24b56c47aa4d6d5a6",
+  "active_task": "P3.N1_N3.calibration_design042",
   "blocked_on": null,
-  "next_action": "Resolve scientific feasibility and freeze the concrete single-block comparison panel, resource allowances and decision rules before implementation or experiment review.041 home command returns offline integrity receipt only; no040 rerun or candidate execution.",
+  "next_action": "Finish exact accounting/reference adapters and outcome-blind complete-work profiling before any target learner run or experimental admission.042 command verifies instrument/panel structurally and returns full report plus receipt only.",
   "open_questions": [
-    "Does frozen N1-N3 feedback improve useful held-out decisions over a matched null under common information and resources?",
-    "Is the proposed041 opaque-register instrument adequate, and what fixed panel/allowances/decision rules make its comparison interpretable?",
-    "Does N1 select and use an adequate history distinction, or does ordinary full-window conditioning explain the result?",
-    "Is the conditional positive count-fitting confound reachable under the exact frozen scheduler?",
-    "What explicit cross-block credit, warm-up, completed-word and retained-state policies would a later retention comparison use?",
-    "Second-candidate whole-method priority, efficacy and an integrated N1-N5 useful-knowledge guarantee remain unestablished.",
-    "Narval effective allocation and large-artifact durability require measurement before an applicable treatment.",
-    "Exact040 tokens, final quota and attributable charge were not retained; hosted allowance remains unknown. Native040 scope exhausted."
+    "Can exact N1/N3 and comparator accounting support an affordable complete-work profile on laptop or Alliance?",
+    "Does N3 feedback improve early evidence acquisition over direct coverage under the fixed285-call calibration?",
+    "Does selected N1 abstraction add anything beyond prescribed same-T ORDER1/ORDER2 readers?",
+    "Does validation consume available predicate slots before useful trial credit can engage? Preserve such outcomes without exclusion.",
+    "What substantive instrument demands recombination beyond reuse of seen joint keys and retention across discontinuities?",
+    "Whole-method novelty, second-candidate efficacy and integrated N1-N5 useful-knowledge guarantees remain unestablished.",
+    "Exact040 tokens, final quota and charge remain unknown; consumed native040 scope is not reopened."
   ],
   "mechanisms": {
     "C1": {
@@ -83,8 +82,8 @@
     "P2.second_pass_after_reviewed_negative_audit"
   ],
   "remote": "https://github.com/afazeliUofT/arc-independent-lab",
-  "durability_status": "041 assessment/specification published and all21files read back exactly; complete321member ZIP saved and final143public/172privatebytes verified. Actual041 WSL offline receipt remains pending; scientific040 assessment is complete.",
-  "commit_status": "Content release5e0b186 verified; this separate receipt/state commit records publication and final ZIP identity.",
+  "durability_status": "Returned041 reconciled from GitHub.042 public release and one complete ZIP being prepared.",
+  "commit_status": "042 preparation; immutable historical evidence preserved.",
   "recovery_dependency": null,
   "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation.",
   "latest_recovery_evidence": [
@@ -102,8 +101,8 @@
     }
   ],
   "private_error_log_handling": "Probe raw error output stays within laptop Git metadata, outside normal commits. Request only safe terminal report; never ask for credentials or publish raw transport logs.",
-  "foreground_execution_note": "Actual040 used2starts/2sent, cumulative18/14.041 hosted assessment/design launches no native client, candidate, GPU or HPC job. Hosted allowance unknown; unattended model use disabled.",
-  "scientific_status": "Original040 GO admitted for bounded R1-R7/source assessment. All second candidates remain efficacy-untested and globally uncleared. Prospective single-block N1-N3 comparison specified; no retention or integrated guarantee.",
+  "foreground_execution_note": "042 hosted PI work uses no native reviewer/client, candidate, fitted reader, model treatment, GPU or HPC job. Native cumulative18/14 unchanged; hosted usage and charge unknown.",
+  "scientific_status": "041 receipt accepted; original040 bounded analytical GO unchanged.041 instrument demoted to acquisition/short-history calibration; missing ORDER1 baseline added; absent-joint-key recombination limitation established analytically. No efficacy or retention result.",
   "latest_scientific_evidence": [
     {
       "path": "evidence/P3_SECOND_N1_PRIMARY_AUDIT_036.md",
@@ -142,12 +141,12 @@
       "sha256": "1995e36a9f8e5f9f201d9b63ba8a7c39400f3e8e0046009a1c59973c2023188e"
     }
   ],
-  "handoff_backup_status": "One complete041 ZIP saved; one WSL-home command returns only offline receipt.040 review completed and not rerun.",
+  "handoff_backup_status": "Preparing one complete042 ZIP and one WSL-home Downloads command returning full static report plus receipt.",
   "latest_publication_verification": {
     "path": "evidence/REMOTE_CHECKPOINT_041_VERIFICATION.json",
     "sha256": "2e0198e1d601667e206391510e64e2d522edfcd5aa6b1759ce98c44b14b84b86"
   },
-  "last_human_message_verbatim": "Github is updated. Evaluate the returned verdict, usage and execution boundaries directly from GitHub.",
+  "last_human_message_verbatim": "Github is updated: GitHub receipt: https://github.com/afazeliUofT/arc-independent-lab/blob/4976bc78c74908dc66da27d24b56c47aa4d6d5a6/artifacts/CHECKPOINT_041_RETURN/0c1c75ffed30571c7a14e9811ccb5db59cd0ec443a460b3d71674911b3a9f602/RECEIPT.json\nOriginal040 offline integrity verification: VERIFIED\nNo reviewer, model or experiment was started. Future experiment admission is not asserted.",
   "phase1_approval": {
     "verified_utc": "2026-09-06T18:51:56.227927+00:00",
     "source_url": "https://github.com/afazeliUofT/arc-independent-lab/blob/376455150af7b257809a56021431413b2e0c6293/state/ESCALATION.md",
@@ -593,10 +592,7 @@
     "path": "evidence/P3_FIRST_AUDIT_ADMISSION_033.json",
     "sha256": "a520a8b7ca680ee402a2ac88733998953ec2dafcb30fb2d693db3f56fd4b877a"
   },
-  "latest_route": {
-    "path": "evidence/P3_TO_P2_ROUTE_033.json",
-    "sha256": "38c1018c1e56d6ce5da9ae646b624a940971bae2aea028c8113006c0e5ffe244"
-  },
+  "latest_route": "COMPLETE_REFERENCE_ACCOUNTING_AND_OUTCOME_BLIND_PROFILE",
   "completed_finite_review032": {
     "report": {
       "path": "artifacts/P3_REVIEW_032_RETURN/94ddb570582a75780f03e54df5e3228a58dc9de23397d63eac4976928b9a2d11/files/delivery/P3_FINITE_REVIEW_032/REPORT.json",
@@ -717,11 +713,8 @@
       "sha256": "70424ad00f17056b1508a46e385b75496a7c25f51d5bb648377995761da4cef5"
     }
   },
-  "latest_objective_status": {
-    "path": "reports/OBJECTIVE_STATUS_REVIEW_038.md",
-    "sha256": "da16c74907f3835a233182f63a3c0e8b5a987435d2653f339f627d0de0358adb"
-  },
-  "current_publication_checkpoint": "041_published_verified",
+  "latest_objective_status": "Original interactive acquisition, retention across discontinuities and useful recombination remain the research objective.042 is a deliberately limited calibration, not programme completion.",
+  "current_publication_checkpoint": "042_prepared_not_yet_published",
   "auxiliary_auditor_receipt_durability": {
     "status": "verified_published_on_main",
     "commit": "296cf94b9e692f4ddbee5c554fc87aaa5a298e60",
@@ -1027,6 +1020,62 @@
     "publication_verification": {
       "path": "evidence/REMOTE_CHECKPOINT_041_VERIFICATION.json",
       "sha256": "2e0198e1d601667e206391510e64e2d522edfcd5aa6b1759ce98c44b14b84b86"
+    },
+    "returned042": {
+      "path": "evidence/P3_CHECKPOINT_041_RETURN_VERIFICATION_042.json",
+      "sha256": "280ed52d176c5831f2e108986c7dcc69e04bd43d4ae550828ea62f79f7cfd50e"
     }
+  },
+  "checkpoint042": {
+    "status": "structural_and_complete_package_checks_passed_pending_publication_and_WSL_return",
+    "evidence": [
+      {
+        "path": "evidence/P3_CHECKPOINT_041_RETURN_VERIFICATION_042.json",
+        "sha256": "280ed52d176c5831f2e108986c7dcc69e04bd43d4ae550828ea62f79f7cfd50e"
+      },
+      {
+        "path": "evidence/P3_COMPARISON_FEASIBILITY_042.md",
+        "sha256": "4e8fdaa35d82f874f141540d91b307088567969d04780454d656afd03ff0d57a"
+      },
+      {
+        "path": "docs/P3_COMPARISON_DESIGN_042.md",
+        "sha256": "597ad1981a90682eea3e8e0118bbea0c9268d2f2edb82a20bce8c1c018d593fb"
+      },
+      {
+        "path": "configs/P3_CALIBRATION_DESIGN_042.json",
+        "sha256": "bd892bf72027ddb3d3ebdee979e4304cad5e36766a87d240acd32d11d783ee5f"
+      },
+      {
+        "path": "reports/P3_RETURN_041_AND_CALIBRATION_ROUTE_042.md",
+        "sha256": "24506f98164a622c67fadcb8f09c3a4dc12d95847fe014758ddd38268106bf24"
+      }
+    ],
+    "native_starts": 0,
+    "native_sent_turns": 0,
+    "candidate_runs": 0,
+    "future_experiment_admission": false,
+    "B_env": 285,
+    "B_comp": null,
+    "B_mem": null,
+    "panel_worlds": 240,
+    "queries_per_world": 20,
+    "same_trace_readers": [
+      "ORDER0",
+      "ORDER1",
+      "ORDER2"
+    ],
+    "further_papers_required": [],
+    "structural_validation": {
+      "path": "evidence/P3_INSTRUMENT_CHECK_VALIDATION_042.json",
+      "sha256": "2130db0dc993d246070c21fcdbcdac63edb17a8452cc2d99de0a999e4141533a"
+    },
+    "complete_package_validation": {
+      "path": "evidence/P3_COMPLETE_PACKAGE_VALIDATION_042.json",
+      "sha256": "b857a0aeb196b65fcf777908997cfc0f68872946616a3609a6f91f1b4c3b849a"
+    },
+    "panel_sha256": "d647e95f93ccc138630da2ac36173441930783604f42aded68e89d31157d8b42",
+    "expected_full_return_report_sha256": "79704515c920415f0ef7c90c70c45a49e44228157e759b26d32f570729ede0ea",
+    "expected_full_return_report_bytes": 1339791,
+    "next_report_retrieval": "REPORT exceeds1MiB: use GitHub fetch_blob with recursive-tree blobSHA; do not mistake contents API emptycontent for missing evidence."
   }
 }

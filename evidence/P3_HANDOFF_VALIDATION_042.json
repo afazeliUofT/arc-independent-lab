@@ -1,0 +1,71 @@
+{
+  "boundaries": {
+    "candidate_or_experiment_started": false,
+    "future_experiment_admission": false,
+    "independent_scientific_verdict_created": false,
+    "new_model_turns_sent": 0,
+    "new_native_starts": 0,
+    "old041_and_earlier_files_modified": false
+  },
+  "command": "python3 -B -m unittest discover -s ARC_Independent_Lab/tests -p test_checkpoint042_handoff.py -v",
+  "exit_code": 0,
+  "kind": "P3_HANDOFF_VALIDATION_042_v1",
+  "limitations": [
+    "Final complete archive with actual042 checker and 172-file private packet requires a separate assembly seam check",
+    "Windows interoperability and GitHub authentication were not exercised on the laptop",
+    "Tests do not establish OS-level process isolation or general Git credential-helper safety",
+    "Static checks do not establish scientific efficacy, novelty or future experiment admission"
+  ],
+  "meaningful_coverage": [
+    "Full trusted checker JSON result preserved as public REPORT.json with matching report path and SHA-256 in RECEIPT.json",
+    "Exactly two public files committed and published; unchanged repeat reuses the same commit",
+    "Interrupted REPORT-only file creation and staging recovers an exact two-file commit",
+    "Failed commit recovers exact staged outputs; failed push reuses exact committed outputs",
+    "Changed staged receipt is preserved and publication stops",
+    "Checker exception publishes only a categorical failure report and receipt, omitting arbitrary exception text",
+    "Actual extracted launcher loads packaged workflow and siblings, uses a Unicode home path, and recovers a failed push",
+    "Packaged command template parses in bash; no native-controller command is invoked",
+    "Well-formed structured checker failure is preserved in full with a STOPPED receipt rather than replaced by a hash or generic status"
+  ],
+  "recorded_utc": "2026-09-12T06:54:47.907129+00:00",
+  "result": "OK",
+  "scope": "Hosted offline handoff engineering validation; no independent scientific review or actual WSL execution",
+  "sources": [
+    {
+      "path": "scripts/downloads_bootstrap042.py",
+      "sha256": "17f7a088d04d3409a92dee681dfc9e7d76c54e42098cc5c08f2afc5ef018a4e4"
+    },
+    {
+      "path": "scripts/launch042_home.py",
+      "sha256": "e7e702a74db39650f710319f9aef0c7670c918cc2c65957f41f5dcf537044756"
+    },
+    {
+      "path": "scripts/checkpoint042_workflow.py",
+      "sha256": "70988487232f35072671e1ffbf1f2d72f9a07a84921d688d63d4529ccc3f9521"
+    },
+    {
+      "path": "tests/test_checkpoint042_handoff.py",
+      "sha256": "ff6c414b014f3f75c7c1a455f7ed32181978ec024838b4212f1455446dbbdd41"
+    },
+    {
+      "path": "docs/P3_EXECUTION_042.md",
+      "sha256": "b7fc9a03b2c3c76d9d08e6509a44619b75fa00d65dd4609d9cffd04032c0c4c1"
+    }
+  ],
+  "substitutions": {
+    "checker": "Pinned synthetic checker source loaded through production verify(root,packet) API; reports fixture counts and proof labels only",
+    "historical_commit": "Test module RETURN_COMMIT alone is replaced by an actual fixture ancestor commit",
+    "transport": "Canonical-origin Git transport adapter routes fetch/push/ls-remote only to an explicit local bare fixture remote"
+  },
+  "test_names": [
+    "test_real_workflow_publishes_full_report_plus_receipt_and_repeat_is_identical",
+    "test_partial_report_file_or_staging_recovers_exact_two_file_commit",
+    "test_failed_push_retries_same_commit_and_failed_commit_retries_exact_index",
+    "test_structured_checker_failure_preserves_full_failure_report",
+    "test_verifier_failure_returns_small_failure_receipt_without_exception_content",
+    "test_changed_staged_receipt_and_unrelated_work_are_preserved",
+    "test_actual_extracted_launcher_workflow_push_retry_and_complete_inventory",
+    "test_command_template_shell_parses_and_has_no_native_call"
+  ],
+  "tests_run": 8
+}
