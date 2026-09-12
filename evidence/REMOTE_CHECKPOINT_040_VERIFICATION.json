@@ -1,0 +1,183 @@
+{
+  "kind": "P3_CHECKPOINT_040_PUBLICATION_VERIFICATION_v1",
+  "created_utc": "2026-09-12T02:09:07.664680+00:00",
+  "baseline_return_commit": "ee29a58cf57783984e848df83032541c929c4658",
+  "content_commit": "2e11c1d8f5d8fa80aefc1bd8b1f1ff1feb52604e",
+  "content_tree": "3be64c02f8ea5662bcad276f48a9b45d0eef6a41",
+  "readback": [
+    {
+      "path": "configs/P3_FOCUSED_REVIEW_SCOPE_040.json",
+      "exact_content": true,
+      "blob_sha": "f6b10d1714527069815cd57bfaf73ee8f806c390"
+    },
+    {
+      "path": "docs/P3_REVIEW_RETURN_WORKFLOW_040.md",
+      "exact_content": true,
+      "blob_sha": "4ef8470832344a02e5e4a2898888a739cb63a440"
+    },
+    {
+      "path": "evidence/P3_ADMISSION_REPAIR_VALIDATION_040.json",
+      "exact_content": true,
+      "blob_sha": "43fa7efe711f48433124d26983f2fd34cd997275"
+    },
+    {
+      "path": "evidence/P3_ADVERSARIAL_PREPARATION_040.md",
+      "exact_content": true,
+      "blob_sha": "e7530156cd141bbe0eedbfa199040e827d6556b1"
+    },
+    {
+      "path": "evidence/P3_BOUNDARY_RETURN_ASSESSMENT_040.json",
+      "exact_content": true,
+      "blob_sha": "1228f8518f839b3175c986be49d8e2dec1765e4d"
+    },
+    {
+      "path": "evidence/P3_FOCUSED_REVIEW_MANIFEST_040.json",
+      "exact_content": true,
+      "blob_sha": "bc98e93add9fa28b0dd2b9e8c3a6596c03b66e8e"
+    },
+    {
+      "path": "evidence/P3_HANDOFF_VALIDATION_040.json",
+      "exact_content": true,
+      "blob_sha": "9f5d678fcff7f9614e5e27d9bb4c3886fcd18561"
+    },
+    {
+      "path": "evidence/P3_PACKAGE_PREPARATION_VALIDATION_040.json",
+      "exact_content": true,
+      "blob_sha": "eb0eb178e65209a0b45f1f899be4c0336f004aa0"
+    },
+    {
+      "path": "evidence/P3_RUN_039_RETURN_VERIFICATION_040.json",
+      "exact_content": true,
+      "blob_sha": "f051ab22e20006e375b0f3e36269c721efe51332"
+    },
+    {
+      "path": "evidence/P3_USAGE_RETURN_ASSESSMENT_040.json",
+      "exact_content": true,
+      "blob_sha": "e044aa09bf303215ee8e46afa7486a50bb5885c7"
+    },
+    {
+      "path": "reports/DIGEST_2026-09-12.md",
+      "exact_content": true,
+      "blob_sha": "e7debe73a79d80948db3fa127bb87f011c4358e3"
+    },
+    {
+      "path": "reports/P3_RUN_039_EVALUATION_AND_ROUTE_040.md",
+      "exact_content": true,
+      "blob_sha": "3db4c84a4978c156175c996808a40203322e5178"
+    },
+    {
+      "path": "scripts/check_return039_040.py",
+      "exact_content": true,
+      "blob_sha": "37be8fe4d4f7ea53ef7ec44cca2e8c479604c63b"
+    },
+    {
+      "path": "scripts/downloads_bootstrap040.py",
+      "exact_content": true,
+      "blob_sha": "1af28b3c8727d0d09251f0eaaa390c7091abad67"
+    },
+    {
+      "path": "scripts/launch040_home.py",
+      "exact_content": true,
+      "blob_sha": "ca217c6dc07a8d8b92defca291150acb0159c76c"
+    },
+    {
+      "path": "scripts/p3_focused_review_040.py",
+      "exact_content": true,
+      "blob_sha": "7f9154f3915a1e055e3a9aa03f1b29b524892b9a"
+    },
+    {
+      "path": "scripts/p3_reviewer_admission_040.py",
+      "exact_content": true,
+      "blob_sha": "75298e70e8810670564dae7b0c64a46b239543ce"
+    },
+    {
+      "path": "scripts/p3_reviewer_session_040.py",
+      "exact_content": true,
+      "blob_sha": "cb3cadfa68350f84d313aef33f40143400b2fa8f"
+    },
+    {
+      "path": "scripts/publish_review040_evidence.py",
+      "exact_content": true,
+      "blob_sha": "3ea0bbf93b6ed6991babefb8415486c80ffaa539"
+    },
+    {
+      "path": "scripts/review040_workflow.py",
+      "exact_content": true,
+      "blob_sha": "d4830d7da0d3943b0c6bb12b33db2bd59a402828"
+    },
+    {
+      "path": "state/BUDGET.json",
+      "exact_content": true,
+      "blob_sha": "9731739fb83a97cf2c30cd82f46c436140391ac0"
+    },
+    {
+      "path": "state/LEDGER.jsonl",
+      "exact_content": true,
+      "blob_sha": "ddc148241ecf420c452c4e9153e5059bd373ecce"
+    },
+    {
+      "path": "state/PROJECT_STATE.json",
+      "exact_content": true,
+      "blob_sha": "0dbbae807822c26b2beceeb7fe6586207ff7d0de"
+    },
+    {
+      "path": "state/authorizations/P3_FOCUSED_REVIEW_040_STANDING_AUTHORIZATION.md",
+      "exact_content": true,
+      "blob_sha": "4b5848cfffb0a2265852d4a41e275b0e85a58dd8"
+    },
+    {
+      "path": "state/tool_errors.jsonl",
+      "exact_content": true,
+      "blob_sha": "6e39e5af042bea676c9fb8c413477d2ded3954d6"
+    },
+    {
+      "path": "tests/test_launch040_home.py",
+      "exact_content": true,
+      "blob_sha": "902c5ed274c9a18d3115f4df26d38aeca24a6eae"
+    },
+    {
+      "path": "tests/test_p3_focused_review_040.py",
+      "exact_content": true,
+      "blob_sha": "826fd13f76e42aab65f582572155511b3859f75f"
+    },
+    {
+      "path": "tests/test_publish_review040_evidence.py",
+      "exact_content": true,
+      "blob_sha": "4c3a48d071a04258b895a7668eaa776a1235873c"
+    },
+    {
+      "path": "tests/test_review040_workflow.py",
+      "exact_content": true,
+      "blob_sha": "9739c2f0372140852211bd2a74aba270fc7a2055"
+    }
+  ],
+  "all_29_changed_files_read_back_exactly": true,
+  "undeclared_baseline_blobs_and_modes_preserved": 1403,
+  "all_107_manifest_inputs_verified_against_content_tree_and_exact_bytes": true,
+  "package": {
+    "zip_sha256": "e4f2f919bd599d8000b1f2f5891ee7fc74aba0938c046f66c04f1e5914668654",
+    "zip_bytes": 26082111,
+    "members": 340,
+    "expanded_bytes": 33205496,
+    "release": {
+      "kind": "P3_FOCUSED_REVIEW_040_RELEASE_v1",
+      "repository": "afazeliUofT/arc-independent-lab",
+      "content_commit": "2e11c1d8f5d8fa80aefc1bd8b1f1ff1feb52604e",
+      "manifest_path": "evidence/P3_FOCUSED_REVIEW_MANIFEST_040.json",
+      "manifest_sha256": "270244a9cc98193098d60ad021dedf4dbd91a44e4357e5b338aa5d1b3c30805e"
+    },
+    "public_snapshot_files": 126,
+    "public_input_count": 107,
+    "private_packet_files": 172,
+    "complete_member_inventory_crc_and_bytes_verified": true,
+    "actual_launcher_archive_validator_passed": true,
+    "scope_and_all_source_pins_verified": true,
+    "native_or_model_executed": false
+  },
+  "private_package_saved": true,
+  "actual040_native_execution": false,
+  "scientific_verdict_present": false,
+  "original039_verdict_absent": true,
+  "purpose": "Preserve evaluated039 stop/accounting and deliver narrow exact-admission040 correction.",
+  "final_zip_digest_outside_archive_reason": "Avoids self-referential checksum; archive contains exact public content snapshot and all required packet/dependencies."
+}

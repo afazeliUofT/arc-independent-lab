@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-12T02:01:54.817523+00:00",
+  "updated_utc": "2026-09-12T02:09:07.664680+00:00",
   "current_gate": "P3",
   "gate_status": "in_progress",
   "gate_entered_utc": "2026-09-10T23:29:11.766050+00:00",
   "last_verified_gate": "P3.first_candidate_audit",
-  "last_verified_commit": "ee29a58cf57783984e848df83032541c929c4658",
+  "last_verified_commit": "2e11c1d8f5d8fa80aefc1bd8b1f1ff1feb52604e",
   "active_task": "P3.focused_review040.awaiting_attended_execution",
   "blocked_on": null,
   "next_action": "Run the one040 ZIP WSL-home command. Pure full-tool admission runs before any native process, then finite synthetic and separately fresh focused science stages. Push original verdict or stop evidence. Verify actual040 usage/boundaries before any scientific disposition; do not rerun039.",
@@ -84,8 +84,8 @@
     "P2.second_pass_after_reviewed_negative_audit"
   ],
   "remote": "https://github.com/afazeliUofT/arc-independent-lab",
-  "durability_status": "Original039 return verified directly on GitHub; final040 one-ZIP package and original assessment publication are being finalized.",
-  "commit_status": "040 assessment/correction prepared; content publication pending.",
+  "durability_status": "039 original return verified;040 original assessment and correction published. Single complete340-member ZIP saved and exact inventory/CRC/bytes verified. Actual040 WSL execution remains pending.",
+  "commit_status": "All29 content files read back exactly at 2e11c1d8f5d8fa80aefc1bd8b1f1ff1feb52604e; this separate receipt/state commit records verification.",
   "recovery_dependency": null,
   "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation.",
   "latest_recovery_evidence": [
@@ -145,8 +145,8 @@
   ],
   "handoff_backup_status": "038 source-staging return verified; preparing next single039 ZIP with WSL-home execution and GitHub result return.",
   "latest_publication_verification": {
-    "path": "evidence/REMOTE_CHECKPOINT_039_VERIFICATION.json",
-    "sha256": "abed89d5be8ae95bad1325178a256c8f113b1dfb0755f76036d01724fc6fa788"
+    "path": "evidence/REMOTE_CHECKPOINT_040_VERIFICATION.json",
+    "sha256": "676c59368a36cb1f07318a0695c609aebd91c173951e99df67a5283bcc790b65"
   },
   "last_human_message_verbatim": "Github is updated. Evaluate the returned verdict, usage and execution boundaries directly from GitHub.",
   "phase1_approval": {
@@ -712,7 +712,7 @@
     "path": "reports/OBJECTIVE_STATUS_REVIEW_038.md",
     "sha256": "da16c74907f3835a233182f63a3c0e8b5a987435d2653f339f627d0de0358adb"
   },
-  "current_publication_checkpoint": "040_prepared_publication_pending",
+  "current_publication_checkpoint": "040_published_verified",
   "auxiliary_auditor_receipt_durability": {
     "status": "verified_published_on_main",
     "commit": "296cf94b9e692f4ddbee5c554fc87aaa5a298e60",
@@ -830,14 +830,15 @@
   },
   "original_initial_prompt_now_visible": true,
   "latest_continuation_zip": {
-    "filename": "ARC_Independent_Lab_039.zip",
-    "sha256": "f7c77423e2fa017d931386ec4cab861e5d7b7198c7dbe6ccdb978f412d570be7",
-    "bytes": 25826976,
-    "content_commit": "eebd0a5d8ac8868d7a4fbf72835ffe25f2803143",
-    "release_manifest": "evidence/P3_FOCUSED_REVIEW_MANIFEST_039.json",
-    "manifest_sha256": "c43d8773caee24ee1ad0b3dbc50bbb847dc02add09d87aed08575db77db64772",
+    "filename": "ARC_Independent_Lab_040.zip",
+    "sha256": "e4f2f919bd599d8000b1f2f5891ee7fc74aba0938c046f66c04f1e5914668654",
+    "bytes": 26082111,
+    "content_commit": "2e11c1d8f5d8fa80aefc1bd8b1f1ff1feb52604e",
+    "release_manifest": "evidence/P3_FOCUSED_REVIEW_MANIFEST_040.json",
+    "manifest_sha256": "270244a9cc98193098d60ad021dedf4dbd91a44e4357e5b338aa5d1b3c30805e",
     "one_wsl_home_downloads_command": true,
     "private_papers_included": true,
+    "original039_return_included": true,
     "actual_execution_pending": true,
     "saved": true
   },
@@ -876,7 +877,11 @@
     },
     "actual_execution_pending": true,
     "standing_authorization_applies": true,
-    "new_approval_answer_fabricated": false
+    "new_approval_answer_fabricated": false,
+    "publication_verification": {
+      "path": "evidence/REMOTE_CHECKPOINT_040_VERIFICATION.json",
+      "sha256": "676c59368a36cb1f07318a0695c609aebd91c173951e99df67a5283bcc790b65"
+    }
   },
   "completed_focused_review039": {
     "report": {
