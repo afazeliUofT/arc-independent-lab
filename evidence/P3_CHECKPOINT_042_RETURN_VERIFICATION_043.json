@@ -1,0 +1,52 @@
+{
+  "kind": "P3_CHECKPOINT_042_RETURN_VERIFICATION_043_v1",
+  "access_date": "2026-09-12",
+  "return_commit": "c66f764955c6cfe17d78ae593c290b4ae949e4d3",
+  "parent_commit": "5dd4297c9ba2325be7f8e25a5111dc6f3aaa0a32",
+  "tree": "14dcb8fe3b17e38bfac891095df4cf728c6411fb",
+  "parent_tree": "8786e32aba947dbf854731a29f4536e956a413df",
+  "changed": [
+    {
+      "mode": "100644",
+      "path": "artifacts/CHECKPOINT_042_RETURN/7f26fb460ab790bb0b497800d8403490f3b10236d8cbf98d91bdf1e315b28161/RECEIPT.json",
+      "sha": "a49445582f348f0a6db7f4425387c3983d568b52",
+      "size": 1824,
+      "type": "blob",
+      "url": "https://api.github.com/repos/afazeliUofT/arc-independent-lab/git/blobs/a49445582f348f0a6db7f4425387c3983d568b52"
+    },
+    {
+      "mode": "100644",
+      "path": "artifacts/CHECKPOINT_042_RETURN/7f26fb460ab790bb0b497800d8403490f3b10236d8cbf98d91bdf1e315b28161/REPORT.json",
+      "sha": "fdbae2a0c9ea1b1468e22af7e55840fb8c3bb3b2",
+      "size": 1339791,
+      "type": "blob",
+      "url": "https://api.github.com/repos/afazeliUofT/arc-independent-lab/git/blobs/fdbae2a0c9ea1b1468e22af7e55840fb8c3bb3b2"
+    }
+  ],
+  "prior_blobs_and_modes_preserved": 1483,
+  "receipt_sha256": "0ceb4418024b409638f4f2dfb89d734c29f55261ad7e3e17d674dbd65c71227b",
+  "report_sha256": "79704515c920415f0ef7c90c70c45a49e44228157e759b26d32f570729ede0ea",
+  "report_bytes": 1339791,
+  "expected_full_report_and_receipt_exact": true,
+  "structural_status": "STRUCTURAL_CHECKS_PASSED_NOT_SCIENTIFIC_VERDICT",
+  "structural_counts": {
+    "cue_isolated_neutral_cases": 960,
+    "distinct_target_windows": 2400,
+    "inherently_ambiguous_probe_pairs": 480,
+    "opaque_instances": 240,
+    "order1_support_cells": 960,
+    "order2_support_cells": 4800,
+    "planned_decisions": 4800,
+    "two_step_isolation_cases": 12000,
+    "unique_goal_action_witnesses": 4800
+  },
+  "panel_sha256": "d647e95f93ccc138630da2ac36173441930783604f42aded68e89d31157d8b42",
+  "actual042_native_starts": 0,
+  "actual042_model_turns_sent": 0,
+  "cumulative_native_starts": 18,
+  "cumulative_model_turns_sent": 14,
+  "scientific_verdict_created": false,
+  "target_or_profile_executed": false,
+  "future_experiment_admission": false,
+  "scope": "Exact structural report/receipt return accepted; source conformance only, no learner efficacy or operating-system isolation certificate."
+}

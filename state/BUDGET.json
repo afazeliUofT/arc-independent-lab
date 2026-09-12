@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-12T07:03:51.445962+00:00",
+  "updated_utc": "2026-09-12T07:46:31.013527+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -485,7 +485,7 @@
     "repeat_authorized": false,
     "backend_usage_or_charge": "unknown"
   },
-  "current_pi_work": "Attended direct GitHub041 reconciliation, feasibility reasoning, prospective042 calibration design and static/handoff conformance only.",
+  "current_pi_work": "Attended directGitHub042 report evaluation;043 developmentreference/conformance and finite outcome-blind componentprofile preparation. No targettreatment/model/HPC.",
   "research_phase_boundaries_standing_override": {
     "path": "evidence/P2_SECOND_PHASE_BOUNDARY_035.json",
     "sha256": "ac9805cf2a0412e5cc0b49734d211c3320e762b328786938f083ad1d773432d1"
@@ -812,5 +812,69 @@
     "actual_native_starts": 0,
     "actual_sent_turns": 0,
     "new_native_allowance": 0
+  },
+  "completed_offline_verification042": {
+    "return_commit": "c66f764955c6cfe17d78ae593c290b4ae949e4d3",
+    "verification": {
+      "path": "evidence/P3_CHECKPOINT_042_RETURN_VERIFICATION_043.json",
+      "sha256": "412b5e01c8e45b4bdcc2b54e9d12072fe6ac0c59c0a55f457663f2c095048dee"
+    },
+    "native_starts": 0,
+    "native_sent_turns": 0,
+    "target_experiment_runs": 0,
+    "profile_runs": 0
+  },
+  "checkpoint043_accounting": {
+    "hosted_consultants": [
+      "design042 (043accounting andN1review)",
+      "feasibility042 (043resourceanalysis)",
+      "reference_n1_043",
+      "reference_n3_043",
+      "profile_043",
+      "handoff042 (043handoff)"
+    ],
+    "consultants_are_independent_reviewers": false,
+    "native_starts": 0,
+    "native_sent_turns": 0,
+    "cumulative_native_starts": 18,
+    "cumulative_native_sent_turns": 14,
+    "target_experiment_runs": 0,
+    "full_component_profile_runs_here": 0,
+    "hosted_development_conformance": true,
+    "bounded_small_package_smoke": {
+      "worker_starts": 1,
+      "fixture": "n1_no_positive_gain/small,10chronologicalrecords",
+      "verification": {
+        "path": "evidence/P3_COMPLETE_PACKAGE_VALIDATION_043.json",
+        "sha256": "82e802c0627c546532305a7790c73f80c8d866b7d9e178ea2542df9a5d6df8ec"
+      },
+      "full_profile": false,
+      "target_experiment": false,
+      "native_client": false,
+      "not_a_laptop_budget_measurement": true
+    },
+    "new_native_allowance": 0,
+    "authoritative_hosted_allowance": null,
+    "backend_usage_or_charge": "unknown",
+    "unattended_model_use": false,
+    "extra_spending": false,
+    "future_development_profile": {
+      "maximum_launches": 1,
+      "planned_component_rows": 27,
+      "outer_wall_seconds": 300,
+      "driver_wall_seconds": 270,
+      "cpu_affinity_count": 1,
+      "address_space_bytes_per_process": 2147483648,
+      "automatic_remeasurement": false,
+      "purpose": "Fabricatedcomponent conformance/resources only; no042targetgoals/scores",
+      "config": {
+        "path": "configs/P3_PROFILE_FIXTURES_043.json",
+        "sha256": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b"
+      }
+    },
+    "B_comp": null,
+    "B_mem": null,
+    "complete_work_budget_admitted": false,
+    "target_experiment_admitted": false
   }
 }

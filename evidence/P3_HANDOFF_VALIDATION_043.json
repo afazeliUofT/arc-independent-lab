@@ -1,0 +1,92 @@
+{
+  "authorization_plan": {
+    "path": "evidence/P3_DEVELOPMENT_EXECUTION_PLAN_043.md",
+    "plan_recorded_before_execution": true,
+    "sha256": "0fccee3d56b4bfd9a7d6e8baf49a60c457e5a6f7e71c489047ce198cc83dd770"
+  },
+  "boundaries": {
+    "complete_work_budget_admitted": false,
+    "new_model_turns_sent": 0,
+    "new_native_starts": 0,
+    "old042_and_earlier_files_modified": false,
+    "operating_system_isolation_asserted": false,
+    "reference_learner_executed": false,
+    "target_panel_or_experiment_executed": false
+  },
+  "bounded_recheck_reasons": [
+    "Initial implementation test",
+    "Added reservation/observed launch fields and exact prior local-result recovery",
+    "Explicitly exercised failed-push recovery after deleting only fixture saved-result cache"
+  ],
+  "command": "python3 -B -m unittest discover -s ARC_Independent_Lab/tests -p test_checkpoint043_handoff.py -v",
+  "exit_code": 0,
+  "focused_test_invocations": 3,
+  "hosted_process_execution": {
+    "native_model_starts": 0,
+    "note": "Each of three focused suite runs starts one trivial JSON-writing child and one sleep-only wall-cap child; Git fixture subprocesses are separate transport tests",
+    "real_reference_profile_launches": 0,
+    "synthetic_child_process_starts": 6,
+    "target_experiment_launches": 0
+  },
+  "initial_test_failures": [],
+  "kind": "P3_HANDOFF_VALIDATION_043_v1",
+  "limitations": [
+    "Full package and real reference-source seam require a separate explicitly bounded fixture check",
+    "No Windows interoperability or actual GitHub authentication was exercised on the laptop",
+    "Process observations do not establish operating-system isolation or general Git credential-helper safety",
+    "Synthetic timing values are not scientific or performance evidence"
+  ],
+  "meaningful_coverage": [
+    "One atomic per-release reservation; successful repeat preserves report and commit without another profile call",
+    "Failed commit and failed push recover exact saved measurement bytes without reexecution, including prior local committed result recovery when the fixture saved-result cache is absent",
+    "Crash after reservation and before report returns interruption with unknown start state and never relaunches",
+    "Full structured partial child report survives wall-stop classification and publication retry",
+    "Exact already-published return restores missing local saved-result cache without reexecution",
+    "Changed staged output is preserved without a second profile",
+    "Actual extracted launcher imports its packaged workflow, handles a Unicode home path and recovers failed push",
+    "Real synthetic child observes isolated Python/no-site/no-bytecode flags and one-CPU affinity; a separate sleep-only synthetic child is killed at a 0.1-second test wall deadline"
+  ],
+  "recorded_utc": "2026-09-12T07:36:18.633127+00:00",
+  "result": "OK",
+  "scope": "Outcome-blind synthetic handoff engineering checks; reference learners and 042 target panel are not executed",
+  "sources": [
+    {
+      "path": "scripts/downloads_bootstrap043.py",
+      "sha256": "5965285a1c3b6fc3e1f8b81bd9f61e33fb400dc2321d490be2f7d22c86c13105"
+    },
+    {
+      "path": "scripts/launch043_home.py",
+      "sha256": "ea1f3f8044769aaf02c1eb28183f1c2ac9db6f214d83c8bb63722270191e0059"
+    },
+    {
+      "path": "scripts/checkpoint043_workflow.py",
+      "sha256": "870b7d950ad6b3bd6c2712d510e37766ddf482f713ee39fb8e3ff7680999a891"
+    },
+    {
+      "path": "tests/test_checkpoint043_handoff.py",
+      "sha256": "6b0e6b7535f848da78dee296836c14cae37e695281bdae230135c2eef5a195c8"
+    },
+    {
+      "path": "docs/P3_EXECUTION_043.md",
+      "sha256": "c1cee75cc612703a494c9ca30a076616ce29990871d0c59f84a4c7572cfa3d75"
+    }
+  ],
+  "substitutions": {
+    "historical_commit": "Only loaded test RETURN_COMMIT is replaced by an actual fixture ancestor",
+    "profile_measurements": "Synthetic report values test preservation and are not performance evidence",
+    "reference_sources": "Explicit synthetic source bytes replace profile source closure in handoff fixtures; no actual reference implementation or target source executes",
+    "transport": "Only canonical-origin fetch/push/ls-remote are routed to an explicit local bare Git fixture remote",
+    "wall_cap": "Only sleep-only boundary test substitutes 0.1 seconds for the production 300-second parent deadline"
+  },
+  "test_names": [
+    "test_one_reservation_preserves_full_report_and_exact_repeat",
+    "test_failed_commit_and_push_never_reexecute_profile",
+    "test_reservation_without_report_returns_interrupted_and_never_relaunches",
+    "test_partial_child_report_survives_interruption_and_publication_retry",
+    "test_exact_remote_report_reused_without_local_saved_cache",
+    "test_changed_staged_output_is_preserved_without_second_profile",
+    "test_actual_extracted_launcher_recovers_push_without_reexecution",
+    "test_synthetic_child_uses_real_process_caps_and_wall_stop"
+  ],
+  "tests_run": 8
+}

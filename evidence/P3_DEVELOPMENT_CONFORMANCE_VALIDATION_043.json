@@ -1,0 +1,251 @@
+{
+  "kind": "P3_DEVELOPMENT_CONFORMANCE_VALIDATION_043_v1",
+  "recorded_utc": "2026-09-12T07:43:54.275179+00:00",
+  "scope": "Final source-separated isolated-Python development conformance; no full27-row profile or042targetworld",
+  "pre_execution_plan": {
+    "path": "evidence/P3_DEVELOPMENT_EXECUTION_PLAN_043.md",
+    "sha256": "0fccee3d56b4bfd9a7d6e8baf49a60c457e5a6f7e71c489047ce198cc83dd770"
+  },
+  "source_files": [
+    {
+      "path": "scripts/accounting043.py",
+      "sha256": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee"
+    },
+    {
+      "path": "scripts/reference_n1_043.py",
+      "sha256": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5"
+    },
+    {
+      "path": "scripts/reference_n3_043.py",
+      "sha256": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193"
+    },
+    {
+      "path": "scripts/profile043.py",
+      "sha256": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a"
+    },
+    {
+      "path": "configs/P3_PROFILE_FIXTURES_043.json",
+      "sha256": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b"
+    },
+    {
+      "path": "tests/test_reference_n1_043.py",
+      "sha256": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2"
+    },
+    {
+      "path": "tests/test_reference_n3_043.py",
+      "sha256": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+    },
+    {
+      "path": "tests/test_profile043.py",
+      "sha256": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5"
+    }
+  ],
+  "final_worker_result": {
+    "case": "conformance",
+    "interruption": null,
+    "limits": {
+      "address_space_limit_bytes": 2147483648,
+      "cpu_affinity": [
+        0
+      ],
+      "cpu_hard_seconds": 21,
+      "cpu_soft_seconds": 20
+    },
+    "metrics": {
+      "child_cpu_seconds": 0.0,
+      "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+      "logical_retained_bytes": null,
+      "logical_work": null,
+      "memory_measure_is_exact_allocation": false,
+      "meter": null,
+      "output_bytes": 5914,
+      "peak_logical_retained_bytes": null,
+      "peak_rss_bytes": 26386432,
+      "process_cpu_seconds": 0.22591957299999998,
+      "wall_seconds": 0.22635605899995426
+    },
+    "size": "all",
+    "status": "COMPLETED",
+    "summary": {
+      "passed": true,
+      "test_outcomes": [
+        {
+          "status": "PASSED",
+          "test": "test_reference_n1_043.N1Conformance.test_all_conflicting_pairs_retained_in_outcome_masks"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n1_043.N1Conformance.test_complete_pass_required_and_resumable"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n1_043.N1Conformance.test_fixed_readers_receive_same_table_and_missing_boundaries"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n1_043.N1Conformance.test_greedy_bitsets_match_literal_pair_oracle"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n1_043.N1Conformance.test_literal_inventory_and_typed_missing"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n1_043.N1Conformance.test_new_block_archives_old_empirical_evidence"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n1_043.N1Conformance.test_snapshots_are_independent_and_unseen_keys_uniform"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n1_043.N1Conformance.test_stale_cursor_and_dirty_counts_do_not_predict_stale_probabilities"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n3_043.AcquisitionTests.test_complete_validation_frozen_snapshots_and_fresh_predicate_gate"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n3_043.AcquisitionTests.test_denied_score_debit_keeps_validation_pending_without_later_science"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n3_043.AcquisitionTests.test_exact_brier_sign_and_nonnumeric"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n3_043.AcquisitionTests.test_exhausted_work_does_not_issue_an_action_or_refill"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n3_043.AcquisitionTests.test_fresh_predicate_is_credited_only_from_its_trial"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n3_043.AcquisitionTests.test_interrupted_issued_action_preserves_pending_encounter_without_outcome"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n3_043.AcquisitionTests.test_library_update_denial_does_not_start_validation_assimilation"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n3_043.AcquisitionTests.test_no_partial_word_when_full_trial_does_not_fit"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n3_043.AcquisitionTests.test_paid_warmup_and_trial_only_reservation_with_partial_validation"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n3_043.AcquisitionTests.test_response_storage_preflight_stops_before_environment_call"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n3_043.AcquisitionTests.test_snapshot_envelope_failure_preserves_physically_completed_trial"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n3_043.AcquisitionTests.test_snapshot_nonnumeric_after_global_denial_cannot_issue_validation"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n3_043.AcquisitionTests.test_unknown_reset_contract_is_not_inferred_from_methods"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n3_043.SchedulerTests.test_four_operators_and_multi_parent_dedup"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n3_043.SchedulerTests.test_full_promotion_only_and_shadow_null_priority"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n3_043.SchedulerTests.test_max_parent_mean_then_child_then_parent_ties"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_reference_n3_043.SchedulerTests.test_null_and_direct_coverage_identical_until_finite_exhaustion"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_profile043.ProfileContract.test_atomic_output_matches_report"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_profile043.ProfileContract.test_existing_report_is_never_remeasured"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_profile043.ProfileContract.test_fixture_has_full_constants_without_W2_difference"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_profile043.ProfileContract.test_frozen_rows_and_exact_order"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_profile043.ProfileContract.test_named_conformance_failure_remains_categorical"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_profile043.ProfileContract.test_reserved_without_report_records_all_unmeasured_rows"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_profile043.ProfileContract.test_worker_parent_death_signal_and_race_check"
+        },
+        {
+          "status": "PASSED",
+          "test": "test_profile043.ProfileContract.test_worker_resource_refusal_is_incomplete_not_conformance_failure"
+        }
+      ],
+      "tests_run": 33
+    }
+  },
+  "final_worker_sha256": "da4a6974264b51eb4989dacd921dd74ca98d775f75957acab38fae2902547981",
+  "counts": {
+    "N1_tests": 8,
+    "N3_tests": 17,
+    "profile_contract_tests": 8,
+    "final_joint_tests": 33
+  },
+  "observed_regressions_and_resolution": [
+    {
+      "finding": "Archived provenance aliased later live prediction/feature logs",
+      "before_fix": "Strengthened regression failed: archived log length changed from1to2",
+      "fix": "Pre-reserved, charged deep copy of archived state",
+      "after_fix": "Same strengthened assertion passed"
+    },
+    {
+      "finding": "Snapshot copy refusal retained inaccessible owner reservation",
+      "before_fix": "Injected debit denial left extra598byteowner",
+      "fix": "Single-use prepaid release lease; no added debit after refusal and no work refund",
+      "after_fix": "Same strengthened assertion passed; lease cannot be reused"
+    }
+  ],
+  "other_review_corrections": [
+    "Incremental proposal reservations replace repeated fullqueue serialization during each mutation; all provenance remains retained",
+    "Generic readers bulk-copy exactfrozenT and rebuildonce; do not artificially pay repeatedonlinefitting",
+    "Terminal scientific workrefusal preserves pendingevidence and prevents cheaper subsequentupdates",
+    "Snapshotpredictrefusals cannot be swallowed into a further validation action",
+    "Development interfaceexplicitlydeclared; stationaritynotempiricallycertified",
+    "Profile N1updates searchaftereachchronologicalrecord; no batch/singlepass undermeasurement"
+  ],
+  "remaining_admission_dependencies": [
+    "Full cumulative work and overlapping retained-object coverage unproved",
+    "Owner reservations and lastsealedpayload sizes do not bound allPythonallocations; RSS/AS separately observed",
+    "Snapshot envelope and interruptedencounter/liveinventory recovery require exact final treatment semantics",
+    "No independent experimentadmission and no targetefficacyresult"
+  ],
+  "usage": {
+    "native_starts": 0,
+    "native_model_turns_sent": 0,
+    "target_experiment_runs": 0,
+    "full_component_profile_runs": 0,
+    "hosted_development_conformance_executed": true
+  },
+  "not_a_laptop_performance_estimate": true
+}

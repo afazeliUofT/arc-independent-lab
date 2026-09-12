@@ -1,22 +1,20 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-12T07:09:11.549104+00:00",
+  "updated_utc": "2026-09-12T07:46:31.013527+00:00",
   "current_gate": "P3",
   "gate_status": "in_progress",
   "gate_entered_utc": "2026-09-10T23:29:11.766050+00:00",
   "last_verified_gate": "P3.second_candidate_focused_analytical_assessment",
-  "last_verified_commit": "9fcaa91f60e6c9347b09ba3e9674c82d6415edad",
-  "active_task": "P3.N1_N3.calibration_design042",
+  "last_verified_commit": "c66f764955c6cfe17d78ae593c290b4ae949e4d3",
+  "active_task": "P3.reference043.component_profile_preparation",
   "blocked_on": null,
-  "next_action": "Finish exact accounting/reference adapters and outcome-blind complete-work profiling before any target learner run or experimental admission.042 command verifies instrument/panel structurally and returns full report plus receipt only.",
+  "next_action": "Run the one-shot outcome-blind043 development component profile through the WSL-home package; review fullGitHub report/receipt, then validate cumulative work/storage coverage and laptop/Alliance route before any042target run.",
   "open_questions": [
-    "Can exact N1/N3 and comparator accounting support an affordable complete-work profile on laptop or Alliance?",
-    "Does N3 feedback improve early evidence acquisition over direct coverage under the fixed285-call calibration?",
-    "Does selected N1 abstraction add anything beyond prescribed same-T ORDER1/ORDER2 readers?",
-    "Does validation consume available predicate slots before useful trial credit can engage? Preserve such outcomes without exclusion.",
-    "What substantive instrument demands recombination beyond reuse of seen joint keys and retention across discontinuities?",
-    "Whole-method novelty, second-candidate efficacy and integrated N1-N5 useful-knowledge guarantees remain unestablished.",
-    "Exact040 tokens, final quota and charge remain unknown; consumed native040 scope is not reopened."
+    "What are actual declaredcomponent costs onthe laptop underoneCPU/2GiB/300s bounds?",
+    "Can exact cumulative work/storage coverage and interruption semantics bevalidated; does the fullcomparisonbelong onlaptoporAlliance?",
+    "Does N3feedback improveearlyacquisition overdirectcoverage, anddoesN1addvaluebeyond ORDER1? Bothremainuntested.",
+    "How must a strongerinstrument demandrecombination beyond seenjointkeyreuse andretentionacrossdiscontinuities?",
+    "Wholemethod novelty, targetefficacy, integratedknowledgeguarantee and completeOSisolationremainunestablished."
   ],
   "mechanisms": {
     "C1": {
@@ -82,8 +80,8 @@
     "P2.second_pass_after_reviewed_negative_audit"
   ],
   "remote": "https://github.com/afazeliUofT/arc-independent-lab",
-  "durability_status": "042 content published and all22changed files read back exactly;1460undeclared priorblobs/modes preserved. Complete340member ZIP saved and final162public/172privatefiles verified. Actual042WSL report/receipt pending.",
-  "commit_status": "Content release9fcaa91 verified; this separate metadata/state commit records finalZIP identity.",
+  "durability_status": "Returned042 fullreport andreceipt reconciled;043 publicrelease/completeZIP beingprepared.",
+  "commit_status": "043 preparation; no historicalscientificsource or returned evidence edited.",
   "recovery_dependency": null,
   "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation.",
   "latest_recovery_evidence": [
@@ -101,8 +99,8 @@
     }
   ],
   "private_error_log_handling": "Probe raw error output stays within laptop Git metadata, outside normal commits. Request only safe terminal report; never ask for credentials or publish raw transport logs.",
-  "foreground_execution_note": "042 hosted PI work uses no native reviewer/client, candidate, fitted reader, model treatment, GPU or HPC job. Native cumulative18/14 unchanged; hosted usage and charge unknown.",
-  "scientific_status": "041 receipt accepted; original040 bounded analytical GO unchanged.041 instrument demoted to acquisition/short-history calibration; missing ORDER1 baseline added; absent-joint-key recombination limitation established analytically. No efficacy or retention result.",
+  "foreground_execution_note": "043 executes hosteddevelopmentconformance and one smallpackage smoke only; full27rowprofile reservedforlaptop. No native/model/HPC/targetexperiment; nativecumulative18/14 unchanged.",
+  "scientific_status": "Returned042 fullstructuralreport accepted; exactdevelopment N1/N3/readers pass33jointconformance tests after2regression fixes. No042target run or efficacy/retention/recombination result. Componentprofileprepared, fullwork/treatmentbudgets unadmitted.",
   "latest_scientific_evidence": [
     {
       "path": "evidence/P3_SECOND_N1_PRIMARY_AUDIT_036.md",
@@ -141,12 +139,12 @@
       "sha256": "1995e36a9f8e5f9f201d9b63ba8a7c39400f3e8e0046009a1c59973c2023188e"
     }
   ],
-  "handoff_backup_status": "One complete042ZIP saved; one WSL-home command returns full static instrument report and receipt. No native/model/candidate/profile/experiment execution.",
+  "handoff_backup_status": "Preparing onecomplete043ZIP with once-only developmentprofile andfullreport/receiptGitHubreturn.",
   "latest_publication_verification": {
     "path": "evidence/REMOTE_CHECKPOINT_042_VERIFICATION.json",
     "sha256": "4660fc3f533816d3cafbbaa4357b0307530ec98626075ad40efc347e39bb49a1"
   },
-  "last_human_message_verbatim": "Github is updated: GitHub receipt: https://github.com/afazeliUofT/arc-independent-lab/blob/4976bc78c74908dc66da27d24b56c47aa4d6d5a6/artifacts/CHECKPOINT_041_RETURN/0c1c75ffed30571c7a14e9811ccb5db59cd0ec443a460b3d71674911b3a9f602/RECEIPT.json\nOriginal040 offline integrity verification: VERIFIED\nNo reviewer, model or experiment was started. Future experiment admission is not asserted.",
+  "last_human_message_verbatim": "Github is updated.",
   "phase1_approval": {
     "verified_utc": "2026-09-06T18:51:56.227927+00:00",
     "source_url": "https://github.com/afazeliUofT/arc-independent-lab/blob/376455150af7b257809a56021431413b2e0c6293/state/ESCALATION.md",
@@ -592,7 +590,7 @@
     "path": "evidence/P3_FIRST_AUDIT_ADMISSION_033.json",
     "sha256": "a520a8b7ca680ee402a2ac88733998953ec2dafcb30fb2d693db3f56fd4b877a"
   },
-  "latest_route": "COMPLETE_REFERENCE_ACCOUNTING_AND_OUTCOME_BLIND_PROFILE",
+  "latest_route": "MEASURE_DECLARED_DEVELOPMENT_COMPONENTS_THEN_VALIDATE_COMPLETE_WORK_COVERAGE",
   "completed_finite_review032": {
     "report": {
       "path": "artifacts/P3_REVIEW_032_RETURN/94ddb570582a75780f03e54df5e3228a58dc9de23397d63eac4976928b9a2d11/files/delivery/P3_FINITE_REVIEW_032/REPORT.json",
@@ -714,7 +712,7 @@
     }
   },
   "latest_objective_status": "Original interactive acquisition, retention across discontinuities and useful recombination remain the research objective.042 is a deliberately limited calibration, not programme completion.",
-  "current_publication_checkpoint": "042_published_verified",
+  "current_publication_checkpoint": "043_prepared_not_yet_published",
   "auxiliary_auditor_receipt_durability": {
     "status": "verified_published_on_main",
     "commit": "296cf94b9e692f4ddbee5c554fc87aaa5a298e60",
@@ -1041,7 +1039,7 @@
     "offline_return_status": "actual041_verified_and_closed_at4976bc78"
   },
   "checkpoint042": {
-    "status": "published_structural_conformance_passed_actual_WSL_report_pending",
+    "status": "actual042_full_report_verified_and_closed",
     "evidence": [
       {
         "path": "evidence/P3_CHECKPOINT_041_RETURN_VERIFICATION_042.json",
@@ -1094,6 +1092,70 @@
     "publication_verification": {
       "path": "evidence/REMOTE_CHECKPOINT_042_VERIFICATION.json",
       "sha256": "4660fc3f533816d3cafbbaa4357b0307530ec98626075ad40efc347e39bb49a1"
+    },
+    "returned043": {
+      "path": "evidence/P3_CHECKPOINT_042_RETURN_VERIFICATION_043.json",
+      "sha256": "412b5e01c8e45b4bdcc2b54e9d12072fe6ac0c59c0a55f457663f2c095048dee"
     }
+  },
+  "checkpoint043": {
+    "status": "joint_conformance_and_complete_package_small_smoke_passed_pending_publication",
+    "accepted_return_commit": "c66f764955c6cfe17d78ae593c290b4ae949e4d3",
+    "evidence": [
+      {
+        "path": "evidence/P3_CHECKPOINT_042_RETURN_VERIFICATION_043.json",
+        "sha256": "412b5e01c8e45b4bdcc2b54e9d12072fe6ac0c59c0a55f457663f2c095048dee"
+      },
+      {
+        "path": "reports/P3_RETURN_042_AND_DEVELOPMENT_ROUTE_043.md",
+        "sha256": "49d864a15904d649361ad7e604ea7bc98161717e4b62dfcea4c168d65197bd31"
+      },
+      {
+        "path": "evidence/P3_RESOURCE_FEASIBILITY_043.md",
+        "sha256": "562303c980e48f0bc2dd82568207488f2c066fce26cdf944a20deae3738f60b1"
+      },
+      {
+        "path": "evidence/P3_RESOURCE_FEASIBILITY_CORRECTION_043.md",
+        "sha256": "861fd712a2c479537ada6f266015ffef398abda880d8f7dd28beaf7688bd3b73"
+      },
+      {
+        "path": "docs/P3_REFERENCE_ACCOUNTING_043.md",
+        "sha256": "b300d7f29454687fb8537f3d32127f94dc55245be07be06f8875156775cf6ace"
+      },
+      {
+        "path": "evidence/P3_DEVELOPMENT_CONFORMANCE_VALIDATION_043.json",
+        "sha256": "0b6085ab0000e31e0bd96dbb670ddc928a22dbe17cc6a1b58a411f180190f0ec"
+      },
+      {
+        "path": "configs/P3_PROFILE_FIXTURES_043.json",
+        "sha256": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b"
+      },
+      {
+        "path": "evidence/P3_DEVELOPMENT_EXECUTION_PLAN_043.md",
+        "sha256": "0fccee3d56b4bfd9a7d6e8baf49a60c457e5a6f7e71c489047ce198cc83dd770"
+      }
+    ],
+    "joint_conformance_tests_passed": 33,
+    "planned_component_rows": 27,
+    "full_profile_executed_here": false,
+    "development_profile_execution_limit": 1,
+    "outer_wall_seconds": 300,
+    "driver_wall_seconds": 270,
+    "available_cpu_use": 1,
+    "address_space_bytes_per_process": 2147483648,
+    "B_comp": null,
+    "B_mem": null,
+    "complete_work_budget_admitted": false,
+    "target_experiment_admitted": false,
+    "native_starts": 0,
+    "native_model_turns_sent": 0,
+    "target_experiment_runs": 0,
+    "further_papers_required": [],
+    "complete_package_validation": {
+      "path": "evidence/P3_COMPLETE_PACKAGE_VALIDATION_043.json",
+      "sha256": "82e802c0627c546532305a7790c73f80c8d866b7d9e178ea2542df9a5d6df8ec"
+    },
+    "actual_hosted_small_component_workers": 1,
+    "actual_hosted_full_component_profiles": 0
   }
 }

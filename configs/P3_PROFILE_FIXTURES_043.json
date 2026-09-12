@@ -1,0 +1,154 @@
+{
+  "kind": "P3_DEVELOPMENT_PROFILE_FIXTURES_043_v1",
+  "purpose": "Fabricated component conformance and profiling; no target world or target predictions",
+  "repetitions": 3,
+  "limits": {
+    "inclusive_outer_wall_seconds": 300,
+    "driver_wall_seconds": 270,
+    "address_space_bytes": 2147483648,
+    "cpu_affinity_count": 1,
+    "automatic_remeasurement": false
+  },
+  "mechanism": {
+    "W": 2,
+    "S": 3,
+    "K": 4,
+    "L": 5,
+    "V": 2,
+    "q": 4
+  },
+  "opaque_alphabets": {
+    "actions": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "observations": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "sizes": [
+    {
+      "name": "small",
+      "retained_records": 10,
+      "macro_library_size": 5,
+      "completed_recipe_count": 5
+    },
+    {
+      "name": "typical",
+      "retained_records": 85,
+      "macro_library_size": 20,
+      "completed_recipe_count": 25
+    },
+    {
+      "name": "largest",
+      "retained_records": 245,
+      "macro_library_size": 45,
+      "completed_recipe_count": 55
+    }
+  ],
+  "cases": [
+    {
+      "name": "n1_no_positive_gain",
+      "input_rule": "Every record has history actions (1,2,3,4,0,0) and seven observation tokens all 0, next action 0. Thus its current observation, two-lag observations and two-lag actions are all 0, while every action constant has been encountered in the fixed older prefix. Next observations cycle 0,1,2,3,4. All five observation constants occur; all conflicts share the same W2 feature input, hence every predicate has zero separation gain.",
+      "measured_components": [
+        "record retention",
+        "conflict pairs",
+        "grammar enumeration",
+        "predicate evaluation",
+        "zero-gain selection",
+        "count reconstruction",
+        "frozen snapshot",
+        "prediction",
+        "output serialization"
+      ],
+      "expected": "No selected feature; complete exact add-one count prediction from the unchanged joint key"
+    },
+    {
+      "name": "n1_positive_selection",
+      "input_rule": "Records alternate preceding observation token 0 or 1, while current observation and next action are both 0. Next observation equals that preceding token. History actions are (1,2,3,4,0,0); seven observations are (0,0,0,0,0,preceding token,0). This is a fabricated labelled table, not a trajectory from any target environment.",
+      "measured_components": [
+        "positive predicate selection",
+        "count reconstruction",
+        "snapshot isolation",
+        "prediction"
+      ],
+      "expected": "At least one selected separating predicate; predictions for the two feature inputs differ; later mutation cannot change an existing snapshot"
+    },
+    {
+      "name": "n3_proposal_and_credit",
+      "input_rule": "Library comprises five singleton primitive words then the first distinct length-two-to-five words in length-lexicographic order until the declared size. Singleton credits are absent; later externally supplied synthetic credits are Fraction(1,recipe_index+1), admitting fragments already contained in the earlier prefix. Extend completed recipes to declared F with absent credit. Select mutation turn1 and coverage turn4. Separately a constant fabricated interface reset/step -> (0,) and K0,S1 reference learner run B_env14 and15 to test one partial and one complete validation block; these are development protocol fixtures, not target worlds. Brier scoring is also checked with exact rational synthetic predictions and a nonnumeric prediction.",
+      "measured_components": [
+        "proposal concatenation",
+        "mutations",
+        "deduplication",
+        "sorting",
+        "priority arithmetic",
+        "validation scoring",
+        "credit normalization",
+        "macro admission"
+      ],
+      "expected": "Proposals obey L=5 and completed-word exclusion; unavailable/incomplete credit stays nonnumeric; valid credit is an exact rational"
+    }
+  ],
+  "prospective_finite_bounds": {
+    "retained_records_max": 245,
+    "selected_predicates_max": 4,
+    "grammar_candidates_max": 3002,
+    "conflicting_pairs_max": 29890,
+    "completed_scored_trials_max": 50,
+    "macro_library_max": 45,
+    "raw_proposals_per_assembly_max": 27720,
+    "proposal_assemblies_max": 39,
+    "status": "Algebraic envelopes requiring implementation validation; not measured per-run budgets",
+    "completed_recipes_including_warmup_max": 55
+  },
+  "measurement": {
+    "fields": [
+      "wall_seconds",
+      "process_cpu_seconds",
+      "child_cpu_seconds",
+      "peak_rss_bytes",
+      "logical_work",
+      "logical_retained_bytes",
+      "output_bytes",
+      "interruption"
+    ],
+    "ambient_conditions": "Uncontrolled user-host workload; neither quiet nor contended status is asserted",
+    "cost_selection": "Report component observations only. No B_comp or B_mem selected; no complete-work timing projection without a separately validated multiplicity envelope covering every mandatory component.",
+    "timing_reserve_factor": 2,
+    "audit_reserve_fraction": [
+      1,
+      4
+    ],
+    "coverage_limitation": "Largest names the largest declared retained-record/library cardinalities. Length-lexicographic library prefix is not proved to maximize proposal work or arithmetic size; synthetic fixtures do not cover all complete acquisitions."
+  },
+  "forbidden_inputs": [
+    "042 world simulator",
+    "042 target panel",
+    "target goals",
+    "native clients",
+    "model APIs",
+    "network",
+    "private papers",
+    "HPC"
+  ],
+  "admission": {
+    "target_experiment": false,
+    "full_comparison_grid": false,
+    "native_allowance": 0,
+    "complete_work_budget": false
+  },
+  "conformance_suites": [
+    "test_reference_n1_043",
+    "test_reference_n3_043",
+    "test_profile043"
+  ],
+  "execution_order": "Named conformance suites first; then size in small,typical,largest order, case in listed order, repetition0,1,2; preserve all27rows."
+}
