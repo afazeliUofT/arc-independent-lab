@@ -1,0 +1,274 @@
+{
+  "kind": "P3_CONTENT_PUBLICATION_VERIFICATION_044_v1",
+  "content_commit": "ae010bd7d8e81af336cdd688d943440f200403c4",
+  "content_tree": "d37767a81e0a464ab4bf18a355f30c934edf66f6",
+  "parent_commit": "f025d2ffe0745e40b2d6718293bfe5d72b54b7ba",
+  "changed_files": [
+    {
+      "path": "configs/P3_PROFILE_CONTINUATION_044.json",
+      "bytes": 2627,
+      "sha256": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31",
+      "git_blob_sha": "7bd20189d68c1a64c1135073a29788d1d5006dfe",
+      "exact_content_readback": true
+    },
+    {
+      "path": "docs/P3_EXECUTION_044.md",
+      "bytes": 2233,
+      "sha256": "61cf5418cf439da9b4c4706d1911644936c2fdfc34a93412065be5cd32ddfa60",
+      "git_blob_sha": "9b162de30cd0c960dc8bb14d9b390e4c720850ae",
+      "exact_content_readback": true
+    },
+    {
+      "path": "evidence/P3_CHECKPOINT_043_RETURN_VERIFICATION_044.json",
+      "bytes": 6751,
+      "sha256": "7e4d796d76772f2568c15dca651d38a30d8a13c8e07a0cbd1f85af665127673c",
+      "git_blob_sha": "89d9a8aff638595eada709123e34c92f3e246e81",
+      "exact_content_readback": true
+    },
+    {
+      "path": "evidence/P3_CHECKPOINT_044_MANIFEST.json",
+      "bytes": 61545,
+      "sha256": "bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c",
+      "git_blob_sha": "26bced38469aae87629e2fb5d64d7c46a11131e8",
+      "exact_content_readback": true
+    },
+    {
+      "path": "evidence/P3_COMPLETE_PACKAGE_VALIDATION_044.json",
+      "bytes": 2643,
+      "sha256": "d189d839db8cdce400a20675d3abc0d860fe8a3f5bdb4a52e451912ea6fe14d9",
+      "git_blob_sha": "1de51c6c79d3d0eca94fbe930639b33555236699",
+      "exact_content_readback": true
+    },
+    {
+      "path": "evidence/P3_CORRECTIVE_EXECUTION_PLAN_044.md",
+      "bytes": 1864,
+      "sha256": "480543d290049d060c75131366d0a99456e49f57bfc63a01726f3cbed6d4e036",
+      "git_blob_sha": "4971c2bf0458097ec45e8c8f82095d89f69a3276",
+      "exact_content_readback": true
+    },
+    {
+      "path": "evidence/P3_CORRECTIVE_PROFILE_VALIDATION_044.json",
+      "bytes": 38037,
+      "sha256": "f4f0f3464358bd4b57e6954ded390c9976649f1bbfd2ee1a411e51966429e0e5",
+      "git_blob_sha": "c41cb3391b3cd3dc5d0c02817eba39f2973c4a88",
+      "exact_content_readback": true
+    },
+    {
+      "path": "evidence/P3_HANDOFF_VALIDATION_044.json",
+      "bytes": 7251,
+      "sha256": "3db8ec8d2816b4e4963ec1de208cc5ef9e04dec807386e28f10172e488e84885",
+      "git_blob_sha": "f83c2e36576f9d4f2b9f5a7756069f1be459abc6",
+      "exact_content_readback": true
+    },
+    {
+      "path": "evidence/P3_PROFILE_FAILURE_REPRODUCTION_044.json",
+      "bytes": 3305,
+      "sha256": "8a0c66c2616c2c8f1a577d9755819421f29c0e5002fbdf8983bad51cf2e9c976",
+      "git_blob_sha": "f931a54104f905bf6401da964f1a5808bf480d7d",
+      "exact_content_readback": true
+    },
+    {
+      "path": "reports/DIGEST_2026-09-12.md",
+      "bytes": 5186,
+      "sha256": "934fac8dde32d46998a0273db5a8c18ce8efcd5e158be9087205aece01687ded",
+      "git_blob_sha": "869f4567ab561229df593054fa4f11bc9ec69332",
+      "exact_content_readback": true
+    },
+    {
+      "path": "reports/P3_RETURN_043_AND_CORRECTIVE_ROUTE_044.md",
+      "bytes": 6747,
+      "sha256": "826b5910345ae11365c7a782c36add0cf0a46a2872351d97d92bf082c7151567",
+      "git_blob_sha": "a568aeff1bbf56b8daa47d1c5e13b81acf84db6a",
+      "exact_content_readback": true
+    },
+    {
+      "path": "scripts/checkpoint044_workflow.py",
+      "bytes": 42175,
+      "sha256": "1f8c16daf3904aa65cf36c79a3fcc4b17195041d9ec42d84a11c6090c737e7df",
+      "git_blob_sha": "dbe49762aac47da11e6757495104bb21eb358082",
+      "exact_content_readback": true
+    },
+    {
+      "path": "scripts/downloads_bootstrap044.py",
+      "bytes": 2739,
+      "sha256": "6618dc2b3cdf1b9919b244e75b90f177f06638b9850a21aeed2badf12b03c54c",
+      "git_blob_sha": "cc082d63dcc09cfff859a4af918e6aca5f69028a",
+      "exact_content_readback": true
+    },
+    {
+      "path": "scripts/launch044_home.py",
+      "bytes": 10249,
+      "sha256": "c708fa824bd6f6304369f90c7083df9e9a04e0ac5c2b51f06d6490e242bcfb0d",
+      "git_blob_sha": "0871f1423240833bccf75cbc6f67f4fa4834d239",
+      "exact_content_readback": true
+    },
+    {
+      "path": "scripts/profile044.py",
+      "bytes": 22548,
+      "sha256": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+      "git_blob_sha": "4ae4c81be8e6bb3c4528828dacf2892e6f34268d",
+      "exact_content_readback": true
+    },
+    {
+      "path": "state/BUDGET.json",
+      "bytes": 38621,
+      "sha256": "1b6f665a5f362f078b2a3c73c72355474a7fb9f9f6aaf05fc40b1b06e22b68d0",
+      "git_blob_sha": "6f9b067a2f1578fafdc7438f79a44729b4003fbc",
+      "exact_content_readback": true
+    },
+    {
+      "path": "state/LEDGER.jsonl",
+      "bytes": 219255,
+      "sha256": "5f1c546664076d78978a1c6ff5175aaf319dfeea42452c71603a69f352d527d3",
+      "git_blob_sha": "310486efdbe90953ff1c2dd208c8cb8f6d821594",
+      "exact_content_readback": true
+    },
+    {
+      "path": "state/PROJECT_STATE.json",
+      "bytes": 65355,
+      "sha256": "5fd9ded69a42e56c2b3f09dbb8e8eb0360e2c9814fa102f2fd59a26754e9f116",
+      "git_blob_sha": "3123ff2fdef88840122062aec7cbce039d304e2f",
+      "exact_content_readback": true
+    },
+    {
+      "path": "state/tool_errors.jsonl",
+      "bytes": 160572,
+      "sha256": "8b599d38dfa8b648e08d787060a590ebd0b59edf454c76203e3c09de04d3232a",
+      "git_blob_sha": "592cd741fc671446d1ef356af809c6d1e64ba059",
+      "exact_content_readback": true
+    },
+    {
+      "path": "tests/test_checkpoint044_handoff.py",
+      "bytes": 23862,
+      "sha256": "8bf75d8e5e5576471bd0f7e4a8b5d2288cd43c768c319069385af615b57ebac0",
+      "git_blob_sha": "e8de3614ab971d29b5639ba9adb10a7421207056",
+      "exact_content_readback": true
+    },
+    {
+      "path": "tests/test_profile044.py",
+      "bytes": 10139,
+      "sha256": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5",
+      "git_blob_sha": "896fec97b0d3ea98867f823e9d27f6f94ecd6a4c",
+      "exact_content_readback": true
+    }
+  ],
+  "changed_file_count": 21,
+  "undeclared_prior_blobs_and_modes_preserved": 1508,
+  "all_original043_source_files_preserved": true,
+  "private_packet_published": false,
+  "verification_method": "Every changed file fetched from immutable content commit and compared in full; complete tree delta compared to baseline and declared paths.",
+  "access_date": "2026-09-12",
+  "verified_utc": "2026-09-12T18:11:39.878137+00:00",
+  "final_package": {
+    "complete_archive_seam_evidence_sha256": "d189d839db8cdce400a20675d3abc0d860fe8a3f5bdb4a52e451912ea6fe14d9",
+    "complete_archive_seam_scope": "Synthetic profile only; actual complete archive, local Git, publication retry and cache recovery",
+    "eligible_new_rows": 21,
+    "expected_receipt_kind": "P3_CHECKPOINT_044_DEVELOPMENT_PROFILE_RECEIPT_v1",
+    "expected_report_kind": "P3_DEVELOPMENT_PROFILE_EXECUTION_044_v1",
+    "expected_return_paths": [
+      "artifacts/CHECKPOINT_044_RETURN/bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c/REPORT.json",
+      "artifacts/CHECKPOINT_044_RETURN/bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c/RECEIPT.json"
+    ],
+    "final_handoff_source_matches14tests_and_complete_archive_seam": true,
+    "final_hash_verification_did_not_launch_profile": true,
+    "final_source_closure_matches_43test_conformance_and_three_small_smokes": true,
+    "full_component_profile_executed_here": false,
+    "full_work_or_target_admission": false,
+    "handoff_source_pins": [
+      {
+        "path": "scripts/checkpoint044_workflow.py",
+        "sha256": "1f8c16daf3904aa65cf36c79a3fcc4b17195041d9ec42d84a11c6090c737e7df"
+      },
+      {
+        "path": "scripts/launch044_home.py",
+        "sha256": "c708fa824bd6f6304369f90c7083df9e9a04e0ac5c2b51f06d6490e242bcfb0d"
+      },
+      {
+        "path": "scripts/downloads_bootstrap044.py",
+        "sha256": "6618dc2b3cdf1b9919b244e75b90f177f06638b9850a21aeed2badf12b03c54c"
+      },
+      {
+        "path": "tests/test_checkpoint044_handoff.py",
+        "sha256": "8bf75d8e5e5576471bd0f7e4a8b5d2288cd43c768c319069385af615b57ebac0"
+      }
+    ],
+    "inventory_crc_member_bytes_and_private_pins_verified": true,
+    "kind": "P3_FINAL_PACKAGE_VERIFICATION_044_v1",
+    "limits": [
+      "Actual WSL and GitHub authentication are not executed by hosted fixture verification.",
+      "Hosted3smallcase checks are conformance evidence; new21row laptop continuation pending.",
+      "Source separation and owner reservations do not certify comprehensive OS isolation or all live allocations."
+    ],
+    "members": 387,
+    "model_turns_sent": 0,
+    "native_starts": 0,
+    "new_laptop_invocation_pending": true,
+    "original043_report_receipt_and_source_bytes_verified": true,
+    "original043_reservation_consumed_and_not_reset": true,
+    "original_profile_rows_imported": 6,
+    "private_packet_files_verified": 172,
+    "profile_source_pins": [
+      {
+        "path": "configs/P3_PROFILE_CONTINUATION_044.json",
+        "sha256": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31"
+      },
+      {
+        "path": "configs/P3_PROFILE_FIXTURES_043.json",
+        "sha256": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b"
+      },
+      {
+        "path": "scripts/accounting043.py",
+        "sha256": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee"
+      },
+      {
+        "path": "scripts/profile043.py",
+        "sha256": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a"
+      },
+      {
+        "path": "scripts/profile044.py",
+        "sha256": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe"
+      },
+      {
+        "path": "scripts/reference_n1_043.py",
+        "sha256": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5"
+      },
+      {
+        "path": "scripts/reference_n3_043.py",
+        "sha256": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193"
+      },
+      {
+        "path": "tests/test_profile043.py",
+        "sha256": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5"
+      },
+      {
+        "path": "tests/test_profile044.py",
+        "sha256": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5"
+      },
+      {
+        "path": "tests/test_reference_n1_043.py",
+        "sha256": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2"
+      },
+      {
+        "path": "tests/test_reference_n3_043.py",
+        "sha256": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+      }
+    ],
+    "public_git_objects_verified": 209,
+    "release": {
+      "accepted_return_commit": "f025d2ffe0745e40b2d6718293bfe5d72b54b7ba",
+      "content_commit": "ae010bd7d8e81af336cdd688d943440f200403c4",
+      "kind": "P3_CHECKPOINT_044_RELEASE_v1",
+      "manifest_path": "evidence/P3_CHECKPOINT_044_MANIFEST.json",
+      "manifest_sha256": "bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c",
+      "repository": "afazeliUofT/arc-independent-lab"
+    },
+    "target_experiment_started": false,
+    "zip_bytes": 26504832,
+    "zip_sha256": "c9598b816b9d0b201faa936cbc7deedcc83a8cc98f3ca133050d4f7058d20680"
+  },
+  "one_complete_zip_saved": true,
+  "new_laptop_continuation_pending": true,
+  "no_new_native_allowance": true,
+  "final_artifact_reference": "ARC_Independent_Lab_044.zip",
+  "metadata_self_hash_policy": "The immutable content manifest and ZIP pin the content commit. This later publication record is outside the ZIP to avoid a self-hash cycle; it changes no runtime input and launches no profile."
+}

@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-12T18:05:02.176727+00:00",
+  "updated_utc": "2026-09-12T18:11:39.878137+00:00",
   "current_gate": "P3",
   "gate_status": "in_progress",
   "gate_entered_utc": "2026-09-10T23:29:11.766050+00:00",
   "last_verified_gate": "P3.second_candidate_focused_analytical_assessment",
-  "last_verified_commit": "f025d2ffe0745e40b2d6718293bfe5d72b54b7ba",
+  "last_verified_commit": "ae010bd7d8e81af336cdd688d943440f200403c4",
   "active_task": "P3.profile044.corrective_continuation",
   "blocked_on": null,
   "next_action": "Run the one-shot044 corrective continuation; retain six original043 profile measurements and attempt21 remaining rows. Read the full GitHub return, then assess complete-work cost coverage before target admission.",
@@ -80,8 +80,8 @@
     "P2.second_pass_after_reviewed_negative_audit"
   ],
   "remote": "https://github.com/afazeliUofT/arc-independent-lab",
-  "durability_status": "Original043 full GitHub report/receipt and eight source identities verified; exact two-file return diff preserves1511 prior blobs and modes.044 corrective release prepared for publication.",
-  "commit_status": "044 content and final ZIP publication verification pending.",
+  "durability_status": "044 content published and every changed file read back exactly. All undeclared prior blobs/modes preserved. Complete ZIP saved and every public Git object/private packet hash verified; exact11profile sources match43conformance tests and3actual small smoke cases. New21row laptop continuation pending.",
+  "commit_status": "044 content release verified; separate publication/state commit records final ZIP identity without changing pinned execution inputs.",
   "recovery_dependency": null,
   "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation.",
   "latest_recovery_evidence": [
@@ -139,10 +139,10 @@
       "sha256": "1995e36a9f8e5f9f201d9b63ba8a7c39400f3e8e0046009a1c59973c2023188e"
     }
   ],
-  "handoff_backup_status": "Prepare one complete044 ZIP and one WSL-home command. Distinct once-only continuation preserves043 reservation and evidence; successful partial publication is reported explicitly.",
+  "handoff_backup_status": "One complete044 ZIP saved; one WSL-home command imports6original measurements and reserves one21-row continuation, then publishes fullREPORT+RECEIPT.300soutercap; repeated command reuses first execution evidence.",
   "latest_publication_verification": {
-    "path": "evidence/REMOTE_CHECKPOINT_043_VERIFICATION.json",
-    "sha256": "0e009f9b34cd0d98de01d807dbf7d930bb16c860b56813c9a90492377c1a1af2"
+    "path": "evidence/REMOTE_CHECKPOINT_044_VERIFICATION.json",
+    "sha256": "c5d6be03b9335a7fa84ea87e30d361558a905a5bccbf7cac7b00ab96a93590b4"
   },
   "last_human_message_verbatim": "From zip file 43 I get: Development043 profile: PROFILE_INCOMPLETE; no reviewer, model or target experiment was started; workflow stopped and preserves existing files.",
   "phase1_approval": {
@@ -712,7 +712,7 @@
     }
   },
   "latest_objective_status": "Original interactive acquisition, retention across discontinuities and useful recombination remain the research objective.042 is a deliberately limited calibration, not programme completion.",
-  "current_publication_checkpoint": "043_published_verified",
+  "current_publication_checkpoint": "044_published_verified",
   "auxiliary_auditor_receipt_durability": {
     "status": "verified_published_on_main",
     "commit": "296cf94b9e692f4ddbee5c554fc87aaa5a298e60",
@@ -851,21 +851,34 @@
   "original_initial_prompt_now_visible": true,
   "latest_continuation_zip": {
     "filename": "ARC_Independent_Lab_044.zip",
-    "status": "prepared_final_publication_and_checksum_pending",
+    "sha256": "c9598b816b9d0b201faa936cbc7deedcc83a8cc98f3ca133050d4f7058d20680",
+    "bytes": 26504832,
+    "members": 387,
+    "content_commit": "ae010bd7d8e81af336cdd688d943440f200403c4",
+    "release_manifest": "evidence/P3_CHECKPOINT_044_MANIFEST.json",
+    "manifest_sha256": "bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c",
+    "saved": true,
     "one_wsl_home_downloads_command": true,
     "private_papers_included": true,
     "original043_return_included": true,
     "native_execution_pending": false,
     "target_experiment_pending": false,
-    "development_profile_continuation_pending": true
+    "development_profile_continuation_pending": true,
+    "maximum_profile_launches": 1,
+    "original_profile_rows_imported": 6,
+    "eligible_new_rows": 21,
+    "expected_return_paths": [
+      "artifacts/CHECKPOINT_044_RETURN/bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c/REPORT.json",
+      "artifacts/CHECKPOINT_044_RETURN/bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c/RECEIPT.json"
+    ]
   },
   "handoff_preference_source": {
     "path": "docs/USER_HANDOFF_PREFERENCES_2026-09-11.md",
     "sha256": "de04d0f73a57aef52330b3b5dba7c790c3bbd2def8a4e589b50d6dd239cfd944"
   },
   "latest_handoff_publication_verification": {
-    "path": "evidence/REMOTE_CHECKPOINT_043_VERIFICATION.json",
-    "sha256": "0e009f9b34cd0d98de01d807dbf7d930bb16c860b56813c9a90492377c1a1af2"
+    "path": "evidence/REMOTE_CHECKPOINT_044_VERIFICATION.json",
+    "sha256": "c5d6be03b9335a7fa84ea87e30d361558a905a5bccbf7cac7b00ab96a93590b4"
   },
   "latest_source_packet_return": {
     "path": "evidence/P3_SOURCE_PACKET_RETURN_VERIFICATION_039.json",
@@ -1164,7 +1177,7 @@
     "continuation_release": "044"
   },
   "checkpoint044": {
-    "status": "corrective_release_prepared",
+    "status": "published_verified_corrective_continuation_ready",
     "accepted_return_commit": "f025d2ffe0745e40b2d6718293bfe5d72b54b7ba",
     "evidence": [
       {
@@ -1224,6 +1237,15 @@
     "hosted_read_only_PI_code_audit_is_independent_reviewer": false,
     "handoff_tests_passed": 14,
     "complete_archive_seam_passed": true,
-    "complete_archive_seam_profile_is_synthetic": true
+    "complete_archive_seam_profile_is_synthetic": true,
+    "publication_verification": {
+      "path": "evidence/REMOTE_CHECKPOINT_044_VERIFICATION.json",
+      "sha256": "c5d6be03b9335a7fa84ea87e30d361558a905a5bccbf7cac7b00ab96a93590b4"
+    },
+    "expected_return_paths": [
+      "artifacts/CHECKPOINT_044_RETURN/bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c/REPORT.json",
+      "artifacts/CHECKPOINT_044_RETURN/bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c/RECEIPT.json"
+    ],
+    "future_report_retrieval": "Read fullREPORT by Gitblob; verify receipt, exact original6rows/failed043attempt and host, new21row identities/current11sources, separate invocation costs, rowstatuses and once-only reservation. No budget or target admission inferred from profile completion."
   }
 }
