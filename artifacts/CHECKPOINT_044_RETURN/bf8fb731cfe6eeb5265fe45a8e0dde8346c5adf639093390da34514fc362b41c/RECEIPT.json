@@ -1,0 +1,93 @@
+{
+  "accepted043_receipt_path": "artifacts/CHECKPOINT_043_RETURN/097ca0e6c91e0f3d5b50f7cf98415faf1e8ed57b6f09544f5e2d6c4bdb406582/RECEIPT.json",
+  "accepted043_receipt_sha256": "b89ab8c0caa981289afa2ab84b8eda0bb22c4dd78abd5d95ec958437e51d1ae0",
+  "accepted043_report_path": "artifacts/CHECKPOINT_043_RETURN/097ca0e6c91e0f3d5b50f7cf98415faf1e8ed57b6f09544f5e2d6c4bdb406582/REPORT.json",
+  "accepted043_report_sha256": "9de019e2d8649895627e7c25d1e46366f4e08c0c890404c3197da3bed0317f61",
+  "accepted_return_commit": "f025d2ffe0745e40b2d6718293bfe5d72b54b7ba",
+  "automatic_profile_rerun_permitted": false,
+  "complete_work_budget_admitted": false,
+  "content_commit": "ae010bd7d8e81af336cdd688d943440f200403c4",
+  "continuation": {
+    "baseline_report_sha256": "9de019e2d8649895627e7c25d1e46366f4e08c0c890404c3197da3bed0317f61",
+    "eligible_new_rows": 21,
+    "imported_completed_rows": 6,
+    "imported_rows_remeasured": false,
+    "original043_reservation_preserved": true
+  },
+  "cumulative_model_turns_sent": 14,
+  "cumulative_native_starts": 18,
+  "full_profile_and_execution_result_published": true,
+  "historical039_rerun": false,
+  "historical040_rerun": false,
+  "kind": "P3_CHECKPOINT_044_DEVELOPMENT_PROFILE_RECEIPT_v1",
+  "maximum_profile_launches_for_release": 1,
+  "model_turns_sent": 0,
+  "native_starts": 0,
+  "new_native_allowance": 0,
+  "original043_completed_rows_keep_original_source_identity": true,
+  "original043_failed_attempt_retained_in_baseline_report": true,
+  "original043_profile_restarted": false,
+  "outcome_blind_development_profile_only": true,
+  "private_content_published": false,
+  "private_packet_files_verified": 172,
+  "profile_launches_observed": 1,
+  "profile_source_pins": [
+    {
+      "path": "configs/P3_PROFILE_CONTINUATION_044.json",
+      "sha256": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31"
+    },
+    {
+      "path": "configs/P3_PROFILE_FIXTURES_043.json",
+      "sha256": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b"
+    },
+    {
+      "path": "scripts/accounting043.py",
+      "sha256": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee"
+    },
+    {
+      "path": "scripts/profile043.py",
+      "sha256": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a"
+    },
+    {
+      "path": "scripts/profile044.py",
+      "sha256": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe"
+    },
+    {
+      "path": "scripts/reference_n1_043.py",
+      "sha256": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5"
+    },
+    {
+      "path": "scripts/reference_n3_043.py",
+      "sha256": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193"
+    },
+    {
+      "path": "tests/test_profile043.py",
+      "sha256": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5"
+    },
+    {
+      "path": "tests/test_profile044.py",
+      "sha256": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5"
+    },
+    {
+      "path": "tests/test_reference_n1_043.py",
+      "sha256": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2"
+    },
+    {
+      "path": "tests/test_reference_n3_043.py",
+      "sha256": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+    }
+  ],
+  "profile_status": "PROFILE_COMPLETED",
+  "profiler_path": "scripts/profile044.py",
+  "profiler_sha256": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+  "public_snapshot_files_verified": 209,
+  "release_manifest_path": "evidence/P3_CHECKPOINT_044_MANIFEST.json",
+  "release_manifest_sha256": "bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c",
+  "report_path": "artifacts/CHECKPOINT_044_RETURN/bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c/REPORT.json",
+  "report_sha256": "6452875d2bd3947e0a8aede3aa89c9c8db19985ffc38c80a4b9aa10a086d6cad",
+  "repository": "afazeliUofT/arc-independent-lab",
+  "reviewer_or_review_controller_started": false,
+  "target_execution_admitted": false,
+  "target_experiment_started": false,
+  "timestamp_omitted_for_publication_idempotence": true
+}
