@@ -1,0 +1,69 @@
+{
+  "accepted042_receipt_sha256": "0ceb4418024b409638f4f2dfb89d734c29f55261ad7e3e17d674dbd65c71227b",
+  "accepted042_report_sha256": "79704515c920415f0ef7c90c70c45a49e44228157e759b26d32f570729ede0ea",
+  "accepted_return_commit": "c66f764955c6cfe17d78ae593c290b4ae949e4d3",
+  "automatic_profile_rerun_permitted": false,
+  "complete_work_budget_admitted": false,
+  "content_commit": "913dcd8aced68691537889eb4088dd4a82ede558",
+  "cumulative_model_turns_sent": 14,
+  "cumulative_native_starts": 18,
+  "full_profile_and_execution_result_published": true,
+  "historical039_rerun": false,
+  "historical040_rerun": false,
+  "kind": "P3_CHECKPOINT_043_DEVELOPMENT_PROFILE_RECEIPT_v1",
+  "maximum_profile_launches_for_release": 1,
+  "model_turns_sent": 0,
+  "native_starts": 0,
+  "new_native_allowance": 0,
+  "outcome_blind_development_profile_only": true,
+  "private_content_published": false,
+  "private_packet_files_verified": 172,
+  "profile_launches_observed": 1,
+  "profile_source_pins": [
+    {
+      "path": "configs/P3_PROFILE_FIXTURES_043.json",
+      "sha256": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b"
+    },
+    {
+      "path": "scripts/accounting043.py",
+      "sha256": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee"
+    },
+    {
+      "path": "scripts/profile043.py",
+      "sha256": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a"
+    },
+    {
+      "path": "scripts/reference_n1_043.py",
+      "sha256": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5"
+    },
+    {
+      "path": "scripts/reference_n3_043.py",
+      "sha256": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193"
+    },
+    {
+      "path": "tests/test_profile043.py",
+      "sha256": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5"
+    },
+    {
+      "path": "tests/test_reference_n1_043.py",
+      "sha256": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2"
+    },
+    {
+      "path": "tests/test_reference_n3_043.py",
+      "sha256": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+    }
+  ],
+  "profile_status": "PROFILE_INCOMPLETE",
+  "profiler_path": "scripts/profile043.py",
+  "profiler_sha256": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+  "public_snapshot_files_verified": 190,
+  "release_manifest_path": "evidence/P3_CHECKPOINT_043_MANIFEST.json",
+  "release_manifest_sha256": "097ca0e6c91e0f3d5b50f7cf98415faf1e8ed57b6f09544f5e2d6c4bdb406582",
+  "report_path": "artifacts/CHECKPOINT_043_RETURN/097ca0e6c91e0f3d5b50f7cf98415faf1e8ed57b6f09544f5e2d6c4bdb406582/REPORT.json",
+  "report_sha256": "9de019e2d8649895627e7c25d1e46366f4e08c0c890404c3197da3bed0317f61",
+  "repository": "afazeliUofT/arc-independent-lab",
+  "reviewer_or_review_controller_started": false,
+  "target_execution_admitted": false,
+  "target_experiment_started": false,
+  "timestamp_omitted_for_publication_idempotence": true
+}
