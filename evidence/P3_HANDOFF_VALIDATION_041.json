@@ -1,0 +1,74 @@
+{
+  "boundaries": {
+    "candidate_or_experiment_started": false,
+    "independent_scientific_verdict_created": false,
+    "new_model_turns_sent": 0,
+    "new_native_starts": 0,
+    "old039_or040_files_modified": false
+  },
+  "command": "python3 -B -m unittest discover -s ARC_Independent_Lab/tests -p test_checkpoint041_handoff.py -v",
+  "exit_code": 0,
+  "kind": "P3_HANDOFF_VALIDATION_041_v1",
+  "limitations": [
+    "Final complete release archive with original040 verifier and172-file private packet must be checked separately during assembly",
+    "Windows interop and GitHub authentication were not exercised on the laptop",
+    "Tests do not establish OS-level process isolation or general Git credential-helper safety"
+  ],
+  "meaningful_coverage": [
+    "Actual extracted launcher imports its packaged workflow and siblings; full local Git receipt publication and failed-push recovery",
+    "Failed-commit exact staged receipt recovery; failed-push exact committed receipt recovery",
+    "Only deterministic public receipt changes; private packet text excluded; no native/model/candidate command invoked",
+    "Frozen public snapshot remains valid when mutable current state advances",
+    "Changed public or private source bytes refused before receipt publication",
+    "Changed staged receipt, dirty tracked files and unrelated unpublished commits preserved",
+    "Trusted verifier exception returns only categorical failure receipt without arbitrary exception or private text",
+    "Archive digest mismatch, traversal and changed prior extraction preserved",
+    "Redirected Unicode Downloads resolved; duplicate download filenames selected by whole-ZIP checksum",
+    "Fixed Git publication ignores configured repository hook that would otherwise write a marker and fail"
+  ],
+  "recorded_utc": "2026-09-12T03:38:43.619854+00:00",
+  "result": "OK",
+  "scope": "Hosted offline engineering validation, not independent scientific review or actual WSL execution",
+  "sources": [
+    {
+      "path": "scripts/downloads_bootstrap041.py",
+      "sha256": "70a5bd0e287155b6402aaccf7aba9486eb7e8fbcbe5ee4295852d229c4688c37"
+    },
+    {
+      "path": "scripts/launch041_home.py",
+      "sha256": "f56984b8ba28414d5f916e3297ba3ba2f53a3e01967a357332ad4433bbd56917"
+    },
+    {
+      "path": "scripts/checkpoint041_workflow.py",
+      "sha256": "5fbfac575fbc0a1698d8eeabfd5d787450115eaadf7e3a435a8a31cca4647c2e"
+    },
+    {
+      "path": "tests/test_checkpoint041_handoff.py",
+      "sha256": "c1fb791705566fb46e4e72ff978fe8e097ca6adb6c53bc29668338079e9ed99a"
+    },
+    {
+      "path": "docs/P3_EXECUTION_041.md",
+      "sha256": "f9ec5777c46562cced85afb5f0ef1a4f4e049b928255cbd5e711804ea450e4a4"
+    }
+  ],
+  "substitutions": {
+    "historical_commit": "Only test module RETURN_COMMIT is replaced by an actual fixture ancestor commit",
+    "transport": "Explicit canonical-origin Git transport adapter routes fetch/push/ls-remote only to local bare fixture remote",
+    "verifier": "Pinned source fixture loaded through production verify(root,packet) API; no scientific verdict supplied or graded"
+  },
+  "test_names": [
+    "test_real_workflow_publishes_only_receipt_and_repeat_is_identical",
+    "test_failed_push_retries_same_commit_and_failed_commit_retries_exact_index",
+    "test_current_state_can_advance_but_frozen_snapshot_is_used",
+    "test_wrong_public_or_private_bytes_stop_without_receipt",
+    "test_verifier_failure_returns_small_failure_receipt_without_exception_content",
+    "test_changed_staged_receipt_and_unrelated_work_are_preserved",
+    "test_dirty_tracked_file_and_unpublished_unrelated_commit_stop",
+    "test_publication_does_not_execute_configured_repository_hook",
+    "test_actual_extracted_launcher_workflow_push_retry_and_complete_inventory",
+    "test_archive_tamper_traversal_and_existing_edits_preserved",
+    "test_redirected_downloads_and_checksum_before_embedded_launcher",
+    "test_command_template_shell_parses_and_has_no_native_call"
+  ],
+  "tests_run": 12
+}

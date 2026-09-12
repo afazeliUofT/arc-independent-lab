@@ -1,0 +1,375 @@
+{
+  "kind": "P3_USAGE_RETURN_ASSESSMENT_041_v1",
+  "access_date": "2026-09-12",
+  "canonical_repository": "afazeliUofT/arc-independent-lab",
+  "source_commit": "540370fdb73c8f87f6433e14463951673640d033",
+  "assessment_role": "PI engineering/accounting assessment of original returned receipts; not an additional independent scientific reviewer",
+  "original_receipts_modified": false,
+  "additional_native_processes_or_model_turns_launched_by_this_assessment": false,
+  "sources": {
+    "report": {
+      "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/REPORT.json",
+      "sha256": "877c4eeda0b31154d42885f8afbe7e01a56a5a452bdcef56a279b46cb2a7c372",
+      "bytes": 1217401,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/540370fdb73c8f87f6433e14463951673640d033/artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/REPORT.json",
+      "access_date": "2026-09-12"
+    },
+    "scope": {
+      "path": "configs/P3_FOCUSED_REVIEW_SCOPE_040.json",
+      "sha256": "682521fe5c47ffbd620064655bb8d9b1f6d365d5d84cac5a1e50ee72d0172f4e",
+      "bytes": 11950,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/540370fdb73c8f87f6433e14463951673640d033/configs/P3_FOCUSED_REVIEW_SCOPE_040.json",
+      "access_date": "2026-09-12"
+    },
+    "attempt": {
+      "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/ATTEMPT.json",
+      "sha256": "a3f091ba1a56ff472e773305c67ea4776ac1074d8c828aeba7f2301d42d3bba4",
+      "bytes": 4429,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/540370fdb73c8f87f6433e14463951673640d033/artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/ATTEMPT.json",
+      "access_date": "2026-09-12"
+    },
+    "session_implementation": {
+      "path": "scripts/p3_reviewer_session_040.py",
+      "sha256": "b3aa27b7349a51a9206d6cbfe87bb3264b6f9ee8dc497053078888fbacac1cf9",
+      "bytes": 53677,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/540370fdb73c8f87f6433e14463951673640d033/scripts/p3_reviewer_session_040.py",
+      "access_date": "2026-09-12"
+    },
+    "admission_implementation": {
+      "path": "scripts/p3_reviewer_admission_040.py",
+      "sha256": "25f85c2525d224ede96d38292538836b736016899e5da9e4b4c0c26f036af09b",
+      "bytes": 27259,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/540370fdb73c8f87f6433e14463951673640d033/scripts/p3_reviewer_admission_040.py",
+      "access_date": "2026-09-12"
+    },
+    "controller": {
+      "path": "scripts/p3_focused_review_040.py",
+      "sha256": "87b41859366e90ced768f4c7367ddf7349764bee9079b048025585b7c7f1e232",
+      "bytes": 38523,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/540370fdb73c8f87f6433e14463951673640d033/scripts/p3_focused_review_040.py",
+      "access_date": "2026-09-12"
+    },
+    "prior039_report": {
+      "path": "artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/REPORT.json",
+      "sha256": "8a14ad9551e6f0f1840d05889574cb7763b330046c0a51474d62ceb3926c38cc",
+      "bytes": 1003731,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/540370fdb73c8f87f6433e14463951673640d033/artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/REPORT.json",
+      "access_date": "2026-09-12"
+    },
+    "synthetic_session": {
+      "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/synthetic_SESSION.json",
+      "sha256": "29935ce2c5fd7595b1ab9410b1e5014794a5f6371bae4b6f1a528b508a6db71b",
+      "bytes": 129193,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/540370fdb73c8f87f6433e14463951673640d033/artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/synthetic_SESSION.json",
+      "access_date": "2026-09-12"
+    },
+    "synthetic_stage": {
+      "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/synthetic_STAGE.json",
+      "sha256": "0d65dd3a08690aa32dd75b6545744c65118462e13c71105661ae86ec0a10a18c",
+      "bytes": 156010,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/540370fdb73c8f87f6433e14463951673640d033/artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/synthetic_STAGE.json",
+      "access_date": "2026-09-12"
+    },
+    "science_session": {
+      "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/science_SESSION.json",
+      "sha256": "c2e6a30dc2b2e6fb7d9ba2929a4968c30ce9b182c5ff9f7114f469a65cfd7f04",
+      "bytes": 165161,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/540370fdb73c8f87f6433e14463951673640d033/artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/science_SESSION.json",
+      "access_date": "2026-09-12"
+    },
+    "science_stage": {
+      "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/science_STAGE.json",
+      "sha256": "b93f57740499d147ab82ce0279c3bc69244b01528930081efe340b801ce6efee",
+      "bytes": 221981,
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/540370fdb73c8f87f6433e14463951673640d033/artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/science_STAGE.json",
+      "access_date": "2026-09-12"
+    }
+  },
+  "receipt_equality_checks": [
+    {
+      "mode": "synthetic",
+      "standalone_session_equals_standalone_stage_observation": true,
+      "standalone_stage_equals_report_stage": true,
+      "standalone_session_equals_report_collected_observation": true,
+      "embedded_receipt_hashes_and_byte_lengths_match": true,
+      "references": [
+        "synthetic_session",
+        "synthetic_stage",
+        "report"
+      ]
+    },
+    {
+      "mode": "science",
+      "standalone_session_equals_standalone_stage_observation": true,
+      "standalone_stage_equals_report_stage": true,
+      "standalone_session_equals_report_collected_observation": true,
+      "embedded_receipt_hashes_and_byte_lengths_match": true,
+      "references": [
+        "science_session",
+        "science_stage",
+        "report"
+      ]
+    }
+  ],
+  "stages": [
+    {
+      "mode": "synthetic",
+      "references": [
+        "synthetic_session",
+        "synthetic_stage",
+        "scope",
+        "session_implementation"
+      ],
+      "native_starts_observed": 1,
+      "explicit_turn_start_requests_sent": 1,
+      "explicit_turn_start_requests_queued": 1,
+      "successful_turn_start_rpc_responses": 1,
+      "turn_started_notifications": 1,
+      "turn_completed_notifications_observed": 0,
+      "turn_completed_observation_interpretation": "No completion notification was observed before deliberate stop at the required broker outcome; this is not zero model use or a failed verdict.",
+      "broker_outcome": "SYNTHETIC_REFUSAL_OBSERVED",
+      "elapsed_seconds_including_cleanup": 8.774318,
+      "wall_ceiling_seconds_including_cleanup": 600,
+      "elapsed_is_session_duration_not_total_download_workflow_time": true,
+      "broker_calls_observed": 3,
+      "broker_call_ceiling": 16,
+      "context_compactions_started": 0,
+      "context_compactions_completed": 0,
+      "selected_binding": {
+        "model": "gpt-5.6-sol",
+        "id": "gpt-5.6-sol",
+        "effort": "max"
+      },
+      "selected_model_advertised_efforts": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max",
+        "ultra"
+      ],
+      "automatic_retry_requested": false,
+      "native_process_reaped": true,
+      "native_client_exit_code": -15,
+      "initial_rate_limit_rpc_response_received": true,
+      "initial_rate_limit_snapshots": {
+        "explicit_codex_map_entry": {
+          "primary": {
+            "present": true,
+            "shape_recognized": true,
+            "usedPercent": 44,
+            "windowDurationMins": 10080,
+            "resetsAt": 1789490427
+          },
+          "secondary": {
+            "present": false,
+            "shape_recognized": true
+          }
+        },
+        "explicit_codex_legacy_entry": {
+          "primary": {
+            "present": true,
+            "shape_recognized": true,
+            "usedPercent": 44,
+            "windowDurationMins": 10080,
+            "resetsAt": 1789490427
+          },
+          "secondary": {
+            "present": false,
+            "shape_recognized": true
+          }
+        }
+      },
+      "initial_quota_admission": {
+        "codex_reported_windows_below_full": true,
+        "hosted_chatgpt_allowance_verified": false,
+        "remaining_tokens_estimated": false
+      },
+      "token_usage_update_notifications_observed": 2,
+      "rate_limit_update_notifications_observed": 2,
+      "update_payload_values_retained": false,
+      "successful_live_admission_rpc_methods": [
+        "config/read",
+        "configRequirements/read",
+        "account/read",
+        "account/rateLimits/read",
+        "model/list",
+        "thread/start",
+        "turn/start"
+      ],
+      "returned_thread_controls_match": true,
+      "reported_account_kind": "chatgpt",
+      "reported_plan_type": "pro",
+      "contained_account_read_scope": "cached_account_read_in_this_network_enabled_session",
+      "managed_requirements_null_admitted": true,
+      "catalog_complete": true,
+      "catalog_pages_received": 1,
+      "catalog_entries_validated": 7,
+      "hosted_chatgpt_allowance_verified": false
+    },
+    {
+      "mode": "science",
+      "references": [
+        "science_session",
+        "science_stage",
+        "scope",
+        "session_implementation"
+      ],
+      "native_starts_observed": 1,
+      "explicit_turn_start_requests_sent": 1,
+      "explicit_turn_start_requests_queued": 1,
+      "successful_turn_start_rpc_responses": 1,
+      "turn_started_notifications": 1,
+      "turn_completed_notifications_observed": 0,
+      "turn_completed_observation_interpretation": "No completion notification was observed before deliberate stop at the required broker outcome; this is not zero model use or a failed verdict.",
+      "broker_outcome": "VERDICT_SUBMITTED",
+      "elapsed_seconds_including_cleanup": 1283.527924,
+      "wall_ceiling_seconds_including_cleanup": 3600,
+      "elapsed_is_session_duration_not_total_download_workflow_time": true,
+      "broker_calls_observed": 101,
+      "broker_call_ceiling": 512,
+      "context_compactions_started": 1,
+      "context_compactions_completed": 1,
+      "selected_binding": {
+        "model": "gpt-5.6-sol",
+        "id": "gpt-5.6-sol",
+        "effort": "max"
+      },
+      "selected_model_advertised_efforts": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max",
+        "ultra"
+      ],
+      "automatic_retry_requested": false,
+      "native_process_reaped": true,
+      "native_client_exit_code": -15,
+      "initial_rate_limit_rpc_response_received": true,
+      "initial_rate_limit_snapshots": {
+        "explicit_codex_map_entry": {
+          "primary": {
+            "present": true,
+            "shape_recognized": true,
+            "usedPercent": 44,
+            "windowDurationMins": 10080,
+            "resetsAt": 1789490427
+          },
+          "secondary": {
+            "present": false,
+            "shape_recognized": true
+          }
+        },
+        "explicit_codex_legacy_entry": {
+          "primary": {
+            "present": true,
+            "shape_recognized": true,
+            "usedPercent": 44,
+            "windowDurationMins": 10080,
+            "resetsAt": 1789490427
+          },
+          "secondary": {
+            "present": false,
+            "shape_recognized": true
+          }
+        }
+      },
+      "initial_quota_admission": {
+        "codex_reported_windows_below_full": true,
+        "hosted_chatgpt_allowance_verified": false,
+        "remaining_tokens_estimated": false
+      },
+      "token_usage_update_notifications_observed": 101,
+      "rate_limit_update_notifications_observed": 101,
+      "update_payload_values_retained": false,
+      "successful_live_admission_rpc_methods": [
+        "config/read",
+        "configRequirements/read",
+        "account/read",
+        "account/rateLimits/read",
+        "model/list",
+        "thread/start",
+        "turn/start"
+      ],
+      "returned_thread_controls_match": true,
+      "reported_account_kind": "chatgpt",
+      "reported_plan_type": "pro",
+      "contained_account_read_scope": "cached_account_read_in_this_network_enabled_session",
+      "managed_requirements_null_admitted": true,
+      "catalog_complete": true,
+      "catalog_pages_received": 1,
+      "catalog_entries_validated": 7,
+      "hosted_chatgpt_allowance_verified": false
+    }
+  ],
+  "accounting": {
+    "references": [
+      "report",
+      "synthetic_session",
+      "science_session",
+      "prior039_report",
+      "scope",
+      "attempt"
+    ],
+    "prior_native_starts": 16,
+    "prior_explicit_turn_start_requests_sent": 12,
+    "observed_native_starts_this_attempt": 2,
+    "observed_explicit_turn_start_requests_sent_this_attempt": 2,
+    "cumulative_observed_native_starts": 18,
+    "cumulative_observed_explicit_turn_start_requests_sent": 14,
+    "sum_session_elapsed_seconds": 1292.302242,
+    "controller_accounting_independently_recomputed_and_equal": true,
+    "native_start_scope_exhausted": true,
+    "sent_turn_scope_exhausted": true,
+    "remaining_authorized_starts_in_040_scope": 0,
+    "remaining_authorized_sent_turns_in_040_scope": 0,
+    "automatic_retry_admitted": false,
+    "backend_inference_count": null,
+    "input_tokens": null,
+    "output_tokens": null,
+    "reasoning_tokens": null,
+    "cached_tokens": null,
+    "cost_or_billing_charge": null,
+    "unknown_values_mean_unknown_not_zero": true
+  },
+  "quota_interpretation": {
+    "references": [
+      "synthetic_session",
+      "science_session",
+      "session_implementation"
+    ],
+    "observed_at": "Each session initial account/rateLimits/read response, before its turn; this is native-returned metadata rather than an independent billing service measurement.",
+    "reported_weekly_used_percent": 44,
+    "reported_window_duration_minutes": 10080,
+    "reported_reset_epoch_seconds": 1789490427,
+    "reported_reset_utc": "2026-09-15T16:40:27+00:00",
+    "secondary_window_present": false,
+    "absence_of_secondary_window_means_unlimited": false,
+    "post_review_used_percent": null,
+    "increment_attributable_to_this_review": null,
+    "remaining_tokens": null,
+    "retention_limit": "The pinned implementation validates update payload object shape and increments event counts; it does not retain tokenUsage numeric values or rolling rateLimits payloads. Therefore the final usage, charge and quota change cannot be recovered from these public receipts.",
+    "snapshot_is_end_of_run_or_current_quota": false,
+    "hosted_chatgpt_allowance_or_paid_spending_authority_proven": false
+  },
+  "selection_interpretation": {
+    "references": [
+      "scope",
+      "synthetic_session",
+      "science_session",
+      "admission_implementation"
+    ],
+    "finding": "Both sole sent turns used the exact declared gpt-5.6-sol / max binding and no model/provider fallback was observed.",
+    "max_is_highest_catalog_advertised_effort": false,
+    "scope_policy": "The bounded independent-review exception explicitly requires Max. The returned catalog also advertises Ultra; this report makes no claim that Max is the globally highest available effort.",
+    "account_and_catalog_metadata_are_entitlement_proof": false,
+    "successful_thread_and_turn_responses_support_actual_route_admission": true
+  },
+  "execution_accounting_limits": [
+    "Two explicit turn/start requests are counted even though no turn/completed notification was retained; the controller deliberately terminates and reaps each native client after its required broker outcome. Exit -15 is consistent with that stop path, not an automatic scientific failure.",
+    "One completed context compaction inside the scientific turn is not another explicit parent-sent turn, and does not justify inferring backend inference count or clearing usage counters.",
+    "This finite scope has consumed both reserved starts and turns. Repeating the existing workflow may collect existing evidence but may not launch another040 review.",
+    "Continuous human attendance, complete native context closure, full tool registry, precise backend tokens, subscription allowance and monetary billing remain outside these receipts."
+  ]
+}

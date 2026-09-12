@@ -1,0 +1,298 @@
+{
+  "kind": "P3_BOUNDARY_RETURN_ASSESSMENT_041_v1",
+  "assessment_date": "2026-09-12",
+  "repository": "afazeliUofT/arc-independent-lab",
+  "returned_commit": "540370fdb73c8f87f6433e14463951673640d033",
+  "role": "PI engineering assessment of returned evidence; this is not a fresh independent scientific review",
+  "conclusion": "Actual040 supports the bounded analytical execution admission and preservation of a source-grounded reviewer submission. No fatal boundary violation was observed. It does not establish full context, registry, network, or malicious-host isolation.",
+  "report": {
+    "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/REPORT.json",
+    "sha256": "877c4eeda0b31154d42885f8afbe7e01a56a5a452bdcef56a279b46cb2a7c372",
+    "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/540370fdb73c8f87f6433e14463951673640d033/artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/REPORT.json",
+    "access_date": "2026-09-12"
+  },
+  "verdict": {
+    "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/science_output/REVIEW_VERDICT.json",
+    "sha256": "a31b9d8ec2103f09d81b963fd7f9ff51c4287490a0f0bf2f74f5dfbc1407d673",
+    "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/540370fdb73c8f87f6433e14463951673640d033/artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/science_output/REVIEW_VERDICT.json",
+    "access_date": "2026-09-12"
+  },
+  "offline_verification": {
+    "checks_passed": 43,
+    "checks": {
+      "report_original_verdict_hash": true,
+      "synthetic_nested_session_exact": true,
+      "synthetic_report_nested_stage_exact": true,
+      "synthetic_one_fresh_thread_request": true,
+      "synthetic_independent_packet_observer_prepost": true,
+      "synthetic_controls_verified": true,
+      "synthetic_binding_exact": true,
+      "synthetic_postchecks_pass": true,
+      "synthetic_no_fatal_boundary_event_failure": true,
+      "synthetic_reaped_within_wall_bound": true,
+      "synthetic_call_count_within_limit": true,
+      "synthetic_credential_metadata_unchanged": true,
+      "synthetic_runtime_and_snapshot_intact": true,
+      "science_nested_session_exact": true,
+      "science_report_nested_stage_exact": true,
+      "science_one_fresh_thread_request": true,
+      "science_independent_packet_observer_prepost": true,
+      "science_controls_verified": true,
+      "science_binding_exact": true,
+      "science_postchecks_pass": true,
+      "science_no_fatal_boundary_event_failure": true,
+      "science_reaped_within_wall_bound": true,
+      "science_call_count_within_limit": true,
+      "science_credential_metadata_unchanged": true,
+      "science_runtime_and_snapshot_intact": true,
+      "synthetic_science_threads_distinct": true,
+      "synthetic_canary_exact_sequence": true,
+      "science_exactly_one_recoverable_contract_error": true,
+      "science_final_submission_accepted": true,
+      "one_science_compaction_completed": true,
+      "no_compaction_reset": true,
+      "packet_manifest_matches_return": true,
+      "all_171_packet_files_match_original_manifest": true,
+      "verdict_source_delivery_exact_stage_receipt": true,
+      "descriptor_matches_return": true,
+      "source_event_hashes_match_packet": true,
+      "source_events_recompute_reported_ranges": true,
+      "all_43_delivered_texts_cover_complete_characters": true,
+      "all_40_required_public_texts_complete": true,
+      "both_full_paper_texts_complete": true,
+      "all_11_required_page_images_delivered": true,
+      "97_source_events_correspond_to_85_text_12_image_calls": true,
+      "inspected_controller_and_dependency_bytes_match_recorded_pins": true
+    },
+    "native_clients_started": 0,
+    "model_turns_sent": 0,
+    "returned_receipts_edited": false,
+    "private_packet_method": "Compared retained original039 packet complete hashes with the exact manifest recorded by actual040; independently recomputed every delivered Unicode character range and all required image memberships. No paper text or images are reproduced here."
+  },
+  "stage_observations": [
+    {
+      "mode": "synthetic",
+      "session": {
+        "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/synthetic_SESSION.json",
+        "sha256": "29935ce2c5fd7595b1ab9410b1e5014794a5f6371bae4b6f1a528b508a6db71b",
+        "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/540370fdb73c8f87f6433e14463951673640d033/artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/synthetic_SESSION.json",
+        "access_date": "2026-09-12"
+      },
+      "stage": {
+        "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/synthetic_STAGE.json",
+        "sha256": "0d65dd3a08690aa32dd75b6545744c65118462e13c71105661ae86ec0a10a18c",
+        "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/540370fdb73c8f87f6433e14463951673640d033/artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/synthetic_STAGE.json",
+        "access_date": "2026-09-12"
+      },
+      "status": "SYNTHETIC_REFUSAL_OBSERVED",
+      "thread_id": "01a0936f-b04e-73e0-9ad3-3f464bb7cc45",
+      "fresh_process_runtime_directories": true,
+      "pi_conversation_imported": false,
+      "returned_controls_match": true,
+      "verified_requested_controls": 56,
+      "packet_before": {
+        "manifest_sha256": "1dcba5d7f7b1a77f0c3c17b1f02e59199cc9f8cc5f633b59500c44d318eb325a",
+        "files_rehashed": 1
+      },
+      "packet_after": {
+        "manifest_sha256": "1dcba5d7f7b1a77f0c3c17b1f02e59199cc9f8cc5f633b59500c44d318eb325a",
+        "files_rehashed": 1
+      },
+      "independent_observer_opened_before_model": true,
+      "broker_calls": {
+        "read_text": 3
+      },
+      "recoverable_input_errors": 2,
+      "recoverable_error_codes": [
+        "integer_bounds",
+        "resource_path_traversal"
+      ],
+      "fatal_stage_failures": [],
+      "primary_failure": null,
+      "native_event_failure": null,
+      "broker_boundary_failure": null,
+      "native_process_reaped": true,
+      "client_exit_code": -15,
+      "elapsed_seconds": 8.774318,
+      "wall_seconds_including_cleanup": 600,
+      "context_compactions_started": 0,
+      "context_compactions_completed": 0,
+      "items_still_active_at_receipt": 1,
+      "host_cache_source_changes": [
+        {
+          "name": "cloud-config-bundle-cache.json",
+          "changed_fields": [],
+          "writer_identified": false,
+          "sealed_input_invalidated_by_source_change": false
+        },
+        {
+          "name": "models_cache.json",
+          "changed_fields": [],
+          "writer_identified": false,
+          "sealed_input_invalidated_by_source_change": false
+        }
+      ],
+      "host_noncredential_postchecks_pass": true,
+      "credential_metadata_unchanged": true,
+      "credential_contents_checked": false
+    },
+    {
+      "mode": "science",
+      "session": {
+        "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/science_SESSION.json",
+        "sha256": "c2e6a30dc2b2e6fb7d9ba2929a4968c30ce9b182c5ff9f7114f469a65cfd7f04",
+        "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/540370fdb73c8f87f6433e14463951673640d033/artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/science_SESSION.json",
+        "access_date": "2026-09-12"
+      },
+      "stage": {
+        "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/science_STAGE.json",
+        "sha256": "b93f57740499d147ab82ce0279c3bc69244b01528930081efe340b801ce6efee",
+        "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/540370fdb73c8f87f6433e14463951673640d033/artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/science_STAGE.json",
+        "access_date": "2026-09-12"
+      },
+      "status": "VERDICT_SUBMITTED",
+      "thread_id": "01a0936f-d8ae-78b1-820b-f680250c468a",
+      "fresh_process_runtime_directories": true,
+      "pi_conversation_imported": false,
+      "returned_controls_match": true,
+      "verified_requested_controls": 56,
+      "packet_before": {
+        "manifest_sha256": "1546dd761c3f3c1fa7b44f2d9df0ff2358e96ca37b2c1d3d3230aa6735927142",
+        "files_rehashed": 171
+      },
+      "packet_after": {
+        "manifest_sha256": "1546dd761c3f3c1fa7b44f2d9df0ff2358e96ca37b2c1d3d3230aa6735927142",
+        "files_rehashed": 171
+      },
+      "independent_observer_opened_before_model": true,
+      "broker_calls": {
+        "read_text": 85,
+        "read_page_image": 12,
+        "source_access_receipt": 2,
+        "submit_verdict": 2
+      },
+      "recoverable_input_errors": 1,
+      "recoverable_error_codes": [
+        "verdict_contract"
+      ],
+      "fatal_stage_failures": [],
+      "primary_failure": null,
+      "native_event_failure": null,
+      "broker_boundary_failure": null,
+      "native_process_reaped": true,
+      "client_exit_code": -15,
+      "elapsed_seconds": 1283.527924,
+      "wall_seconds_including_cleanup": 3600,
+      "context_compactions_started": 1,
+      "context_compactions_completed": 1,
+      "items_still_active_at_receipt": 1,
+      "host_cache_source_changes": [
+        {
+          "name": "cloud-config-bundle-cache.json",
+          "changed_fields": [],
+          "writer_identified": false,
+          "sealed_input_invalidated_by_source_change": false
+        },
+        {
+          "name": "models_cache.json",
+          "changed_fields": [
+            "mtime_ns",
+            "ctime_ns"
+          ],
+          "writer_identified": false,
+          "sealed_input_invalidated_by_source_change": false
+        }
+      ],
+      "host_noncredential_postchecks_pass": true,
+      "credential_metadata_unchanged": true,
+      "credential_contents_checked": false
+    }
+  ],
+  "source_delivery": {
+    "scientific_manifest_sha256": "927ac29fa1106c533588fb6b999736b5cb6f9d8d4389c61e049c03f9afa9628e",
+    "packet_manifest_sha256": "1546dd761c3f3c1fa7b44f2d9df0ff2358e96ca37b2c1d3d3230aa6735927142",
+    "descriptor_sha256": "1cea28986d16aa16320cfa1f4d764d02c5cd573f5fd5c04d6aaff41050a76ab9",
+    "required_public_texts_complete": 40,
+    "all_delivered_texts_complete": 43,
+    "delivery_events": 97,
+    "full_paper_texts_delivered": [
+      "CHV79",
+      "PK97"
+    ],
+    "required_images": {
+      "CHV79": [
+        2,
+        3,
+        4
+      ],
+      "PK97": [
+        1,
+        28,
+        39,
+        40,
+        45,
+        46,
+        47,
+        48
+      ]
+    },
+    "unique_required_images_delivered": 11,
+    "image_calls": 12,
+    "source_delivery_in_verdict_matches_final_stage": true,
+    "receipt_meaning": "Complete hash-matched text ranges and image payloads were returned by tools. This demonstrates delivery, not comprehension, full uncompressed retention, source faithfulness of every derivative, or scientific correctness."
+  },
+  "interpretations": [
+    "The synthetic stage demonstrated an allowed CANARY read, one integer-bounds rejection and one traversal rejection. It did not perform the scientific review.",
+    "The science reviewer made one malformed or inconsistent verdict submission rejected as verdict_contract, then continued within the same authorized thread and turn and submitted an accepted verdict. The returned safe receipts do not retain the rejected payload or a finer-grained cause, so no exact reason is inferred.",
+    "One science context compaction started and completed. The retained event policy did not reset packet, tool, budget or other context-independent controls. Compaction means the full input corpus need not have remained verbatim in final active context.",
+    "Both clients were deliberately stopped and reaped once their required outcomes were observed; exit -15 and one active dynamic tool item at receipt are consistent with that termination rule, not evidence of an uncompleted required verdict. No turn/completed receipt is claimed.",
+    "The host models_cache timestamp metadata changed during science. The writer was not identified; the two-read sealed snapshot provided to the native process remained intact. No claim that all host files remained unchanged is made.",
+    "The independently preopened PacketObserver is a separate packet reader never exposed to model dispatch; its pre/post check is independent of the operative broker stop flag. It is an engineering integrity observer, not an independent reasoning agent."
+  ],
+  "limitations": [
+    "Full fresh model context and complete runtime tool inventory were not attested by the protocol. Returned control matches, absent custom instructions and distinct thread IDs are bounded observations.",
+    "The namespace mount plan was not fresh kernel-attested in040. Archived earlier mount/kernel evidence was pinned and reused; it is not an observation of the actual040 mount table.",
+    "Network was inherited from the host; no endpoint allowlist was enforced. The native existing credential remained writable for its authorized refresh operation. Parent credential contents were not opened, copied or hashed.",
+    "No malicious-host proof, filesystem transaction guarantee, credential-content integrity claim, continuous-human-attendance proof, or universal sandbox security proof follows.",
+    "The raw native protocol streams and rejected verdict payload were intentionally not retained, so full transcript reconstruction and fine-grained retrospective replay are unavailable.",
+    "Analytical execution admission is separate from scientific verdict acceptance, candidate efficacy, novelty clearance and PROGRAMME approval."
+  ],
+  "source_code_review": [
+    {
+      "path": "scripts/p3_focused_review_040.py",
+      "sha256": "87b41859366e90ced768f4c7367ddf7349764bee9079b048025585b7c7f1e232",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/540370fdb73c8f87f6433e14463951673640d033/scripts/p3_focused_review_040.py",
+      "access_date": "2026-09-12"
+    },
+    {
+      "path": "scripts/p3_reviewer_session_040.py",
+      "sha256": "b3aa27b7349a51a9206d6cbfe87bb3264b6f9ee8dc497053078888fbacac1cf9",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/540370fdb73c8f87f6433e14463951673640d033/scripts/p3_reviewer_session_040.py",
+      "access_date": "2026-09-12"
+    },
+    {
+      "path": "scripts/p3_reviewer_admission_040.py",
+      "sha256": "25f85c2525d224ede96d38292538836b736016899e5da9e4b4c0c26f036af09b",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/540370fdb73c8f87f6433e14463951673640d033/scripts/p3_reviewer_admission_040.py",
+      "access_date": "2026-09-12"
+    },
+    {
+      "path": "scripts/p3_packet_observer_032.py",
+      "sha256": "1c28b532d90c7a40b57c37e4ea33fc2639fe5375572a28e0a0732ce236cc2326",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/540370fdb73c8f87f6433e14463951673640d033/scripts/p3_packet_observer_032.py",
+      "access_date": "2026-09-12"
+    },
+    {
+      "path": "scripts/p3_focused_review_broker_039.py",
+      "sha256": "b0d0b985e6e709d716d63d0bf6f1bf12d7c00b96340f435a1c7087c0bcdaf036",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/540370fdb73c8f87f6433e14463951673640d033/scripts/p3_focused_review_broker_039.py",
+      "access_date": "2026-09-12"
+    },
+    {
+      "path": "scripts/p3_event_policy_030.py",
+      "sha256": "ad8c1fa0bb3bb1c755f90b5d1c4c68f3368d4fa6af6552ea21f57f215de7dd2c",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/540370fdb73c8f87f6433e14463951673640d033/scripts/p3_event_policy_030.py",
+      "access_date": "2026-09-12"
+    }
+  ]
+}

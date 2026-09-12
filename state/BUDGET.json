@@ -119,27 +119,14 @@
     "rerun_needed": false
   },
   "next_operational_test": {
-    "status": "040 narrow admission correction ready for attended user invocation; no039 rerun.",
-    "scope": {
-      "path": "configs/P3_FOCUSED_REVIEW_SCOPE_040.json",
-      "sha256": "682521fe5c47ffbd620064655bb8d9b1f6d365d5d84cac5a1e50ee72d0172f4e"
-    },
-    "standing_authorization": {
-      "path": "state/authorizations/P3_FOCUSED_REVIEW_040_STANDING_AUTHORIZATION.md",
-      "sha256": "428729a20cc52abdf81b8d273326e6361c417f2806814e7af4818c0b5823416b"
-    },
-    "verified_historical_native_starts": 16,
-    "verified_historical_sent_turns": 12,
-    "additional_native_start_ceiling": 2,
-    "additional_sent_turn_ceiling": 2,
-    "cumulative_native_start_ceiling": 18,
-    "cumulative_sent_turn_ceiling": 14,
-    "actual040_native_starts_observed_here": 0,
-    "actual040_sent_turns_observed_here": 0,
-    "scope_specific_execution_record_pending": true,
-    "repeat_existing_attempt_authorized": false,
-    "unattended_model_use_authorized": false,
-    "backend_usage_or_charge": "unknown"
+    "status": "041 offline return verification only;040 closed",
+    "native_starts": 0,
+    "sent_turns": 0,
+    "candidate_runs": 0,
+    "new_native_scope_prepared": false,
+    "verified_cumulative_native_starts": 18,
+    "verified_cumulative_sent_turns": 14,
+    "next_scientific_task": "Resolve041 comparison feasibility and preregistration semantics; no experiment executable in this package"
   },
   "completed_native_signin": {
     "receipt": {
@@ -234,7 +221,7 @@
       "sha256": "acbc599a337845e585af8cec04fd72af44cdb7d10321c1ae4329fce6120613a4"
     },
     "native_controller_implemented": true,
-    "next_action": "Use separately versioned040 exact-tool preflight and finite scope; preserve all039 code and returned evidence.",
+    "next_action": "No native reviewer action in041; historical040 exhausted. Future experiment review must use a separately justified finite scope and current admission.",
     "unattended_model_use_authorized": false,
     "extra_spending_allowed": false
   },
@@ -679,7 +666,7 @@
     "unattended_model_use": false,
     "backend_usage_or_charge": "unknown",
     "prepared_scope": {
-      "status": "040 narrow admission correction ready for attended user invocation; no039 rerun.",
+      "status": "actual040 completed and verified041; scope exhausted",
       "scope": {
         "path": "configs/P3_FOCUSED_REVIEW_SCOPE_040.json",
         "sha256": "682521fe5c47ffbd620064655bb8d9b1f6d365d5d84cac5a1e50ee72d0172f4e"
@@ -694,24 +681,101 @@
       "additional_sent_turn_ceiling": 2,
       "cumulative_native_start_ceiling": 18,
       "cumulative_sent_turn_ceiling": 14,
-      "actual040_native_starts_observed_here": 0,
-      "actual040_sent_turns_observed_here": 0,
-      "scope_specific_execution_record_pending": true,
+      "actual040_native_starts_observed_here": 2,
+      "actual040_sent_turns_observed_here": 2,
+      "scope_specific_execution_record_pending": false,
       "repeat_existing_attempt_authorized": false,
       "unattended_model_use_authorized": false,
-      "backend_usage_or_charge": "unknown"
+      "backend_usage_or_charge": "unknown",
+      "actual_return_verification": {
+        "path": "evidence/P3_RUN_040_RETURN_VERIFICATION_041.json",
+        "sha256": "eca679edf72e1988a7e311717e01249c8bd518a84e236d99cb651f889fc4078a"
+      }
     }
   },
   "latest_returned_native_quota": {
-    "reported_used_percent": 43,
+    "reported_used_percent": 44,
     "window_duration_minutes": 10080,
-    "reported_reset_utc": "2026-09-15T16:40:27+00:00",
     "evidence": {
-      "path": "evidence/P3_USAGE_RETURN_ASSESSMENT_040.json",
-      "sha256": "e6269b5e68d59b45b8d9ae1667a4c2dc600104dac138617fb41690880257878b"
+      "path": "evidence/P3_USAGE_RETURN_ASSESSMENT_041.json",
+      "sha256": "fe11be20f9ca5580b1435cd1dfd819cec16f9dfd6c283f66fcc34f6106835c73"
     },
-    "reported_at_actual039_sessions_not_live_now": true,
+    "scope": "Initial actual040 session snapshots; not live now and not a post-run balance",
     "hosted_chatgpt_allowance_verified": false,
-    "attributable_usage_delta": null
+    "attributable_usage_delta": null,
+    "exact_tokens": null,
+    "final_quota": null
+  },
+  "completed_focused_review040": {
+    "returned_commit": "540370fdb73c8f87f6433e14463951673640d033",
+    "report": {
+      "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/REPORT.json",
+      "sha256": "877c4eeda0b31154d42885f8afbe7e01a56a5a452bdcef56a279b46cb2a7c372"
+    },
+    "verdict": {
+      "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/science_output/REVIEW_VERDICT.json",
+      "sha256": "a31b9d8ec2103f09d81b963fd7f9ff51c4287490a0f0bf2f74f5dfbc1407d673"
+    },
+    "verification": {
+      "path": "evidence/P3_RUN_040_RETURN_VERIFICATION_041.json",
+      "sha256": "eca679edf72e1988a7e311717e01249c8bd518a84e236d99cb651f889fc4078a"
+    },
+    "scientific_assessment": {
+      "path": "evidence/P3_SCIENTIFIC_VERDICT_ASSESSMENT_041.md",
+      "sha256": "d4a5e26406e1cc17d594ecb7d34b43172eca5cd317c1d735f4002d8a1b7d1429"
+    },
+    "usage_assessment": {
+      "path": "evidence/P3_USAGE_RETURN_ASSESSMENT_041.json",
+      "sha256": "fe11be20f9ca5580b1435cd1dfd819cec16f9dfd6c283f66fcc34f6106835c73"
+    },
+    "boundary_assessment": {
+      "path": "evidence/P3_BOUNDARY_RETURN_ASSESSMENT_041.json",
+      "sha256": "44bea92164c4bc23075221345f5db9ee6f9e59a90f96fd97eeab0fe87f4ba9ca"
+    },
+    "scientific_verdict": "GO",
+    "accepted_scope": "R1-R7 plus CHV79/R1 and PK97/R6 analytical review only",
+    "reviewer_original_edited": false,
+    "all_claims_supported_with_scope": true,
+    "missing_dependencies": [],
+    "required_corrections_in_original": [],
+    "pi_successor_clarifications": [
+      "Count-yoking survival is not automatic disconfirmation; specify the counterfactual separately from predicate removal.",
+      "Fresh-credit exhaustion alone is not whole-agent failure."
+    ],
+    "recommended_route": "SPECIFY_SUCCESSOR_COMPARISON",
+    "actual_native_starts": 2,
+    "actual_sent_turns": 2,
+    "actual_cumulative_native_starts": 18,
+    "actual_cumulative_sent_turns": 14,
+    "completed_turn_events_observed": 0,
+    "science_thread_started": true,
+    "science_model_turn_sent": true,
+    "scope_native_and_turn_ceilings_exhausted": true,
+    "repeat_authorized": false,
+    "full_context_registry_network_kernel_boundary_proven": false,
+    "backend_usage_or_charge": "unknown"
+  },
+  "checkpoint041_accounting": {
+    "hosted_consultants": [
+      "science041",
+      "usage041",
+      "boundaries041 (including read-only handoff inspection)",
+      "successor041",
+      "handoff041"
+    ],
+    "consultants_are_independent_reviewers": false,
+    "native_starts": 0,
+    "native_sent_turns": 0,
+    "candidate_runs": 0,
+    "gpu_or_hpc_jobs": 0,
+    "unattended_model_use": false,
+    "extra_spending": false,
+    "authoritative_hosted_allowance": null,
+    "backend_usage_or_charge": "unknown",
+    "actual040_consumption_counted_separately": true,
+    "native040_ceiling_remaining": {
+      "starts": 0,
+      "sent_turns": 0
+    }
   }
 }

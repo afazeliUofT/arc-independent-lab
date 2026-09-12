@@ -1,0 +1,16 @@
+{
+  "kind": "P3_RETURN_VERIFIER_VALIDATION_041_v1",
+  "checks": [
+    "immutable_package_view_accepts_original_return",
+    "rejects_altered_REPORT.json",
+    "rejects_altered_full_text.txt",
+    "rejects_altered_p3_receipt_collection_032.py"
+  ],
+  "checks_passed": 4,
+  "verifier_sha256": "da8a832346024743a8abdde2ff5e7b7bbb32d251d82242825893af0633644c29",
+  "source_bound_original_return_success": true,
+  "tests_are_integrity_checks_not_scientific_experiments": true,
+  "native_starts": 0,
+  "model_turns": 0,
+  "candidate_runs": 0
+}

@@ -1,0 +1,17 @@
+# Checkpoint041: install the assessment and verify the returned040 evidence
+
+Save the single `ARC_Independent_Lab_041.zip` package in Windows Downloads, then paste the accompanying command at WSL home. The command discovers the actual Windows Downloads setting, including redirected folders, and checks the published whole-ZIP SHA-256 before executing its launcher. It uses the existing `~/ARC_Independent_Lab` checkout, whose observed account-specific path is `/home/afazeli2006/ARC_Independent_Lab`. It checks the canonical `afazeliUofT/arc-independent-lab` origin and `main` branch.
+
+The package is copied and extracted under ignored `delivery/P3_CHECKPOINT_041/<ZIP-SHA256>/bundle`. Every archive member must have the expected hash and ordinary file shape. Matching prior extraction files are reused; changed files are preserved and cause a stop.
+
+The workflow fetches GitHub, verifies the published release and accepted040 return in its history, and reads exact Git objects at the release commit. It compares those objects with the packaged public snapshot and checks every private packet hash. The historical evidence verifier reads that immutable snapshot. Current project state may advance without invalidating historical scientific evidence. Repository synchronization uses fast-forward only; unrelated edits or unpublished commits are preserved.
+
+The only new public output is `artifacts/CHECKPOINT_041_RETURN/<release-manifest-SHA256>/RECEIPT.json`. It records the release and original040 report/verdict hashes, the offline verifier hash and canonical result hash, source inventory counts, and whether verification completed. Result hashing uses JSON with sorted keys, two-space indentation, ASCII escaping, no nonfinite numbers, and a final newline. Arbitrary exception content and private source contents are excluded. A trusted verifier failure returns a small categorical failure receipt; corrupt or untrusted package inputs stop before publication.
+
+The workflow writes and verifies exact receipt bytes in the Git index, commits only this receipt, pushes it, and checks the remote branch. Git hooks are disabled for these fixed operations by command-scoped configuration. A failed commit or push can be retried with the same command; the exact staged or committed receipt is recovered. A changed receipt or diverged branch stops with the existing work intact.
+
+This is an offline evidence-verification and specification step. It starts no reviewer, native model, candidate, experiment, or HPC job. It does not rerun040 or039, replenish native allowance, create a new scientific verdict, or admit a future experiment. The scoped040 verdict and PI assessment remain the authority for the next design decision.
+
+The handoff validation is `evidence/P3_HANDOFF_VALIDATION_041.json`. Its local Git fixtures test the actual workflow and extracted launcher path, exact public-only publication, safe retry, changed-input refusal, and explicit absence of model execution. The fixture verifier is deliberately synthetic; actual full-packet verification is recorded separately by the release assembly checks. These hosted checks do not establish that Windows interoperability or GitHub authentication has succeeded on the laptop. The returned receipt will provide the laptop result directly through GitHub.
+
+The standing one-ZIP and WSL-home delivery instruction is recorded in `docs/USER_HANDOFF_PREFERENCES_2026-09-11.md`. The full supplied papers remain private within the package; no further paper is required merely to run this verification.

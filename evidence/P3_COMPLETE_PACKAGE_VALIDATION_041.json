@@ -1,0 +1,205 @@
+{
+  "actual_private_packet_files": 172,
+  "actual_public_snapshot_files": 142,
+  "checks": {
+    "actual_original040_verifier_returned_integrity_verified": true,
+    "actual_workflow_loaded_every_public_file_from_release_git_objects": true,
+    "all_frozen_snapshot_bytes_unchanged_after_verification": true,
+    "all_public_private_and_source_code_bytes_preserved_in_fixture": true,
+    "child_process_trap_allowed_only_git_and_observed_no_other_process": true,
+    "complete_archive_inventory_and_crc_read": true,
+    "copied_archive_and_every_extracted_byte_match": true,
+    "every_original_public_input_and_private_member_hash": true,
+    "local_bare_remote_matches_verified_receipt_commit": true,
+    "only_one_receipt_path_added_to_git": true,
+    "private_delivery_untracked_and_ignored": true,
+    "second_complete_invocation_reuses_same_commit_and_receipt": true
+  },
+  "draft_archive": {
+    "bytes": 26134895,
+    "members": 320,
+    "metadata_status": "Prepublication draft content_commit placeholder; final release checksum must be verified separately",
+    "path": "ARC_Independent_Lab_041.zip",
+    "sha256": "a5cdab1ebecd8cd3fb5635300829145f9104dc854385776316698c31037ea69c"
+  },
+  "execution_boundary": {
+    "candidate_or_experiment_started": false,
+    "future_experiment_admission": false,
+    "new_model_turns_sent": 0,
+    "new_native_starts": 0,
+    "review_controller_started": false,
+    "scientific_verdict_created": false
+  },
+  "fixture_receipt": {
+    "bytes": 1482,
+    "content": {
+      "accepted_return_commit": "5f0451766b11c57697eb013ebabf34bb92ceba7c",
+      "candidate_or_experiment_started": false,
+      "content_commit": "b3b5819c981fd31281f3881bfa031b43c94285c6",
+      "failure_class": null,
+      "future_experiment_admission": false,
+      "historical039_rerun": false,
+      "historical040_rerun": false,
+      "integrity_verified": true,
+      "kind": "P3_CHECKPOINT_041_OFFLINE_VERIFICATION_RECEIPT_v1",
+      "model_turns_sent": 0,
+      "native_starts": 0,
+      "new_native_allowance": 0,
+      "offline_verification_and_specification_only": true,
+      "original040_report_sha256": "877c4eeda0b31154d42885f8afbe7e01a56a5a452bdcef56a279b46cb2a7c372",
+      "original040_verdict_sha256": "a31b9d8ec2103f09d81b963fd7f9ff51c4287490a0f0bf2f74f5dfbc1407d673",
+      "private_content_published": false,
+      "private_packet_files_verified": 172,
+      "public_snapshot_files_verified": 142,
+      "release_manifest_path": "evidence/P3_CHECKPOINT_041_MANIFEST.json",
+      "release_manifest_sha256": "786cc5bc748176847eacea544f5824dad8dc133ddb09713f9fde1a8635dd0e91",
+      "repository": "afazeliUofT/arc-independent-lab",
+      "reviewer_or_review_controller_started": false,
+      "scientific_verdict_created": false,
+      "timestamp_omitted_for_idempotence": true,
+      "verification_status": "VERIFIED",
+      "verifier_path": "scripts/check_return040_041.py",
+      "verifier_result_sha256": "b98f63b402d3f9fef69ccf116110b53128e445d681217d29803565594573a034",
+      "verifier_sha256": "da8a832346024743a8abdde2ff5e7b7bbb32d251d82242825893af0633644c29"
+    },
+    "not_a_laptop_execution_receipt": true,
+    "path_within_fixture": "artifacts/CHECKPOINT_041_RETURN/786cc5bc748176847eacea544f5824dad8dc133ddb09713f9fde1a8635dd0e91/RECEIPT.json",
+    "sha256": "8a7ae8d6035b6121c84c60a12b5999d3aa2af3850a1de0d35098e9ea7ffed1ce"
+  },
+  "fixture_setup_correction": {
+    "cause": "Fixture gitignore delivery/ also ignored nested public archive paths during synthetic Git setup; package bytes and production code were correct.",
+    "correction": "Fixture-only root-anchored /delivery/ ignore; complete subsequent run passed with all public archive Git objects present.",
+    "first_attempt_error": "_checkpoint041_safe.StageStop: pinned_input_missing",
+    "native_or_model_execution": false,
+    "production_source_changed": false
+  },
+  "fixture_substitutions": [
+    "Only outer package_release.json content_commit and accepted_return_commit replaced with actual fixture Git IDs; SHA256SUMS updated for that metadata",
+    "Only loaded test workflow RETURN_COMMIT constant replaced with same actual fixture ancestor; production source bytes unchanged",
+    "Only canonical origin fetch/push/ls-remote transport routed to local bare remote; public Git object reads use actual Git objects containing exact public package files",
+    "Launcher subprocess adapter imports exact extracted workflow in process to inject those test-only bounds; original verifier remains unchanged"
+  ],
+  "integration_helper_sha256": "464d6b443ecc32ba8716c0c0a1753d3698b295f4478fa90bc1ffc8f037f4c671",
+  "kind": "P3_COMPLETE_PACKAGE_VALIDATION_041_v1",
+  "limitations": [
+    "Fixture commit and transport metadata are deliberately synthetic; this does not certify actual laptop GitHub authentication",
+    "Final publication adds this validation document and any publication/state bookkeeping; final root must recheck the final ZIP and manifest",
+    "Subprocess API observation is not a general operating-system security proof"
+  ],
+  "scope": "Actual complete draft041 input closure through extracted launcher, offline original040 verifier and local bare Git publication; not WSL/GitHub authentication or scientific re-review",
+  "source_bound_original_verifier_result": {
+    "access_date": "2026-09-12",
+    "actual_attempt_usage": {
+      "native_starts": 2,
+      "sent_turns": 2
+    },
+    "actual_cumulative_usage": {
+      "native_starts": 18,
+      "sent_turns": 14
+    },
+    "candidate_runs_by_this_verifier": 0,
+    "cited_source_hashes_verified": 24,
+    "frozen_release_inputs_verified": 107,
+    "frozen_stage_admissions_recomputed": true,
+    "full_boundary_or_fresh_context_attested": false,
+    "github_commit": "540370fdb73c8f87f6433e14463951673640d033",
+    "integrity_verified": true,
+    "kind": "P3_ORIGINAL_RETURN_VERIFICATION_041_v1",
+    "model_turns_by_this_verifier": 0,
+    "native_starts_by_this_verifier": 0,
+    "original_receipts_modified": false,
+    "original_report_sha256": "877c4eeda0b31154d42885f8afbe7e01a56a5a452bdcef56a279b46cb2a7c372",
+    "original_verdict_sha256": "a31b9d8ec2103f09d81b963fd7f9ff51c4287490a0f0bf2f74f5dfbc1407d673",
+    "packet_files_verified": 171,
+    "return_archive": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac",
+    "return_file_checks": [
+      {
+        "bytes": 6202,
+        "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/INDEX.json",
+        "sha256": "a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac"
+      },
+      {
+        "bytes": 1391,
+        "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_040_RETURN_WORKFLOW/LAUNCH_OUTCOME.json",
+        "sha256": "83d82b22a3d1c7a1aa881e3cc2fd601606d3e42fb2478eee5d445399a4cdc054"
+      },
+      {
+        "bytes": 398,
+        "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_040_RETURN_WORKFLOW/LAUNCH_RESERVED.json",
+        "sha256": "188053caf123901d723e1555883d31658cab5a9ebe6cb56d7b34c0ccbfb67a10"
+      },
+      {
+        "bytes": 1391,
+        "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_040_RETURN_WORKFLOW/WORKFLOW_REPORT.json",
+        "sha256": "83d82b22a3d1c7a1aa881e3cc2fd601606d3e42fb2478eee5d445399a4cdc054"
+      },
+      {
+        "bytes": 4429,
+        "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/ATTEMPT.json",
+        "sha256": "a3f091ba1a56ff472e773305c67ea4776ac1074d8c828aeba7f2301d42d3bba4"
+      },
+      {
+        "bytes": 4607,
+        "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/AUTHORIZATION.md",
+        "sha256": "428729a20cc52abdf81b8d273326e6361c417f2806814e7af4818c0b5823416b"
+      },
+      {
+        "bytes": 1217401,
+        "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/REPORT.json",
+        "sha256": "877c4eeda0b31154d42885f8afbe7e01a56a5a452bdcef56a279b46cb2a7c372"
+      },
+      {
+        "bytes": 65,
+        "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/REPORT.sha256",
+        "sha256": "8bd136f19cb1ba0cb7b37679538ef9ec362a9b10e2c854bb1c2975a92bfbdb6a"
+      },
+      {
+        "bytes": 165161,
+        "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/science_SESSION.json",
+        "sha256": "c2e6a30dc2b2e6fb7d9ba2929a4968c30ce9b182c5ff9f7114f469a65cfd7f04"
+      },
+      {
+        "bytes": 221981,
+        "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/science_STAGE.json",
+        "sha256": "b93f57740499d147ab82ce0279c3bc69244b01528930081efe340b801ce6efee"
+      },
+      {
+        "bytes": 60092,
+        "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/science_output/REVIEW_VERDICT.json",
+        "sha256": "a31b9d8ec2103f09d81b963fd7f9ff51c4287490a0f0bf2f74f5dfbc1407d673"
+      },
+      {
+        "bytes": 129193,
+        "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/synthetic_SESSION.json",
+        "sha256": "29935ce2c5fd7595b1ab9410b1e5014794a5f6371bae4b6f1a528b508a6db71b"
+      },
+      {
+        "bytes": 156010,
+        "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/synthetic_STAGE.json",
+        "sha256": "0d65dd3a08690aa32dd75b6545744c65118462e13c71105661ae86ec0a10a18c"
+      }
+    ],
+    "return_manifest": {
+      "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/MANIFEST.json",
+      "sha256": "cf877adf27890e79497da308724f1c93e48358110a86a1ab49120a3af5fc16b7"
+    },
+    "scientific_verdict": "GO",
+    "scope": "R1-R7 analytical assessment only; no novelty/efficacy/PROGRAMME/integrated guarantee",
+    "scope040_exhausted": true,
+    "source_bound_collector_reexecution_matches_original": true,
+    "source_delivery_independently_recomputed": true,
+    "source_delivery_is_not_comprehension": true,
+    "source_pins": {
+      "configs/P3_FOCUSED_REVIEW_SCOPE_040.json": "682521fe5c47ffbd620064655bb8d9b1f6d365d5d84cac5a1e50ee72d0172f4e",
+      "evidence/P3_FOCUSED_REVIEW_MANIFEST_040.json": "270244a9cc98193098d60ad021dedf4dbd91a44e4357e5b338aa5d1b3c30805e",
+      "scripts/p3_focused_review_040.py": "87b41859366e90ced768f4c7367ddf7349764bee9079b048025585b7c7f1e232",
+      "scripts/p3_receipt_collection_032.py": "52b88345b8d707891fc33d37cd7040ca356178f400cc1396db9282951937b552",
+      "scripts/p3_reviewer_session_040.py": "b3aa27b7349a51a9206d6cbfe87bb3264b6f9ee8dc497053078888fbacac1cf9"
+    }
+  },
+  "source_bound_original_verifier_result_canonical_sha256": "b98f63b402d3f9fef69ccf116110b53128e445d681217d29803565594573a034",
+  "tested_manifest": {
+    "path": "evidence/P3_CHECKPOINT_041_MANIFEST.json",
+    "sha256": "786cc5bc748176847eacea544f5824dad8dc133ddb09713f9fde1a8635dd0e91"
+  }
+}
