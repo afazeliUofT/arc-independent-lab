@@ -1,0 +1,21 @@
+# Standing authority applied to the new focused-review scope039
+
+Recorded 2026-09-11 by the PI. This records existing user instructions and the proposed concrete operation. It is not a fabricated user answer, a reused032 approval, or evidence that039 has already executed.
+
+The user's earlier instruction, present in this project's conversation context, was: “I approve everything you suggest, so dont ask me. Give me again the file and whatever you expect to receive should be pushed to the github.” The user subsequently supplied both requested papers and explicitly asked the PI to review the current objectives/repository and proceed with the next step. The latest handoff instruction requires one complete ZIP and one command pasted at WSL home that finds Downloads, copies/extracts/runs the step and pushes its results for PI review. The latest message is “GitHub is updated.”
+
+These explicit instructions authorize the already described next independent analytical review and its necessary implementation under the programme's existing subscription and safeguards. They override stale instructions to ask again for approval of routine continuation work. They do not authorize new spending, a changed scientific objective, weakened reviewer isolation, fabrication of a verdict, or repetition of a completed finite scope.
+
+## Concrete operation covered
+
+The new operation is `P3_FOCUSED_REVIEW_039`: one finite attended admission/canary session followed, only if that passes, by one separately fresh scientific session for the R1–R7 analytical scope in `docs/P3_FOCUSED_REVIEW_BRIEF_038.md`. The source packet contains the unchanged frozen scientific inputs and the two supplied full papers, plus indexed reading aids derived from those exact PDFs. The outputs are a bounded analytical assessment, its actual source/verification receipts, and a scoped verdict if validly produced. They are not a candidate efficacy result, global novelty clearance, or approval of a treatment programme.
+
+The maximum added allowance is two native starts and two explicitly submitted model turns; no automatic review retry. The already completed032 operation remains at cumulative14 starts and11 submitted turns. The new cumulative ceiling is therefore16 starts and13 submitted turns. Historical accounting provenance: `artifacts/P3_RUN_032_VERIFICATION/20260910_033/VERIFICATION.json`, SHA-256 `cacee0aac0fc33f6361f6e2bfe30c64e8a985b1fc56e874c568acfbbc015bc80`, and the preserved completed032 record in `state/BUDGET.json` at the verified source-return baseline `2b28eca52856ebbc18608e8d78f9e24efe269f74`. These ceilings bound a newly named scope; they do not replenish032.
+
+The exact runtime/model policy, deadlines, input/source hashes and output boundaries are fixed in `configs/P3_FOCUSED_REVIEW_SCOPE_039.json` and the external release manifest before any run. Current native resource admission is checked on the laptop. If the declared model or required resources/boundaries are unavailable, preserve and return the stop evidence rather than silently substituting a different scope or charging a paid API.
+
+The user initiates the provided WSL-home command. The workflow records an exclusive durable launch reservation and the actual scope hash before invoking the controller. The controller records the concrete human-run invocation in its own `AUTHORIZATION.md`. This future receipt will establish that the operation was invoked; this standing-authority record does not assert that it occurred.
+
+On a repeated handoff command after an existing reservation or result, collect and publish the existing evidence only. Missing output is missing evidence, not zero usage or permission to repeat. Return the report, claim assessments, verdict if present, boundary evidence, actual usage/accounting and partial-stop evidence through GitHub. Private source texts/images/PDFs and credential-bearing raw native logs must not be published.
+
+Sources: the current conversation's explicit user instructions and [standing handoff record](https://github.com/afazeliUofT/arc-independent-lab/blob/2b28eca52856ebbc18608e8d78f9e24efe269f74/docs/USER_HANDOFF_PREFERENCES_2026-09-11.md), accessed 2026-09-11. Shared-tools implementation consultations remain PI assistance, not the independent scientific reviewer.

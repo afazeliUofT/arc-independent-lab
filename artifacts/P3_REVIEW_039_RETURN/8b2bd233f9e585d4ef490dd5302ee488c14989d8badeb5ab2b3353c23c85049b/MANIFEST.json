@@ -1,0 +1,69 @@
+{
+  "digest_basis": "exact INDEX.json bytes",
+  "evidence_digest": "8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b",
+  "files": [
+    {
+      "bytes": 5214,
+      "path": "INDEX.json",
+      "sha256": "8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b"
+    },
+    {
+      "bytes": 1361,
+      "path": "files/delivery/P3_039_RETURN_WORKFLOW/LAUNCH_OUTCOME.json",
+      "sha256": "a21de79767a9d84273f8f52b0bf56d00b16f905a26ffadc0bc2f879662af2c49"
+    },
+    {
+      "bytes": 398,
+      "path": "files/delivery/P3_039_RETURN_WORKFLOW/LAUNCH_RESERVED.json",
+      "sha256": "a020fe924faedc047d3c17410220489328ae0feed0f384d62eb52617698988b1"
+    },
+    {
+      "bytes": 1361,
+      "path": "files/delivery/P3_039_RETURN_WORKFLOW/WORKFLOW_REPORT.json",
+      "sha256": "a21de79767a9d84273f8f52b0bf56d00b16f905a26ffadc0bc2f879662af2c49"
+    },
+    {
+      "bytes": 4429,
+      "path": "files/delivery/P3_FOCUSED_REVIEW_039/ATTEMPT.json",
+      "sha256": "7c8a9cb8be7b955b1e5d4c3f2957b2f29e5ea90ce90b75a3fdcd4b7ea8b5af24"
+    },
+    {
+      "bytes": 4297,
+      "path": "files/delivery/P3_FOCUSED_REVIEW_039/AUTHORIZATION.md",
+      "sha256": "4e76c7ed8352bb1eae1455f5bd673fd63bbb0428eb7dc9c60e20f32f82ee6bcb"
+    },
+    {
+      "bytes": 1003731,
+      "path": "files/delivery/P3_FOCUSED_REVIEW_039/REPORT.json",
+      "sha256": "8a14ad9551e6f0f1840d05889574cb7763b330046c0a51474d62ceb3926c38cc"
+    },
+    {
+      "bytes": 65,
+      "path": "files/delivery/P3_FOCUSED_REVIEW_039/REPORT.sha256",
+      "sha256": "ab524d960aa07150f1223be643e625d114a8a42d26a7fd5fadff8fac72fb528c"
+    },
+    {
+      "bytes": 122346,
+      "path": "files/delivery/P3_FOCUSED_REVIEW_039/science_SESSION.json",
+      "sha256": "d40b69e66d045fddb7b469c4e99f51ac2323606ca0f435b5ce5b99010d47cabc"
+    },
+    {
+      "bytes": 151899,
+      "path": "files/delivery/P3_FOCUSED_REVIEW_039/science_STAGE.json",
+      "sha256": "e78864365d16b47eeacf9562b5ad9c20593b0f928a7073d21be86590f1bcf504"
+    },
+    {
+      "bytes": 129254,
+      "path": "files/delivery/P3_FOCUSED_REVIEW_039/synthetic_SESSION.json",
+      "sha256": "b3ad48a0c7dcd519f1328e5b3f11f708c2c5248b206dbdddd33d77376417c598"
+    },
+    {
+      "bytes": 156127,
+      "path": "files/delivery/P3_FOCUSED_REVIEW_039/synthetic_STAGE.json",
+      "sha256": "76bda35ac9877057428a9e7681ef12cc7fb75e760b6a96824403c74fad8c8140"
+    }
+  ],
+  "index_sha256": "8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b",
+  "kind": "P3_REVIEW_039_EVIDENCE_COLLECTION_039_v1_MANIFEST",
+  "manifest_excluded_from_its_own_inventory": true
+}
