@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-12T03:45:50.472082+00:00",
+  "updated_utc": "2026-09-12T03:48:28.061576+00:00",
   "current_gate": "P3",
   "gate_status": "in_progress",
   "gate_entered_utc": "2026-09-10T23:29:11.766050+00:00",
   "last_verified_gate": "P3.second_candidate_focused_analytical_assessment",
-  "last_verified_commit": "540370fdb73c8f87f6433e14463951673640d033",
+  "last_verified_commit": "5e0b18696df3188189b8e7ec5a89d3d92a2d78f5",
   "active_task": "P3.N1_N3.successor_comparison_specification041",
   "blocked_on": null,
   "next_action": "Resolve scientific feasibility and freeze the concrete single-block comparison panel, resource allowances and decision rules before implementation or experiment review.041 home command returns offline integrity receipt only; no040 rerun or candidate execution.",
@@ -83,8 +83,8 @@
     "P2.second_pass_after_reviewed_negative_audit"
   ],
   "remote": "https://github.com/afazeliUofT/arc-independent-lab",
-  "durability_status": "Original040 return fetched and verified at540370f. Preparing041 evaluation/specification content and single complete ZIP for publication.",
-  "commit_status": "041 content publication pending",
+  "durability_status": "041 assessment/specification published and all21files read back exactly; complete321member ZIP saved and final143public/172privatebytes verified. Actual041 WSL offline receipt remains pending; scientific040 assessment is complete.",
+  "commit_status": "Content release5e0b186 verified; this separate receipt/state commit records publication and final ZIP identity.",
   "recovery_dependency": null,
   "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation.",
   "latest_recovery_evidence": [
@@ -142,10 +142,10 @@
       "sha256": "1995e36a9f8e5f9f201d9b63ba8a7c39400f3e8e0046009a1c59973c2023188e"
     }
   ],
-  "handoff_backup_status": "041 complete public/private offline verification package in preparation; native040 closed.",
+  "handoff_backup_status": "One complete041 ZIP saved; one WSL-home command returns only offline receipt.040 review completed and not rerun.",
   "latest_publication_verification": {
-    "path": "evidence/REMOTE_CHECKPOINT_040_VERIFICATION.json",
-    "sha256": "676c59368a36cb1f07318a0695c609aebd91c173951e99df67a5283bcc790b65"
+    "path": "evidence/REMOTE_CHECKPOINT_041_VERIFICATION.json",
+    "sha256": "2e0198e1d601667e206391510e64e2d522edfcd5aa6b1759ce98c44b14b84b86"
   },
   "last_human_message_verbatim": "Github is updated. Evaluate the returned verdict, usage and execution boundaries directly from GitHub.",
   "phase1_approval": {
@@ -721,7 +721,7 @@
     "path": "reports/OBJECTIVE_STATUS_REVIEW_038.md",
     "sha256": "da16c74907f3835a233182f63a3c0e8b5a987435d2653f339f627d0de0358adb"
   },
-  "current_publication_checkpoint": "041_preparing",
+  "current_publication_checkpoint": "041_published_verified",
   "auxiliary_auditor_receipt_durability": {
     "status": "verified_published_on_main",
     "commit": "296cf94b9e692f4ddbee5c554fc87aaa5a298e60",
@@ -859,21 +859,18 @@
   },
   "original_initial_prompt_now_visible": true,
   "latest_continuation_zip": {
-    "filename": "ARC_Independent_Lab_040.zip",
-    "sha256": "e4f2f919bd599d8000b1f2f5891ee7fc74aba0938c046f66c04f1e5914668654",
-    "bytes": 26082111,
-    "content_commit": "2e11c1d8f5d8fa80aefc1bd8b1f1ff1feb52604e",
-    "release_manifest": "evidence/P3_FOCUSED_REVIEW_MANIFEST_040.json",
-    "manifest_sha256": "270244a9cc98193098d60ad021dedf4dbd91a44e4357e5b338aa5d1b3c30805e",
+    "filename": "ARC_Independent_Lab_041.zip",
+    "sha256": "f36baafcc46dc278b6da491209bd3dc597e6c499751ffe1926255d03bc6a197c",
+    "bytes": 26139667,
+    "content_commit": "5e0b18696df3188189b8e7ec5a89d3d92a2d78f5",
+    "release_manifest": "evidence/P3_CHECKPOINT_041_MANIFEST.json",
+    "manifest_sha256": "0c1c75ffed30571c7a14e9811ccb5db59cd0ec443a460b3d71674911b3a9f602",
+    "saved": true,
     "one_wsl_home_downloads_command": true,
     "private_papers_included": true,
-    "original039_return_included": true,
-    "actual_execution_pending": false,
-    "saved": true,
-    "actual040_return": {
-      "path": "artifacts/P3_REVIEW_040_RETURN/a31d934ca1d4c3b4d84dc7bbe757f5295834c8319301debd826897c768786eac/files/delivery/P3_FOCUSED_REVIEW_040/REPORT.json",
-      "sha256": "877c4eeda0b31154d42885f8afbe7e01a56a5a452bdcef56a279b46cb2a7c372"
-    }
+    "original040_return_included": true,
+    "native_execution_pending": false,
+    "offline_wsl_receipt_pending": true
   },
   "handoff_preference_source": {
     "path": "docs/USER_HANDOFF_PREFERENCES_2026-09-11.md",
@@ -1026,6 +1023,10 @@
     "complete_package_validation": {
       "path": "evidence/P3_COMPLETE_PACKAGE_VALIDATION_041.json",
       "sha256": "e7735c45897e220edc2fb3daef9f8126b7c3ea730114df769a480092188a16cf"
+    },
+    "publication_verification": {
+      "path": "evidence/REMOTE_CHECKPOINT_041_VERIFICATION.json",
+      "sha256": "2e0198e1d601667e206391510e64e2d522edfcd5aa6b1759ce98c44b14b84b86"
     }
   }
 }
