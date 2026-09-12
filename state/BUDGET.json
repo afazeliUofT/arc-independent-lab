@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-12T07:46:31.013527+00:00",
+  "updated_utc": "2026-09-12T18:05:02.176727+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -870,11 +870,65 @@
       "config": {
         "path": "configs/P3_PROFILE_FIXTURES_043.json",
         "sha256": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b"
-      }
+      },
+      "status": "consumed_actual043_profile_failed_wrapper_conformance",
+      "return_verification": {
+        "path": "evidence/P3_CHECKPOINT_043_RETURN_VERIFICATION_044.json",
+        "sha256": "7e4d796d76772f2568c15dca651d38a30d8a13c8e07a0cbd1f85af665127673c"
+      },
+      "actual_profile_launches": 1,
+      "completed_rows": 6,
+      "failed_rows": 1,
+      "unstarted_rows": 20
     },
     "B_comp": null,
     "B_mem": null,
     "complete_work_budget_admitted": false,
     "target_experiment_admitted": false
+  },
+  "checkpoint044_accounting": {
+    "hosted_consultants": [
+      "profile044",
+      "handoff044",
+      "audit044"
+    ],
+    "consultants_are_independent_reviewers": false,
+    "native_starts": 0,
+    "native_sent_turns": 0,
+    "cumulative_native_starts": 18,
+    "cumulative_native_sent_turns": 14,
+    "new_native_allowance": 0,
+    "hosted_original_failure_reproductions": 1,
+    "hosted_actual_small_profile_workers_planned": 3,
+    "hosted_full_component_profile_runs": 0,
+    "hosted_conformance_separate_from_profile_measurements": true,
+    "synthetic_publication_checks": true,
+    "target_experiment_runs": 0,
+    "gpu_or_hpc_jobs": 0,
+    "unattended_model_use": false,
+    "extra_spending": false,
+    "authoritative_hosted_allowance": null,
+    "backend_usage_or_charge": "unknown",
+    "new_development_continuation": {
+      "maximum_launches": 1,
+      "imported_rows": 6,
+      "eligible_new_rows": 21,
+      "original043_reservation_preserved": true,
+      "automatic_remeasurement": false,
+      "outer_wall_seconds": 300,
+      "driver_wall_seconds": 270,
+      "cpu_affinity_count": 1,
+      "address_space_bytes_per_process": 2147483648,
+      "invocation_totals_separate": true
+    },
+    "B_comp": null,
+    "B_mem": null,
+    "complete_work_budget_admitted": false,
+    "target_experiment_admitted": false,
+    "hosted_actual_small_profile_workers": 3,
+    "conformance_tests_passed": 43,
+    "read_only_PI_audit_executions": 0,
+    "handoff_tests_passed": 14,
+    "complete_archive_seam_real_profile_worker_starts": 0
   }
 }

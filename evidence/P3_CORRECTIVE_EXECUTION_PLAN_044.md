@@ -1,0 +1,9 @@
+# Checkpoint044 corrective execution plan
+
+Recorded 2026-09-12 before corrective learner execution. The returned043 full report at GitHub commit f025d2ffe0745e40b2d6718293bfe5d72b54b7ba stopped with FAILED_CONFORMANCE / KeyError in the first small N3 profile row. Six small N1 rows completed; the remaining twenty rows were not started. The 043 reservation remains consumed and its immutable sources and reports will be preserved.
+
+Authorize bounded hosted development verification only: reproduce the original small N3 failure once; inspect the actual trial record schema; introduce a version044 wrapper correction; exercise every materially distinct small fixture once through real workers, and test continuation selection and publication using synthetic orchestration fixtures. These checks are conformance evidence, not laptop resource calibration or target experiment results. Log executions and any failure honestly; do not run the complete 27-row profile here.
+
+The user-delivered044 continuation will reuse the six completed043 rows with their original source identity and provenance. It may attempt the failed N3 row and twenty previously unstarted rows once under a new explicit044 reservation, within the same declared per-invocation 300-second outer and 270-second inner development limits. It must retain the failed043 attempt and report separate invocation totals; imported measurements must not be relabelled as measurements of patched source. A full output report and receipt must be published even for an incomplete profile. Retrying publication must not remeasure any row.
+
+No native reviewer, model/API, SLURM/HPC job, target042 experiment or full-work admission is authorized by this corrective plan. Native accounting stays at 18 starts / 14 sent turns. B_comp and B_mem remain unset. No papers are required to fix this implementation defect.

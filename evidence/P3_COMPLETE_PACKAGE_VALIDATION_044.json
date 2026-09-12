@@ -1,0 +1,54 @@
+{
+  "actual_private_packet_files": 172,
+  "actual_profile_worker_starts": 0,
+  "actual_public_snapshot_files": 207,
+  "checks": {
+    "all_public_and_private_bytes_hash_verified": true,
+    "exact_staged_eleven_sources_and_two_baseline_inputs": true,
+    "local_bare_remote_matches_publication": true,
+    "only_git_children_observed": true,
+    "only_outer_release_ids_and_sums_adapted": true,
+    "only_two_return_paths_committed": true,
+    "original043_return_sources_and_consumed_reservation_preserved": true,
+    "private_delivery_ignored_untracked": true,
+    "published_partial_exits_zero_with_reason_and_receipt": true,
+    "push_failure_and_missing_cache_recover_without_remeasurement": true,
+    "six_original043_rows_preserved": true
+  },
+  "draft_archive": {
+    "bytes": 26500544,
+    "members": 385,
+    "name": "ARC_Independent_Lab_044.zip",
+    "sha256": "4914d071b3e3616a63de6b01d8ff0fb10eec13506132a4a1a5779f42781ed5d7"
+  },
+  "execution_boundary": {
+    "actual_profile_worker_starts": 0,
+    "complete_work_budget_admitted": false,
+    "model_turns_sent": 0,
+    "native_starts": 0,
+    "target_execution_admitted": false,
+    "target_experiment_started": false
+  },
+  "fixture_profile_runner_calls": 1,
+  "fixture_receipt_sha256": "5c6511a2ae587a30b909f6e4fbf109e7080c91e91e16a23e8d03d4e97b2ad982",
+  "fixture_report_sha256": "f587a6b5f9ddaa1390c8484dd2f9d476dfd6264ccfd22e4abea2a75d174ffd5b",
+  "fixture_substitutions": [
+    "Outer accepted/content Git IDs replaced by local history IDs; archive checksums updated",
+    "Loaded workflow RETURN_COMMIT replaced by local ancestor containing exact original043 returns",
+    "Canonical-origin transport routed to local bare remote; real Git object validation remains active",
+    "Launcher child adapter injects synthetic profile_runner and bounded local Git transport; no profile child executes",
+    "Synthetic payload uses real imported043 rows and explicitly synthetic044 row values"
+  ],
+  "helper_sha256": "bc01663d8fad09fa62c1a56d8d9ea8a98437fbd0eed596192068b496e9bf9673",
+  "kind": "P3_COMPLETE_PACKAGE_VALIDATION_044_v1",
+  "limitations": [
+    "Synthetic execution validates delivery and provenance, not laptop performance",
+    "Final publication adds bookkeeping; final package hash and immutable sources require separate verification"
+  ],
+  "scope": "Actual complete draft044 ZIP through exact extracted launcher/workflow; synthetic profile and local Git adapters only",
+  "status": "PASSED",
+  "tested_manifest": {
+    "path": "evidence/P3_CHECKPOINT_044_MANIFEST.json",
+    "sha256": "f22a7c8a92dd7a445703cad362975d1eda971e8ce1d4fd6c839f9b262c7aa3c8"
+  }
+}

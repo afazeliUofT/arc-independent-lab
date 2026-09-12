@@ -1,0 +1,123 @@
+{
+  "case": "n3_proposal_and_credit",
+  "exception_args": [
+    "finalized_before_validation_assimilation"
+  ],
+  "exception_class": "KeyError",
+  "kind": "P3_PROFILE_043_FAILURE_REPRODUCTION_044_v1",
+  "limits": {
+    "address_space_limit_bytes": 2147483648,
+    "cpu_affinity": [
+      0
+    ],
+    "cpu_hard_seconds": 31,
+    "cpu_soft_seconds": 30
+  },
+  "native_started": false,
+  "original_source_sha256": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+  "peak_rss_bytes": 16896000,
+  "size": "small",
+  "status": "REPRODUCED",
+  "target_experiment_started": false,
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/3ba2e8ad7d67/work044/profile_original_reproduction.py\", line 21, in <module>\n    profile043.n3_case(size,Meter(memory_limit=2147483648))\n  File \"/workspace/scratch/3ba2e8ad7d67/ARC_Independent_Lab/scripts/profile043.py\", line 205, in n3_case\n    assert first[\"finalized_before_validation_assimilation\"] is True\n           ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nKeyError: 'finalized_before_validation_assimilation'\n",
+  "trials_observed": [
+    {
+      "budget": 14,
+      "records": [
+        {
+          "counter_t": 0,
+          "keys": [
+            "counter_t",
+            "credit",
+            "credit_status",
+            "id",
+            "phase",
+            "status",
+            "word"
+          ],
+          "phase": "WARMUP",
+          "status": "COMPLETED"
+        },
+        {
+          "counter_t": 0,
+          "keys": [
+            "counter_t",
+            "credit",
+            "credit_status",
+            "id",
+            "phase",
+            "status",
+            "word"
+          ],
+          "phase": "WARMUP",
+          "status": "COMPLETED"
+        },
+        {
+          "counter_t": 0,
+          "keys": [
+            "counter_t",
+            "credit",
+            "credit_status",
+            "id",
+            "phase",
+            "status",
+            "word"
+          ],
+          "phase": "WARMUP",
+          "status": "COMPLETED"
+        },
+        {
+          "counter_t": 0,
+          "keys": [
+            "counter_t",
+            "credit",
+            "credit_status",
+            "id",
+            "phase",
+            "status",
+            "word"
+          ],
+          "phase": "WARMUP",
+          "status": "COMPLETED"
+        },
+        {
+          "counter_t": 0,
+          "keys": [
+            "counter_t",
+            "credit",
+            "credit_status",
+            "id",
+            "phase",
+            "status",
+            "word"
+          ],
+          "phase": "WARMUP",
+          "status": "COMPLETED"
+        },
+        {
+          "counter_t": 1,
+          "keys": [
+            "after_snapshot_sha256",
+            "before_snapshot_sha256",
+            "counter_t",
+            "credit",
+            "credit_status",
+            "finalized_before_validation_assimilation",
+            "id",
+            "new_predicates",
+            "post_table_size",
+            "pre_table_size",
+            "selection",
+            "status",
+            "utility_is_operative",
+            "validation",
+            "word"
+          ],
+          "phase": null,
+          "status": "COMPLETED"
+        }
+      ]
+    }
+  ],
+  "wall_seconds": 0.016085561999716447
+}

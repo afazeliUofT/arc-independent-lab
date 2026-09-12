@@ -1,0 +1,93 @@
+{
+  "automatic_remeasurement": false,
+  "baseline_git_commit": "f025d2ffe0745e40b2d6718293bfe5d72b54b7ba",
+  "baseline_report_path": "artifacts/CHECKPOINT_043_RETURN/097ca0e6c91e0f3d5b50f7cf98415faf1e8ed57b6f09544f5e2d6c4bdb406582/REPORT.json",
+  "baseline_report_sha256": "9de019e2d8649895627e7c25d1e46366f4e08c0c890404c3197da3bed0317f61",
+  "baseline_source_hashes": {
+    "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+    "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+    "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+    "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+    "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+    "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+    "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+    "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+  },
+  "conformance_suites": [
+    "test_reference_n1_043",
+    "test_reference_n3_043",
+    "test_profile043",
+    "test_profile044"
+  ],
+  "corrective_scope": "First scored trial is selected by unique counter_t == 1 and absence of WARMUP phase; no mechanism or fixture alteration.",
+  "eligible_new_row_indices": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "full_work_budget_admitted": false,
+  "imported_completed_row_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "imported_rows_remeasured": false,
+  "inherited_fixture_path": "configs/P3_PROFILE_FIXTURES_043.json",
+  "kind": "P3_PROFILE_CONTINUATION_044_v1",
+  "native_allowance": 0,
+  "new_per_invocation_limits": {
+    "address_space_bytes": 2147483648,
+    "cpu_affinity_count": 1,
+    "driver_wall_seconds": 270,
+    "inclusive_outer_wall_seconds": 300
+  },
+  "original043_reservation_preserved": true,
+  "original_failed_row_indices": [
+    6
+  ],
+  "original_unstarted_row_indices": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "purpose": "Correct profile wrapper trial selection and continue only failed or unstarted component rows; preserve original measurements.",
+  "target_execution_admitted": false
+}

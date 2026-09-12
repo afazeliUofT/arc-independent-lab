@@ -1,0 +1,11 @@
+# Checkpoint044 corrective execution
+
+Save ARC_Independent_Lab_044.zip in Windows Downloads and paste the single complete supplied command in WSL home. It locates the actual Windows Downloads directory, verifies the whole ZIP, copies/extracts it inside ignored ~/ARC_Independent_Lab/delivery/P3_CHECKPOINT_044, verifies the canonical repository and exact public/private inputs, then runs the new bounded continuation and pushes REPORT.json plus RECEIPT.json.
+
+The043 report was published successfully but its N3 wrapper failed by reading a warm-up record as a scored trial. Checkpoint044 preserves all original043 files, its consumed reservation, six completed measurements and failed-attempt record. It imports the six rows unchanged and may attempt only21 remaining rows under a distinct once-only044 reservation. New rows have044 provenance; imported rows keep043 provenance. No target experiment, reviewer/model/API or HPC job starts.
+
+Run time for the development invocation is at most300 seconds, with a270-second inner driver budget, one CPU and2GiB address-space ceiling per process. Synchronization and publication time is additional. Resource or conformance interruption can still yield a partial report; that is recorded rather than treated as a zero outcome. A published partial report prints its status, cause and GitHub receipt. A STOP concerning publication means repeat this same command: saved measurements are reused. Preserve all files and reservations.
+
+The full private paper/methods packet is included and hash-verified but never staged in Git or the profile source directory. The public package contains the prior report/receipt, exact original043 development sources, corrected044 driver/configuration/tests, governing material, and scoped scientific history. The final publication receipt outside the ZIP records its own checksum to avoid a circular self-hash.
+
+After GitHub is updated, the PI reads the full report by its Git blob, verifies its receipt and provenance, counts imported and new rows, examines any interruption and actual resource use, and decides the next bounded work. B_comp/B_mem and target execution remain unadmitted even if all component rows complete. No more papers are required now.

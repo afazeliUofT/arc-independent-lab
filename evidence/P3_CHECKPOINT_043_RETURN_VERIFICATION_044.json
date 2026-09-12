@@ -1,0 +1,180 @@
+{
+  "B_comp": null,
+  "B_mem": null,
+  "access_date": "2026-09-12",
+  "additional_papers_required": [],
+  "aggregate_metrics": {
+    "child_cpu_seconds": 3.054977,
+    "driver_peak_rss_bytes": 61739008,
+    "driver_process_cpu_seconds": 0.020362721,
+    "peak_child_rss_bytes": 32530432,
+    "wall_seconds": 3.0756373710464686
+  },
+  "all_original_source_bytes_verified": true,
+  "complete_work_budget_admitted": false,
+  "completed_component_summaries": [
+    {
+      "all_snapshot_and_same_table_checks_passed": true,
+      "case": "n1_no_positive_gain",
+      "completed_repetitions": 3,
+      "logical_work_values": [
+        487053464
+      ],
+      "peak_rss_bytes_max": 32219136,
+      "retained_records": 10,
+      "selected_predicates_values": [
+        0
+      ],
+      "size": "small",
+      "wall_seconds_max": 0.6470642030471936,
+      "wall_seconds_median": 0.6398092670133337,
+      "wall_seconds_min": 0.6376102640060708
+    },
+    {
+      "all_snapshot_and_same_table_checks_passed": true,
+      "case": "n1_positive_selection",
+      "completed_repetitions": 3,
+      "logical_work_values": [
+        166494946
+      ],
+      "peak_rss_bytes_max": 29253632,
+      "retained_records": 10,
+      "selected_predicates_values": [
+        1
+      ],
+      "size": "small",
+      "wall_seconds_max": 0.17574528697878122,
+      "wall_seconds_median": 0.17337422806303948,
+      "wall_seconds_min": 0.17189864406827837
+    }
+  ],
+  "conformance_tests_passed": 33,
+  "cumulative_model_turns_sent": 14,
+  "cumulative_native_starts": 18,
+  "driver_status": "FAILED_CONFORMANCE",
+  "execution": {
+    "available_cpu_count": 16,
+    "child_start_observed": true,
+    "exit_code": 0,
+    "parent_death_signal_requested": true,
+    "process_group_kill_attempted": false,
+    "selected_cpu_count": 1,
+    "stderr": {
+      "bytes": 0,
+      "content_published": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout": {
+      "bytes": 134,
+      "content_published": false,
+      "sha256": "9e2eb77ce991ddae995d6c0ff1c015284814748e030505b029bc390490fb9a84"
+    },
+    "termination": "EXITED",
+    "wall_seconds": 3.172950293
+  },
+  "failure_row": {
+    "case": "n3_proposal_and_credit",
+    "interruption": "KeyError",
+    "repetition": 0,
+    "size": "small"
+  },
+  "full_report_read_and_hash_verified": true,
+  "kind": "P3_CHECKPOINT_043_RETURN_VERIFICATION_044_v1",
+  "limits": [
+    "The six completed rows are small fabricated component checks under original043 source, not scientific treatment outcomes.",
+    "A child exit status of zero means that the report was written; row and driver statuses establish the conformance failure.",
+    "The report supports a code failure after approximately3.17 seconds, not a wall, CPU or memory limit.",
+    "Resource limits and source separation do not establish comprehensive OS/network/kernel isolation; RSS and logical owner reservations are distinct.",
+    "OneCPU affinity and2GiB perprocess address-space caps are reported; aggregate RSS is not capped or inferred.",
+    "Hosted model usage and cost remain unknown; hosted PI consultants are not native independent reviewers."
+  ],
+  "model_turns_sent": 0,
+  "native_starts": 0,
+  "original043_rerun_permitted": false,
+  "original043_reservation_consumed": true,
+  "parent_commit": "0674c511d7d5aa4394009a69cb681d932c5dca41",
+  "prior_blobs_and_modes_preserved": 1511,
+  "publication_succeeded": true,
+  "receipt": {
+    "bytes": 2957,
+    "git_blob_sha": "2a9be05ba2dca3c7ac62a5961b4b4308fd35639d",
+    "path": "artifacts/CHECKPOINT_043_RETURN/097ca0e6c91e0f3d5b50f7cf98415faf1e8ed57b6f09544f5e2d6c4bdb406582/RECEIPT.json",
+    "sha256": "b89ab8c0caa981289afa2ab84b8eda0bb22c4dd78abd5d95ec958437e51d1ae0"
+  },
+  "report": {
+    "bytes": 78163,
+    "git_blob_sha": "57f07059596d0193456306d422738b3858ad7cc7",
+    "path": "artifacts/CHECKPOINT_043_RETURN/097ca0e6c91e0f3d5b50f7cf98415faf1e8ed57b6f09544f5e2d6c4bdb406582/REPORT.json",
+    "sha256": "9de019e2d8649895627e7c25d1e46366f4e08c0c890404c3197da3bed0317f61"
+  },
+  "return_commit": "f025d2ffe0745e40b2d6718293bfe5d72b54b7ba",
+  "return_tree_changes": [
+    {
+      "after": {
+        "mode": "100644",
+        "path": "artifacts/CHECKPOINT_043_RETURN/097ca0e6c91e0f3d5b50f7cf98415faf1e8ed57b6f09544f5e2d6c4bdb406582/RECEIPT.json",
+        "sha": "2a9be05ba2dca3c7ac62a5961b4b4308fd35639d",
+        "size": 2957,
+        "type": "blob",
+        "url": "https://api.github.com/repos/afazeliUofT/arc-independent-lab/git/blobs/2a9be05ba2dca3c7ac62a5961b4b4308fd35639d"
+      },
+      "before": null,
+      "path": "artifacts/CHECKPOINT_043_RETURN/097ca0e6c91e0f3d5b50f7cf98415faf1e8ed57b6f09544f5e2d6c4bdb406582/RECEIPT.json"
+    },
+    {
+      "after": {
+        "mode": "100644",
+        "path": "artifacts/CHECKPOINT_043_RETURN/097ca0e6c91e0f3d5b50f7cf98415faf1e8ed57b6f09544f5e2d6c4bdb406582/REPORT.json",
+        "sha": "57f07059596d0193456306d422738b3858ad7cc7",
+        "size": 78163,
+        "type": "blob",
+        "url": "https://api.github.com/repos/afazeliUofT/arc-independent-lab/git/blobs/57f07059596d0193456306d422738b3858ad7cc7"
+      },
+      "before": null,
+      "path": "artifacts/CHECKPOINT_043_RETURN/097ca0e6c91e0f3d5b50f7cf98415faf1e8ed57b6f09544f5e2d6c4bdb406582/REPORT.json"
+    }
+  ],
+  "row_status_counts": {
+    "COMPLETED": 6,
+    "FAILED_CONFORMANCE": 1,
+    "NOT_STARTED": 20
+  },
+  "source_pins": [
+    {
+      "path": "configs/P3_PROFILE_FIXTURES_043.json",
+      "sha256": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b"
+    },
+    {
+      "path": "scripts/accounting043.py",
+      "sha256": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee"
+    },
+    {
+      "path": "scripts/profile043.py",
+      "sha256": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a"
+    },
+    {
+      "path": "scripts/reference_n1_043.py",
+      "sha256": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5"
+    },
+    {
+      "path": "scripts/reference_n3_043.py",
+      "sha256": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193"
+    },
+    {
+      "path": "tests/test_profile043.py",
+      "sha256": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5"
+    },
+    {
+      "path": "tests/test_reference_n1_043.py",
+      "sha256": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2"
+    },
+    {
+      "path": "tests/test_reference_n3_043.py",
+      "sha256": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+    }
+  ],
+  "target_execution_admitted": false,
+  "target_experiment_started": false,
+  "verified_utc": "2026-09-12T17:58:56.978509+00:00",
+  "wrapper_status": "PROFILE_INCOMPLETE"
+}

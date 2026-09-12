@@ -1,0 +1,107 @@
+{
+  "checks": [
+    "Once-only044 reservation;043 consumed reservation and original sources preserved",
+    "Full original6 row values/provenance and failed043 attempt validated against exactbaseline",
+    "Original043 host/accounting separated from044 host/accounting",
+    "Malformed child evidence preserved as rejected rawbytes and validincompletewrapper published",
+    "Wrapper completeness matches actualchildstatus+exit+conformance/rows",
+    "Publishedpartial CLI exits0 and prints reason/receipt",
+    "Commit/push retry and missingcache reuse report without remeasurement",
+    "Exactstagingtwo returns and hooksdisabled",
+    "WholeZIPcopy/extract inwhitespaceUnicodehome",
+    "Windows Downloads registry path withspaces and duplicatefilename digestselection",
+    "OneCPU isolatedPythonflags and syntheticwallcap subprocess"
+  ],
+  "execution_boundary": {
+    "complete_work_budget_admitted": false,
+    "model_turns_sent": 0,
+    "native_starts": 0,
+    "reference_profile_worker_starts": 0,
+    "target_experiment_started": false
+  },
+  "failed": 0,
+  "kind": "P3_HANDOFF_VALIDATION_044_v1",
+  "output_sha256": "8918804abbd89ac5cbe87794848ee59f6811fd3d3757e926f1bc94d346186636",
+  "output_text": "test_actual_extracted_launcher_recovers_push_without_reexecution (test_checkpoint044_handoff.HandoffTests.test_actual_extracted_launcher_recovers_push_without_reexecution) ... Verified package copied and extracted to: /workspace/scratch/3ba2e8ad7d67/ARC_Independent_Lab/delivery/tests044/tmpfaqyo465/home unicode \u00e9/ARC_Independent_Lab/delivery/P3_CHECKPOINT_044/9aba3069cced53ba0d68e4273dce32e1d3a95ab1bf75e57bf31902d74b4894c4/bundle\nPreserving six completed043 measurements and continuing the remaining21 rows under one044 reservation. Returning the full available report and receipt to GitHub.\nVerified package copied and extracted to: /workspace/scratch/3ba2e8ad7d67/ARC_Independent_Lab/delivery/tests044/tmpfaqyo465/home unicode \u00e9/ARC_Independent_Lab/delivery/P3_CHECKPOINT_044/9aba3069cced53ba0d68e4273dce32e1d3a95ab1bf75e57bf31902d74b4894c4/bundle\nPreserving six completed043 measurements and continuing the remaining21 rows under one044 reservation. Returning the full available report and receipt to GitHub.\nok\ntest_changed_imported_measurement_publishes_rejection_without_poisoning_saved_state (test_checkpoint044_handoff.HandoffTests.test_changed_imported_measurement_publishes_rejection_without_poisoning_saved_state) ... ok\ntest_changed_staged_output_is_preserved_without_second_profile (test_checkpoint044_handoff.HandoffTests.test_changed_staged_output_is_preserved_without_second_profile) ... ok\ntest_child_with_remeasurement_claim_refused (test_checkpoint044_handoff.HandoffTests.test_child_with_remeasurement_claim_refused) ... ok\ntest_downloads_registry_resolution_handles_spaces_and_duplicate_names (test_checkpoint044_handoff.HandoffTests.test_downloads_registry_resolution_handles_spaces_and_duplicate_names) ... ok\ntest_exact_remote_report_reused_without_local_saved_cache (test_checkpoint044_handoff.HandoffTests.test_exact_remote_report_reused_without_local_saved_cache) ... ok\ntest_failed_commit_and_push_never_reexecute_profile (test_checkpoint044_handoff.HandoffTests.test_failed_commit_and_push_never_reexecute_profile) ... ok\ntest_false_wrapper_completion_and_changed_invocation_accounting_refused (test_checkpoint044_handoff.HandoffTests.test_false_wrapper_completion_and_changed_invocation_accounting_refused) ... ok\ntest_one_reservation_preserves_full_report_and_exact_repeat (test_checkpoint044_handoff.HandoffTests.test_one_reservation_preserves_full_report_and_exact_repeat) ... ok\ntest_original043_return_is_preserved_and_changed_baseline_refused (test_checkpoint044_handoff.HandoffTests.test_original043_return_is_preserved_and_changed_baseline_refused) ... ok\ntest_partial_child_report_survives_interruption_and_publication_retry (test_checkpoint044_handoff.HandoffTests.test_partial_child_report_survives_interruption_and_publication_retry) ... ok\ntest_published_incomplete_is_successful_command_with_clear_receipt (test_checkpoint044_handoff.HandoffTests.test_published_incomplete_is_successful_command_with_clear_receipt) ... ok\ntest_reservation_without_report_returns_interrupted_and_never_relaunches (test_checkpoint044_handoff.HandoffTests.test_reservation_without_report_returns_interrupted_and_never_relaunches) ... ok\ntest_synthetic_child_uses_real_process_caps_and_wall_stop (test_checkpoint044_handoff.HandoffTests.test_synthetic_child_uses_real_process_caps_and_wall_stop) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 8.476s\n\nOK\n",
+  "passed": 14,
+  "scope": "Synthetic handoff and reservation/provenance fixtures; real temporary Git/ZIP/launcher and fixed process-limit fixture checks; no reference learner or target panel execution",
+  "source_pins": [
+    {
+      "path": "scripts/checkpoint044_workflow.py",
+      "sha256": "1f8c16daf3904aa65cf36c79a3fcc4b17195041d9ec42d84a11c6090c737e7df"
+    },
+    {
+      "path": "scripts/launch044_home.py",
+      "sha256": "c708fa824bd6f6304369f90c7083df9e9a04e0ac5c2b51f06d6490e242bcfb0d"
+    },
+    {
+      "path": "scripts/downloads_bootstrap044.py",
+      "sha256": "6618dc2b3cdf1b9919b244e75b90f177f06638b9850a21aeed2badf12b03c54c"
+    },
+    {
+      "path": "tests/test_checkpoint044_handoff.py",
+      "sha256": "8bf75d8e5e5576471bd0f7e4a8b5d2288cd43c768c319069385af615b57ebac0"
+    }
+  ],
+  "status": "PASSED",
+  "test_outcomes": [
+    {
+      "status": "PASSED",
+      "test": "test_actual_extracted_launcher_recovers_push_without_reexecution"
+    },
+    {
+      "status": "PASSED",
+      "test": "test_changed_imported_measurement_publishes_rejection_without_poisoning_saved_state"
+    },
+    {
+      "status": "PASSED",
+      "test": "test_changed_staged_output_is_preserved_without_second_profile"
+    },
+    {
+      "status": "PASSED",
+      "test": "test_child_with_remeasurement_claim_refused"
+    },
+    {
+      "status": "PASSED",
+      "test": "test_downloads_registry_resolution_handles_spaces_and_duplicate_names"
+    },
+    {
+      "status": "PASSED",
+      "test": "test_exact_remote_report_reused_without_local_saved_cache"
+    },
+    {
+      "status": "PASSED",
+      "test": "test_failed_commit_and_push_never_reexecute_profile"
+    },
+    {
+      "status": "PASSED",
+      "test": "test_false_wrapper_completion_and_changed_invocation_accounting_refused"
+    },
+    {
+      "status": "PASSED",
+      "test": "test_one_reservation_preserves_full_report_and_exact_repeat"
+    },
+    {
+      "status": "PASSED",
+      "test": "test_original043_return_is_preserved_and_changed_baseline_refused"
+    },
+    {
+      "status": "PASSED",
+      "test": "test_partial_child_report_survives_interruption_and_publication_retry"
+    },
+    {
+      "status": "PASSED",
+      "test": "test_published_incomplete_is_successful_command_with_clear_receipt"
+    },
+    {
+      "status": "PASSED",
+      "test": "test_reservation_without_report_returns_interrupted_and_never_relaunches"
+    },
+    {
+      "status": "PASSED",
+      "test": "test_synthetic_child_uses_real_process_caps_and_wall_stop"
+    }
+  ],
+  "tests_run": 14,
+  "wall_seconds": 8.476
+}
