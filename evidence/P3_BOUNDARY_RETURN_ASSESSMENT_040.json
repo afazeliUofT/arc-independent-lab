@@ -1,0 +1,374 @@
+{
+  "kind": "P3_BOUNDARY_RETURN_ASSESSMENT_040_v1",
+  "assessed_utc_date": "2026-09-12",
+  "repository": "afazeliUofT/arc-independent-lab",
+  "returned_commit": "ee29a58cf57783984e848df83032541c929c4658",
+  "role": "PI-side engineering assessment by shared-workspace consultant; not an independent scientific reviewer",
+  "access_basis": "Original returned GitHub bytes materialized and Git blob hashes verified by parent; this assessment independently hashes cited files and checks the cited frozen source pins.",
+  "overall": "GUARDED_LOCAL_ADMISSION_STOP_WITH_NO_COMPLETED_SCIENTIFIC_REVIEW",
+  "observed_boundary_breach": false,
+  "full_boundary_proof_established": false,
+  "conclusion": "The synthetic canary exercised the intended finite read/refusal boundary. The scientific native client started but the local pinned admission function rejected the new source_access_receipt tool before thread/start or turn/start. This is an integration defect in the released tool contract, not a returned scientific verdict, a model refusal, a quota stop, or evidence of a successful full scientific reviewer boundary.",
+  "primary_evidence": [
+    {
+      "path": "artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/REPORT.json",
+      "sha256": "8a14ad9551e6f0f1840d05889574cb7763b330046c0a51474d62ceb3926c38cc",
+      "fields": [
+        "status",
+        "reviewer_output",
+        "reason",
+        "history"
+      ]
+    },
+    {
+      "path": "artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/science_SESSION.json",
+      "sha256": "d40b69e66d045fddb7b469c4e99f51ac2323606ca0f435b5ce5b99010d47cabc",
+      "fields": [
+        "requests_sent",
+        "selected_binding",
+        "admission_reason",
+        "thread_request_sent",
+        "model_turn_request_sent"
+      ]
+    }
+  ],
+  "frozen_sources": [
+    {
+      "path": "configs/P3_FOCUSED_REVIEW_SCOPE_039.json",
+      "sha256": "fa94aee5482afa11f1a638ccf4759f630839cb38afaa25812746a81f428e7fd2"
+    },
+    {
+      "path": "scripts/p3_focused_review_039.py",
+      "sha256": "e3ee20f21672b6a02cd3ebb54cdb44ed671c188ad3ce1f86aa5b9927b440ab3b"
+    },
+    {
+      "path": "scripts/p3_reviewer_session_039.py",
+      "sha256": "6ecd0c92ba7cb308d26d26157d6e9172d9e3669a0a8c140c2ce03c9c0e81e4bb"
+    },
+    {
+      "path": "scripts/p3_reviewer_admission_022.py",
+      "sha256": "329bccdfba14c93bb345841e6764b00f911b1ab8e3067636879a8a58194a783e"
+    },
+    {
+      "path": "scripts/p3_reviewer_profile_022.py",
+      "sha256": "3c1d66ace2c3441d3c1ce1da98f2ec9bd253d3fe470b03d5ff54ec7ee7eeaa4d"
+    },
+    {
+      "path": "scripts/p3_focused_review_broker_039.py",
+      "sha256": "b0d0b985e6e709d716d63d0bf6f1bf12d7c00b96340f435a1c7087c0bcdaf036"
+    },
+    {
+      "path": "scripts/p3_focused_review_protocol_039.py",
+      "sha256": "dc4e64e9e235c9b95a66e7b4d37f832a69f74b744de773464fd4e800e65bf1d1"
+    }
+  ],
+  "admission_cause": {
+    "observed_reason": "Unexpected reviewer dynamic tool spec",
+    "location": "p3_reviewer_session_039.model/list -> p3_reviewer_admission_022.thread_params; request(thread/start) is after that call",
+    "focused_advertised_tools": [
+      "read_text",
+      "read_page_image",
+      "hash_file",
+      "source_access_receipt",
+      "submit_verdict"
+    ],
+    "frozen_admission_allowed_tools": [
+      "read_text",
+      "read_page_image",
+      "hash_file",
+      "run_observer_audit",
+      "submit_verdict"
+    ],
+    "unaccepted_new_tool": "source_access_receipt",
+    "old_observer_tool_still_in_admission_allowlist": "run_observer_audit",
+    "synthetic_filters_to_read_text_only": true,
+    "science_thread_request_sent": false,
+    "science_turn_request_sent": false,
+    "science_exact_model_binding_selected": {
+      "model": "gpt-5.6-sol",
+      "id": "gpt-5.6-sol",
+      "effort": "max"
+    },
+    "offline_pure_function_reproduction": [
+      {
+        "mode": "synthetic",
+        "outcome": "ADMITTED_PARAMS",
+        "ephemeral": true,
+        "runtime_workspace_roots": [],
+        "environments": [],
+        "native_or_model_launched": false
+      },
+      {
+        "mode": "science",
+        "outcome": "REFUSED",
+        "reason": "Unexpected reviewer dynamic tool spec",
+        "native_or_model_launched": false
+      }
+    ],
+    "reproduction_limit": "Used the same frozen advertised specs and admission function with valid required controls and an inert absolute fixture cwd; generated parameters only and made no app-server, network, thread or model call."
+  },
+  "synthetic_boundary": {
+    "status": "SYNTHETIC_REFUSAL_OBSERVED",
+    "broker_calls": [
+      {
+        "tool": "read_text",
+        "successful": false,
+        "error_code": "integer_bounds"
+      },
+      {
+        "tool": "read_text",
+        "successful": true,
+        "error_code": null
+      },
+      {
+        "tool": "read_text",
+        "successful": false,
+        "error_code": "resource_path_traversal"
+      }
+    ],
+    "source_delivery": {
+      "kind": "P3_FOCUSED_SYNTHETIC_DELIVERY_039_v1",
+      "synthetic": true,
+      "scientific_delivery": false,
+      "delivery_events": [
+        {
+          "tool": "read_text",
+          "path": "CANARY.txt",
+          "sha256": "6c6c1caa337bb9e9d545df33224b441ef49c22bee62ae8eeaf00c08649b31e77",
+          "offset": 0,
+          "next_offset": 44
+        }
+      ]
+    },
+    "meaning": "One allowed canary read was delivered; the deliberately invalid integer and traversal requests were refused. These establish only the exercised synthetic path, not admission of the full scientific tool list."
+  },
+  "scientific_source_access": {
+    "evidence": {
+      "path": "artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/science_STAGE.json",
+      "sha256": "e78864365d16b47eeacf9562b5ad9c20593b0f928a7073d21be86590f1bcf504",
+      "fields": [
+        "source_delivery_after"
+      ]
+    },
+    "packet_integrity_checked": true,
+    "manifested_files_rehashed": 171,
+    "required_public_texts_missing_count": 40,
+    "delivery_events": [],
+    "broker_calls": [],
+    "papers": [
+      {
+        "source_id": "CHV79",
+        "pdf_sha256": "70e60317cc1e7815118aac54b00d3aadf5558f7bc219ca2d3b6e3396c2611086",
+        "full_text_delivered": false,
+        "page_texts_delivered": [],
+        "page_images_delivered": [],
+        "required_page_images": [
+          2,
+          3,
+          4
+        ],
+        "required_source_delivery_complete": false
+      },
+      {
+        "source_id": "PK97",
+        "pdf_sha256": "873998cb1f647756e12f061f5c9152c2bae9fa3b37b0efa45432aa4b7e9df570",
+        "full_text_delivered": false,
+        "page_texts_delivered": [],
+        "page_images_delivered": [],
+        "required_page_images": [
+          1,
+          28,
+          39,
+          40,
+          45,
+          46,
+          47,
+          48
+        ],
+        "required_source_delivery_complete": false
+      }
+    ],
+    "all_required_delivery_complete": false,
+    "verdict_submitted": false,
+    "meaning": "All 40 required public texts and both papers remained undelivered to a science model. The parent/broker hashing the packet is not reviewer reading. No independent R1-R7 assessment can be inferred."
+  },
+  "stage_checks": [
+    {
+      "mode": "synthetic",
+      "evidence": [
+        {
+          "path": "artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/synthetic_SESSION.json",
+          "sha256": "b3ad48a0c7dcd519f1328e5b3f11f708c2c5248b206dbdddd33d77376417c598"
+        },
+        {
+          "path": "artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/synthetic_STAGE.json",
+          "sha256": "76bda35ac9877057428a9e7681ef12cc7fb75e760b6a96824403c74fad8c8140"
+        }
+      ],
+      "fresh_native_process_and_runtime_directories_recorded": true,
+      "pi_conversation_imported": false,
+      "all_requested_config_controls_verified": true,
+      "control_count": 56,
+      "all_control_results_true": true,
+      "nondefault_instruction_overrides_absent": true,
+      "full_instruction_context_verified": false,
+      "native_tool_inventory_attested": false,
+      "full_boundary_proven_by_notifications": false,
+      "native_existing_credential_writable": true,
+      "parent_read_hashed_or_copied_credentials": false,
+      "credential_metadata_unchanged": true,
+      "all_noncredential_postchecks_pass": true,
+      "config_metadata_unchanged": true,
+      "runtime_unchanged": true,
+      "bwrap_unchanged": true,
+      "host_installation_id_unchanged": true,
+      "private_installation_id_matches": true,
+      "cache_inputs_intact": true,
+      "host_cache_source_changes": [
+        {
+          "name": "cloud-config-bundle-cache.json",
+          "changed_fields": [],
+          "writer_identified": false,
+          "sealed_input_invalidated_by_source_change": false
+        },
+        {
+          "name": "models_cache.json",
+          "changed_fields": [
+            "mtime_ns",
+            "ctime_ns"
+          ],
+          "writer_identified": false,
+          "sealed_input_invalidated_by_source_change": false
+        }
+      ],
+      "packet_before": {
+        "manifest_sha256": "1dcba5d7f7b1a77f0c3c17b1f02e59199cc9f8cc5f633b59500c44d318eb325a",
+        "files_rehashed": 1
+      },
+      "packet_after": {
+        "manifest_sha256": "1dcba5d7f7b1a77f0c3c17b1f02e59199cc9f8cc5f633b59500c44d318eb325a",
+        "files_rehashed": 1
+      },
+      "packet_pre_post_equal": true,
+      "independent_packet_observer_opened_before_model": true,
+      "kernel_child_mount_verified_this_stage": false,
+      "fresh_kernel_attestation": false,
+      "host_root_bound": false,
+      "network": "inherited_host_network",
+      "network_endpoint_allowlist_enforced": false,
+      "broker_boundary_failure": null,
+      "native_event_failure": null,
+      "context_compactions_started": 0,
+      "context_compactions_completed": 0,
+      "native_process_reaped": true,
+      "native_exit_code": -15,
+      "postcheck_exception_categories": [],
+      "stage_failures": []
+    },
+    {
+      "mode": "science",
+      "evidence": [
+        {
+          "path": "artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/science_SESSION.json",
+          "sha256": "d40b69e66d045fddb7b469c4e99f51ac2323606ca0f435b5ce5b99010d47cabc"
+        },
+        {
+          "path": "artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/science_STAGE.json",
+          "sha256": "e78864365d16b47eeacf9562b5ad9c20593b0f928a7073d21be86590f1bcf504"
+        }
+      ],
+      "fresh_native_process_and_runtime_directories_recorded": true,
+      "pi_conversation_imported": false,
+      "all_requested_config_controls_verified": true,
+      "control_count": 56,
+      "all_control_results_true": true,
+      "nondefault_instruction_overrides_absent": true,
+      "full_instruction_context_verified": false,
+      "native_tool_inventory_attested": false,
+      "full_boundary_proven_by_notifications": false,
+      "native_existing_credential_writable": true,
+      "parent_read_hashed_or_copied_credentials": false,
+      "credential_metadata_unchanged": true,
+      "all_noncredential_postchecks_pass": true,
+      "config_metadata_unchanged": true,
+      "runtime_unchanged": true,
+      "bwrap_unchanged": true,
+      "host_installation_id_unchanged": true,
+      "private_installation_id_matches": true,
+      "cache_inputs_intact": true,
+      "host_cache_source_changes": [
+        {
+          "name": "cloud-config-bundle-cache.json",
+          "changed_fields": [],
+          "writer_identified": false,
+          "sealed_input_invalidated_by_source_change": false
+        },
+        {
+          "name": "models_cache.json",
+          "changed_fields": [],
+          "writer_identified": false,
+          "sealed_input_invalidated_by_source_change": false
+        }
+      ],
+      "packet_before": {
+        "manifest_sha256": "1546dd761c3f3c1fa7b44f2d9df0ff2358e96ca37b2c1d3d3230aa6735927142",
+        "files_rehashed": 171
+      },
+      "packet_after": {
+        "manifest_sha256": "1546dd761c3f3c1fa7b44f2d9df0ff2358e96ca37b2c1d3d3230aa6735927142",
+        "files_rehashed": 171
+      },
+      "packet_pre_post_equal": true,
+      "independent_packet_observer_opened_before_model": true,
+      "kernel_child_mount_verified_this_stage": false,
+      "fresh_kernel_attestation": false,
+      "host_root_bound": false,
+      "network": "inherited_host_network",
+      "network_endpoint_allowlist_enforced": false,
+      "broker_boundary_failure": null,
+      "native_event_failure": null,
+      "context_compactions_started": 0,
+      "context_compactions_completed": 0,
+      "native_process_reaped": true,
+      "native_exit_code": -15,
+      "postcheck_exception_categories": [],
+      "stage_failures": [
+        {
+          "phase": "session",
+          "code": "required_outcome_not_observed"
+        }
+      ]
+    }
+  ],
+  "historical_kernel_evidence": {
+    "reused_prerequisite": {
+      "path": "artifacts/P3_REVIEW_030_RETURN/9c806f9b65f6765c446fe16fa9edb106516195765473d3b69c8197ad7b87d22f/files/delivery/P3_FINITE_REVIEW_030_KERNEL_PREFLIGHT/REPORT.json",
+      "sha256": "94fae5b5c1a7c73066060a5423ea8cd2a566a6d8221b41ff3a9fe13004c64a00",
+      "actual_path": "delivery/P3_FINITE_REVIEW_030_KERNEL_PREFLIGHT/REPORT.json"
+    },
+    "current_stage_prior_mount_observation": {
+      "path": "artifacts/GATE0_POSTLOGIN_OBSERVATIONS/20260908_001/REPORT.json",
+      "sha256": "4aa0757da0d56a4db65ca7a33cf15d7454129c21fab7283457261d3a8ebcbba7",
+      "exact_archived_bytes_pinned_by_controller": true,
+      "executed_this_stage": false,
+      "fresh_kernel_attestation": false
+    },
+    "new_probe_performed": false,
+    "meaning": "Controller revalidated exact archived and actual030 synthetic sealed-cache prerequisite receipts. Neither that history nor the recorded bwrap command is a fresh child-kernel mount attestation for either039 native process."
+  },
+  "important_limits": [
+    "No broker-boundary, native-event, protected-host-postcheck or independent-packet-postcheck failure is reported. This is absence of an observed breach within the recorded checks, not proof against a malicious host or every possible tool route.",
+    "Both stages observed all56 restrictive configuration controls and absent custom instruction overrides. Those observations are not a complete runtime tool inventory or a proof of all backend instruction/context contents. Synthetic thread admission explicitly leaves full_fresh_context_verified false; science never reached a thread.",
+    "Native launch plans used a temporary isolated filesystem with selected mounts, private writable runtime state/logs, a private copy backing installation identity, and an existing writable native credential mount for approved native refresh. Credential contents were not checked by the Python parent; unchanged credential metadata is not byte-integrity proof.",
+    "The host models_cache source timestamps changed during the synthetic stage, with no writer attribution. Both sealed captured inputs stayed intact; the science stage captured the then-current source again. This observation neither proves native tampering nor silently converts changed host source bytes into unchanged bytes.",
+    "Inherited host network was available; no endpoint allowlist was enforced. No complete network-exfiltration proof is provided by these receipts.",
+    "Both processes were reaped with exit code -15 by the finite controller cleanup. That termination is consistent with synthetic success and science admission stop; it is not evidence of a scientific runtime crash. One synthetic item remained active when the controller stopped after the refusal target.",
+    "Raw native stdout/stderr and auth/config values were intentionally not published. Filtered receipts bound the available conclusions; no unobserved credentials, full transcript or successful review may be reconstructed.",
+    "No new native client, model call, code mutation, rerun or historical-output edit was performed to make this assessment."
+  ],
+  "continuation_constraints": [
+    "Keep the existing039 stop receipts and reservations immutable; the synthetic pass does not authorize reusing exhausted native-start capacity.",
+    "A corrected successor must reconcile the explicit focused tool contract and exercise actual full science thread-parameter admission offline before any native launch, while continuing to reject undeclared tools and the retired observer operation.",
+    "No new scientific paper is needed to diagnose this tool-contract error. Scientific source completeness is unchanged, but independent scientific evaluation remains outstanding."
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "kind": "P3_ADMISSION_REPAIR_VALIDATION_040_v1",
+  "date": "2026-09-12",
+  "status": "OFFLINE_REPAIR_VALIDATED",
+  "native_clients_started": 0,
+  "model_turns_sent": 0,
+  "actual_scientific_verdict_created": false,
+  "verified_failure": {
+    "science039_admission_reason": "Unexpected reviewer dynamic tool spec",
+    "old022_rejects_actual_frozen039_science_tools": true,
+    "old022_accepts_read_text_only_canary": true,
+    "new040_accepts_exact_frozen039_science_and_canary": true,
+    "science039_thread_request_sent": false,
+    "science039_model_turn_request_sent": false
+  },
+  "source_pins": {
+    "scripts/p3_reviewer_admission_040.py": "25f85c2525d224ede96d38292538836b736016899e5da9e4b4c0c26f036af09b",
+    "scripts/p3_reviewer_session_040.py": "b3aa27b7349a51a9206d6cbfe87bb3264b6f9ee8dc497053078888fbacac1cf9",
+    "scripts/p3_focused_review_040.py": "87b41859366e90ced768f4c7367ddf7349764bee9079b048025585b7c7f1e232",
+    "configs/P3_FOCUSED_REVIEW_SCOPE_040.json": "682521fe5c47ffbd620064655bb8d9b1f6d365d5d84cac5a1e50ee72d0172f4e",
+    "tests/test_p3_focused_review_040.py": "0e7f2c81c93680616c67f90fa91120ccc46e564352b597ea75d05035cfae9861"
+  },
+  "historical_scope039": {
+    "path": "configs/P3_FOCUSED_REVIEW_SCOPE_039.json",
+    "sha256": "fa94aee5482afa11f1a638ccf4759f630839cb38afaa25812746a81f428e7fd2"
+  },
+  "historical_return_manifest039": {
+    "path": "artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/MANIFEST.json",
+    "sha256": "d2920f175118de41a4769a3394f07a8211eb75b67e08916a0ea179ea5c42afb1"
+  },
+  "prior_usage": {
+    "native_starts": 16,
+    "sent_model_turns": 12,
+    "ceiling_new_scope_native_starts": 18,
+    "ceiling_new_scope_sent_model_turns": 14
+  },
+  "tests": {
+    "command": "python3 -B -m unittest discover -s tests -p test_p3_focused_review_040.py -v",
+    "tests_run": 18,
+    "failures": 0,
+    "errors": 0,
+    "all_passed": true,
+    "cases": [
+      "test_native_session_source_retains_transport_exactly",
+      "test_admission_preserves_every_other_function_and_control",
+      "test_actual_local_module_dependency_closure_is_source_pinned",
+      "test_old_admission_reproduces_confirmed_science_stop",
+      "test_real_science_specs_and_synthetic_subset_pass_real_admission",
+      "test_unknown_observer_shell_duplicates_schema_or_subset_refused",
+      "test_model_effort_permissions_and_profile_are_unchanged",
+      "test_pure_actual_payload_preflight_performs_no_native_start",
+      "test_actual_science_spec_failure_stops_before_attempt_or_canary",
+      "test_original039_and032_receipts_establish_prior_usage",
+      "test_real_successor_protocol_canary_recovery_and_denial",
+      "test_refuses_scope_with_changed_pin_before_any_model",
+      "test_protected_read_allows_access_time_change",
+      "test_partial_directory_is_not_a_retry",
+      "test_missing_session_usage_remains_a_lower_bound",
+      "test_canary_failure_suppresses_science_and_reuses_report",
+      "test_two_stage_fixture_has_fresh_packet_and_exact_accounting",
+      "test_science_failure_preserves_sent_turn_and_no_verdict"
+    ]
+  },
+  "pure_real_payload_preflight": {
+    "kind": "P3_FOCUSED_DYNAMIC_TOOL_PREFLIGHT_040_v1",
+    "modes": {
+      "synthetic": {
+        "tool_names": [
+          "read_text"
+        ],
+        "frozen039_tool_contract_sha256": "136f7b73de4228979d61715a4673b091a7fcd8dcc9ab5781d5cf5761eb302645",
+        "real_thread_params_admitted": true,
+        "requested_profile_preserved": true
+      },
+      "science": {
+        "tool_names": [
+          "read_text",
+          "read_page_image",
+          "hash_file",
+          "source_access_receipt",
+          "submit_verdict"
+        ],
+        "frozen039_tool_contract_sha256": "56a093ba1366ec36ded677f91ae056d2a782e16d427645d1e0287bfa72d515c4",
+        "real_thread_params_admitted": true,
+        "requested_profile_preserved": true
+      }
+    },
+    "native_clients_started": 0,
+    "model_turns_sent": 0,
+    "runtime_catalog_or_permissions_observed": false,
+    "scientific_packet_or_verdict_changed": false
+  },
+  "isolated_startup": {
+    "command": "python3 -I -B scripts/p3_focused_review_040.py",
+    "status": "SEALED_SCOPE_INSPECTED",
+    "both_real_payload_preflights_pass": true,
+    "native_clients_started": 0,
+    "model_turns_sent": 0
+  },
+  "unchanged_boundaries": {
+    "native_session040_diff_from039": [
+      "admission module import022 ->040",
+      "emitted session kind039 ->040"
+    ],
+    "all_other_admission_functions_and_existing_uppercase_constants_ast_identical": true,
+    "all_actual_local_module_dependencies_source_pinned": true,
+    "broker039_protocol039_and_scienceprompt039_unmodified": true,
+    "old039_032_and022_files_preserved": true,
+    "unknown_observer_shell_duplicate_schema_alteration_and_arbitrary_tool_subset_rejected": true,
+    "failure_in_actual_science_tool_preflight_prevents_attempt_directory_and_canary_start": true,
+    "repeat_existing_or_partial_attempt_does_not_launch_native": true
+  },
+  "intermediate_test_failures": [
+    {
+      "phase": "historical_receipt_fixture",
+      "failure": "Assumed science039 STAGE failures were empty; original preserved stage has exactly session/required_outcome_not_observed.",
+      "correction": "Verifier requires the exact original stage failure while retaining unchanged host and packet checks."
+    },
+    {
+      "phase": "historical_manifest_fixture",
+      "failure": "Test initially conflated archive directory identity8b2bd233 with MANIFEST.json file SHA256.",
+      "correction": "Test now separately asserts directory identity8b2bd233 and exact manifest byte hashd2920f17; scope always computed the actual file hash."
+    }
+  ],
+  "limitations": [
+    "Offline tests are PI implementation checks, not an independent scientific review.",
+    "No live model catalog, quota, native runtime permission or source-comprehension claim is made.",
+    "The exact old native boundaries and live admission checks remain required when the user invokes the separately named040 scope."
+  ]
+}

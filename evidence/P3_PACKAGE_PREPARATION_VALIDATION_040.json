@@ -1,0 +1,77 @@
+{
+  "kind": "P3_CORRECTION_PACKAGE_PREPARATION_040_v1",
+  "created_utc": "2026-09-12T02:01:54.817523+00:00",
+  "test_command": "python3 -B -m unittest discover -s tests -p *040*.py -v",
+  "tests_passed": 66,
+  "tests_failed": 0,
+  "test_log_sha256": "1a9b87b1feadb2dea7cb65e4fba77d3b42dd591811703a7d364ad8c4a88472e8",
+  "isolated_actual_preflight": {
+    "status": "SEALED_SCOPE_INSPECTED",
+    "scope_sha256": "682521fe5c47ffbd620064655bb8d9b1f6d365d5d84cac5a1e50ee72d0172f4e",
+    "dynamic_tool_preflight": {
+      "kind": "P3_FOCUSED_DYNAMIC_TOOL_PREFLIGHT_040_v1",
+      "modes": {
+        "synthetic": {
+          "tool_names": [
+            "read_text"
+          ],
+          "frozen039_tool_contract_sha256": "136f7b73de4228979d61715a4673b091a7fcd8dcc9ab5781d5cf5761eb302645",
+          "real_thread_params_admitted": true,
+          "requested_profile_preserved": true
+        },
+        "science": {
+          "tool_names": [
+            "read_text",
+            "read_page_image",
+            "hash_file",
+            "source_access_receipt",
+            "submit_verdict"
+          ],
+          "frozen039_tool_contract_sha256": "56a093ba1366ec36ded677f91ae056d2a782e16d427645d1e0287bfa72d515c4",
+          "real_thread_params_admitted": true,
+          "requested_profile_preserved": true
+        }
+      },
+      "native_clients_started": 0,
+      "model_turns_sent": 0,
+      "runtime_catalog_or_permissions_observed": false,
+      "scientific_packet_or_verdict_changed": false
+    },
+    "new_native_starts": 0,
+    "new_model_turns": 0
+  },
+  "reviewed_scope": {
+    "path": "configs/P3_FOCUSED_REVIEW_SCOPE_040.json",
+    "sha256": "682521fe5c47ffbd620064655bb8d9b1f6d365d5d84cac5a1e50ee72d0172f4e"
+  },
+  "repair_validation": {
+    "path": "evidence/P3_ADMISSION_REPAIR_VALIDATION_040.json",
+    "sha256": "ea20a0d018b2372c141194bbd710514e53446808e61c86de884efd9fcea5a306"
+  },
+  "handoff_validation": {
+    "path": "evidence/P3_HANDOFF_VALIDATION_040.json",
+    "sha256": "d0e3c292dd85a688f343265369f36aa69ed235a0d0dcf5a2adbba1bf9f458697"
+  },
+  "original_return_verification": {
+    "path": "evidence/P3_RUN_039_RETURN_VERIFICATION_040.json",
+    "sha256": "2a93b41bcad0c37fb1b3acd5e21b2a8a408386a4e1a9935bcc8cf8d9f5ff5bd5"
+  },
+  "complete_scientific_packet_reused_with_exact_hashes": true,
+  "private_packet_file_count": 172,
+  "public_input_count": 107,
+  "native_clients_started_here": 0,
+  "model_turns_sent_here": 0,
+  "separate_readonly_engineering_review": "No release-blocking issue found in exact040 admission, session delta, pure preflight, history counters and no-retry paths; shared PI context, not a scientific reviewer.",
+  "limits": [
+    "Current native/catalog/quota behavior remains for actual WSL admission.",
+    "Historical kernel and incomplete full-context/tool-inventory proof limitations remain.",
+    "No scientific verdict or candidate result exists."
+  ],
+  "final_zip_and_publication_integrity": "Recorded separately after final content commit to avoid a self-referential archive checksum.",
+  "full_archive_format_correction": {
+    "reason": "Complete return snapshot includes original public REPORT.sha256",
+    "allowance": "Only public/ .sha256 entries; complete checksum inventory still mandatory",
+    "regression": "Accept exact public checksum member, refuse altered bytes, nonpublic checksum and unlisted executable types",
+    "final_combined_checks_passed": true
+  }
+}

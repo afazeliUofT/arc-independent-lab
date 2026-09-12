@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-11T18:50:22.760427+00:00",
+  "updated_utc": "2026-09-12T02:01:54.817523+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -119,23 +119,23 @@
     "rerun_needed": false
   },
   "next_operational_test": {
-    "status": "039 finite attended focused review ready for user invocation; no032 rerun.",
+    "status": "040 narrow admission correction ready for attended user invocation; no039 rerun.",
     "scope": {
-      "path": "configs/P3_FOCUSED_REVIEW_SCOPE_039.json",
-      "sha256": "fa94aee5482afa11f1a638ccf4759f630839cb38afaa25812746a81f428e7fd2"
+      "path": "configs/P3_FOCUSED_REVIEW_SCOPE_040.json",
+      "sha256": "682521fe5c47ffbd620064655bb8d9b1f6d365d5d84cac5a1e50ee72d0172f4e"
     },
     "standing_authorization": {
-      "path": "state/authorizations/P3_FOCUSED_REVIEW_039_STANDING_AUTHORIZATION.md",
-      "sha256": "4e76c7ed8352bb1eae1455f5bd673fd63bbb0428eb7dc9c60e20f32f82ee6bcb"
+      "path": "state/authorizations/P3_FOCUSED_REVIEW_040_STANDING_AUTHORIZATION.md",
+      "sha256": "428729a20cc52abdf81b8d273326e6361c417f2806814e7af4818c0b5823416b"
     },
-    "verified_historical_native_starts": 14,
-    "verified_historical_sent_turns": 11,
+    "verified_historical_native_starts": 16,
+    "verified_historical_sent_turns": 12,
     "additional_native_start_ceiling": 2,
     "additional_sent_turn_ceiling": 2,
-    "cumulative_native_start_ceiling": 16,
-    "cumulative_sent_turn_ceiling": 13,
-    "actual039_native_starts_observed_here": 0,
-    "actual039_sent_turns_observed_here": 0,
+    "cumulative_native_start_ceiling": 18,
+    "cumulative_sent_turn_ceiling": 14,
+    "actual040_native_starts_observed_here": 0,
+    "actual040_sent_turns_observed_here": 0,
     "scope_specific_execution_record_pending": true,
     "repeat_existing_attempt_authorized": false,
     "unattended_model_use_authorized": false,
@@ -234,7 +234,7 @@
       "sha256": "acbc599a337845e585af8cec04fd72af44cdb7d10321c1ae4329fce6120613a4"
     },
     "native_controller_implemented": true,
-    "next_action": "Use versioned039 controller and scope for the second focused analytical assessment; preserve all032 code and receipts.",
+    "next_action": "Use separately versioned040 exact-tool preflight and finite scope; preserve all039 code and returned evidence.",
     "unattended_model_use_authorized": false,
     "extra_spending_allowed": false
   },
@@ -498,7 +498,7 @@
     "repeat_authorized": false,
     "backend_usage_or_charge": "unknown"
   },
-  "current_pi_work": "Attended039 successor review engineering and verification. Hosted consultants share PI context. No native client/model turn, candidate treatment, GPU/HPC job or paid API executed here.",
+  "current_pi_work": "Attended direct GitHub039 verdict/usage/boundary evaluation and L1 exact interface correction. No native or model reviewer launched here; no candidate, paid API or HPC treatment.",
   "research_phase_boundaries_standing_override": {
     "path": "evidence/P2_SECOND_PHASE_BOUNDARY_035.json",
     "sha256": "ac9805cf2a0412e5cc0b49734d211c3320e762b328786938f083ad1d773432d1"
@@ -630,5 +630,88 @@
       "unattended_model_use_authorized": false,
       "backend_usage_or_charge": "unknown"
     }
+  },
+  "completed_focused_review039": {
+    "report": {
+      "path": "artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/REPORT.json",
+      "sha256": "8a14ad9551e6f0f1840d05889574cb7763b330046c0a51474d62ceb3926c38cc"
+    },
+    "verification": {
+      "path": "evidence/P3_RUN_039_RETURN_VERIFICATION_040.json",
+      "sha256": "2a93b41bcad0c37fb1b3acd5e21b2a8a408386a4e1a9935bcc8cf8d9f5ff5bd5"
+    },
+    "usage_assessment": {
+      "path": "evidence/P3_USAGE_RETURN_ASSESSMENT_040.json",
+      "sha256": "e6269b5e68d59b45b8d9ae1667a4c2dc600104dac138617fb41690880257878b"
+    },
+    "boundary_assessment": {
+      "path": "evidence/P3_BOUNDARY_RETURN_ASSESSMENT_040.json",
+      "sha256": "5556f9b9d78a846d90b86bb9c3e22ba56d365f1221f727b27feff184bafcb42b"
+    },
+    "actual_native_starts": 2,
+    "actual_sent_turns": 1,
+    "actual_cumulative_native_starts": 16,
+    "actual_cumulative_sent_turns": 12,
+    "completed_turn_events_observed": 0,
+    "science_thread_started": false,
+    "science_model_turn_sent": false,
+    "scientific_verdict": null,
+    "reason": "Local exact tool-spec admission mismatch; confirmed before scientific thread creation.",
+    "scope_native_ceiling_exhausted": true,
+    "repeat_authorized": false,
+    "remaining039native_start_capacity": 0,
+    "unused_turn_slot_does_not_authorize_restart": true,
+    "backend_usage_or_charge": "unknown"
+  },
+  "checkpoint040_accounting": {
+    "hosted_consultants": [
+      "usage040",
+      "boundaries040 (including read-only correction follow-up)",
+      "repair040",
+      "handoff040"
+    ],
+    "consultants_are_independent_reviewers": false,
+    "native_starts": 0,
+    "native_sent_turns": 0,
+    "candidate_runs": 0,
+    "gpu_or_hpc_jobs": 0,
+    "authoritative_hosted_allowance": null,
+    "unattended_model_use": false,
+    "backend_usage_or_charge": "unknown",
+    "prepared_scope": {
+      "status": "040 narrow admission correction ready for attended user invocation; no039 rerun.",
+      "scope": {
+        "path": "configs/P3_FOCUSED_REVIEW_SCOPE_040.json",
+        "sha256": "682521fe5c47ffbd620064655bb8d9b1f6d365d5d84cac5a1e50ee72d0172f4e"
+      },
+      "standing_authorization": {
+        "path": "state/authorizations/P3_FOCUSED_REVIEW_040_STANDING_AUTHORIZATION.md",
+        "sha256": "428729a20cc52abdf81b8d273326e6361c417f2806814e7af4818c0b5823416b"
+      },
+      "verified_historical_native_starts": 16,
+      "verified_historical_sent_turns": 12,
+      "additional_native_start_ceiling": 2,
+      "additional_sent_turn_ceiling": 2,
+      "cumulative_native_start_ceiling": 18,
+      "cumulative_sent_turn_ceiling": 14,
+      "actual040_native_starts_observed_here": 0,
+      "actual040_sent_turns_observed_here": 0,
+      "scope_specific_execution_record_pending": true,
+      "repeat_existing_attempt_authorized": false,
+      "unattended_model_use_authorized": false,
+      "backend_usage_or_charge": "unknown"
+    }
+  },
+  "latest_returned_native_quota": {
+    "reported_used_percent": 43,
+    "window_duration_minutes": 10080,
+    "reported_reset_utc": "2026-09-15T16:40:27+00:00",
+    "evidence": {
+      "path": "evidence/P3_USAGE_RETURN_ASSESSMENT_040.json",
+      "sha256": "e6269b5e68d59b45b8d9ae1667a4c2dc600104dac138617fb41690880257878b"
+    },
+    "reported_at_actual039_sessions_not_live_now": true,
+    "hosted_chatgpt_allowance_verified": false,
+    "attributable_usage_delta": null
   }
 }

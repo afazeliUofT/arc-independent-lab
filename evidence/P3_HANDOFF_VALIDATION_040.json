@@ -1,0 +1,155 @@
+{
+  "actual_controller_admission_or_scientific_verdict_asserted": false,
+  "commands": [
+    {
+      "command": "python3 -B -m unittest discover -s tests -p '*review040*.py' -q",
+      "exit_code": 0,
+      "tests_passed": 16
+    },
+    {
+      "command": "python3 -B -m unittest discover -s tests -p 'test_launch040_home.py' -q",
+      "exit_code": 0,
+      "tests_passed": 32
+    }
+  ],
+  "covered": [
+    "Fresh040 controller/packet invocation and untouched prior039 reservation",
+    "Actual home launcher to exact extracted040 workflow and publisher to local bare-Git return, fake controller only",
+    "Failed commit recovery from exact staged archive without another controller call",
+    "Failed push retry without another controller call or commit",
+    "Once-only durable reservation and nonblocking concurrent-call lock",
+    "Interrupted partial execution and unknown usage when native receipts are absent",
+    "Canonical root/main/origin, unrelated edits, staged changes and unpublished commits preserved",
+    "Private packet and runtime paths ignored/untracked and hash-pinned before invocation",
+    "Only fixed evidence allowlist published; private papers, raw streams and detected bulk-source passages excluded",
+    "Linked, unstable, malformed or oversized evidence refused",
+    "ZIP complete checksum inventory, safe names, byte/member limits and equal-or-new private extraction",
+    "Minimum four-script initial import closure",
+    "Windows redirected Unicode Downloads and browser duplicate filename discovery",
+    "Outer checksum checked before embedded launcher execution; WSL Downloads fallback",
+    "One literal Python here-document parses without executing interop",
+    "Public returned039 REPORT.sha256 accepted only under public/, covered by SHA256SUMS; changed digest and nonpublic or unlisted file types refused"
+  ],
+  "date": "2026-09-12",
+  "draft_archive_inventory_validation": {
+    "final_release": false,
+    "member_count": 340,
+    "path": "output/ARC_Independent_Lab_040.zip",
+    "rebuild_required": "draft embeds prior launcher; root refreshes outer manifest and package with corrected source",
+    "result": "PASS_WITH_CORRECTED_LAUNCHER",
+    "sha256": "8c2662ce5b0a88ede4fd0f87104ba41d660e0f8481e54536f0a24ecc9aa1d9dd"
+  },
+  "fake_controller_only": true,
+  "files": [
+    {
+      "path": "scripts/review040_workflow.py",
+      "sha256": "5c650fa70f077ced77ee69add1c925567645fa5d50844c1fff626ca84ab1d967"
+    },
+    {
+      "path": "scripts/publish_review040_evidence.py",
+      "sha256": "8886e8caf9b0a5c17131775a1369d88c005297fda2d1050c352a046a11b6b2d8"
+    },
+    {
+      "path": "scripts/launch040_home.py",
+      "sha256": "473a7c103fc0784dffc5e5fce0d2aca388d47d9e113dfb1a68a13e77031eaee8"
+    },
+    {
+      "path": "scripts/downloads_bootstrap040.py",
+      "sha256": "b9d6dd2aea56943c60b6ed737f83aa6450f8902f194f227030dbc1d947f21004"
+    },
+    {
+      "path": "tests/test_review040_workflow.py",
+      "sha256": "acb5f04f5a1720aa576e98a487fd3fdf3f614fa8ef5b28cb9b09f5f65ef1686b"
+    },
+    {
+      "path": "tests/test_publish_review040_evidence.py",
+      "sha256": "8c7171d1d71c42bc80c9bc0342d40686163d7279218ba19a6c8afc651e38ec55"
+    },
+    {
+      "path": "tests/test_launch040_home.py",
+      "sha256": "2d4ee1c82e890ea16d6ad30fb6793c00ba9d1d74c4d3fa913f063b142b716eee"
+    },
+    {
+      "path": "docs/P3_REVIEW_RETURN_WORKFLOW_040.md",
+      "sha256": "aec31e81f0b9587d128a6602d3d956c3a28deed8427bdb9b40d0969761a77190"
+    }
+  ],
+  "git_network_transport": "temporary local bare repository; no external network",
+  "implementation_changes": [
+    "Publisher and Downloads bootstrap are exact039-to040 version substitutions.",
+    "Workflow is exact039-to040 substitution plus explicit scope039_reused=false in its report.",
+    "No scientific packet bytes or prior032/038/039 code were edited.",
+    "Launcher additionally allows .sha256 members only under public/, for original returned report hashes; all inventory and digest checks remain mandatory."
+  ],
+  "initial_bootstrap_siblings": [
+    "scripts/review040_workflow.py",
+    "scripts/publish_review040_evidence.py",
+    "scripts/stage_source_packet038.py",
+    "scripts/review032_workflow.py"
+  ],
+  "kind": "P3_HANDOFF_OFFLINE_VALIDATION_040_v1",
+  "limitations": [
+    "These tests establish wrapper/version/publication behavior with fixture packets and a fake controller.",
+    "Final release ZIP bytes, real source packet and sealed controller admission are validated separately by the root/controller tasks.",
+    "Missing evidence never establishes zero usage; collector does not scientifically admit a verdict."
+  ],
+  "native_or_model_process_started": false,
+  "observed_development_errors": [
+    {
+      "operation": "rg path discovery",
+      "resolution": "corrected working-directory-relative command",
+      "result": "exit1: repeated ARC_Independent_Lab prefix from repository working directory; no test or product execution occurred"
+    },
+    {
+      "operation": "first launcher integration test",
+      "resolution": "reran after controller and scope materialized",
+      "result": "FileNotFoundError for scope040 while sibling controller task had not created it"
+    },
+    {
+      "operation": "first exact extracted-workflow integration",
+      "resolution": "fixture now models sys.dont_write_bytecode=true and asserts launcher -B; product code unchanged",
+      "result": "fixture import created bytecode cache unlike actual launcher -B, causing expected directory-preservation guard on retry"
+    },
+    {
+      "operation": "root final real ZIP validation",
+      "resolution": "narrow public-only .sha256 allowance; two regression checks pass; corrected launcher accepts the complete340-member draft inventory",
+      "result": "Unexpected package member for public archived original039 REPORT.sha256"
+    }
+  ],
+  "preserved039_baselines": [
+    {
+      "path": "scripts/review039_workflow.py",
+      "sha256": "24eaa10f55c2f9fd17692ccad68fec6e62ee5f65237491487406bab49a35f4f0"
+    },
+    {
+      "path": "scripts/publish_review039_evidence.py",
+      "sha256": "2bd6ec9b9b75ddb83d93e7e819ef0a3afee63e1fab2bf18393610c34f2dd020d"
+    },
+    {
+      "path": "scripts/launch039_home.py",
+      "sha256": "f733e4f83077684ae82c2412f0017a177bbbe141f01fcf89d5bdfa0b3fddb5a5"
+    },
+    {
+      "path": "scripts/downloads_bootstrap039.py",
+      "sha256": "8fa509347f539c01cbb31f5f4a0a707a2ac207bf21caa5cfbc62975cdf9f06f2"
+    },
+    {
+      "path": "tests/test_review039_workflow.py",
+      "sha256": "d1a357f09adb8bb29e60efbfc8127f35fa93492f9da4702d2389a657b3dc2625"
+    },
+    {
+      "path": "tests/test_publish_review039_evidence.py",
+      "sha256": "f7c29355a76b2f416c40ad6d51c1fea348f2e0dd5b91a205d23b2d9c9df2f280"
+    },
+    {
+      "path": "tests/test_launch039_home.py",
+      "sha256": "6ed569c6920a0babf8344dc804b1791e6902fd4229c64f94ad093b623ef94d77"
+    },
+    {
+      "path": "docs/P3_REVIEW_RETURN_WORKFLOW_039.md",
+      "sha256": "c56d9ddaf9c197e0bc70d95b98c1e9f14ce82b065e0934c61da59f63f72f8572"
+    }
+  ],
+  "tests_failed": 0,
+  "tests_passed": 48
+}

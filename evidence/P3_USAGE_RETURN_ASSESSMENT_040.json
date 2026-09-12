@@ -1,0 +1,222 @@
+{
+  "kind": "P3_USAGE_RETURN_ASSESSMENT_040_v1",
+  "assessed_utc": "2026-09-12T01:51:36.837335+00:00",
+  "source_commit": "ee29a58cf57783984e848df83032541c929c4658",
+  "assessment_role": "PI engineering and accounting assessment of returned evidence; not an independent scientific review",
+  "source_acquisition": "Exact GitHub files materialized and Git-blob verified by coordinating PI; this assessment rehashed the listed bytes and reconciled standalone sessions with embedded copies.",
+  "status": "ACCOUNTING_RECONCILED_SCIENCE_STOPPED_BEFORE_THREAD_AND_MODEL_TURN",
+  "report_evidence": {
+    "path": "artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/REPORT.json",
+    "sha256": "8a14ad9551e6f0f1840d05889574cb7763b330046c0a51474d62ceb3926c38cc",
+    "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/ee29a58cf57783984e848df83032541c929c4658/artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/REPORT.json",
+    "accessed": "2026-09-12"
+  },
+  "standalone_sessions_equal_embedded_receipts": true,
+  "per_session": {
+    "synthetic": {
+      "native_starts": 1,
+      "thread_start_requests_sent": 1,
+      "model_turns_sent": 1,
+      "model_turns_queued": 1,
+      "model_turn_start_notifications": 1,
+      "model_turn_completion_notifications": 0,
+      "backend_turn_completion_inferred": false,
+      "status": "SYNTHETIC_REFUSAL_OBSERVED",
+      "native_process_reaped": true,
+      "native_exit_code": -15,
+      "elapsed_seconds": 10.962071,
+      "broker_calls": 3,
+      "token_usage_update_notifications": 2,
+      "rate_limit_update_notifications": 2,
+      "numeric_token_counts_recorded": false,
+      "automatic_retry_requested": false,
+      "evidence": {
+        "path": "artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/synthetic_SESSION.json",
+        "sha256": "b3ad48a0c7dcd519f1328e5b3f11f708c2c5248b206dbdddd33d77376417c598",
+        "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/ee29a58cf57783984e848df83032541c929c4658/artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/synthetic_SESSION.json",
+        "accessed": "2026-09-12"
+      }
+    },
+    "science": {
+      "native_starts": 1,
+      "thread_start_requests_sent": 0,
+      "model_turns_sent": 0,
+      "model_turns_queued": 0,
+      "model_turn_start_notifications": 0,
+      "model_turn_completion_notifications": 0,
+      "backend_turn_completion_inferred": false,
+      "status": "STOPPED_WITHOUT_VERDICT",
+      "native_process_reaped": true,
+      "native_exit_code": -15,
+      "elapsed_seconds": 1.053474,
+      "broker_calls": 0,
+      "token_usage_update_notifications": 0,
+      "rate_limit_update_notifications": 0,
+      "numeric_token_counts_recorded": false,
+      "automatic_retry_requested": false,
+      "evidence": {
+        "path": "artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/science_SESSION.json",
+        "sha256": "d40b69e66d045fddb7b469c4e99f51ac2323606ca0f435b5ce5b99010d47cabc",
+        "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/ee29a58cf57783984e848df83032541c929c4658/artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/science_SESSION.json",
+        "accessed": "2026-09-12"
+      }
+    }
+  },
+  "recomputed_accounting": {
+    "prior_native_starts": 14,
+    "prior_sent_model_turns": 11,
+    "observed_native_starts_this_attempt": 2,
+    "observed_sent_model_turns_this_attempt": 1,
+    "observed_completed_model_turn_notifications_this_attempt": 0,
+    "cumulative_observed_native_starts": 16,
+    "cumulative_observed_sent_model_turns": 12,
+    "reserved_native_starts_this_attempt": 2,
+    "reserved_model_turns_this_attempt": 2,
+    "cumulative_reservation_ceiling_native_starts": 16,
+    "cumulative_reservation_ceiling_model_turns": 13,
+    "counts_match_controller": true,
+    "missing_session_receipts": false,
+    "prior_evidence": {
+      "path": "artifacts/P3_RUN_032_VERIFICATION/20260910_033/VERIFICATION.json",
+      "sha256": "cacee0aac0fc33f6361f6e2bfe30c64e8a985b1fc56e874c568acfbbc015bc80",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/ee29a58cf57783984e848df83032541c929c4658/artifacts/P3_RUN_032_VERIFICATION/20260910_033/VERIFICATION.json",
+      "accessed": "2026-09-12",
+      "json_pointer": "/attempt_accounting_recomputed"
+    },
+    "attempt_evidence": {
+      "path": "artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/REPORT.json",
+      "sha256": "8a14ad9551e6f0f1840d05889574cb7763b330046c0a51474d62ceb3926c38cc",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/ee29a58cf57783984e848df83032541c929c4658/artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/REPORT.json",
+      "accessed": "2026-09-12",
+      "json_pointer": "/attempt_accounting"
+    },
+    "completion_evidence": [
+      {
+        "path": "artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/synthetic_SESSION.json",
+        "sha256": "b3ad48a0c7dcd519f1328e5b3f11f708c2c5248b206dbdddd33d77376417c598",
+        "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/ee29a58cf57783984e848df83032541c929c4658/artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/synthetic_SESSION.json",
+        "accessed": "2026-09-12",
+        "json_pointer": "/notifications"
+      },
+      {
+        "path": "artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/science_SESSION.json",
+        "sha256": "d40b69e66d045fddb7b469c4e99f51ac2323606ca0f435b5ce5b99010d47cabc",
+        "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/ee29a58cf57783984e848df83032541c929c4658/artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/science_SESSION.json",
+        "accessed": "2026-09-12",
+        "json_pointer": "/notifications"
+      }
+    ],
+    "interpretation": "The one submitted synthetic turn counts despite no turn/completed notification. The reserved but unsent scientific turn is not an automatic retry entitlement. Both reserved native starts were used; scope039 remains one-shot."
+  },
+  "quota_and_billing": {
+    "initial_codex_snapshots_match_across_sessions": true,
+    "initial_reported_used_percent": 43,
+    "window_duration_minutes": 10080,
+    "reported_reset_unix_seconds": 1789490427,
+    "reported_reset_utc": "2026-09-15T16:40:27+00:00",
+    "recognized_secondary_window_present": false,
+    "unrecognized_bucket_count": 2,
+    "both_quota_admissions_report_windows_below_full": true,
+    "cached_account_kind": "chatgpt",
+    "cached_reported_plan": "pro",
+    "selected_model": "gpt-5.6-sol",
+    "selected_reasoning_effort": "max",
+    "token_counts": null,
+    "backend_charge": null,
+    "attributable_quota_change": null,
+    "remaining_model_tokens": null,
+    "hosted_chatgpt_allowance_verified": false,
+    "model_specific_entitlement_verified": false,
+    "capacity_based_stop_observed": false,
+    "evidence": [
+      {
+        "path": "artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/synthetic_SESSION.json",
+        "sha256": "b3ad48a0c7dcd519f1328e5b3f11f708c2c5248b206dbdddd33d77376417c598",
+        "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/ee29a58cf57783984e848df83032541c929c4658/artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/synthetic_SESSION.json",
+        "accessed": "2026-09-12"
+      },
+      {
+        "path": "artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/science_SESSION.json",
+        "sha256": "d40b69e66d045fddb7b469c4e99f51ac2323606ca0f435b5ce5b99010d47cabc",
+        "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/ee29a58cf57783984e848df83032541c929c4658/artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/science_SESSION.json",
+        "accessed": "2026-09-12"
+      }
+    ],
+    "update_payload_retention": "The pinned event handler checks that rateLimits/tokenUsage payloads are objects and records notification counts, without persisting their numeric payloads. They cannot be reconstructed from this return.",
+    "retention_source_evidence": {
+      "path": "scripts/p3_reviewer_session_039.py",
+      "sha256": "6ecd0c92ba7cb308d26d26157d6e9172d9e3669a0a8c140c2ce03c9c0e81e4bb",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/ee29a58cf57783984e848df83032541c929c4658/scripts/p3_reviewer_session_039.py",
+      "accessed": "2026-09-12"
+    }
+  },
+  "stop_cause": {
+    "reported_session_reason": "Reviewer model, profile or thread admission refused",
+    "reported_admission_reason": "Unexpected reviewer dynamic tool spec",
+    "science_thread_request_sent": false,
+    "science_model_turn_request_sent": false,
+    "science_broker_calls": 0,
+    "evidence": {
+      "path": "artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/science_SESSION.json",
+      "sha256": "d40b69e66d045fddb7b469c4e99f51ac2323606ca0f435b5ce5b99010d47cabc",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/ee29a58cf57783984e848df83032541c929c4658/artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/science_SESSION.json",
+      "accessed": "2026-09-12"
+    },
+    "source_inference": "The focused broker advertises source_access_receipt, while the pinned admission helper permits the older five-name set containing run_observer_audit instead. Its thread_params rejects the new name before sending thread/start. This deterministically explains the reported local admission refusal.",
+    "source_evidence": [
+      {
+        "path": "scripts/p3_focused_review_broker_039.py",
+        "sha256": "b0d0b985e6e709d716d63d0bf6f1bf12d7c00b96340f435a1c7087c0bcdaf036",
+        "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/ee29a58cf57783984e848df83032541c929c4658/scripts/p3_focused_review_broker_039.py",
+        "accessed": "2026-09-12"
+      },
+      {
+        "path": "scripts/p3_reviewer_admission_022.py",
+        "sha256": "329bccdfba14c93bb345841e6764b00f911b1ab8e3067636879a8a58194a783e",
+        "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/ee29a58cf57783984e848df83032541c929c4658/scripts/p3_reviewer_admission_022.py",
+        "accessed": "2026-09-12"
+      },
+      {
+        "path": "scripts/p3_reviewer_session_039.py",
+        "sha256": "6ecd0c92ba7cb308d26d26157d6e9172d9e3669a0a8c140c2ce03c9c0e81e4bb",
+        "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/ee29a58cf57783984e848df83032541c929c4658/scripts/p3_reviewer_session_039.py",
+        "accessed": "2026-09-12"
+      }
+    ],
+    "capacity_exhaustion_reported": false,
+    "recommendation": "Repair and exercise the exact focused tool/admission interface offline before preparing any newly scoped execution. Preserve039 and all actual counters; do not rerun or erase its reservation."
+  },
+  "collector_counter_interpretation": {
+    "collector_native_clients_started": 0,
+    "collector_model_turns_sent": 0,
+    "evidence": {
+      "path": "artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/REPORT.json",
+      "sha256": "8a14ad9551e6f0f1840d05889574cb7763b330046c0a51474d62ceb3926c38cc",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/ee29a58cf57783984e848df83032541c929c4658/artifacts/P3_REVIEW_039_RETURN/8b2bd233f9e585d4ef490dd5302ee488c14989d8badeb5ab2b3353c23c85049b/files/delivery/P3_FOCUSED_REVIEW_039/REPORT.json",
+      "accessed": "2026-09-12",
+      "json_pointer": "/receipt_collection"
+    },
+    "source_evidence": {
+      "path": "scripts/p3_receipt_collection_032.py",
+      "sha256": "52b88345b8d707891fc33d37cd7040ca356178f400cc1396db9282951937b552",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/ee29a58cf57783984e848df83032541c929c4658/scripts/p3_receipt_collection_032.py",
+      "accessed": "2026-09-12"
+    },
+    "interpretation": "These zero values describe receipt collection itself. They do not describe the synthetic/science sessions and must not overwrite the observed 2-start/1-turn accounting."
+  },
+  "limitations": [
+    "Submitted turns and native process starts are observable local execution counters, not backend inference-call counts or billed tokens.",
+    "No turn/completed notification was observed. Synthetic completion of the required refusal check is distinct from completion of the native model turn; its controller intentionally stopped at the required broker outcome.",
+    "A zero scientific turn count is supported by complete receipts with false queue/send flags and absent thread/start and turn/start requests. It does not prove a zero-charge account statement.",
+    "Repeated 43-percent initial quota snapshots do not prove no consumption: percentage rounding, timing, separate sessions and omitted update payloads prevent precise attribution.",
+    "The reported ChatGPT Pro account metadata, returned model catalog and Codex window are not independent proof of hosted ChatGPT allowance, model-specific entitlement, remaining tokens or cost.",
+    "A future execution requires a newly named finite scope with actual cumulative baseline16/12; unused039 reservation must not silently become another attempt."
+  ],
+  "assessment_execution": {
+    "new_native_model_processes": 0,
+    "new_model_turns": 0,
+    "new_kernel_probes": 0,
+    "credential_files_opened": false,
+    "returned_source_files_modified": false
+  }
+}
