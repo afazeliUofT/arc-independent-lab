@@ -1,0 +1,13 @@
+# Checkpoint045 diagnostic preparation
+
+Save ARC_Independent_Lab_045.zip in Windows Downloads and paste the one supplied WSL-home command. It discovers Downloads, verifies the entire archive, copies/extracts it under ignored ~/ARC_Independent_Lab/delivery/P3_CHECKPOINT_045, verifies the repository and complete public/private inputs, executes one bounded diagnostic-conformance run, and pushes the full public REPORT.json and RECEIPT.json.
+
+The accepted044 profile completed its planned component measurements. It did not include every operation needed for a full scientific comparison. This045 package implements and checks the missing prescribed-partition reader, common goal chooser, chronological replay, predicate-deletion and count/partition attribution diagnostics. Read docs/P3_RESEARCH_PRIORITIES_045.md for the scientific priorities and evidence/P3_COMPLETE_WORK_COVERAGE_045.md for the remaining budget dependencies.
+
+The child receives only its seven approved development source/configuration/test files. The fixtures are fabricated and contain no042 target world, panel or target score. No reviewer, native model client, model API, GPU or HPC job starts. The full conformance report includes named test outcomes, source identities, elapsed/CPU time, memory observations and interruption status. The300-second outer cap and270-second child budget are development safeguards; they are not scientific B_comp/B_mem.
+
+A per-release reservation precedes execution. Repeating the same command reuses its first execution evidence and retries publication without restarting the diagnostics or043/044 profiles. Successful publication of an incomplete result is reported plainly with a GitHub receipt; it does not claim conformance passed. Preserve existing files and reservations after any interruption.
+
+The ZIP includes all required public release sources, the original044 report and receipt, the historical scientific/governing records and the same172-file private paper/methods packet. Private material is verified but never staged into Git or the child source directory. Final publication metadata records the whole-ZIP checksum outside the ZIP to avoid a circular hash.
+
+This step closes diagnostic implementation gaps. It does not admit the target comparison or assert efficacy, novelty, retention or recombination. A consolidated complete-work fixture/profile still has to cover full acquisition, all arms, diagnostics, arithmetic/group geometry, storage overlap and interruption semantics before the prospective042 budget rule can be applied. No further papers are needed for this diagnostic step.

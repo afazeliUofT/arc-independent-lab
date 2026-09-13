@@ -1,0 +1,777 @@
+{
+  "B_comp": null,
+  "B_mem": null,
+  "access_date": "2026-09-13",
+  "automatic_profile_remeasurement_permitted": false,
+  "complete_work_budget_admitted": false,
+  "completed_rows": 27,
+  "conformance_tests_passed": 43,
+  "cumulative_model_turns_sent": 14,
+  "cumulative_native_starts": 18,
+  "exact_return_tree_diff": [
+    {
+      "after": {
+        "mode": "100644",
+        "path": "artifacts/CHECKPOINT_044_RETURN/bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c/RECEIPT.json",
+        "sha": "e0aac61c88ad7e185be90d1e8444decf65309d2e",
+        "size": 4114,
+        "type": "blob",
+        "url": "https://api.github.com/repos/afazeliUofT/arc-independent-lab/git/blobs/e0aac61c88ad7e185be90d1e8444decf65309d2e"
+      },
+      "before": null,
+      "path": "artifacts/CHECKPOINT_044_RETURN/bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c/RECEIPT.json"
+    },
+    {
+      "after": {
+        "mode": "100644",
+        "path": "artifacts/CHECKPOINT_044_RETURN/bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c/REPORT.json",
+        "sha": "345a546ffa131b27ca906b55267afc56c7e0eb96",
+        "size": 306154,
+        "type": "blob",
+        "url": "https://api.github.com/repos/afazeliUofT/arc-independent-lab/git/blobs/345a546ffa131b27ca906b55267afc56c7e0eb96"
+      },
+      "before": null,
+      "path": "artifacts/CHECKPOINT_044_RETURN/bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c/REPORT.json"
+    }
+  ],
+  "full_report_and_original043_measurements_and_failure_validated": true,
+  "invocation_metrics": {
+    "continuation044": {
+      "child_cpu_seconds": 89.165901,
+      "driver_peak_rss_bytes": 62668800,
+      "driver_process_cpu_seconds": 0.149682365,
+      "peak_child_rss_bytes": 38633472,
+      "scope": "044_INVOCATION_ONLY_EXCLUDES_IMPORTED_043_MEASUREMENTS",
+      "wall_seconds": 86.30829322210047
+    },
+    "original043": {
+      "aggregate_metrics": {
+        "child_cpu_seconds": 3.054977,
+        "driver_peak_rss_bytes": 61739008,
+        "driver_process_cpu_seconds": 0.020362721,
+        "peak_child_rss_bytes": 32530432,
+        "wall_seconds": 3.0756373710464686
+      },
+      "host": {
+        "ambient_conditions": "UNCONTROLLED_NOT_CLASSIFIED_QUIET_OR_CONTENDED",
+        "platform": "linux",
+        "python": "3.12.3"
+      },
+      "wrapper_execution": {
+        "available_cpu_count": 16,
+        "child_start_observed": true,
+        "exit_code": 0,
+        "parent_death_signal_requested": true,
+        "process_group_kill_attempted": false,
+        "selected_cpu_count": 1,
+        "stderr": {
+          "bytes": 0,
+          "content_published": false,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 134,
+          "content_published": false,
+          "sha256": "9e2eb77ce991ddae995d6c0ff1c015284814748e030505b029bc390490fb9a84"
+        },
+        "termination": "EXITED",
+        "wall_seconds": 3.172950293
+      }
+    }
+  },
+  "kind": "P3_CHECKPOINT_044_RETURN_VERIFICATION_045_v1",
+  "model_turns_sent": 0,
+  "native_starts": 0,
+  "new044_profile_launches": 1,
+  "new044_rows_completed": 21,
+  "next_dependency": "Implement and conformance-check missing prescribed-partition, chooser, replay and Brier-attribution diagnostics before freezing a consolidated complete-work profile.",
+  "original043_and044_reservations_consumed": true,
+  "original043_rows_imported": 6,
+  "outer_execution044": {
+    "available_cpu_count": 16,
+    "child_start_observed": true,
+    "exit_code": 0,
+    "parent_death_signal_requested": true,
+    "process_group_kill_attempted": false,
+    "selected_cpu_count": 1,
+    "stderr": {
+      "bytes": 0,
+      "content_published": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout": {
+      "bytes": 182,
+      "content_published": false,
+      "sha256": "09d32aa5b2028defb93ab2c3ba57ea199234b2ff37cb2488f205f783c6cc1a92"
+    },
+    "termination": "EXITED",
+    "wall_seconds": 86.409102649
+  },
+  "parent_commit": "f0c05d5e99854c48b065c6e59529b541e2bfd5e8",
+  "prior_blobs_and_modes_preserved": 1530,
+  "profile_status": "PROFILE_COMPLETED",
+  "receipt": {
+    "bytes": 4114,
+    "git_blob_sha": "e0aac61c88ad7e185be90d1e8444decf65309d2e",
+    "path": "artifacts/CHECKPOINT_044_RETURN/bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c/RECEIPT.json",
+    "sha256": "9c193909ec23b2bf5f7dd4585062289d0899f7fedf4e00d72d1d250853afc57e"
+  },
+  "report": {
+    "bytes": 306154,
+    "git_blob_sha": "345a546ffa131b27ca906b55267afc56c7e0eb96",
+    "path": "artifacts/CHECKPOINT_044_RETURN/bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c/REPORT.json",
+    "sha256": "6452875d2bd3947e0a8aede3aa89c9c8db19985ffc38c80a4b9aa10a086d6cad"
+  },
+  "return_commit": "16976d8db11475f85ad2e96e5be786c1d4d50776",
+  "row_summaries": [
+    {
+      "case": "n1_no_positive_gain",
+      "measurement_release": "043",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 1238,
+        "logical_work": 487053464,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 7342,
+        "peak_logical_retained_bytes": 1285548,
+        "peak_rss_bytes": 32141312,
+        "process_cpu_seconds": 0.6717355770000001,
+        "wall_seconds": 0.6376102640060708
+      },
+      "repetition": 0,
+      "row_canonical_sha256": "2cfd36b5c0ad3b5f2e4b5897bf43ef4276d57eebdde4802f92bb633316a94612",
+      "row_index": 0,
+      "size": "small",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n1_no_positive_gain",
+      "measurement_release": "043",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 1238,
+        "logical_work": 487053464,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 7342,
+        "peak_logical_retained_bytes": 1285548,
+        "peak_rss_bytes": 31272960,
+        "process_cpu_seconds": 0.6718174370000001,
+        "wall_seconds": 0.6398092670133337
+      },
+      "repetition": 1,
+      "row_canonical_sha256": "6be979f151d6614c56b69ec2b81fce78b159d9c5d807f3c56b8240cda0ad90e3",
+      "row_index": 1,
+      "size": "small",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n1_no_positive_gain",
+      "measurement_release": "043",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 1238,
+        "logical_work": 487053464,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 7342,
+        "peak_logical_retained_bytes": 1285548,
+        "peak_rss_bytes": 32219136,
+        "process_cpu_seconds": 0.6802315999999999,
+        "wall_seconds": 0.6470642030471936
+      },
+      "repetition": 2,
+      "row_canonical_sha256": "ee697376f34bef68c973fd8fa70c601a67447175aad5f228a815da00df909ea8",
+      "row_index": 2,
+      "size": "small",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n1_positive_selection",
+      "measurement_release": "043",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 1234,
+        "logical_work": 166494946,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 7350,
+        "peak_logical_retained_bytes": 676302,
+        "peak_rss_bytes": 29253632,
+        "process_cpu_seconds": 0.18051087300000002,
+        "wall_seconds": 0.17189864406827837
+      },
+      "repetition": 0,
+      "row_canonical_sha256": "955274b380203c1e3a250dcd8c104aedbb9bcd4d2c8bb1f254fbe45dd52bf634",
+      "row_index": 3,
+      "size": "small",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n1_positive_selection",
+      "measurement_release": "043",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 1234,
+        "logical_work": 166494946,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 7350,
+        "peak_logical_retained_bytes": 676302,
+        "peak_rss_bytes": 29224960,
+        "process_cpu_seconds": 0.18057326599999998,
+        "wall_seconds": 0.17337422806303948
+      },
+      "repetition": 1,
+      "row_canonical_sha256": "8f13baa92a9057735e9fea2a383bd11a811445c770134b90b11c82c8643ee9f2",
+      "row_index": 4,
+      "size": "small",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n1_positive_selection",
+      "measurement_release": "043",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 1234,
+        "logical_work": 166494946,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 7342,
+        "peak_logical_retained_bytes": 676302,
+        "peak_rss_bytes": 29200384,
+        "process_cpu_seconds": 0.184631425,
+        "wall_seconds": 0.17574528697878122
+      },
+      "repetition": 2,
+      "row_canonical_sha256": "20b53f48150bbc43168130b6d9ebeee5cb5da72b3baa7eb5b764489fb981c2b7",
+      "row_index": 5,
+      "size": "small",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n3_proposal_and_credit",
+      "measurement_release": "044",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 576,
+        "logical_work": 25849021,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 6634,
+        "peak_logical_retained_bytes": 16799004,
+        "peak_rss_bytes": 25624576,
+        "process_cpu_seconds": 0.033316482999999994,
+        "wall_seconds": 0.031084079993888736
+      },
+      "repetition": 0,
+      "row_canonical_sha256": "971394882d95da03b058a548e1f05403e0f759bafcc9676412fdcb795fa577af",
+      "row_index": 6,
+      "size": "small",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n3_proposal_and_credit",
+      "measurement_release": "044",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 576,
+        "logical_work": 25849021,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 6634,
+        "peak_logical_retained_bytes": 16799004,
+        "peak_rss_bytes": 25657344,
+        "process_cpu_seconds": 0.029164695999999997,
+        "wall_seconds": 0.031426848960109055
+      },
+      "repetition": 1,
+      "row_canonical_sha256": "7a67437058d214bba3045c5ed0aa824ee180ab8d81f2a08e62ca9818d280427d",
+      "row_index": 7,
+      "size": "small",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n3_proposal_and_credit",
+      "measurement_release": "044",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 576,
+        "logical_work": 25849021,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 6633,
+        "peak_logical_retained_bytes": 16799004,
+        "peak_rss_bytes": 25661440,
+        "process_cpu_seconds": 0.029164241999999993,
+        "wall_seconds": 0.03064889507368207
+      },
+      "repetition": 2,
+      "row_canonical_sha256": "2d48ffb08045eece14f028af0ec6ecfb5a46d7ce0137006ab29c675a819606ea",
+      "row_index": 8,
+      "size": "small",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n1_no_positive_gain",
+      "measurement_release": "044",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 1238,
+        "logical_work": 4764748293,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 7475,
+        "peak_logical_retained_bytes": 1285548,
+        "peak_rss_bytes": 32899072,
+        "process_cpu_seconds": 5.742219663,
+        "wall_seconds": 5.51755501201842
+      },
+      "repetition": 0,
+      "row_canonical_sha256": "682c18a8f2198b32c186bfd020af204756f5d687cbd31af8eaa5d9dc7867cef2",
+      "row_index": 9,
+      "size": "typical",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n1_no_positive_gain",
+      "measurement_release": "044",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 1238,
+        "logical_work": 4764748293,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 7483,
+        "peak_logical_retained_bytes": 1285548,
+        "peak_rss_bytes": 32571392,
+        "process_cpu_seconds": 5.8959022039999995,
+        "wall_seconds": 5.667006733943708
+      },
+      "repetition": 1,
+      "row_canonical_sha256": "22268f03f939ee0d2d6bda72dc39211816b4f4a43d8e9ef4b67b6ce19e0696c3",
+      "row_index": 10,
+      "size": "typical",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n1_no_positive_gain",
+      "measurement_release": "044",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 1238,
+        "logical_work": 4764748293,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 7484,
+        "peak_logical_retained_bytes": 1285548,
+        "peak_rss_bytes": 32858112,
+        "process_cpu_seconds": 6.0156065320000005,
+        "wall_seconds": 5.7759996770182624
+      },
+      "repetition": 2,
+      "row_canonical_sha256": "2d92818ffb041a27f8ac6037c63b69e93f54fa945a5a2e17987991af6aa257d7",
+      "row_index": 11,
+      "size": "typical",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n1_positive_selection",
+      "measurement_release": "044",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 1234,
+        "logical_work": 1182177056,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 7444,
+        "peak_logical_retained_bytes": 676302,
+        "peak_rss_bytes": 29073408,
+        "process_cpu_seconds": 1.129380726,
+        "wall_seconds": 1.0854168200166896
+      },
+      "repetition": 0,
+      "row_canonical_sha256": "d47e15ed231738c7f90b5332ee1bceab80d3d3f5ebc1ea03a108835434ac0ab1",
+      "row_index": 12,
+      "size": "typical",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n1_positive_selection",
+      "measurement_release": "044",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 1234,
+        "logical_work": 1182177056,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 7444,
+        "peak_logical_retained_bytes": 676302,
+        "peak_rss_bytes": 29073408,
+        "process_cpu_seconds": 1.123311523,
+        "wall_seconds": 1.0822338999714702
+      },
+      "repetition": 1,
+      "row_canonical_sha256": "b50dfe7c344559e19c59bcddbc62c07b8702f7ef6b44a9f01201e904a0f3b085",
+      "row_index": 13,
+      "size": "typical",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n1_positive_selection",
+      "measurement_release": "044",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 1234,
+        "logical_work": 1182177056,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 7444,
+        "peak_logical_retained_bytes": 676302,
+        "peak_rss_bytes": 29200384,
+        "process_cpu_seconds": 1.120984617,
+        "wall_seconds": 1.0768914999207482
+      },
+      "repetition": 2,
+      "row_canonical_sha256": "2f9d3b17572a97cb35419f747768371976bf6c7c405a8dda018ae8139b0f7c87",
+      "row_index": 14,
+      "size": "typical",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n3_proposal_and_credit",
+      "measurement_release": "044",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 579,
+        "logical_work": 93395973,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 6836,
+        "peak_logical_retained_bytes": 16804706,
+        "peak_rss_bytes": 28000256,
+        "process_cpu_seconds": 0.09166977700000001,
+        "wall_seconds": 0.08874667505733669
+      },
+      "repetition": 0,
+      "row_canonical_sha256": "1bc137c2985f6b210026c13a2745d94b67a16da6aed0986a9c972150fcb7416f",
+      "row_index": 15,
+      "size": "typical",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n3_proposal_and_credit",
+      "measurement_release": "044",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 579,
+        "logical_work": 93395973,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 6836,
+        "peak_logical_retained_bytes": 16804706,
+        "peak_rss_bytes": 28041216,
+        "process_cpu_seconds": 0.09581936600000002,
+        "wall_seconds": 0.09125909698195755
+      },
+      "repetition": 1,
+      "row_canonical_sha256": "ab8ebc3eca68f4254e433eb020b6d3ed0c73b872326257bb71bb3acf4d3720d0",
+      "row_index": 16,
+      "size": "typical",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n3_proposal_and_credit",
+      "measurement_release": "044",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 579,
+        "logical_work": 93395973,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 6827,
+        "peak_logical_retained_bytes": 16804706,
+        "peak_rss_bytes": 28012544,
+        "process_cpu_seconds": 0.09166087,
+        "wall_seconds": 0.08908341196365654
+      },
+      "repetition": 2,
+      "row_canonical_sha256": "a33943dfdd69345684d3f3aeea7bc905a3ae0a55552f424ae4d22c1ed66a4fcb",
+      "row_index": 17,
+      "size": "typical",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n1_no_positive_gain",
+      "measurement_release": "044",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 1240,
+        "logical_work": 16930821097,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 7530,
+        "peak_logical_retained_bytes": 1369788,
+        "peak_rss_bytes": 33673216,
+        "process_cpu_seconds": 18.470532943,
+        "wall_seconds": 17.72929515002761
+      },
+      "repetition": 0,
+      "row_canonical_sha256": "34d2c9f9a304d072b678eb04f9e3cf660e5f4f66d5223032c7c63e7a16db99a3",
+      "row_index": 18,
+      "size": "largest",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n1_no_positive_gain",
+      "measurement_release": "044",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 1240,
+        "logical_work": 16930821097,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 7531,
+        "peak_logical_retained_bytes": 1369788,
+        "peak_rss_bytes": 33599488,
+        "process_cpu_seconds": 18.707356845,
+        "wall_seconds": 17.956168574048206
+      },
+      "repetition": 1,
+      "row_canonical_sha256": "6217a8c05e62cc9c6e392a743bf48d30ffafdee318e118e0e4fe71372557e2fd",
+      "row_index": 19,
+      "size": "largest",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n1_no_positive_gain",
+      "measurement_release": "044",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 1240,
+        "logical_work": 16930821097,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 7531,
+        "peak_logical_retained_bytes": 1369788,
+        "peak_rss_bytes": 33792000,
+        "process_cpu_seconds": 18.236289826,
+        "wall_seconds": 17.503408694989048
+      },
+      "repetition": 2,
+      "row_canonical_sha256": "4fd1addd6b9b4893fe5e30c6129424efd4c9045b2b8972fafad3e081f86b73a6",
+      "row_index": 20,
+      "size": "largest",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n1_positive_selection",
+      "measurement_release": "044",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 1240,
+        "logical_work": 3683672455,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 7489,
+        "peak_logical_retained_bytes": 676302,
+        "peak_rss_bytes": 29061120,
+        "process_cpu_seconds": 3.398490749,
+        "wall_seconds": 3.2628493290394545
+      },
+      "repetition": 0,
+      "row_canonical_sha256": "db2484ebfab5591d9fc66c74029239182c400f0de5d0eabcf08265c6bed40efa",
+      "row_index": 21,
+      "size": "largest",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n1_positive_selection",
+      "measurement_release": "044",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 1240,
+        "logical_work": 3683672455,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 7489,
+        "peak_logical_retained_bytes": 676302,
+        "peak_rss_bytes": 29073408,
+        "process_cpu_seconds": 3.406917529,
+        "wall_seconds": 3.2705179860349745
+      },
+      "repetition": 1,
+      "row_canonical_sha256": "f1aa521c6e0f1ede7f12f1a076f1b118d7d91d0d3b57b7735356d4f46460a282",
+      "row_index": 22,
+      "size": "largest",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n1_positive_selection",
+      "measurement_release": "044",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 1240,
+        "logical_work": 3683672455,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 7488,
+        "peak_logical_retained_bytes": 676302,
+        "peak_rss_bytes": 29048832,
+        "process_cpu_seconds": 3.403068938,
+        "wall_seconds": 3.270826647989452
+      },
+      "repetition": 2,
+      "row_canonical_sha256": "190be4371f425a721c4d03741b0232608cfc20af8c2f2075ed870144acca5c53",
+      "row_index": 23,
+      "size": "largest",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n3_proposal_and_credit",
+      "measurement_release": "044",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 582,
+        "logical_work": 404585239,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 6867,
+        "peak_logical_retained_bytes": 16816142,
+        "peak_rss_bytes": 38633472,
+        "process_cpu_seconds": 0.312520866,
+        "wall_seconds": 0.30025333096273243
+      },
+      "repetition": 0,
+      "row_canonical_sha256": "eb89c43fbf690bb528a121d9c7e213f56a74209af5af343eb9112ad0d6f4f014",
+      "row_index": 24,
+      "size": "largest",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n3_proposal_and_credit",
+      "measurement_release": "044",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 582,
+        "logical_work": 404585239,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 6875,
+        "peak_logical_retained_bytes": 16816142,
+        "peak_rss_bytes": 38608896,
+        "process_cpu_seconds": 0.30423963400000004,
+        "wall_seconds": 0.29320274794008583
+      },
+      "repetition": 1,
+      "row_canonical_sha256": "5f8718238aaa9944ade226be75a9509eb4b9bb10c159135be646fe0fecd2fbaf",
+      "row_index": 25,
+      "size": "largest",
+      "status": "COMPLETED"
+    },
+    {
+      "case": "n3_proposal_and_credit",
+      "measurement_release": "044",
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_measure": "Meter owner reservations in canonical bytes; a reservation may be conservative and not sealed",
+        "logical_retained_bytes": 582,
+        "logical_work": 404585239,
+        "memory_measure_is_exact_allocation": false,
+        "output_bytes": 6874,
+        "peak_logical_retained_bytes": 16816142,
+        "peak_rss_bytes": 38612992,
+        "process_cpu_seconds": 0.31255448599999996,
+        "wall_seconds": 0.2975815179524943
+      },
+      "repetition": 2,
+      "row_canonical_sha256": "e85df6e088b76968d08c07898404d4a26cbd5ab88c274357cd3e092c18d89549",
+      "row_index": 26,
+      "size": "largest",
+      "status": "COMPLETED"
+    }
+  ],
+  "scientific_interpretation": "Successful fabricated component conformance and cost observations. No full-work cost bound, target efficacy, retention, recombination or novelty result follows.",
+  "source_documents_verified_against_current_GitHub": [
+    {
+      "git_blob_sha1": "315e045d9d0fced8f65cedeedda2536b930206aa",
+      "path": "DIAGNOSIS.md",
+      "sha256": "e3106d737f5b50a688d1d5147a015dc091d2986493848b68d33d61949dfa4cc3"
+    },
+    {
+      "git_blob_sha1": "4d580cb3019836bed6b4bd47b5a2a1145258dc5c",
+      "path": "IDEAS_02.md",
+      "sha256": "ac1ba738489abb11730dda6393a6263b06fa303a5f9e0eb63e4b6478fe845962"
+    },
+    {
+      "git_blob_sha1": "173ec9605b47ea382359f4e97bc4b52aa79e1a1e",
+      "path": "docs/P2_SECOND_OPERATION_SPECIFICATIONS_035.md",
+      "sha256": "25f3148827d22abbe587a6c2ff0c5a3ff2db1883f70e678f640f16d0f07a7c69"
+    },
+    {
+      "git_blob_sha1": "3fa9cf7fa0a0b7d3a78a4e4057193e3f63c5d34b",
+      "path": "reports/P3_SECOND_NOVELTY_AUDIT_036.md",
+      "sha256": "142b9b3080ec71b3046ae962e5c55992574ae6dac792d90c0b436778822c8e2b"
+    },
+    {
+      "git_blob_sha1": "f11e257c4aaff3cc5121a10f8c74bc824b152d3f",
+      "path": "docs/P3_COMPARISON_DESIGN_042.md",
+      "sha256": "597ad1981a90682eea3e8e0118bbea0c9268d2f2edb82a20bce8c1c018d593fb"
+    },
+    {
+      "git_blob_sha1": "669631c5d3f3cc36ed7ec1d48dc83720246aee12",
+      "path": "evidence/P3_SCIENTIFIC_VERDICT_ASSESSMENT_041.md",
+      "sha256": "d4a5e26406e1cc17d594ecb7d34b43172eca5cd317c1d735f4002d8a1b7d1429"
+    }
+  ],
+  "target_execution_admitted": false,
+  "target_experiment_started": false,
+  "validated_source_pins": [
+    {
+      "path": "configs/P3_PROFILE_CONTINUATION_044.json",
+      "sha256": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31"
+    },
+    {
+      "path": "configs/P3_PROFILE_FIXTURES_043.json",
+      "sha256": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b"
+    },
+    {
+      "path": "scripts/accounting043.py",
+      "sha256": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee"
+    },
+    {
+      "path": "scripts/profile043.py",
+      "sha256": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a"
+    },
+    {
+      "path": "scripts/profile044.py",
+      "sha256": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe"
+    },
+    {
+      "path": "scripts/reference_n1_043.py",
+      "sha256": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5"
+    },
+    {
+      "path": "scripts/reference_n3_043.py",
+      "sha256": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193"
+    },
+    {
+      "path": "tests/test_profile043.py",
+      "sha256": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5"
+    },
+    {
+      "path": "tests/test_profile044.py",
+      "sha256": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5"
+    },
+    {
+      "path": "tests/test_reference_n1_043.py",
+      "sha256": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2"
+    },
+    {
+      "path": "tests/test_reference_n3_043.py",
+      "sha256": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+    }
+  ],
+  "verified_utc": "2026-09-13T18:04:45.885766+00:00"
+}

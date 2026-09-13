@@ -1,0 +1,16 @@
+{
+  "kind": "P3_DIAGNOSTIC_SOURCE_FREEZE_045_v1",
+  "recorded_at": "2026-09-13T18:14:22.349709+00:00",
+  "source_hashes": {
+    "configs/P3_DIAGNOSTIC_FIXTURES_045.json": "aee461dd4994dbdc8f1e3f619945cfd70d0d8e04f06fa8586511908c9a1e26e3",
+    "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+    "scripts/check_diagnostics045.py": "cfdcbeb90f9eec548bcb7be9d9f10cdfaec35cad76bd61138cc95250c67930c4",
+    "scripts/diagnostics045.py": "d82855254880fe9d51242f98cea61b2813af7a5c62c36294a82786b86f2c0ed7",
+    "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+    "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+    "tests/test_diagnostics045.py": "499df88b079e923802cdce7526723e8786a24ab15619f5a19c8b806af2e49ea4"
+  },
+  "source_count": 7,
+  "execution_started": false,
+  "first_attempt_report": "work045/diagnostic_conformance_attempt01/REPORT.json"
+}

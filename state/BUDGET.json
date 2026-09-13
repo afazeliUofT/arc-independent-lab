@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-12T18:05:02.176727+00:00",
+  "updated_utc": "2026-09-13T18:15:33.237993+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -916,10 +916,24 @@
       "original043_reservation_preserved": true,
       "automatic_remeasurement": false,
       "outer_wall_seconds": 300,
-      "driver_wall_seconds": 270,
+      "driver_wall_seconds": 86.30829322210047,
       "cpu_affinity_count": 1,
       "address_space_bytes_per_process": 2147483648,
-      "invocation_totals_separate": true
+      "invocation_totals_separate": true,
+      "status": "consumed_actual044_profile_completed",
+      "actual_profile_launches": 1,
+      "completed_combined_rows": 27,
+      "actual_new_rows": 21,
+      "original043_rows_imported": 6,
+      "return_verification": {
+        "path": "evidence/P3_CHECKPOINT_044_RETURN_VERIFICATION_045.json",
+        "sha256": "130f81cdaf0479ed980bebff0e36459705a8bf956cb306ae9563aecb89e21421"
+      },
+      "wrapper_wall_seconds": 86.409102649,
+      "driver_cpu_seconds": 0.149682365,
+      "child_cpu_seconds": 89.165901,
+      "driver_peak_rss_bytes": 62668800,
+      "peak_child_rss_bytes": 38633472
     },
     "B_comp": null,
     "B_mem": null,
@@ -930,5 +944,54 @@
     "read_only_PI_audit_executions": 0,
     "handoff_tests_passed": 14,
     "complete_archive_seam_real_profile_worker_starts": 0
+  },
+  "checkpoint045_accounting": {
+    "hosted_consultants": [
+      "diagnostics045",
+      "resource045 (including read-only diagnostic audit)",
+      "science045",
+      "handoff045 (including nested read-only review_runner045)"
+    ],
+    "consultants_are_independent_reviewers": false,
+    "native_starts": 0,
+    "native_sent_turns": 0,
+    "new_native_allowance": 0,
+    "cumulative_native_starts": 18,
+    "cumulative_native_sent_turns": 14,
+    "hosted_full_resource_profile_runs": 0,
+    "target_experiment_runs": 0,
+    "gpu_or_hpc_jobs": 0,
+    "synthetic_handoff_tests": true,
+    "unattended_model_use": false,
+    "extra_spending": false,
+    "authoritative_hosted_allowance": null,
+    "backend_usage_or_charge": "unknown",
+    "future_development_conformance": {
+      "maximum_launches": 1,
+      "outer_wall_seconds": 300,
+      "inner_wall_seconds": 270,
+      "cpu_affinity_count": 1,
+      "address_space_bytes_per_process": 2147483648,
+      "automatic_rerun_permitted": false,
+      "required_case_families": 13,
+      "original043044_reservations_preserved": true
+    },
+    "B_comp": null,
+    "B_mem": null,
+    "complete_work_budget_admitted": false,
+    "target_experiment_admitted": false,
+    "hosted_actual_diagnostic_conformance_invocations": 1,
+    "hosted_actual_diagnostic_conformance_tests": 23,
+    "hosted_actual_diagnostic_conformance_metrics": {
+      "child_cpu_seconds": 0.0,
+      "process_cpu_seconds": 0.299734601,
+      "process_peak_rss_bytes": 21725184,
+      "scope": "045_CONFORMANCE_INVOCATION_ONLY",
+      "wall_seconds": 0.30063870200001475
+    },
+    "hosted_conformance_failure_count": 0,
+    "handoff_synthetic_tests_passed": 16,
+    "handoff_exact_runner_synthetic_suite_invocations_in_final_validation": 4,
+    "complete_archive_seam_actual_adapter_invocations": 0
   }
 }

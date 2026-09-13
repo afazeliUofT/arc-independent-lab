@@ -1,0 +1,1923 @@
+{
+  "analysis_date": "2026-09-13",
+  "completed_rows": 27,
+  "component_observations": [
+    {
+      "case": "n1_no_positive_gain",
+      "full_acquisition": false,
+      "maxima": {
+        "logical_retained_bytes": {
+          "setting_original_row_indices": [
+            0,
+            1,
+            2
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 1238
+        },
+        "logical_work": {
+          "setting_original_row_indices": [
+            0,
+            1,
+            2
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 487053464
+        },
+        "output_bytes": {
+          "setting_original_row_indices": [
+            0,
+            1,
+            2
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 7342
+        },
+        "peak_logical_retained_bytes": {
+          "setting_original_row_indices": [
+            0,
+            1,
+            2
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 1285548
+        },
+        "peak_rss_bytes": {
+          "setting_original_row_indices": [
+            2
+          ],
+          "setting_repetitions": [
+            2
+          ],
+          "value": 32219136
+        },
+        "process_cpu_seconds": {
+          "setting_original_row_indices": [
+            2
+          ],
+          "setting_repetitions": [
+            2
+          ],
+          "value": 0.6802315999999999
+        },
+        "wall_seconds": {
+          "setting_original_row_indices": [
+            2
+          ],
+          "setting_repetitions": [
+            2
+          ],
+          "value": 0.6470642030471936
+        }
+      },
+      "repetitions": [
+        {
+          "measurement_provenance": {
+            "baseline_git_commit": "f025d2ffe0745e40b2d6718293bfe5d72b54b7ba",
+            "baseline_report_sha256": "9de019e2d8649895627e7c25d1e46366f4e08c0c890404c3197da3bed0317f61",
+            "imported": true,
+            "original_row_canonical_sha256": "895c955dd6aaaf98a803445182c16e81314fdc0ffd60b5585e0b28b6c2f1ca1c",
+            "original_row_index": 0,
+            "release": "043",
+            "remeasured": false,
+            "source_hashes": {
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 1238,
+            "logical_work": 487053464,
+            "output_bytes": 7342,
+            "peak_logical_retained_bytes": 1285548,
+            "peak_rss_bytes": 32141312,
+            "process_cpu_seconds": 0.6717355770000001,
+            "wall_seconds": 0.6376102640060708
+          },
+          "original_row_index": 0,
+          "repetition": 0
+        },
+        {
+          "measurement_provenance": {
+            "baseline_git_commit": "f025d2ffe0745e40b2d6718293bfe5d72b54b7ba",
+            "baseline_report_sha256": "9de019e2d8649895627e7c25d1e46366f4e08c0c890404c3197da3bed0317f61",
+            "imported": true,
+            "original_row_canonical_sha256": "5db4cde103853d38862476e2c8d8ed34aa6a18217d30ab40677a74de07c5cfa4",
+            "original_row_index": 1,
+            "release": "043",
+            "remeasured": false,
+            "source_hashes": {
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 1238,
+            "logical_work": 487053464,
+            "output_bytes": 7342,
+            "peak_logical_retained_bytes": 1285548,
+            "peak_rss_bytes": 31272960,
+            "process_cpu_seconds": 0.6718174370000001,
+            "wall_seconds": 0.6398092670133337
+          },
+          "original_row_index": 1,
+          "repetition": 1
+        },
+        {
+          "measurement_provenance": {
+            "baseline_git_commit": "f025d2ffe0745e40b2d6718293bfe5d72b54b7ba",
+            "baseline_report_sha256": "9de019e2d8649895627e7c25d1e46366f4e08c0c890404c3197da3bed0317f61",
+            "imported": true,
+            "original_row_canonical_sha256": "26c25ff0e6beed672593b87a5666ff0fa562c6999802fdf07916b851b90113ff",
+            "original_row_index": 2,
+            "release": "043",
+            "remeasured": false,
+            "source_hashes": {
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 1238,
+            "logical_work": 487053464,
+            "output_bytes": 7342,
+            "peak_logical_retained_bytes": 1285548,
+            "peak_rss_bytes": 32219136,
+            "process_cpu_seconds": 0.6802315999999999,
+            "wall_seconds": 0.6470642030471936
+          },
+          "original_row_index": 2,
+          "repetition": 2
+        }
+      ],
+      "size": "small",
+      "status": "THREE_COMPLETED_COMPONENT_REPETITIONS"
+    },
+    {
+      "case": "n1_positive_selection",
+      "full_acquisition": false,
+      "maxima": {
+        "logical_retained_bytes": {
+          "setting_original_row_indices": [
+            3,
+            4,
+            5
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 1234
+        },
+        "logical_work": {
+          "setting_original_row_indices": [
+            3,
+            4,
+            5
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 166494946
+        },
+        "output_bytes": {
+          "setting_original_row_indices": [
+            3,
+            4
+          ],
+          "setting_repetitions": [
+            0,
+            1
+          ],
+          "value": 7350
+        },
+        "peak_logical_retained_bytes": {
+          "setting_original_row_indices": [
+            3,
+            4,
+            5
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 676302
+        },
+        "peak_rss_bytes": {
+          "setting_original_row_indices": [
+            3
+          ],
+          "setting_repetitions": [
+            0
+          ],
+          "value": 29253632
+        },
+        "process_cpu_seconds": {
+          "setting_original_row_indices": [
+            5
+          ],
+          "setting_repetitions": [
+            2
+          ],
+          "value": 0.184631425
+        },
+        "wall_seconds": {
+          "setting_original_row_indices": [
+            5
+          ],
+          "setting_repetitions": [
+            2
+          ],
+          "value": 0.17574528697878122
+        }
+      },
+      "repetitions": [
+        {
+          "measurement_provenance": {
+            "baseline_git_commit": "f025d2ffe0745e40b2d6718293bfe5d72b54b7ba",
+            "baseline_report_sha256": "9de019e2d8649895627e7c25d1e46366f4e08c0c890404c3197da3bed0317f61",
+            "imported": true,
+            "original_row_canonical_sha256": "7b9246b7cd797650d9fc57ce16669b87a6d6c2a1cb6793c2d5f8378e2cda86d7",
+            "original_row_index": 3,
+            "release": "043",
+            "remeasured": false,
+            "source_hashes": {
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 1234,
+            "logical_work": 166494946,
+            "output_bytes": 7350,
+            "peak_logical_retained_bytes": 676302,
+            "peak_rss_bytes": 29253632,
+            "process_cpu_seconds": 0.18051087300000002,
+            "wall_seconds": 0.17189864406827837
+          },
+          "original_row_index": 3,
+          "repetition": 0
+        },
+        {
+          "measurement_provenance": {
+            "baseline_git_commit": "f025d2ffe0745e40b2d6718293bfe5d72b54b7ba",
+            "baseline_report_sha256": "9de019e2d8649895627e7c25d1e46366f4e08c0c890404c3197da3bed0317f61",
+            "imported": true,
+            "original_row_canonical_sha256": "e61ec4714ffba215b27b93843af5a7047326e022150a539a25f680ccf13e7d31",
+            "original_row_index": 4,
+            "release": "043",
+            "remeasured": false,
+            "source_hashes": {
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 1234,
+            "logical_work": 166494946,
+            "output_bytes": 7350,
+            "peak_logical_retained_bytes": 676302,
+            "peak_rss_bytes": 29224960,
+            "process_cpu_seconds": 0.18057326599999998,
+            "wall_seconds": 0.17337422806303948
+          },
+          "original_row_index": 4,
+          "repetition": 1
+        },
+        {
+          "measurement_provenance": {
+            "baseline_git_commit": "f025d2ffe0745e40b2d6718293bfe5d72b54b7ba",
+            "baseline_report_sha256": "9de019e2d8649895627e7c25d1e46366f4e08c0c890404c3197da3bed0317f61",
+            "imported": true,
+            "original_row_canonical_sha256": "92e18e45b4f71f1eee26771033f458f6428a77edc0f25ed6186d19ce5dea6977",
+            "original_row_index": 5,
+            "release": "043",
+            "remeasured": false,
+            "source_hashes": {
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 1234,
+            "logical_work": 166494946,
+            "output_bytes": 7342,
+            "peak_logical_retained_bytes": 676302,
+            "peak_rss_bytes": 29200384,
+            "process_cpu_seconds": 0.184631425,
+            "wall_seconds": 0.17574528697878122
+          },
+          "original_row_index": 5,
+          "repetition": 2
+        }
+      ],
+      "size": "small",
+      "status": "THREE_COMPLETED_COMPONENT_REPETITIONS"
+    },
+    {
+      "case": "n3_proposal_and_credit",
+      "full_acquisition": false,
+      "maxima": {
+        "logical_retained_bytes": {
+          "setting_original_row_indices": [
+            6,
+            7,
+            8
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 576
+        },
+        "logical_work": {
+          "setting_original_row_indices": [
+            6,
+            7,
+            8
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 25849021
+        },
+        "output_bytes": {
+          "setting_original_row_indices": [
+            6,
+            7
+          ],
+          "setting_repetitions": [
+            0,
+            1
+          ],
+          "value": 6634
+        },
+        "peak_logical_retained_bytes": {
+          "setting_original_row_indices": [
+            6,
+            7,
+            8
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 16799004
+        },
+        "peak_rss_bytes": {
+          "setting_original_row_indices": [
+            8
+          ],
+          "setting_repetitions": [
+            2
+          ],
+          "value": 25661440
+        },
+        "process_cpu_seconds": {
+          "setting_original_row_indices": [
+            6
+          ],
+          "setting_repetitions": [
+            0
+          ],
+          "value": 0.033316482999999994
+        },
+        "wall_seconds": {
+          "setting_original_row_indices": [
+            7
+          ],
+          "setting_repetitions": [
+            1
+          ],
+          "value": 0.031426848960109055
+        }
+      },
+      "repetitions": [
+        {
+          "measurement_provenance": {
+            "imported": false,
+            "new_invocation_attempt_reserved": true,
+            "original043_status": "FAILED_CONFORMANCE",
+            "original_row_index": 6,
+            "release": "044",
+            "source_hashes": {
+              "configs/P3_PROFILE_CONTINUATION_044.json": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31",
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/profile044.py": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_profile044.py": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 576,
+            "logical_work": 25849021,
+            "output_bytes": 6634,
+            "peak_logical_retained_bytes": 16799004,
+            "peak_rss_bytes": 25624576,
+            "process_cpu_seconds": 0.033316482999999994,
+            "wall_seconds": 0.031084079993888736
+          },
+          "original_row_index": 6,
+          "repetition": 0
+        },
+        {
+          "measurement_provenance": {
+            "imported": false,
+            "new_invocation_attempt_reserved": true,
+            "original043_status": "NOT_STARTED",
+            "original_row_index": 7,
+            "release": "044",
+            "source_hashes": {
+              "configs/P3_PROFILE_CONTINUATION_044.json": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31",
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/profile044.py": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_profile044.py": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 576,
+            "logical_work": 25849021,
+            "output_bytes": 6634,
+            "peak_logical_retained_bytes": 16799004,
+            "peak_rss_bytes": 25657344,
+            "process_cpu_seconds": 0.029164695999999997,
+            "wall_seconds": 0.031426848960109055
+          },
+          "original_row_index": 7,
+          "repetition": 1
+        },
+        {
+          "measurement_provenance": {
+            "imported": false,
+            "new_invocation_attempt_reserved": true,
+            "original043_status": "NOT_STARTED",
+            "original_row_index": 8,
+            "release": "044",
+            "source_hashes": {
+              "configs/P3_PROFILE_CONTINUATION_044.json": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31",
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/profile044.py": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_profile044.py": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 576,
+            "logical_work": 25849021,
+            "output_bytes": 6633,
+            "peak_logical_retained_bytes": 16799004,
+            "peak_rss_bytes": 25661440,
+            "process_cpu_seconds": 0.029164241999999993,
+            "wall_seconds": 0.03064889507368207
+          },
+          "original_row_index": 8,
+          "repetition": 2
+        }
+      ],
+      "size": "small",
+      "status": "THREE_COMPLETED_COMPONENT_REPETITIONS"
+    },
+    {
+      "case": "n1_no_positive_gain",
+      "full_acquisition": false,
+      "maxima": {
+        "logical_retained_bytes": {
+          "setting_original_row_indices": [
+            9,
+            10,
+            11
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 1238
+        },
+        "logical_work": {
+          "setting_original_row_indices": [
+            9,
+            10,
+            11
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 4764748293
+        },
+        "output_bytes": {
+          "setting_original_row_indices": [
+            11
+          ],
+          "setting_repetitions": [
+            2
+          ],
+          "value": 7484
+        },
+        "peak_logical_retained_bytes": {
+          "setting_original_row_indices": [
+            9,
+            10,
+            11
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 1285548
+        },
+        "peak_rss_bytes": {
+          "setting_original_row_indices": [
+            9
+          ],
+          "setting_repetitions": [
+            0
+          ],
+          "value": 32899072
+        },
+        "process_cpu_seconds": {
+          "setting_original_row_indices": [
+            11
+          ],
+          "setting_repetitions": [
+            2
+          ],
+          "value": 6.0156065320000005
+        },
+        "wall_seconds": {
+          "setting_original_row_indices": [
+            11
+          ],
+          "setting_repetitions": [
+            2
+          ],
+          "value": 5.7759996770182624
+        }
+      },
+      "repetitions": [
+        {
+          "measurement_provenance": {
+            "imported": false,
+            "new_invocation_attempt_reserved": true,
+            "original043_status": "NOT_STARTED",
+            "original_row_index": 9,
+            "release": "044",
+            "source_hashes": {
+              "configs/P3_PROFILE_CONTINUATION_044.json": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31",
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/profile044.py": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_profile044.py": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 1238,
+            "logical_work": 4764748293,
+            "output_bytes": 7475,
+            "peak_logical_retained_bytes": 1285548,
+            "peak_rss_bytes": 32899072,
+            "process_cpu_seconds": 5.742219663,
+            "wall_seconds": 5.51755501201842
+          },
+          "original_row_index": 9,
+          "repetition": 0
+        },
+        {
+          "measurement_provenance": {
+            "imported": false,
+            "new_invocation_attempt_reserved": true,
+            "original043_status": "NOT_STARTED",
+            "original_row_index": 10,
+            "release": "044",
+            "source_hashes": {
+              "configs/P3_PROFILE_CONTINUATION_044.json": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31",
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/profile044.py": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_profile044.py": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 1238,
+            "logical_work": 4764748293,
+            "output_bytes": 7483,
+            "peak_logical_retained_bytes": 1285548,
+            "peak_rss_bytes": 32571392,
+            "process_cpu_seconds": 5.8959022039999995,
+            "wall_seconds": 5.667006733943708
+          },
+          "original_row_index": 10,
+          "repetition": 1
+        },
+        {
+          "measurement_provenance": {
+            "imported": false,
+            "new_invocation_attempt_reserved": true,
+            "original043_status": "NOT_STARTED",
+            "original_row_index": 11,
+            "release": "044",
+            "source_hashes": {
+              "configs/P3_PROFILE_CONTINUATION_044.json": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31",
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/profile044.py": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_profile044.py": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 1238,
+            "logical_work": 4764748293,
+            "output_bytes": 7484,
+            "peak_logical_retained_bytes": 1285548,
+            "peak_rss_bytes": 32858112,
+            "process_cpu_seconds": 6.0156065320000005,
+            "wall_seconds": 5.7759996770182624
+          },
+          "original_row_index": 11,
+          "repetition": 2
+        }
+      ],
+      "size": "typical",
+      "status": "THREE_COMPLETED_COMPONENT_REPETITIONS"
+    },
+    {
+      "case": "n1_positive_selection",
+      "full_acquisition": false,
+      "maxima": {
+        "logical_retained_bytes": {
+          "setting_original_row_indices": [
+            12,
+            13,
+            14
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 1234
+        },
+        "logical_work": {
+          "setting_original_row_indices": [
+            12,
+            13,
+            14
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 1182177056
+        },
+        "output_bytes": {
+          "setting_original_row_indices": [
+            12,
+            13,
+            14
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 7444
+        },
+        "peak_logical_retained_bytes": {
+          "setting_original_row_indices": [
+            12,
+            13,
+            14
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 676302
+        },
+        "peak_rss_bytes": {
+          "setting_original_row_indices": [
+            14
+          ],
+          "setting_repetitions": [
+            2
+          ],
+          "value": 29200384
+        },
+        "process_cpu_seconds": {
+          "setting_original_row_indices": [
+            12
+          ],
+          "setting_repetitions": [
+            0
+          ],
+          "value": 1.129380726
+        },
+        "wall_seconds": {
+          "setting_original_row_indices": [
+            12
+          ],
+          "setting_repetitions": [
+            0
+          ],
+          "value": 1.0854168200166896
+        }
+      },
+      "repetitions": [
+        {
+          "measurement_provenance": {
+            "imported": false,
+            "new_invocation_attempt_reserved": true,
+            "original043_status": "NOT_STARTED",
+            "original_row_index": 12,
+            "release": "044",
+            "source_hashes": {
+              "configs/P3_PROFILE_CONTINUATION_044.json": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31",
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/profile044.py": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_profile044.py": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 1234,
+            "logical_work": 1182177056,
+            "output_bytes": 7444,
+            "peak_logical_retained_bytes": 676302,
+            "peak_rss_bytes": 29073408,
+            "process_cpu_seconds": 1.129380726,
+            "wall_seconds": 1.0854168200166896
+          },
+          "original_row_index": 12,
+          "repetition": 0
+        },
+        {
+          "measurement_provenance": {
+            "imported": false,
+            "new_invocation_attempt_reserved": true,
+            "original043_status": "NOT_STARTED",
+            "original_row_index": 13,
+            "release": "044",
+            "source_hashes": {
+              "configs/P3_PROFILE_CONTINUATION_044.json": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31",
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/profile044.py": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_profile044.py": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 1234,
+            "logical_work": 1182177056,
+            "output_bytes": 7444,
+            "peak_logical_retained_bytes": 676302,
+            "peak_rss_bytes": 29073408,
+            "process_cpu_seconds": 1.123311523,
+            "wall_seconds": 1.0822338999714702
+          },
+          "original_row_index": 13,
+          "repetition": 1
+        },
+        {
+          "measurement_provenance": {
+            "imported": false,
+            "new_invocation_attempt_reserved": true,
+            "original043_status": "NOT_STARTED",
+            "original_row_index": 14,
+            "release": "044",
+            "source_hashes": {
+              "configs/P3_PROFILE_CONTINUATION_044.json": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31",
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/profile044.py": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_profile044.py": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 1234,
+            "logical_work": 1182177056,
+            "output_bytes": 7444,
+            "peak_logical_retained_bytes": 676302,
+            "peak_rss_bytes": 29200384,
+            "process_cpu_seconds": 1.120984617,
+            "wall_seconds": 1.0768914999207482
+          },
+          "original_row_index": 14,
+          "repetition": 2
+        }
+      ],
+      "size": "typical",
+      "status": "THREE_COMPLETED_COMPONENT_REPETITIONS"
+    },
+    {
+      "case": "n3_proposal_and_credit",
+      "full_acquisition": false,
+      "maxima": {
+        "logical_retained_bytes": {
+          "setting_original_row_indices": [
+            15,
+            16,
+            17
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 579
+        },
+        "logical_work": {
+          "setting_original_row_indices": [
+            15,
+            16,
+            17
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 93395973
+        },
+        "output_bytes": {
+          "setting_original_row_indices": [
+            15,
+            16
+          ],
+          "setting_repetitions": [
+            0,
+            1
+          ],
+          "value": 6836
+        },
+        "peak_logical_retained_bytes": {
+          "setting_original_row_indices": [
+            15,
+            16,
+            17
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 16804706
+        },
+        "peak_rss_bytes": {
+          "setting_original_row_indices": [
+            16
+          ],
+          "setting_repetitions": [
+            1
+          ],
+          "value": 28041216
+        },
+        "process_cpu_seconds": {
+          "setting_original_row_indices": [
+            16
+          ],
+          "setting_repetitions": [
+            1
+          ],
+          "value": 0.09581936600000002
+        },
+        "wall_seconds": {
+          "setting_original_row_indices": [
+            16
+          ],
+          "setting_repetitions": [
+            1
+          ],
+          "value": 0.09125909698195755
+        }
+      },
+      "repetitions": [
+        {
+          "measurement_provenance": {
+            "imported": false,
+            "new_invocation_attempt_reserved": true,
+            "original043_status": "NOT_STARTED",
+            "original_row_index": 15,
+            "release": "044",
+            "source_hashes": {
+              "configs/P3_PROFILE_CONTINUATION_044.json": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31",
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/profile044.py": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_profile044.py": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 579,
+            "logical_work": 93395973,
+            "output_bytes": 6836,
+            "peak_logical_retained_bytes": 16804706,
+            "peak_rss_bytes": 28000256,
+            "process_cpu_seconds": 0.09166977700000001,
+            "wall_seconds": 0.08874667505733669
+          },
+          "original_row_index": 15,
+          "repetition": 0
+        },
+        {
+          "measurement_provenance": {
+            "imported": false,
+            "new_invocation_attempt_reserved": true,
+            "original043_status": "NOT_STARTED",
+            "original_row_index": 16,
+            "release": "044",
+            "source_hashes": {
+              "configs/P3_PROFILE_CONTINUATION_044.json": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31",
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/profile044.py": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_profile044.py": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 579,
+            "logical_work": 93395973,
+            "output_bytes": 6836,
+            "peak_logical_retained_bytes": 16804706,
+            "peak_rss_bytes": 28041216,
+            "process_cpu_seconds": 0.09581936600000002,
+            "wall_seconds": 0.09125909698195755
+          },
+          "original_row_index": 16,
+          "repetition": 1
+        },
+        {
+          "measurement_provenance": {
+            "imported": false,
+            "new_invocation_attempt_reserved": true,
+            "original043_status": "NOT_STARTED",
+            "original_row_index": 17,
+            "release": "044",
+            "source_hashes": {
+              "configs/P3_PROFILE_CONTINUATION_044.json": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31",
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/profile044.py": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_profile044.py": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 579,
+            "logical_work": 93395973,
+            "output_bytes": 6827,
+            "peak_logical_retained_bytes": 16804706,
+            "peak_rss_bytes": 28012544,
+            "process_cpu_seconds": 0.09166087,
+            "wall_seconds": 0.08908341196365654
+          },
+          "original_row_index": 17,
+          "repetition": 2
+        }
+      ],
+      "size": "typical",
+      "status": "THREE_COMPLETED_COMPONENT_REPETITIONS"
+    },
+    {
+      "case": "n1_no_positive_gain",
+      "full_acquisition": false,
+      "maxima": {
+        "logical_retained_bytes": {
+          "setting_original_row_indices": [
+            18,
+            19,
+            20
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 1240
+        },
+        "logical_work": {
+          "setting_original_row_indices": [
+            18,
+            19,
+            20
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 16930821097
+        },
+        "output_bytes": {
+          "setting_original_row_indices": [
+            19,
+            20
+          ],
+          "setting_repetitions": [
+            1,
+            2
+          ],
+          "value": 7531
+        },
+        "peak_logical_retained_bytes": {
+          "setting_original_row_indices": [
+            18,
+            19,
+            20
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 1369788
+        },
+        "peak_rss_bytes": {
+          "setting_original_row_indices": [
+            20
+          ],
+          "setting_repetitions": [
+            2
+          ],
+          "value": 33792000
+        },
+        "process_cpu_seconds": {
+          "setting_original_row_indices": [
+            19
+          ],
+          "setting_repetitions": [
+            1
+          ],
+          "value": 18.707356845
+        },
+        "wall_seconds": {
+          "setting_original_row_indices": [
+            19
+          ],
+          "setting_repetitions": [
+            1
+          ],
+          "value": 17.956168574048206
+        }
+      },
+      "repetitions": [
+        {
+          "measurement_provenance": {
+            "imported": false,
+            "new_invocation_attempt_reserved": true,
+            "original043_status": "NOT_STARTED",
+            "original_row_index": 18,
+            "release": "044",
+            "source_hashes": {
+              "configs/P3_PROFILE_CONTINUATION_044.json": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31",
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/profile044.py": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_profile044.py": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 1240,
+            "logical_work": 16930821097,
+            "output_bytes": 7530,
+            "peak_logical_retained_bytes": 1369788,
+            "peak_rss_bytes": 33673216,
+            "process_cpu_seconds": 18.470532943,
+            "wall_seconds": 17.72929515002761
+          },
+          "original_row_index": 18,
+          "repetition": 0
+        },
+        {
+          "measurement_provenance": {
+            "imported": false,
+            "new_invocation_attempt_reserved": true,
+            "original043_status": "NOT_STARTED",
+            "original_row_index": 19,
+            "release": "044",
+            "source_hashes": {
+              "configs/P3_PROFILE_CONTINUATION_044.json": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31",
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/profile044.py": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_profile044.py": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 1240,
+            "logical_work": 16930821097,
+            "output_bytes": 7531,
+            "peak_logical_retained_bytes": 1369788,
+            "peak_rss_bytes": 33599488,
+            "process_cpu_seconds": 18.707356845,
+            "wall_seconds": 17.956168574048206
+          },
+          "original_row_index": 19,
+          "repetition": 1
+        },
+        {
+          "measurement_provenance": {
+            "imported": false,
+            "new_invocation_attempt_reserved": true,
+            "original043_status": "NOT_STARTED",
+            "original_row_index": 20,
+            "release": "044",
+            "source_hashes": {
+              "configs/P3_PROFILE_CONTINUATION_044.json": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31",
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/profile044.py": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_profile044.py": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 1240,
+            "logical_work": 16930821097,
+            "output_bytes": 7531,
+            "peak_logical_retained_bytes": 1369788,
+            "peak_rss_bytes": 33792000,
+            "process_cpu_seconds": 18.236289826,
+            "wall_seconds": 17.503408694989048
+          },
+          "original_row_index": 20,
+          "repetition": 2
+        }
+      ],
+      "size": "largest",
+      "status": "THREE_COMPLETED_COMPONENT_REPETITIONS"
+    },
+    {
+      "case": "n1_positive_selection",
+      "full_acquisition": false,
+      "maxima": {
+        "logical_retained_bytes": {
+          "setting_original_row_indices": [
+            21,
+            22,
+            23
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 1240
+        },
+        "logical_work": {
+          "setting_original_row_indices": [
+            21,
+            22,
+            23
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 3683672455
+        },
+        "output_bytes": {
+          "setting_original_row_indices": [
+            21,
+            22
+          ],
+          "setting_repetitions": [
+            0,
+            1
+          ],
+          "value": 7489
+        },
+        "peak_logical_retained_bytes": {
+          "setting_original_row_indices": [
+            21,
+            22,
+            23
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 676302
+        },
+        "peak_rss_bytes": {
+          "setting_original_row_indices": [
+            22
+          ],
+          "setting_repetitions": [
+            1
+          ],
+          "value": 29073408
+        },
+        "process_cpu_seconds": {
+          "setting_original_row_indices": [
+            22
+          ],
+          "setting_repetitions": [
+            1
+          ],
+          "value": 3.406917529
+        },
+        "wall_seconds": {
+          "setting_original_row_indices": [
+            23
+          ],
+          "setting_repetitions": [
+            2
+          ],
+          "value": 3.270826647989452
+        }
+      },
+      "repetitions": [
+        {
+          "measurement_provenance": {
+            "imported": false,
+            "new_invocation_attempt_reserved": true,
+            "original043_status": "NOT_STARTED",
+            "original_row_index": 21,
+            "release": "044",
+            "source_hashes": {
+              "configs/P3_PROFILE_CONTINUATION_044.json": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31",
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/profile044.py": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_profile044.py": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 1240,
+            "logical_work": 3683672455,
+            "output_bytes": 7489,
+            "peak_logical_retained_bytes": 676302,
+            "peak_rss_bytes": 29061120,
+            "process_cpu_seconds": 3.398490749,
+            "wall_seconds": 3.2628493290394545
+          },
+          "original_row_index": 21,
+          "repetition": 0
+        },
+        {
+          "measurement_provenance": {
+            "imported": false,
+            "new_invocation_attempt_reserved": true,
+            "original043_status": "NOT_STARTED",
+            "original_row_index": 22,
+            "release": "044",
+            "source_hashes": {
+              "configs/P3_PROFILE_CONTINUATION_044.json": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31",
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/profile044.py": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_profile044.py": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 1240,
+            "logical_work": 3683672455,
+            "output_bytes": 7489,
+            "peak_logical_retained_bytes": 676302,
+            "peak_rss_bytes": 29073408,
+            "process_cpu_seconds": 3.406917529,
+            "wall_seconds": 3.2705179860349745
+          },
+          "original_row_index": 22,
+          "repetition": 1
+        },
+        {
+          "measurement_provenance": {
+            "imported": false,
+            "new_invocation_attempt_reserved": true,
+            "original043_status": "NOT_STARTED",
+            "original_row_index": 23,
+            "release": "044",
+            "source_hashes": {
+              "configs/P3_PROFILE_CONTINUATION_044.json": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31",
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/profile044.py": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_profile044.py": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 1240,
+            "logical_work": 3683672455,
+            "output_bytes": 7488,
+            "peak_logical_retained_bytes": 676302,
+            "peak_rss_bytes": 29048832,
+            "process_cpu_seconds": 3.403068938,
+            "wall_seconds": 3.270826647989452
+          },
+          "original_row_index": 23,
+          "repetition": 2
+        }
+      ],
+      "size": "largest",
+      "status": "THREE_COMPLETED_COMPONENT_REPETITIONS"
+    },
+    {
+      "case": "n3_proposal_and_credit",
+      "full_acquisition": false,
+      "maxima": {
+        "logical_retained_bytes": {
+          "setting_original_row_indices": [
+            24,
+            25,
+            26
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 582
+        },
+        "logical_work": {
+          "setting_original_row_indices": [
+            24,
+            25,
+            26
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 404585239
+        },
+        "output_bytes": {
+          "setting_original_row_indices": [
+            25
+          ],
+          "setting_repetitions": [
+            1
+          ],
+          "value": 6875
+        },
+        "peak_logical_retained_bytes": {
+          "setting_original_row_indices": [
+            24,
+            25,
+            26
+          ],
+          "setting_repetitions": [
+            0,
+            1,
+            2
+          ],
+          "value": 16816142
+        },
+        "peak_rss_bytes": {
+          "setting_original_row_indices": [
+            24
+          ],
+          "setting_repetitions": [
+            0
+          ],
+          "value": 38633472
+        },
+        "process_cpu_seconds": {
+          "setting_original_row_indices": [
+            26
+          ],
+          "setting_repetitions": [
+            2
+          ],
+          "value": 0.31255448599999996
+        },
+        "wall_seconds": {
+          "setting_original_row_indices": [
+            24
+          ],
+          "setting_repetitions": [
+            0
+          ],
+          "value": 0.30025333096273243
+        }
+      },
+      "repetitions": [
+        {
+          "measurement_provenance": {
+            "imported": false,
+            "new_invocation_attempt_reserved": true,
+            "original043_status": "NOT_STARTED",
+            "original_row_index": 24,
+            "release": "044",
+            "source_hashes": {
+              "configs/P3_PROFILE_CONTINUATION_044.json": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31",
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/profile044.py": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_profile044.py": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 582,
+            "logical_work": 404585239,
+            "output_bytes": 6867,
+            "peak_logical_retained_bytes": 16816142,
+            "peak_rss_bytes": 38633472,
+            "process_cpu_seconds": 0.312520866,
+            "wall_seconds": 0.30025333096273243
+          },
+          "original_row_index": 24,
+          "repetition": 0
+        },
+        {
+          "measurement_provenance": {
+            "imported": false,
+            "new_invocation_attempt_reserved": true,
+            "original043_status": "NOT_STARTED",
+            "original_row_index": 25,
+            "release": "044",
+            "source_hashes": {
+              "configs/P3_PROFILE_CONTINUATION_044.json": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31",
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/profile044.py": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_profile044.py": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 582,
+            "logical_work": 404585239,
+            "output_bytes": 6875,
+            "peak_logical_retained_bytes": 16816142,
+            "peak_rss_bytes": 38608896,
+            "process_cpu_seconds": 0.30423963400000004,
+            "wall_seconds": 0.29320274794008583
+          },
+          "original_row_index": 25,
+          "repetition": 1
+        },
+        {
+          "measurement_provenance": {
+            "imported": false,
+            "new_invocation_attempt_reserved": true,
+            "original043_status": "NOT_STARTED",
+            "original_row_index": 26,
+            "release": "044",
+            "source_hashes": {
+              "configs/P3_PROFILE_CONTINUATION_044.json": "0a36696a6f390d8b3692088caf1c159aab6020e457ed71c465d1321bff801b31",
+              "configs/P3_PROFILE_FIXTURES_043.json": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+              "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+              "scripts/profile043.py": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+              "scripts/profile044.py": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+              "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+              "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+              "tests/test_profile043.py": "fd92ad9f18c0691614a80195630276e51f1d0d35158fc1ac1dfe6f4d28ef2ce5",
+              "tests/test_profile044.py": "41b11082a693fa86a4a4332e83c0b8c4597f868417c4905acd30eed68c53e5b5",
+              "tests/test_reference_n1_043.py": "a2cdb07120bed3ce07fbac55a1658d74d6b84b0a12f6a70a657ee89cb9e589c2",
+              "tests/test_reference_n3_043.py": "cb4e643eb979de550ae7a8020d119a85d68eb6b9dabaa0bff0bb843189e85342"
+            }
+          },
+          "metrics": {
+            "logical_retained_bytes": 582,
+            "logical_work": 404585239,
+            "output_bytes": 6874,
+            "peak_logical_retained_bytes": 16816142,
+            "peak_rss_bytes": 38612992,
+            "process_cpu_seconds": 0.31255448599999996,
+            "wall_seconds": 0.2975815179524943
+          },
+          "original_row_index": 26,
+          "repetition": 2
+        }
+      ],
+      "size": "largest",
+      "status": "THREE_COMPLETED_COMPONENT_REPETITIONS"
+    }
+  ],
+  "conditional_cardinality_envelope": {
+    "complete_candidate_passes": 249,
+    "completed_recipes_with_warmup": 55,
+    "completed_scored_trials": 50,
+    "grammar_candidates": 3002,
+    "interpretation": "Object/work-loop envelopes under the existing stop graph; not scientific work/memory/time admission",
+    "macro_words": 45,
+    "proposal_assemblies": 39,
+    "raw_proposals_per_acquisition": 1081080,
+    "raw_proposals_per_assembly": 27720,
+    "retained_transitions": 245,
+    "selected_predicates": 4
+  },
+  "conservative_prospective_panel_counts": {
+    "N1_replays": 960,
+    "acquisition_arms": 4,
+    "acquisitions": 960,
+    "decisions_per_readout": 20,
+    "maximum_P_decomposition_predictions_per_acquisition": 300,
+    "maximum_acquisition_environment_calls": 273600,
+    "maximum_five_action_prediction_evaluations": 768000,
+    "maximum_readout_decisions": 153600,
+    "maximum_readout_environment_calls_if_each_has_own_11_call_evaluation": 1689600,
+    "maximum_readouts_per_acquisition_including_N1_readers_and_four_deletions": 8,
+    "scope": "Conservative planning counts; required/conditional diagnostic coverage must be fixed in final manifest; no cases executed",
+    "worlds": 240
+  },
+  "further_papers_required_for_this_dependency": false,
+  "imported043_completed_rows": 6,
+  "kind": "P3_RESOURCE_OBSERVATIONS_045_v1",
+  "limitations": [
+    "Component observations do not establish a validated complete-work budget or runtime projection",
+    "Meter memory values are owner reservations, not exact Python allocations; interrupted state may be conservatively reserved and not sealed",
+    "The 2 GiB address-space limit is per process; RSS is measured separately and aggregate process-tree RSS is not capped by a cgroup",
+    "Largest denotes declared fixture cardinality, not a proof of maximal proposal geometry or arithmetic bit lengths",
+    "Host contention is uncontrolled and neither quiet nor contended execution is established",
+    "The combined27-row table has two source versions; imported043 rows are not measurements of patched044 source",
+    "Aggregate metrics describe this044 invocation only; original043 invocation metrics are reported separately",
+    "A failed043 row is attempted under a new explicit044 continuation reservation, never by resetting043",
+    "N1 no-gain case has one conflicting group; repeated passes do not bound all group geometry",
+    "Positive N1 case has one selected predicate and1769 grammar candidates",
+    "N3 protocol subcases use S1/K0 and14/15calls; large library parents/macros have length<=3 and constructed credit denominators<=45",
+    "Complete diagnostics, retention overlap, interruption finalization and archival evidence remain separate validation dependencies"
+  ],
+  "method": "Read original JSON and exact source; group by declared case/size; preserve each repeat and maxima identities; scalar arithmetic only",
+  "new044_completed_rows": 21,
+  "no_learner_or_profile_executed_by_this_analysis": true,
+  "original043_failed_attempt_preserved": true,
+  "original_report_status": "PROFILE_COMPLETED",
+  "resource_decision": {
+    "B_comp": null,
+    "B_mem": null,
+    "complete_work_budget_admitted": false,
+    "current045_route": "LAPTOP_BOUNDED_CONFORMANCE",
+    "current045_work": "Missing diagnostic adapters and bounded conformance; no new full resource profile",
+    "full_comparison_route": "UNDECIDED_PENDING_VALIDATED_COMPLETE_WORK_PROJECTION",
+    "future_grid_audit_fraction": {
+      "denominator": 4,
+      "numerator": 1
+    },
+    "future_required_reserve_factor": 2,
+    "target_execution_admitted": false
+  },
+  "returned_usage": {
+    "044_driver": {
+      "child_cpu_seconds": 89.165901,
+      "driver_peak_rss_bytes": 62668800,
+      "driver_process_cpu_seconds": 0.149682365,
+      "peak_child_rss_bytes": 38633472,
+      "scope": "044_INVOCATION_ONLY_EXCLUDES_IMPORTED_043_MEASUREMENTS",
+      "wall_seconds": 86.30829322210047
+    },
+    "044_wrapper": {
+      "available_cpu_count": 16,
+      "child_start_observed": true,
+      "exit_code": 0,
+      "parent_death_signal_requested": true,
+      "process_group_kill_attempted": false,
+      "selected_cpu_count": 1,
+      "stderr": {
+        "bytes": 0,
+        "content_published": false,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 182,
+        "content_published": false,
+        "sha256": "09d32aa5b2028defb93ab2c3ba57ea199234b2ff37cb2488f205f783c6cc1a92"
+      },
+      "termination": "EXITED",
+      "wall_seconds": 86.409102649
+    },
+    "separate_invocations": {
+      "continuation044": {
+        "child_cpu_seconds": 89.165901,
+        "driver_peak_rss_bytes": 62668800,
+        "driver_process_cpu_seconds": 0.149682365,
+        "peak_child_rss_bytes": 38633472,
+        "scope": "044_INVOCATION_ONLY_EXCLUDES_IMPORTED_043_MEASUREMENTS",
+        "wall_seconds": 86.30829322210047
+      },
+      "original043": {
+        "aggregate_metrics": {
+          "child_cpu_seconds": 3.054977,
+          "driver_peak_rss_bytes": 61739008,
+          "driver_process_cpu_seconds": 0.020362721,
+          "peak_child_rss_bytes": 32530432,
+          "wall_seconds": 3.0756373710464686
+        },
+        "host": {
+          "ambient_conditions": "UNCONTROLLED_NOT_CLASSIFIED_QUIET_OR_CONTENDED",
+          "platform": "linux",
+          "python": "3.12.3"
+        },
+        "wrapper_execution": {
+          "available_cpu_count": 16,
+          "child_start_observed": true,
+          "exit_code": 0,
+          "parent_death_signal_requested": true,
+          "process_group_kill_attempted": false,
+          "selected_cpu_count": 1,
+          "stderr": {
+            "bytes": 0,
+            "content_published": false,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "stdout": {
+            "bytes": 134,
+            "content_published": false,
+            "sha256": "9e2eb77ce991ddae995d6c0ff1c015284814748e030505b029bc390490fb9a84"
+          },
+          "termination": "EXITED",
+          "wall_seconds": 3.172950293
+        }
+      }
+    }
+  },
+  "source_commit": "16976d8db11475f85ad2e96e5be786c1d4d50776",
+  "source_pins": [
+    {
+      "access_date": "2026-09-13",
+      "bytes": 306154,
+      "path": "artifacts/CHECKPOINT_044_RETURN/bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c/REPORT.json",
+      "sha256": "6452875d2bd3947e0a8aede3aa89c9c8db19985ffc38c80a4b9aa10a086d6cad",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/16976d8db11475f85ad2e96e5be786c1d4d50776/artifacts/CHECKPOINT_044_RETURN/bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c/REPORT.json"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 33317,
+      "path": "docs/P3_COMPARISON_DESIGN_042.md",
+      "sha256": "597ad1981a90682eea3e8e0118bbea0c9268d2f2edb82a20bce8c1c018d593fb",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/16976d8db11475f85ad2e96e5be786c1d4d50776/docs/P3_COMPARISON_DESIGN_042.md"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 27126,
+      "path": "docs/P3_N1_N3_SUCCESSOR_COMPARISON_041.md",
+      "sha256": "70424ad00f17056b1508a46e385b75496a7c25f51d5bb648377995761da4cef5",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/16976d8db11475f85ad2e96e5be786c1d4d50776/docs/P3_N1_N3_SUCCESSOR_COMPARISON_041.md"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 5483,
+      "path": "configs/P3_CALIBRATION_DESIGN_042.json",
+      "sha256": "bd892bf72027ddb3d3ebdee979e4304cad5e36766a87d240acd32d11d783ee5f",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/16976d8db11475f85ad2e96e5be786c1d4d50776/configs/P3_CALIBRATION_DESIGN_042.json"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 12861,
+      "path": "docs/P3_REFERENCE_ACCOUNTING_043.md",
+      "sha256": "b300d7f29454687fb8537f3d32127f94dc55245be07be06f8875156775cf6ace",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/16976d8db11475f85ad2e96e5be786c1d4d50776/docs/P3_REFERENCE_ACCOUNTING_043.md"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 5625,
+      "path": "docs/P3_PROFILE_PROTOCOL_043.md",
+      "sha256": "cb91c0c45e7a3ba98d3906f7552f4cb22b03f1e5c24d12e7c8f2090fb2bc94c9",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/16976d8db11475f85ad2e96e5be786c1d4d50776/docs/P3_PROFILE_PROTOCOL_043.md"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 23130,
+      "path": "evidence/P3_RESOURCE_FEASIBILITY_043.md",
+      "sha256": "562303c980e48f0bc2dd82568207488f2c066fce26cdf944a20deae3738f60b1",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/16976d8db11475f85ad2e96e5be786c1d4d50776/evidence/P3_RESOURCE_FEASIBILITY_043.md"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 1505,
+      "path": "evidence/P3_RESOURCE_FEASIBILITY_CORRECTION_043.md",
+      "sha256": "861fd712a2c479537ada6f266015ffef398abda880d8f7dd28beaf7688bd3b73",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/16976d8db11475f85ad2e96e5be786c1d4d50776/evidence/P3_RESOURCE_FEASIBILITY_CORRECTION_043.md"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 5931,
+      "path": "configs/P3_PROFILE_FIXTURES_043.json",
+      "sha256": "b7d23fc3491e224f8c780c906b4bd8897ef8cacc91f0a4c57b63866d5d0dd93b",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/16976d8db11475f85ad2e96e5be786c1d4d50776/configs/P3_PROFILE_FIXTURES_043.json"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 9032,
+      "path": "scripts/accounting043.py",
+      "sha256": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/16976d8db11475f85ad2e96e5be786c1d4d50776/scripts/accounting043.py"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 30382,
+      "path": "scripts/reference_n1_043.py",
+      "sha256": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/16976d8db11475f85ad2e96e5be786c1d4d50776/scripts/reference_n1_043.py"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 32194,
+      "path": "scripts/reference_n3_043.py",
+      "sha256": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/16976d8db11475f85ad2e96e5be786c1d4d50776/scripts/reference_n3_043.py"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 24409,
+      "path": "scripts/profile043.py",
+      "sha256": "f0234916a6a7e456037c7298c35b1b9a9dc9700537a3e29df0e1b66e9de75d3a",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/16976d8db11475f85ad2e96e5be786c1d4d50776/scripts/profile043.py"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 22548,
+      "path": "scripts/profile044.py",
+      "sha256": "f3943f8ceee09f62bb169ea688f427b2687a56e7f86dff15f30fdd958b99e2fe",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/16976d8db11475f85ad2e96e5be786c1d4d50776/scripts/profile044.py"
+    }
+  ],
+  "status": "COMPONENT_EVIDENCE_ACCEPTED_COMPLETE_WORK_NOT_ADMITTED",
+  "usage_boundary": {
+    "cumulative_model_turns_sent": 14,
+    "cumulative_native_starts": 18,
+    "hosted_PI_consultation_is_independent_review": false,
+    "hosted_PI_usage_meter_available": false,
+    "model_turns_sent": 0,
+    "native_starts": 0,
+    "new_full_resource_profiles": 0,
+    "target_experiments": 0
+  }
+}

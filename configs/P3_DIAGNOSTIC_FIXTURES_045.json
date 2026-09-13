@@ -1,0 +1,29 @@
+{
+  "kind": "P3_DIAGNOSTIC_FIXTURES_045_v1",
+  "frozen_before_first_execution": true,
+  "scope": "Fabricated deterministic adapter conformance; no target world or panel",
+  "acquisition": {
+    "W": 1, "S": 1, "actions": [0, 1], "observation_alphabets": [[0, 1]],
+    "L": 3, "V": 2, "q": 4, "snapshot_reservation_bytes": 10000000,
+    "constant_complete": {"K": 0, "B_env": 9},
+    "constant_partial": {"K": 0, "B_env": 8},
+    "fresh_predicate": {"K": 1, "B_env": 9, "primitive_outcomes": [0, 0, 0, 1, 0, 0], "expected_credit": [7, 144]},
+    "reset_arrival": {"K": 0, "B_env": 9, "reset_outcomes": [0, 1, 0]},
+    "pending_validation": {"K": 0, "B_env": 9, "deny_first_category": "n3_brier_outcome"},
+    "pending_issued": {"K": 0, "B_env": 9, "interrupt_first_primitive": true}
+  },
+  "reader": {
+    "W": 2, "S": 3, "K": 4,
+    "actions": [0, 1, 2, 3, 4], "observation_alphabets": [[0, 1]],
+    "histories": [[[0], [0]], [[1], [0]]],
+    "past_action": 0,
+    "transitions": [{"history": 0, "action": 0, "outcome": [0]}, {"history": 1, "action": 0, "outcome": [1]}],
+    "predicates": [[0, [0, 0, 0, 1], [1, 0, 0]], [0, [0, 0, 0, 1], [1, 0, 1]]],
+    "goal": [1],
+    "selected_prediction_goal": [2, 3],
+    "empty_prediction_goal": [1, 2]
+  },
+  "required_case_families": ["prescribed_partition", "all_predicate_deletions", "order_0_1_2", "exact_five_action_chooser", "count_only_credit_gate", "fresh_predicate_brier_identity", "partial_validation", "reset_arrival", "pending_validation", "pending_issued", "replay_tamper", "nonnumeric_unavailability", "accounting_refusal"],
+  "target_experiment_admission": false,
+  "complete_work_profile": false
+}
