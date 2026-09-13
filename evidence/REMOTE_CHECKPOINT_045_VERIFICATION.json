@@ -1,0 +1,312 @@
+{
+  "kind": "P3_REMOTE_CONTENT_VERIFICATION_045_v1",
+  "repository": "afazeliUofT/arc-independent-lab",
+  "accepted_return_commit": "16976d8db11475f85ad2e96e5be786c1d4d50776",
+  "content_commit": "1bee703248248b7624d989d5c18a85c646341ef3",
+  "tree_sha": "228f95580b532b44335fc537722dd4072b50d6c9",
+  "changed_files_verified": [
+    {
+      "path": "configs/P3_DIAGNOSTIC_FIXTURES_045.json",
+      "sha256": "aee461dd4994dbdc8f1e3f619945cfd70d0d8e04f06fa8586511908c9a1e26e3",
+      "git_blob_sha": "4b9188868573e9824c005088bad5d459fa0567ca",
+      "bytes": 1657,
+      "exact_text_readback": true
+    },
+    {
+      "path": "docs/P3_DIAGNOSTIC_ADAPTERS_045.md",
+      "sha256": "5bc72c59ab8453f7f0b6debc664df0b4814fe3ddf195d8551d278b85598ecb33",
+      "git_blob_sha": "bbe0c6937724386ba6949300bffff430362a6887",
+      "bytes": 9264,
+      "exact_text_readback": true
+    },
+    {
+      "path": "docs/P3_EXECUTION_045.md",
+      "sha256": "bcc5f5029d95a26b90593eb6176ba6d0fa0c306940d44dd097b078582f3cb9a0",
+      "git_blob_sha": "dc459de098b16c7962a67590ed414fbbdba15aa7",
+      "bytes": 2611,
+      "exact_text_readback": true
+    },
+    {
+      "path": "docs/P3_RESEARCH_PRIORITIES_045.md",
+      "sha256": "6e8ab50cd4061bc07386420cb5cdb698fb55dc947e80bedc4abd453dc5db51b9",
+      "git_blob_sha": "72158d471acaefc883999387528c2788fccf1587",
+      "bytes": 17601,
+      "exact_text_readback": true
+    },
+    {
+      "path": "evidence/P3_CHECKPOINT_044_RETURN_VERIFICATION_045.json",
+      "sha256": "130f81cdaf0479ed980bebff0e36459705a8bf956cb306ae9563aecb89e21421",
+      "git_blob_sha": "8257e150c80c88fe6415a577c318b01b13022b6a",
+      "bytes": 30059,
+      "exact_text_readback": true
+    },
+    {
+      "path": "evidence/P3_CHECKPOINT_045_MANIFEST.json",
+      "sha256": "9685b38ec4c503e4944a1c3ae5d63c2ed6247541ef97bf85bcc78d9d9bf72e25",
+      "git_blob_sha": "5ae7dd3c8a5a1abbdce541797127658ca45bab96",
+      "bytes": 65475,
+      "exact_text_readback": true
+    },
+    {
+      "path": "evidence/P3_COMPLETE_PACKAGE_VALIDATION_045.json",
+      "sha256": "e2c62cfa81dc18fbde49973b0f879f5d57c4ea1634ab5b660e7780b590620215",
+      "git_blob_sha": "adb2c14bc5b1f57752cda6fcfe69fe7e63d97019",
+      "bytes": 2699,
+      "exact_text_readback": true
+    },
+    {
+      "path": "evidence/P3_COMPLETE_WORK_COVERAGE_045.md",
+      "sha256": "486b1004155685c844b796ea26ab5ca37b2fa09eff55c04264501f0151ac465b",
+      "git_blob_sha": "b55ccee4183e53fba9ff3204b23391493b899f9f",
+      "bytes": 12416,
+      "exact_text_readback": true
+    },
+    {
+      "path": "evidence/P3_DEVELOPMENT_EXECUTION_PLAN_045.md",
+      "sha256": "ce9f7cba304ea4c4c00639e857ee802f7887846e175e2cbec4279fcedbca1298",
+      "git_blob_sha": "964c9afc5072f90d3ee00d51b43bbd221a05eedb",
+      "bytes": 3058,
+      "exact_text_readback": true
+    },
+    {
+      "path": "evidence/P3_DIAGNOSTIC_CONFORMANCE_045.json",
+      "sha256": "c0c4020bbb092b390e1976f3d9cc0c842df7a6fa2f750586a8e8486c7954cbcc",
+      "git_blob_sha": "d5a189f98c554cf7d6b850f09c9fec4e3abe71db",
+      "bytes": 70229,
+      "exact_text_readback": true
+    },
+    {
+      "path": "evidence/P3_DIAGNOSTIC_SOURCE_FREEZE_045.json",
+      "sha256": "c8e17df2f53c70a5d59e59cfe1f95e00e8209d8b50b6594506e276579f1da4fb",
+      "git_blob_sha": "452d4e0c99fe034eba070b458649a08a18bb36ee",
+      "bytes": 995,
+      "exact_text_readback": true
+    },
+    {
+      "path": "evidence/P3_HANDOFF_VALIDATION_045.json",
+      "sha256": "13686c608c8d4a16e00f761c4d42c619da93d9662971e3f7585353b139e06b43",
+      "git_blob_sha": "404ef4dd9ecd852b5158c521bb31478ca77b3be4",
+      "bytes": 6591,
+      "exact_text_readback": true
+    },
+    {
+      "path": "evidence/P3_RESOURCE_OBSERVATIONS_045.json",
+      "sha256": "da3825b38cbf7ced08ee8bc45f4949609068d5b496357d53498cef777b6c5807",
+      "git_blob_sha": "27c964c8d0297bac7cdd0b6f8945cb10b7dff633",
+      "bytes": 81205,
+      "exact_text_readback": true
+    },
+    {
+      "path": "reports/DIGEST_2026-09-13.md",
+      "sha256": "e98eb66945d2c3411d972d7bf65cf1b118b8aaf2ccf53b545e81a86c04a6b105",
+      "git_blob_sha": "4fc8d4d06e570e1080496a9dc961bfeb2a487d79",
+      "bytes": 1674,
+      "exact_text_readback": true
+    },
+    {
+      "path": "reports/P3_RETURN_044_AND_DIAGNOSTIC_ROUTE_045.md",
+      "sha256": "868d089b2289e60a1b59ae46ac5f04bd92e5e800c0b7f46028b28322ac968414",
+      "git_blob_sha": "2116ec6fb330d61ac459a4288b3636d5901d170b",
+      "bytes": 6462,
+      "exact_text_readback": true
+    },
+    {
+      "path": "scripts/check_diagnostics045.py",
+      "sha256": "cfdcbeb90f9eec548bcb7be9d9f10cdfaec35cad76bd61138cc95250c67930c4",
+      "git_blob_sha": "c1d86aa7cbb99a21ba6b2463b5aaa28830b6c51b",
+      "bytes": 10645,
+      "exact_text_readback": true
+    },
+    {
+      "path": "scripts/checkpoint045_workflow.py",
+      "sha256": "fe89211e29758ff87bdc80792ef9b19ea9941ee84975226b2fe2703f928ec18c",
+      "git_blob_sha": "be5b7e11def9cc5ae42a17be1fc1829fca0e067e",
+      "bytes": 39209,
+      "exact_text_readback": true
+    },
+    {
+      "path": "scripts/diagnostics045.py",
+      "sha256": "d82855254880fe9d51242f98cea61b2813af7a5c62c36294a82786b86f2c0ed7",
+      "git_blob_sha": "c538fd967baa190384110ed90a451331a5f5bb30",
+      "bytes": 30662,
+      "exact_text_readback": true
+    },
+    {
+      "path": "scripts/downloads_bootstrap045.py",
+      "sha256": "a38a7aa57c73d166cddce4a2fd5f7c644396088cfec077bfbfe86513782af1ef",
+      "git_blob_sha": "631f7cabe1739a9927f0e677b93a1ff74256064c",
+      "bytes": 2739,
+      "exact_text_readback": true
+    },
+    {
+      "path": "scripts/launch045_home.py",
+      "sha256": "5d853832b1f333dfa92bd04a751b1493e1d1e600d396cc06fe4ab72f90237256",
+      "git_blob_sha": "218a970ce5b59efca06c850583d083f37e0a12a0",
+      "bytes": 10271,
+      "exact_text_readback": true
+    },
+    {
+      "path": "state/BUDGET.json",
+      "sha256": "92ce6bab3b165b3019d0a31dcc3eec51e416585fc515f759303436c951aa528b",
+      "git_blob_sha": "b2681942d056ff9586a4c438584315084e09adde",
+      "bytes": 41061,
+      "exact_text_readback": true
+    },
+    {
+      "path": "state/LEDGER.jsonl",
+      "sha256": "9e3f49fe253ba6e8006f84d84e08da0556d047339d384cb55d78b9e14a5d0796",
+      "git_blob_sha": "4245dde8f549588dfbc4b0709c1bd4935519156f",
+      "bytes": 223261,
+      "exact_text_readback": true
+    },
+    {
+      "path": "state/PROJECT_STATE.json",
+      "sha256": "a54b7ddc4f543fbfcad2abb093276fe8f7060c93525c57b6adb4d1fcdb1778f8",
+      "git_blob_sha": "303f283040bc53916276d0475309219d61ecbc5e",
+      "bytes": 70273,
+      "exact_text_readback": true
+    },
+    {
+      "path": "state/tool_errors.jsonl",
+      "sha256": "8b599d38dfa8b648e08d787060a590ebd0b59edf454c76203e3c09de04d3232a",
+      "git_blob_sha": "592cd741fc671446d1ef356af809c6d1e64ba059",
+      "bytes": 160572,
+      "exact_text_readback": true
+    },
+    {
+      "path": "tests/test_checkpoint045_handoff.py",
+      "sha256": "0fc3f099e6f9ea09c693ba0ffb94fbb406f722107e33b8a6f5aa287bc154da1c",
+      "git_blob_sha": "4f2a3783b63ae87a9d943bd6249dacfb0bfd0d9d",
+      "bytes": 26541,
+      "exact_text_readback": true
+    },
+    {
+      "path": "tests/test_diagnostics045.py",
+      "sha256": "499df88b079e923802cdce7526723e8786a24ab15619f5a19c8b806af2e49ea4",
+      "git_blob_sha": "c6d018d3f5df5464e0f0e054699b54047fd9e583",
+      "bytes": 22650,
+      "exact_text_readback": true
+    }
+  ],
+  "prior_blobs": 1532,
+  "current_blobs": 1554,
+  "additions": 22,
+  "modified_prior_files": 3,
+  "all_undeclared_prior_blobs_and_modes_preserved": true,
+  "no_native_or_target_execution": true,
+  "access_date": "2026-09-13",
+  "verified_utc": "2026-09-13T18:20:04.027416+00:00",
+  "final_package": {
+    "accepted044_report_receipt_and_11_source_bytes_verified": true,
+    "conformance_tests_passed": 23,
+    "diagnostic_source_pins": [
+      {
+        "path": "configs/P3_DIAGNOSTIC_FIXTURES_045.json",
+        "sha256": "aee461dd4994dbdc8f1e3f619945cfd70d0d8e04f06fa8586511908c9a1e26e3"
+      },
+      {
+        "path": "scripts/accounting043.py",
+        "sha256": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee"
+      },
+      {
+        "path": "scripts/check_diagnostics045.py",
+        "sha256": "cfdcbeb90f9eec548bcb7be9d9f10cdfaec35cad76bd61138cc95250c67930c4"
+      },
+      {
+        "path": "scripts/diagnostics045.py",
+        "sha256": "d82855254880fe9d51242f98cea61b2813af7a5c62c36294a82786b86f2c0ed7"
+      },
+      {
+        "path": "scripts/reference_n1_043.py",
+        "sha256": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5"
+      },
+      {
+        "path": "scripts/reference_n3_043.py",
+        "sha256": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193"
+      },
+      {
+        "path": "tests/test_diagnostics045.py",
+        "sha256": "499df88b079e923802cdce7526723e8786a24ab15619f5a19c8b806af2e49ea4"
+      }
+    ],
+    "expected_receipt_kind": "P3_CHECKPOINT_045_DIAGNOSTIC_CONFORMANCE_RECEIPT_v1",
+    "expected_report_kind": "P3_DIAGNOSTIC_CONFORMANCE_EXECUTION_045_v1",
+    "expected_return_paths": [
+      "artifacts/CHECKPOINT_045_RETURN/9685b38ec4c503e4944a1c3ae5d63c2ed6247541ef97bf85bcc78d9d9bf72e25/REPORT.json",
+      "artifacts/CHECKPOINT_045_RETURN/9685b38ec4c503e4944a1c3ae5d63c2ed6247541ef97bf85bcc78d9d9bf72e25/RECEIPT.json"
+    ],
+    "final_hash_verification_did_not_launch_conformance": true,
+    "final_source_closure_matches_first_23_test_conformance": true,
+    "full_work_or_target_admission": false,
+    "handoff_source_pins": [
+      {
+        "path": "scripts/checkpoint045_workflow.py",
+        "sha256": "fe89211e29758ff87bdc80792ef9b19ea9941ee84975226b2fe2703f928ec18c"
+      },
+      {
+        "path": "scripts/launch045_home.py",
+        "sha256": "5d853832b1f333dfa92bd04a751b1493e1d1e600d396cc06fe4ab72f90237256"
+      },
+      {
+        "path": "scripts/downloads_bootstrap045.py",
+        "sha256": "a38a7aa57c73d166cddce4a2fd5f7c644396088cfec077bfbfe86513782af1ef"
+      },
+      {
+        "path": "scripts/check_diagnostics045.py",
+        "sha256": "cfdcbeb90f9eec548bcb7be9d9f10cdfaec35cad76bd61138cc95250c67930c4"
+      },
+      {
+        "path": "tests/test_checkpoint045_handoff.py",
+        "sha256": "0fc3f099e6f9ea09c693ba0ffb94fbb406f722107e33b8a6f5aa287bc154da1c"
+      }
+    ],
+    "handoff_synthetic_tests_passed": 16,
+    "inventory_crc_member_bytes_and_private_pins_verified": true,
+    "kind": "P3_FINAL_PACKAGE_VERIFICATION_045_v1",
+    "limits": [
+      "Actual WSL and GitHub authentication are not executed by hosted fixture verification.",
+      "Hosted finite conformance is correctness evidence, not a full comparison resource budget or target performance result.",
+      "Frozen043 trace omits some interrupted computation progress; final-update replay can be unavailable.",
+      "Source separation and owner reservations do not certify comprehensive OS isolation or all live allocations."
+    ],
+    "members": 412,
+    "model_turns_sent": 0,
+    "native_starts": 0,
+    "new_full_resource_profile_executed_here": false,
+    "new_laptop_conformance_invocation_pending": true,
+    "original043044_reservations_consumed_and_not_reset": true,
+    "private_packet_files_verified": 172,
+    "public_git_objects_verified": 234,
+    "release": {
+      "accepted_return_commit": "16976d8db11475f85ad2e96e5be786c1d4d50776",
+      "content_commit": "1bee703248248b7624d989d5c18a85c646341ef3",
+      "kind": "P3_CHECKPOINT_045_RELEASE_v1",
+      "manifest_path": "evidence/P3_CHECKPOINT_045_MANIFEST.json",
+      "manifest_sha256": "9685b38ec4c503e4944a1c3ae5d63c2ed6247541ef97bf85bcc78d9d9bf72e25",
+      "repository": "afazeliUofT/arc-independent-lab"
+    },
+    "required_case_families": [
+      "prescribed_partition",
+      "all_predicate_deletions",
+      "order_0_1_2",
+      "exact_five_action_chooser",
+      "count_only_credit_gate",
+      "fresh_predicate_brier_identity",
+      "partial_validation",
+      "reset_arrival",
+      "pending_validation",
+      "pending_issued",
+      "replay_tamper",
+      "nonnumeric_unavailability",
+      "accounting_refusal"
+    ],
+    "target_experiment_started": false,
+    "zip_bytes": 26645365,
+    "zip_sha256": "d9d2b0acd73353709078fa1a254e5d59a9361dcc05686e0ae4252b378b3f4633"
+  },
+  "one_complete_zip_saved": true,
+  "new_laptop_conformance_pending": true,
+  "no_new_native_allowance": true,
+  "final_artifact_reference": "ARC_Independent_Lab_045.zip",
+  "metadata_self_hash_policy": "The immutable content manifest and ZIP pin the content commit. This later publication record is outside the ZIP to avoid a self-hash cycle; it changes no runtime input and launches no conformance or profile."
+}

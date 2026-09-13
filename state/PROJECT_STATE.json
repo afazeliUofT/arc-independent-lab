@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-13T18:15:33.237993+00:00",
+  "updated_utc": "2026-09-13T18:20:04.027416+00:00",
   "current_gate": "P3",
   "gate_status": "in_progress",
   "gate_entered_utc": "2026-09-10T23:29:11.766050+00:00",
   "last_verified_gate": "P3.second_candidate_focused_analytical_assessment",
-  "last_verified_commit": "16976d8db11475f85ad2e96e5be786c1d4d50776",
+  "last_verified_commit": "1bee703248248b7624d989d5c18a85c646341ef3",
   "active_task": "P3.diagnostics045.conformance",
   "blocked_on": null,
   "next_action": "Run once-only045 fabricated diagnostic conformance and publish its full report/receipt. Evaluate return; then consolidate complete-work acquisition/diagnostic profiling coverage before choosing B_comp/B_mem, laptop versus Alliance, or target admission.",
@@ -80,8 +80,8 @@
     "P2.second_pass_after_reviewed_negative_audit"
   ],
   "remote": "https://github.com/afazeliUofT/arc-independent-lab",
-  "durability_status": "Full044 GitHub return verified against exact11source pins,27rows and original043 provenance. Exactly two return files added;1530 prior blobs/modes preserved.045 publication pending.",
-  "commit_status": "045 content and final ZIP verification pending.",
+  "durability_status": "045 content published and all26allowlistedfiles read back exactly;22new and3modified prior files, with unchanged tool-errors included in snapshot. Every undeclared prior blob/mode preserved. Complete412member ZIP saved;234publicGitobjects and172privatepacketfiles verified. Exact7sourceclosure matches first23test/all13family conformance;16synthetichandoff tests andcompleteZIPseam passed. Laptop conformance pending.",
+  "commit_status": "045 content release verified; separate publication/state commit records final ZIP identity without changing pinned runtime inputs.",
   "recovery_dependency": null,
   "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation.",
   "latest_recovery_evidence": [
@@ -139,10 +139,10 @@
       "sha256": "1995e36a9f8e5f9f201d9b63ba8a7c39400f3e8e0046009a1c59973c2023188e"
     }
   ],
-  "handoff_backup_status": "One complete045 ZIP and one WSL-home command; one new bounded conformance invocation, full REPORT/RECEIPT, publication retries without rerun.",
+  "handoff_backup_status": "One complete045 ZIP saved; one WSL-home command reserves a single bounded conformance run, then publishes fullREPORT+RECEIPT.300soutercap; repeated command reuses first execution evidence.",
   "latest_publication_verification": {
-    "path": "evidence/REMOTE_CHECKPOINT_044_VERIFICATION.json",
-    "sha256": "c5d6be03b9335a7fa84ea87e30d361558a905a5bccbf7cac7b00ab96a93590b4"
+    "path": "evidence/REMOTE_CHECKPOINT_045_VERIFICATION.json",
+    "sha256": "94e7627031511a6c73abb24fe6f4880df379b3142ccf4185676827ebc5013fa0"
   },
   "last_human_message_verbatim": "Proceed with the next planned step",
   "phase1_approval": {
@@ -712,7 +712,7 @@
     }
   },
   "latest_objective_status": "Original interactive acquisition, retention across discontinuities and useful recombination remain the research objective.042 is a deliberately limited calibration, not programme completion.",
-  "current_publication_checkpoint": "044_published_verified",
+  "current_publication_checkpoint": "045_published_verified",
   "auxiliary_auditor_receipt_durability": {
     "status": "verified_published_on_main",
     "commit": "296cf94b9e692f4ddbee5c554fc87aaa5a298e60",
@@ -851,22 +851,35 @@
   "original_initial_prompt_now_visible": true,
   "latest_continuation_zip": {
     "filename": "ARC_Independent_Lab_045.zip",
-    "status": "prepared_final_publication_and_checksum_pending",
+    "sha256": "d9d2b0acd73353709078fa1a254e5d59a9361dcc05686e0ae4252b378b3f4633",
+    "bytes": 26645365,
+    "members": 412,
+    "content_commit": "1bee703248248b7624d989d5c18a85c646341ef3",
+    "release_manifest": "evidence/P3_CHECKPOINT_045_MANIFEST.json",
+    "manifest_sha256": "9685b38ec4c503e4944a1c3ae5d63c2ed6247541ef97bf85bcc78d9d9bf72e25",
+    "saved": true,
     "one_wsl_home_downloads_command": true,
     "private_papers_included": true,
     "original044_return_included": true,
     "native_execution_pending": false,
     "target_experiment_pending": false,
     "development_profile_continuation_pending": false,
-    "development_diagnostic_conformance_pending": true
+    "development_diagnostic_conformance_pending": true,
+    "maximum_diagnostic_launches": 1,
+    "required_case_families": 13,
+    "planned_tests": 23,
+    "expected_return_paths": [
+      "artifacts/CHECKPOINT_045_RETURN/9685b38ec4c503e4944a1c3ae5d63c2ed6247541ef97bf85bcc78d9d9bf72e25/REPORT.json",
+      "artifacts/CHECKPOINT_045_RETURN/9685b38ec4c503e4944a1c3ae5d63c2ed6247541ef97bf85bcc78d9d9bf72e25/RECEIPT.json"
+    ]
   },
   "handoff_preference_source": {
     "path": "docs/USER_HANDOFF_PREFERENCES_2026-09-11.md",
     "sha256": "de04d0f73a57aef52330b3b5dba7c790c3bbd2def8a4e589b50d6dd239cfd944"
   },
   "latest_handoff_publication_verification": {
-    "path": "evidence/REMOTE_CHECKPOINT_044_VERIFICATION.json",
-    "sha256": "c5d6be03b9335a7fa84ea87e30d361558a905a5bccbf7cac7b00ab96a93590b4"
+    "path": "evidence/REMOTE_CHECKPOINT_045_VERIFICATION.json",
+    "sha256": "94e7627031511a6c73abb24fe6f4880df379b3142ccf4185676827ebc5013fa0"
   },
   "latest_source_packet_return": {
     "path": "evidence/P3_SOURCE_PACKET_RETURN_VERIFICATION_039.json",
@@ -1250,7 +1263,7 @@
     "publication_succeeded": true
   },
   "checkpoint045": {
-    "status": "diagnostic_release_prepared",
+    "status": "published_verified_diagnostic_conformance_ready",
     "accepted_return_commit": "16976d8db11475f85ad2e96e5be786c1d4d50776",
     "decision": "Implement missing attribution diagnostics, then one bounded fabricated conformance; no new full resource profile.",
     "resource_assessment": {
@@ -1328,6 +1341,15 @@
         "path": "evidence/P3_RESOURCE_OBSERVATIONS_045.json",
         "sha256": "da3825b38cbf7ced08ee8bc45f4949609068d5b496357d53498cef777b6c5807"
       }
-    ]
+    ],
+    "publication_verification": {
+      "path": "evidence/REMOTE_CHECKPOINT_045_VERIFICATION.json",
+      "sha256": "94e7627031511a6c73abb24fe6f4880df379b3142ccf4185676827ebc5013fa0"
+    },
+    "expected_return_paths": [
+      "artifacts/CHECKPOINT_045_RETURN/9685b38ec4c503e4944a1c3ae5d63c2ed6247541ef97bf85bcc78d9d9bf72e25/REPORT.json",
+      "artifacts/CHECKPOINT_045_RETURN/9685b38ec4c503e4944a1c3ae5d63c2ed6247541ef97bf85bcc78d9d9bf72e25/RECEIPT.json"
+    ],
+    "future_report_retrieval": "Read full045REPORT directly from GitHub; verify receipt, exact7sources, all23named outcomes and13families, original044 source/receipt, separate process usage and once-onlyreservation. DIAGNOSTICS_COMPLETED is conformance, not independent verdict or full-work/target admission. Original043044 profiles must not rerun."
   }
 }
