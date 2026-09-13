@@ -1,0 +1,496 @@
+{
+  "actual_resource_profile_starts": 0,
+  "attempts": [
+    {
+      "attempt": 1,
+      "evidence": {
+        "actual_learner_starts": 0,
+        "actual_resource_profile_starts": 0,
+        "automatic_rerun_permitted": false,
+        "complete_work_budget_admitted": false,
+        "kind": "P3_HANDOFF_VALIDATION_046_v1",
+        "model_turns_sent": 0,
+        "native_starts": 0,
+        "scope": "Synthetic48rowreports/localGit/publicationrecovery/tinyprocessfixtures; no actual profile or learner execution",
+        "source_fixture_limitations": [
+          "Profile046 and fullwork046 source placeholders are explicit synthetic bytes where absent; complete ZIP seam will check actual pinned8source closure",
+          "Synthetic resource outcomes verify provenance and publication, not physical resource performance",
+          "Suite total wall reported by unittest; process CPU/RSS and hosted token cost not measured in this invocation"
+        ],
+        "source_hashes": {
+          "scripts/checkpoint046_workflow.py": "33282917370188fb141d681ebe218e0dbf8f02b5bf0a3990b1779027d8b83c6d",
+          "scripts/downloads_bootstrap046.py": "1b0a95768a1e12b3413dfeaca5b3b1e33739e42847d4fe6f87b2ec230c8f549d",
+          "scripts/launch046_home.py": "9b24587b6b2f27a9d7e11e7de3f459939aa8201a2eade127007477f57742ba4a",
+          "scripts/stage_source_packet038.py": "7f84bc94511f1e94ccb62d5593276cf663b011d8a03eccbfebaf123914af23a2",
+          "tests/test_checkpoint046_handoff.py": "b1b7826fa54545267ff6007d61d4312b8abffb76d20064bc5cafe836971c3875"
+        },
+        "status": "PASSED",
+        "stdout_bytes": 3807,
+        "stdout_sha256": "d1a628cbe6299f4847d8a8046464cafdf0fb1fcba83d801578df464c00c85b5a",
+        "suite_reported_wall_seconds": 9.465,
+        "synthetic_process_starts": 2,
+        "target_experiment_started": false,
+        "test_outcomes": [
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_accepted045_return_is_preserved_and_changed_baseline_refused",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_actual_extracted_launcher_recovers_push_without_reexecution",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_changed_source_pin_publishes_rejection_without_poisoning_saved_state",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_changed_staged_output_is_preserved_without_second_profile",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_child_with_remeasurement_claim_refused",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_complete_profile_requires_every_distinct_row_and_successful_conformance",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_downloads_registry_resolution_handles_spaces_and_duplicate_names",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_exact_remote_report_reused_without_local_saved_cache",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_failed_commit_and_push_never_reexecute_profile",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_false_wrapper_completion_and_changed_invocation_accounting_refused",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_malformed_outcome_is_published_as_rejected_bytes_once",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_one_reservation_preserves_full_report_and_exact_repeat",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_partial_child_report_survives_interruption_and_publication_retry",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_published_incomplete_is_successful_command_with_clear_receipt",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_reservation_without_report_returns_interrupted_and_never_relaunches",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_synthetic_child_uses_real_process_caps_and_wall_stop",
+            "status": "PASSED"
+          }
+        ],
+        "tests_run": 16
+      },
+      "evidence_sha256": "763bfe8ee8f495072aa56db275328a039b0550c8c4ee59aae6c5af338f9b8b86",
+      "reason_for_next_gate": "Initial synthetic transport; actual driver schema subsequently established"
+    },
+    {
+      "attempt": 2,
+      "evidence": {
+        "actual_learner_starts": 0,
+        "actual_resource_profile_starts": 0,
+        "complete_work_budget_admitted": false,
+        "kind": "P3_HANDOFF_VALIDATION_046_v1",
+        "limitations": [
+          "All48 resource rows and conformance outcomes in handoff fixtures are explicitly synthetic",
+          "Complete ZIP seam separately checks final actual eight-file profile closure without executing it",
+          "Hosted backend token usage and cost are unknown"
+        ],
+        "metrics": {
+          "descendant_cpu_seconds": 9.270121999999999,
+          "output_bytes": 3808,
+          "peak_child_rss_bytes": 25300992,
+          "scope": "FINAL046_HANDOFF_GATE_INVOCATION_ONLY",
+          "wall_seconds": 11.847207079999862
+        },
+        "model_turns_sent": 0,
+        "native_starts": 0,
+        "operational_limits": {
+          "affinity_cpu_count": 1,
+          "outer_wall_seconds": 300,
+          "per_process_address_space_bytes": 2147483648
+        },
+        "output_sha256": "7014287198cbe7ab8f3030b1c5996f7a0af295fff062f439524e21f60b9987ef",
+        "prior_attempt": {
+          "path": "handoff_validation_attempt01.json",
+          "reason_for_final_gate": "Actual046 driver schema uses nested conformance worker and nullable incremental aggregate metrics; wrapper validation and cap assertions updated",
+          "status": "PASSED",
+          "tests_run": 16
+        },
+        "scope": "Synthetic48row reports/local Git/publication recovery/tiny process fixtures; no actual profile or learner execution",
+        "source_bytes_unchanged_after_gate": true,
+        "source_hashes": {
+          "scripts/checkpoint046_workflow.py": "0a7bd62cc40f76f940188eab5e5a2e57859dcb11efefcd2577a8b72be69c0612",
+          "scripts/downloads_bootstrap046.py": "1b0a95768a1e12b3413dfeaca5b3b1e33739e42847d4fe6f87b2ec230c8f549d",
+          "scripts/launch046_home.py": "9b24587b6b2f27a9d7e11e7de3f459939aa8201a2eade127007477f57742ba4a",
+          "scripts/stage_source_packet038.py": "7f84bc94511f1e94ccb62d5593276cf663b011d8a03eccbfebaf123914af23a2",
+          "tests/test_checkpoint046_handoff.py": "0ae5aa48aa20c96da9e2eb5ad73133daff57ca0f23d5e7e4f4ef5b076dea1c4f"
+        },
+        "status": "PASSED",
+        "synthetic_process_starts": 2,
+        "target_experiment_started": false,
+        "test_outcomes": [
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_accepted045_return_is_preserved_and_changed_baseline_refused",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_actual_extracted_launcher_recovers_push_without_reexecution",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_changed_source_pin_publishes_rejection_without_poisoning_saved_state",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_changed_staged_output_is_preserved_without_second_profile",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_child_with_remeasurement_claim_refused",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_complete_profile_requires_every_distinct_row_and_successful_conformance",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_downloads_registry_resolution_handles_spaces_and_duplicate_names",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_exact_remote_report_reused_without_local_saved_cache",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_failed_commit_and_push_never_reexecute_profile",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_false_wrapper_completion_and_changed_invocation_accounting_refused",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_malformed_outcome_is_published_as_rejected_bytes_once",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_one_reservation_preserves_full_report_and_exact_repeat",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_partial_child_report_survives_interruption_and_publication_retry",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_published_incomplete_is_successful_command_with_clear_receipt",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_reservation_without_report_returns_interrupted_and_never_relaunches",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_synthetic_child_uses_real_process_caps_and_wall_stop",
+            "status": "PASSED"
+          }
+        ],
+        "tests_run": 16
+      },
+      "evidence_sha256": "596b20225067be720e2621e150429cf3783ab51501a04be810497b127c82788c",
+      "reason_for_next_gate": "Nested conformance and incremental metrics aligned; complete evidence archive transport then added"
+    },
+    {
+      "attempt": 3,
+      "evidence": {
+        "actual_learner_starts": 0,
+        "actual_resource_profile_starts": 0,
+        "complete_work_budget_admitted": false,
+        "kind": "P3_HANDOFF_VALIDATION_046_v1",
+        "limitations": [
+          "All48 resource rows and conformance outcomes in handoff fixtures are explicitly synthetic",
+          "Complete ZIP seam separately checks final actual eight-file profile closure without executing it",
+          "Hosted backend token usage and cost are unknown"
+        ],
+        "metrics": {
+          "descendant_cpu_seconds": 9.991598000000002,
+          "output_bytes": 3991,
+          "peak_child_rss_bytes": 28676096,
+          "scope": "FINAL046_HANDOFF_GATE_INVOCATION_ONLY",
+          "wall_seconds": 12.579596488999414
+        },
+        "model_turns_sent": 0,
+        "native_starts": 0,
+        "operational_limits": {
+          "affinity_cpu_count": 1,
+          "outer_wall_seconds": 300,
+          "per_process_address_space_bytes": 2147483648
+        },
+        "output_sha256": "32d12ff877ba540d6ac8bde3554e1aa1159f0d2daac1bc1c43b54d9300351e45",
+        "prior_attempts": [
+          {
+            "path": "handoff_validation_attempt01.json",
+            "reason_for_next_gate": "Actual046 driver schema uses nested conformance worker and nullable incremental aggregate metrics; wrapper validation and cap assertions updated",
+            "status": "PASSED",
+            "tests_run": 16
+          },
+          {
+            "path": "handoff_validation_attempt02.json",
+            "reason_for_next_gate": "Complete evidence archives added to actual046 return schema; bounded streaming decode and missing/archive corruption refusal added",
+            "status": "PASSED",
+            "tests_run": 16
+          }
+        ],
+        "scope": "Synthetic48row reports/local Git/publication recovery/tiny process fixtures; no actual profile or learner execution",
+        "source_bytes_unchanged_after_gate": true,
+        "source_hashes": {
+          "scripts/checkpoint046_workflow.py": "72ff972e00b53aec1866f516cc424c933b9e6d94d92393d6c91d7d24518d3b01",
+          "scripts/downloads_bootstrap046.py": "1b0a95768a1e12b3413dfeaca5b3b1e33739e42847d4fe6f87b2ec230c8f549d",
+          "scripts/launch046_home.py": "9b24587b6b2f27a9d7e11e7de3f459939aa8201a2eade127007477f57742ba4a",
+          "scripts/stage_source_packet038.py": "7f84bc94511f1e94ccb62d5593276cf663b011d8a03eccbfebaf123914af23a2",
+          "tests/test_checkpoint046_handoff.py": "81246dbc8c904fea18da6de5a68f513bd0d8b0d7202460124ed6265237935219"
+        },
+        "status": "PASSED",
+        "synthetic_process_starts": 2,
+        "target_experiment_started": false,
+        "test_outcomes": [
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_accepted045_return_is_preserved_and_changed_baseline_refused",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_actual_extracted_launcher_recovers_push_without_reexecution",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_archive_validation_checks_every_byte_and_bounds_decompression",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_changed_source_pin_publishes_rejection_without_poisoning_saved_state",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_changed_staged_output_is_preserved_without_second_profile",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_child_with_remeasurement_claim_refused",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_complete_profile_requires_every_distinct_row_and_successful_conformance",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_downloads_registry_resolution_handles_spaces_and_duplicate_names",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_exact_remote_report_reused_without_local_saved_cache",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_failed_commit_and_push_never_reexecute_profile",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_false_wrapper_completion_and_changed_invocation_accounting_refused",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_malformed_outcome_is_published_as_rejected_bytes_once",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_one_reservation_preserves_full_report_and_exact_repeat",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_partial_child_report_survives_interruption_and_publication_retry",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_published_incomplete_is_successful_command_with_clear_receipt",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_reservation_without_report_returns_interrupted_and_never_relaunches",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_synthetic_child_uses_real_process_caps_and_wall_stop",
+            "status": "PASSED"
+          }
+        ],
+        "tests_run": 17
+      },
+      "evidence_sha256": "7bdf1009efb9db96da8a6a07b82ce008c2dd3ea4c8cecd5104f8381177f3c25f",
+      "reason_for_next_gate": "Bounded archive validation; compact outer report needed to prevent pretty-print expansion"
+    },
+    {
+      "attempt": 4,
+      "evidence": {
+        "actual_learner_starts": 0,
+        "actual_resource_profile_starts": 0,
+        "complete_work_budget_admitted": false,
+        "kind": "P3_HANDOFF_VALIDATION_046_v1",
+        "limitations": [
+          "All48 resource rows and conformance outcomes in handoff fixtures are explicitly synthetic",
+          "Complete ZIP seam separately checks final actual eight-file profile closure without executing it",
+          "Hosted backend token usage and cost are unknown"
+        ],
+        "metrics": {
+          "descendant_cpu_seconds": 10.731349999999999,
+          "output_bytes": 4194,
+          "peak_child_rss_bytes": 197279744,
+          "scope": "FINAL046_HANDOFF_GATE_INVOCATION_ONLY",
+          "wall_seconds": 13.37848859099995
+        },
+        "model_turns_sent": 0,
+        "native_starts": 0,
+        "operational_limits": {
+          "affinity_cpu_count": 1,
+          "outer_wall_seconds": 300,
+          "per_process_address_space_bytes": 2147483648
+        },
+        "output_sha256": "d6ceb0456a3111e6aada1ea25a6d06ff51578250f3aa18c76ec593e58b68331e",
+        "prior_attempts": [
+          {
+            "path": "handoff_validation_attempt01.json",
+            "reason_for_next_gate": "Actual046 driver schema uses nested conformance worker and nullable incremental aggregate metrics; wrapper validation and cap assertions updated",
+            "status": "PASSED",
+            "tests_run": 16
+          },
+          {
+            "path": "handoff_validation_attempt02.json",
+            "reason_for_next_gate": "Complete evidence archives added to actual046 return schema; bounded streaming decode and missing/archive corruption refusal added",
+            "status": "PASSED",
+            "tests_run": 16
+          },
+          {
+            "path": "handoff_validation_attempt03.json",
+            "reason_for_next_gate": "Root identified pretty outer report expansion beyond32 MiB; compact046 encoding and near-cap nested regression added",
+            "status": "PASSED",
+            "tests_run": 17
+          }
+        ],
+        "scope": "Synthetic48row reports/local Git/publication recovery/tiny process fixtures; no actual profile or learner execution",
+        "source_bytes_unchanged_after_gate": true,
+        "source_hashes": {
+          "scripts/checkpoint046_workflow.py": "7d03bb4c5d88910631065f5d81b796df049dad64b0bedfa83c05fc1b33a5de59",
+          "scripts/downloads_bootstrap046.py": "1b0a95768a1e12b3413dfeaca5b3b1e33739e42847d4fe6f87b2ec230c8f549d",
+          "scripts/launch046_home.py": "9b24587b6b2f27a9d7e11e7de3f459939aa8201a2eade127007477f57742ba4a",
+          "scripts/stage_source_packet038.py": "7f84bc94511f1e94ccb62d5593276cf663b011d8a03eccbfebaf123914af23a2",
+          "tests/test_checkpoint046_handoff.py": "588988c4b852dc3fd9755aec9170456f9c7316d33daa4a8a6dbd73b1c48b3071"
+        },
+        "status": "PASSED",
+        "synthetic_process_starts": 2,
+        "target_experiment_started": false,
+        "test_outcomes": [
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_accepted045_return_is_preserved_and_changed_baseline_refused",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_actual_extracted_launcher_recovers_push_without_reexecution",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_archive_validation_checks_every_byte_and_bounds_decompression",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_changed_source_pin_publishes_rejection_without_poisoning_saved_state",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_changed_staged_output_is_preserved_without_second_profile",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_child_with_remeasurement_claim_refused",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_complete_profile_requires_every_distinct_row_and_successful_conformance",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_downloads_registry_resolution_handles_spaces_and_duplicate_names",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_exact_remote_report_reused_without_local_saved_cache",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_failed_commit_and_push_never_reexecute_profile",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_false_wrapper_completion_and_changed_invocation_accounting_refused",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_malformed_outcome_is_published_as_rejected_bytes_once",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_near_cap_nested_child_remains_readable_through_saved_report_and_receipt",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_one_reservation_preserves_full_report_and_exact_repeat",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_partial_child_report_survives_interruption_and_publication_retry",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_published_incomplete_is_successful_command_with_clear_receipt",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_reservation_without_report_returns_interrupted_and_never_relaunches",
+            "status": "PASSED"
+          },
+          {
+            "name": "test_checkpoint046_handoff.HandoffTests.test_synthetic_child_uses_real_process_caps_and_wall_stop",
+            "status": "PASSED"
+          }
+        ],
+        "tests_run": 18
+      },
+      "evidence_sha256": "3ee228c04c396c36de2ef2894d10eca9a844bd32f043fed5790964d2d434815a",
+      "reason_for_next_gate": "Compact18case version; finite51file transport selected to remove aggregate evidence cap"
+    }
+  ],
+  "current_gate": {
+    "path": "P3_HANDOFF_VALIDATION_046.json",
+    "tests_run": 20
+  },
+  "kind": "P3_HANDOFF_VALIDATION_HISTORY_046_v1",
+  "model_turns_sent": 0,
+  "native_starts": 0,
+  "scope": "All prior successful synthetic handoff gates preserved; distinct transport/schema corrections, no learner/profile execution",
+  "target_experiment_started": false
+}

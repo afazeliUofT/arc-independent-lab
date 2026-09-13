@@ -1,0 +1,21 @@
+{
+  "actual_learner_starts": 0,
+  "actual_resource_profile_starts": 0,
+  "archive_validator_function_sha256": "364dec88391d674e7158cee8d1c714ae175a827c1866d30cde15b8ce0be82a09",
+  "chunk_ceiling_bytes": 1048576,
+  "compressed_bytes": 5128,
+  "compressed_sha256": "609dcd8966011c051ac0c862fd110360c3c33494c56746c94ee343e78d8a52a5",
+  "decoded_bytes": 2097482,
+  "decoded_sha256": "11bb45c2f9f1e25fc1bd9351d19daff90bf9079749ccad026c4d19ae2762d416",
+  "final_wrapper_sha256": "7ab569525a452b2ec7e1e1124c48aa518acde257c0b588076f66bdb118882294",
+  "kind": "P3_HANDOFF_MULTICHUNK_ARCHIVE_VALIDATION_046_v1",
+  "minimum_chunks": 3,
+  "model_turns_sent": 0,
+  "native_starts": 0,
+  "scope": "Synthetic valid archive only; bounded streaming validator, no profile or learner execution",
+  "status": "PASSED",
+  "target_experiment_started": false,
+  "validated_function_unchanged_in_final_wrapper": true,
+  "wall_seconds": 0.00337635699997918,
+  "wrapper_sha256": "72ff972e00b53aec1866f516cc424c933b9e6d94d92393d6c91d7d24518d3b01"
+}

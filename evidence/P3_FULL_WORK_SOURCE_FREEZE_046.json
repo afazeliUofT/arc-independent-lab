@@ -1,0 +1,25 @@
+{
+  "kind": "P3_FULL_WORK_SOURCE_FREEZE_046_v1",
+  "attempt": 4,
+  "status": "FROZEN_BEFORE_EXECUTION",
+  "sources": {
+    "configs/P3_FULL_WORK_FIXTURES_046.json": "568c603c0b05dd265af91cd2eed8f4e49f47dcde69e276c1686b36580049af8d",
+    "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+    "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+    "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+    "scripts/diagnostics045.py": "d82855254880fe9d51242f98cea61b2813af7a5c62c36294a82786b86f2c0ed7",
+    "scripts/fullwork046.py": "e9dd696ac174864bfa8c17c21b3b4cd7af1a1d096e2d529f4065e5bd02f4348b",
+    "scripts/profile046.py": "345e4f299dddf367fea977ff1fd6fb848b668dc17b13bdcc6456af3b3cdbaf40",
+    "tests/test_fullwork046.py": "b03b3dd4c5f80f46b84c4a38839e53848ab41ba46e72f0ec9ff103df5c34710b"
+  },
+  "outer_seconds": 300,
+  "worker_seconds": 270,
+  "address_space_bytes": 2147483648,
+  "cpu_affinity_count": 1,
+  "execution": "profile046.py --worker conformance; no fullprofile",
+  "read_only_staged_source": true,
+  "prior_attempt_status": "COMPLETED_13_TESTS",
+  "revision_reason": "Separate exact per-worker return files remove aggregate16MiB payload multiplication; compact index preserves costs/status/descriptors and orphan recovery never reruns. Two regression tests added. Static coverage audit approved final transport before this freeze. Workload/configuration/thresholds unchanged.",
+  "prior_source_freeze_sha256": "71566f24caacdbe1d10f126f8903b12ff554ab67286003e93d79d8124fb460bf",
+  "prior_conformance_sha256": "e088190c432c3e0b6ff0e15ecb383e71cc3ce4362d8a6eabc082a51c90231ad9"
+}

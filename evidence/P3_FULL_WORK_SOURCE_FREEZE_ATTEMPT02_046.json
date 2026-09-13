@@ -1,0 +1,25 @@
+{
+  "kind": "P3_FULL_WORK_SOURCE_FREEZE_046_v1",
+  "attempt": 2,
+  "status": "FROZEN_BEFORE_EXECUTION",
+  "sources": {
+    "configs/P3_FULL_WORK_FIXTURES_046.json": "568c603c0b05dd265af91cd2eed8f4e49f47dcde69e276c1686b36580049af8d",
+    "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+    "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+    "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+    "scripts/diagnostics045.py": "d82855254880fe9d51242f98cea61b2813af7a5c62c36294a82786b86f2c0ed7",
+    "scripts/fullwork046.py": "e9dd696ac174864bfa8c17c21b3b4cd7af1a1d096e2d529f4065e5bd02f4348b",
+    "scripts/profile046.py": "bd118655ed67bee256f22f39e5e0e6d3c659ed6fd3a1e817db6a5e3094fa34b7",
+    "tests/test_fullwork046.py": "4400c08a725b0f6bb31192265e3669b2afa1c181230bcd52bb52c5be203f3e27"
+  },
+  "outer_seconds": 300,
+  "worker_seconds": 270,
+  "address_space_bytes": 2147483648,
+  "cpu_affinity_count": 1,
+  "execution": "profile046.py --worker conformance; no fullprofile",
+  "read_only_staged_source": true,
+  "prior_attempt_status": "COMPLETED_12_TESTS",
+  "revision_reason": "Static review identified unittest swallowing RuntimeError deadline; terminal KeyboardInterrupt subclass now aborts suite, with incremental named conformance evidence. No failed fullprofile attempt occurred.",
+  "prior_source_freeze_sha256": "f6d123ef24f1bc3467c3a0109297eeef7c0cf04a94a43a65dd807f5ddb5f9eff",
+  "prior_conformance_sha256": "646ad7bded5259d174acd5225b656db96bfe5f33c0e3ec4ff37cbf6105e2b2e3"
+}

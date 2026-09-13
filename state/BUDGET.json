@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-13T18:15:33.237993+00:00",
+  "updated_utc": "2026-09-13T21:39:34.801914+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -974,7 +974,23 @@
       "address_space_bytes_per_process": 2147483648,
       "automatic_rerun_permitted": false,
       "required_case_families": 13,
-      "original043044_reservations_preserved": true
+      "original043044_reservations_preserved": true,
+      "status": "consumed_actual045_diagnostics_completed",
+      "actual_diagnostic_launches": 1,
+      "tests_passed": 23,
+      "required_case_families_passed": 13,
+      "return_verification": {
+        "path": "evidence/P3_CHECKPOINT_045_RETURN_VERIFICATION_046.json",
+        "sha256": "f48df6f57753e83b706868f4ffc5c0db2efe958017114ae42baa8bf139d7f164"
+      },
+      "actual_wrapper_wall_seconds": 0.668863085,
+      "actual_child_metrics": {
+        "child_cpu_seconds": 0.0,
+        "process_cpu_seconds": 0.257690492,
+        "process_peak_rss_bytes": 64221184,
+        "scope": "045_CONFORMANCE_INVOCATION_ONLY",
+        "wall_seconds": 0.5711193529423326
+      }
     },
     "B_comp": null,
     "B_mem": null,
@@ -993,5 +1009,51 @@
     "handoff_synthetic_tests_passed": 16,
     "handoff_exact_runner_synthetic_suite_invocations_in_final_validation": 4,
     "complete_archive_seam_actual_adapter_invocations": 0
+  },
+  "checkpoint046_accounting": {
+    "hosted_consultants": [
+      "profile046",
+      "coverage046 (read-only resource/source audit)",
+      "handoff046"
+    ],
+    "consultants_are_independent_reviewers": false,
+    "native_starts": 0,
+    "native_sent_turns": 0,
+    "new_native_allowance": 0,
+    "cumulative_native_starts": 18,
+    "cumulative_native_sent_turns": 14,
+    "hosted_full_resource_profile_runs": 0,
+    "target_experiment_runs": 0,
+    "gpu_or_hpc_jobs": 0,
+    "unattended_model_use": false,
+    "extra_spending": false,
+    "authoritative_hosted_allowance": null,
+    "backend_usage_or_charge": "unknown",
+    "future_development_profile": {
+      "maximum_launches": 1,
+      "planned_rows": 48,
+      "outer_wall_seconds": 14400,
+      "driver_wall_seconds": 14100,
+      "per_row_wall_seconds": 1200,
+      "cpu_affinity_count": 1,
+      "address_space_bytes_per_process": 2147483648,
+      "automatic_rerun_permitted": false,
+      "original043044045_reservations_preserved": true
+    },
+    "B_comp": null,
+    "B_mem": null,
+    "complete_work_budget_admitted": false,
+    "target_experiment_admitted": false,
+    "hosted_validation": {
+      "path": "evidence/P3_HOSTED_VALIDATION_USAGE_046.json",
+      "sha256": "77bb2d52201ac00f7d94f5dff3181ab9dd43b1376341b5371fc37b949eb2bec4"
+    },
+    "actual_bounded_conformance_invocations": 4,
+    "actual_bounded_conformance_total_wall_seconds": 188.33421460300087,
+    "actual_bounded_conformance_total_cpu_seconds": 188.249223978,
+    "actual_synthetic_handoff_gate_invocations": 5,
+    "actual_synthetic_handoff_total_wall_seconds": 75.01890932599858,
+    "validation_versions_preserved": true,
+    "complete_package_seam_actual_profile_starts": 0
   }
 }

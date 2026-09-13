@@ -1,0 +1,24 @@
+{
+  "actual_conformance_case_count": 15,
+  "actual_conformance_path": "evidence/P3_FULL_WORK_CONFORMANCE_046.json",
+  "actual_conformance_sha256": "a391c21d6a07d563deb349cf9e7031eebdb410a1ed8b2a4f79726443b9502907",
+  "actual_resource_profile_starts": 0,
+  "current_test_is_null": true,
+  "exact_separate_worker_descriptor_and_bytes_validated": true,
+  "kind": "P3_HANDOFF_SAVED_CONFORMANCE_COMPATIBILITY_046_v1",
+  "nullable_incremental_metrics_accepted": true,
+  "scope": "Read-only validation of final saved15case conformance worker and exact separate bytes in incomplete driver envelope; no row/model/learner execution",
+  "source_hashes": {
+    "configs/P3_FULL_WORK_FIXTURES_046.json": "568c603c0b05dd265af91cd2eed8f4e49f47dcde69e276c1686b36580049af8d",
+    "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+    "scripts/diagnostics045.py": "d82855254880fe9d51242f98cea61b2813af7a5c62c36294a82786b86f2c0ed7",
+    "scripts/fullwork046.py": "e9dd696ac174864bfa8c17c21b3b4cd7af1a1d096e2d529f4065e5bd02f4348b",
+    "scripts/profile046.py": "345e4f299dddf367fea977ff1fd6fb848b668dc17b13bdcc6456af3b3cdbaf40",
+    "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+    "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+    "tests/test_fullwork046.py": "b03b3dd4c5f80f46b84c4a38839e53848ab41ba46e72f0ec9ff103df5c34710b"
+  },
+  "status": "PASSED",
+  "target_experiment_started": false,
+  "wrapper_sha256": "7ab569525a452b2ec7e1e1124c48aa518acde257c0b588076f66bdb118882294"
+}

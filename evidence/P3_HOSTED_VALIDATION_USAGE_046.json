@@ -1,0 +1,244 @@
+{
+  "kind": "P3_HOSTED_VALIDATION_USAGE_046_v1",
+  "recorded_utc": "2026-09-13T21:39:34.801914+00:00",
+  "bounded_conformance_invocations": [
+    {
+      "saved_record": "fullwork_conformance_attempt01.json",
+      "sha256": "646ad7bded5259d174acd5225b656db96bfe5f33c0e3ec4ff37cbf6105e2b2e3",
+      "status": "COMPLETED",
+      "tests_run": 12,
+      "source_hashes": {
+        "configs/P3_FULL_WORK_FIXTURES_046.json": "568c603c0b05dd265af91cd2eed8f4e49f47dcde69e276c1686b36580049af8d",
+        "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+        "scripts/diagnostics045.py": "d82855254880fe9d51242f98cea61b2813af7a5c62c36294a82786b86f2c0ed7",
+        "scripts/fullwork046.py": "e9dd696ac174864bfa8c17c21b3b4cd7af1a1d096e2d529f4065e5bd02f4348b",
+        "scripts/profile046.py": "9b38f8ca5718e57d21a751dd8a4b90e03bed7f4f264c8f7f586a57b559fc010e",
+        "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+        "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+        "tests/test_fullwork046.py": "20dcd835aa8bfb07877afd1fe10a67bd915ca1e09e3aa1eebfa985ea484c8548"
+      },
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_is_python_allocation": false,
+        "logical_retained_bytes": null,
+        "logical_work": null,
+        "measurement_scope": "Worker including construction/diagnostics and explicit payload serialization; final report serialization cost recorded separately by parent",
+        "meter": null,
+        "output_bytes": 6822,
+        "peak_logical_retained_bytes": null,
+        "peak_rss_bytes": 37646336,
+        "process_cpu_seconds": 47.899843548,
+        "wall_seconds": 47.956036937000135
+      }
+    },
+    {
+      "saved_record": "fullwork_conformance_attempt02.json",
+      "sha256": "2b6b9dea7499a885d1325c4cd510d70ea2792e53f234925c8045a2b99add13a3",
+      "status": "COMPLETED",
+      "tests_run": 13,
+      "source_hashes": {
+        "configs/P3_FULL_WORK_FIXTURES_046.json": "568c603c0b05dd265af91cd2eed8f4e49f47dcde69e276c1686b36580049af8d",
+        "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+        "scripts/diagnostics045.py": "d82855254880fe9d51242f98cea61b2813af7a5c62c36294a82786b86f2c0ed7",
+        "scripts/fullwork046.py": "e9dd696ac174864bfa8c17c21b3b4cd7af1a1d096e2d529f4065e5bd02f4348b",
+        "scripts/profile046.py": "bd118655ed67bee256f22f39e5e0e6d3c659ed6fd3a1e817db6a5e3094fa34b7",
+        "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+        "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+        "tests/test_fullwork046.py": "4400c08a725b0f6bb31192265e3669b2afa1c181230bcd52bb52c5be203f3e27"
+      },
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_is_python_allocation": false,
+        "logical_retained_bytes": null,
+        "logical_work": null,
+        "measurement_scope": "Worker including construction/diagnostics and explicit payload serialization; final report serialization cost recorded separately by parent",
+        "meter": null,
+        "output_bytes": 7248,
+        "peak_logical_retained_bytes": null,
+        "peak_rss_bytes": 37699584,
+        "process_cpu_seconds": 46.275687239,
+        "wall_seconds": 46.28758323500006
+      }
+    },
+    {
+      "saved_record": "fullwork_conformance_attempt03.json",
+      "sha256": "e088190c432c3e0b6ff0e15ecb383e71cc3ce4362d8a6eabc082a51c90231ad9",
+      "status": "COMPLETED",
+      "tests_run": 13,
+      "source_hashes": {
+        "configs/P3_FULL_WORK_FIXTURES_046.json": "568c603c0b05dd265af91cd2eed8f4e49f47dcde69e276c1686b36580049af8d",
+        "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+        "scripts/diagnostics045.py": "d82855254880fe9d51242f98cea61b2813af7a5c62c36294a82786b86f2c0ed7",
+        "scripts/fullwork046.py": "e9dd696ac174864bfa8c17c21b3b4cd7af1a1d096e2d529f4065e5bd02f4348b",
+        "scripts/profile046.py": "bd118655ed67bee256f22f39e5e0e6d3c659ed6fd3a1e817db6a5e3094fa34b7",
+        "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+        "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+        "tests/test_fullwork046.py": "c4342bbc7ec33ca880696eaafb92f5ac3583a56fc79d7a31bf21bb791d488bad"
+      },
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_is_python_allocation": false,
+        "logical_retained_bytes": null,
+        "logical_work": null,
+        "measurement_scope": "Worker including construction/diagnostics and explicit payload serialization; final report serialization cost recorded separately by parent",
+        "meter": null,
+        "output_bytes": 7256,
+        "peak_logical_retained_bytes": null,
+        "peak_rss_bytes": 38268928,
+        "process_cpu_seconds": 47.109233344,
+        "wall_seconds": 47.115140046000306
+      }
+    },
+    {
+      "saved_record": "fullwork_conformance_attempt04.json",
+      "sha256": "a391c21d6a07d563deb349cf9e7031eebdb410a1ed8b2a4f79726443b9502907",
+      "status": "COMPLETED",
+      "tests_run": 15,
+      "source_hashes": {
+        "configs/P3_FULL_WORK_FIXTURES_046.json": "568c603c0b05dd265af91cd2eed8f4e49f47dcde69e276c1686b36580049af8d",
+        "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+        "scripts/diagnostics045.py": "d82855254880fe9d51242f98cea61b2813af7a5c62c36294a82786b86f2c0ed7",
+        "scripts/fullwork046.py": "e9dd696ac174864bfa8c17c21b3b4cd7af1a1d096e2d529f4065e5bd02f4348b",
+        "scripts/profile046.py": "345e4f299dddf367fea977ff1fd6fb848b668dc17b13bdcc6456af3b3cdbaf40",
+        "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+        "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+        "tests/test_fullwork046.py": "b03b3dd4c5f80f46b84c4a38839e53848ab41ba46e72f0ec9ff103df5c34710b"
+      },
+      "metrics": {
+        "child_cpu_seconds": 0.0,
+        "logical_memory_is_python_allocation": false,
+        "logical_retained_bytes": null,
+        "logical_work": null,
+        "measurement_scope": "Worker including construction/diagnostics and explicit payload serialization; final report serialization cost recorded separately by parent",
+        "meter": null,
+        "output_bytes": 8033,
+        "peak_logical_retained_bytes": null,
+        "peak_rss_bytes": 39911424,
+        "process_cpu_seconds": 46.964459847,
+        "wall_seconds": 46.975454385000376
+      }
+    }
+  ],
+  "bounded_conformance_invocation_count": 4,
+  "bounded_conformance_total_wall_seconds": 188.33421460300087,
+  "bounded_conformance_total_cpu_seconds": 188.249223978,
+  "bounded_synthetic_handoff_gates": [
+    {
+      "saved_record": "handoff_validation_attempt01.json",
+      "sha256": "763bfe8ee8f495072aa56db275328a039b0550c8c4ee59aae6c5af338f9b8b86",
+      "status": "PASSED",
+      "tests_run": 16,
+      "source_hashes": {
+        "scripts/checkpoint046_workflow.py": "33282917370188fb141d681ebe218e0dbf8f02b5bf0a3990b1779027d8b83c6d",
+        "scripts/downloads_bootstrap046.py": "1b0a95768a1e12b3413dfeaca5b3b1e33739e42847d4fe6f87b2ec230c8f549d",
+        "scripts/launch046_home.py": "9b24587b6b2f27a9d7e11e7de3f459939aa8201a2eade127007477f57742ba4a",
+        "scripts/stage_source_packet038.py": "7f84bc94511f1e94ccb62d5593276cf663b011d8a03eccbfebaf123914af23a2",
+        "tests/test_checkpoint046_handoff.py": "b1b7826fa54545267ff6007d61d4312b8abffb76d20064bc5cafe836971c3875"
+      },
+      "metrics": {
+        "scope": "FIRST_GATE_SUITE_REPORTED_WALL_ONLY",
+        "wall_seconds": 9.465,
+        "descendant_cpu_seconds": null,
+        "peak_child_rss_bytes": null
+      }
+    },
+    {
+      "saved_record": "handoff_validation_attempt02.json",
+      "sha256": "596b20225067be720e2621e150429cf3783ab51501a04be810497b127c82788c",
+      "status": "PASSED",
+      "tests_run": 16,
+      "source_hashes": {
+        "scripts/checkpoint046_workflow.py": "0a7bd62cc40f76f940188eab5e5a2e57859dcb11efefcd2577a8b72be69c0612",
+        "scripts/downloads_bootstrap046.py": "1b0a95768a1e12b3413dfeaca5b3b1e33739e42847d4fe6f87b2ec230c8f549d",
+        "scripts/launch046_home.py": "9b24587b6b2f27a9d7e11e7de3f459939aa8201a2eade127007477f57742ba4a",
+        "scripts/stage_source_packet038.py": "7f84bc94511f1e94ccb62d5593276cf663b011d8a03eccbfebaf123914af23a2",
+        "tests/test_checkpoint046_handoff.py": "0ae5aa48aa20c96da9e2eb5ad73133daff57ca0f23d5e7e4f4ef5b076dea1c4f"
+      },
+      "metrics": {
+        "descendant_cpu_seconds": 9.270121999999999,
+        "output_bytes": 3808,
+        "peak_child_rss_bytes": 25300992,
+        "scope": "FINAL046_HANDOFF_GATE_INVOCATION_ONLY",
+        "wall_seconds": 11.847207079999862
+      }
+    },
+    {
+      "saved_record": "handoff_validation_attempt03.json",
+      "sha256": "7bdf1009efb9db96da8a6a07b82ce008c2dd3ea4c8cecd5104f8381177f3c25f",
+      "status": "PASSED",
+      "tests_run": 17,
+      "source_hashes": {
+        "scripts/checkpoint046_workflow.py": "72ff972e00b53aec1866f516cc424c933b9e6d94d92393d6c91d7d24518d3b01",
+        "scripts/downloads_bootstrap046.py": "1b0a95768a1e12b3413dfeaca5b3b1e33739e42847d4fe6f87b2ec230c8f549d",
+        "scripts/launch046_home.py": "9b24587b6b2f27a9d7e11e7de3f459939aa8201a2eade127007477f57742ba4a",
+        "scripts/stage_source_packet038.py": "7f84bc94511f1e94ccb62d5593276cf663b011d8a03eccbfebaf123914af23a2",
+        "tests/test_checkpoint046_handoff.py": "81246dbc8c904fea18da6de5a68f513bd0d8b0d7202460124ed6265237935219"
+      },
+      "metrics": {
+        "descendant_cpu_seconds": 9.991598000000002,
+        "output_bytes": 3991,
+        "peak_child_rss_bytes": 28676096,
+        "scope": "FINAL046_HANDOFF_GATE_INVOCATION_ONLY",
+        "wall_seconds": 12.579596488999414
+      }
+    },
+    {
+      "saved_record": "handoff_validation_attempt04.json",
+      "sha256": "3ee228c04c396c36de2ef2894d10eca9a844bd32f043fed5790964d2d434815a",
+      "status": "PASSED",
+      "tests_run": 18,
+      "source_hashes": {
+        "scripts/checkpoint046_workflow.py": "7d03bb4c5d88910631065f5d81b796df049dad64b0bedfa83c05fc1b33a5de59",
+        "scripts/downloads_bootstrap046.py": "1b0a95768a1e12b3413dfeaca5b3b1e33739e42847d4fe6f87b2ec230c8f549d",
+        "scripts/launch046_home.py": "9b24587b6b2f27a9d7e11e7de3f459939aa8201a2eade127007477f57742ba4a",
+        "scripts/stage_source_packet038.py": "7f84bc94511f1e94ccb62d5593276cf663b011d8a03eccbfebaf123914af23a2",
+        "tests/test_checkpoint046_handoff.py": "588988c4b852dc3fd9755aec9170456f9c7316d33daa4a8a6dbd73b1c48b3071"
+      },
+      "metrics": {
+        "descendant_cpu_seconds": 10.731349999999999,
+        "output_bytes": 4194,
+        "peak_child_rss_bytes": 197279744,
+        "scope": "FINAL046_HANDOFF_GATE_INVOCATION_ONLY",
+        "wall_seconds": 13.37848859099995
+      }
+    },
+    {
+      "saved_record": "handoff_validation.json",
+      "sha256": "76b7184f0d4c651a9107e9f7384d5ddc76f8ba5b23001db70d7d966c0cb15494",
+      "status": "PASSED",
+      "tests_run": 20,
+      "source_hashes": {
+        "scripts/checkpoint046_workflow.py": "7ab569525a452b2ec7e1e1124c48aa518acde257c0b588076f66bdb118882294",
+        "scripts/downloads_bootstrap046.py": "1b0a95768a1e12b3413dfeaca5b3b1e33739e42847d4fe6f87b2ec230c8f549d",
+        "scripts/launch046_home.py": "9b24587b6b2f27a9d7e11e7de3f459939aa8201a2eade127007477f57742ba4a",
+        "scripts/stage_source_packet038.py": "7f84bc94511f1e94ccb62d5593276cf663b011d8a03eccbfebaf123914af23a2",
+        "tests/test_checkpoint046_handoff.py": "95d8c5d3ba9db3486f916607299647cd4c98f35727df99d798e9b1e6bbe39616"
+      },
+      "metrics": {
+        "descendant_cpu_seconds": 21.383529,
+        "output_bytes": 4566,
+        "peak_child_rss_bytes": 198369280,
+        "scope": "FINAL046_HANDOFF_GATE_INVOCATION_ONLY",
+        "wall_seconds": 27.74861716599935
+      }
+    }
+  ],
+  "bounded_synthetic_handoff_gate_count": 5,
+  "synthetic_handoff_total_wall_seconds": 75.01890932599858,
+  "complete_package_seam": {
+    "path": "evidence/P3_COMPLETE_PACKAGE_VALIDATION_046.json",
+    "sha256": "24ac98d72c39067b27c3ccf9aaabc561c045af17fca1de962e23b47b51a867eb"
+  },
+  "source_correction_policy": "All previous successful conformance and handoff versions are retained. Later gates resolve recorded timeout and output-transport defects; no full48-row profile ran here.",
+  "full_resource_profile_runs": 0,
+  "native_starts": 0,
+  "model_turns_sent": 0,
+  "target_experiment_runs": 0,
+  "gpu_or_hpc_jobs": 0,
+  "hosted_consultants_are_independent_reviewers": false,
+  "backend_usage_or_charge": "unknown",
+  "limitations": [
+    "The first synthetic handoff gate records suite-reported wall only; its CPU/RSS and outer wall are unknown. The synthetic wall sum therefore combines that suite duration with four outer invocation durations. Gate metrics cover the named bounded executions. Static code work, tool overhead, archive validation and local Git packaging are not included in learner execution metrics.",
+    "The complete ZIP seam uses a synthetic profile adapter and local Git; it does not measure laptop resource performance."
+  ]
+}

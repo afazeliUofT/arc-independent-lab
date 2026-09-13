@@ -1,0 +1,771 @@
+{
+  "accepted045_return": {
+    "case_families_passed": 13,
+    "diagnostic_status": "DIAGNOSTICS_COMPLETED",
+    "new_model_turns_sent": 0,
+    "new_native_starts": 0,
+    "new_target_experiments": 0,
+    "receipt": {
+      "bytes": 3522,
+      "path": "artifacts/CHECKPOINT_045_RETURN/9685b38ec4c503e4944a1c3ae5d63c2ed6247541ef97bf85bcc78d9d9bf72e25/RECEIPT.json",
+      "sha256": "a17a9902d5374ad3c46e5764fdd5cb544e730b89c4b29215993304d72be09361"
+    },
+    "report": {
+      "bytes": 78601,
+      "path": "artifacts/CHECKPOINT_045_RETURN/9685b38ec4c503e4944a1c3ae5d63c2ed6247541ef97bf85bcc78d9d9bf72e25/REPORT.json",
+      "sha256": "b66c9e0bb8b324b5d1be1a9eb48c44c5dc502716590a6744400bacaa156623dc"
+    },
+    "structured_case_results_match": true,
+    "tests_passed": 23
+  },
+  "arithmetic_overapproximation": {
+    "absolute_credit_numerator_upper_bound": 61035156250000000000,
+    "denominator_bits": 65,
+    "derivation": "Brier denominator divides (n_key+5)^2; two before/after differences involve at most four such denominators, and division by V=2 adds factor two. Absolute Brier difference is at most two. This is a conservative operand bound, not a reachable denominator claim.",
+    "largest_add_one_prediction_denominator": 250,
+    "mean_two_validation_credit_denominator_upper_bound": 30517578125000000000,
+    "numerator_bits": 66
+  },
+  "assessment_date": "2026-09-13",
+  "conditional_run_envelope": {
+    "P00_P10_P11_predictions": 300,
+    "P00_P10_P11_reader_fits": 150,
+    "chooser_decisions": 160,
+    "chooser_predictions": 800,
+    "complete_candidate_passes": 249,
+    "completed_recipes": 55,
+    "completed_scored_trials": 50,
+    "downstream_prescribed_and_order_readers": 8,
+    "literal_grammar_candidates": 3002,
+    "macro_words": 45,
+    "proposal_assemblies": 39,
+    "raw_mutations_per_overapproximate_assembly": 27720,
+    "replayed_N1": 1,
+    "scope": "Conservative cardinality envelope under frozen043 stop graph; not observed simultaneous maxima, time or complete accounting bound.",
+    "selected_predicates": 4,
+    "transitions": 245
+  },
+  "evidence_transport": {
+    "aggregate_full_payloads_embedded_in_index": false,
+    "conformance_filename": "CONFORMANCE.json",
+    "conformance_reports": 1,
+    "descriptor_fields": [
+      "filename",
+      "sha256",
+      "bytes"
+    ],
+    "full_48_row_output_measured_here": false,
+    "individual_worker_output_bound_is_operational_not_completion_guarantee": true,
+    "kind": "EXACT_SEPARATE_WORKER_REPORTS_046_v1",
+    "maximum_accepted_worker_report_bytes": 16777216,
+    "maximum_compact_driver_index_bytes": 16777216,
+    "maximum_outer_report_bytes": 33554432,
+    "maximum_return_files": 51,
+    "maximum_row_reports": 48,
+    "orphan_recovery": {
+      "child_restart_permitted": false,
+      "exact_worker_bytes_preserved": true,
+      "source_or_hash_mismatch": "PRESERVED_REJECTED_EVIDENCE",
+      "unknown_process_disposition": "INCOMPLETE"
+    },
+    "outer_report_is_compact_and_separate": true,
+    "outer_reports": 1,
+    "previous_aggregate_output_cap_replaced_before_user_profile": true,
+    "receipts": 1,
+    "row_filenames": [
+      "row_00.json",
+      "row_01.json",
+      "row_02.json",
+      "row_03.json",
+      "row_04.json",
+      "row_05.json",
+      "row_06.json",
+      "row_07.json",
+      "row_08.json",
+      "row_09.json",
+      "row_10.json",
+      "row_11.json",
+      "row_12.json",
+      "row_13.json",
+      "row_14.json",
+      "row_15.json",
+      "row_16.json",
+      "row_17.json",
+      "row_18.json",
+      "row_19.json",
+      "row_20.json",
+      "row_21.json",
+      "row_22.json",
+      "row_23.json",
+      "row_24.json",
+      "row_25.json",
+      "row_26.json",
+      "row_27.json",
+      "row_28.json",
+      "row_29.json",
+      "row_30.json",
+      "row_31.json",
+      "row_32.json",
+      "row_33.json",
+      "row_34.json",
+      "row_35.json",
+      "row_36.json",
+      "row_37.json",
+      "row_38.json",
+      "row_39.json",
+      "row_40.json",
+      "row_41.json",
+      "row_42.json",
+      "row_43.json",
+      "row_44.json",
+      "row_45.json",
+      "row_46.json",
+      "row_47.json"
+    ],
+    "transport_test_scope": "Synthetic large worker payloads and exact descriptor/index serialization only; no full48-row profile."
+  },
+  "final_scope_status": "FINAL_SOURCE_AND_CONFORMANCE_REVIEWED_PHYSICAL_PROFILE_PREPARED_SCIENTIFIC_ALLOWANCES_UNSET",
+  "frozen046_source_pins": [
+    {
+      "bytes": 4664,
+      "path": "configs/P3_FULL_WORK_FIXTURES_046.json",
+      "sha256": "568c603c0b05dd265af91cd2eed8f4e49f47dcde69e276c1686b36580049af8d"
+    },
+    {
+      "bytes": 9032,
+      "path": "scripts/accounting043.py",
+      "sha256": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee"
+    },
+    {
+      "bytes": 30382,
+      "path": "scripts/reference_n1_043.py",
+      "sha256": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5"
+    },
+    {
+      "bytes": 32194,
+      "path": "scripts/reference_n3_043.py",
+      "sha256": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193"
+    },
+    {
+      "bytes": 30662,
+      "path": "scripts/diagnostics045.py",
+      "sha256": "d82855254880fe9d51242f98cea61b2813af7a5c62c36294a82786b86f2c0ed7"
+    },
+    {
+      "bytes": 18883,
+      "path": "scripts/fullwork046.py",
+      "sha256": "e9dd696ac174864bfa8c17c21b3b4cd7af1a1d096e2d529f4065e5bd02f4348b"
+    },
+    {
+      "bytes": 24148,
+      "path": "scripts/profile046.py",
+      "sha256": "345e4f299dddf367fea977ff1fd6fb848b668dc17b13bdcc6456af3b3cdbaf40"
+    },
+    {
+      "bytes": 18666,
+      "path": "tests/test_fullwork046.py",
+      "sha256": "b03b3dd4c5f80f46b84c4a38839e53848ab41ba46e72f0ec9ff103df5c34710b"
+    }
+  ],
+  "further_papers_required": false,
+  "handoff_multichunk_archive_validation": {
+    "actual_learner_starts": 0,
+    "actual_resource_profile_starts": 0,
+    "archive_validator_function_sha256": "364dec88391d674e7158cee8d1c714ae175a827c1866d30cde15b8ce0be82a09",
+    "chunk_ceiling_bytes": 1048576,
+    "compressed_bytes": 5128,
+    "compressed_sha256": "609dcd8966011c051ac0c862fd110360c3c33494c56746c94ee343e78d8a52a5",
+    "decoded_bytes": 2097482,
+    "decoded_sha256": "11bb45c2f9f1e25fc1bd9351d19daff90bf9079749ccad026c4d19ae2762d416",
+    "final_wrapper_sha256": "7ab569525a452b2ec7e1e1124c48aa518acde257c0b588076f66bdb118882294",
+    "kind": "P3_HANDOFF_MULTICHUNK_ARCHIVE_VALIDATION_046_v1",
+    "minimum_chunks": 3,
+    "model_turns_sent": 0,
+    "native_starts": 0,
+    "scope": "Synthetic valid archive only; bounded streaming validator, no profile or learner execution",
+    "status": "PASSED",
+    "target_experiment_started": false,
+    "validated_function_unchanged_in_final_wrapper": true,
+    "wall_seconds": 0.00337635699997918,
+    "wrapper_sha256": "72ff972e00b53aec1866f516cc424c933b9e6d94d92393d6c91d7d24518d3b01"
+  },
+  "handoff_validation": {
+    "actual_learner_or_full_profile_started": false,
+    "actual_saved_conformance_compatibility": {
+      "bytes": 1615,
+      "path": "evidence/P3_HANDOFF_ACTUAL_CONFORMANCE_COMPATIBILITY_046.json",
+      "sha256": "a370b90ea223f1c2982aeaf32756ba81aea2d6a0d72f5ad5d582b8f0b6525cfb"
+    },
+    "aggregate_elapsed_time_not_asserted_across_different_measurement_scopes": true,
+    "final_result": {
+      "bytes": 6133,
+      "path": "evidence/P3_HANDOFF_VALIDATION_046.json",
+      "sha256": "76b7184f0d4c651a9107e9f7384d5ddc76f8ba5b23001db70d7d966c0cb15494"
+    },
+    "final_source_pins": [
+      {
+        "bytes": 54856,
+        "path": "scripts/checkpoint046_workflow.py",
+        "sha256": "7ab569525a452b2ec7e1e1124c48aa518acde257c0b588076f66bdb118882294"
+      },
+      {
+        "bytes": 2739,
+        "path": "scripts/downloads_bootstrap046.py",
+        "sha256": "1b0a95768a1e12b3413dfeaca5b3b1e33739e42847d4fe6f87b2ec230c8f549d"
+      },
+      {
+        "bytes": 10297,
+        "path": "scripts/launch046_home.py",
+        "sha256": "9b24587b6b2f27a9d7e11e7de3f459939aa8201a2eade127007477f57742ba4a"
+      },
+      {
+        "bytes": 17541,
+        "path": "scripts/stage_source_packet038.py",
+        "sha256": "7f84bc94511f1e94ccb62d5593276cf663b011d8a03eccbfebaf123914af23a2"
+      },
+      {
+        "bytes": 35708,
+        "path": "tests/test_checkpoint046_handoff.py",
+        "sha256": "95d8c5d3ba9db3486f916607299647cd4c98f35727df99d798e9b1e6bbe39616"
+      }
+    ],
+    "final_tests_run": 20,
+    "first_gate_cpu_rss_available": false,
+    "gate_invocations": 5,
+    "gates": [
+      {
+        "actual_learner_starts": 0,
+        "actual_resource_profile_starts": 0,
+        "gate": 1,
+        "metrics": null,
+        "original_evidence_sha256": "763bfe8ee8f495072aa56db275328a039b0550c8c4ee59aae6c5af338f9b8b86",
+        "reason_for_next_gate": "Initial synthetic transport; actual driver schema subsequently established",
+        "status": "PASSED",
+        "suite_reported_wall_seconds": 9.465,
+        "synthetic_process_starts": 2,
+        "tests_run": 16
+      },
+      {
+        "actual_learner_starts": 0,
+        "actual_resource_profile_starts": 0,
+        "gate": 2,
+        "metrics": {
+          "descendant_cpu_seconds": 9.270121999999999,
+          "output_bytes": 3808,
+          "peak_child_rss_bytes": 25300992,
+          "scope": "FINAL046_HANDOFF_GATE_INVOCATION_ONLY",
+          "wall_seconds": 11.847207079999862
+        },
+        "original_evidence_sha256": "596b20225067be720e2621e150429cf3783ab51501a04be810497b127c82788c",
+        "reason_for_next_gate": "Nested conformance and incremental metrics aligned; complete evidence archive transport then added",
+        "status": "PASSED",
+        "suite_reported_wall_seconds": null,
+        "synthetic_process_starts": 2,
+        "tests_run": 16
+      },
+      {
+        "actual_learner_starts": 0,
+        "actual_resource_profile_starts": 0,
+        "gate": 3,
+        "metrics": {
+          "descendant_cpu_seconds": 9.991598000000002,
+          "output_bytes": 3991,
+          "peak_child_rss_bytes": 28676096,
+          "scope": "FINAL046_HANDOFF_GATE_INVOCATION_ONLY",
+          "wall_seconds": 12.579596488999414
+        },
+        "original_evidence_sha256": "7bdf1009efb9db96da8a6a07b82ce008c2dd3ea4c8cecd5104f8381177f3c25f",
+        "reason_for_next_gate": "Bounded archive validation; compact outer report needed to prevent pretty-print expansion",
+        "status": "PASSED",
+        "suite_reported_wall_seconds": null,
+        "synthetic_process_starts": 2,
+        "tests_run": 17
+      },
+      {
+        "actual_learner_starts": 0,
+        "actual_resource_profile_starts": 0,
+        "gate": 4,
+        "metrics": {
+          "descendant_cpu_seconds": 10.731349999999999,
+          "output_bytes": 4194,
+          "peak_child_rss_bytes": 197279744,
+          "scope": "FINAL046_HANDOFF_GATE_INVOCATION_ONLY",
+          "wall_seconds": 13.37848859099995
+        },
+        "original_evidence_sha256": "3ee228c04c396c36de2ef2894d10eca9a844bd32f043fed5790964d2d434815a",
+        "reason_for_next_gate": "Compact18case version; finite51file transport selected to remove aggregate evidence cap",
+        "status": "PASSED",
+        "suite_reported_wall_seconds": null,
+        "synthetic_process_starts": 2,
+        "tests_run": 18
+      },
+      {
+        "actual_learner_starts": 0,
+        "actual_resource_profile_starts": 0,
+        "gate": 5,
+        "metrics": {
+          "descendant_cpu_seconds": 21.383529,
+          "output_bytes": 4566,
+          "peak_child_rss_bytes": 198369280,
+          "scope": "FINAL046_HANDOFF_GATE_INVOCATION_ONLY",
+          "wall_seconds": 27.74861716599935
+        },
+        "result": {
+          "bytes": 6133,
+          "path": "evidence/P3_HANDOFF_VALIDATION_046.json",
+          "sha256": "76b7184f0d4c651a9107e9f7384d5ddc76f8ba5b23001db70d7d966c0cb15494"
+        },
+        "status": "PASSED",
+        "synthetic_process_starts": 2,
+        "tests_run": 20
+      }
+    ],
+    "prior_history": {
+      "bytes": 23732,
+      "path": "evidence/P3_HANDOFF_VALIDATION_HISTORY_046.json",
+      "sha256": "82e63bddc7e0be2d6ed1c75ad53eda8703d9c3f686b9b55455fa2c8c41968c20"
+    },
+    "scope": "Five synthetic local-Git/publication/process/transport gates, with prior16/16/17/18 and final20 all preserved; distinct from the four actual bounded profile conformance workers. No full48-row resource profile or target experiment executed.",
+    "status": "PASSED"
+  },
+  "hosted_conformance": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "metrics": {
+          "child_cpu_seconds": 0.0,
+          "logical_memory_is_python_allocation": false,
+          "logical_retained_bytes": null,
+          "logical_work": null,
+          "measurement_scope": "Worker including construction/diagnostics and explicit payload serialization; final report serialization cost recorded separately by parent",
+          "meter": null,
+          "output_bytes": 6822,
+          "peak_logical_retained_bytes": null,
+          "peak_rss_bytes": 37646336,
+          "process_cpu_seconds": 47.899843548,
+          "wall_seconds": 47.956036937000135
+        },
+        "result": {
+          "bytes": 6822,
+          "path": "evidence/P3_FULL_WORK_CONFORMANCE_ATTEMPT01_046.json",
+          "sha256": "646ad7bded5259d174acd5225b656db96bfe5f33c0e3ec4ff37cbf6105e2b2e3"
+        },
+        "status": "COMPLETED",
+        "tests_run": 12
+      },
+      {
+        "attempt": 2,
+        "metrics": {
+          "child_cpu_seconds": 0.0,
+          "logical_memory_is_python_allocation": false,
+          "logical_retained_bytes": null,
+          "logical_work": null,
+          "measurement_scope": "Worker including construction/diagnostics and explicit payload serialization; final report serialization cost recorded separately by parent",
+          "meter": null,
+          "output_bytes": 7248,
+          "peak_logical_retained_bytes": null,
+          "peak_rss_bytes": 37699584,
+          "process_cpu_seconds": 46.275687239,
+          "wall_seconds": 46.28758323500006
+        },
+        "result": {
+          "bytes": 7248,
+          "path": "evidence/P3_FULL_WORK_CONFORMANCE_ATTEMPT02_046.json",
+          "sha256": "2b6b9dea7499a885d1325c4cd510d70ea2792e53f234925c8045a2b99add13a3"
+        },
+        "status": "COMPLETED",
+        "tests_run": 13
+      },
+      {
+        "attempt": 3,
+        "metrics": {
+          "child_cpu_seconds": 0.0,
+          "logical_memory_is_python_allocation": false,
+          "logical_retained_bytes": null,
+          "logical_work": null,
+          "measurement_scope": "Worker including construction/diagnostics and explicit payload serialization; final report serialization cost recorded separately by parent",
+          "meter": null,
+          "output_bytes": 7256,
+          "peak_logical_retained_bytes": null,
+          "peak_rss_bytes": 38268928,
+          "process_cpu_seconds": 47.109233344,
+          "wall_seconds": 47.115140046000306
+        },
+        "result": {
+          "bytes": 7256,
+          "path": "evidence/P3_FULL_WORK_CONFORMANCE_ATTEMPT03_046.json",
+          "sha256": "e088190c432c3e0b6ff0e15ecb383e71cc3ce4362d8a6eabc082a51c90231ad9"
+        },
+        "status": "COMPLETED",
+        "tests_run": 13
+      },
+      {
+        "attempt": 4,
+        "metrics": {
+          "child_cpu_seconds": 0.0,
+          "logical_memory_is_python_allocation": false,
+          "logical_retained_bytes": null,
+          "logical_work": null,
+          "measurement_scope": "Worker including construction/diagnostics and explicit payload serialization; final report serialization cost recorded separately by parent",
+          "meter": null,
+          "output_bytes": 8033,
+          "peak_logical_retained_bytes": null,
+          "peak_rss_bytes": 39911424,
+          "process_cpu_seconds": 46.964459847,
+          "wall_seconds": 46.975454385000376
+        },
+        "result": {
+          "bytes": 8033,
+          "path": "evidence/P3_FULL_WORK_CONFORMANCE_046.json",
+          "sha256": "a391c21d6a07d563deb349cf9e7031eebdb410a1ed8b2a4f79726443b9502907"
+        },
+        "status": "COMPLETED",
+        "tests_run": 15
+      }
+    ],
+    "final_attempt": 4,
+    "final_result": {
+      "bytes": 8033,
+      "path": "evidence/P3_FULL_WORK_CONFORMANCE_046.json",
+      "sha256": "a391c21d6a07d563deb349cf9e7031eebdb410a1ed8b2a4f79726443b9502907"
+    },
+    "final_source_freeze": {
+      "bytes": 1736,
+      "path": "evidence/P3_FULL_WORK_SOURCE_FREEZE_046.json",
+      "sha256": "2b69129a59c5ddfec7262e3ff8f81f8ac392624067322fa47b58669001a407d5"
+    },
+    "final_tests_run": 15,
+    "hosted_worker_starts": 4,
+    "scope": "Hosted bounded conformance only; no full48-row resource profile or target experiment. Final exact source closure passes15 tests; earlier12/13/13 successful gate evidence and all static correction records are preserved.",
+    "small_case_observations": {
+      "COVERAGE": {
+        "B_env": 25,
+        "archive_uncompressed_bytes": 534580,
+        "environment_calls": 25,
+        "logical_work": 5678878640,
+        "peak_logical_bytes": 17403451,
+        "readouts": 5,
+        "report_bytes": 114257,
+        "scored_trials": 3,
+        "status": "PASSED"
+      },
+      "FEEDBACK_NULL": {
+        "B_env": 25,
+        "archive_uncompressed_bytes": 535821,
+        "environment_calls": 25,
+        "logical_work": 5705641252,
+        "peak_logical_bytes": 17419542,
+        "readouts": 5,
+        "report_bytes": 114606,
+        "scored_trials": 3,
+        "status": "PASSED"
+      },
+      "FULL": {
+        "B_env": 25,
+        "archive_uncompressed_bytes": 535864,
+        "environment_calls": 25,
+        "logical_work": 5706651501,
+        "peak_logical_bytes": 17419521,
+        "readouts": 5,
+        "report_bytes": 114639,
+        "scored_trials": 3,
+        "status": "PASSED"
+      },
+      "MACRO_OFF": {
+        "B_env": 25,
+        "archive_uncompressed_bytes": 535879,
+        "environment_calls": 25,
+        "logical_work": 5706777503,
+        "peak_logical_bytes": 17419531,
+        "readouts": 5,
+        "report_bytes": 114664,
+        "scored_trials": 3,
+        "status": "PASSED"
+      }
+    },
+    "status": "PASSED",
+    "sum_process_cpu_seconds": 188.249223978,
+    "sum_wall_seconds": 188.33421460300087,
+    "transport_regressions": {
+      "orphan_return_recovery": {
+        "changed_worker_bytes_rejected": true,
+        "exact_bytes_recovered": true,
+        "unknown_disposition_kept_incomplete": true,
+        "worker_restarted": false
+      },
+      "split_full_evidence_transport": {
+        "48_index_rows_below_bytes": 131072,
+        "aggregate_large_payload_multiplication_removed": true,
+        "exact_descriptor_verified": true,
+        "full_worker_bytes_preserved": true
+      }
+    }
+  },
+  "kind": "P3_PROFILE_COVERAGE_ASSESSMENT_046_v1",
+  "method": "Static source review and scalar arithmetic only; no learner, test, or profile execution by this assessment.",
+  "operational_cap_derivation": {
+    "address_space_bytes_per_process": 2147483648,
+    "case_wall_seconds": 1200,
+    "driver_wall_seconds": 14100,
+    "extra_operational_reserve_factor": 10,
+    "not_a_duration_promise": true,
+    "old_component_equivalents": 72,
+    "old_component_time_reference_seconds": 1292.8441373314708,
+    "one_cpu_per_process": true,
+    "original044_case": "n1_no_positive_gain",
+    "original044_repetition": 1,
+    "original044_report_sha256": "6452875d2bd3947e0a8aede3aa89c9c8db19985ffc38c80a4b9aa10a086d6cad",
+    "original044_row_index": 19,
+    "original044_size": "largest",
+    "original044_wall_seconds": 17.956168574048206,
+    "parent_wall_seconds": 14400,
+    "reserved_reference_seconds": 12928.441373314708,
+    "scientific_factor_two_applied": false,
+    "status": "DECLARED_FINITE_SAFETY_POLICY_NOT_WORST_CASE_RUNTIME_BOUND"
+  },
+  "prospective_panel_counts": {
+    "N1_replays": 960,
+    "acquisition_arms": 4,
+    "acquisitions": 960,
+    "decisions_per_readout": 20,
+    "maximum_P_decomposition_predictions_per_acquisition": 300,
+    "maximum_acquisition_environment_calls": 273600,
+    "maximum_five_action_prediction_evaluations": 768000,
+    "maximum_readout_decisions": 153600,
+    "maximum_readout_environment_calls_if_each_has_own_11_call_evaluation": 1689600,
+    "maximum_readouts_per_acquisition_including_N1_readers_and_four_deletions": 8,
+    "scope": "Conservative planning counts; required/conditional diagnostic coverage must be fixed in final manifest; no cases executed",
+    "worlds": 240
+  },
+  "prospective_profile": {
+    "B_env_by_size": {
+      "largest": 285,
+      "small": 25,
+      "typical": 105
+    },
+    "acquisition_arms": [
+      "FULL",
+      "MACRO_OFF",
+      "FEEDBACK_NULL",
+      "COVERAGE"
+    ],
+    "acquisition_diagnostic_rows": 36,
+    "configuration": {
+      "K": 4,
+      "L": 5,
+      "S": 3,
+      "V": 2,
+      "W": 2,
+      "q": 4
+    },
+    "fabricated_chooser_decisions_per_readout": 20,
+    "partial_progress_scope": "Named completed stages and measured work; no reconstruction or resumption of an arbitrary interrupted internal043 cursor.",
+    "repetitions": 3,
+    "separate_geometry_arithmetic_stresses_required": true,
+    "stage_measurements": [
+      "acquisition",
+      "replay",
+      "every_trial_decomposition",
+      "controls_and_choices",
+      "complete_evidence_serialization"
+    ],
+    "stress_cases": [
+      "n1_multigroup",
+      "n1_k4_selection",
+      "n3_long_raw",
+      "n3_dense"
+    ],
+    "stress_rows": 12,
+    "successful_evidence_archive": {
+      "encoding": "zlib6+base64",
+      "full_source_and_diagnostic_payload_retained": true,
+      "maximum_uncompressed_bytes_per_payload": 134217728,
+      "raw_and_compressed_sha256_preserved": true
+    },
+    "target_world_or_evaluation_outcomes": false,
+    "total_rows": 48
+  },
+  "residual_dependencies": [
+    {
+      "finite_resolution": "Version and audit all required scientific operation classes with declared bit prices; reserve validated finite stage envelopes before copies/expansion, or charge exact objects. Preserve actual refusal and pending state.",
+      "issue": "Some Python/control-flow work and temporary normalization/copy creation is not explicitly precharged; logical owners do not prove every live allocation.",
+      "kind": "ACCOUNTING"
+    },
+    {
+      "finite_resolution": "Validate an explicit conservative cardinality/multiplicity projection covering all required components and overlap; retain any unreachable combinations as over-approximations.",
+      "issue": "Three fabricated trajectories and stress shapes cannot by themselves prove largest permitted complete-work geometry.",
+      "kind": "GEOMETRY"
+    },
+    {
+      "finite_resolution": "Account the frozen 11-call evaluator adapter, all required physical readout calls, serialization and archival output without treating learner outcomes as free input.",
+      "issue": "Twenty fabricated chooser inputs exercise no actual target RESET/preparation/selected-action world calls or target score.",
+      "kind": "EVALUATOR"
+    },
+    {
+      "finite_resolution": "Use returned maxima and recorded host condition for scoped laptop/Alliance planning; measure materially changed implementation/hardware before the grid.",
+      "issue": "Uncontrolled host observations and one CPU process RSS are not quiet/contended or aggregate process-tree guarantees.",
+      "kind": "RESOURCE_ROUTE"
+    }
+  ],
+  "scientific_allowances": {
+    "B_comp": null,
+    "B_mem": null,
+    "complete_accounting_proved": false,
+    "independent_verdict": false,
+    "target_admitted": false
+  },
+  "source_commit": "72f0792d242bfe19e59a0ed765d09748879926d6",
+  "source_correction_records": [
+    {
+      "bytes": 55365,
+      "path": "evidence/P3_FULL_WORK_TIMEOUT_CORRECTION_046.json",
+      "sha256": "15307280fd83059fbff7d22f96df447bf3e4c9d487a3be0b48286ca0bb613ffd"
+    },
+    {
+      "bytes": 41046,
+      "path": "evidence/P3_FULL_WORK_TRANSPORT_CORRECTION_046.json",
+      "sha256": "b7a270922873ae9ef6ebca57d061e9d35582020c7c9a8d7e228bd270e15d6961"
+    }
+  ],
+  "source_pins": [
+    {
+      "access_date": "2026-09-13",
+      "bytes": 33317,
+      "path": "docs/P3_COMPARISON_DESIGN_042.md",
+      "sha256": "597ad1981a90682eea3e8e0118bbea0c9268d2f2edb82a20bce8c1c018d593fb",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/72f0792d242bfe19e59a0ed765d09748879926d6/docs/P3_COMPARISON_DESIGN_042.md"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 12861,
+      "path": "docs/P3_REFERENCE_ACCOUNTING_043.md",
+      "sha256": "b300d7f29454687fb8537f3d32127f94dc55245be07be06f8875156775cf6ace",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/72f0792d242bfe19e59a0ed765d09748879926d6/docs/P3_REFERENCE_ACCOUNTING_043.md"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 23130,
+      "path": "evidence/P3_RESOURCE_FEASIBILITY_043.md",
+      "sha256": "562303c980e48f0bc2dd82568207488f2c066fce26cdf944a20deae3738f60b1",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/72f0792d242bfe19e59a0ed765d09748879926d6/evidence/P3_RESOURCE_FEASIBILITY_043.md"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 1505,
+      "path": "evidence/P3_RESOURCE_FEASIBILITY_CORRECTION_043.md",
+      "sha256": "861fd712a2c479537ada6f266015ffef398abda880d8f7dd28beaf7688bd3b73",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/72f0792d242bfe19e59a0ed765d09748879926d6/evidence/P3_RESOURCE_FEASIBILITY_CORRECTION_043.md"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 12416,
+      "path": "evidence/P3_COMPLETE_WORK_COVERAGE_045.md",
+      "sha256": "486b1004155685c844b796ea26ab5ca37b2fa09eff55c04264501f0151ac465b",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/72f0792d242bfe19e59a0ed765d09748879926d6/evidence/P3_COMPLETE_WORK_COVERAGE_045.md"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 81205,
+      "path": "evidence/P3_RESOURCE_OBSERVATIONS_045.json",
+      "sha256": "da3825b38cbf7ced08ee8bc45f4949609068d5b496357d53498cef777b6c5807",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/72f0792d242bfe19e59a0ed765d09748879926d6/evidence/P3_RESOURCE_OBSERVATIONS_045.json"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 9264,
+      "path": "docs/P3_DIAGNOSTIC_ADAPTERS_045.md",
+      "sha256": "5bc72c59ab8453f7f0b6debc664df0b4814fe3ddf195d8551d278b85598ecb33",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/72f0792d242bfe19e59a0ed765d09748879926d6/docs/P3_DIAGNOSTIC_ADAPTERS_045.md"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 9032,
+      "path": "scripts/accounting043.py",
+      "sha256": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/72f0792d242bfe19e59a0ed765d09748879926d6/scripts/accounting043.py"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 30382,
+      "path": "scripts/reference_n1_043.py",
+      "sha256": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/72f0792d242bfe19e59a0ed765d09748879926d6/scripts/reference_n1_043.py"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 32194,
+      "path": "scripts/reference_n3_043.py",
+      "sha256": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/72f0792d242bfe19e59a0ed765d09748879926d6/scripts/reference_n3_043.py"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 30662,
+      "path": "scripts/diagnostics045.py",
+      "sha256": "d82855254880fe9d51242f98cea61b2813af7a5c62c36294a82786b86f2c0ed7",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/72f0792d242bfe19e59a0ed765d09748879926d6/scripts/diagnostics045.py"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 78601,
+      "path": "artifacts/CHECKPOINT_045_RETURN/9685b38ec4c503e4944a1c3ae5d63c2ed6247541ef97bf85bcc78d9d9bf72e25/REPORT.json",
+      "sha256": "b66c9e0bb8b324b5d1be1a9eb48c44c5dc502716590a6744400bacaa156623dc",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/72f0792d242bfe19e59a0ed765d09748879926d6/artifacts/CHECKPOINT_045_RETURN/9685b38ec4c503e4944a1c3ae5d63c2ed6247541ef97bf85bcc78d9d9bf72e25/REPORT.json"
+    },
+    {
+      "access_date": "2026-09-13",
+      "bytes": 3522,
+      "path": "artifacts/CHECKPOINT_045_RETURN/9685b38ec4c503e4944a1c3ae5d63c2ed6247541ef97bf85bcc78d9d9bf72e25/RECEIPT.json",
+      "sha256": "a17a9902d5374ad3c46e5764fdd5cb544e730b89c4b29215993304d72be09361",
+      "url": "https://github.com/afazeliUofT/arc-independent-lab/blob/72f0792d242bfe19e59a0ed765d09748879926d6/artifacts/CHECKPOINT_045_RETURN/9685b38ec4c503e4944a1c3ae5d63c2ed6247541ef97bf85bcc78d9d9bf72e25/RECEIPT.json"
+    }
+  ],
+  "static_source_review": {
+    "checks": {
+      "F55_M45_L5_raw10_geometry_and_65_66_bit_operands": true,
+      "actual_four_predicate_selection_small_integration": true,
+      "all_actual_trial_boundaries_and_same_T_controls": true,
+      "all_fixed_worker_files_returned_with_exact_receipt_pins": true,
+      "all_selected_predicate_deletions": true,
+      "all_successful_raw_source_and_diagnostic_payloads_archived": true,
+      "bounded_streaming_archive_validator": true,
+      "compact_index_excludes_full_worker_summaries": true,
+      "full_four_arm_W2_S3_K4_L5_V2_q4_graph": true,
+      "literal_3002_candidate_gain_overapproximation_labeled": true,
+      "local_saved_worker_cache_required_for_report_reuse": true,
+      "maximum_return_paths_51": true,
+      "mocked_nested_test_runners_preserve_enclosing_alarm": true,
+      "multigroup_122_groups_245_outcome_entries": true,
+      "native_model_target_or_042_evaluator_imported": false,
+      "remote_recovery_verifies_exact_inventory_and_bytes": true,
+      "shared_meter_retained_owner_overlap": true,
+      "stage_costs_and_partial_completed_stage_evidence": true,
+      "terminal_unittest_deadline_propagates": true,
+      "twenty_choices_and_five_forecasts_each_readout": true,
+      "unknown_child_disposition_never_certifies_completion": true,
+      "unknown_orphan_disposition_never_promoted": true,
+      "worker_validation_failure_forces_outer_incomplete": true,
+      "worker_validation_incomplete_reason_is_explicit": true
+    },
+    "complete_instruction_accounting_or_allocation_atomicity_proved": false,
+    "final_handoff_wrapper": {
+      "bytes": 54856,
+      "path": "scripts/checkpoint046_workflow.py",
+      "sha256": "7ab569525a452b2ec7e1e1124c48aa518acde257c0b588076f66bdb118882294"
+    },
+    "later_test_only_correction_preserved_real_enclosing_timer": true,
+    "maximal_geometry_or_runtime_proved": false,
+    "method": "Read frozen source and reports; no learner, profile or tests executed by this assessment.",
+    "runtime_changes": [
+      "terminal unittest deadline propagation and incremental active-test evidence",
+      "compact driver index with separate exact worker reports and byte-preserving orphan recovery"
+    ],
+    "source_freeze": {
+      "bytes": 1736,
+      "path": "evidence/P3_FULL_WORK_SOURCE_FREEZE_046.json",
+      "sha256": "2b69129a59c5ddfec7262e3ff8f81f8ac392624067322fa47b58669001a407d5"
+    },
+    "status": "IDENTIFIED_COVERAGE_AND_EXECUTION_DEFECTS_RESOLVED_WITHIN_046_SCOPE"
+  },
+  "status": "PHYSICAL_COMPLETE_PATH_PROFILE_PREPARATION_NOT_SCIENTIFIC_BUDGET_ADMISSION"
+}

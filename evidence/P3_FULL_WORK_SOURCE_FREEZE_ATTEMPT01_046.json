@@ -1,0 +1,21 @@
+{
+  "kind": "P3_FULL_WORK_SOURCE_FREEZE_046_v1",
+  "attempt": 1,
+  "status": "FROZEN_BEFORE_EXECUTION",
+  "sources": {
+    "configs/P3_FULL_WORK_FIXTURES_046.json": "568c603c0b05dd265af91cd2eed8f4e49f47dcde69e276c1686b36580049af8d",
+    "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+    "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+    "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+    "scripts/diagnostics045.py": "d82855254880fe9d51242f98cea61b2813af7a5c62c36294a82786b86f2c0ed7",
+    "scripts/fullwork046.py": "e9dd696ac174864bfa8c17c21b3b4cd7af1a1d096e2d529f4065e5bd02f4348b",
+    "scripts/profile046.py": "9b38f8ca5718e57d21a751dd8a4b90e03bed7f4f264c8f7f586a57b559fc010e",
+    "tests/test_fullwork046.py": "20dcd835aa8bfb07877afd1fe10a67bd915ca1e09e3aa1eebfa985ea484c8548"
+  },
+  "outer_seconds": 300,
+  "worker_seconds": 270,
+  "address_space_bytes": 2147483648,
+  "cpu_affinity_count": 1,
+  "execution": "profile046.py --worker conformance; no fullprofile",
+  "read_only_staged_source": true
+}

@@ -1,0 +1,132 @@
+{
+  "kind": "P3_FULL_WORK_FIXTURES_046_v1",
+  "purpose": "Consolidated fabricated required-path physical resource observations; no target simulation or complete-accounting proof",
+  "repetitions": 3,
+  "arms": [
+    "FULL",
+    "MACRO_OFF",
+    "FEEDBACK_NULL",
+    "COVERAGE"
+  ],
+  "mechanism": {
+    "W": 2,
+    "S": 3,
+    "K": 4,
+    "L": 5,
+    "V": 2,
+    "q": 4
+  },
+  "sizes": [
+    {
+      "name": "small",
+      "B_env": 25
+    },
+    {
+      "name": "typical",
+      "B_env": 105
+    },
+    {
+      "name": "largest",
+      "B_env": 285
+    }
+  ],
+  "stress_cases": [
+    "n1_multigroup",
+    "n1_k4_selection",
+    "n3_long_raw",
+    "n3_dense"
+  ],
+  "stress": {
+    "retained_records": 245,
+    "completed_recipes": 55,
+    "macro_words": 45,
+    "raw_mutations_max": 27720,
+    "raw_tokens_max": 10,
+    "credit_denominator_bits": 65,
+    "credit_numerator_bits": 66
+  },
+  "snapshot_reservation_bytes": 16777216,
+  "decisions_per_readout": 20,
+  "limits": {
+    "inclusive_outer_wall_seconds": 14400,
+    "driver_wall_seconds": 14100,
+    "row_wall_seconds": 1200,
+    "conformance_wall_seconds": 270,
+    "address_space_bytes": 2147483648,
+    "cpu_affinity_count": 1,
+    "file_size_bytes": 33554432,
+    "report_bytes": 16777216,
+    "automatic_remeasurement": false
+  },
+  "operational_cap_basis": {
+    "prior_case": "044 n1_no_positive_gain/largest/repetition1",
+    "prior_wall_seconds": 17.956168574048206,
+    "conservative_old_work_extrapolation_seconds": 1292.8441373314708,
+    "policy_reserve_multiplier": 10,
+    "reserved_old_work_seconds": 12928.441373314708,
+    "driver_remaining_seconds": 1171.558626685292,
+    "scope": "Finite safety policy anchored to72 prior-largest N1 components; neither measured full-work projection nor worst-case guarantee; pending diagnostics/stress/setup may still stop explicitly"
+  },
+  "execution_order": "conformance, then sizes listed \u00d7 arms listed \u00d7 repetitions0,1,2; then stress cases listed \u00d7 repetitions0,1,2;48rows total",
+  "fabricated_interface": {
+    "kind": "ACTION_AGNOSTIC_PERIODIC_TAPE_046",
+    "tape": [
+      0,
+      1,
+      0,
+      2,
+      0,
+      3,
+      0,
+      4
+    ],
+    "reset": "position0; return token0",
+    "step": "increment position modulo8 independently of opaque action; return tape token",
+    "stationarity_attestation": false,
+    "target_world_or_panel": false
+  },
+  "diagnostic_graph": [
+    "chronological original-boundary N1 replay",
+    "P00/P10/P11 every scored trial with retained physical events including incomplete validation",
+    "selected partition plus every single deletion plus ORDER0/1/2 on same frozenT",
+    "20 fabricated five-action choices per actual required readout",
+    "keep live acquisition, replay, all boundary copies and three readers per trial alongside controls until serialization",
+    "record full input/output serialization bytes/hash and simultaneous logical owners; retain every numerical diagnostic effect/choice/status in compact return"
+  ],
+  "representation": "Full fabricated acquisition, learner, diagnostic records and readers retained as bounded zlib6+base64 canonical JSON archive per row; readable report keeps every trial score/effect/status and exact five goal probabilities per decision. All output can be reconstructed from archives; no outcome-based selection.",
+  "coverage_limitations": [
+    "Component maximum-shaped states are constructed over-approximations, not jointly reachable trajectories",
+    "K4 multigroup3002 gain calls occur outside real search which stops atK4",
+    "65bit denominator/66bit numerator stresses exact arithmetic; envelope not proof of all arbitrary future operands",
+    "All Python temporary allocations, instruction charges and atomicity are not proven",
+    "042 physical11call target evaluation protocol is not measured by fabricated chooser calls",
+    "No CPU wall-bound guarantee or quiet/contended host classification",
+    "No B_comp/B_mem or target admission"
+  ],
+  "admission": {
+    "native_allowance": 0,
+    "target_experiment": false,
+    "complete_work_budget": false,
+    "B_comp": null,
+    "B_mem": null
+  },
+  "source_policy": "Eight explicit source/fixture files only; no old profile runner, target simulator, private paper, native/model client, network or HPC import",
+  "uncompressed_evidence_limit_bytes": 134217728,
+  "conformance_scope": {
+    "chain_budgets": [
+      13,
+      14,
+      15,
+      25
+    ],
+    "main_small_arms": [
+      "FULL",
+      "MACRO_OFF",
+      "FEEDBACK_NULL",
+      "COVERAGE"
+    ],
+    "stress_retained_records": 15,
+    "stress_full_N3_geometry": true,
+    "no_full_profile": true
+  }
+}
