@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-13T21:39:34.801914+00:00",
+  "updated_utc": "2026-09-13T21:41:59.218417+00:00",
   "current_gate": "P3",
   "gate_status": "in_progress",
   "gate_entered_utc": "2026-09-10T23:29:11.766050+00:00",
   "last_verified_gate": "P3.second_candidate_focused_analytical_assessment",
-  "last_verified_commit": "72f0792d242bfe19e59a0ed765d09748879926d6",
+  "last_verified_commit": "1ff59732974408bd64131691b2ae278f0c244444",
   "active_task": "P3.fullwork046.consolidated_profile",
   "blocked_on": null,
   "next_action": "Run the reserved046 fabricated complete-path resource profile once; read REPORT, RECEIPT and every receipt-pinned worker report from GitHub. Assess physical laptop/Alliance scale and remaining finite accounting correction; no target admission.",
@@ -79,8 +79,8 @@
     "P2.second_pass_after_reviewed_negative_audit"
   ],
   "remote": "https://github.com/afazeliUofT/arc-independent-lab",
-  "durability_status": "Full045 return verified; exact2file addition preserves1555priorblobs/modes. Seven source identities,23tests/all13families and source baseline verified.046 release publication pending.",
-  "commit_status": "046 content and final ZIP verification pending.",
+  "durability_status": "046 content published and exact allowed file readback complete; every undeclared prior blob/mode preserved. Complete449-member ZIP saved;271 public Git objects and172 private packet files verified. Final8sourceclosure matches15 passing conformance tests;20 synthetic handoff tests and completeZIP seam passed. All earlier successful validation versions/corrections preserved; laptop48row profile pending.",
+  "commit_status": "046 content release verified; separate publication/state commit records final ZIP identity without changing pinned runtime inputs.",
   "recovery_dependency": null,
   "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation.",
   "latest_recovery_evidence": [
@@ -138,10 +138,10 @@
       "sha256": "1995e36a9f8e5f9f201d9b63ba8a7c39400f3e8e0046009a1c59973c2023188e"
     }
   ],
-  "handoff_backup_status": "One complete046 ZIP and one WSL-home command. One4-hour-maximum profile publishes compact index, receipt and all saved conformance/row reports; retries preserve the original invocation and outputs.",
+  "handoff_backup_status": "One complete046ZIP saved; one WSL-home command reserves one48row fabricated profile, then publishes the compact report, receipt, conformance and every saved row report with compressed recoverable source evidence.4hour outercap; repeated command reuses first execution evidence.",
   "latest_publication_verification": {
-    "path": "evidence/REMOTE_CHECKPOINT_045_VERIFICATION.json",
-    "sha256": "94e7627031511a6c73abb24fe6f4880df379b3142ccf4185676827ebc5013fa0"
+    "path": "evidence/REMOTE_CHECKPOINT_046_VERIFICATION.json",
+    "sha256": "fe8ffe338c9af8adeaab86b9c61a38a793fa69120883262c9931a8cc232af4a5"
   },
   "last_human_message_verbatim": "Github is updated. Proceed",
   "phase1_approval": {
@@ -711,7 +711,7 @@
     }
   },
   "latest_objective_status": "Original interactive acquisition, retention across discontinuities and useful recombination remain the research objective.042 is a deliberately limited calibration, not programme completion.",
-  "current_publication_checkpoint": "045_published_verified",
+  "current_publication_checkpoint": "046_published_verified",
   "auxiliary_auditor_receipt_durability": {
     "status": "verified_published_on_main",
     "commit": "296cf94b9e692f4ddbee5c554fc87aaa5a298e60",
@@ -850,22 +850,89 @@
   "original_initial_prompt_now_visible": true,
   "latest_continuation_zip": {
     "filename": "ARC_Independent_Lab_046.zip",
-    "status": "prepared_final_publication_and_checksum_pending",
+    "sha256": "9d01815bf8687cf9d985029d8071766ca7e9d21f7e262068ceabff3ed320ac3b",
+    "bytes": 26827600,
+    "members": 449,
+    "content_commit": "1ff59732974408bd64131691b2ae278f0c244444",
+    "release_manifest": "evidence/P3_CHECKPOINT_046_MANIFEST.json",
+    "manifest_sha256": "ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9",
+    "saved": true,
     "one_wsl_home_downloads_command": true,
     "private_papers_included": true,
     "original045_return_included": true,
     "native_execution_pending": false,
     "target_experiment_pending": false,
     "development_diagnostic_conformance_pending": false,
-    "development_consolidated_profile_pending": true
+    "development_consolidated_profile_pending": true,
+    "maximum_profile_launches": 1,
+    "planned_rows": 48,
+    "outer_wall_seconds": 14400,
+    "expected_return_paths": [
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/REPORT.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/RECEIPT.json"
+    ],
+    "allowed_return_paths": [
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/REPORT.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/RECEIPT.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/CONFORMANCE.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_00.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_01.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_02.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_03.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_04.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_05.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_06.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_07.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_08.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_09.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_10.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_11.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_12.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_13.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_14.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_15.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_16.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_17.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_18.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_19.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_20.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_21.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_22.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_23.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_24.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_25.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_26.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_27.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_28.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_29.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_30.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_31.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_32.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_33.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_34.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_35.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_36.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_37.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_38.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_39.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_40.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_41.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_42.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_43.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_44.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_45.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_46.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_47.json"
+    ],
+    "maximum_return_files": 51
   },
   "handoff_preference_source": {
     "path": "docs/USER_HANDOFF_PREFERENCES_2026-09-11.md",
     "sha256": "de04d0f73a57aef52330b3b5dba7c790c3bbd2def8a4e589b50d6dd239cfd944"
   },
   "latest_handoff_publication_verification": {
-    "path": "evidence/REMOTE_CHECKPOINT_045_VERIFICATION.json",
-    "sha256": "94e7627031511a6c73abb24fe6f4880df379b3142ccf4185676827ebc5013fa0"
+    "path": "evidence/REMOTE_CHECKPOINT_046_VERIFICATION.json",
+    "sha256": "fe8ffe338c9af8adeaab86b9c61a38a793fa69120883262c9931a8cc232af4a5"
   },
   "latest_source_packet_return": {
     "path": "evidence/P3_SOURCE_PACKET_RETURN_VERIFICATION_039.json",
@@ -1359,7 +1426,7 @@
     "publication_succeeded": true
   },
   "checkpoint046": {
-    "status": "consolidated_resource_release_prepared",
+    "status": "published_verified_consolidated_profile_ready",
     "accepted_return_commit": "72f0792d242bfe19e59a0ed765d09748879926d6",
     "decision": "Measure fabricated full acquisition/diagnostic physical costs and declaredstresscases; retain accounting gaps and leave scientific allowances unset.",
     "evidence": [
@@ -1486,6 +1553,68 @@
     "hosted_synthetic_handoff_tests_passed": 20,
     "complete_package_seam_passed": true,
     "maximum_return_files": 51,
-    "result_transport": "Compact index plus exact separate CONFORMANCE.json and row_00.json through row_47.json; receipt pins actual inventory, including available partial recovery evidence."
+    "result_transport": "Compact index plus exact separate CONFORMANCE.json and row_00.json through row_47.json; receipt pins actual inventory, including available partial recovery evidence.",
+    "publication_verification": {
+      "path": "evidence/REMOTE_CHECKPOINT_046_VERIFICATION.json",
+      "sha256": "fe8ffe338c9af8adeaab86b9c61a38a793fa69120883262c9931a8cc232af4a5"
+    },
+    "expected_return_paths": [
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/REPORT.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/RECEIPT.json"
+    ],
+    "allowed_return_paths": [
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/REPORT.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/RECEIPT.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/CONFORMANCE.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_00.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_01.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_02.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_03.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_04.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_05.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_06.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_07.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_08.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_09.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_10.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_11.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_12.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_13.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_14.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_15.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_16.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_17.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_18.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_19.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_20.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_21.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_22.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_23.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_24.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_25.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_26.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_27.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_28.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_29.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_30.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_31.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_32.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_33.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_34.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_35.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_36.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_37.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_38.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_39.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_40.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_41.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_42.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_43.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_44.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_45.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_46.json",
+      "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_47.json"
+    ],
+    "future_report_retrieval": "Read046REPORT, RECEIPT and the entire receipt-pinned worker inventory directly from GitHub; verify exact8sources, all48row identities/statuses, conformance, raw worker hashes/lengths, every compressed evidence hash/length and bounded decode, stage/total usage, original045 baseline and once-onlyreservation. PROFILE_COMPLETED is physical fabricated-workload evidence, not complete accounting or target admission. Do not rerun043045 or046 reservation. Decide scoped laptop/Alliance route and close named accounting correction before restricted independent review."
   }
 }
