@@ -1,0 +1,2347 @@
+{
+  "automatic_rerun_permitted": false,
+  "baseline_pins": [
+    {
+      "path": "artifacts/CHECKPOINT_044_RETURN/bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c/RECEIPT.json",
+      "sha256": "9c193909ec23b2bf5f7dd4585062289d0899f7fedf4e00d72d1d250853afc57e"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_044_RETURN/bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c/REPORT.json",
+      "sha256": "6452875d2bd3947e0a8aede3aa89c9c8db19985ffc38c80a4b9aa10a086d6cad"
+    }
+  ],
+  "baseline_report_path": "artifacts/CHECKPOINT_044_RETURN/bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c/REPORT.json",
+  "baseline_return_commit": "16976d8db11475f85ad2e96e5be786c1d4d50776",
+  "caps": {
+    "address_space_bytes": 2147483648,
+    "available_cpus_used": 1,
+    "cpu_hard_seconds": 300,
+    "cpu_soft_seconds": 290,
+    "driver_wall_seconds": 270,
+    "maximum_child_file_bytes": 8388608,
+    "parent_wall_seconds": 300
+  },
+  "child_report_failure_class": null,
+  "complete_work_budget_admitted": false,
+  "content_commit": "1bee703248248b7624d989d5c18a85c646341ef3",
+  "development_diagnostic_conformance_only": true,
+  "diagnostic_launches_observed": 1,
+  "diagnostic_report": {
+    "B_comp": null,
+    "B_mem": null,
+    "active_test": null,
+    "automatic_rerun_permitted": false,
+    "case_results": {
+      "B_comp": null,
+      "B_mem": null,
+      "accounting_scope": "Declared named work and retained logical payloads; incomplete Python temporary/allocation coverage",
+      "cases": {
+        "accounting_refusal": {
+          "budget_refilled": false,
+          "cause": "COMPUTATION_INCOMPLETE",
+          "chooser_status": "DECISION_UNAVAILABLE",
+          "status": "PASSED",
+          "unattempted_actions": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "all_predicate_deletions": {
+          "all_T_hashes_identical": true,
+          "meter": {
+            "calls": {
+              "codec.node_visit": 64,
+              "codec.ordering_bound": 64,
+              "codec.output_byte": 64,
+              "diagnostic.chooser_action_request": 30,
+              "diagnostic.chooser_exact_rational_compare": 30,
+              "diagnostic.chooser_history_input": 6,
+              "diagnostic.constant_membership": 4,
+              "diagnostic.predicate_size_traversal": 4,
+              "diagnostic.predicate_syntax_node": 4,
+              "diagnostic.prescribed_phi_copy_bytes": 3,
+              "diagnostic.provenance_materialization_bytes": 7,
+              "diagnostic.sha256_input_bytes": 4,
+              "diagnostic.table_state_view": 1,
+              "memory.reservation": 48,
+              "n1.count_commit": 6,
+              "n1.count_dict": 12,
+              "n1.count_increment": 12,
+              "n1.count_scan": 12,
+              "n1.expression_node": 32,
+              "n1.key_construction": 24,
+              "n1.outcome_cardinality": 36,
+              "n1.predict_count_sum": 14,
+              "n1.predict_lookup": 36,
+              "n1.prediction_fraction": 72,
+              "n1.prediction_log_append": 6,
+              "n1.term_access": 32,
+              "n1.token_equality": 32,
+              "n1.validate_token": 36,
+              "rational.euclidean_remainder": 154,
+              "rational.products": 72,
+              "rational.reduced_division": 72,
+              "reader.action_validation": 12,
+              "reader.key_construction": 24,
+              "reader.record_commit": 12,
+              "reader.record_copy_bytes": 12,
+              "reader.record_validation": 12,
+              "reader.source_table_hash": 6,
+              "reader.source_table_view": 6
+            },
+            "charges": {
+              "codec.node_visit": 8898,
+              "codec.ordering_bound": 6006976,
+              "codec.output_byte": 498200,
+              "diagnostic.chooser_action_request": 30,
+              "diagnostic.chooser_exact_rational_compare": 299,
+              "diagnostic.chooser_history_input": 240,
+              "diagnostic.constant_membership": 8,
+              "diagnostic.predicate_size_traversal": 4,
+              "diagnostic.predicate_syntax_node": 4,
+              "diagnostic.prescribed_phi_copy_bytes": 91,
+              "diagnostic.provenance_materialization_bytes": 10202,
+              "diagnostic.sha256_input_bytes": 2144,
+              "diagnostic.table_state_view": 2,
+              "memory.reservation": 538,
+              "n1.count_commit": 12,
+              "n1.count_dict": 36,
+              "n1.count_increment": 12,
+              "n1.count_scan": 12,
+              "n1.expression_node": 32,
+              "n1.key_construction": 104,
+              "n1.outcome_cardinality": 36,
+              "n1.predict_count_sum": 14,
+              "n1.predict_lookup": 36,
+              "n1.prediction_fraction": 1848,
+              "n1.prediction_log_append": 6,
+              "n1.term_access": 64,
+              "n1.token_equality": 32,
+              "n1.validate_token": 72,
+              "rational.euclidean_remainder": 380,
+              "rational.products": 234,
+              "rational.reduced_division": 254,
+              "reader.action_validation": 120,
+              "reader.key_construction": 120,
+              "reader.record_commit": 72,
+              "reader.record_copy_bytes": 1044,
+              "reader.record_validation": 12,
+              "reader.source_table_hash": 8496,
+              "reader.source_table_view": 12
+            },
+            "kind": "P3_DEVELOPMENT_METER_043_v1",
+            "memory_limit": null,
+            "open_prepaid_cleanup_owners": [],
+            "owners": {
+              "diagnostic045_6": 10210,
+              "n1-10": 1136,
+              "n1-11": 1148,
+              "n1-6": 1327,
+              "n1-7": 1294,
+              "n1-8": 1294,
+              "n1-9": 1117
+            },
+            "peak_retained_bytes": 17557,
+            "refusals": [],
+            "retained_bytes": 17526,
+            "scope": "Declared abstract-operation/codec convention; not Python instruction count or RSS; implementation instrumentation and full-work coverage require separate validation.",
+            "work": 6540696,
+            "work_limit": null
+          },
+          "readers": {
+            "DELETE_0": {
+              "action": 0,
+              "probability": {
+                "denominator": 3,
+                "numerator": 2
+              }
+            },
+            "DELETE_1": {
+              "action": 0,
+              "probability": {
+                "denominator": 3,
+                "numerator": 2
+              }
+            },
+            "ORDER0": {
+              "action": 0,
+              "probability": {
+                "denominator": 2,
+                "numerator": 1
+              }
+            },
+            "ORDER1": {
+              "action": 0,
+              "probability": {
+                "denominator": 3,
+                "numerator": 2
+              }
+            },
+            "ORDER2": {
+              "action": 0,
+              "probability": {
+                "denominator": 3,
+                "numerator": 2
+              }
+            },
+            "SELECTED": {
+              "action": 0,
+              "probability": {
+                "denominator": 3,
+                "numerator": 2
+              }
+            }
+          },
+          "redundant_predicate_single_deletion_can_mask_effect": true,
+          "status": "PASSED"
+        },
+        "count_only_credit_gate": {
+          "decomposition": {
+            "T0_sha256": "5c8cb96cdeaefbfb5b5aebddfdd60eb785772bdff1f7c2029dd17492227c26c2",
+            "T1_P10_sha256": "532d1fbdfdfdaeae80077f7992f16ce6ac5922017eb31347c1c6156cf4d6944f",
+            "T1_P11_sha256": "532d1fbdfdfdaeae80077f7992f16ce6ac5922017eb31347c1c6156cf4d6944f",
+            "counts_refit_once_per_prescribed_reader": true,
+            "fresh_predicate": false,
+            "gate_changed": false,
+            "gated_credit": {
+              "denominator": 1,
+              "numerator": 0
+            },
+            "identity_scope": "numeric retained validation prefix; full mean only when all V rows are available",
+            "identity_verified": true,
+            "kind": "TRIAL_BRIER_DECOMPOSITION_045_v1",
+            "mean_count_effect": {
+              "denominator": 225,
+              "numerator": 16
+            },
+            "mean_partition_effect": {
+              "denominator": 1,
+              "numerator": 0
+            },
+            "mean_raw_gain": {
+              "denominator": 225,
+              "numerator": 16
+            },
+            "operative_priority_credit": {
+              "denominator": 1,
+              "numerator": 0
+            },
+            "reconstructed_gated_credit_is_new_diagnostic_only": false,
+            "required_validation_count": 2,
+            "source_credit": {
+              "denominator": 1,
+              "numerator": 0
+            },
+            "source_credit_status": "AVAILABLE",
+            "status": "AVAILABLE",
+            "trial_id": 2,
+            "utility_is_operative": true,
+            "validation_rows": [
+              {
+                "brier": {
+                  "P00": {
+                    "denominator": 9,
+                    "numerator": 2
+                  },
+                  "P10": {
+                    "denominator": 9,
+                    "numerator": 2
+                  },
+                  "P11": {
+                    "denominator": 9,
+                    "numerator": 2
+                  }
+                },
+                "count_effect": {
+                  "denominator": 1,
+                  "numerator": 0
+                },
+                "event_index": 7,
+                "identity_verified": true,
+                "partition_effect": {
+                  "denominator": 1,
+                  "numerator": 0
+                },
+                "predictions": {
+                  "P00": {
+                    "counts": [
+                      {
+                        "count": 1,
+                        "outcome": [
+                          0
+                        ]
+                      }
+                    ],
+                    "features": [],
+                    "probabilities": [
+                      {
+                        "outcome": [
+                          0
+                        ],
+                        "probability": {
+                          "denominator": 3,
+                          "numerator": 2
+                        }
+                      },
+                      {
+                        "outcome": [
+                          1
+                        ],
+                        "probability": {
+                          "denominator": 3,
+                          "numerator": 1
+                        }
+                      }
+                    ],
+                    "status": "OBSERVED_SINGLE_OUTCOME"
+                  },
+                  "P10": {
+                    "counts": [
+                      {
+                        "count": 1,
+                        "outcome": [
+                          0
+                        ]
+                      }
+                    ],
+                    "features": [],
+                    "probabilities": [
+                      {
+                        "outcome": [
+                          0
+                        ],
+                        "probability": {
+                          "denominator": 3,
+                          "numerator": 2
+                        }
+                      },
+                      {
+                        "outcome": [
+                          1
+                        ],
+                        "probability": {
+                          "denominator": 3,
+                          "numerator": 1
+                        }
+                      }
+                    ],
+                    "status": "OBSERVED_SINGLE_OUTCOME"
+                  },
+                  "P11": {
+                    "counts": [
+                      {
+                        "count": 1,
+                        "outcome": [
+                          0
+                        ]
+                      }
+                    ],
+                    "features": [],
+                    "probabilities": [
+                      {
+                        "outcome": [
+                          0
+                        ],
+                        "probability": {
+                          "denominator": 3,
+                          "numerator": 2
+                        }
+                      },
+                      {
+                        "outcome": [
+                          1
+                        ],
+                        "probability": {
+                          "denominator": 3,
+                          "numerator": 1
+                        }
+                      }
+                    ],
+                    "status": "OBSERVED_SINGLE_OUTCOME"
+                  }
+                },
+                "raw_gain": {
+                  "denominator": 1,
+                  "numerator": 0
+                },
+                "source_forecast_verification": {
+                  "P00": "VERIFIED",
+                  "P11": "VERIFIED"
+                }
+              },
+              {
+                "brier": {
+                  "P00": {
+                    "denominator": 9,
+                    "numerator": 2
+                  },
+                  "P10": {
+                    "denominator": 25,
+                    "numerator": 2
+                  },
+                  "P11": {
+                    "denominator": 25,
+                    "numerator": 2
+                  }
+                },
+                "count_effect": {
+                  "denominator": 225,
+                  "numerator": 32
+                },
+                "event_index": 8,
+                "identity_verified": true,
+                "partition_effect": {
+                  "denominator": 1,
+                  "numerator": 0
+                },
+                "predictions": {
+                  "P00": {
+                    "counts": [
+                      {
+                        "count": 1,
+                        "outcome": [
+                          0
+                        ]
+                      }
+                    ],
+                    "features": [],
+                    "probabilities": [
+                      {
+                        "outcome": [
+                          0
+                        ],
+                        "probability": {
+                          "denominator": 3,
+                          "numerator": 2
+                        }
+                      },
+                      {
+                        "outcome": [
+                          1
+                        ],
+                        "probability": {
+                          "denominator": 3,
+                          "numerator": 1
+                        }
+                      }
+                    ],
+                    "status": "OBSERVED_SINGLE_OUTCOME"
+                  },
+                  "P10": {
+                    "counts": [
+                      {
+                        "count": 3,
+                        "outcome": [
+                          0
+                        ]
+                      }
+                    ],
+                    "features": [],
+                    "probabilities": [
+                      {
+                        "outcome": [
+                          0
+                        ],
+                        "probability": {
+                          "denominator": 5,
+                          "numerator": 4
+                        }
+                      },
+                      {
+                        "outcome": [
+                          1
+                        ],
+                        "probability": {
+                          "denominator": 5,
+                          "numerator": 1
+                        }
+                      }
+                    ],
+                    "status": "OBSERVED_SINGLE_OUTCOME"
+                  },
+                  "P11": {
+                    "counts": [
+                      {
+                        "count": 3,
+                        "outcome": [
+                          0
+                        ]
+                      }
+                    ],
+                    "features": [],
+                    "probabilities": [
+                      {
+                        "outcome": [
+                          0
+                        ],
+                        "probability": {
+                          "denominator": 5,
+                          "numerator": 4
+                        }
+                      },
+                      {
+                        "outcome": [
+                          1
+                        ],
+                        "probability": {
+                          "denominator": 5,
+                          "numerator": 1
+                        }
+                      }
+                    ],
+                    "status": "OBSERVED_SINGLE_OUTCOME"
+                  }
+                },
+                "raw_gain": {
+                  "denominator": 225,
+                  "numerator": 32
+                },
+                "source_forecast_verification": {
+                  "P00": "VERIFIED",
+                  "P11": "VERIFIED"
+                }
+              }
+            ]
+          },
+          "replay": {
+            "boundaries": [
+              {
+                "Phi0": [],
+                "Phi1": [],
+                "post_table_sha256": "532d1fbdfdfdaeae80077f7992f16ce6ac5922017eb31347c1c6156cf4d6944f",
+                "pre_table_sha256": "5c8cb96cdeaefbfb5b5aebddfdd60eb785772bdff1f7c2029dd17492227c26c2",
+                "trial_id": 2
+              }
+            ],
+            "environment_calls_issued_by_replay": 0,
+            "kind": "BOUNDARY_REPLAY_045_v1",
+            "partial_update_cursor_reconstruction_supported": false,
+            "pending_issued_preserved": false,
+            "pending_validation_event_indices": [],
+            "replayed_final_state_sha256": "d5f0da51c847f7ece3ce17589dfbb82bc47f870964bc28f06e1deddcbb101083",
+            "scheduler_calls_by_replay": 0,
+            "source_final_state_sha256": "d5f0da51c847f7ece3ce17589dfbb82bc47f870964bc28f06e1deddcbb101083",
+            "source_state_sha256": "78f57c6d1ee0941d935d088c878ff934049c56747bd9546b8892ed46828169b7",
+            "status": "VERIFIED",
+            "trace": [
+              {
+                "event_index": 0,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  []
+                ],
+                "operation": "OBSERVE_RESET",
+                "table_size": 0
+              },
+              {
+                "Phi": [],
+                "event_index": 1,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "IMMEDIATE_TRIAL",
+                "status": "COMPLETE",
+                "table_size": 1
+              },
+              {
+                "event_index": 2,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0
+                  ]
+                ],
+                "operation": "OBSERVE_RESET",
+                "table_size": 1
+              },
+              {
+                "Phi": [],
+                "event_index": 3,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "IMMEDIATE_TRIAL",
+                "status": "COMPLETE",
+                "table_size": 2
+              },
+              {
+                "event_index": 4,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "OBSERVE_RESET",
+                "table_size": 2
+              },
+              {
+                "Phi": [],
+                "event_index": 5,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "IMMEDIATE_TRIAL",
+                "status": "COMPLETE",
+                "table_size": 3
+              },
+              {
+                "Phi": [],
+                "event_index": 6,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "IMMEDIATE_TRIAL",
+                "status": "COMPLETE",
+                "table_size": 4
+              },
+              {
+                "credit_status": "AVAILABLE",
+                "operation": "FINALIZE_CREDIT",
+                "table_size": 4,
+                "trial_id": 2
+              },
+              {
+                "Phi": [],
+                "event_index": 7,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "DELAYED_VALIDATION",
+                "status": "COMPLETE",
+                "table_size": 5
+              },
+              {
+                "Phi": [],
+                "event_index": 8,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "DELAYED_VALIDATION",
+                "status": "COMPLETE",
+                "table_size": 6
+              }
+            ]
+          },
+          "status": "PASSED"
+        },
+        "exact_five_action_chooser": {
+          "all_five_predictions": true,
+          "fitted_T_unchanged": true,
+          "seen_max_action": 0,
+          "status": "PASSED",
+          "unseen_tie_action": 1
+        },
+        "fresh_predicate_brier_identity": {
+          "decomposition": {
+            "T0_sha256": "5c8cb96cdeaefbfb5b5aebddfdd60eb785772bdff1f7c2029dd17492227c26c2",
+            "T1_P10_sha256": "d8bca69df99d8e0f2e935181b468553515943e2b2f109476aac0483637dbbab9",
+            "T1_P11_sha256": "d8bca69df99d8e0f2e935181b468553515943e2b2f109476aac0483637dbbab9",
+            "counts_refit_once_per_prescribed_reader": true,
+            "fresh_predicate": true,
+            "gate_changed": false,
+            "gated_credit": {
+              "denominator": 144,
+              "numerator": 7
+            },
+            "identity_scope": "numeric retained validation prefix; full mean only when all V rows are available",
+            "identity_verified": true,
+            "kind": "TRIAL_BRIER_DECOMPOSITION_045_v1",
+            "mean_count_effect": {
+              "denominator": 225,
+              "numerator": -11
+            },
+            "mean_partition_effect": {
+              "denominator": 400,
+              "numerator": 39
+            },
+            "mean_raw_gain": {
+              "denominator": 144,
+              "numerator": 7
+            },
+            "operative_priority_credit": {
+              "denominator": 144,
+              "numerator": 7
+            },
+            "reconstructed_gated_credit_is_new_diagnostic_only": false,
+            "required_validation_count": 2,
+            "source_credit": {
+              "denominator": 144,
+              "numerator": 7
+            },
+            "source_credit_status": "AVAILABLE",
+            "status": "AVAILABLE",
+            "trial_id": 2,
+            "utility_is_operative": true,
+            "validation_rows": [
+              {
+                "brier": {
+                  "P00": {
+                    "denominator": 2,
+                    "numerator": 1
+                  },
+                  "P10": {
+                    "denominator": 2,
+                    "numerator": 1
+                  },
+                  "P11": {
+                    "denominator": 2,
+                    "numerator": 1
+                  }
+                },
+                "count_effect": {
+                  "denominator": 1,
+                  "numerator": 0
+                },
+                "event_index": 7,
+                "identity_verified": true,
+                "partition_effect": {
+                  "denominator": 1,
+                  "numerator": 0
+                },
+                "predictions": {
+                  "P00": {
+                    "counts": [],
+                    "features": [],
+                    "probabilities": [
+                      {
+                        "outcome": [
+                          0
+                        ],
+                        "probability": {
+                          "denominator": 2,
+                          "numerator": 1
+                        }
+                      },
+                      {
+                        "outcome": [
+                          1
+                        ],
+                        "probability": {
+                          "denominator": 2,
+                          "numerator": 1
+                        }
+                      }
+                    ],
+                    "status": "UNSEEN_KEY"
+                  },
+                  "P10": {
+                    "counts": [],
+                    "features": [],
+                    "probabilities": [
+                      {
+                        "outcome": [
+                          0
+                        ],
+                        "probability": {
+                          "denominator": 2,
+                          "numerator": 1
+                        }
+                      },
+                      {
+                        "outcome": [
+                          1
+                        ],
+                        "probability": {
+                          "denominator": 2,
+                          "numerator": 1
+                        }
+                      }
+                    ],
+                    "status": "UNSEEN_KEY"
+                  },
+                  "P11": {
+                    "counts": [],
+                    "features": [
+                      false
+                    ],
+                    "probabilities": [
+                      {
+                        "outcome": [
+                          0
+                        ],
+                        "probability": {
+                          "denominator": 2,
+                          "numerator": 1
+                        }
+                      },
+                      {
+                        "outcome": [
+                          1
+                        ],
+                        "probability": {
+                          "denominator": 2,
+                          "numerator": 1
+                        }
+                      }
+                    ],
+                    "status": "UNSEEN_KEY"
+                  }
+                },
+                "raw_gain": {
+                  "denominator": 1,
+                  "numerator": 0
+                },
+                "source_forecast_verification": {
+                  "P00": "VERIFIED",
+                  "P11": "VERIFIED"
+                }
+              },
+              {
+                "brier": {
+                  "P00": {
+                    "denominator": 9,
+                    "numerator": 2
+                  },
+                  "P10": {
+                    "denominator": 25,
+                    "numerator": 8
+                  },
+                  "P11": {
+                    "denominator": 8,
+                    "numerator": 1
+                  }
+                },
+                "count_effect": {
+                  "denominator": 225,
+                  "numerator": -22
+                },
+                "event_index": 8,
+                "identity_verified": true,
+                "partition_effect": {
+                  "denominator": 200,
+                  "numerator": 39
+                },
+                "predictions": {
+                  "P00": {
+                    "counts": [
+                      {
+                        "count": 1,
+                        "outcome": [
+                          0
+                        ]
+                      }
+                    ],
+                    "features": [],
+                    "probabilities": [
+                      {
+                        "outcome": [
+                          0
+                        ],
+                        "probability": {
+                          "denominator": 3,
+                          "numerator": 2
+                        }
+                      },
+                      {
+                        "outcome": [
+                          1
+                        ],
+                        "probability": {
+                          "denominator": 3,
+                          "numerator": 1
+                        }
+                      }
+                    ],
+                    "status": "OBSERVED_SINGLE_OUTCOME"
+                  },
+                  "P10": {
+                    "counts": [
+                      {
+                        "count": 2,
+                        "outcome": [
+                          0
+                        ]
+                      },
+                      {
+                        "count": 1,
+                        "outcome": [
+                          1
+                        ]
+                      }
+                    ],
+                    "features": [],
+                    "probabilities": [
+                      {
+                        "outcome": [
+                          0
+                        ],
+                        "probability": {
+                          "denominator": 5,
+                          "numerator": 3
+                        }
+                      },
+                      {
+                        "outcome": [
+                          1
+                        ],
+                        "probability": {
+                          "denominator": 5,
+                          "numerator": 2
+                        }
+                      }
+                    ],
+                    "status": "OBSERVED_CONFLICT"
+                  },
+                  "P11": {
+                    "counts": [
+                      {
+                        "count": 2,
+                        "outcome": [
+                          0
+                        ]
+                      }
+                    ],
+                    "features": [
+                      false
+                    ],
+                    "probabilities": [
+                      {
+                        "outcome": [
+                          0
+                        ],
+                        "probability": {
+                          "denominator": 4,
+                          "numerator": 3
+                        }
+                      },
+                      {
+                        "outcome": [
+                          1
+                        ],
+                        "probability": {
+                          "denominator": 4,
+                          "numerator": 1
+                        }
+                      }
+                    ],
+                    "status": "OBSERVED_SINGLE_OUTCOME"
+                  }
+                },
+                "raw_gain": {
+                  "denominator": 72,
+                  "numerator": 7
+                },
+                "source_forecast_verification": {
+                  "P00": "VERIFIED",
+                  "P11": "VERIFIED"
+                }
+              }
+            ]
+          },
+          "replay": {
+            "boundaries": [
+              {
+                "Phi0": [],
+                "Phi1": [
+                  [
+                    0,
+                    [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0,
+                      0,
+                      1
+                    ]
+                  ]
+                ],
+                "post_table_sha256": "d8bca69df99d8e0f2e935181b468553515943e2b2f109476aac0483637dbbab9",
+                "pre_table_sha256": "5c8cb96cdeaefbfb5b5aebddfdd60eb785772bdff1f7c2029dd17492227c26c2",
+                "trial_id": 2
+              }
+            ],
+            "environment_calls_issued_by_replay": 0,
+            "kind": "BOUNDARY_REPLAY_045_v1",
+            "partial_update_cursor_reconstruction_supported": false,
+            "pending_issued_preserved": false,
+            "pending_validation_event_indices": [],
+            "replayed_final_state_sha256": "09f22b8c13d8f761640f54652caf5e08657b8d1b841743231e8e9b918eb5f39d",
+            "scheduler_calls_by_replay": 0,
+            "source_final_state_sha256": "09f22b8c13d8f761640f54652caf5e08657b8d1b841743231e8e9b918eb5f39d",
+            "source_state_sha256": "87e44424d6ad917ae8a6e6929987e8848c2a1093e8929a96b56859c588dfe640",
+            "status": "VERIFIED",
+            "trace": [
+              {
+                "event_index": 0,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  []
+                ],
+                "operation": "OBSERVE_RESET",
+                "table_size": 0
+              },
+              {
+                "Phi": [],
+                "event_index": 1,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "IMMEDIATE_TRIAL",
+                "status": "COMPLETE",
+                "table_size": 1
+              },
+              {
+                "event_index": 2,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0
+                  ]
+                ],
+                "operation": "OBSERVE_RESET",
+                "table_size": 1
+              },
+              {
+                "Phi": [],
+                "event_index": 3,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "IMMEDIATE_TRIAL",
+                "status": "COMPLETE",
+                "table_size": 2
+              },
+              {
+                "event_index": 4,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "OBSERVE_RESET",
+                "table_size": 2
+              },
+              {
+                "Phi": [],
+                "event_index": 5,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "IMMEDIATE_TRIAL",
+                "status": "COMPLETE",
+                "table_size": 3
+              },
+              {
+                "Phi": [
+                  [
+                    0,
+                    [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0,
+                      0,
+                      1
+                    ]
+                  ]
+                ],
+                "event_index": 6,
+                "observed_constants": [
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "IMMEDIATE_TRIAL",
+                "status": "COMPLETE",
+                "table_size": 4
+              },
+              {
+                "credit_status": "AVAILABLE",
+                "operation": "FINALIZE_CREDIT",
+                "table_size": 4,
+                "trial_id": 2
+              },
+              {
+                "Phi": [
+                  [
+                    0,
+                    [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0,
+                      0,
+                      1
+                    ]
+                  ]
+                ],
+                "event_index": 7,
+                "observed_constants": [
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "DELAYED_VALIDATION",
+                "status": "COMPLETE",
+                "table_size": 5
+              },
+              {
+                "Phi": [
+                  [
+                    0,
+                    [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0,
+                      0,
+                      1
+                    ]
+                  ]
+                ],
+                "event_index": 8,
+                "observed_constants": [
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "DELAYED_VALIDATION",
+                "status": "COMPLETE",
+                "table_size": 6
+              }
+            ]
+          },
+          "status": "PASSED"
+        },
+        "nonnumeric_unavailability": {
+          "all_action_requests": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "decision_status": "DECISION_UNAVAILABLE",
+          "required_nonnumeric_action": 3,
+          "selected_action": null,
+          "status": "PASSED"
+        },
+        "order_0_1_2": {
+          "all_readers_prescribed_before_results": true,
+          "goal_probabilities": {
+            "ORDER0": "1/2",
+            "ORDER1": "2/3",
+            "ORDER2": "2/3"
+          },
+          "same_T_sha256": "b2398212a6b278f245ade511399280f1e5befb1fa81b1aed64ab3356a5bcbcb8",
+          "status": "PASSED"
+        },
+        "partial_validation": {
+          "decomposition": {
+            "T0_sha256": "5c8cb96cdeaefbfb5b5aebddfdd60eb785772bdff1f7c2029dd17492227c26c2",
+            "T1_P10_sha256": "532d1fbdfdfdaeae80077f7992f16ce6ac5922017eb31347c1c6156cf4d6944f",
+            "T1_P11_sha256": "532d1fbdfdfdaeae80077f7992f16ce6ac5922017eb31347c1c6156cf4d6944f",
+            "counts_refit_once_per_prescribed_reader": true,
+            "fresh_predicate": false,
+            "gate_changed": false,
+            "gated_credit": null,
+            "identity_scope": "numeric retained validation prefix; full mean only when all V rows are available",
+            "identity_verified": true,
+            "kind": "TRIAL_BRIER_DECOMPOSITION_045_v1",
+            "mean_count_effect": null,
+            "mean_partition_effect": null,
+            "mean_raw_gain": null,
+            "operative_priority_credit": null,
+            "reconstructed_gated_credit_is_new_diagnostic_only": true,
+            "required_validation_count": 2,
+            "source_credit": null,
+            "source_credit_status": "INCOMPLETE",
+            "status": "INCOMPLETE_VALIDATION",
+            "trial_id": 2,
+            "utility_is_operative": true,
+            "validation_rows": [
+              {
+                "brier": {
+                  "P00": {
+                    "denominator": 9,
+                    "numerator": 2
+                  },
+                  "P10": {
+                    "denominator": 9,
+                    "numerator": 2
+                  },
+                  "P11": {
+                    "denominator": 9,
+                    "numerator": 2
+                  }
+                },
+                "count_effect": {
+                  "denominator": 1,
+                  "numerator": 0
+                },
+                "event_index": 7,
+                "identity_verified": true,
+                "partition_effect": {
+                  "denominator": 1,
+                  "numerator": 0
+                },
+                "predictions": {
+                  "P00": {
+                    "counts": [
+                      {
+                        "count": 1,
+                        "outcome": [
+                          0
+                        ]
+                      }
+                    ],
+                    "features": [],
+                    "probabilities": [
+                      {
+                        "outcome": [
+                          0
+                        ],
+                        "probability": {
+                          "denominator": 3,
+                          "numerator": 2
+                        }
+                      },
+                      {
+                        "outcome": [
+                          1
+                        ],
+                        "probability": {
+                          "denominator": 3,
+                          "numerator": 1
+                        }
+                      }
+                    ],
+                    "status": "OBSERVED_SINGLE_OUTCOME"
+                  },
+                  "P10": {
+                    "counts": [
+                      {
+                        "count": 1,
+                        "outcome": [
+                          0
+                        ]
+                      }
+                    ],
+                    "features": [],
+                    "probabilities": [
+                      {
+                        "outcome": [
+                          0
+                        ],
+                        "probability": {
+                          "denominator": 3,
+                          "numerator": 2
+                        }
+                      },
+                      {
+                        "outcome": [
+                          1
+                        ],
+                        "probability": {
+                          "denominator": 3,
+                          "numerator": 1
+                        }
+                      }
+                    ],
+                    "status": "OBSERVED_SINGLE_OUTCOME"
+                  },
+                  "P11": {
+                    "counts": [
+                      {
+                        "count": 1,
+                        "outcome": [
+                          0
+                        ]
+                      }
+                    ],
+                    "features": [],
+                    "probabilities": [
+                      {
+                        "outcome": [
+                          0
+                        ],
+                        "probability": {
+                          "denominator": 3,
+                          "numerator": 2
+                        }
+                      },
+                      {
+                        "outcome": [
+                          1
+                        ],
+                        "probability": {
+                          "denominator": 3,
+                          "numerator": 1
+                        }
+                      }
+                    ],
+                    "status": "OBSERVED_SINGLE_OUTCOME"
+                  }
+                },
+                "raw_gain": {
+                  "denominator": 1,
+                  "numerator": 0
+                },
+                "source_forecast_verification": {
+                  "P00": "VERIFIED",
+                  "P11": "VERIFIED"
+                }
+              }
+            ]
+          },
+          "replay": {
+            "boundaries": [
+              {
+                "Phi0": [],
+                "Phi1": [],
+                "post_table_sha256": "532d1fbdfdfdaeae80077f7992f16ce6ac5922017eb31347c1c6156cf4d6944f",
+                "pre_table_sha256": "5c8cb96cdeaefbfb5b5aebddfdd60eb785772bdff1f7c2029dd17492227c26c2",
+                "trial_id": 2
+              }
+            ],
+            "environment_calls_issued_by_replay": 0,
+            "kind": "BOUNDARY_REPLAY_045_v1",
+            "partial_update_cursor_reconstruction_supported": false,
+            "pending_issued_preserved": false,
+            "pending_validation_event_indices": [],
+            "replayed_final_state_sha256": "ff67474652b61b5c1b95c6fe2d0a24b66d6dd7e0a9d8bdcb485d5db067ab0675",
+            "scheduler_calls_by_replay": 0,
+            "source_final_state_sha256": "ff67474652b61b5c1b95c6fe2d0a24b66d6dd7e0a9d8bdcb485d5db067ab0675",
+            "source_state_sha256": "b7389e6a605e33126bc245ac4ebc1c509e4bb921aedcbbebf1b9b6ff12ddbf17",
+            "status": "VERIFIED",
+            "trace": [
+              {
+                "event_index": 0,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  []
+                ],
+                "operation": "OBSERVE_RESET",
+                "table_size": 0
+              },
+              {
+                "Phi": [],
+                "event_index": 1,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "IMMEDIATE_TRIAL",
+                "status": "COMPLETE",
+                "table_size": 1
+              },
+              {
+                "event_index": 2,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0
+                  ]
+                ],
+                "operation": "OBSERVE_RESET",
+                "table_size": 1
+              },
+              {
+                "Phi": [],
+                "event_index": 3,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "IMMEDIATE_TRIAL",
+                "status": "COMPLETE",
+                "table_size": 2
+              },
+              {
+                "event_index": 4,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "OBSERVE_RESET",
+                "table_size": 2
+              },
+              {
+                "Phi": [],
+                "event_index": 5,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "IMMEDIATE_TRIAL",
+                "status": "COMPLETE",
+                "table_size": 3
+              },
+              {
+                "Phi": [],
+                "event_index": 6,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "IMMEDIATE_TRIAL",
+                "status": "COMPLETE",
+                "table_size": 4
+              },
+              {
+                "credit_status": "INCOMPLETE",
+                "operation": "FINALIZE_CREDIT",
+                "table_size": 4,
+                "trial_id": 2
+              },
+              {
+                "Phi": [],
+                "event_index": 7,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "DELAYED_VALIDATION",
+                "status": "COMPLETE",
+                "table_size": 5
+              }
+            ]
+          },
+          "status": "PASSED"
+        },
+        "pending_issued": {
+          "replay": {
+            "boundaries": [],
+            "environment_calls_issued_by_replay": 0,
+            "kind": "BOUNDARY_REPLAY_045_v1",
+            "partial_update_cursor_reconstruction_supported": false,
+            "pending_issued_preserved": true,
+            "pending_validation_event_indices": [],
+            "replayed_final_state_sha256": "e1ea79a73860058304b3b239b93db7a3c846baa640ea801ba3d11ebdf6d0fcea",
+            "scheduler_calls_by_replay": 0,
+            "source_final_state_sha256": "e1ea79a73860058304b3b239b93db7a3c846baa640ea801ba3d11ebdf6d0fcea",
+            "source_state_sha256": "7d983b5a6bfc0a92e4f6b4a5e775615f094e34d064f276badc4c74b9433f3da5",
+            "status": "VERIFIED",
+            "trace": [
+              {
+                "event_index": 0,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  []
+                ],
+                "operation": "OBSERVE_RESET",
+                "table_size": 0
+              },
+              {
+                "action": 0,
+                "event_index": 1,
+                "operation": "PENDING_ISSUED"
+              }
+            ]
+          },
+          "status": "PASSED"
+        },
+        "pending_validation": {
+          "all_reader_T_sizes": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "replay": {
+            "boundaries": [
+              {
+                "Phi0": [],
+                "Phi1": [],
+                "post_table_sha256": "532d1fbdfdfdaeae80077f7992f16ce6ac5922017eb31347c1c6156cf4d6944f",
+                "pre_table_sha256": "5c8cb96cdeaefbfb5b5aebddfdd60eb785772bdff1f7c2029dd17492227c26c2",
+                "trial_id": 2
+              }
+            ],
+            "environment_calls_issued_by_replay": 0,
+            "kind": "BOUNDARY_REPLAY_045_v1",
+            "partial_update_cursor_reconstruction_supported": false,
+            "pending_issued_preserved": false,
+            "pending_validation_event_indices": [
+              7
+            ],
+            "replayed_final_state_sha256": "1000400368fbf2b47241db964c1a39b373af594b8624347186324607846d0ae6",
+            "scheduler_calls_by_replay": 0,
+            "source_final_state_sha256": "1000400368fbf2b47241db964c1a39b373af594b8624347186324607846d0ae6",
+            "source_state_sha256": "0a77ea8f2be20946d27459ef3ec0adbfa1c298f233f1ea9805bcd0f67165f12d",
+            "status": "VERIFIED",
+            "trace": [
+              {
+                "event_index": 0,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  []
+                ],
+                "operation": "OBSERVE_RESET",
+                "table_size": 0
+              },
+              {
+                "Phi": [],
+                "event_index": 1,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "IMMEDIATE_TRIAL",
+                "status": "COMPLETE",
+                "table_size": 1
+              },
+              {
+                "event_index": 2,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0
+                  ]
+                ],
+                "operation": "OBSERVE_RESET",
+                "table_size": 1
+              },
+              {
+                "Phi": [],
+                "event_index": 3,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "IMMEDIATE_TRIAL",
+                "status": "COMPLETE",
+                "table_size": 2
+              },
+              {
+                "event_index": 4,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "OBSERVE_RESET",
+                "table_size": 2
+              },
+              {
+                "Phi": [],
+                "event_index": 5,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "IMMEDIATE_TRIAL",
+                "status": "COMPLETE",
+                "table_size": 3
+              },
+              {
+                "Phi": [],
+                "event_index": 6,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "IMMEDIATE_TRIAL",
+                "status": "COMPLETE",
+                "table_size": 4
+              },
+              {
+                "credit_status": "INCOMPLETE",
+                "operation": "FINALIZE_CREDIT",
+                "table_size": 4,
+                "trial_id": 2
+              },
+              {
+                "event_index": 7,
+                "operation": "PENDING_VALIDATION"
+              }
+            ]
+          },
+          "status": "PASSED"
+        },
+        "prescribed_partition": {
+          "feature_search_calls": 0,
+          "goal_probabilities": [
+            "2/3",
+            "1/3"
+          ],
+          "same_T_sha256": "b2398212a6b278f245ade511399280f1e5befb1fa81b1aed64ab3356a5bcbcb8",
+          "status": "PASSED"
+        },
+        "replay_tamper": {
+          "distinct_mutations_rejected": 4,
+          "status": "PASSED"
+        },
+        "reset_arrival": {
+          "replay": {
+            "boundaries": [
+              {
+                "Phi0": [],
+                "Phi1": [],
+                "post_table_sha256": "afd004083fd4c8b0dd61b7d670b75f364a240ba845396d11d63b10fff5719037",
+                "pre_table_sha256": "7b00289d184801e5304c7d9733081312265d53972dab7726a185b624dd3df1ad",
+                "trial_id": 2
+              }
+            ],
+            "environment_calls_issued_by_replay": 0,
+            "kind": "BOUNDARY_REPLAY_045_v1",
+            "partial_update_cursor_reconstruction_supported": false,
+            "pending_issued_preserved": false,
+            "pending_validation_event_indices": [],
+            "replayed_final_state_sha256": "69a13751ac04e27620e0d2631c645dbc484fa39ad619e9b02e9ab69087be7051",
+            "scheduler_calls_by_replay": 0,
+            "source_final_state_sha256": "69a13751ac04e27620e0d2631c645dbc484fa39ad619e9b02e9ab69087be7051",
+            "source_state_sha256": "e8198316297bcae3a9dae24311b8bef2ca07a9a9334b88e9c878f9c1b0d836cc",
+            "status": "VERIFIED",
+            "trace": [
+              {
+                "event_index": 0,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  []
+                ],
+                "operation": "OBSERVE_RESET",
+                "table_size": 0
+              },
+              {
+                "Phi": [],
+                "event_index": 1,
+                "observed_constants": [
+                  [
+                    0
+                  ],
+                  [
+                    0
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "IMMEDIATE_TRIAL",
+                "status": "COMPLETE",
+                "table_size": 1
+              },
+              {
+                "event_index": 2,
+                "observed_constants": [
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    0
+                  ]
+                ],
+                "operation": "OBSERVE_RESET",
+                "table_size": 1
+              },
+              {
+                "Phi": [],
+                "event_index": 3,
+                "observed_constants": [
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "IMMEDIATE_TRIAL",
+                "status": "COMPLETE",
+                "table_size": 2
+              },
+              {
+                "event_index": 4,
+                "observed_constants": [
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "OBSERVE_RESET",
+                "table_size": 2
+              },
+              {
+                "Phi": [],
+                "event_index": 5,
+                "observed_constants": [
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "IMMEDIATE_TRIAL",
+                "status": "COMPLETE",
+                "table_size": 3
+              },
+              {
+                "Phi": [],
+                "event_index": 6,
+                "observed_constants": [
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "IMMEDIATE_TRIAL",
+                "status": "COMPLETE",
+                "table_size": 4
+              },
+              {
+                "credit_status": "AVAILABLE",
+                "operation": "FINALIZE_CREDIT",
+                "table_size": 4,
+                "trial_id": 2
+              },
+              {
+                "Phi": [],
+                "event_index": 7,
+                "observed_constants": [
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "DELAYED_VALIDATION",
+                "status": "COMPLETE",
+                "table_size": 5
+              },
+              {
+                "Phi": [],
+                "event_index": 8,
+                "observed_constants": [
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "operation": "APPEND",
+                "phase": "DELAYED_VALIDATION",
+                "status": "COMPLETE",
+                "table_size": 6
+              }
+            ]
+          },
+          "status": "PASSED"
+        }
+      },
+      "complete_work_profile": false,
+      "future_experiment_admission": false,
+      "kind": "P3_DIAGNOSTIC_CASE_RESULTS_045_v1",
+      "target_experiment_started": false
+    },
+    "complete_work_budget_admitted": false,
+    "full_resource_profile_started": false,
+    "host": {
+      "ambient_conditions": "UNCONTROLLED_NOT_CLASSIFIED_QUIET_OR_CONTENDED",
+      "platform": "linux",
+      "python": "3.12.3"
+    },
+    "interruption": null,
+    "kind": "P3_DIAGNOSTIC_CONFORMANCE_045_v1",
+    "limitations": [
+      "Finite fabricated adapter conformance; no target panel scoring or efficacy result",
+      "Process metrics measure this suite, not complete acquisition/replay/snapshot-overlap cost",
+      "Peak RSS is the invocation process high-water mark, not exact allocation accounting",
+      "No043/044 measurement or consumed reservation is reset"
+    ],
+    "limits": {
+      "address_space_bytes_per_process": 2147483648,
+      "address_space_is_not_aggregate_rss_cap": true,
+      "available_cpus_used": 1,
+      "inner_wall_seconds": 270
+    },
+    "metrics": {
+      "child_cpu_seconds": 0.0,
+      "process_cpu_seconds": 0.257690492,
+      "process_peak_rss_bytes": 64221184,
+      "scope": "045_CONFORMANCE_INVOCATION_ONLY",
+      "wall_seconds": 0.5711193529423326
+    },
+    "native_started": false,
+    "original043044_remeasured": false,
+    "outcome_blind": true,
+    "passed": true,
+    "planned_test_ids": [
+      "test_diagnostics045.ChooserTests.test_chooser_rejects_separate_unmatched_meter",
+      "test_diagnostics045.ChooserTests.test_exact_five_action_maximum_and_stable_ties",
+      "test_diagnostics045.ChooserTests.test_five_opaque_action_contract_is_explicit",
+      "test_diagnostics045.ChooserTests.test_float_forecast_is_unavailable_under_exact_rational_contract",
+      "test_diagnostics045.ChooserTests.test_nonnumeric_required_forecast_blocks_decision_after_all_requests",
+      "test_diagnostics045.ChooserTests.test_refused_chooser_work_stops_without_favorable_fallback",
+      "test_diagnostics045.PrescribedReaderTests.test_all_deletions_hold_remaining_partition_and_same_T",
+      "test_diagnostics045.PrescribedReaderTests.test_empty_partition_equals_order0_including_unseen",
+      "test_diagnostics045.PrescribedReaderTests.test_exact_partition_fit_never_searches_and_preserves_input",
+      "test_diagnostics045.PrescribedReaderTests.test_fit_refusal_is_nonnumeric_and_does_not_retry",
+      "test_diagnostics045.PrescribedReaderTests.test_invalid_prescribed_grammar_is_rejected",
+      "test_diagnostics045.ReplayAndBrierTests.test_count_only_raw_gain_is_not_gated_credit",
+      "test_diagnostics045.ReplayAndBrierTests.test_decomposition_global_refusal_stops_after_first_prediction",
+      "test_diagnostics045.ReplayAndBrierTests.test_decomposition_nonnumeric_component_remains_unavailable",
+      "test_diagnostics045.ReplayAndBrierTests.test_issued_interruption_has_no_fabricated_transition_or_token",
+      "test_diagnostics045.ReplayAndBrierTests.test_partial_validation_keeps_prefix_and_no_full_credit",
+      "test_diagnostics045.ReplayAndBrierTests.test_pending_validation_is_not_silently_added",
+      "test_diagnostics045.ReplayAndBrierTests.test_positive_fresh_predicate_exact_sequential_identity",
+      "test_diagnostics045.ReplayAndBrierTests.test_recomputed_diagnostic_does_not_retroactively_award_unavailable_credit",
+      "test_diagnostics045.ReplayAndBrierTests.test_replay_rejects_history_snapshot_phase_and_pending_tampering",
+      "test_diagnostics045.ReplayAndBrierTests.test_replay_rejects_warmup_word_and_empty_interior_trial",
+      "test_diagnostics045.ReplayAndBrierTests.test_reset_arrival_precedes_trial_update",
+      "test_diagnostics045.ReplayAndBrierTests.test_source_frozen_forecast_tamper_is_rejected"
+    ],
+    "required_case_families": [
+      "prescribed_partition",
+      "all_predicate_deletions",
+      "order_0_1_2",
+      "exact_five_action_chooser",
+      "count_only_credit_gate",
+      "fresh_predicate_brier_identity",
+      "partial_validation",
+      "reset_arrival",
+      "pending_validation",
+      "pending_issued",
+      "replay_tamper",
+      "nonnumeric_unavailability",
+      "accounting_refusal"
+    ],
+    "source_hashes": {
+      "configs/P3_DIAGNOSTIC_FIXTURES_045.json": "aee461dd4994dbdc8f1e3f619945cfd70d0d8e04f06fa8586511908c9a1e26e3",
+      "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+      "scripts/check_diagnostics045.py": "cfdcbeb90f9eec548bcb7be9d9f10cdfaec35cad76bd61138cc95250c67930c4",
+      "scripts/diagnostics045.py": "d82855254880fe9d51242f98cea61b2813af7a5c62c36294a82786b86f2c0ed7",
+      "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+      "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+      "tests/test_diagnostics045.py": "499df88b079e923802cdce7526723e8786a24ab15619f5a19c8b806af2e49ea4"
+    },
+    "status": "COMPLETED",
+    "target_execution_admitted": false,
+    "target_experiment_started": false,
+    "test_outcomes": [
+      {
+        "failure": null,
+        "metrics": {
+          "process_cpu_seconds": 0.0005512379999999956,
+          "process_peak_rss_bytes": 64221184,
+          "rss_scope": "CUMULATIVE_PROCESS_HIGH_WATER_NOT_TEST_ALLOCATION",
+          "wall_seconds": 0.0065385159105062485
+        },
+        "status": "PASSED",
+        "test": "test_diagnostics045.ChooserTests.test_chooser_rejects_separate_unmatched_meter"
+      },
+      {
+        "failure": null,
+        "metrics": {
+          "process_cpu_seconds": 0.0006678440000000008,
+          "process_peak_rss_bytes": 64221184,
+          "rss_scope": "CUMULATIVE_PROCESS_HIGH_WATER_NOT_TEST_ALLOCATION",
+          "wall_seconds": 0.007383221993222833
+        },
+        "status": "PASSED",
+        "test": "test_diagnostics045.ChooserTests.test_exact_five_action_maximum_and_stable_ties"
+      },
+      {
+        "failure": null,
+        "metrics": {
+          "process_cpu_seconds": 0.0009292699999999959,
+          "process_peak_rss_bytes": 64221184,
+          "rss_scope": "CUMULATIVE_PROCESS_HIGH_WATER_NOT_TEST_ALLOCATION",
+          "wall_seconds": 0.006973700015805662
+        },
+        "status": "PASSED",
+        "test": "test_diagnostics045.ChooserTests.test_five_opaque_action_contract_is_explicit"
+      },
+      {
+        "failure": null,
+        "metrics": {
+          "process_cpu_seconds": 0.001051283,
+          "process_peak_rss_bytes": 64221184,
+          "rss_scope": "CUMULATIVE_PROCESS_HIGH_WATER_NOT_TEST_ALLOCATION",
+          "wall_seconds": 0.006415769108571112
+        },
+        "status": "PASSED",
+        "test": "test_diagnostics045.ChooserTests.test_float_forecast_is_unavailable_under_exact_rational_contract"
+      },
+      {
+        "failure": null,
+        "metrics": {
+          "process_cpu_seconds": 0.0005277550000000047,
+          "process_peak_rss_bytes": 64221184,
+          "rss_scope": "CUMULATIVE_PROCESS_HIGH_WATER_NOT_TEST_ALLOCATION",
+          "wall_seconds": 0.0069244749611243606
+        },
+        "status": "PASSED",
+        "test": "test_diagnostics045.ChooserTests.test_nonnumeric_required_forecast_blocks_decision_after_all_requests"
+      },
+      {
+        "failure": null,
+        "metrics": {
+          "process_cpu_seconds": 0.000529346,
+          "process_peak_rss_bytes": 64221184,
+          "rss_scope": "CUMULATIVE_PROCESS_HIGH_WATER_NOT_TEST_ALLOCATION",
+          "wall_seconds": 0.006096996017731726
+        },
+        "status": "PASSED",
+        "test": "test_diagnostics045.ChooserTests.test_refused_chooser_work_stops_without_favorable_fallback"
+      },
+      {
+        "failure": null,
+        "metrics": {
+          "process_cpu_seconds": 0.001966274000000004,
+          "process_peak_rss_bytes": 64221184,
+          "rss_scope": "CUMULATIVE_PROCESS_HIGH_WATER_NOT_TEST_ALLOCATION",
+          "wall_seconds": 0.01172719697933644
+        },
+        "status": "PASSED",
+        "test": "test_diagnostics045.PrescribedReaderTests.test_all_deletions_hold_remaining_partition_and_same_T"
+      },
+      {
+        "failure": null,
+        "metrics": {
+          "process_cpu_seconds": 0.001652101000000003,
+          "process_peak_rss_bytes": 64221184,
+          "rss_scope": "CUMULATIVE_PROCESS_HIGH_WATER_NOT_TEST_ALLOCATION",
+          "wall_seconds": 0.006823071977123618
+        },
+        "status": "PASSED",
+        "test": "test_diagnostics045.PrescribedReaderTests.test_empty_partition_equals_order0_including_unseen"
+      },
+      {
+        "failure": null,
+        "metrics": {
+          "process_cpu_seconds": 0.0006384800000000107,
+          "process_peak_rss_bytes": 64221184,
+          "rss_scope": "CUMULATIVE_PROCESS_HIGH_WATER_NOT_TEST_ALLOCATION",
+          "wall_seconds": 0.006817242945544422
+        },
+        "status": "PASSED",
+        "test": "test_diagnostics045.PrescribedReaderTests.test_exact_partition_fit_never_searches_and_preserves_input"
+      },
+      {
+        "failure": null,
+        "metrics": {
+          "process_cpu_seconds": 0.0011004990000000048,
+          "process_peak_rss_bytes": 64221184,
+          "rss_scope": "CUMULATIVE_PROCESS_HIGH_WATER_NOT_TEST_ALLOCATION",
+          "wall_seconds": 0.006909528048709035
+        },
+        "status": "PASSED",
+        "test": "test_diagnostics045.PrescribedReaderTests.test_fit_refusal_is_nonnumeric_and_does_not_retry"
+      },
+      {
+        "failure": null,
+        "metrics": {
+          "process_cpu_seconds": 0.0006875229999999954,
+          "process_peak_rss_bytes": 64221184,
+          "rss_scope": "CUMULATIVE_PROCESS_HIGH_WATER_NOT_TEST_ALLOCATION",
+          "wall_seconds": 0.00741207308601588
+        },
+        "status": "PASSED",
+        "test": "test_diagnostics045.PrescribedReaderTests.test_invalid_prescribed_grammar_is_rejected"
+      },
+      {
+        "failure": null,
+        "metrics": {
+          "process_cpu_seconds": 0.018767584000000004,
+          "process_peak_rss_bytes": 64221184,
+          "rss_scope": "CUMULATIVE_PROCESS_HIGH_WATER_NOT_TEST_ALLOCATION",
+          "wall_seconds": 0.02782011602539569
+        },
+        "status": "PASSED",
+        "test": "test_diagnostics045.ReplayAndBrierTests.test_count_only_raw_gain_is_not_gated_credit"
+      },
+      {
+        "failure": null,
+        "metrics": {
+          "process_cpu_seconds": 0.016052173000000003,
+          "process_peak_rss_bytes": 64221184,
+          "rss_scope": "CUMULATIVE_PROCESS_HIGH_WATER_NOT_TEST_ALLOCATION",
+          "wall_seconds": 0.02413912897463888
+        },
+        "status": "PASSED",
+        "test": "test_diagnostics045.ReplayAndBrierTests.test_decomposition_global_refusal_stops_after_first_prediction"
+      },
+      {
+        "failure": null,
+        "metrics": {
+          "process_cpu_seconds": 0.016945180000000004,
+          "process_peak_rss_bytes": 64221184,
+          "rss_scope": "CUMULATIVE_PROCESS_HIGH_WATER_NOT_TEST_ALLOCATION",
+          "wall_seconds": 0.0251432970399037
+        },
+        "status": "PASSED",
+        "test": "test_diagnostics045.ReplayAndBrierTests.test_decomposition_nonnumeric_component_remains_unavailable"
+      },
+      {
+        "failure": null,
+        "metrics": {
+          "process_cpu_seconds": 0.0011909380000000025,
+          "process_peak_rss_bytes": 64221184,
+          "rss_scope": "CUMULATIVE_PROCESS_HIGH_WATER_NOT_TEST_ALLOCATION",
+          "wall_seconds": 0.007998718065209687
+        },
+        "status": "PASSED",
+        "test": "test_diagnostics045.ReplayAndBrierTests.test_issued_interruption_has_no_fabricated_transition_or_token"
+      },
+      {
+        "failure": null,
+        "metrics": {
+          "process_cpu_seconds": 0.012005832999999994,
+          "process_peak_rss_bytes": 64221184,
+          "rss_scope": "CUMULATIVE_PROCESS_HIGH_WATER_NOT_TEST_ALLOCATION",
+          "wall_seconds": 0.018812367925420403
+        },
+        "status": "PASSED",
+        "test": "test_diagnostics045.ReplayAndBrierTests.test_partial_validation_keeps_prefix_and_no_full_credit"
+      },
+      {
+        "failure": null,
+        "metrics": {
+          "process_cpu_seconds": 0.011236056999999994,
+          "process_peak_rss_bytes": 64221184,
+          "rss_scope": "CUMULATIVE_PROCESS_HIGH_WATER_NOT_TEST_ALLOCATION",
+          "wall_seconds": 0.017134805908426642
+        },
+        "status": "PASSED",
+        "test": "test_diagnostics045.ReplayAndBrierTests.test_pending_validation_is_not_silently_added"
+      },
+      {
+        "failure": null,
+        "metrics": {
+          "process_cpu_seconds": 0.01778364199999999,
+          "process_peak_rss_bytes": 64221184,
+          "rss_scope": "CUMULATIVE_PROCESS_HIGH_WATER_NOT_TEST_ALLOCATION",
+          "wall_seconds": 0.023708413005806506
+        },
+        "status": "PASSED",
+        "test": "test_diagnostics045.ReplayAndBrierTests.test_positive_fresh_predicate_exact_sequential_identity"
+      },
+      {
+        "failure": null,
+        "metrics": {
+          "process_cpu_seconds": 0.019697521999999995,
+          "process_peak_rss_bytes": 64221184,
+          "rss_scope": "CUMULATIVE_PROCESS_HIGH_WATER_NOT_TEST_ALLOCATION",
+          "wall_seconds": 0.026652686996385455
+        },
+        "status": "PASSED",
+        "test": "test_diagnostics045.ReplayAndBrierTests.test_recomputed_diagnostic_does_not_retroactively_award_unavailable_credit"
+      },
+      {
+        "failure": null,
+        "metrics": {
+          "process_cpu_seconds": 0.020754452000000007,
+          "process_peak_rss_bytes": 64221184,
+          "rss_scope": "CUMULATIVE_PROCESS_HIGH_WATER_NOT_TEST_ALLOCATION",
+          "wall_seconds": 0.02826209901832044
+        },
+        "status": "PASSED",
+        "test": "test_diagnostics045.ReplayAndBrierTests.test_replay_rejects_history_snapshot_phase_and_pending_tampering"
+      },
+      {
+        "failure": null,
+        "metrics": {
+          "process_cpu_seconds": 0.012477743000000041,
+          "process_peak_rss_bytes": 64221184,
+          "rss_scope": "CUMULATIVE_PROCESS_HIGH_WATER_NOT_TEST_ALLOCATION",
+          "wall_seconds": 0.019327532965689898
+        },
+        "status": "PASSED",
+        "test": "test_diagnostics045.ReplayAndBrierTests.test_replay_rejects_warmup_word_and_empty_interior_trial"
+      },
+      {
+        "failure": null,
+        "metrics": {
+          "process_cpu_seconds": 0.01271058399999997,
+          "process_peak_rss_bytes": 64221184,
+          "rss_scope": "CUMULATIVE_PROCESS_HIGH_WATER_NOT_TEST_ALLOCATION",
+          "wall_seconds": 0.019124056911095977
+        },
+        "status": "PASSED",
+        "test": "test_diagnostics045.ReplayAndBrierTests.test_reset_arrival_precedes_trial_update"
+      },
+      {
+        "failure": null,
+        "metrics": {
+          "process_cpu_seconds": 0.012866254000000021,
+          "process_peak_rss_bytes": 64221184,
+          "rss_scope": "CUMULATIVE_PROCESS_HIGH_WATER_NOT_TEST_ALLOCATION",
+          "wall_seconds": 0.02238004608079791
+        },
+        "status": "PASSED",
+        "test": "test_diagnostics045.ReplayAndBrierTests.test_source_frozen_forecast_tamper_is_rejected"
+      }
+    ]
+  },
+  "diagnostic_report_canonical_sha256": "0e93e8802eefded5f781cca8ffb08011e9d80431c1d83c26af161c5073af846e",
+  "diagnostic_scope": {
+    "accepted044_completed_rows": 27,
+    "accepted044_report_sha256": "6452875d2bd3947e0a8aede3aa89c9c8db19985ffc38c80a4b9aa10a086d6cad",
+    "focused_diagnostic_conformance_only": true,
+    "full_resource_profile_started": false,
+    "original043044_remeasured": false
+  },
+  "diagnostic_source_and_working_directory_separation": true,
+  "execution": {
+    "available_cpu_count": 16,
+    "child_start_observed": true,
+    "exit_code": 0,
+    "parent_death_signal_requested": true,
+    "process_group_cleanup_kill_attempted": true,
+    "process_group_kill_attempted": true,
+    "selected_cpu_count": 1,
+    "stderr": {
+      "bytes": 0,
+      "content_published": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout": {
+      "bytes": 103,
+      "content_published": false,
+      "sha256": "3bbc7963e073b17fe4d51790876ad2b3b4496c75d20c24e9ecfcc8db406a18f9"
+    },
+    "termination": "EXITED",
+    "wall_seconds": 0.668863085
+  },
+  "kind": "P3_DIAGNOSTIC_CONFORMANCE_EXECUTION_045_v1",
+  "maximum_diagnostic_launches_for_release": 1,
+  "model_turns_sent": 0,
+  "native_starts": 0,
+  "operating_system_isolation_asserted": false,
+  "outcome_blind": true,
+  "private_content_published": false,
+  "rejected_child_report": null,
+  "release_manifest_sha256": "9685b38ec4c503e4944a1c3ae5d63c2ed6247541ef97bf85bcc78d9d9bf72e25",
+  "reservation_consumed": true,
+  "source_pins": [
+    {
+      "path": "configs/P3_DIAGNOSTIC_FIXTURES_045.json",
+      "sha256": "aee461dd4994dbdc8f1e3f619945cfd70d0d8e04f06fa8586511908c9a1e26e3"
+    },
+    {
+      "path": "scripts/accounting043.py",
+      "sha256": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee"
+    },
+    {
+      "path": "scripts/check_diagnostics045.py",
+      "sha256": "cfdcbeb90f9eec548bcb7be9d9f10cdfaec35cad76bd61138cc95250c67930c4"
+    },
+    {
+      "path": "scripts/diagnostics045.py",
+      "sha256": "d82855254880fe9d51242f98cea61b2813af7a5c62c36294a82786b86f2c0ed7"
+    },
+    {
+      "path": "scripts/reference_n1_043.py",
+      "sha256": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5"
+    },
+    {
+      "path": "scripts/reference_n3_043.py",
+      "sha256": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193"
+    },
+    {
+      "path": "tests/test_diagnostics045.py",
+      "sha256": "499df88b079e923802cdce7526723e8786a24ab15619f5a19c8b806af2e49ea4"
+    }
+  ],
+  "status": "DIAGNOSTICS_COMPLETED",
+  "target_execution_admitted": false,
+  "target_experiment_started": false
+}

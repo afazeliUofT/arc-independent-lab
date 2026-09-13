@@ -1,0 +1,76 @@
+{
+  "accepted044_receipt_path": "artifacts/CHECKPOINT_044_RETURN/bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c/RECEIPT.json",
+  "accepted044_receipt_sha256": "9c193909ec23b2bf5f7dd4585062289d0899f7fedf4e00d72d1d250853afc57e",
+  "accepted044_report_path": "artifacts/CHECKPOINT_044_RETURN/bf8fb731cfe6eeb5265fe45a8e0dde8346c5adf639093390da34514fc362b41c/REPORT.json",
+  "accepted044_report_sha256": "6452875d2bd3947e0a8aede3aa89c9c8db19985ffc38c80a4b9aa10a086d6cad",
+  "accepted_return_commit": "16976d8db11475f85ad2e96e5be786c1d4d50776",
+  "automatic_diagnostic_rerun_permitted": false,
+  "complete_work_budget_admitted": false,
+  "content_commit": "1bee703248248b7624d989d5c18a85c646341ef3",
+  "cumulative_model_turns_sent": 14,
+  "cumulative_native_starts": 18,
+  "diagnostic_launches_observed": 1,
+  "diagnostic_scope": {
+    "accepted044_completed_rows": 27,
+    "accepted044_report_sha256": "6452875d2bd3947e0a8aede3aa89c9c8db19985ffc38c80a4b9aa10a086d6cad",
+    "focused_diagnostic_conformance_only": true,
+    "full_resource_profile_started": false,
+    "original043044_remeasured": false
+  },
+  "diagnostic_source_pins": [
+    {
+      "path": "configs/P3_DIAGNOSTIC_FIXTURES_045.json",
+      "sha256": "aee461dd4994dbdc8f1e3f619945cfd70d0d8e04f06fa8586511908c9a1e26e3"
+    },
+    {
+      "path": "scripts/accounting043.py",
+      "sha256": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee"
+    },
+    {
+      "path": "scripts/check_diagnostics045.py",
+      "sha256": "cfdcbeb90f9eec548bcb7be9d9f10cdfaec35cad76bd61138cc95250c67930c4"
+    },
+    {
+      "path": "scripts/diagnostics045.py",
+      "sha256": "d82855254880fe9d51242f98cea61b2813af7a5c62c36294a82786b86f2c0ed7"
+    },
+    {
+      "path": "scripts/reference_n1_043.py",
+      "sha256": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5"
+    },
+    {
+      "path": "scripts/reference_n3_043.py",
+      "sha256": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193"
+    },
+    {
+      "path": "tests/test_diagnostics045.py",
+      "sha256": "499df88b079e923802cdce7526723e8786a24ab15619f5a19c8b806af2e49ea4"
+    }
+  ],
+  "diagnostic_status": "DIAGNOSTICS_COMPLETED",
+  "full_diagnostic_and_execution_result_published": true,
+  "full_resource_profile_started": false,
+  "historical039_rerun": false,
+  "historical040_rerun": false,
+  "kind": "P3_CHECKPOINT_045_DIAGNOSTIC_CONFORMANCE_RECEIPT_v1",
+  "maximum_diagnostic_launches_for_release": 1,
+  "model_turns_sent": 0,
+  "native_starts": 0,
+  "new_native_allowance": 0,
+  "original043044_remeasured": false,
+  "outcome_blind_diagnostic_conformance_only": true,
+  "private_content_published": false,
+  "private_packet_files_verified": 172,
+  "public_snapshot_files_verified": 234,
+  "release_manifest_path": "evidence/P3_CHECKPOINT_045_MANIFEST.json",
+  "release_manifest_sha256": "9685b38ec4c503e4944a1c3ae5d63c2ed6247541ef97bf85bcc78d9d9bf72e25",
+  "report_path": "artifacts/CHECKPOINT_045_RETURN/9685b38ec4c503e4944a1c3ae5d63c2ed6247541ef97bf85bcc78d9d9bf72e25/REPORT.json",
+  "report_sha256": "b66c9e0bb8b324b5d1be1a9eb48c44c5dc502716590a6744400bacaa156623dc",
+  "repository": "afazeliUofT/arc-independent-lab",
+  "reviewer_or_review_controller_started": false,
+  "runner_path": "scripts/check_diagnostics045.py",
+  "runner_sha256": "cfdcbeb90f9eec548bcb7be9d9f10cdfaec35cad76bd61138cc95250c67930c4",
+  "target_execution_admitted": false,
+  "target_experiment_started": false,
+  "timestamp_omitted_for_publication_idempotence": true
+}
