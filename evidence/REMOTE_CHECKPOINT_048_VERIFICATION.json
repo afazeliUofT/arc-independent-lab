@@ -1,0 +1,105 @@
+{
+  "archive": {
+    "archive_bytes": 52806,
+    "archive_sha256": "9169590117f675a65ef361414d9bc88170921ddf8de4d3be2691813a4e1e4b63",
+    "members": 14
+  },
+  "connector_exact_content_readback": [
+    "reports/P3_ACCOUNTING_UNIT_048.md",
+    "state/PROJECT_STATE.json",
+    "evidence/P3_CHECKPOINT_048_VERIFICATION.json"
+  ],
+  "content_changes": [
+    {
+      "bytes": 9419,
+      "path": "README.md",
+      "sha256": "e239fb3616c78256ed9393f56b413a81f6f9b515482e433551ea80546ebe1b89"
+    },
+    {
+      "bytes": 2796,
+      "path": "configs/P3_ACCOUNTING_UNIT_STATUS_048.json",
+      "sha256": "44c4b81516fc590c5e7329bcde65da95bc1e1249eb2f799fae57bdaa07d1af06"
+    },
+    {
+      "bytes": 7122,
+      "path": "evidence/P3_ACCOUNTING_CONFORMANCE_ATTEMPT01_048.json",
+      "sha256": "97b51f235302420e4c1ec9b779482297f63812107e9274857d0287cdc1999ea2"
+    },
+    {
+      "bytes": 2323,
+      "path": "evidence/P3_CHECKPOINT_048_VERIFICATION.json",
+      "sha256": "7142f1a38477970c9cc7e6339cf0e8875f563001d294426c6c426fbbbb5d7a00"
+    },
+    {
+      "bytes": 7479,
+      "path": "evidence/P3_COMPLETE_PACKAGE_VALIDATION_048.json",
+      "sha256": "0d19cca826f8d1f0086a3217660e5abb589d48e456ecfbb18e2e1e17a91e7d60"
+    },
+    {
+      "bytes": 5727,
+      "path": "evidence/P3_COMPLETE_PACKAGE_VALIDATION_HELPER_048.py",
+      "sha256": "022737f81faceb1f9d2cf5ad89ffa6ba34e57f696cf8ad572614be29876e22cc"
+    },
+    {
+      "bytes": 7487,
+      "path": "evidence/P3_PUBLISHED_PACKAGE_VALIDATION_048.json",
+      "sha256": "5a2fcbc21340c497a4b32b8752a3c5ada2889686c56873ce76f83ee10b855b40"
+    },
+    {
+      "bytes": 5728,
+      "path": "evidence/P3_PUBLISHED_PACKAGE_VALIDATION_HELPER_048.py",
+      "sha256": "92c6719c7263a56a45ed764864119acb3a76e493a0f7700f60ebdb799739475b"
+    },
+    {
+      "bytes": 1163,
+      "path": "evidence/P3_SOURCE_PUBLICATION_BRIDGE_048.json",
+      "sha256": "f900f48a9b20889f380d7db9ddaf2e115b3795d3e74721022b5256c0df6e285d"
+    },
+    {
+      "bytes": 2349,
+      "path": "evidence/P3_TERMINAL_BOUND_PROJECTION_048.json",
+      "sha256": "2592f2a6723e58ad1a669f2324228d45e2ebca5a38077d64c363e494c065ea26"
+    },
+    {
+      "bytes": 2728,
+      "path": "reports/DIGEST_2026-09-14.md",
+      "sha256": "de57488d66f0a7075bea61d13ace727d28fbb1128b63de022efdd08d065ee489"
+    },
+    {
+      "bytes": 6667,
+      "path": "reports/P3_ACCOUNTING_UNIT_048.md",
+      "sha256": "ad0409cc5a8b654f093ab90ded3e095f9e19af3d63bcca14544fd794ae6cf9cd"
+    },
+    {
+      "bytes": 47134,
+      "path": "state/BUDGET.json",
+      "sha256": "b6b417ade5fccf40a34bd420600cc5b72bc3f52dae7035599eb966c3e4dbb19f"
+    },
+    {
+      "bytes": 234953,
+      "path": "state/LEDGER.jsonl",
+      "sha256": "620d755a8d0e4531c83c68292c1da26996e35c1ae1a5b2f8401cc96aaed1879d"
+    },
+    {
+      "bytes": 100174,
+      "path": "state/PROJECT_STATE.json",
+      "sha256": "d027ce31184b2bc334063d19c1179f5a5cef9935ab219d2979cf9484d5e1f58b"
+    },
+    {
+      "bytes": 164619,
+      "path": "state/tool_errors.jsonl",
+      "sha256": "f1cce8f924c3b83c5642d2793a78e3ff903d9659f169c05f4710729c3364e5b8"
+    }
+  ],
+  "full_accounting_correction_complete": false,
+  "historical_sources_and_artifacts_unchanged": true,
+  "kind": "REMOTE_CHECKPOINT_048_VERIFIED_CONTENT_v1",
+  "publication_note": "A following state-only publication records this content verification. The source-pinned ZIP remains unchanged.",
+  "remote_fetch_tree_matches_local": true,
+  "repository": "https://github.com/afazeliUofT/arc-independent-lab",
+  "source_commit": "dc62f9be15b61145580859225055ef90f52abc1e",
+  "target_admitted": false,
+  "verified_content_commit": "0f16bd396e9ea0f03b9b516a796ba4e0b34f6098",
+  "verified_content_tree": "70704e658d10ed5f59e7d4e28abddabd462c9100",
+  "verified_utc": "2026-09-14T06:39:27.849820+00:00"
+}
