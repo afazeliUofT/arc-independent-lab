@@ -1,0 +1,14 @@
+{
+  "kind": "P3_HANDOFF_CONFORMANCE_048_v1",
+  "returncode": 0,
+  "scope": "Nine synthetic Git/transport tests; child suites are arithmetic stand-ins, not real kernel conformance.",
+  "source_freeze": {
+    "path": "evidence/P3_HANDOFF_CONFORMANCE_ATTEMPT01_048_SOURCES.json",
+    "sha256": "d6df183b6e8b7897092475d923a615fbea8b9ed7b456659a80f920a9410dccdd"
+  },
+  "sources_unchanged": true,
+  "stderr": ".........\n----------------------------------------------------------------------\nRan 9 tests in 5.675s\n\nOK\n",
+  "stdout": "Verified048 package. Running only the two frozen accounting conformance suites.\nVerified048 package. Running only the two frozen accounting conformance suites.\nVerified048 package. Running only the two frozen accounting conformance suites.\nVerified048 package. Running only the two frozen accounting conformance suites.\nVerified048 package. Running only the two frozen accounting conformance suites.\nVerified048 package. Running only the two frozen accounting conformance suites.\nVerified048 package. Running only the two frozen accounting conformance suites.\nVerified048 package. Running only the two frozen accounting conformance suites.\nVerified048 package. Running only the two frozen accounting conformance suites.\nVerified048 package. Running only the two frozen accounting conformance suites.\nVerified048 package. Running only the two frozen accounting conformance suites.\nVerified048 package. Running only the two frozen accounting conformance suites.\nVerified048 package. Running only the two frozen accounting conformance suites.\nVerified048 package. Running only the two frozen accounting conformance suites.\nVerified048 package. Running only the two frozen accounting conformance suites.\nVerified048 package. Running only the two frozen accounting conformance suites.\nVerified048 package. Running only the two frozen accounting conformance suites.\nVerified048 package. Running only the two frozen accounting conformance suites.\n",
+  "target_profile_or_native_runs": 0,
+  "wall_seconds": 5.778935003996594
+}
