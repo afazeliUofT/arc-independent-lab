@@ -1,6 +1,14 @@
 # ARC Independent Lab
 
-## Current checkpoint — 038
+## Current checkpoint — 047
+
+Development046 is complete and accepted as a fabricated physical resource profile. Start with `reports/P3_RETURN_046_AND_RESOURCE_DECISION_047.md` for the verified measurements, conditional CPU compute route and remaining admission requirements. `docs/P3_ACCOUNTING_CORRECTION_PLAN_047.md` and `configs/P3_ACCOUNTING_COMPLETION_REQUIREMENTS_047.json` specify the finite accounting correction that must be implemented and validated next.
+
+This checkpoint does not rerun Development046, launch a reviewer or run the target comparison. The offline047 handoff verifies the existing return and publishes its receipt; it is not a new mechanism measurement. `B_comp` and `B_mem` remain unset. N1–N3 remains a bounded acquisition-calibration priority, with no demonstrated retention/recombination result or breakthrough ranking.
+
+Use `state/PROJECT_STATE.json` for the next action. Earlier checkpoint sections below are historical.
+
+## Historical checkpoint — 038
 
 **Handoff correction:** use `ARC_Independent_Lab_038_HOME.zip` with the one-paste WSL-home command. It locates Windows Downloads, copies/extracts under the existing `delivery/` directory, runs source staging, and pushes the receipt. Manual extraction/navigation is no longer required. See `docs/P3_DOWNLOADS_HOME_HANDOFF_038.md` and the standing instruction `docs/USER_HANDOFF_PREFERENCES_2026-09-11.md`.
 

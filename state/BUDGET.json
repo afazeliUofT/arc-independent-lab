@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-13T21:39:34.801914+00:00",
+  "updated_utc": "2026-09-14T02:43:10.374083+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -1038,7 +1038,25 @@
       "cpu_affinity_count": 1,
       "address_space_bytes_per_process": 2147483648,
       "automatic_rerun_permitted": false,
-      "original043044045_reservations_preserved": true
+      "original043044045_reservations_preserved": true,
+      "status": "consumed_actual046_profile_completed_and_verified047",
+      "actual_profile_launches": 1,
+      "completed_rows": 48,
+      "returned_conformance_tests_passed": 15,
+      "actual_wrapper_wall_seconds": 1613.140905547,
+      "actual_profile_metrics": {
+        "aggregate_memory_is_cgroup_capped": false,
+        "child_cpu_seconds": 1546.481817,
+        "driver_peak_rss_bytes": 65110016,
+        "driver_process_cpu_seconds": 0.717978955,
+        "peak_child_rss_bytes": 84946944,
+        "scope": "046_RESOURCE_PROFILE_INVOCATION_ONLY",
+        "wall_seconds": 1612.9905612299917
+      },
+      "return_verification": {
+        "path": "evidence/P3_CHECKPOINT_046_RETURN_VERIFICATION_047.json",
+        "sha256": "6e3bc532466754c1264768cbec479ad2afb593d12dee5e120de956b9a3078805"
+      }
     },
     "B_comp": null,
     "B_mem": null,
@@ -1055,5 +1073,42 @@
     "actual_synthetic_handoff_total_wall_seconds": 75.01890932599858,
     "validation_versions_preserved": true,
     "complete_package_seam_actual_profile_starts": 0
+  },
+  "checkpoint047_accounting": {
+    "scope": "Read-only046 evidence assessment, finite correction specification, offline handoff code and synthetic publication checks",
+    "hosted_consultants": [
+      "audit046",
+      "accounting_plan",
+      "handoff047 (including read-only review047)"
+    ],
+    "consultants_are_independent_reviewers": false,
+    "native_starts": 0,
+    "native_sent_turns": 0,
+    "new_native_allowance": 0,
+    "cumulative_native_starts": 18,
+    "cumulative_native_sent_turns": 14,
+    "learner_or_profile_runs": 0,
+    "target_experiment_runs": 0,
+    "gpu_or_hpc_jobs": 0,
+    "unattended_model_use": false,
+    "extra_spending": false,
+    "authoritative_hosted_allowance": null,
+    "backend_usage_or_charge": "unknown",
+    "saved_data_parser_attempts": 2,
+    "saved_data_parser_first_failure": "Intentional compact stage-detail projection was initially compared as raw equality; corrected read-only parser passed.",
+    "B_comp": null,
+    "B_mem": null,
+    "complete_work_budget_admitted": false,
+    "target_experiment_admitted": false,
+    "correction_implemented": false,
+    "conditional_full_comparison_route": "ALLIANCE_CPU_BATCHES_AFTER_ADMISSION",
+    "offline047_handoff_is_optional_sync_and_not_a_new_measurement": true,
+    "synthetic_handoff_tests_passed": 16,
+    "synthetic_handoff_suite_invocations": 3,
+    "handoff_validation": {
+      "path": "evidence/P3_HANDOFF_VALIDATION_047.json",
+      "sha256": "edfceff16740e2a6406ef583c1c6ff9fa50a19050b2abe0600564a1759e91444"
+    },
+    "complete_package_actual_saved_data_assessment_pending": true
   }
 }

@@ -1,0 +1,178 @@
+{
+  "B_comp": null,
+  "B_mem": null,
+  "assessment": {
+    "path": "evidence/P3_CHECKPOINT_046_RETURN_VERIFICATION_047.json",
+    "sha256": "6e3bc532466754c1264768cbec479ad2afb593d12dee5e120de956b9a3078805"
+  },
+  "conditional_full_grid_compute_route": "ALLIANCE_CPU_BATCHES_AFTER_ACCOUNTING_AND_INDEPENDENT_ADMISSION",
+  "correction_implemented": false,
+  "effect_count_source_rows": [
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_00.json",
+      "sha256": "6ba915b3daf663365aaf5e4a1cec4ca92380d76e9e2f1d1f187d243a91558e3b"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_01.json",
+      "sha256": "92cbe55fc9e41b2f9923eae62bd94749038dfa6242da911e0039c2d29107ea4f"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_02.json",
+      "sha256": "6351e180ecbfa775ff19a8fcde612033db3dd1df792285024fcd78bdbddbb41c"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_03.json",
+      "sha256": "20795957df9810e42fdf3412793164070d1ef09d2735667760bbd0136f162156"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_04.json",
+      "sha256": "9e302df8d3e93fc95134c1141502ab968912aa85d36e892fc24e87233dc00cc9"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_05.json",
+      "sha256": "ca82fd3003ab61265a9d45907a8a822c1d887ad730802b2467d55cf3fd4b7d2a"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_06.json",
+      "sha256": "4cb3e416ff5ab0cc16d226b64ea4c0e28f8ec44dd2e5cf59374041661cb01678"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_07.json",
+      "sha256": "1cba358487ed8b0a17afe3f36914987aa06712d1468e35968a6e347ce1d36b3e"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_08.json",
+      "sha256": "b394c4a1350b12c334e745218534b36e63c2cbd4c134303cd4a739fed944d85f"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_09.json",
+      "sha256": "7af24470e48580a48c949ad6c3d9291149fa492952c8456efdacf4772836c311"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_10.json",
+      "sha256": "6706a542ecc7b7a156ea3a86484861745d41c16df47e433b759d55cb5437a73a"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_11.json",
+      "sha256": "2f3968010e5580b84c38aedffa1935bd1e2ff8389b416b82efc24e0fdcf838c6"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_12.json",
+      "sha256": "2da549d6ea75ad427b4853eda3cb13f2948056704f05c04889af26541a37b0dc"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_13.json",
+      "sha256": "16d66328420b4fcf8cfdbe892eca9f84ea01649ae27319776e13a72020976e95"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_14.json",
+      "sha256": "a7b7f59a3d26c6fb92c24a337dd0af96aa341ec84b9b083c0d08c595bf292aa4"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_15.json",
+      "sha256": "1abee7602d7df1dc6023dfac8d40ff8da000f7907963a57c8b9eaad2990f7612"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_16.json",
+      "sha256": "c2b9aa06419afaae2c1f78e68223913dca64b89c6642b4cd19b86e39a18633bc"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_17.json",
+      "sha256": "38b2ba95624857c6200873dfa587a2ced19e9002c2f98e7302e948e702e7b222"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_18.json",
+      "sha256": "ad94b316b1e3dcfe54818230468e0e990891d0389e19e935d7d588a16b41d0c2"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_19.json",
+      "sha256": "71c032182212020c6cf5d8ffe5a92ca9d1fb0081b9f8f5f7ef25233731e3438a"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_20.json",
+      "sha256": "34bb817b2b3da58437c2e7044f8b8f9d04f310496c086f56b4e3141a5299a8fc"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_21.json",
+      "sha256": "4aecaff503efeb27199fe484735bdbb271802e9dad084317d4d5400cd7efb079"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_22.json",
+      "sha256": "52915c68398a98fb5081c1ca78d6f7d6ee9ede6d4c4709b14f53d182a5d04f51"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_23.json",
+      "sha256": "d8350b22122fbe867b9ff29b4bcd07dfc8d723c172571dfcc88cb1fbf6400808"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_24.json",
+      "sha256": "ec910351b71ed543589c89efef6802e3d23b2ac28880bf5c1bd81df604ff1234"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_25.json",
+      "sha256": "903445cbaa0df1a1f7a06f63e17bb5e23da63e844381c9fbc1c62bc0fd8e6c78"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_26.json",
+      "sha256": "5b42b76917dd8d449bbcc417f93dcdb9c63e73b873b07e66610eaad2f32bc4c1"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_27.json",
+      "sha256": "18eceb36bdf211469b40db8f87ef2f68c8c304636ff4d7aec63da9e3d5f15167"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_28.json",
+      "sha256": "257d2fc8711e26fb45055aeb01361fb9d390df0cb4b6cdf7a28eaa0a0e259fdd"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_29.json",
+      "sha256": "e271c25a42a9f13f2b6bcd33822022d51b115539d6e97d9bc3f7dca35f45c27b"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_30.json",
+      "sha256": "ca15e9b2e1938d4fb82fa6d71ed5504367988a1e7e86496665d3fae6f7fdccd9"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_31.json",
+      "sha256": "e32ba8205b97780c94b93c85479c650818e85a1cf5bd1d5a5a0a282e9f7c86eb"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_32.json",
+      "sha256": "d919cf8ca8f476773b2185cebda7c0f26c5208e92c0fbde3298c5247ede5a6b8"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_33.json",
+      "sha256": "37176cb688a81f0b29f3c497d1067453b1c06ecd94ac957eb6dc160619af69b8"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_34.json",
+      "sha256": "d31b2d5f037e67fd4af335252fbc4ee1c14b0cceb1634b812da3f92df3013755"
+    },
+    {
+      "path": "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_35.json",
+      "sha256": "197561e2d2f28cafb7773954603b9b3ebbf8df965e772acae29c7047cec1e67e"
+    }
+  ],
+  "effect_scope": "Fabricated development tape only; zero effects are not a negative efficacy result. Standalone045 nonzero witnesses and046 arithmetic stresses remain separate; no joint maximal trajectory proved.",
+  "fabricated_diagnostic_effect_counts": {
+    "diagnostic_trials": 864,
+    "gated_credit_zero": 864,
+    "mean_count_effect_zero": 864,
+    "mean_partition_effect_zero": 864,
+    "mean_raw_gain_zero": 864,
+    "status_AVAILABLE": 864
+  },
+  "kind": "P3_RESOURCE_DECISION_047_v1",
+  "laptop_route": "BOUNDED_DEVELOPMENT_AND_CONFORMANCE",
+  "maximum_memory_is_per_process_rss_not_B_mem": true,
+  "new_hpc_jobs": 0,
+  "new_native_starts": 0,
+  "new_profile_runs": 0,
+  "new_sent_model_turns": 0,
+  "planning_is_admitted_target_runtime_bound": false,
+  "scoped_serial_planning_hours": 79.55573920866784,
+  "scoped_serial_planning_seconds": 286400.66115120426,
+  "source_return_commit": "15574d706eab28c1e099aba8447d527eb5047d91",
+  "target_evaluator_measured": false,
+  "target_execution_admitted": false
+}

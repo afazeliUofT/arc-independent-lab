@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-13T21:41:59.218417+00:00",
+  "updated_utc": "2026-09-14T02:43:10.374083+00:00",
   "current_gate": "P3",
   "gate_status": "in_progress",
   "gate_entered_utc": "2026-09-10T23:29:11.766050+00:00",
   "last_verified_gate": "P3.second_candidate_focused_analytical_assessment",
-  "last_verified_commit": "1ff59732974408bd64131691b2ae278f0c244444",
-  "active_task": "P3.fullwork046.consolidated_profile",
+  "last_verified_commit": "15574d706eab28c1e099aba8447d527eb5047d91",
+  "active_task": "P3.checkpoint047.return_assessment_and_finite_correction_contract",
   "blocked_on": null,
-  "next_action": "Run the reserved046 fabricated complete-path resource profile once; read REPORT, RECEIPT and every receipt-pinned worker report from GitHub. Assess physical laptop/Alliance scale and remaining finite accounting correction; no target admission.",
+  "next_action": "Implement the one versioned accounting correction specified in docs/P3_ACCOUNTING_CORRECTION_PLAN_047.md and configs/P3_ACCOUNTING_COMPLETION_REQUIREMENTS_047.json: derive closed schema/work/owner and terminal multiplicity bounds before guarded adapter changes; preserve043046 and042 scientific controls. Validate against the finite reference and saved046 graphs, with predeclared bounded semantic/refusal conformance and any required changed-path physical validation. Then finish prospective budgets/preregistration/verifier and restricted independently metered admission. Do not wait for optional047 sync receipt; do not rerun046 reservation or start target/reviewer under exhausted040 allowance.",
   "open_questions": [
     "What are observed physical costs of the full fabricated acquisition/diagnostic graph and stress cases, and what laptop/Alliance planning route do they support?",
     "Can one versioned accounting correction close specified unmetered temporary/copy/refusal gaps or bound them prospectively before scientific allowances are admitted?",
@@ -79,8 +79,8 @@
     "P2.second_pass_after_reviewed_negative_audit"
   ],
   "remote": "https://github.com/afazeliUofT/arc-independent-lab",
-  "durability_status": "046 content published and exact allowed file readback complete; every undeclared prior blob/mode preserved. Complete449-member ZIP saved;271 public Git objects and172 private packet files verified. Final8sourceclosure matches15 passing conformance tests;20 synthetic handoff tests and completeZIP seam passed. All earlier successful validation versions/corrections preserved; laptop48row profile pending.",
-  "commit_status": "046 content release verified; separate publication/state commit records final ZIP identity without changing pinned runtime inputs.",
+  "durability_status": "047 assessment, correction contract and offline verification handoff prepared locally; publication verification pending.",
+  "commit_status": "047 content publication pending; original046 inputs and all043045 artifacts unchanged.",
   "recovery_dependency": null,
   "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation.",
   "latest_recovery_evidence": [
@@ -98,8 +98,8 @@
     }
   ],
   "private_error_log_handling": "Probe raw error output stays within laptop Git metadata, outside normal commits. Request only safe terminal report; never ask for credentials or publish raw transport logs.",
-  "foreground_execution_note": "Hosted046 bounded conformance/material-path integration and synthetic handoff only. Full48row fabricated profile reserved for user invocation. No native reviewer, model API, target, GPU or HPC execution.",
-  "scientific_status": "045 diagnostics completed23tests/all13families with exact hosted-result agreement. No efficacy/retention/recombination result.046 prepares complete acquisition/diagnostic physical-cost measurements with remaining accounting limits explicit. Original040 analytical GO scope unchanged.",
+  "foreground_execution_note": "Read-only saved-data assessment and synthetic Git handoff validation only; no learner/resource profile/native model/reviewer/target/HPC execution.",
+  "scientific_status": "All48 fabricated046 resource rows and15 returned conformance checks verified. No target efficacy, retention, recombination or demonstrated breakthrough ranking. N1\u2013N3 remains one bounded acquisition-calibration priority.047 specifies but has not implemented the finite accounting correction; B_comp/B_mem and target admission remain unset.",
   "latest_scientific_evidence": [
     {
       "path": "evidence/P3_SECOND_N1_PRIMARY_AUDIT_036.md",
@@ -138,12 +138,12 @@
       "sha256": "1995e36a9f8e5f9f201d9b63ba8a7c39400f3e8e0046009a1c59973c2023188e"
     }
   ],
-  "handoff_backup_status": "One complete046ZIP saved; one WSL-home command reserves one48row fabricated profile, then publishes the compact report, receipt, conformance and every saved row report with compressed recoverable source evidence.4hour outercap; repeated command reuses first execution evidence.",
+  "handoff_backup_status": "Preparing complete047 public-history bundle and one WSL-home command for offline assessment synchronization. No private paper input required; next accounting implementation does not depend on receipt.",
   "latest_publication_verification": {
     "path": "evidence/REMOTE_CHECKPOINT_046_VERIFICATION.json",
     "sha256": "fe8ffe338c9af8adeaab86b9c61a38a793fa69120883262c9931a8cc232af4a5"
   },
-  "last_human_message_verbatim": "Github is updated. Proceed",
+  "last_human_message_verbatim": "Github updated. Also, WSL terminal shows:\nDevelopment046 profile: PROFILE_COMPLETED\nAll043/044 measurements and045 diagnostics are preserved; new046 invocation usage is reported separately.\nNo reviewer, model or target experiment was started. Future experiment admission is not asserted.",
   "phase1_approval": {
     "verified_utc": "2026-09-06T18:51:56.227927+00:00",
     "source_url": "https://github.com/afazeliUofT/arc-independent-lab/blob/376455150af7b257809a56021431413b2e0c6293/state/ESCALATION.md",
@@ -1426,7 +1426,7 @@
     "publication_succeeded": true
   },
   "checkpoint046": {
-    "status": "published_verified_consolidated_profile_ready",
+    "status": "consumed_actual_profile_completed_and_verified047",
     "accepted_return_commit": "72f0792d242bfe19e59a0ed765d09748879926d6",
     "decision": "Measure fabricated full acquisition/diagnostic physical costs and declaredstresscases; retain accounting gaps and leave scientific allowances unset.",
     "evidence": [
@@ -1542,7 +1542,7 @@
     "full_profile_executed_here": false,
     "frozen035_041_042_043_044_045_modified": false,
     "remaining_accounting_dependency": "One versioned finite-ruler correction or validated conservative pre-reserved stage envelopes for named temporary/copy/serialization/refusal gaps, then restricted independent review.",
-    "full_comparison_compute_route": "UNDECIDED_LAPTOP_OR_ALLIANCE",
+    "full_comparison_compute_route": "CONDITIONAL_ALLIANCE_CPU_BATCHES_AFTER_ADMISSION",
     "further_papers_required": [],
     "hosted_validation": {
       "path": "evidence/P3_HOSTED_VALIDATION_USAGE_046.json",
@@ -1615,6 +1615,71 @@
       "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_46.json",
       "artifacts/CHECKPOINT_046_RETURN/ac773177e0e1e884773982e1ecee089133c6bc4b0c7c520d45c1fbdd48663cc9/row_47.json"
     ],
-    "future_report_retrieval": "Read046REPORT, RECEIPT and the entire receipt-pinned worker inventory directly from GitHub; verify exact8sources, all48row identities/statuses, conformance, raw worker hashes/lengths, every compressed evidence hash/length and bounded decode, stage/total usage, original045 baseline and once-onlyreservation. PROFILE_COMPLETED is physical fabricated-workload evidence, not complete accounting or target admission. Do not rerun043045 or046 reservation. Decide scoped laptop/Alliance route and close named accounting correction before restricted independent review."
+    "future_report_retrieval": "046 full return verified047. Preserve consumed reservation; no remeasurement. Use047 source-pinned assessment and finite correction contract.",
+    "actual_return_commit": "15574d706eab28c1e099aba8447d527eb5047d91",
+    "actual_return_verification": {
+      "path": "evidence/P3_CHECKPOINT_046_RETURN_VERIFICATION_047.json",
+      "sha256": "6e3bc532466754c1264768cbec479ad2afb593d12dee5e120de956b9a3078805"
+    },
+    "actual_profile_launches": 1,
+    "actual_completed_rows": 48,
+    "actual_wrapper_wall_seconds": 1613.140905547,
+    "actual_resource_metrics": {
+      "aggregate_memory_is_cgroup_capped": false,
+      "child_cpu_seconds": 1546.481817,
+      "driver_peak_rss_bytes": 65110016,
+      "driver_process_cpu_seconds": 0.717978955,
+      "peak_child_rss_bytes": 84946944,
+      "scope": "046_RESOURCE_PROFILE_INVOCATION_ONLY",
+      "wall_seconds": 1612.9905612299917
+    }
+  },
+  "latest_return_verification": {
+    "path": "evidence/P3_CHECKPOINT_046_RETURN_VERIFICATION_047.json",
+    "sha256": "6e3bc532466754c1264768cbec479ad2afb593d12dee5e120de956b9a3078805"
+  },
+  "checkpoint047": {
+    "status": "completed_locally_awaiting_publication",
+    "return_commit": "15574d706eab28c1e099aba8447d527eb5047d91",
+    "decision": "Accept046 scoped physical measurements; conditional Alliance CPU route; specify finite accounting correction before budgets and independent admission.",
+    "evidence": [
+      {
+        "path": "evidence/P3_CHECKPOINT_046_RETURN_VERIFICATION_047.json",
+        "sha256": "6e3bc532466754c1264768cbec479ad2afb593d12dee5e120de956b9a3078805"
+      },
+      {
+        "path": "evidence/P3_RESOURCE_DECISION_047.json",
+        "sha256": "5ba1ea12c7017031ea51981b37ce6bb5fbf8abaa1f8075c4f08e605ee4c3facf"
+      },
+      {
+        "path": "docs/P3_ACCOUNTING_CORRECTION_PLAN_047.md",
+        "sha256": "eb339e3097059116ef1a85aae19453398989b0d34584056c1065c9254d08b56e"
+      },
+      {
+        "path": "configs/P3_ACCOUNTING_COMPLETION_REQUIREMENTS_047.json",
+        "sha256": "f6fc91e5c0eecc086f40368b09e22b0ef6fa8cb6d62f9fe517df2e5d3c9456db"
+      },
+      {
+        "path": "reports/P3_RETURN_046_AND_RESOURCE_DECISION_047.md",
+        "sha256": "87727041d9a39111031c82f9906ef707753b0e25ce5f059c01826b30ff4b4e33"
+      }
+    ],
+    "correction_implemented": false,
+    "B_comp": null,
+    "B_mem": null,
+    "target_execution_admitted": false,
+    "new_profile_runs": 0,
+    "native_starts": 0,
+    "model_turns_sent": 0,
+    "hpc_jobs": 0,
+    "further_papers_required": [],
+    "handoff_scope": "Optional offline verification and GitHub receipt; no additional measured work or scientific admission.",
+    "next_correction_must_not_wait_for047_receipt": true,
+    "handoff_validation": {
+      "path": "evidence/P3_HANDOFF_VALIDATION_047.json",
+      "sha256": "edfceff16740e2a6406ef583c1c6ff9fa50a19050b2abe0600564a1759e91444"
+    },
+    "synthetic_handoff_tests_passed": 16,
+    "synthetic_handoff_suite_invocations": 3
   }
 }

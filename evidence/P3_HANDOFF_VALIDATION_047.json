@@ -1,0 +1,81 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "captured_summary": "Ran 10 tests in 4.145s\n\nOK\n",
+      "elapsed_seconds_reported": 4.145,
+      "exit_code": 0,
+      "source_state": "Initial047 handoff code before adding remote fast-forward/rejection and actual extracted-module seams. Exact first-run source hashes were not captured.",
+      "status": "PASSED",
+      "tests": 10
+    },
+    {
+      "attempt": 2,
+      "combined_output": "test_actual_extracted_workflow_uses_complete_package_and_real_synthetic_child (test_checkpoint047_workflow.Offline047.test_actual_extracted_workflow_uses_complete_package_and_real_synthetic_child) ... Verified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nok\ntest_changed_saved_and_canonical_results_are_preserved (test_checkpoint047_workflow.Offline047.test_changed_saved_and_canonical_results_are_preserved) ... Verified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nok\ntest_commit_failure_recovers_exact_staged_outputs_without_reexecution (test_checkpoint047_workflow.Offline047.test_commit_failure_recovers_exact_staged_outputs_without_reexecution) ... Verified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nok\ntest_complete_bundle_from_old_checkout_and_repeat_without_reexecution (test_checkpoint047_workflow.Offline047.test_complete_bundle_from_old_checkout_and_repeat_without_reexecution) ... Verified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nok\ntest_dirty_tracked_staged_and_untracked_checkout_is_preserved (test_checkpoint047_workflow.Offline047.test_dirty_tracked_staged_and_untracked_checkout_is_preserved) ... Verified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nok\ntest_downloads_uses_registry_exact_filename_and_never_guesses_users (test_checkpoint047_workflow.Offline047.test_downloads_uses_registry_exact_filename_and_never_guesses_users) ... ok\ntest_mismatched_assessment_never_publishes_or_reexecutes (test_checkpoint047_workflow.Offline047.test_mismatched_assessment_never_publishes_or_reexecutes) ... Verified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nok\ntest_push_failure_retries_saved_assessment_and_existing_commit (test_checkpoint047_workflow.Offline047.test_push_failure_retries_saved_assessment_and_existing_commit) ... Verified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nok\ntest_remote_changed_result_is_refused_without_overwriting_local (test_checkpoint047_workflow.Offline047.test_remote_changed_result_is_refused_without_overwriting_local) ... Verified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nok\ntest_remote_descendant_fast_forward_reuses_assessment (test_checkpoint047_workflow.Offline047.test_remote_descendant_fast_forward_reuses_assessment) ... Verified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nok\ntest_snapshot_ignored_additions_are_rejected_without_new_assessment (test_checkpoint047_workflow.Offline047.test_snapshot_ignored_additions_are_rejected_without_new_assessment) ... Verified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nok\ntest_wrong_bundle_hash_and_wrong_origin_are_refused (test_checkpoint047_workflow.Offline047.test_wrong_bundle_hash_and_wrong_origin_are_refused) ... ok\ntest_wrong_outer_hash_and_wrong_inventory_do_not_write (test_checkpoint047_workflow.Offline047.test_wrong_outer_hash_and_wrong_inventory_do_not_write) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 5.374s\n\nOK\n",
+      "elapsed_seconds_reported": 5.374,
+      "exit_code": 0,
+      "output_provenance": "Concatenated from the two completed tool output chunks for the single final13-test invocation; no additional test invocation was run for capture.",
+      "source_sha256": {
+        "scripts/checkpoint047_workflow.py": "292cb7c3d3d2aca02cff11c697f6afb11c26c4f03b486b473fd15da7b09e11dd",
+        "scripts/launch047_home.py": "44f9750eff232a14deea3a6ddac74ed140fe63da868b8ff13bb50cc20c7c9225",
+        "tests/test_checkpoint047_workflow.py": "bd17c3e26a7a32b788c4e86b0ce7059fe506609027dc78d82db80183f1cf2f62"
+      },
+      "status": "PASSED",
+      "tests": 13
+    },
+    {
+      "attempt": 3,
+      "combined_output": "test_actual_extracted_workflow_uses_complete_package_and_real_synthetic_child (test_checkpoint047_workflow.Offline047.test_actual_extracted_workflow_uses_complete_package_and_real_synthetic_child) ... Verified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nok\ntest_changed_saved_and_canonical_results_are_preserved (test_checkpoint047_workflow.Offline047.test_changed_saved_and_canonical_results_are_preserved) ... Verified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nok\ntest_commit_failure_recovers_exact_staged_outputs_without_reexecution (test_checkpoint047_workflow.Offline047.test_commit_failure_recovers_exact_staged_outputs_without_reexecution) ... Verified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nok\ntest_complete_bundle_from_old_checkout_and_repeat_without_reexecution (test_checkpoint047_workflow.Offline047.test_complete_bundle_from_old_checkout_and_repeat_without_reexecution) ... Verified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nok\ntest_dirty_tracked_staged_and_untracked_checkout_is_preserved (test_checkpoint047_workflow.Offline047.test_dirty_tracked_staged_and_untracked_checkout_is_preserved) ... Verified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nok\ntest_downloads_uses_registry_exact_filename_and_never_guesses_users (test_checkpoint047_workflow.Offline047.test_downloads_uses_registry_exact_filename_and_never_guesses_users) ... ok\ntest_fast_forward_does_not_overwrite_ignored_local_file (test_checkpoint047_workflow.Offline047.test_fast_forward_does_not_overwrite_ignored_local_file) ... Verified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nok\ntest_interrupted_read_only_parser_without_output_retries_safely (test_checkpoint047_workflow.Offline047.test_interrupted_read_only_parser_without_output_retries_safely) ... Verified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nok\ntest_mismatched_assessment_never_publishes_or_reexecutes (test_checkpoint047_workflow.Offline047.test_mismatched_assessment_never_publishes_or_reexecutes) ... Verified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nok\ntest_push_failure_retries_saved_assessment_and_existing_commit (test_checkpoint047_workflow.Offline047.test_push_failure_retries_saved_assessment_and_existing_commit) ... Verified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nok\ntest_remote_changed_result_is_refused_without_overwriting_local (test_checkpoint047_workflow.Offline047.test_remote_changed_result_is_refused_without_overwriting_local) ... Verified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nok\ntest_remote_descendant_fast_forward_reuses_assessment (test_checkpoint047_workflow.Offline047.test_remote_descendant_fast_forward_reuses_assessment) ... Verified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nok\ntest_snapshot_ignored_additions_are_rejected_without_new_assessment (test_checkpoint047_workflow.Offline047.test_snapshot_ignored_additions_are_rejected_without_new_assessment) ... Verified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nVerified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nok\ntest_unrelated_clean_local_commit_is_not_published (test_checkpoint047_workflow.Offline047.test_unrelated_clean_local_commit_is_not_published) ... Verified047 package. Checking the returned046 evidence offline; no profile, model, reviewer or target experiment is started.\nok\ntest_wrong_bundle_hash_and_wrong_origin_are_refused (test_checkpoint047_workflow.Offline047.test_wrong_bundle_hash_and_wrong_origin_are_refused) ... ok\ntest_wrong_outer_hash_and_wrong_inventory_do_not_write (test_checkpoint047_workflow.Offline047.test_wrong_outer_hash_and_wrong_inventory_do_not_write) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 6.667s\n\nOK\n",
+      "command": [
+        "python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_checkpoint047_workflow.py",
+        "-v"
+      ],
+      "corrections_since_attempt2": [
+        "An interrupted read-only parser with no output may be retried; existing completed or changed output is never reexecuted or overwritten.",
+        "Fast-forward merges use --no-overwrite-ignore to preserve ignored local files.",
+        "Unpublished canonical commits must belong to the pinned release ancestry or exact generated report/receipt retry commit."
+      ],
+      "elapsed_seconds_observed": 6.764737708999746,
+      "exit_code": 0,
+      "output_provenance": "Captured directly from subprocess stdout with stderr redirected to stdout during this one final16-test invocation.",
+      "source_sha256": {
+        "scripts/checkpoint047_workflow.py": "19b59e9363fcfcf5b9b92a308a574034e521452b8a3b2772f63265ab1e04e7fb",
+        "scripts/launch047_home.py": "44f9750eff232a14deea3a6ddac74ed140fe63da868b8ff13bb50cc20c7c9225",
+        "tests/test_checkpoint047_workflow.py": "1219279e544a3e35971bfc7acfdcd05cb5a1b5cff6be7a5e5ac70ef0a739edc7"
+      },
+      "status": "PASSED",
+      "tests": 16
+    }
+  ],
+  "command": "python -B -m unittest discover -s tests -p test_checkpoint047_workflow.py -v",
+  "dangerous_seams": [
+    "complete bundled Git history from old canonical checkout",
+    "outer archive/inventory/bundle identity rejection before execution",
+    "wrong authorized origin refusal",
+    "dirty tracked/staged/untracked checkout preservation",
+    "commit and push publication recovery without assessment reexecution",
+    "changed canonical/saved/remote result preservation",
+    "deterministic assessment mismatch stops publication without rerun",
+    "ignored snapshot additions rejected",
+    "exact registry-resolved Windows Downloads filename without guessed user",
+    "remote descendant fast-forward without reanalysis",
+    "actual extracted workflow and isolated synthetic assessor child",
+    "read-only parser no-output interruption recovery",
+    "fast-forward preservation of ignored local files",
+    "refusal to publish unrelated clean local commits"
+  ],
+  "kind": "P3_CHECKPOINT_047_HANDOFF_VALIDATION_v1",
+  "new_scientific_execution_starts": 0,
+  "real_return_assessor_invocations_by_this_test_suite": 0,
+  "scope": "Synthetic transport/publication fixture tests only; no scientific conformance, learner, profile, reviewer, model or target experiment starts.",
+  "status": "PASSED",
+  "target_execution_admitted": false
+}

@@ -1,0 +1,521 @@
+{
+  "kind": "P3_ACCOUNTING_COMPLETION_REQUIREMENTS_047_v1",
+  "date": "2026-09-14",
+  "parent_commit": "15574d706eab28c1e099aba8447d527eb5047d91",
+  "scope": "Finite machine-readable pending checklist; not an implemented verifier, resource budget, scientific threshold or independent verdict.",
+  "implemented": false,
+  "admitted": false,
+  "proof_status": "PENDING",
+  "B_comp": null,
+  "B_mem": null,
+  "target_execution_authorized": false,
+  "live_mechanism_executed_to_create_this_checklist": false,
+  "preserved_scientific_contract": "docs/P3_COMPARISON_DESIGN_042.md",
+  "correction_plan": "docs/P3_ACCOUNTING_CORRECTION_PLAN_047.md",
+  "accounting_rules": {
+    "pre_expansion_storage_reservation_required": true,
+    "global_simultaneous_owner_ledger_required": true,
+    "actual_executed_work_and_bit_charges_required": true,
+    "work_capacity_reservation_is_not_spent_work": true,
+    "unexecuted_more_expensive_arm_work_must_not_be_imputed": true,
+    "no_implicit_sharing_discount": true,
+    "no_postrefusal_scientific_continuation": true,
+    "prepaid_bounded_terminal_evidence_required": true,
+    "old_outputs_are_not_retroactive_corrected_measurements": true,
+    "logical_bytes_are_not_rss": true,
+    "existing042_reserves_and_thresholds_unchanged": true
+  },
+  "source_identities": [
+    {
+      "path": "docs/P3_COMPARISON_DESIGN_042.md",
+      "sha256": "597ad1981a90682eea3e8e0118bbea0c9268d2f2edb82a20bce8c1c018d593fb",
+      "bytes": 33317
+    },
+    {
+      "path": "docs/P3_REFERENCE_ACCOUNTING_043.md",
+      "sha256": "b300d7f29454687fb8537f3d32127f94dc55245be07be06f8875156775cf6ace",
+      "bytes": 12861
+    },
+    {
+      "path": "docs/P3_REFERENCE_ACCOUNTING_DRAFT_043.md",
+      "sha256": "09317d7c48f66fa1ff948f175a9bab0cabcd87a742656df396cf8963faef0a03",
+      "bytes": 31185
+    },
+    {
+      "path": "docs/P3_RESEARCH_PRIORITIES_045.md",
+      "sha256": "6e8ab50cd4061bc07386420cb5cdb698fb55dc947e80bedc4abd453dc5db51b9",
+      "bytes": 17601
+    },
+    {
+      "path": "docs/P3_COMPLETE_WORK_PROFILE_SCOPE_046.md",
+      "sha256": "07d5f305d0cfbe7136566a65a4a19a2354942b3355d1d57204e6dfa00a85466f",
+      "bytes": 22447
+    },
+    {
+      "path": "scripts/accounting043.py",
+      "sha256": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+      "bytes": 9032
+    },
+    {
+      "path": "scripts/reference_n1_043.py",
+      "sha256": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+      "bytes": 30382
+    },
+    {
+      "path": "scripts/reference_n3_043.py",
+      "sha256": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+      "bytes": 32194
+    },
+    {
+      "path": "scripts/diagnostics045.py",
+      "sha256": "d82855254880fe9d51242f98cea61b2813af7a5c62c36294a82786b86f2c0ed7",
+      "bytes": 30662
+    },
+    {
+      "path": "scripts/fullwork046.py",
+      "sha256": "e9dd696ac174864bfa8c17c21b3b4cd7af1a1d096e2d529f4065e5bd02f4348b",
+      "bytes": 18883
+    },
+    {
+      "path": "configs/P3_FULL_WORK_FIXTURES_046.json",
+      "sha256": "568c603c0b05dd265af91cd2eed8f4e49f47dcde69e276c1686b36580049af8d",
+      "bytes": 4664
+    },
+    {
+      "path": "evidence/P3_FULL_WORK_SOURCE_FREEZE_046.json",
+      "sha256": "2b69129a59c5ddfec7262e3ff8f81f8ac392624067322fa47b58669001a407d5",
+      "bytes": 1736
+    },
+    {
+      "path": "evidence/P3_FULL_WORK_CONFORMANCE_046.json",
+      "sha256": "a391c21d6a07d563deb349cf9e7031eebdb410a1ed8b2a4f79726443b9502907",
+      "bytes": 8033
+    }
+  ],
+  "required_operation_and_owner_coverage": [
+    {
+      "id": "codec",
+      "implemented": false,
+      "proof_status": "PENDING",
+      "operation_classes": [
+        "schema_bound_traversal",
+        "canonical_normalization",
+        "set_map_key_encoding_and_ordering",
+        "json_text_and_ascii_encoding",
+        "retained_payload_seal"
+      ],
+      "simultaneous_owner_classes": [
+        "source_payload",
+        "normalized_containers",
+        "ordering_keys_and_workspace",
+        "json_text",
+        "encoded_bytes"
+      ],
+      "required_conformance_cases": [
+        "codec_exact043_equivalence",
+        "codec_refuse_before_normalize",
+        "codec_structural_bound_reference"
+      ]
+    },
+    {
+      "id": "n1_live_state",
+      "implemented": false,
+      "proof_status": "PENDING",
+      "operation_classes": [
+        "initial_construction",
+        "state_export",
+        "literal_inventory_enumeration",
+        "truth_cache",
+        "conflict_group_gain",
+        "count_rebuild",
+        "cursor_retention"
+      ],
+      "simultaneous_owner_classes": [
+        "live_n1",
+        "exported_n1_view",
+        "old_and_new_rebuild_state",
+        "inventory_and_truth_workspace",
+        "partial_cursor"
+      ],
+      "required_conformance_cases": [
+        "grammar3002_reference",
+        "grouped_literal_gain_equivalence",
+        "count_only_update",
+        "versioned_partial_cursor",
+        "rebuild_refuse_before_mutation"
+      ]
+    },
+    {
+      "id": "snapshot",
+      "implemented": false,
+      "proof_status": "PENDING",
+      "operation_classes": [
+        "source_view_export",
+        "snapshot_hash",
+        "full_deep_copy",
+        "after_snapshot_capacity_transfer"
+      ],
+      "simultaneous_owner_classes": [
+        "live_n1",
+        "before_snapshot",
+        "after_snapshot",
+        "snapshot_export_and_codec_workspace",
+        "prepaid_snapshot_cleanup"
+      ],
+      "required_conformance_cases": [
+        "snapshot_identity_and_independence",
+        "snapshot_failure_source_unchanged",
+        "snapshot_capacity_transfer_atomic"
+      ]
+    },
+    {
+      "id": "n3_scheduler",
+      "implemented": false,
+      "proof_status": "PENDING",
+      "operation_classes": [
+        "state_export",
+        "raw_word_mutation",
+        "length_rejection",
+        "deduplication",
+        "priority_arithmetic_and_sort",
+        "fragment_promotion",
+        "terminal_proposal"
+      ],
+      "simultaneous_owner_classes": [
+        "scheduler",
+        "old_and_new_queue",
+        "proposal_index",
+        "raw_word_workspace",
+        "parent_and_derivation_provenance",
+        "sort_workspace"
+      ],
+      "required_conformance_cases": [
+        "all_arm_literal_scheduler_reference",
+        "raw10_token_insertion",
+        "raw27720_bound",
+        "all_parent_derivations",
+        "rational_priority_ties",
+        "terminal_proposal_before_failed_reservation"
+      ]
+    },
+    {
+      "id": "acquisition",
+      "implemented": false,
+      "proof_status": "PENDING",
+      "operation_classes": [
+        "event_issue",
+        "encounter_inventory_commit",
+        "response_retention",
+        "trial_update",
+        "validation_prediction_and_score",
+        "credit_finalize",
+        "delayed_assimilation",
+        "terminal_state_export"
+      ],
+      "simultaneous_owner_classes": [
+        "acquisition",
+        "issued_and_completed_events",
+        "live_history",
+        "validation_forecasts",
+        "validation_queue",
+        "trial_record",
+        "pending_encounters",
+        "terminal_footer"
+      ],
+      "required_conformance_cases": [
+        "fail_before_issue",
+        "fail_after_issue",
+        "fail_after_response",
+        "fail_during_append",
+        "fail_during_scoring",
+        "fail_during_finalization",
+        "chronological_delayed_encounters",
+        "no_science_after_global_refusal"
+      ]
+    },
+    {
+      "id": "reader_fit",
+      "implemented": false,
+      "proof_status": "PENDING",
+      "operation_classes": [
+        "same_table_export_and_hash",
+        "table_record_validation_and_copy",
+        "prescribed_partition_copy",
+        "count_rebuild",
+        "fit_result_retention"
+      ],
+      "simultaneous_owner_classes": [
+        "source_table",
+        "table_export",
+        "fitted_reader",
+        "prescribed_phi",
+        "partial_fit",
+        "fit_codec_workspace"
+      ],
+      "required_conformance_cases": [
+        "same_table_selected_and_deletions",
+        "same_table_order012",
+        "partial_fit_nonnumeric"
+      ]
+    },
+    {
+      "id": "replay",
+      "implemented": false,
+      "proof_status": "PENDING",
+      "operation_classes": [
+        "source_and_final_state_copy",
+        "chronological_event_validation",
+        "boundary_capture",
+        "replay_update",
+        "provenance_export"
+      ],
+      "simultaneous_owner_classes": [
+        "original_acquisition_and_learner",
+        "source_and_final_state_copies",
+        "replay_learner",
+        "boundary_transition_copies",
+        "boundary_exported_records",
+        "replay_trace",
+        "pending_suffix"
+      ],
+      "required_conformance_cases": [
+        "all_reset_and_update_boundaries",
+        "before_after_snapshot_identity",
+        "final_state_identity",
+        "terminal_partial_boundaries",
+        "unsupported_internal_cursor_explicit"
+      ]
+    },
+    {
+      "id": "diagnostics",
+      "implemented": false,
+      "proof_status": "PENDING",
+      "operation_classes": [
+        "all_scored_trial_fits",
+        "all_validation_forecasts",
+        "brier_decomposition",
+        "all_required_control_fits",
+        "all_five_action_choices",
+        "exact_rational_reduce_and_compare",
+        "result_materialization"
+      ],
+      "simultaneous_owner_classes": [
+        "retained_decomposition_readers",
+        "selected_deletion_order_readers",
+        "replay_and_boundary_owners",
+        "forecasts",
+        "rational_workspace",
+        "diagnostic_records",
+        "unavailable_result_footer"
+      ],
+      "required_conformance_cases": [
+        "zero_credit_count_effect_preserved",
+        "partial_validation_no_full_mean",
+        "unavailable_forecast_no_numeric_substitute",
+        "exact_brier_identity",
+        "four_deletion_controls",
+        "all_five_actions",
+        "no_diagnostic_feedback"
+      ]
+    },
+    {
+      "id": "serialization",
+      "implemented": false,
+      "proof_status": "PENDING",
+      "operation_classes": [
+        "payload_export",
+        "canonical_output",
+        "hashing",
+        "compression_if_retained",
+        "base64_if_retained",
+        "readable_summary",
+        "progress_and_outer_report"
+      ],
+      "simultaneous_owner_classes": [
+        "complete_payload",
+        "raw_bytes",
+        "compression_workspace",
+        "compressed_bytes",
+        "base64_bytes",
+        "base64_text",
+        "readable_summary",
+        "outer_report_and_footer"
+      ],
+      "required_conformance_cases": [
+        "archive_roundtrip_exact",
+        "fixed_name_hash_transport",
+        "all_numeric_rows_preserved",
+        "bounded_output_overflow",
+        "terminal_footer_parseable"
+      ]
+    },
+    {
+      "id": "evaluator_and_verifier",
+      "implemented": false,
+      "proof_status": "PENDING",
+      "operation_classes": [
+        "physical11_call_evaluation",
+        "opaque_history_goal_delivery",
+        "frozen_reader_forecasting",
+        "selected_action_execution",
+        "outcome_retention",
+        "exact_aggregation",
+        "missing_outcome_intervals",
+        "paired_availability",
+        "frozen042_continuation_predicates"
+      ],
+      "simultaneous_owner_classes": [
+        "frozen_acquisition_state",
+        "evaluation_history",
+        "decision_forecasts",
+        "evaluation_event_log",
+        "per_world_tables",
+        "aggregate_and_verifier_workspace",
+        "evaluation_output"
+      ],
+      "required_conformance_cases": [
+        "eleven_call_positions_fabricated",
+        "unavailable_choice_behavior",
+        "no_evaluation_fitting_or_assimilation",
+        "same_snapshot_each_decision",
+        "separate_reader_calls",
+        "exact_missingness_and_paired_intervals",
+        "frozen042_threshold_cases"
+      ]
+    },
+    {
+      "id": "terminal_ledger",
+      "implemented": false,
+      "proof_status": "PENDING",
+      "operation_classes": [
+        "first_refusal_latch",
+        "prepaid_evidence_commit",
+        "prepaid_cleanup",
+        "bounded_meter_metadata"
+      ],
+      "simultaneous_owner_classes": [
+        "all_live_scientific_owners",
+        "emergency_evidence_capacity",
+        "cleanup_leases",
+        "bounded_apparatus_metadata"
+      ],
+      "required_conformance_cases": [
+        "no_work_refund",
+        "no_allowance_refill",
+        "no_postrefusal_scientific_update",
+        "no_lost_issue_or_response",
+        "nonnegative_global_owner_total",
+        "one_authoritative_terminal_cause",
+        "bounded_parseable_terminal_report"
+      ]
+    }
+  ],
+  "required_evidence": [
+    {
+      "id": "corrected_source_freeze",
+      "requirement": "All corrected modules and contract files, with parent source identities and immutable exact bytes.",
+      "path": null,
+      "sha256": null,
+      "status": "PENDING"
+    },
+    {
+      "id": "corrected_schema_and_work_ruler",
+      "requirement": "Allowed schemas, cardinalities, integer-width recurrences, exact work rules and pre-expansion guard map.",
+      "path": null,
+      "sha256": null,
+      "status": "PENDING"
+    },
+    {
+      "id": "owner_lifetime_proof",
+      "requirement": "Every actual simultaneous owner and workspace, full-copy policy and terminal capacities.",
+      "path": null,
+      "sha256": null,
+      "status": "PENDING"
+    },
+    {
+      "id": "slow_finite_reference",
+      "requirement": "Independent literal schema/work structural recurrence, with exact source identity.",
+      "path": null,
+      "sha256": null,
+      "status": "PENDING"
+    },
+    {
+      "id": "optimized_projection_reference_comparison",
+      "requirement": "Finite boundary-case comparison and proof of domination for each required category.",
+      "path": null,
+      "sha256": null,
+      "status": "PENDING"
+    },
+    {
+      "id": "preserved046_archive_projection_audit",
+      "requirement": "All preserved046 decoded source graphs checked without relabeling outputs as corrected measured executions.",
+      "path": null,
+      "sha256": null,
+      "status": "PENDING"
+    },
+    {
+      "id": "terminal_multiplicity_derivation",
+      "requirement": "Completed plus partial/reserved trial, replay-boundary, reader-attempt, proposal and output cardinalities.",
+      "path": null,
+      "sha256": null,
+      "status": "PENDING"
+    },
+    {
+      "id": "conformance_results",
+      "requirement": "Frozen semantic and guard-class refusal matrix, actual execution usage, exact results and all earlier failed attempts.",
+      "path": null,
+      "sha256": null,
+      "status": "PENDING"
+    },
+    {
+      "id": "physical_path_eligibility_assessment",
+      "requirement": "Identify any execution changes and satisfy the applicable042 physical-validation rule; old timing remains pinned to old code.",
+      "path": null,
+      "sha256": null,
+      "status": "PENDING"
+    },
+    {
+      "id": "common_budget_derivation",
+      "requirement": "Actual integer common acquisition and separate common diagnostic/readout allowances from eligible validated complete work, retaining042 reserves.",
+      "path": null,
+      "sha256": null,
+      "status": "PENDING"
+    },
+    {
+      "id": "panel_and_verifier_projection",
+      "requirement": "Full frozen panel, every comparator/diagnostic, verification and25 percent audit/rerun reserve.",
+      "path": null,
+      "sha256": null,
+      "status": "PENDING"
+    },
+    {
+      "id": "immutable_preregistration_and_programme",
+      "requirement": "Final scientific/source/resource identities and governing programme state before target execution.",
+      "path": null,
+      "sha256": null,
+      "status": "PENDING"
+    },
+    {
+      "id": "independent_restricted_review",
+      "requirement": "Real separate metering, restricted input manifest, final verdict and evidence identities; shared-workspace consultation is insufficient.",
+      "path": null,
+      "sha256": null,
+      "status": "PENDING"
+    }
+  ],
+  "return046_identity_dependency": {
+    "status": "SUPPLIED_BY_SEPARATE047_RETURN_ASSESSMENT",
+    "required": [
+      "outer_REPORT_sha256_and_bytes",
+      "RECEIPT_sha256_and_bytes",
+      "CONFORMANCE_sha256_and_bytes",
+      "all48_row_filenames_sha256_and_bytes",
+      "all48_archive_compressed_and_raw_sha256_and_lengths",
+      "frozen046_source_closure",
+      "preserved043_044_measurements_and045_diagnostics"
+    ],
+    "identities_must_be_exact_before_use": true
+  },
+  "completion_rule": "All named operation/owner coverage is implemented and proof-validated; all required evidence exists with exact identities; all finite conformance/reference checks pass; eligible prospective budgets and immutable scientific documents exist; then the applicable restricted independent review must pass before target admission.",
+  "failure_rule": "A remaining unclassified operation, owner, width, terminal cardinality, projection or pending-evidence defect keeps admission false. Stop this one correction route under the existing revision policy; do not launch an unconstrained replacement profile campaign."
+}
