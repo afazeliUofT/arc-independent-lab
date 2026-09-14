@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-09-14T02:43:10.374083+00:00",
+  "updated_utc": "2026-09-14T02:51:03.358446+00:00",
   "current_gate": "P3",
   "gate_status": "in_progress",
   "gate_entered_utc": "2026-09-10T23:29:11.766050+00:00",
   "last_verified_gate": "P3.second_candidate_focused_analytical_assessment",
-  "last_verified_commit": "15574d706eab28c1e099aba8447d527eb5047d91",
-  "active_task": "P3.checkpoint047.return_assessment_and_finite_correction_contract",
+  "last_verified_commit": "86179fdc6941cc519690a16b3446a8089e7f07f2",
+  "active_task": "P3.checkpoint047.completed_return_assessment; next accounting_correction",
   "blocked_on": null,
   "next_action": "Implement the one versioned accounting correction specified in docs/P3_ACCOUNTING_CORRECTION_PLAN_047.md and configs/P3_ACCOUNTING_COMPLETION_REQUIREMENTS_047.json: derive closed schema/work/owner and terminal multiplicity bounds before guarded adapter changes; preserve043046 and042 scientific controls. Validate against the finite reference and saved046 graphs, with predeclared bounded semantic/refusal conformance and any required changed-path physical validation. Then finish prospective budgets/preregistration/verifier and restricted independently metered admission. Do not wait for optional047 sync receipt; do not rerun046 reservation or start target/reviewer under exhausted040 allowance.",
   "open_questions": [
@@ -79,8 +79,8 @@
     "P2.second_pass_after_reviewed_negative_audit"
   ],
   "remote": "https://github.com/afazeliUofT/arc-independent-lab",
-  "durability_status": "047 assessment, correction contract and offline verification handoff prepared locally; publication verification pending.",
-  "commit_status": "047 content publication pending; original046 inputs and all043045 artifacts unchanged.",
+  "durability_status": "047 content published and all18 changed files read back exactly; every undeclared prior blob/mode preserved. Complete public-history ZIP saved and final bundle/actual offline parser/localGit seam passed.",
+  "commit_status": "047 content verified; separate publication-state commit records saved ZIP and final complete-package evidence without changing pinned code or input results.",
   "recovery_dependency": null,
   "post_checkpoint_002_local_updates": "Recovery evidence, diagnostic source, ledger/error additions, recovery status and current state must be preserved across future reconciliation.",
   "latest_recovery_evidence": [
@@ -138,10 +138,11 @@
       "sha256": "1995e36a9f8e5f9f201d9b63ba8a7c39400f3e8e0046009a1c59973c2023188e"
     }
   ],
-  "handoff_backup_status": "Preparing complete047 public-history bundle and one WSL-home command for offline assessment synchronization. No private paper input required; next accounting implementation does not depend on receipt.",
+  "handoff_backup_status": "Complete ARC_Independent_Lab_047_HOME.zip saved; one WSL-home command verifies existing046 evidence and returns047 report/receipt. Optional sync only; next correction proceeds from verified046 without waiting.",
   "latest_publication_verification": {
-    "path": "evidence/REMOTE_CHECKPOINT_046_VERIFICATION.json",
-    "sha256": "fe8ffe338c9af8adeaab86b9c61a38a793fa69120883262c9931a8cc232af4a5"
+    "path": "evidence/REMOTE_CHECKPOINT_047_VERIFICATION.json",
+    "sha256": "cfc0c9b573125cdabf16c624225d05b5adab8cdebf02b9d56e9401c70499b1f0",
+    "bytes": 5528
   },
   "last_human_message_verbatim": "Github updated. Also, WSL terminal shows:\nDevelopment046 profile: PROFILE_COMPLETED\nAll043/044 measurements and045 diagnostics are preserved; new046 invocation usage is reported separately.\nNo reviewer, model or target experiment was started. Future experiment admission is not asserted.",
   "phase1_approval": {
@@ -1639,7 +1640,7 @@
     "sha256": "6e3bc532466754c1264768cbec479ad2afb593d12dee5e120de956b9a3078805"
   },
   "checkpoint047": {
-    "status": "completed_locally_awaiting_publication",
+    "status": "published_verified_complete_offline_handoff_saved",
     "return_commit": "15574d706eab28c1e099aba8447d527eb5047d91",
     "decision": "Accept046 scoped physical measurements; conditional Alliance CPU route; specify finite accounting correction before budgets and independent admission.",
     "evidence": [
@@ -1680,6 +1681,32 @@
       "sha256": "edfceff16740e2a6406ef583c1c6ff9fa50a19050b2abe0600564a1759e91444"
     },
     "synthetic_handoff_tests_passed": 16,
-    "synthetic_handoff_suite_invocations": 3
+    "synthetic_handoff_suite_invocations": 3,
+    "content_commit": "86179fdc6941cc519690a16b3446a8089e7f07f2",
+    "publication_verification": {
+      "path": "evidence/REMOTE_CHECKPOINT_047_VERIFICATION.json",
+      "sha256": "cfc0c9b573125cdabf16c624225d05b5adab8cdebf02b9d56e9401c70499b1f0",
+      "bytes": 5528
+    },
+    "complete_package_validation": {
+      "path": "evidence/P3_COMPLETE_PACKAGE_VALIDATION_047.json",
+      "sha256": "4657e5661ba3dd899f4a08933dc8fc8c9a4fce8f3d105631719443408b8967fe",
+      "bytes": 1646
+    },
+    "zip": {
+      "filename": "ARC_Independent_Lab_047_HOME.zip",
+      "bytes": 7994307,
+      "sha256": "8a8da78dccdd152367135430b43d3776dba95c975326437dff45a399d7397540",
+      "durable_delivery_saved": true,
+      "bundle_sha256": "f152d91508fe2634ad2c3e38cabecd0d9f0ed3d62b13c7302714f9807f45bc5b",
+      "source_commit": "86179fdc6941cc519690a16b3446a8089e7f07f2",
+      "contains_complete_public_history": true,
+      "private_paper_inputs_required": false
+    },
+    "expected_return_paths": [
+      "artifacts/CHECKPOINT_047_RETURN/86179fdc6941cc519690a16b3446a8089e7f07f2/REPORT.json",
+      "artifacts/CHECKPOINT_047_RETURN/86179fdc6941cc519690a16b3446a8089e7f07f2/RECEIPT.json"
+    ],
+    "complete_package_saved_data_parser_invocations": 1
   }
 }

@@ -1,0 +1,133 @@
+{
+  "all_changed_bytes_match": true,
+  "base_commit": "15574d706eab28c1e099aba8447d527eb5047d91",
+  "changed_files": [
+    {
+      "bytes": 8514,
+      "path": "README.md",
+      "sha256": "3dea9c13424d525ac2c75ea108c5b5b6262c734e6357699d1b8cbb9299302d19"
+    },
+    {
+      "bytes": 17134,
+      "path": "configs/P3_ACCOUNTING_COMPLETION_REQUIREMENTS_047.json",
+      "sha256": "f6fc91e5c0eecc086f40368b09e22b0ef6fa8cb6d62f9fe517df2e5d3c9456db"
+    },
+    {
+      "bytes": 20009,
+      "path": "docs/P3_ACCOUNTING_CORRECTION_PLAN_047.md",
+      "sha256": "eb339e3097059116ef1a85aae19453398989b0d34584056c1065c9254d08b56e"
+    },
+    {
+      "bytes": 1919,
+      "path": "docs/P3_EXECUTION_047.md",
+      "sha256": "2816dd70437b2f9a94aee5e8559d13aa8995ff2e220df89657d407f7056250d1"
+    },
+    {
+      "bytes": 178268,
+      "path": "evidence/P3_CHECKPOINT_046_RETURN_VERIFICATION_047.json",
+      "sha256": "6e3bc532466754c1264768cbec479ad2afb593d12dee5e120de956b9a3078805"
+    },
+    {
+      "bytes": 14941,
+      "path": "evidence/P3_HANDOFF_VALIDATION_047.json",
+      "sha256": "edfceff16740e2a6406ef583c1c6ff9fa50a19050b2abe0600564a1759e91444"
+    },
+    {
+      "bytes": 9404,
+      "path": "evidence/P3_RESOURCE_DECISION_047.json",
+      "sha256": "5ba1ea12c7017031ea51981b37ce6bb5fbf8abaa1f8075c4f08e605ee4c3facf"
+    },
+    {
+      "bytes": 2128,
+      "path": "reports/DIGEST_2026-09-14.md",
+      "sha256": "f26d1ba6b888c9e8b5cadc7444501579d4d3dc3de0b41b12f55f834695872acc"
+    },
+    {
+      "bytes": 11199,
+      "path": "reports/P3_RETURN_046_AND_RESOURCE_DECISION_047.md",
+      "sha256": "87727041d9a39111031c82f9906ef707753b0e25ce5f059c01826b30ff4b4e33"
+    },
+    {
+      "bytes": 22369,
+      "path": "scripts/assess_return046.py",
+      "sha256": "579c8ea962fedc28f8e69ecf7b948a37e6537e4feeda0bdd24ce2ed9e84e41eb"
+    },
+    {
+      "bytes": 3889,
+      "path": "scripts/build_checkpoint047.py",
+      "sha256": "907a519bbac392a7cc6c25580b54993d5a358f0678155d2a164e5281ad63946d"
+    },
+    {
+      "bytes": 15856,
+      "path": "scripts/checkpoint047_workflow.py",
+      "sha256": "19b59e9363fcfcf5b9b92a308a574034e521452b8a3b2772f63265ab1e04e7fb"
+    },
+    {
+      "bytes": 11228,
+      "path": "scripts/launch047_home.py",
+      "sha256": "44f9750eff232a14deea3a6ddac74ed140fe63da868b8ff13bb50cc20c7c9225"
+    },
+    {
+      "bytes": 45873,
+      "path": "state/BUDGET.json",
+      "sha256": "d67ef0f4d198d584837342458de1c598f8f8b42fffb28fc86c164ee02e868ff2"
+    },
+    {
+      "bytes": 230310,
+      "path": "state/LEDGER.jsonl",
+      "sha256": "3fc9aec60748166477275d472bcf7eaa764f4e656c59880dc1e7f1b53ec5524f"
+    },
+    {
+      "bytes": 94630,
+      "path": "state/PROJECT_STATE.json",
+      "sha256": "681cd3583cf295e6187938e9c0390c1da523d86c85bae52410fbd5028bb79736"
+    },
+    {
+      "bytes": 163309,
+      "path": "state/tool_errors.jsonl",
+      "sha256": "f3d1af87f3f5d59fc7fd67228fe9e76a6b6ed9d36bee3ecdd4d7b03d25cb7c8b"
+    },
+    {
+      "bytes": 18455,
+      "path": "tests/test_checkpoint047_workflow.py",
+      "sha256": "1219279e544a3e35971bfc7acfdcd05cb5a1b5cff6be7a5e5ac70ef0a739edc7"
+    }
+  ],
+  "complete_package_validation": {
+    "bytes": 1646,
+    "path": "evidence/P3_COMPLETE_PACKAGE_VALIDATION_047.json",
+    "sha256": "4657e5661ba3dd899f4a08933dc8fc8c9a4fce8f3d105631719443408b8967fe"
+  },
+  "expected_user_return_paths": [
+    "artifacts/CHECKPOINT_047_RETURN/86179fdc6941cc519690a16b3446a8089e7f07f2/REPORT.json",
+    "artifacts/CHECKPOINT_047_RETURN/86179fdc6941cc519690a16b3446a8089e7f07f2/RECEIPT.json"
+  ],
+  "final_handoff_validation": {
+    "bytes": 14941,
+    "path": "evidence/P3_HANDOFF_VALIDATION_047.json",
+    "sha256": "edfceff16740e2a6406ef583c1c6ff9fa50a19050b2abe0600564a1759e91444"
+  },
+  "final_zip": {
+    "bundle_sha256": "f152d91508fe2634ad2c3e38cabecd0d9f0ed3d62b13c7302714f9807f45bc5b",
+    "bytes": 7994307,
+    "contains_complete_public_history": true,
+    "durable_delivery_saved": true,
+    "filename": "ARC_Independent_Lab_047_HOME.zip",
+    "private_paper_inputs_required": false,
+    "sha256": "8a8da78dccdd152367135430b43d3776dba95c975326437dff45a399d7397540",
+    "source_commit": "86179fdc6941cc519690a16b3446a8089e7f07f2"
+  },
+  "kind": "P3_REMOTE_CHECKPOINT_047_VERIFICATION_v1",
+  "new_profile_reviewer_model_or_target_execution": false,
+  "package_validation_helper": {
+    "bytes": 4894,
+    "path": "evidence/P3_COMPLETE_PACKAGE_VALIDATION_HELPER_047.py",
+    "sha256": "394c1fe0b803c8829f3c239452b4bca8973227e03a0bc7fbfd29f57878b7046b"
+  },
+  "readback_route": "Each changed file fetched at exact commit via connected GitHub and compared byte-for-byte; local raw Git blobs match remote tree OIDs.",
+  "release_commit": "86179fdc6941cc519690a16b3446a8089e7f07f2",
+  "unchanged_prior_blob_count": 1638,
+  "undeclared_prior_blobs_and_modes_preserved": true,
+  "user_return_is_dependency_for_next_correction": false,
+  "verified_utc": "2026-09-14T02:51:03.358446+00:00"
+}

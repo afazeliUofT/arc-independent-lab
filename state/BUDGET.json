@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-14T02:43:10.374083+00:00",
+  "updated_utc": "2026-09-14T02:51:03.358446+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -1109,6 +1109,14 @@
       "path": "evidence/P3_HANDOFF_VALIDATION_047.json",
       "sha256": "edfceff16740e2a6406ef583c1c6ff9fa50a19050b2abe0600564a1759e91444"
     },
-    "complete_package_actual_saved_data_assessment_pending": true
+    "complete_package_actual_saved_data_assessment_pending": false,
+    "complete_package_saved_data_parser_invocations": 1,
+    "complete_package_validation": {
+      "path": "evidence/P3_COMPLETE_PACKAGE_VALIDATION_047.json",
+      "sha256": "4657e5661ba3dd899f4a08933dc8fc8c9a4fce8f3d105631719443408b8967fe",
+      "bytes": 1646
+    },
+    "complete_package_validation_native_or_target_runs": 0,
+    "handoff_zip_saved": true
   }
 }

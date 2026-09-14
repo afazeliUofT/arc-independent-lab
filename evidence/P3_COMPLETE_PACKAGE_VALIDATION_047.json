@@ -1,0 +1,30 @@
+{
+  "actual_extracted_workflow_used": true,
+  "actual_parser_matches_published_assessment": true,
+  "actual_saved_data_parser_invocations": 1,
+  "all_snapshot_files_and_git_history_checked": true,
+  "archive_bytes": 7994307,
+  "archive_sha256": "8a8da78dccdd152367135430b43d3776dba95c975326437dff45a399d7397540",
+  "assessment_sha256": "6e3bc532466754c1264768cbec479ad2afb593d12dee5e120de956b9a3078805",
+  "bundle_sha256": "f152d91508fe2634ad2c3e38cabecd0d9f0ed3d62b13c7302714f9807f45bc5b",
+  "helper_sha256": "394c1fe0b803c8829f3c239452b4bca8973227e03a0bc7fbfd29f57878b7046b",
+  "kind": "P3_COMPLETE_PACKAGE_VALIDATION_047_v1",
+  "local_git_publication_exact_paths": [
+    "artifacts/CHECKPOINT_047_RETURN/86179fdc6941cc519690a16b3446a8089e7f07f2/RECEIPT.json",
+    "artifacts/CHECKPOINT_047_RETURN/86179fdc6941cc519690a16b3446a8089e7f07f2/REPORT.json"
+  ],
+  "native_model_or_reviewer_runs": 0,
+  "new_profile_runs": 0,
+  "original_profile_runs": 0,
+  "release_commit": "86179fdc6941cc519690a16b3446a8089e7f07f2",
+  "repeated_command_reexecuted_parser": false,
+  "scope": "Actual complete public bundle and read-only parser; synthetic local Git transport. Does not certify WSL registry or live GitHub authentication.",
+  "status": "PASSED",
+  "substitutions": [
+    "Windows Downloads resolution replaced by supplied exact ZIP bytes and temporary home",
+    "Authorized GitHub origin identity replaced in memory by disposable local bare Git",
+    "Launcher child handoff loads exact extracted workflow in-process; actual parser still uses its real isolated subprocess"
+  ],
+  "target_experiment_runs": 0,
+  "wall_seconds": 22.094336201997066
+}
