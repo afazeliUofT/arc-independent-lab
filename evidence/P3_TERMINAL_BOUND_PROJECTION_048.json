@@ -1,0 +1,55 @@
+{
+  "B_comp": null,
+  "B_mem": null,
+  "bounds": {
+    "acquisition_snapshot_attempts": 100,
+    "completed_scored_trials": 50,
+    "completed_validation_events": 100,
+    "decomposition_reader_attempts": 150,
+    "decomposition_validation_forecasts": 300,
+    "event_bearing_scored_boundaries": 50,
+    "macro_records": 45,
+    "mutation_assemblies_coverage_arm": 0,
+    "mutation_assemblies_noncoverage_arms": 39,
+    "nonempty_word_vocabulary": 3905,
+    "raw_insertion_word_tokens": 10,
+    "raw_mutations_per_assembly": 27720,
+    "recipe_records": 55,
+    "replay_boundary_table_partition_copies": 100,
+    "scheduler_selection_attempts": 51,
+    "scored_trial_records": 51,
+    "total_trial_records": 56
+  },
+  "conditional_reduced_credit_caps": {
+    "absolute_numerator_bits": 66,
+    "denominator_bits": 65,
+    "forecast_denominator": 250,
+    "reduced_credit_absolute_numerator": 61035156250000000000,
+    "reduced_credit_denominator": 30517578125000000000
+  },
+  "created_utc": "2026-09-14T06:27:05.635682+00:00",
+  "domain": {
+    "actions": 5,
+    "cadence": 4,
+    "environment": 285,
+    "max_word": 5,
+    "predicates": 4,
+    "validation": 2
+  },
+  "independent_reference_matches": true,
+  "input_identities": {
+    "docs/P3_ACCOUNTING_CORRECTION_PLAN_047.md": "eb339e3097059116ef1a85aae19453398989b0d34584056c1065c9254d08b56e",
+    "docs/P3_COMPARISON_DESIGN_042.md": "597ad1981a90682eea3e8e0118bbea0c9268d2f2edb82a20bce8c1c018d593fb",
+    "scripts/accounting_bounds048.py": "a6e6ca17ed04085fd939a129338e83eca6e2c4d3391311b691ad810ac11cd62c",
+    "scripts/reference_n1_043.py": "af4d6bb289591d1495af2d0d216c956c53be3201dc2fb6eb3b1a1340705029b5",
+    "scripts/reference_n3_043.py": "4af1dbad200b3a4e5e0850a3def8b9710b70724a8a506df0c6a9a77f72385193",
+    "tests/test_accounting_bounds048.py": "858b7b28f08838f88619204ecd505103b2b3e248855fb108b4c42fad16873fd0"
+  },
+  "kind": "P3_TERMINAL_BOUND_PROJECTION_048_v1",
+  "reference_count_vectors": 156036,
+  "scope": "Static reservation-graph upper bounds. Scheduler attainability, all runtime schemas, work bounds and complete ownership remain unproved. This is not a learner execution or retroactive re-metering of046.",
+  "source_commit": "a4227a01cef4e671d8bb32e89efee58bc879a889",
+  "target_admitted": false,
+  "transition_table_bound": 245,
+  "whole_correction_complete": false
+}

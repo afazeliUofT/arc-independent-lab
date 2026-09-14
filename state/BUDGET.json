@@ -61,7 +61,7 @@
     "large_artifact_durability": "not established; required before large jobs"
   },
   "research_phase_boundaries": "Phase 2 requires explicit approval of DIAGNOSIS.md; Phase 3 requires explicit approval of IDEAS.md.",
-  "updated_utc": "2026-09-14T02:51:03.358446+00:00",
+  "updated_utc": "2026-09-14T06:34:30.765829+00:00",
   "metering_assessment": {
     "path": "evidence/GATE0_CODEX_METERING_SCOPE_2026-09-07.md",
     "sha256": "cbc4ecad6e748b427f310830c79ba93e57af34c103f87cb31bdd8519c42b6988"
@@ -1118,5 +1118,32 @@
     },
     "complete_package_validation_native_or_target_runs": 0,
     "handoff_zip_saved": true
+  },
+  "checkpoint048_accounting": {
+    "scope": "First finite ledger/codec and terminal-reference unit; no scientific adapter integration",
+    "hosted_actual_unit_invocations": 3,
+    "synthetic_handoff_tests": 9,
+    "native_starts": 0,
+    "native_sent_turns": 0,
+    "new_native_allowance": 0,
+    "target_or_profile_runs": 0,
+    "gpu_or_hpc_jobs": 0,
+    "hosted_allowance_observable": false,
+    "extra_spending": false,
+    "whole_correction_complete": false,
+    "B_comp": null,
+    "B_mem": null,
+    "target_admitted": false,
+    "evidence": {
+      "path": "evidence/P3_CHECKPOINT_048_VERIFICATION.json",
+      "sha256": "7142f1a38477970c9cc7e6339cf0e8875f563001d294426c6c426fbbbb5d7a00",
+      "bytes": 2323
+    },
+    "user_unit_conformance": {
+      "max_invocations": 1,
+      "max_seconds": 300,
+      "automatic_rerun": false,
+      "scope": "048 frozen unit suites only"
+    }
   }
 }

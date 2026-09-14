@@ -1,0 +1,154 @@
+{
+  "accounting_correction_complete": false,
+  "actual_conformance": {
+    "accounting_correction_complete": false,
+    "cpu_seconds": 0.30797823599999996,
+    "expected_test_count": 20,
+    "kind": "P3_ACCOUNTING_048_FROZEN_CONFORMANCE_v1",
+    "model_started": false,
+    "no_profile_runs": true,
+    "no_target_runs": true,
+    "release_commit": "dc62f9be15b61145580859225055ef90f52abc1e",
+    "reviewer_started": false,
+    "source_sha256_after": {
+      "docs/P3_ACCOUNTING_KERNEL_048.md": "822b78d8ba3af168bee95dcb7b068bb993de4b7837c6433fa05332feb8bab6c6",
+      "docs/P3_ACCOUNTING_TERMINAL_BOUNDS_048.md": "6c69a43b07d6a05c5e2d65c9c5f2e90f0e9357fa6cb85bc2a69f52d5eaa21f60",
+      "docs/P3_EXECUTION_PLAN_048.md": "bbd48f1914b9a4410aaa215b935de55a5341687d9b5ccfedaeb2ef8b91d370fa",
+      "reports/P3_CONTINUITY_RECOVERY_048.md": "9187965074a8dcb5f79992c9397f414f0fa6fb8cb4eb610a5fa3214d9018ed8b",
+      "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+      "scripts/accounting048.py": "92e6bdfa41d4291400e2038b052e614d94dc7cac014118244dd469d3627ea893",
+      "scripts/accounting_bounds048.py": "a6e6ca17ed04085fd939a129338e83eca6e2c4d3391311b691ad810ac11cd62c",
+      "scripts/checkpoint048_workflow.py": "3f0565470a443c1be92cd1cb3e4d6ccfdfa20cc6e7829767077aceec8231e117",
+      "scripts/launch048_home.py": "ae3857f7ddf20962b57f222e215acb0e6379cf1a5e9156ece40b6270b5dd925d",
+      "tests/test_accounting048.py": "7503fc8a47de09e10bff0e8cf3141496cfd84a1439d32c4408b290d74a52e8cd",
+      "tests/test_accounting_bounds048.py": "858b7b28f08838f88619204ecd505103b2b3e248855fb108b4c42fad16873fd0"
+    },
+    "source_sha256_before": {
+      "docs/P3_ACCOUNTING_KERNEL_048.md": "822b78d8ba3af168bee95dcb7b068bb993de4b7837c6433fa05332feb8bab6c6",
+      "docs/P3_ACCOUNTING_TERMINAL_BOUNDS_048.md": "6c69a43b07d6a05c5e2d65c9c5f2e90f0e9357fa6cb85bc2a69f52d5eaa21f60",
+      "docs/P3_EXECUTION_PLAN_048.md": "bbd48f1914b9a4410aaa215b935de55a5341687d9b5ccfedaeb2ef8b91d370fa",
+      "reports/P3_CONTINUITY_RECOVERY_048.md": "9187965074a8dcb5f79992c9397f414f0fa6fb8cb4eb610a5fa3214d9018ed8b",
+      "scripts/accounting043.py": "9f7c212b629c2c96ac66eb370600ea1f137e7b0b842b79233101a79ffcdbdaee",
+      "scripts/accounting048.py": "92e6bdfa41d4291400e2038b052e614d94dc7cac014118244dd469d3627ea893",
+      "scripts/accounting_bounds048.py": "a6e6ca17ed04085fd939a129338e83eca6e2c4d3391311b691ad810ac11cd62c",
+      "scripts/checkpoint048_workflow.py": "3f0565470a443c1be92cd1cb3e4d6ccfdfa20cc6e7829767077aceec8231e117",
+      "scripts/launch048_home.py": "ae3857f7ddf20962b57f222e215acb0e6379cf1a5e9156ece40b6270b5dd925d",
+      "tests/test_accounting048.py": "7503fc8a47de09e10bff0e8cf3141496cfd84a1439d32c4408b290d74a52e8cd",
+      "tests/test_accounting_bounds048.py": "858b7b28f08838f88619204ecd505103b2b3e248855fb108b4c42fad16873fd0"
+    },
+    "status": "KERNEL_CONFORMANCE_PASSED",
+    "suites": [
+      "tests/test_accounting048.py",
+      "tests/test_accounting_bounds048.py"
+    ],
+    "target_admitted": false,
+    "tests": [
+      {
+        "status": "PASSED",
+        "test_id": "test_accounting048.Accounting048Tests.test_actual_ordering_branch_work"
+      },
+      {
+        "status": "PASSED",
+        "test_id": "test_accounting048.Accounting048Tests.test_codec_exact043_edge_fixtures"
+      },
+      {
+        "status": "PASSED",
+        "test_id": "test_accounting048.Accounting048Tests.test_codec_invalid_input_before_normalize"
+      },
+      {
+        "status": "PASSED",
+        "test_id": "test_accounting048.Accounting048Tests.test_codec_live_overlap_and_output_lifetime"
+      },
+      {
+        "status": "PASSED",
+        "test_id": "test_accounting048.Accounting048Tests.test_codec_refuse_before_normalize"
+      },
+      {
+        "status": "PASSED",
+        "test_id": "test_accounting048.Accounting048Tests.test_codec_structural_bound_reference"
+      },
+      {
+        "status": "PASSED",
+        "test_id": "test_accounting048.Accounting048Tests.test_codec_work_refusal_cleanup"
+      },
+      {
+        "status": "PASSED",
+        "test_id": "test_accounting048.Accounting048Tests.test_codec_workspace_refusal"
+      },
+      {
+        "status": "PASSED",
+        "test_id": "test_accounting048.Accounting048Tests.test_first_cause_and_prepaid_cleanup"
+      },
+      {
+        "status": "PASSED",
+        "test_id": "test_accounting048.Accounting048Tests.test_global_simultaneous_owners"
+      },
+      {
+        "status": "PASSED",
+        "test_id": "test_accounting048.Accounting048Tests.test_independent_copies_have_distinct_owners"
+      },
+      {
+        "status": "PASSED",
+        "test_id": "test_accounting048.Accounting048Tests.test_schema_is_closed_and_finite"
+      },
+      {
+        "status": "PASSED",
+        "test_id": "test_accounting048.Accounting048Tests.test_terminal_slots_are_bounded"
+      },
+      {
+        "status": "PASSED",
+        "test_id": "test_accounting048.Accounting048Tests.test_undeclared_metadata_rejected"
+      },
+      {
+        "status": "PASSED",
+        "test_id": "test_accounting048.Accounting048Tests.test_work_escrow_is_not_spent"
+      },
+      {
+        "status": "PASSED",
+        "test_id": "test_accounting_bounds048.AccountingBounds048Tests.test_actual042_reference_and_terminal_multiplicities"
+      },
+      {
+        "status": "PASSED",
+        "test_id": "test_accounting_bounds048.AccountingBounds048Tests.test_exhausted_vocabulary_and_coverage"
+      },
+      {
+        "status": "PASSED",
+        "test_id": "test_accounting_bounds048.AccountingBounds048Tests.test_finite_small_domain_reference"
+      },
+      {
+        "status": "PASSED",
+        "test_id": "test_accounting_bounds048.AccountingBounds048Tests.test_reduced_result_and_unreduced_rational_caps"
+      },
+      {
+        "status": "PASSED",
+        "test_id": "test_accounting_bounds048.AccountingBounds048Tests.test_whole_trial_reservation_precedes_first_event"
+      }
+    ],
+    "tests_run": 20,
+    "wall_seconds": 0.3105685420014197
+  },
+  "actual_extracted_workflow_used": true,
+  "actual_unit_invocations": 1,
+  "archive_bytes": 52806,
+  "archive_sha256": "9169590117f675a65ef361414d9bc88170921ddf8de4d3be2691813a4e1e4b63",
+  "helper_sha256": "92c6719c7263a56a45ed764864119acb3a76e493a0f7700f60ebdb799739475b",
+  "kind": "P3_COMPLETE_PACKAGE_VALIDATION_048_v1",
+  "local_git_publication_exact_paths": [
+    "artifacts/CHECKPOINT_048_CONFORMANCE/dc62f9be15b61145580859225055ef90f52abc1e/RECEIPT.json",
+    "artifacts/CHECKPOINT_048_CONFORMANCE/dc62f9be15b61145580859225055ef90f52abc1e/REPORT.json"
+  ],
+  "published_receipt_sha256": "9b11f0d829b1d38d0f23e01506962c67ae4d05856cfd2ad1de04a40f9f2b598e",
+  "published_report_sha256": "83132b6e860c0f8700ba62db40665152880255245420abe3d2efb56afaa87def",
+  "release_commit": "dc62f9be15b61145580859225055ef90f52abc1e",
+  "repeated_command_reexecuted_tests": false,
+  "scope": "Actual complete048 package and tests; does not certify live WSL registry or GitHub authentication.",
+  "status": "PASSED",
+  "substitutions": [
+    "Windows Downloads discovery replaced by exact supplied ZIP and temporary home",
+    "Authorized GitHub transport identity replaced in memory by disposable local bare Git",
+    "Launcher child handoff loads exact extracted workflow in-process; actual conformance remains an isolated subprocess"
+  ],
+  "target_admitted": false,
+  "target_profile_native_or_hpc_runs": 0,
+  "wall_seconds": 3.0904667920040083
+}

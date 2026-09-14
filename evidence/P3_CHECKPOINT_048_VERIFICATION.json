@@ -1,0 +1,64 @@
+{
+  "archive": {
+    "archive_bytes": 52806,
+    "archive_sha256": "9169590117f675a65ef361414d9bc88170921ddf8de4d3be2691813a4e1e4b63",
+    "members": 14
+  },
+  "created_utc": "2026-09-14T06:34:30.765829+00:00",
+  "download_saved": true,
+  "evidence": [
+    {
+      "bytes": 14822,
+      "path": "reports/P3_CONTINUITY_RECOVERY_048.md",
+      "sha256": "9187965074a8dcb5f79992c9397f414f0fa6fb8cb4eb610a5fa3214d9018ed8b"
+    },
+    {
+      "bytes": 7122,
+      "path": "evidence/P3_ACCOUNTING_CONFORMANCE_ATTEMPT01_048.json",
+      "sha256": "97b51f235302420e4c1ec9b779482297f63812107e9274857d0287cdc1999ea2"
+    },
+    {
+      "bytes": 2070,
+      "path": "evidence/P3_HANDOFF_CONFORMANCE_ATTEMPT01_048.json",
+      "sha256": "92caaa2952fad58e8809dcc8f84e7f4408d926761af664036f2394427567a041"
+    },
+    {
+      "bytes": 7479,
+      "path": "evidence/P3_COMPLETE_PACKAGE_VALIDATION_048.json",
+      "sha256": "0d19cca826f8d1f0086a3217660e5abb589d48e456ecfbb18e2e1e17a91e7d60"
+    },
+    {
+      "bytes": 7487,
+      "path": "evidence/P3_PUBLISHED_PACKAGE_VALIDATION_048.json",
+      "sha256": "5a2fcbc21340c497a4b32b8752a3c5ada2889686c56873ce76f83ee10b855b40"
+    },
+    {
+      "bytes": 2349,
+      "path": "evidence/P3_TERMINAL_BOUND_PROJECTION_048.json",
+      "sha256": "2592f2a6723e58ad1a669f2324228d45e2ebca5a38077d64c363e494c065ea26"
+    },
+    {
+      "bytes": 2796,
+      "path": "configs/P3_ACCOUNTING_UNIT_STATUS_048.json",
+      "sha256": "44c4b81516fc590c5e7329bcde65da95bc1e1249eb2f799fae57bdaa07d1af06"
+    },
+    {
+      "bytes": 1163,
+      "path": "evidence/P3_SOURCE_PUBLICATION_BRIDGE_048.json",
+      "sha256": "f900f48a9b20889f380d7db9ddaf2e115b3795d3e74721022b5256c0df6e285d"
+    }
+  ],
+  "expected_return_paths": [
+    "artifacts/CHECKPOINT_048_CONFORMANCE/dc62f9be15b61145580859225055ef90f52abc1e/REPORT.json",
+    "artifacts/CHECKPOINT_048_CONFORMANCE/dc62f9be15b61145580859225055ef90f52abc1e/RECEIPT.json"
+  ],
+  "filename": "ARC_Independent_Lab_048_HOME.zip",
+  "full_correction_complete": false,
+  "hosted_actual_unit_invocations": 3,
+  "kind": "P3_CHECKPOINT_048_VERIFIED_UNIT_v1",
+  "parent_commit": "f25777a324ac49b9828b4fdf155749c7d1b80626",
+  "source_commit": "dc62f9be15b61145580859225055ef90f52abc1e",
+  "synthetic_handoff_tests": 9,
+  "target_admitted": false,
+  "unit_test_count": 20
+}

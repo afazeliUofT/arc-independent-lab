@@ -1,0 +1,76 @@
+{
+  "B_comp": null,
+  "B_mem": null,
+  "actual_scientific_adapters_integrated": false,
+  "changed_path_physical_eligibility_established": false,
+  "first_unit_implemented": [
+    "finite_global_ledger",
+    "closed_schema_pre_expansion_codec",
+    "terminal_multiplicity_reference"
+  ],
+  "full046_archive_projection_completed": false,
+  "historical047_source_identities_preserved": true,
+  "kind": "P3_ACCOUNTING_UNIT_STATUS_048_v1",
+  "required_operation_and_owner_coverage": [
+    {
+      "complete": false,
+      "id": "codec",
+      "reason": "Actual scientific path not integrated with the new kernel; owner/schema/work/refusal proof still required."
+    },
+    {
+      "complete": false,
+      "id": "n1_live_state",
+      "reason": "Actual scientific path not integrated with the new kernel; owner/schema/work/refusal proof still required."
+    },
+    {
+      "complete": false,
+      "id": "snapshot",
+      "reason": "Actual scientific path not integrated with the new kernel; owner/schema/work/refusal proof still required."
+    },
+    {
+      "complete": false,
+      "id": "n3_scheduler",
+      "reason": "Actual scientific path not integrated with the new kernel; owner/schema/work/refusal proof still required."
+    },
+    {
+      "complete": false,
+      "id": "acquisition",
+      "reason": "Actual scientific path not integrated with the new kernel; owner/schema/work/refusal proof still required."
+    },
+    {
+      "complete": false,
+      "id": "reader_fit",
+      "reason": "Actual scientific path not integrated with the new kernel; owner/schema/work/refusal proof still required."
+    },
+    {
+      "complete": false,
+      "id": "replay",
+      "reason": "Actual scientific path not integrated with the new kernel; owner/schema/work/refusal proof still required."
+    },
+    {
+      "complete": false,
+      "id": "diagnostics",
+      "reason": "Actual scientific path not integrated with the new kernel; owner/schema/work/refusal proof still required."
+    },
+    {
+      "complete": false,
+      "id": "serialization",
+      "reason": "Actual scientific path not integrated with the new kernel; owner/schema/work/refusal proof still required."
+    },
+    {
+      "complete": false,
+      "id": "evaluator_and_verifier",
+      "reason": "Actual scientific path not integrated with the new kernel; owner/schema/work/refusal proof still required."
+    },
+    {
+      "complete": false,
+      "id": "terminal_ledger",
+      "reason": "Actual scientific path not integrated with the new kernel; owner/schema/work/refusal proof still required."
+    }
+  ],
+  "restricted_independent_review_completed": false,
+  "source_commit": "dc62f9be15b61145580859225055ef90f52abc1e",
+  "target_admitted": false,
+  "unit_conformance_passed": true,
+  "whole_correction_complete": false
+}

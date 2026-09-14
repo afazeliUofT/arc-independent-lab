@@ -1,0 +1,12 @@
+{
+  "identical_tree_sha": "959fac33b21647b3f5da769756853ed18a7cd199",
+  "kind": "P3_SOURCE_PUBLICATION_BRIDGE_048_v1",
+  "local_commit_object_utf8": "tree 959fac33b21647b3f5da769756853ed18a7cd199\nparent f25777a324ac49b9828b4fdf155749c7d1b80626\nauthor Codex <codex@openai.com> 1789367071 +0300\ncommitter Codex <codex@openai.com> 1789367071 +0300\n\nP3 accounting048: freeze first ledger codec and structural correction unit for conformance\n",
+  "local_source_commit": "a4227a01cef4e671d8bb32e89efee58bc879a889",
+  "original_local_archive_sha256": "dfb37f8451512859dc6ebf9847c1b39208d161d1bccfa5af09d314dec97c9bea",
+  "published_archive_sha256": "9169590117f675a65ef361414d9bc88170921ddf8de4d3be2691813a4e1e4b63",
+  "published_source_commit": "dc62f9be15b61145580859225055ef90f52abc1e",
+  "scope": "Connected GitHub created the identical verified source tree with its own commit metadata; initial local commit object retained here for exact reproducibility.",
+  "source_paths_byte_identical": true,
+  "transport_note": "Native git push --dry-run could not obtain a password. Connected GitHub publication succeeded without requesting or exposing credentials."
+}

@@ -1,6 +1,14 @@
 # ARC Independent Lab
 
-## Current checkpoint — 047
+## Current checkpoint — 048
+
+The first accounting correction unit is implemented and verified. Read `reports/P3_ACCOUNTING_UNIT_048.md` for exact evidence and remaining work, and `reports/P3_CONTINUITY_RECOVERY_048.md` for recovered project history and the unavailable-chat limitation.
+
+The new finite ledger, pre-expansion codec and static terminal bounds are prerequisites. Actual learner/diagnostic/evaluator adapters are not integrated; the full047 correction, scientific budgets and target admission remain incomplete. The048 Downloads package runs only the frozen accounting unit suites and pushes their report/receipt. It does not rerun046 or start a model or target comparison.
+
+`state/PROJECT_STATE.json` names the next implementation step. The048 receipt is useful platform evidence, not a reason to wait before continuing the correction. Earlier checkpoint sections below are historical.
+
+## Historical checkpoint — 047
 
 Development046 is complete and accepted as a fabricated physical resource profile. Start with `reports/P3_RETURN_046_AND_RESOURCE_DECISION_047.md` for the verified measurements, conditional CPU compute route and remaining admission requirements. `docs/P3_ACCOUNTING_CORRECTION_PLAN_047.md` and `configs/P3_ACCOUNTING_COMPLETION_REQUIREMENTS_047.json` specify the finite accounting correction that must be implemented and validated next.
 
